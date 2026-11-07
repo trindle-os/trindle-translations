@@ -1,0 +1,19 @@
+# machine translated (Brazilian Portuguese), not yet reviewed by a person.
+title = As perguntas do instalador
+desc = Quatro perguntas em ordem: idioma, o disco, criptografia e você. Depois uma última página chamada Pronto, que repete o plano inteiro. Nada é gravado até você pressionar Instalar.
+label-01 = 1
+label-02 = Idioma
+label-03 = O teclado e a hora acompanham
+label-04 = 2
+label-05 = O disco
+label-06 = Disco inteiro, ou dividido
+label-07 = 3
+label-08 = Criptografia
+label-09 = Senha, chip TPM ou nenhuma
+label-10 = 4
+label-11 = Você
+label-12 = Seu nome, login e senha
+label-13 = 5
+label-14 = Pronto
+label-15 = O plano inteiro, em frases
+label-16 = Nada é gravado até você pressionar Instalar.

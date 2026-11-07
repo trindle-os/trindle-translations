@@ -1,0 +1,19 @@
+# machine translated (Swahili), not yet reviewed by a person.
+title = Maswali ambayo kisakinishi huuliza
+desc = Maswali manne kwa mpangilio: lugha, diski, usimbaji fiche na wewe. Kisha ukurasa wa mwisho unaoitwa Tayari unaokuambia mpango mzima. Hakuna kinachoandikwa hadi ubonyeze Sakinisha.
+label-01 = 1
+label-02 = Lugha
+label-03 = Kibodi na saa hufuata
+label-04 = 2
+label-05 = Diski
+label-06 = Diski nzima, au shiriki
+label-07 = 3
+label-08 = Usimbaji fiche
+label-09 = Nenosiri, chipu ya TPM, au hakuna
+label-10 = 4
+label-11 = Wewe
+label-12 = Jina, jina la kuingia, nenosiri
+label-13 = 5
+label-14 = Tayari
+label-15 = Mpango mzima, kwa sentensi
+label-16 = Hakuna kinachoandikwa hadi ubonyeze Sakinisha.

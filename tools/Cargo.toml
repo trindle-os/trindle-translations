@@ -1,0 +1,36 @@
+[package]
+name = "trindle-translations-tools"
+version = "0.1.0"
+edition = "2021"
+publish = false
+license = "GPL-3.0-or-later"
+description = "Tools that keep Trindle's translation files in step with the English words"
+authors = ["Trindle <translations@trindle.org>"]
+
+[[bin]]
+name = "variants"
+path = "src/bin/variants.rs"
+
+[[bin]]
+name = "sync"
+path = "src/bin/sync.rs"
+
+[[bin]]
+name = "check-parity"
+path = "src/bin/check_parity.rs"
+
+[[bin]]
+name = "sheet"
+path = "src/bin/sheet.rs"
+
+[[bin]]
+name = "import"
+path = "src/bin/import.rs"
+
+[[bin]]
+name = "docs-parity"
+path = "src/bin/docs_parity.rs"
+
+[[bin]]
+name = "docs-sync"
+path = "src/bin/docs_sync.rs"

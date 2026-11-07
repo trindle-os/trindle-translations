@@ -1,0 +1,162 @@
+# machine translated (Swahili), not yet reviewed by a person.
+
+# Red words under the file lines when a network (NFS) server does not let this computer open an exported folder; the server, then the folder.
+folders-shares-nfs-denied = { $server } hairuhusu kompyuta hii kufungua { $export }.
+
+# Red words under the file lines when a network (NFS) server has no exported folder of that name; the server, then the folder.
+folders-shares-nfs-no-share = { $server } haishiriki kitu kinachoitwa { $export }.
+
+# Line in Folders' settings list of kept logins: the kept login has run out and is asked for again.
+folders-shares-left-none = Itaomba tena wakati wa kufungua mara ijayo
+
+# Line in Folders' settings list of kept logins: less than a day of the 90 is left.
+folders-shares-left-under-day = Imebaki chini ya siku moja
+
+# Line in Folders' settings list of kept logins: how many days of the 90 are left.
+folders-shares-left-days =
+    { $n ->
+        [one] Imebaki siku { $n }
+       *[other] Zimebaki siku { $n }
+    }
+
+# Words on the sign-in card when a kept login was held back because the computer answers at an address the login was not used at before. past says whether it was used at other addresses (yes or no), before lists them, full says whether the list of remembered addresses is full (yes or no), most is how many it holds.
+# SAFETY: needs a human review before it ships
+folders-shares-held =
+    { $past ->
+        [yes] { $server } sasa inajibu kwenye { $now }, anwani tofauti na ile ambayo kuingia kwako kwake kulitumika hapo awali ({ $before }).
+       *[no] { $server } inajibu kwenye { $now }, anwani ambayo kuingia kwako kwake hakujawahi kutumika hapo awali.
+    }{ $full ->
+        [yes] {" "}Anwani { $most } za mwisho tu zilizotumika ndizo zinazokumbukwa.
+       *[no] {""}
+    } Kifaa chochote kwenye mtandao kinaweza kujibu kwa jina, kwa hiyo kuingia kulikohifadhiwa kwake hakujatumwa. Ikiwa hii ni { $server } yako, andika jina la mtumiaji na nenosiri ili kuitumia hapa.
+
+# Words on the sign-in card when no address could be found for the computer to show.
+# SAFETY: needs a human review before it ships
+folders-shares-nowhere = Anwani ambayo { $server } inajibu kwenye haikuweza kupatikana mapema, kwa hiyo hakuna kilichotumwa kwake na kile kinachoandikwa hapa hakina mahali salama pa kwenda. Ifungue kwa anwani yake badala yake, kama smb://192.168.1.20/.
+
+# Words on the sign-in card when the kept login was last used at this address more than the kept number of days ago.
+# SAFETY: needs a human review before it ships
+folders-shares-lapsed = { $server } inajibu kwenye { $now }, ambapo kuingia kwako kwake kulitumika mara ya mwisho zaidi ya siku { $days } zilizopita. Kifaa kingine huenda kimepewa anwani hiyo tangu hapo, kwa hiyo kuingia kulikohifadhiwa kwake hakujatumwa. Ikiwa hii ni { $server } yako, andika jina la mtumiaji na nenosiri ili kuitumia hapa.
+
+# Words on the sign-in card when a login was used at this address before but when, or which login, was not written down.
+# SAFETY: needs a human review before it ships
+folders-shares-unknown = { $server } inajibu kwenye { $now }, ambapo kuingia kwake kulitumika hapo awali, lakini lini, au ni kuingia kupi, hakukuandikwa. Kifaa kingine huenda kimepewa anwani hiyo tangu hapo, kwa hiyo kuingia kulikohifadhiwa kwake hakujatumwa. Ikiwa hii ni { $server } yako, andika jina la mtumiaji na nenosiri ili kuitumia hapa.
+
+# Words on the sign-in card when the login went to this address earlier but the address was only heard on the network this time.
+# SAFETY: needs a human review before it ships
+folders-shares-unshown = { $server } inajibu kwenye { $now }, anwani ambayo kuingia kwako kwake kulitumwa hapo awali. Mara hii anwani hiyo ilisikika tu kwenye mtandao, ambapo kifaa chochote kinaweza kujibu kwa jina, na haijaonyeshwa kwako hapa hapo awali, kwa hiyo kuingia hakujatumwa. Ikiwa hii ni { $server } yako, andika jina la mtumiaji na nenosiri ili kuitumia hapa.
+
+# Words on the sign-in card when it simply asks for a user name and password. heard says whether the address was only heard on the network (yes or no); at is that address.
+# SAFETY: needs a human review before it ships
+folders-shares-asking =
+    { $server } inahitaji jina la mtumiaji na nenosiri. Ni vile vya akaunti kwenye kompyuta hiyo.{ $heard ->
+        [yes] {" "}Inajibu kwenye { $at }. Kifaa chochote kwenye mtandao kinaweza kujibu kwa jina, kwa hiyo hakikisha hiyo ndiyo anwani yake kabla ya kuandika.
+       *[no] {""}
+    }
+
+# Line under the boxes of the sign-in card: where what is typed goes. heard says whether the address was only heard on the network (yes or no).
+# SAFETY: needs a human review before it ships
+folders-shares-where =
+    Unachoandika kinaenda kwenye { $address }{ $heard ->
+        [yes] {" "}na hakuna mahali pengine. Kukiwa na Kumbuka, kuingia kwako kunahifadhiwa kwa anwani hiyo tu.
+       *[no] {"."}
+    }
+
+# Words on the sign-in card when it comes up filled in for an address only heard on the network: the computer, its address and port.
+# SAFETY: needs a human review before it ships
+folders-shares-again = { $server } inajibu kwenye { $at }, mlango { $port }. Anwani hiyo ilisikika tu kwenye mtandao, ambapo kifaa chochote kinaweza kujibu kwa jina, kwa hiyo kuingia kwako kwake hakujatumwa. Ikiwa hiyo ndiyo anwani yake, bonyeza Fungua.
+
+# Red words when the keyring cannot be reached; the reason follows.
+folders-shares-keyring-unreachable = Hifadhi ya funguo haikuweza kufikiwa: { $why }.
+
+# Words under the file lines when a share opened but its login could not be kept; the reason follows.
+folders-shares-unkept = Imefunguliwa, lakini kuingia hakukuhifadhiwa. { $why }
+
+# Red words under the file lines when a network (NFS) server does not offer version 4, the only version used; the server.
+folders-shares-nfs-version = { $server } haitoi NFS toleo la 4, ambalo ndilo pekee Trindle inalofungua.
+
+# Red words when a network (NFS) folder was opened but where it is could not be found.
+folders-shares-nfs-opened-unknown = Imefunguka, lakini mahali ilipo hapajulikani.
+
+# Red words when a share was opened but where it is could not be found.
+folders-shares-opened-unknown = Kishiriki kimefunguka, lakini mahali kilipo hapajulikani.
+
+# Red words when the address to remember for a login is not an address.
+folders-shares-not-address = Hiyo si anwani.
+
+# Name of the item the keyring keeps for the addresses a computer's shares were opened at; shown in the keyring's own list.
+folders-shares-seen-label = Anwani ambazo smb://{ $server } ilifunguliwa
+
+# Name of the item the keyring keeps for a share's login; shown in the keyring's own list. The user, then the address of the computer or share.
+# SAFETY: needs a human review before it ships
+folders-shares-password-label = Nenosiri la { $user } kwenye { $what }
+
+# Name of the switch on the sign-in card that keeps the login for 90 days, and the words beside it.
+# SAFETY: needs a human review before it ships
+folders-shares-remember = Kumbuka kwa siku 90
+
+# Line under the Remember switch on the sign-in card: the 90 days start again each use.
+folders-shares-remember-line = Huanza tena kila unapoitumia.
+
+# Names a share and the computer it is on, in the title of the sign-in card and in a note.
+folders-shares-share-on = { $share } kwenye { $server }
+
+# Title of the sign-in card: the computer, or the share on a computer.
+folders-shares-card-title = Fungua { $it }
+
+# Tip and name of the round button that closes the sign-in card.
+folders-shares-close = Funga
+
+# Hint in the empty user name box of the sign-in card.
+folders-shares-user-placeholder = Jina la mtumiaji, kama jo, au WORKGROUP\jo
+
+# Hint in the empty password box of the sign-in card.
+# SAFETY: needs a human review before it ships
+folders-shares-password = Nenosiri
+
+# Label of the switch on the sign-in card that forgets the addresses a login was used at before.
+# SAFETY: needs a human review before it ships
+folders-shares-forget = Sahau anwani za awali
+
+# Name a screen reader gives the switch that forgets the earlier addresses of a login.
+# SAFETY: needs a human review before it ships
+folders-shares-forget-spoken = Sahau anwani ambazo kuingia huku kulitumika hapo awali
+
+# Words beside the turning ring on the sign-in card while the share is being opened.
+folders-shares-opening = Inafungua
+
+# Name of the main button of the sign-in card.
+folders-shares-open = Fungua
+
+# Red words under the file lines when an address does not name a computer.
+folders-shares-bad-computer = Hilo si jina la kompyuta.
+
+# Red words under the file lines when an address does not name a shared folder.
+folders-shares-bad-path = Hiyo si njia ya folda iliyoshirikiwa.
+
+# Words under the file lines while a network folder is being opened: the folder, then the computer.
+folders-shares-opening-export = Inafungua { $export } kwenye { $host }…
+
+# Words under the file lines while a share is being opened: the share, then the computer.
+folders-shares-opening-share = Inafungua { $share } kwenye { $server }…
+
+# Words under the file lines when another opening is tried while the sign-in card waits for an answer; the computer.
+folders-shares-answer-card = Jibu kadi ya { $it } kwanza.
+
+# Words under the file lines when a share is open and the keyring has not yet said whether the login was kept; what the keyring said follows.
+folders-shares-open-waiting = Imefunguliwa. { $words }
+
+# Words under the file lines when a computer shows no shared folders to the person.
+folders-shares-none = { $server } haishiriki folda zozote nawe.
+
+# Words under the file lines while a share is being closed (unmounted); its name.
+folders-shares-closing = Inafunga { $name }…
+
+# Red words under the file lines when a share could not be closed (unmounted); its name, then the reason.
+folders-shares-close-failed = { $name } haikuweza kufungwa: { $why }.
+
+# Words under the file lines while a remembered network share is being mounted again; its name.
+folders-shares-reconnecting = Inaunganisha tena { $name }…
+
+# Red words under the file lines when the list of remembered shares could not be written.
+folders-shares-not-remembered = Hazikuweza kukumbukwa kwa mara ijayo.

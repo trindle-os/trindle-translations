@@ -1,0 +1,4 @@
+# machine translated (Hindi), not yet reviewed by a person.
+
+# Title of the Folders window, shown in the window's title bar and in lists of open windows.
+folders-mod-window-title = फ़ोल्डर

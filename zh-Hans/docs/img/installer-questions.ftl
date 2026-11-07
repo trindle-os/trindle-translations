@@ -1,0 +1,19 @@
+# machine translated (Simplified Chinese), not yet reviewed by a person.
+title = 安装程序会问的问题
+desc = 依次是四个问题：语言、磁盘、加密和你。然后是最后一页“准备就绪”，把整个方案复述给你。在你点击“安装”之前不会写入任何东西。
+label-01 = 1
+label-02 = 语言
+label-03 = 键盘和时间跟随它
+label-04 = 2
+label-05 = 磁盘
+label-06 = 整块磁盘，或共用
+label-07 = 3
+label-08 = 加密
+label-09 = 密码、TPM 芯片，或不加密
+label-10 = 4
+label-11 = 你
+label-12 = 姓名、登录名、密码
+label-13 = 5
+label-14 = 准备就绪
+label-15 = 整个方案，用句子说明
+label-16 = 点击“安装”之前不会写入任何东西。

@@ -1,0 +1,19 @@
+# machine translated (Indonesian), not yet reviewed by a person.
+title = Pertanyaan yang diajukan pemasang
+desc = Empat pertanyaan berurutan: bahasa, disk, enkripsi, dan Anda. Lalu halaman terakhir bernama Siap yang mengulang seluruh rencana. Tidak ada yang ditulis sampai Anda menekan Pasang.
+label-01 = 1
+label-02 = Bahasa
+label-03 = Papan ketik dan waktu mengikutinya
+label-04 = 2
+label-05 = Disk
+label-06 = Seluruh disk, atau dibagi
+label-07 = 3
+label-08 = Enkripsi
+label-09 = Kata sandi, chip TPM, atau tanpa
+label-10 = 4
+label-11 = Anda
+label-12 = Nama, nama masuk, kata sandi
+label-13 = 5
+label-14 = Siap
+label-15 = Seluruh rencana, dalam kalimat
+label-16 = Tidak ada yang ditulis sampai Anda menekan Pasang.

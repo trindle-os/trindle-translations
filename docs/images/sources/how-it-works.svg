@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360">
+<rect width="1280" height="360" fill="#1d2127"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c9ced6"/></marker></defs>
+<g font-family="Trindle Sans, sans-serif" fill="#f5f6f8" text-anchor="middle">
+<rect x="60" y="70" width="320" height="220" rx="16" fill="#2e353f"/><text x="220" y="130" font-size="26" font-weight="700">1. English changes</text><text x="220" y="180" font-size="21" fill="#c9ced6">A Trindle program gets</text><text x="220" y="210" font-size="21" fill="#c9ced6">a new word in its own</text><text x="220" y="240" font-size="21" fill="#c9ced6">share/lang/en folder.</text>
+<rect x="480" y="70" width="320" height="220" rx="16" fill="#2e353f"/><text x="640" y="130" font-size="26" font-weight="700">2. sync copies it in</text><text x="640" y="180" font-size="21" fill="#c9ced6">Each language gets the new</text><text x="640" y="210" font-size="21" fill="#c9ced6">line, marked NEEDS</text><text x="640" y="240" font-size="21" fill="#c9ced6">TRANSLATION.</text>
+<rect x="900" y="70" width="320" height="220" rx="16" fill="#2e353f"/><text x="1060" y="130" font-size="26" font-weight="700">3. check-parity checks</text><text x="1060" y="180" font-size="21" fill="#c9ced6">After translating, it fails</text><text x="1060" y="210" font-size="21" fill="#c9ced6">on missing words or</text><text x="1060" y="240" font-size="21" fill="#c9ced6">broken placeholders.</text>
+</g>
+<path d="M386 180 H474" stroke="#c9ced6" stroke-width="4" marker-end="url(#a)"/>
+<path d="M806 180 H894" stroke="#c9ced6" stroke-width="4" marker-end="url(#a)"/>
+</svg>

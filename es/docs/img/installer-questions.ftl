@@ -1,0 +1,19 @@
+# machine translated (Spanish), not yet reviewed by a person.
+title = Las preguntas que hace el instalador
+desc = Cuatro preguntas en orden: idioma, el disco, cifrado y tú. Luego una última página llamada Listo que te repite todo el plan. No se escribe nada hasta que pulsas Instalar.
+label-01 = 1
+label-02 = Idioma
+label-03 = El teclado y la hora lo siguen
+label-04 = 2
+label-05 = El disco
+label-06 = Disco entero, o compartirlo
+label-07 = 3
+label-08 = Cifrado
+label-09 = Contraseña, chip TPM o nada
+label-10 = 4
+label-11 = Tú
+label-12 = Tu nombre, usuario, contraseña
+label-13 = 5
+label-14 = Listo
+label-15 = Todo el plan, en frases
+label-16 = No se escribe nada hasta que pulsas Instalar.

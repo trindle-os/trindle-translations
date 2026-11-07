@@ -1,0 +1,5 @@
+# Oxford comma proposals that are not lists (checked 19 Oct 2026)
+en-GB-oxendict installer-user-letters # "-" and "_" are two separate items, kept as written
+en-GB-oxendict installer-tour-apps-many # "from Flathub and Debian" is one phrase
+en-GB-oxendict installer-live-speak-add # two actions, not a list
+en-GB-oxendict settings-help-topics-look-p4  # the Oxford comma guess misreads this sentence

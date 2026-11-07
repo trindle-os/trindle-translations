@@ -1,0 +1,19 @@
+# machine translated (Vietnamese), not yet reviewed by a person.
+title = Các câu hỏi của trình cài đặt
+desc = Bốn câu hỏi theo thứ tự: ngôn ngữ, ổ đĩa, mã hóa và bạn. Rồi một trang cuối tên Sẵn sàng nhắc lại toàn bộ kế hoạch. Không có gì được ghi cho đến khi bạn bấm Cài đặt.
+label-01 = 1
+label-02 = Ngôn ngữ
+label-03 = Bàn phím và giờ theo đó
+label-04 = 2
+label-05 = Ổ đĩa
+label-06 = Cả đĩa, hoặc chia sẻ
+label-07 = 3
+label-08 = Mã hóa
+label-09 = Mật khẩu, chip TPM, hoặc không
+label-10 = 4
+label-11 = Bạn
+label-12 = Tên, tên đăng nhập, mật khẩu
+label-13 = 5
+label-14 = Sẵn sàng
+label-15 = Toàn bộ kế hoạch, bằng câu chữ
+label-16 = Không ghi gì cho đến khi bạn bấm Cài đặt.

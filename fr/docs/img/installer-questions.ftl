@@ -1,0 +1,19 @@
+# machine translated (French), not yet reviewed by a person.
+title = Les questions de l'installateur
+desc = Quatre questions dans l'ordre : la langue, le disque, le chiffrement et vous. Puis une dernière page appelée Prêt qui vous redit tout le plan. Rien n'est écrit tant que vous n'appuyez pas sur Installer.
+label-01 = 1
+label-02 = Langue
+label-03 = Le clavier et l'heure la suivent
+label-04 = 2
+label-05 = Le disque
+label-06 = Disque entier, ou partagé
+label-07 = 3
+label-08 = Chiffrement
+label-09 = Mot de passe, puce TPM, ou rien
+label-10 = 4
+label-11 = Vous
+label-12 = Nom, identifiant, mot de passe
+label-13 = 5
+label-14 = Prêt
+label-15 = Tout le plan, en phrases
+label-16 = Rien n'est écrit tant que vous n'appuyez pas sur Installer.

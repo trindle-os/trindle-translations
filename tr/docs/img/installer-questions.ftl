@@ -1,0 +1,19 @@
+# machine translated (Turkish), not yet reviewed by a person.
+title = Kurucunun sorduğu sorular
+desc = Sırayla dört soru: dil, disk, şifreleme ve siz. Sonra planın tamamını size geri okuyan Hazır adlı son bir sayfa. Kur düğmesine basana kadar hiçbir şey yazılmaz.
+label-01 = 1
+label-02 = Dil
+label-03 = Klavye ve saat buna uyar
+label-04 = 2
+label-05 = Disk
+label-06 = Tüm disk ya da paylaşım
+label-07 = 3
+label-08 = Şifreleme
+label-09 = Parola, TPM çipi ya da yok
+label-10 = 4
+label-11 = Siz
+label-12 = Adınız, oturum adı, parola
+label-13 = 5
+label-14 = Hazır
+label-15 = Planın tamamı, cümlelerle
+label-16 = Kur düğmesine basana kadar hiçbir şey yazılmaz.

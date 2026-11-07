@@ -1,0 +1,19 @@
+# machine translated (German), not yet reviewed by a person.
+title = Die Fragen des Installationsprogramms
+desc = Vier Fragen der Reihe nach: Sprache, die Festplatte, Verschlüsselung und du. Dann eine letzte Seite namens Bereit, die dir den ganzen Plan noch einmal sagt. Nichts wird geschrieben, bis du auf Installieren drückst.
+label-01 = 1
+label-02 = Sprache
+label-03 = Tastatur und Uhrzeit folgen ihr
+label-04 = 2
+label-05 = Die Festplatte
+label-06 = Ganz oder teilen
+label-07 = 3
+label-08 = Verschlüsselung
+label-09 = Passwort, TPM-Chip oder keine
+label-10 = 4
+label-11 = Du
+label-12 = Name, Anmeldename, Passwort
+label-13 = 5
+label-14 = Bereit
+label-15 = Der ganze Plan, in Sätzen
+label-16 = Nichts wird geschrieben, bis du auf Installieren drückst.

@@ -1,0 +1,52 @@
+# machine translated (Hindi), not yet reviewed by a person.
+
+# Name of a phone in the sidebar when it did not tell its maker or model.
+folders-remote-mtp-phone = फ़ोन
+
+# Red words when the phone sent something Folders could not read.
+folders-remote-mtp-nonsense = फ़ोन ने ऐसा कुछ भेजा जिसका कोई अर्थ नहीं निकलता।
+
+# Red words when the phone has no room left.
+folders-remote-mtp-full = फ़ोन भरा हुआ है।
+
+# Name of what is in use by another program when the phone is already open elsewhere ("The phone is in use by another program.").
+folders-remote-mtp-the-phone = फ़ोन
+
+# The thing asked of a phone that it cannot do, at the start of "... is not supported yet."
+folders-remote-mtp-that-here = यह, इस फ़ोन पर,
+
+# Red words when the phone refused something for a reason Folders has no words for; the variable is the phone's answer code in hexadecimal.
+folders-remote-mtp-refused = फ़ोन ने मना कर दिया (कोड { $code })।
+
+# Reason in red words ("Could not reach it: ...") when the phone is no longer plugged in.
+folders-remote-mtp-not-plugged = वह फ़ोन लगा हुआ नहीं है
+
+# Name of the thing that failed, in red words such as "Permission was refused for ...": the phone.
+folders-remote-mtp-what-phone = फ़ोन
+
+# Name of the thing that failed, in red words such as "Permission was refused for ...": the phone's storage.
+folders-remote-mtp-what-storage = फ़ोन का स्टोरेज
+
+# Red words when a file from the phone was shorter than the phone said.
+folders-remote-mtp-shorter = फ़ाइल उतनी छोटी निकली जितनी बताई गई थी उससे कम।
+
+# Red words when something is put on a phone outside its storages.
+folders-remote-mtp-only-storage = फ़ाइलें और फ़ोल्डर केवल फ़ोन के किसी स्टोरेज के अंदर ही जा सकते हैं।
+
+# Red words when a name on the phone was used as a folder but is not one; the variable is the name.
+folders-remote-mtp-not-folder = { $name } फ़ोल्डर नहीं है।
+
+# Red words when a name on the phone was used as a file but is a folder; the variable is the name.
+folders-remote-mtp-is-folder = { $name } फ़ोल्डर है।
+
+# Red words when a folder on the phone to be removed still holds something; the variable is its name.
+folders-remote-mtp-not-empty = { $name } खाली नहीं है।
+
+# The thing that cannot be done, in "... is not supported yet.": removing a whole storage of a phone.
+folders-remote-mtp-remove-storage = पूरा स्टोरेज हटाना
+
+# The thing that cannot be done, in "... is not supported yet.": renaming a storage of a phone.
+folders-remote-mtp-rename-storage = स्टोरेज का नाम बदलना
+
+# Words shown when the phone is plugged in but shows no storage.
+folders-remote-mtp-no-storage = फ़ोन कोई स्टोरेज नहीं दिखा रहा। उसे अनलॉक करें और फ़ाइल ट्रांसफ़र चुनें, फिर कोशिश करें।
