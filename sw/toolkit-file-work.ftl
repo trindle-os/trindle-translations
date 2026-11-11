@@ -110,3 +110,7 @@ kit-trash-too-many-names = Tupio lina vipengee vingi mno vyenye jina hili
 # Note shown when the other computer or a network place does not answer.
 kit-reach-not-answering = Kompyuta nyingine haijibu.
 
+
+
+kit-work-drive-no-safe-restore = hifadhi hii haiwezi kurejesha kwa usalama; badala yake nakili faili kutoka Tupio
+

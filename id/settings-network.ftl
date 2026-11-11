@@ -306,7 +306,7 @@ settings-network-disconnect-failed = Jaringan tidak mau terputus.
 settings-network-ports = Port terbuka
 
 # Help text (i button) of the Open ports card.
-settings-network-ports-about = Setiap port tertutup kecuali komputer ini memintanya lebih dulu, jadi program yang menunggu sambungan dari orang lain, seperti server game atau alat sinkronisasi, tidak dapat dijangkau sampai port-nya dibuka di sini. Port yang dibuka di sini hanya mengizinkan komputer di jaringan rumah Anda, tidak pernah internet yang lebih luas. Membuka atau menutupnya meminta kata sandi administrator.
+settings-network-ports-about = Setiap port tertutup kecuali komputer ini memintanya lebih dulu, jadi program yang menunggu sambungan dari orang lain, seperti server game atau alat sinkronisasi, tidak dapat dijangkau sampai port-nya dibuka di sini. Port yang dibuka di sini mengizinkan komputer mana pun di jaringan lokal tempat komputer ini berada, tidak pernah internet yang lebih luas. Di jaringan kafe, hotel, atau kantor, itu berarti semua orang di sana juga. Membuka atau menutupnya meminta kata sandi administrator.
 
 # Line in the Open ports card when no port is open.
 settings-network-ports-none = Tidak ada port yang dibuka
@@ -315,7 +315,7 @@ settings-network-ports-none = Tidak ada port yang dibuka
 settings-network-ports-none-sub = Setiap port tertutup bagi komputer lain.
 
 # Small line under an open port, such as TCP 37666.
-settings-network-port-sub = Terbuka untuk jaringan rumah Anda.
+settings-network-port-sub = Terbuka untuk jaringan lokal ini.
 
 # Tooltip of the button that closes an open port. { $port } is like TCP 37666.
 settings-network-port-close = Tutup { $port }

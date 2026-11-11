@@ -180,7 +180,7 @@ settings-help-topics-notifications-p4 = Berapa lama masing-masing bertahan Anda 
 settings-help-topics-notifications-p5 = Untuk mematikan notifikasi, buka daftar dari lingkaran Notifikasi dan tekan lonceng di bawahnya. Lonceng dicoret selama notifikasi mati, jadi Anda bisa melihatnya sekilas. Notifikasi berhenti muncul, tetapi tetap dikumpulkan di daftar, jadi tidak ada yang terlewat karena dimatikan selama satu jam. Tekan lagi untuk menyalakannya kembali.
 
 # Help topic "Notifications: what programs tell you": tip 6, shown in a box of its own.
-settings-help-topics-notifications-tip6 = Tanda silang pada notifikasi hanya menyimpannya. Notifikasi masih ada di daftar. Tanda centang hijau setelah tangkapan layar disimpan muncul di tempat yang sama.
+settings-help-topics-notifications-tip6 = Tanda silang pada notifikasi hanya menyimpannya. Notifikasi masih ada di daftar.
 
 # Title of the Help topic "Getting new apps".
 settings-help-topics-apps-title = Mendapatkan aplikasi baru
@@ -516,7 +516,7 @@ settings-help-topics-screenshots-step2-2 = Untuk satu bagian, tekan kotak bertit
 settings-help-topics-screenshots-step2-3 = Berubah pikiran? Tekan tanda silang, atau Esc.
 
 # Help topic "Taking a picture of the screen": paragraph 3.
-settings-help-topics-screenshots-p3 = Gambar disimpan di Gambar, dalam folder bernama Screenshots, diberi nama menurut tanggal dan waktu. Gambar juga disalin, sehingga Anda dapat menempelkannya langsung ke surel atau dokumen, dan tanda centang hijau tampil sejenak di tepi layar, tempat notifikasi muncul.
+settings-help-topics-screenshots-p3 = Gambar disimpan di Gambar, dalam folder bernama Screenshots, diberi nama menurut tanggal dan waktu. Gambar juga disalin, sehingga Anda dapat menempelkannya langsung ke surel atau dokumen. Tidak ada yang tampil saat berhasil; hanya masalah yang disampaikan.
 
 # Help topic "Taking a picture of the screen": tip 4, shown in a box of its own.
 settings-help-topics-screenshots-tip4 = Shift dan Print mengambil seluruh layar sekaligus, tanpa bertanya.
@@ -718,7 +718,7 @@ settings-help-topics-files-p5 = Klik kanan di Folders untuk lebih banyak: Ekstra
 
 # Help topic "Folders, USB sticks and phones": paragraph 6.
 # SAFETY: needs a human review before it ships
-settings-help-topics-files-p6 = Tekan bilah spasi pada berkas untuk melihatnya tanpa membukanya, dan lagi untuk menutupnya. F4 membuka terminal di folder tempat Anda berada. Klik kanan folder atau berkas dan pilih Sematkan ke cincin untuk menyimpannya di sekeliling tengah cincin bersama aplikasi favorit Anda, tempat satu klik membukanya; klik kanan di sana untuk melepas sematan. Klik kanan gambar untuk mengubah ukuran atau memutarnya. Properti berkas dapat memberinya lambang kecil, dan Properti folder dapat membagikannya ke komputer lain di jaringan rumah Anda: pertama kali, Folders menyalakan Samba, yang meminta kata sandi Anda, dan berbagi bekerja setelah komputer dimulai ulang. Di tampilan daftar, klik kanan judul kolom untuk menambahkan rincian musik, foto dan PDF.
+settings-help-topics-files-p6 = Tekan bilah spasi pada berkas untuk melihatnya tanpa membukanya, dan lagi untuk menutupnya. F4 membuka terminal di folder tempat Anda berada. Klik kanan folder atau berkas dan pilih Sematkan ke cincin untuk menyimpannya di sekeliling tengah cincin bersama aplikasi favorit Anda, tempat satu klik membukanya; klik kanan di sana untuk melepas sematan. Klik kanan gambar untuk mengubah ukuran atau memutarnya. Properti berkas dapat memberinya lambang kecil, dan Properti folder dapat membagikannya ke komputer lain di jaringan lokal yang sama (di rumah, atau semua orang di jaringan kafe atau kantor yang Anda ikuti): pertama kali, Folders menyalakan Samba, yang meminta kata sandi Anda, dan berbagi bekerja setelah komputer dimulai ulang. Di tampilan daftar, klik kanan judul kolom untuk menambahkan rincian musik, foto dan PDF.
 
 # Help topic "Folders, USB sticks and phones": paragraph 7.
 settings-help-topics-files-p7 = Setiap nama pada jalur di atas punya panah kecil setelahnya: tekan untuk daftar folder di dalam folder itu, dan pilih satu untuk ke sana. Klik tengah pada folder, atau Ctrl dan klik dua kali, membukanya di tab baru di belakang tab yang sedang Anda pakai, dan klik tengah pada tab menutupnya. Seret folder di antara dua folder yang disematkan di kiri untuk menyematkannya di sana, dan seret folder yang disematkan ke atas dan bawah untuk menaruhnya dalam urutan yang Anda suka. Di bawah kotak Cari ada tiga daftar, Jenis, Ukuran dan Diubah, yang mempersempit apa yang ditampilkan begitu Anda memilih.

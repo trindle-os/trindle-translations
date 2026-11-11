@@ -177,7 +177,7 @@ settings-help-topics-notifications-p4 = Her birinin ne kadar kalacağını Ayarl
 settings-help-topics-notifications-p5 = Bildirimleri kapatmak için listeyi Bildirimler dairesinden açın ve altındaki zile basın. Kapalıyken üstü çizilir, böylece bir bakışta görürsünüz. Görünmeyi bırakırlar ama listede toplanmaya devam eder, bu yüzden bir saatliğine kapatmak hiçbir şeyi kaçırtmaz. Yeniden açmak için bir daha basın.
 
 # Help topic "Notifications: what programs tell you": tip 6, shown in a box of its own.
-settings-help-topics-notifications-tip6 = Bir bildirimdeki çarpı onu yalnızca kaldırır. Hâlâ listededir. Ekran görüntüsü kaydedildikten sonraki yeşil onay işareti aynı yerde görünür.
+settings-help-topics-notifications-tip6 = Bir bildirimdeki çarpı onu yalnızca kaldırır. Hâlâ listededir.
 
 # Title of the Help topic "Getting new apps".
 settings-help-topics-apps-title = Yeni uygulamalar edinmek
@@ -499,7 +499,7 @@ settings-help-topics-screenshots-step2-2 = Bir bölüm için noktalı kareye bas
 settings-help-topics-screenshots-step2-3 = Fikrinizi mi değiştirdiniz? Çarpıya ya da Esc'ye basın.
 
 # Help topic "Taking a picture of the screen": paragraph 3.
-settings-help-topics-screenshots-p3 = Resim, Resimler içinde Ekran görüntüleri adlı bir klasöre, tarih ve saatle adlandırılarak kaydedilir. Ayrıca kopyalanır, böylece doğrudan bir e-postaya ya da belgeye yapıştırabilirsiniz ve bildirimlerin göründüğü ekran kenarında bir an yeşil bir onay işareti belirir.
+settings-help-topics-screenshots-p3 = Resim, Resimler içinde Ekran görüntüleri adlı bir klasöre, tarih ve saatle adlandırılarak kaydedilir. Ayrıca kopyalanır, böylece doğrudan bir e-postaya ya da belgeye yapıştırabilirsiniz. Çalıştığında hiçbir şey gösterilmez; yalnızca bir sorun bildirilir.
 
 # Help topic "Taking a picture of the screen": tip 4, shown in a box of its own.
 settings-help-topics-screenshots-tip4 = Shift ve Print, sormadan tüm ekranı bir kerede çeker.
@@ -698,7 +698,7 @@ settings-help-topics-files-p4 = Bir USB bellek ya da bellek kartı taktığını
 settings-help-topics-files-p5 = Daha fazlası için Folders'ta sağ tıklayın: arşivler için Buraya çıkar ve Klasöre çıkar, .zip ya da .tar yapmak için Sıkıştır, Terminal'de aç, Yönetici olarak aç, Konumu kopyala ve bir resimde Duvar kağıdı yap. Folders arşivleri kendisi açar: bir .zip, .7z, .rar ya da .tar'a, bir disk görüntüsüne (.iso) veya hemen hemen başka her türe çift tıklayın, bir klasör gibi açılır; böylece içine bakıp yalnızca istediğinizi çıkarabilirsiniz. Parolayla kilitli bir .zip ya da .7z parolayı sorar; Folders parolayı saklamaz, bu yüzden bir sonraki sefer yeniden sorar. Parolayla kilitli bir .rar açılamaz ve Folders size bunu söyler.
 
 # Help topic "Folders, USB sticks and phones": paragraph 6.
-settings-help-topics-files-p6 = Bir dosyaya açmadan bakmak için boşluk çubuğuna basın, kapatmak için yeniden basın. F4, bulunduğunuz klasörde bir terminal açar. Bir klasöre ya da dosyaya sağ tıklayıp Halkaya sabitle'yi seçin; sık kullandığınız uygulamalarla birlikte halkanın ortasının çevresinde durur ve bir tıklamayla açılır; sabitlemeyi kaldırmak için orada sağ tıklayın. Resimlere sağ tıklayarak yeniden boyutlandırın ya da döndürün. Bir dosyanın Özellikleri ona küçük bir simge verebilir, bir klasörünki onu ev ağınızdaki diğer bilgisayarlarla paylaşabilir: ilk seferde Folders Samba'yı açar, bu parolanızı sorar ve paylaşım bilgisayar yeniden başlatılınca çalışır. Liste görünümünde sütun başlıklarına sağ tıklayarak müzik, fotoğraf ve PDF ayrıntıları ekleyin.
+settings-help-topics-files-p6 = Bir dosyaya açmadan bakmak için boşluk çubuğuna basın, kapatmak için yeniden basın. F4, bulunduğunuz klasörde bir terminal açar. Bir klasöre ya da dosyaya sağ tıklayıp Halkaya sabitle'yi seçin; sık kullandığınız uygulamalarla birlikte halkanın ortasının çevresinde durur ve bir tıklamayla açılır; sabitlemeyi kaldırmak için orada sağ tıklayın. Resimlere sağ tıklayarak yeniden boyutlandırın ya da döndürün. Bir dosyanın Özellikleri ona küçük bir simge verebilir, bir klasörünki onu aynı yerel ağdaki (evde ya da katıldığınız kafe veya ofis ağındaki herkes) diğer bilgisayarlarla paylaşabilir: ilk seferde Folders Samba'yı açar, bu parolanızı sorar ve paylaşım bilgisayar yeniden başlatılınca çalışır. Liste görünümünde sütun başlıklarına sağ tıklayarak müzik, fotoğraf ve PDF ayrıntıları ekleyin.
 
 # Help topic "Folders, USB sticks and phones": paragraph 7.
 settings-help-topics-files-p7 = Üstteki yoldaki her adın ardında küçük bir ok vardır: o klasörün içindeki klasörlerin listesi için ona basın ve oraya gitmek için birini seçin. Bir klasöre orta tık ya da Ctrl ve çift tık, onu bulunduğunuzun arkasında yeni bir sekmede açar, bir sekmeye orta tık onu kapatır. Bir klasörü solda sabitlenmiş iki klasörün arasına sürükleyerek orada sabitleyin ve sabitlenenleri beğendiğiniz sıraya koymak için yukarı aşağı sürükleyin. Bul kutusunun altında Tür, Boyut ve Değiştirilme adlı üç liste vardır; seçer seçmez gösterileni daraltırlar.

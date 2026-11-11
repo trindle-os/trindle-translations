@@ -303,7 +303,7 @@ settings-network-disconnect-failed = Ela não quis desconectar.
 settings-network-ports = Portas abertas
 
 # Help text (i button) of the Open ports card.
-settings-network-ports-about = Toda porta fica fechada, a menos que este computador tenha pedido antes, então um programa que espera conexões de outros, como um servidor de jogo ou uma ferramenta de sincronização, não pode ser alcançado até a porta dele ser aberta aqui. Uma porta aberta aqui deixa entrar só computadores da sua rede doméstica, nunca a internet toda. Abrir ou fechar uma pede a senha do administrador.
+settings-network-ports-about = Toda porta fica fechada, a menos que este computador tenha pedido antes, então um programa que espera conexões de outros, como um servidor de jogo ou uma ferramenta de sincronização, não pode ser alcançado até a porta dele ser aberta aqui. Uma porta aberta aqui deixa entrar qualquer computador da rede local em que este computador está, nunca a internet toda. Em uma rede de café, hotel ou escritório, isso inclui todos que estão lá também. Abrir ou fechar uma pede a senha do administrador.
 
 # Line in the Open ports card when no port is open.
 settings-network-ports-none = Nenhuma porta aberta
@@ -312,7 +312,7 @@ settings-network-ports-none = Nenhuma porta aberta
 settings-network-ports-none-sub = Toda porta está fechada para outros computadores.
 
 # Small line under an open port, such as TCP 37666.
-settings-network-port-sub = Aberta para a sua rede doméstica.
+settings-network-port-sub = Aberta para esta rede local.
 
 # Tooltip of the button that closes an open port. { $port } is like TCP 37666.
 settings-network-port-close = Fechar { $port }

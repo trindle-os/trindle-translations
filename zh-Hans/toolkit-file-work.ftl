@@ -109,3 +109,7 @@ kit-trash-too-many-names = 回收站里同名的项目太多
 # Note shown when the other computer or a network place does not answer.
 kit-reach-not-answering = 另一台电脑没有响应。
 
+
+
+kit-work-drive-no-safe-restore = 此驱动器无法安全还原；请改为把文件从回收站中复制出来
+

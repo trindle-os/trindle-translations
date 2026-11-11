@@ -172,7 +172,7 @@ settings-help-topics-notifications-p4 = 每条停留多久由你选择，在“�
 settings-help-topics-notifications-p5 = 要关闭通知，请从“通知”圆圈打开列表，按底部的铃铛。关闭期间铃铛会被划掉，所以一眼就能看出来。通知不再弹出，但仍会收集在列表中，所以关闭一小时也不会错过任何内容。再按一次即可重新打开。
 
 # Help topic "Notifications: what programs tell you": tip 6, shown in a box of its own.
-settings-help-topics-notifications-tip6 = 通知上的叉号只是把它收起来，它仍在列表中。截图保存后出现的绿色对勾也出现在同一个位置。
+settings-help-topics-notifications-tip6 = 通知上的叉号只是把它收起来，它仍在列表中。
 
 # Title of the Help topic "Getting new apps".
 settings-help-topics-apps-title = 获取新应用
@@ -492,7 +492,7 @@ settings-help-topics-screenshots-step2-2 = 要截一部分，请按虚线方框�
 settings-help-topics-screenshots-step2-3 = 改主意了？按叉号，或按 Esc 键。
 
 # Help topic "Taking a picture of the screen": paragraph 3.
-settings-help-topics-screenshots-p3 = 图片保存在“图片”中名为 Screenshots 的文件夹里，以日期和时间命名。它同时也被复制，所以你可以直接把它粘贴到邮件或文档里，屏幕边缘（通知出现的地方）会短暂显示一个绿色对勾。
+settings-help-topics-screenshots-p3 = 图片保存在“图片”中名为 Screenshots 的文件夹里，以日期和时间命名。它同时也被复制，所以你可以直接把它粘贴到邮件或文档里。成功时不会显示任何内容，只有出现问题时才会提示。
 
 # Help topic "Taking a picture of the screen": tip 4, shown in a box of its own.
 settings-help-topics-screenshots-tip4 = 按 Shift 加 Print 会立即截取整个屏幕，不会询问。
@@ -691,7 +691,7 @@ settings-help-topics-files-p4 = 插入 U 盘或存储卡时，圆环会用一行
 settings-help-topics-files-p5 = 在“文件夹”中右键点击可看到更多选项：对压缩包有“解压到此处”和“解压到文件夹”，“压缩”可生成 .zip 或 .tar，还有“在终端中打开”“以管理员身份打开”“复制位置”，以及对图片有“设为壁纸”。“文件夹”自己就能打开压缩包：双击 .zip、.7z、.rar 或 .tar、光盘映像（.iso）或几乎任何其他类型，它都会像文件夹一样打开，你可以查看里面，只取出想要的内容。用密码锁定的 .zip 或 .7z 会询问密码；“文件夹”不会保存密码，所以下次会再次询问。用密码锁定的 .rar 无法打开，“文件夹”会告诉你。
 
 # Help topic "Folders, USB sticks and phones": paragraph 6.
-settings-help-topics-files-p6 = 在文件上按空格键可以不打开就查看它，再按一次关闭。F4 会在你所在的文件夹中打开终端。右键点击文件夹或文件并选择“固定到圆环”，可以把它与你收藏的应用一起放在圆环中间周围，点击一下就能打开；在那里右键点击它可取消固定。右键点击图片可调整大小或旋转。文件的“属性”可以给它一个小徽章，文件夹的“属性”可以把它共享给家庭网络上的其他电脑：第一次时，“文件夹”会打开 Samba，这需要你的密码，电脑重启后共享才会生效。在列表视图中，右键点击列标题可以添加音乐、照片和 PDF 的详细信息。
+settings-help-topics-files-p6 = 在文件上按空格键可以不打开就查看它，再按一次关闭。F4 会在你所在的文件夹中打开终端。右键点击文件夹或文件并选择“固定到圆环”，可以把它与你收藏的应用一起放在圆环中间周围，点击一下就能打开；在那里右键点击它可取消固定。右键点击图片可调整大小或旋转。文件的“属性”可以给它一个小徽章，文件夹的“属性”可以把它共享给同一本地网络上的其他电脑（在家里，或你所连接的咖啡馆或办公室网络上的所有人）：第一次时，“文件夹”会打开 Samba，这需要你的密码，电脑重启后共享才会生效。在列表视图中，右键点击列标题可以添加音乐、照片和 PDF 的详细信息。
 
 # Help topic "Folders, USB sticks and phones": paragraph 7.
 settings-help-topics-files-p7 = 顶部路径中的每个名称后面都有一个小箭头：按它会列出该文件夹内的文件夹，选择一个即可前往。中键点击文件夹，或按 Ctrl 加双击，会在当前标签页后面的新标签页中打开它，中键点击标签页则会关闭它。把一个文件夹拖到左边两个已固定的文件夹之间，即可固定在那里，也可以上下拖动已固定的文件夹，按你喜欢的顺序排列。“查找”框下面有三个列表：“类型”“大小”和“修改时间”，你一选择，显示的内容就会随之缩小。

@@ -110,3 +110,7 @@ kit-trash-too-many-names = im Papierkorb gibt es zu viele Elemente mit diesem Na
 # Note shown when the other computer or a network place does not answer.
 kit-reach-not-answering = Der andere Computer antwortet nicht.
 
+
+
+kit-work-drive-no-safe-restore = dieses Laufwerk kann nicht sicher wiederherstellen; kopiere die Datei stattdessen aus dem Papierkorb
+

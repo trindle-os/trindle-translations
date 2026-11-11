@@ -110,3 +110,7 @@ kit-trash-too-many-names = Çöp kutusunda bu adı taşıyan çok fazla öğe va
 # Note shown when the other computer or a network place does not answer.
 kit-reach-not-answering = Öbür bilgisayar yanıt vermiyor.
 
+
+
+kit-work-drive-no-safe-restore = bu sürücü güvenle geri yükleyemez; bunun yerine dosyayı Çöp kutusundan dışarı kopyalayın
+

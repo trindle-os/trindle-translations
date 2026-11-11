@@ -107,3 +107,7 @@ kit-trash-too-many-names = Thùng rác có quá nhiều mục trùng tên này
 # Note shown when the other computer or a network place does not answer.
 kit-reach-not-answering = Máy tính kia không phản hồi.
 
+
+
+kit-work-drive-no-safe-restore = ổ này không thể khôi phục an toàn; hãy sao chép tệp ra khỏi Thùng rác thay vào đó
+

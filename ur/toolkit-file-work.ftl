@@ -109,3 +109,7 @@ kit-trash-too-many-names = ٹریش میں اس نام کی بہت زیادہ چ
 # Note shown when the other computer or a network place does not answer.
 kit-reach-not-answering = دوسرا کمپیوٹر جواب نہیں دے رہا۔
 
+
+
+kit-work-drive-no-safe-restore = یہ ڈرائیو محفوظ طریقے سے بحال نہیں کر سکتی؛ اس کے بجائے فائل کو ٹریش سے باہر کاپی کریں
+

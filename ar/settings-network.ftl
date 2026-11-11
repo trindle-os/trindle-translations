@@ -311,7 +311,7 @@ settings-network-disconnect-failed = رفضت قطع الاتصال.
 settings-network-ports = المنافذ المفتوحة
 
 # Help text (i button) of the Open ports card.
-settings-network-ports-about = كل منفذ مغلق ما لم يطلب هذا الحاسوب ذلك أولًا، لذلك لا يمكن الوصول إلى برنامج ينتظر اتصال الآخرين، مثل خادم الألعاب أو أداة المزامنة، حتى يُفتح منفذه هنا. المنفذ المفتوح هنا يُدخل الحواسيب على شبكة بيتك فقط، ولا يُدخل الإنترنت الأوسع أبدًا. فتح منفذ أو إغلاقه يطلب كلمة مرور المسؤول.
+settings-network-ports-about = كل منفذ مغلق ما لم يطلب هذا الحاسوب ذلك أولًا، لذلك لا يمكن الوصول إلى برنامج ينتظر اتصال الآخرين، مثل خادم الألعاب أو أداة المزامنة، حتى يُفتح منفذه هنا. المنفذ المفتوح هنا يُدخل أي حاسوب على الشبكة المحلية التي يتصل بها هذا الحاسوب، ولا يُدخل الإنترنت الأوسع أبدًا. وعلى شبكة مقهى أو فندق أو مكتب يعني ذلك كل من هناك أيضًا. فتح منفذ أو إغلاقه يطلب كلمة مرور المسؤول.
 
 # Line in the Open ports card when no port is open.
 settings-network-ports-none = لا منافذ مفتوحة
@@ -320,7 +320,7 @@ settings-network-ports-none = لا منافذ مفتوحة
 settings-network-ports-none-sub = كل منفذ مغلق أمام الحواسيب الأخرى.
 
 # Small line under an open port, such as TCP 37666.
-settings-network-port-sub = مفتوح لشبكة بيتك.
+settings-network-port-sub = مفتوح لهذه الشبكة المحلية.
 
 # Tooltip of the button that closes an open port. { $port } is like TCP 37666.
 settings-network-port-close = إغلاق { $port }

@@ -177,7 +177,7 @@ settings-help-topics-notifications-p4 = Quanto tempo cada uma fica é você quem
 settings-help-topics-notifications-p5 = Para desligar as notificações, abra a lista pelo círculo Notificações e toque no sino no pé dela. Ele fica riscado enquanto estão desligadas, para você ver de relance. Elas deixam de aparecer, mas continuam reunidas na lista, então nada se perde por desligá-las por uma hora. Toque nele de novo para ligá-las outra vez.
 
 # Help topic "Notifications: what programs tell you": tip 6, shown in a box of its own.
-settings-help-topics-notifications-tip6 = O X numa notificação só a guarda. Ela continua na lista. O visto verde depois que uma captura de tela é salva aparece no mesmo lugar.
+settings-help-topics-notifications-tip6 = O X numa notificação só a guarda. Ela continua na lista.
 
 # Title of the Help topic "Getting new apps".
 settings-help-topics-apps-title = Obter novos aplicativos
@@ -505,7 +505,7 @@ settings-help-topics-screenshots-step2-2 = Para uma parte, toque no quadrado pon
 settings-help-topics-screenshots-step2-3 = Mudou de ideia? Toque no X, ou em Esc.
 
 # Help topic "Taking a picture of the screen": paragraph 3.
-settings-help-topics-screenshots-p3 = A imagem é salva em Pictures, numa pasta chamada Screenshots, com o nome da data e hora. Ela também é copiada, então você pode colá-la direto num e-mail ou documento, e um visto verde aparece por um instante na borda da tela, onde as notificações aparecem.
+settings-help-topics-screenshots-p3 = A imagem é salva em Pictures, numa pasta chamada Screenshots, com o nome da data e hora. Ela também é copiada, então você pode colá-la direto num e-mail ou documento. Nada aparece quando funciona; só um problema é avisado.
 
 # Help topic "Taking a picture of the screen": tip 4, shown in a box of its own.
 settings-help-topics-screenshots-tip4 = Shift e Print captura a tela inteira de uma vez, sem perguntar.
@@ -705,7 +705,7 @@ settings-help-topics-files-p4 = Quando você conecta um pen drive ou um cartão 
 settings-help-topics-files-p5 = Clique com o botão direito em Pastas para mais opções: Extrair aqui e Extrair para uma pasta para arquivos compactados, Compactar para criar um .zip ou um .tar, Abrir no Terminal, Abrir como root, Copiar local, e Definir como papel de parede numa imagem. Pastas abre arquivos compactados sozinho: clique duas vezes num .zip, .7z, .rar ou .tar, numa imagem de disco (.iso) ou em quase qualquer outro tipo e ele abre como uma pasta, para você olhar dentro e tirar só o que quiser. Um .zip ou .7z protegido por senha a pede; Pastas não guarda a senha, então pede de novo da próxima vez. Um .rar protegido por senha não pode ser aberto, e Pastas avisa isso.
 
 # Help topic "Folders, USB sticks and phones": paragraph 6.
-settings-help-topics-files-p6 = Pressione a barra de espaço num arquivo para vê-lo sem abrir, e de novo para fechar. F4 abre um terminal na pasta em que você está. Clique com o botão direito numa pasta ou arquivo e escolha Fixar no anel para mantê-lo em volta do meio do anel com os seus aplicativos favoritos, onde um clique o abre; clique com o botão direito nele ali para desafixar. Clique com o botão direito em imagens para redimensioná-las ou girá-las. As Propriedades de um arquivo podem dar a ele um pequeno emblema, e as de uma pasta podem compartilhá-la com outros computadores da sua rede doméstica: na primeira vez, Pastas liga o Samba, o que pede a sua senha, e o compartilhamento funciona depois que o computador reiniciar. Na visualização em lista, clique com o botão direito nos títulos das colunas para adicionar detalhes de música, foto e PDF.
+settings-help-topics-files-p6 = Pressione a barra de espaço num arquivo para vê-lo sem abrir, e de novo para fechar. F4 abre um terminal na pasta em que você está. Clique com o botão direito numa pasta ou arquivo e escolha Fixar no anel para mantê-lo em volta do meio do anel com os seus aplicativos favoritos, onde um clique o abre; clique com o botão direito nele ali para desafixar. Clique com o botão direito em imagens para redimensioná-las ou girá-las. As Propriedades de um arquivo podem dar a ele um pequeno emblema, e as de uma pasta podem compartilhá-la com outros computadores da mesma rede local (em casa, ou todos em uma rede de café ou escritório à qual você se conecte): na primeira vez, Pastas liga o Samba, o que pede a sua senha, e o compartilhamento funciona depois que o computador reiniciar. Na visualização em lista, clique com o botão direito nos títulos das colunas para adicionar detalhes de música, foto e PDF.
 
 # Help topic "Folders, USB sticks and phones": paragraph 7.
 settings-help-topics-files-p7 = Cada nome no caminho no alto tem uma setinha depois: toque nela para ver uma lista das pastas dentro daquela pasta, e escolha uma para ir até ela. Um clique com o botão do meio numa pasta, ou Ctrl e clique duplo, a abre numa nova aba atrás da que você está, e um clique com o botão do meio numa aba a fecha. Arraste uma pasta entre duas das pastas fixadas à esquerda para fixá-la ali, e arraste as pastas fixadas para cima e para baixo para colocá-las na ordem que preferir. Sob a caixa Buscar há três listas, Tipo, Tamanho e Alterado, que restringem o que é mostrado assim que você escolhe.

@@ -113,3 +113,7 @@ kit-trash-too-many-names = a Lixeira tem itens demais com este nome
 # Note shown when the other computer or a network place does not answer.
 kit-reach-not-answering = O outro computador não está respondendo.
 
+
+
+kit-work-drive-no-safe-restore = este drive não consegue restaurar com segurança; copie o arquivo para fora da Lixeira em vez disso
+

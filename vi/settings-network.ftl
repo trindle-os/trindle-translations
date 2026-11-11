@@ -313,7 +313,7 @@ settings-network-disconnect-failed = Không thể ngắt kết nối.
 settings-network-ports = Cổng đang mở
 
 # Help text (i button) of the Open ports card.
-settings-network-ports-about = Mọi cổng đều đóng trừ khi máy tính này yêu cầu trước, nên chương trình chờ người khác kết nối, như máy chủ trò chơi hoặc công cụ đồng bộ, không thể truy cập được cho đến khi cổng của nó được mở ở đây. Cổng mở ở đây chỉ cho máy tính trong mạng gia đình của bạn vào, không bao giờ cho internet rộng lớn. Mở hoặc đóng một cổng cần mật khẩu của quản trị viên.
+settings-network-ports-about = Mọi cổng đều đóng trừ khi máy tính này yêu cầu trước, nên chương trình chờ người khác kết nối, như máy chủ trò chơi hoặc công cụ đồng bộ, không thể truy cập được cho đến khi cổng của nó được mở ở đây. Cổng mở ở đây cho mọi máy tính trong mạng cục bộ mà máy tính này đang dùng vào, không bao giờ cho internet rộng lớn. Trên mạng quán cà phê, khách sạn hay văn phòng, điều đó nghĩa là cả mọi người ở đó nữa. Mở hoặc đóng một cổng cần mật khẩu của quản trị viên.
 
 # Line in the Open ports card when no port is open.
 settings-network-ports-none = Chưa mở cổng nào
@@ -322,7 +322,7 @@ settings-network-ports-none = Chưa mở cổng nào
 settings-network-ports-none-sub = Mọi cổng đều đóng với máy tính khác.
 
 # Small line under an open port, such as TCP 37666.
-settings-network-port-sub = Mở cho mạng gia đình của bạn.
+settings-network-port-sub = Mở cho mạng cục bộ này.
 
 # Tooltip of the button that closes an open port. { $port } is like TCP 37666.
 settings-network-port-close = Đóng { $port }

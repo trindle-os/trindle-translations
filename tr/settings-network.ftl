@@ -319,7 +319,7 @@ settings-network-disconnect-failed = Bağlantı kesilmedi.
 settings-network-ports = Açık portlar
 
 # Help text (i button) of the Open ports card.
-settings-network-ports-about = Bu bilgisayar önce istemedikçe her port kapalıdır, bu yüzden başkalarının bağlanmasını bekleyen bir program, örneğin bir oyun sunucusu ya da eşitleme aracı, portu burada açılana kadar erişilemez kalır. Burada açılan bir port yalnızca ev ağınızdaki bilgisayarları içeri alır, geniş internetten kimseyi almaz. Birini açmak ya da kapatmak yöneticinin parolasını ister.
+settings-network-ports-about = Bu bilgisayar önce istemedikçe her port kapalıdır, bu yüzden başkalarının bağlanmasını bekleyen bir program, örneğin bir oyun sunucusu ya da eşitleme aracı, portu burada açılana kadar erişilemez kalır. Burada açılan bir port bu bilgisayarın bulunduğu yerel ağdaki her bilgisayarı içeri alır, geniş internetten kimseyi almaz. Kafe, otel ya da ofis ağında bu, oradaki herkes demektir. Birini açmak ya da kapatmak yöneticinin parolasını ister.
 
 # Line in the Open ports card when no port is open.
 settings-network-ports-none = Açık port yok
@@ -328,7 +328,7 @@ settings-network-ports-none = Açık port yok
 settings-network-ports-none-sub = Her port diğer bilgisayarlara kapalı.
 
 # Small line under an open port, such as TCP 37666.
-settings-network-port-sub = Ev ağınıza açık.
+settings-network-port-sub = Bu yerel ağa açık.
 
 # Tooltip of the button that closes an open port. { $port } is like TCP 37666.
 settings-network-port-close = { $port } portunu kapat

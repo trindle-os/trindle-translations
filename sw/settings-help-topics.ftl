@@ -180,7 +180,7 @@ settings-help-topics-notifications-p4 = Kila moja inakaa kwa muda gani ni juu ya
 settings-help-topics-notifications-p5 = Ili kuzima arifa, fungua orodha kutoka duara la Arifa kisha ubonyeze kengele iliyo chini yake. Inakatwa kwa mstari zikiwa zimezimwa, ili uone kwa mtazamo. Zinaacha kuonekana, lakini bado zinakusanywa kwenye orodha, kwa hiyo hakuna kinachokosekana kwa kuzizima kwa saa moja. Ibonyeze tena kuziwasha.
 
 # Help topic "Notifications: what programs tell you": tip 6, shown in a box of its own.
-settings-help-topics-notifications-tip6 = Msalaba kwenye arifa unaiweka kando tu. Bado iko kwenye orodha. Tiki ya kijani baada ya picha ya skrini kuhifadhiwa inaonekana mahali pale pale.
+settings-help-topics-notifications-tip6 = Msalaba kwenye arifa unaiweka kando tu. Bado iko kwenye orodha.
 
 # Title of the Help topic "Getting new apps".
 settings-help-topics-apps-title = Kupata programu mpya
@@ -514,7 +514,7 @@ settings-help-topics-screenshots-step2-2 = Kwa sehemu, bonyeza mraba wa vitone, 
 settings-help-topics-screenshots-step2-3 = Umebadili mawazo? Bonyeza msalaba, au Esc.
 
 # Help topic "Taking a picture of the screen": paragraph 3.
-settings-help-topics-screenshots-p3 = Picha inahifadhiwa kwenye Picha, ndani ya folda iitwayo Screenshots, ikipewa jina la tarehe na saa. Pia inanakiliwa, ili uweze kuibandika moja kwa moja kwenye barua pepe au hati, na tiki ya kijani inaonekana kwa muda mfupi ukingoni mwa skrini, ambapo arifa zinaonekana.
+settings-help-topics-screenshots-p3 = Picha inahifadhiwa kwenye Picha, ndani ya folda iitwayo Screenshots, ikipewa jina la tarehe na saa. Pia inanakiliwa, ili uweze kuibandika moja kwa moja kwenye barua pepe au hati. Hakuna kinachoonekana kikifanya kazi; ni tatizo tu linalotajwa.
 
 # Help topic "Taking a picture of the screen": tip 4, shown in a box of its own.
 settings-help-topics-screenshots-tip4 = Shift na Print inapiga skrini nzima mara moja, bila kuuliza.
@@ -715,7 +715,7 @@ settings-help-topics-files-p5 = Bofya kulia kwenye Folders kupata zaidi: Toa hap
 
 # Help topic "Folders, USB sticks and phones": paragraph 6.
 # SAFETY: needs a human review before it ships
-settings-help-topics-files-p6 = Bonyeza upau wa nafasi kwenye faili ili kuitazama bila kuifungua, na tena ili kuifunga. F4 inafungua terminal kwenye folda uliyomo. Bofya kulia folda au faili kisha uchague Bandika kwenye pete ili kuiweka kuzunguka katikati ya pete pamoja na programu zako pendwa, ambapo kubofya mara moja kunaifungua; ibofye kulia hapo ili kuiondoa. Bofya kulia picha ili kubadilisha ukubwa au kuzungusha. Sifa za faili zinaweza kuipa alama ndogo, na za folda zinaweza kuishiriki na kompyuta nyingine kwenye mtandao wako wa nyumbani: mara ya kwanza, Folders inawasha Samba, ambayo inaomba nenosiri lako, na kushiriki kunafanya kazi baada ya kompyuta kuwashwa upya. Kwenye mwonekano wa orodha, bofya kulia vichwa vya safu ili kuongeza maelezo ya muziki, picha na PDF.
+settings-help-topics-files-p6 = Bonyeza upau wa nafasi kwenye faili ili kuitazama bila kuifungua, na tena ili kuifunga. F4 inafungua terminal kwenye folda uliyomo. Bofya kulia folda au faili kisha uchague Bandika kwenye pete ili kuiweka kuzunguka katikati ya pete pamoja na programu zako pendwa, ambapo kubofya mara moja kunaifungua; ibofye kulia hapo ili kuiondoa. Bofya kulia picha ili kubadilisha ukubwa au kuzungusha. Sifa za faili zinaweza kuipa alama ndogo, na za folda zinaweza kuishiriki na kompyuta nyingine kwenye mtandao wa ndani uleule (nyumbani, au kila mtu kwenye mtandao wa mkahawa au ofisi unaojiunga nao): mara ya kwanza, Folders inawasha Samba, ambayo inaomba nenosiri lako, na kushiriki kunafanya kazi baada ya kompyuta kuwashwa upya. Kwenye mwonekano wa orodha, bofya kulia vichwa vya safu ili kuongeza maelezo ya muziki, picha na PDF.
 
 # Help topic "Folders, USB sticks and phones": paragraph 7.
 settings-help-topics-files-p7 = Kila jina kwenye njia iliyo juu lina mshale mdogo baada yake: ubonyeze kupata orodha ya folda zilizo ndani ya folda hiyo, kisha uchague moja ili kwenda huko. Kubofya kwa kati kwenye folda, au Ctrl na kubofya mara mbili, kunaifungua kwenye kichupo kipya nyuma ya kile ulichopo, na kubofya kwa kati kwenye kichupo kunakifunga. Buruta folda kati ya folda mbili zilizobandikwa upande wa kushoto ili kuibandika hapo, na uburute folda zilizobandikwa juu na chini ili kuzipanga upendavyo. Chini ya kisanduku cha Tafuta kuna orodha tatu, Aina, Ukubwa na Ilibadilishwa, zinazopunguza kinachoonyeshwa mara tu unapochagua.

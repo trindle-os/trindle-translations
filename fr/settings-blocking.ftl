@@ -192,3 +192,8 @@ settings-firewall-done-off = Pare-feu désactivé
 # Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
 settings-blocking-card = Blocage
 
+
+
+# Small line under the firewall switch when it is on but its rules are not loaded.
+settings-firewall-not-in-force = Activé, mais sans effet : ses règles ne se sont pas chargées au démarrage de l'ordinateur. Éteignez-le puis rallumez-le.
+

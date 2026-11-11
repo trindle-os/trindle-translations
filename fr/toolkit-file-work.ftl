@@ -109,3 +109,7 @@ kit-trash-too-many-names = la corbeille contient trop d'éléments portant ce no
 # Note shown when the other computer or a network place does not answer.
 kit-reach-not-answering = L'autre ordinateur ne répond pas.
 
+
+
+kit-work-drive-no-safe-restore = ce disque ne peut pas restaurer en toute sécurité ; copiez plutôt le fichier hors de la corbeille
+

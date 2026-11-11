@@ -189,3 +189,8 @@ settings-firewall-done-off = Firewall aus
 # Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
 settings-blocking-card = Blockieren
 
+
+
+# Small line under the firewall switch when it is on but its rules are not loaded.
+settings-firewall-not-in-force = Eingeschaltet, aber nicht wirksam: Die Regeln wurden beim Start des Computers nicht geladen. Schalte sie aus und wieder ein.
+

@@ -188,3 +188,8 @@ settings-firewall-done-off = ফায়ারওয়াল বন্ধ
 
 # Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
 settings-blocking-card = ব্লক করা
+
+
+# Small line under the firewall switch when it is on but its rules are not loaded.
+settings-firewall-not-in-force = চালু আছে, কিন্তু কার্যকর নয়: কম্পিউটার চালু হওয়ার সময় এর নিয়ম লোড হয়নি। এটি বন্ধ করে আবার চালু করুন।
+

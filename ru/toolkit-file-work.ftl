@@ -114,3 +114,7 @@ kit-trash-too-many-names = в Корзине слишком много элем�
 # Note shown when the other computer or a network place does not answer.
 kit-reach-not-answering = Другой компьютер не отвечает.
 
+
+
+kit-work-drive-no-safe-restore = этот диск не может безопасно восстановить файл; вместо этого скопируйте файл из Корзины
+

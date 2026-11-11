@@ -181,7 +181,7 @@ settings-help-topics-notifications-p4 = C'est à vous de choisir combien de temp
 settings-help-topics-notifications-p5 = Pour désactiver les notifications, ouvrez la liste depuis le cercle Notifications et appuyez sur la cloche en bas. Elle est barrée tant qu'elles sont désactivées, ce qui se voit d'un coup d'œil. Elles n'apparaissent plus, mais elles sont toujours rassemblées dans la liste, donc rien n'est manqué en les désactivant pour une heure. Appuyez de nouveau dessus pour les réactiver.
 
 # Help topic "Notifications: what programs tell you": tip 6, shown in a box of its own.
-settings-help-topics-notifications-tip6 = La croix sur une notification la range seulement. Elle reste dans la liste. La coche verte qui apparaît après l'enregistrement d'une capture d'écran s'affiche au même endroit.
+settings-help-topics-notifications-tip6 = La croix sur une notification la range seulement. Elle reste dans la liste.
 
 # Title of the Help topic "Getting new apps".
 settings-help-topics-apps-title = Obtenir de nouvelles applis
@@ -518,7 +518,7 @@ settings-help-topics-screenshots-step2-2 = Pour une partie, appuyez sur le carr�
 settings-help-topics-screenshots-step2-3 = Vous avez changé d'avis ? Appuyez sur la croix, ou sur Échap.
 
 # Help topic "Taking a picture of the screen": paragraph 3.
-settings-help-topics-screenshots-p3 = L'image est enregistrée dans Images, dans un dossier nommé Captures d'écran, avec la date et l'heure comme nom. Elle est aussi copiée, pour que vous puissiez la coller directement dans un e-mail ou un document, et une coche verte s'affiche un instant au bord de l'écran, là où apparaissent les notifications.
+settings-help-topics-screenshots-p3 = L'image est enregistrée dans Images, dans un dossier nommé Captures d'écran, avec la date et l'heure comme nom. Elle est aussi copiée, pour que vous puissiez la coller directement dans un e-mail ou un document. Rien ne s'affiche quand tout fonctionne ; seul un problème est signalé.
 
 # Help topic "Taking a picture of the screen": tip 4, shown in a box of its own.
 settings-help-topics-screenshots-tip4 = Maj et Impr. écran prend tout l'écran d'un coup, sans rien demander.
@@ -725,7 +725,7 @@ settings-help-topics-files-p5 = Faites un clic droit dans Dossiers pour plus de 
 
 # SAFETY: needs a human review before it ships
 # Help topic "Folders, USB sticks and phones": paragraph 6.
-settings-help-topics-files-p6 = Appuyez sur la barre d'espace sur un fichier pour le regarder sans l'ouvrir, et de nouveau pour le fermer. F4 ouvre un terminal dans le dossier où vous êtes. Faites un clic droit sur un dossier ou un fichier et choisissez Épingler à l'anneau pour le garder autour du milieu de l'anneau avec vos applis favorites, où un clic l'ouvre ; faites un clic droit dessus à cet endroit pour le désépingler. Faites un clic droit sur des images pour les redimensionner ou les pivoter. Les Propriétés d'un fichier peuvent lui donner un petit badge, et celles d'un dossier peuvent le partager avec d'autres ordinateurs de votre réseau domestique : la première fois, Dossiers active Samba, ce qui demande votre mot de passe, et le partage fonctionne une fois l'ordinateur redémarré. Dans l'affichage en liste, faites un clic droit sur les en-têtes de colonnes pour ajouter des détails de musique, de photo et de PDF.
+settings-help-topics-files-p6 = Appuyez sur la barre d'espace sur un fichier pour le regarder sans l'ouvrir, et de nouveau pour le fermer. F4 ouvre un terminal dans le dossier où vous êtes. Faites un clic droit sur un dossier ou un fichier et choisissez Épingler à l'anneau pour le garder autour du milieu de l'anneau avec vos applis favorites, où un clic l'ouvre ; faites un clic droit dessus à cet endroit pour le désépingler. Faites un clic droit sur des images pour les redimensionner ou les pivoter. Les Propriétés d'un fichier peuvent lui donner un petit badge, et celles d'un dossier peuvent le partager avec d'autres ordinateurs du même réseau local (à la maison, ou tous ceux d'un réseau de café ou de bureau auquel vous vous connectez) : la première fois, Dossiers active Samba, ce qui demande votre mot de passe, et le partage fonctionne une fois l'ordinateur redémarré. Dans l'affichage en liste, faites un clic droit sur les en-têtes de colonnes pour ajouter des détails de musique, de photo et de PDF.
 
 # Help topic "Folders, USB sticks and phones": paragraph 7.
 settings-help-topics-files-p7 = Chaque nom du chemin en haut est suivi d'une petite flèche : appuyez dessus pour une liste des dossiers contenus dans ce dossier, et choisissez-en un pour y aller. Un clic du milieu sur un dossier, ou Ctrl et un double clic, l'ouvre dans un nouvel onglet derrière celui où vous êtes, et un clic du milieu sur un onglet le ferme. Faites glisser un dossier entre deux des dossiers épinglés à gauche pour l'épingler à cet endroit, et faites glisser les dossiers épinglés vers le haut ou le bas pour les mettre dans l'ordre que vous aimez. Sous la zone Rechercher se trouvent trois listes, Type, Taille et Modifié, qui restreignent ce qui est affiché dès que vous choisissez.

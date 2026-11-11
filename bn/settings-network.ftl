@@ -306,7 +306,7 @@ settings-network-disconnect-failed = এটি বিচ্ছিন্ন হ�
 settings-network-ports = খোলা পোর্ট
 
 # Help text (i button) of the Open ports card.
-settings-network-ports-about = এই কম্পিউটার আগে না চাইলে প্রতিটি পোর্ট বন্ধ থাকে, তাই যে প্রোগ্রাম অন্যদের যুক্ত হওয়ার অপেক্ষা করে, যেমন গেম সার্ভার বা সিঙ্ক টুল, এখানে তার পোর্ট না খোলা পর্যন্ত তার কাছে পৌঁছানো যায় না। এখানে খোলা পোর্ট দিয়ে শুধু আপনার বাসার নেটওয়ার্কের কম্পিউটার ঢুকতে পারে, বড় ইন্টারনেট থেকে কখনও নয়। পোর্ট খুলতে বা বন্ধ করতে অ্যাডমিনিস্ট্রেটরের পাসওয়ার্ড লাগে।
+settings-network-ports-about = এই কম্পিউটার আগে না চাইলে প্রতিটি পোর্ট বন্ধ থাকে, তাই যে প্রোগ্রাম অন্যদের যুক্ত হওয়ার অপেক্ষা করে, যেমন গেম সার্ভার বা সিঙ্ক টুল, এখানে তার পোর্ট না খোলা পর্যন্ত তার কাছে পৌঁছানো যায় না। এখানে খোলা পোর্ট দিয়ে এই কম্পিউটার যে স্থানীয় নেটওয়ার্কে আছে সেখানকার যেকোনো কম্পিউটার ঢুকতে পারে, বড় ইন্টারনেট থেকে কখনও নয়। ক্যাফে, হোটেল বা অফিসের নেটওয়ার্কে এর মানে সেখানকার সবাই-ও। পোর্ট খুলতে বা বন্ধ করতে অ্যাডমিনিস্ট্রেটরের পাসওয়ার্ড লাগে।
 
 # Line in the Open ports card when no port is open.
 settings-network-ports-none = কোনো পোর্ট খোলা নেই
@@ -315,7 +315,7 @@ settings-network-ports-none = কোনো পোর্ট খোলা নে�
 settings-network-ports-none-sub = অন্য কম্পিউটারের জন্য প্রতিটি পোর্ট বন্ধ।
 
 # Small line under an open port, such as TCP 37666.
-settings-network-port-sub = আপনার বাসার নেটওয়ার্কে খোলা।
+settings-network-port-sub = এই স্থানীয় নেটওয়ার্কে খোলা।
 
 # Tooltip of the button that closes an open port. { $port } is like TCP 37666.
 settings-network-port-close = { $port } বন্ধ করুন

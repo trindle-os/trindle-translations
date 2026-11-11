@@ -189,3 +189,8 @@ settings-firewall-done-off = 防火墙已关闭
 # Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
 settings-blocking-card = 拦截
 
+
+
+# Small line under the firewall switch when it is on but its rules are not loaded.
+settings-firewall-not-in-force = 已开启，但未生效：电脑启动时它的规则没有加载。请先关闭再重新开启。
+

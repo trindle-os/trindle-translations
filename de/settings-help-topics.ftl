@@ -180,7 +180,7 @@ settings-help-topics-notifications-p4 = Wie lange jede bleibt, bestimmst du in d
 settings-help-topics-notifications-p5 = Um Benachrichtigungen auszuschalten, öffne die Liste über den Kreis „Benachrichtigungen“ und drücke die Glocke unten. Sie ist durchgestrichen, solange sie aus sind, damit du es auf einen Blick siehst. Sie erscheinen nicht mehr, werden aber weiterhin in der Liste gesammelt, damit nichts verpasst wird, wenn du sie für eine Stunde ausschaltest. Drücke sie noch einmal, um sie wieder einzuschalten.
 
 # Help topic "Notifications: what programs tell you": tip 6, shown in a box of its own.
-settings-help-topics-notifications-tip6 = Das Kreuz auf einer Benachrichtigung räumt sie nur weg. Sie bleibt in der Liste. Das grüne Häkchen nach dem Speichern eines Bildschirmfotos erscheint an derselben Stelle.
+settings-help-topics-notifications-tip6 = Das Kreuz auf einer Benachrichtigung räumt sie nur weg. Sie bleibt in der Liste.
 
 # Title of the Help topic "Getting new apps".
 settings-help-topics-apps-title = Neue Apps holen
@@ -513,7 +513,7 @@ settings-help-topics-screenshots-step2-2 = Für einen Teil drücke das gepunktet
 settings-help-topics-screenshots-step2-3 = Anders überlegt? Drücke das Kreuz oder Esc.
 
 # Help topic "Taking a picture of the screen": paragraph 3.
-settings-help-topics-screenshots-p3 = Das Bild wird in Bilder gespeichert, in einem Ordner namens Screenshots, benannt nach Datum und Uhrzeit. Es wird auch kopiert, du kannst es also direkt in eine E-Mail oder ein Dokument einfügen, und ein grünes Häkchen erscheint kurz am Bildschirmrand, wo auch Benachrichtigungen auftauchen.
+settings-help-topics-screenshots-p3 = Das Bild wird in Bilder gespeichert, in einem Ordner namens Screenshots, benannt nach Datum und Uhrzeit. Es wird auch kopiert, du kannst es also direkt in eine E-Mail oder ein Dokument einfügen. Wenn es klappt, wird nichts angezeigt; nur ein Problem wird gemeldet.
 
 # Help topic "Taking a picture of the screen": tip 4, shown in a box of its own.
 settings-help-topics-screenshots-tip4 = Umschalt und Druck nimmt den ganzen Bildschirm sofort auf, ohne zu fragen.
@@ -716,7 +716,7 @@ settings-help-topics-files-p5 = Rechtsklick in Folders bietet mehr: „Hier entp
 
 # Help topic "Folders, USB sticks and phones": paragraph 6.
 # SAFETY: needs a human review before it ships
-settings-help-topics-files-p6 = Drücke die Leertaste auf einer Datei, um sie anzusehen, ohne sie zu öffnen, und noch einmal, um sie zu schließen. F4 öffnet ein Terminal im Ordner, in dem du bist. Klicke einen Ordner oder eine Datei mit der rechten Maustaste an und wähle „An den Ring heften“, um sie mit deinen Lieblings-Apps rund um die Mitte des Rings zu behalten, wo ein Klick sie öffnet; rechtsklicke sie dort, um sie zu lösen. Rechtsklicke Bilder, um ihre Größe zu ändern oder sie zu drehen. Die Eigenschaften einer Datei können ihr ein kleines Emblem geben, und die eines Ordners können ihn mit anderen Computern in deinem Heimnetz teilen: Beim ersten Mal schaltet Folders Samba ein, was nach deinem Passwort fragt, und das Teilen funktioniert, sobald der Computer neu gestartet wurde. Klicke in der Listenansicht die Spaltenüberschriften mit der rechten Maustaste an, um Angaben zu Musik, Fotos und PDFs hinzuzufügen.
+settings-help-topics-files-p6 = Drücke die Leertaste auf einer Datei, um sie anzusehen, ohne sie zu öffnen, und noch einmal, um sie zu schließen. F4 öffnet ein Terminal im Ordner, in dem du bist. Klicke einen Ordner oder eine Datei mit der rechten Maustaste an und wähle „An den Ring heften“, um sie mit deinen Lieblings-Apps rund um die Mitte des Rings zu behalten, wo ein Klick sie öffnet; rechtsklicke sie dort, um sie zu lösen. Rechtsklicke Bilder, um ihre Größe zu ändern oder sie zu drehen. Die Eigenschaften einer Datei können ihr ein kleines Emblem geben, und die eines Ordners können ihn mit anderen Computern im selben lokalen Netzwerk (zu Hause oder alle in einem Café- oder Büronetzwerk, dem du beitrittst) teilen: Beim ersten Mal schaltet Folders Samba ein, was nach deinem Passwort fragt, und das Teilen funktioniert, sobald der Computer neu gestartet wurde. Klicke in der Listenansicht die Spaltenüberschriften mit der rechten Maustaste an, um Angaben zu Musik, Fotos und PDFs hinzuzufügen.
 
 # Help topic "Folders, USB sticks and phones": paragraph 7.
 settings-help-topics-files-p7 = Hinter jedem Namen im Pfad oben steht ein kleiner Pfeil: Drücke ihn für eine Liste der Ordner in diesem Ordner und wähle einen, um dorthin zu gehen. Ein Mittelklick auf einen Ordner oder Strg und ein Doppelklick öffnet ihn in einem neuen Tab hinter dem aktuellen, und ein Mittelklick auf einen Tab schließt ihn. Ziehe einen Ordner zwischen zwei der angehefteten Ordner links, um ihn dort anzuheften, und ziehe die angehefteten Ordner nach oben und unten, um sie in die gewünschte Reihenfolge zu bringen. Unter dem Feld „Suchen“ sind drei Listen, „Art“, „Größe“ und „Geändert“, die eingrenzen, was angezeigt wird, sobald du wählst.

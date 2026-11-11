@@ -192,3 +192,8 @@ settings-firewall-done-off = Firewall desligado
 # Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
 settings-blocking-card = Bloqueio
 
+
+
+# Small line under the firewall switch when it is on but its rules are not loaded.
+settings-firewall-not-in-force = Ligado, mas sem efeito: as regras dele não carregaram quando o computador iniciou. Desligue e ligue de novo.
+

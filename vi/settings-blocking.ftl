@@ -187,3 +187,8 @@ settings-firewall-done-off = Tường lửa đã tắt
 # Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
 settings-blocking-card = Chặn
 
+
+
+# Small line under the firewall switch when it is on but its rules are not loaded.
+settings-firewall-not-in-force = Đang bật nhưng chưa có hiệu lực: các quy tắc của nó không được nạp khi máy tính khởi động. Hãy tắt rồi bật lại.
+

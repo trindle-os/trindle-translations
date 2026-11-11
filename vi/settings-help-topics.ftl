@@ -181,7 +181,7 @@ settings-help-topics-notifications-p4 = Mỗi thông báo ở lại bao lâu là
 settings-help-topics-notifications-p5 = Để tắt thông báo, hãy mở danh sách từ vòng Thông báo và nhấn chuông ở cuối. Chuông bị gạch chéo khi thông báo đang tắt, nên bạn nhìn là biết ngay. Thông báo ngừng hiện, nhưng vẫn được gom trong danh sách, nên tắt một giờ cũng không bỏ lỡ gì. Nhấn lần nữa để bật lại.
 
 # Help topic "Notifications: what programs tell you": tip 6, shown in a box of its own.
-settings-help-topics-notifications-tip6 = Dấu chéo trên một thông báo chỉ cất nó đi. Nó vẫn còn trong danh sách. Dấu tích xanh sau khi lưu ảnh chụp màn hình hiện ở cùng chỗ đó.
+settings-help-topics-notifications-tip6 = Dấu chéo trên một thông báo chỉ cất nó đi. Nó vẫn còn trong danh sách.
 
 # Title of the Help topic "Getting new apps".
 settings-help-topics-apps-title = Tải ứng dụng mới
@@ -515,7 +515,7 @@ settings-help-topics-screenshots-step2-2 = Để chụp một phần, hãy nhấ
 settings-help-topics-screenshots-step2-3 = Đổi ý? Nhấn dấu chéo, hoặc Esc.
 
 # Help topic "Taking a picture of the screen": paragraph 3.
-settings-help-topics-screenshots-p3 = Ảnh được lưu trong Ảnh, trong thư mục tên Screenshots, đặt tên theo ngày giờ. Nó cũng được sao chép, nên bạn dán thẳng vào thư hoặc tài liệu được, và một dấu tích xanh hiện trong chốc lát ở mép màn hình, nơi thông báo xuất hiện.
+settings-help-topics-screenshots-p3 = Ảnh được lưu trong Ảnh, trong thư mục tên Screenshots, đặt tên theo ngày giờ. Nó cũng được sao chép, nên bạn dán thẳng vào thư hoặc tài liệu được. Khi thành công sẽ không hiện gì; chỉ khi có sự cố mới được báo.
 
 # Help topic "Taking a picture of the screen": tip 4, shown in a box of its own.
 settings-help-topics-screenshots-tip4 = Shift và Print chụp toàn màn hình ngay, không hỏi gì.
@@ -716,7 +716,7 @@ settings-help-topics-files-p5 = Nhấp chuột phải trong Folders để có th
 
 # Help topic "Folders, USB sticks and phones": paragraph 6.
 # SAFETY: needs a human review before it ships
-settings-help-topics-files-p6 = Nhấn phím cách trên một tệp để xem nó mà không mở, và nhấn lần nữa để đóng. F4 mở terminal trong thư mục bạn đang ở. Nhấp chuột phải vào một thư mục hoặc tệp và chọn Ghim vào vòng tròn để giữ nó quanh phần giữa vòng tròn cùng các ứng dụng yêu thích, nơi một cú nhấp mở nó; nhấp chuột phải vào nó ở đó để bỏ ghim. Nhấp chuột phải vào ảnh để đổi kích thước hoặc xoay. Mục Thuộc tính của tệp có thể gán cho nó một biểu tượng nhỏ, và của thư mục có thể chia sẻ nó với các máy tính khác trong mạng gia đình: lần đầu, Folders bật Samba, nó hỏi mật khẩu của bạn, và việc chia sẻ chạy được sau khi máy khởi động lại. Ở chế độ danh sách, nhấp chuột phải vào tiêu đề cột để thêm chi tiết nhạc, ảnh và PDF.
+settings-help-topics-files-p6 = Nhấn phím cách trên một tệp để xem nó mà không mở, và nhấn lần nữa để đóng. F4 mở terminal trong thư mục bạn đang ở. Nhấp chuột phải vào một thư mục hoặc tệp và chọn Ghim vào vòng tròn để giữ nó quanh phần giữa vòng tròn cùng các ứng dụng yêu thích, nơi một cú nhấp mở nó; nhấp chuột phải vào nó ở đó để bỏ ghim. Nhấp chuột phải vào ảnh để đổi kích thước hoặc xoay. Mục Thuộc tính của tệp có thể gán cho nó một biểu tượng nhỏ, và của thư mục có thể chia sẻ nó với các máy tính khác trong cùng mạng cục bộ (ở nhà, hoặc tất cả mọi người trong mạng quán cà phê hay văn phòng mà bạn tham gia): lần đầu, Folders bật Samba, nó hỏi mật khẩu của bạn, và việc chia sẻ chạy được sau khi máy khởi động lại. Ở chế độ danh sách, nhấp chuột phải vào tiêu đề cột để thêm chi tiết nhạc, ảnh và PDF.
 
 # Help topic "Folders, USB sticks and phones": paragraph 7.
 settings-help-topics-files-p7 = Mỗi tên trong đường dẫn ở trên cùng có một mũi tên nhỏ phía sau: nhấn vào nó để xem danh sách các thư mục bên trong thư mục đó, và chọn một thư mục để đến đó. Nhấp chuột giữa vào một thư mục, hoặc Ctrl và nhấp đúp, mở nó trong thẻ mới phía sau thẻ bạn đang ở, và nhấp chuột giữa vào một thẻ sẽ đóng nó. Kéo một thư mục vào giữa hai thư mục được ghim ở bên trái để ghim nó ở đó, và kéo các thư mục đã ghim lên xuống để xếp theo thứ tự bạn thích. Dưới ô Tìm có ba danh sách, Loại, Cỡ và Đã đổi, thu hẹp những gì hiển thị ngay khi bạn chọn.

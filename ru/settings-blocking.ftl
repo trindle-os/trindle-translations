@@ -195,3 +195,8 @@ settings-firewall-done-off = Брандмауэр выключен
 # Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
 settings-blocking-card = Блокировка
 
+
+
+# Small line under the firewall switch when it is on but its rules are not loaded.
+settings-firewall-not-in-force = Включён, но не действует: его правила не загрузились при запуске компьютера. Выключите и включите снова.
+

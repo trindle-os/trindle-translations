@@ -185,3 +185,8 @@ settings-firewall-done-off = Ngome ya moto imezimwa
 
 # Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
 settings-blocking-card = Kuzuia
+
+
+# Small line under the firewall switch when it is on but its rules are not loaded.
+settings-firewall-not-in-force = Imewashwa, lakini haifanyi kazi: kanuni zake hazikupakiwa kompyuta ilipowashwa. Izime kisha uiwashe tena.
+

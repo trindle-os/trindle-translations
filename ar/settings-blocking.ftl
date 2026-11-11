@@ -203,3 +203,8 @@ settings-firewall-done-off = جدار الحماية متوقف
 # Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
 settings-blocking-card = الحظر
 
+
+
+# Small line under the firewall switch when it is on but its rules are not loaded.
+settings-firewall-not-in-force = يعمل، لكنه غير مطبَّق: لم تُحمَّل قواعده عند تشغيل الحاسوب. أوقفه ثم شغّله من جديد.
+

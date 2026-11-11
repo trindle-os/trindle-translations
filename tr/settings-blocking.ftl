@@ -192,3 +192,8 @@ settings-firewall-done-off = Güvenlik duvarı kapalı
 # Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
 settings-blocking-card = Engelleme
 
+
+
+# Small line under the firewall switch when it is on but its rules are not loaded.
+settings-firewall-not-in-force = Açık, ama etkin değil: kuralları bilgisayar açılırken yüklenmedi. Kapatıp yeniden açın.
+

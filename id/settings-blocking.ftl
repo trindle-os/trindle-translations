@@ -184,3 +184,8 @@ settings-firewall-done-off = Firewall mati
 # Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
 settings-blocking-card = Pemblokiran
 
+
+
+# Small line under the firewall switch when it is on but its rules are not loaded.
+settings-firewall-not-in-force = Menyala, tetapi belum berlaku: aturannya tidak termuat saat komputer dinyalakan. Matikan lalu nyalakan lagi.
+

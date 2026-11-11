@@ -113,3 +113,7 @@ kit-trash-too-many-names = la Papelera tiene demasiados elementos con este nombr
 # Note shown when the other computer or a network place does not answer.
 kit-reach-not-answering = El otro equipo no responde.
 
+
+
+kit-work-drive-no-safe-restore = esta unidad no puede restaurar con seguridad; copia el archivo fuera de la papelera en su lugar
+

@@ -184,3 +184,8 @@ settings-firewall-done-off = फ़ायरवॉल बंद
 # Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
 settings-blocking-card = रोक
 
+
+
+# Small line under the firewall switch when it is on but its rules are not loaded.
+settings-firewall-not-in-force = चालू है, पर लागू नहीं है: कंप्यूटर शुरू होने पर इसके नियम लोड नहीं हुए। इसे बंद करके फिर चालू करें।
+

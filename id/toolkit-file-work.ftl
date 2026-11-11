@@ -107,3 +107,7 @@ kit-trash-too-many-names = Sampah punya terlalu banyak item dengan nama ini
 # Note shown when the other computer or a network place does not answer.
 kit-reach-not-answering = Komputer lain tidak menjawab.
 
+
+
+kit-work-drive-no-safe-restore = drive ini tidak dapat memulihkan dengan aman; salin berkas dari Tempat Sampah sebagai gantinya
+

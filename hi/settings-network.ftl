@@ -315,7 +315,7 @@ settings-network-disconnect-failed = यह जुड़ाव हटाया �
 settings-network-ports = खुले पोर्ट
 
 # Help text (i button) of the Open ports card.
-settings-network-ports-about = हर पोर्ट बंद रहता है, जब तक इस कंप्यूटर ने पहले न माँगा हो। इसलिए जो प्रोग्राम दूसरों के जुड़ने का इंतज़ार करता है, जैसे गेम सर्वर या सिंक टूल, उस तक तब तक नहीं पहुँचा जा सकता जब तक उसका पोर्ट यहाँ न खोला जाए। यहाँ खोला गया पोर्ट सिर्फ़ आपके घर के नेटवर्क के कंप्यूटरों को आने देता है, पूरे इंटरनेट को कभी नहीं। पोर्ट खोलने या बंद करने पर प्रशासक का पासवर्ड माँगा जाता है।
+settings-network-ports-about = हर पोर्ट बंद रहता है, जब तक इस कंप्यूटर ने पहले न माँगा हो। इसलिए जो प्रोग्राम दूसरों के जुड़ने का इंतज़ार करता है, जैसे गेम सर्वर या सिंक टूल, उस तक तब तक नहीं पहुँचा जा सकता जब तक उसका पोर्ट यहाँ न खोला जाए। यहाँ खोला गया पोर्ट इस कंप्यूटर के स्थानीय नेटवर्क के किसी भी कंप्यूटर को आने देता है, पूरे इंटरनेट को कभी नहीं। कैफ़े, होटल या दफ़्तर के नेटवर्क पर इसका मतलब वहाँ के सभी लोग भी हैं। पोर्ट खोलने या बंद करने पर प्रशासक का पासवर्ड माँगा जाता है।
 
 # Line in the Open ports card when no port is open.
 settings-network-ports-none = कोई पोर्ट खुला नहीं है
@@ -324,7 +324,7 @@ settings-network-ports-none = कोई पोर्ट खुला नही�
 settings-network-ports-none-sub = दूसरे कंप्यूटरों के लिए हर पोर्ट बंद है।
 
 # Small line under an open port, such as TCP 37666.
-settings-network-port-sub = आपके घर के नेटवर्क के लिए खुला।
+settings-network-port-sub = इस स्थानीय नेटवर्क के लिए खुला।
 
 # Tooltip of the button that closes an open port. { $port } is like TCP 37666.
 settings-network-port-close = { $port } बंद करें

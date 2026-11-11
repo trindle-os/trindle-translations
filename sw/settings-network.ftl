@@ -310,7 +310,7 @@ settings-network-disconnect-failed = Haikukubali kukatwa.
 settings-network-ports = Milango iliyofunguliwa
 
 # Help text (i button) of the Open ports card.
-settings-network-ports-about = Kila mlango umefungwa isipokuwa kompyuta hii iliomba kwanza, kwa hiyo programu inayosubiri wengine waunganishe, kama seva ya mchezo au zana ya kusawazisha, haiwezi kufikiwa hadi mlango wake ufunguliwe hapa. Mlango unaofunguliwa hapa huruhusu kompyuta za mtandao wako wa nyumbani pekee, kamwe si intaneti pana. Kufungua au kufunga mlango huomba nenosiri la msimamizi.
+settings-network-ports-about = Kila mlango umefungwa isipokuwa kompyuta hii iliomba kwanza, kwa hiyo programu inayosubiri wengine waunganishe, kama seva ya mchezo au zana ya kusawazisha, haiwezi kufikiwa hadi mlango wake ufunguliwe hapa. Mlango unaofunguliwa hapa huruhusu kompyuta yoyote kwenye mtandao wa ndani ambamo kompyuta hii ipo, kamwe si intaneti pana. Kwenye mtandao wa mkahawa, hoteli au ofisi, hiyo inamaanisha kila mtu aliye pale pia. Kufungua au kufunga mlango huomba nenosiri la msimamizi.
 
 # Line in the Open ports card when no port is open.
 settings-network-ports-none = Hakuna milango iliyofunguliwa
@@ -319,7 +319,7 @@ settings-network-ports-none = Hakuna milango iliyofunguliwa
 settings-network-ports-none-sub = Kila mlango umefungwa kwa kompyuta nyingine.
 
 # Small line under an open port, such as TCP 37666.
-settings-network-port-sub = Umefunguliwa kwa mtandao wako wa nyumbani.
+settings-network-port-sub = Umefunguliwa kwa mtandao huu wa ndani.
 
 # Tooltip of the button that closes an open port. { $port } is like TCP 37666.
 settings-network-port-close = Funga { $port }

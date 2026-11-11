@@ -314,7 +314,7 @@ settings-network-disconnect-failed = 无法断开连接。
 settings-network-ports = 开放的端口
 
 # Help text (i button) of the Open ports card.
-settings-network-ports-about = 除非本机先提出请求，否则每个端口都是关闭的，所以等待别人连接的程序，例如游戏服务器或同步工具，必须先在这里开放端口才能被连上。在这里开放的端口只允许你家庭网络中的电脑连入，绝不会对更广的互联网开放。开放或关闭端口时会要求输入管理员密码。
+settings-network-ports-about = 除非本机先提出请求，否则每个端口都是关闭的，所以等待别人连接的程序，例如游戏服务器或同步工具，必须先在这里开放端口才能被连上。在这里开放的端口允许本机所在本地网络中的任何电脑连入，绝不会对更广的互联网开放。在咖啡馆、酒店或办公室的网络上，这也包括那里的所有人。开放或关闭端口时会要求输入管理员密码。
 
 # Line in the Open ports card when no port is open.
 settings-network-ports-none = 没有开放的端口
@@ -323,7 +323,7 @@ settings-network-ports-none = 没有开放的端口
 settings-network-ports-none-sub = 对其他电脑，所有端口都是关闭的。
 
 # Small line under an open port, such as TCP 37666.
-settings-network-port-sub = 向你的家庭网络开放。
+settings-network-port-sub = 向此本地网络开放。
 
 # Tooltip of the button that closes an open port. { $port } is like TCP 37666.
 settings-network-port-close = 关闭 { $port }

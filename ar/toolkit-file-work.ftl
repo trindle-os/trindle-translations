@@ -122,3 +122,7 @@ kit-trash-too-many-names = في سلة المحذوفات عناصر كثيرة 
 # Note shown when the other computer or a network place does not answer.
 kit-reach-not-answering = الحاسوب الآخر لا يستجيب.
 
+
+
+kit-work-drive-no-safe-restore = لا يمكن لهذا القرص الاستعادة بأمان؛ انسخ الملف من سلة المحذوفات بدلًا من ذلك
+

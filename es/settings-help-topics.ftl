@@ -177,7 +177,7 @@ settings-help-topics-notifications-p4 = Tú eliges cuánto tiempo permanece cada
 settings-help-topics-notifications-p5 = Para desactivar las notificaciones, abre la lista desde el círculo de Notificaciones y pulsa la campana del final. Aparece tachada mientras están desactivadas, para que lo veas de un vistazo. Dejan de aparecer, pero se siguen reuniendo en la lista, así que no se pierde nada por desactivarlas durante una hora. Púlsala de nuevo para volver a activarlas.
 
 # Help topic "Notifications: what programs tell you": tip 6, shown in a box of its own.
-settings-help-topics-notifications-tip6 = La cruz de una notificación solo la guarda. Sigue estando en la lista. La marca verde que aparece al guardar una captura de pantalla sale en el mismo lugar.
+settings-help-topics-notifications-tip6 = La cruz de una notificación solo la guarda. Sigue estando en la lista.
 
 # Title of the Help topic "Getting new apps".
 settings-help-topics-apps-title = Conseguir aplicaciones nuevas
@@ -504,7 +504,7 @@ settings-help-topics-screenshots-step2-2 = Para una parte, pulsa el cuadrado de 
 settings-help-topics-screenshots-step2-3 = ¿Has cambiado de opinión? Pulsa la cruz, o Esc.
 
 # Help topic "Taking a picture of the screen": paragraph 3.
-settings-help-topics-screenshots-p3 = La imagen se guarda en Imágenes, en una carpeta llamada Capturas de pantalla, con la fecha y la hora como nombre. También se copia, para que puedas pegarla directamente en un correo o un documento, y una marca verde se muestra un momento en el borde de la pantalla, donde aparecen las notificaciones.
+settings-help-topics-screenshots-p3 = La imagen se guarda en Imágenes, en una carpeta llamada Capturas de pantalla, con la fecha y la hora como nombre. También se copia, para que puedas pegarla directamente en un correo o un documento. Cuando funciona no se muestra nada; solo se avisa de un problema.
 
 # Help topic "Taking a picture of the screen": tip 4, shown in a box of its own.
 settings-help-topics-screenshots-tip4 = Mayús e Imprimir toma toda la pantalla de una vez, sin preguntar.
@@ -707,7 +707,7 @@ settings-help-topics-files-p5 = Haz clic derecho en Carpetas para más: Extraer 
 
 # SAFETY: needs a human review before it ships
 # Help topic "Folders, USB sticks and phones": paragraph 6.
-settings-help-topics-files-p6 = Pulsa la barra espaciadora sobre un archivo para verlo sin abrirlo, y otra vez para cerrarlo. F4 abre una terminal en la carpeta en la que estás. Haz clic derecho en una carpeta o un archivo y elige Fijar al anillo para mantenerlo alrededor del centro del anillo con tus aplicaciones favoritas, donde un clic lo abre; haz clic derecho sobre él allí para desfijarlo. Haz clic derecho en imágenes para cambiar su tamaño o girarlas. Las Propiedades de un archivo pueden darle un pequeño emblema, y las de una carpeta pueden compartirla con otros equipos de tu red doméstica: la primera vez, Carpetas activa Samba, que pide tu contraseña, y la compartición funciona cuando el equipo se ha reiniciado. En la vista de lista, haz clic derecho en los encabezados de columna para añadir detalles de música, fotos y PDF.
+settings-help-topics-files-p6 = Pulsa la barra espaciadora sobre un archivo para verlo sin abrirlo, y otra vez para cerrarlo. F4 abre una terminal en la carpeta en la que estás. Haz clic derecho en una carpeta o un archivo y elige Fijar al anillo para mantenerlo alrededor del centro del anillo con tus aplicaciones favoritas, donde un clic lo abre; haz clic derecho sobre él allí para desfijarlo. Haz clic derecho en imágenes para cambiar su tamaño o girarlas. Las Propiedades de un archivo pueden darle un pequeño emblema, y las de una carpeta pueden compartirla con otros equipos de la misma red local (en casa, o todos los de una red de cafetería u oficina a la que te conectes): la primera vez, Carpetas activa Samba, que pide tu contraseña, y la compartición funciona cuando el equipo se ha reiniciado. En la vista de lista, haz clic derecho en los encabezados de columna para añadir detalles de música, fotos y PDF.
 
 # Help topic "Folders, USB sticks and phones": paragraph 7.
 settings-help-topics-files-p7 = Cada nombre de la ruta de arriba tiene una pequeña flecha después: púlsala para ver una lista de las carpetas dentro de esa carpeta, y elige una para ir a ella. Un clic central en una carpeta, o Ctrl y doble clic, la abre en una pestaña nueva detrás de la actual, y un clic central en una pestaña la cierra. Arrastra una carpeta entre dos de las carpetas fijadas a la izquierda para fijarla ahí, y arrastra las carpetas fijadas arriba y abajo para ponerlas en el orden que prefieras. Bajo la casilla Buscar hay tres listas, Tipo, Tamaño y Modificado, que acotan lo que se muestra en cuanto eliges.
