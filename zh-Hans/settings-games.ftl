@@ -110,7 +110,6 @@ settings-games-drive-not-files = 没有文件
 settings-games-drive-unknown = 不是游戏能运行的格式
 
 
-
 # The card listing the person's Steam games.
 settings-games-steam-title = Steam 游戏
 

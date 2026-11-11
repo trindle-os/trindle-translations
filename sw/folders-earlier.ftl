@@ -97,3 +97,28 @@ folders-earlier-put-back-tip = Irudishe
 # Tip and name of the round button on an earlier version's row that compares it with the one there now.
 folders-earlier-compare-tip = Soma zote mbili na useme kama zina yaliyomo yale yale
 
+
+
+# Red words when what is given to put back is not one of the earlier versions.
+folders-earlier-put-back-not-version = Hiyo si nakala ya awali.
+
+# Red words when an earlier version is asked to be put back outside the home folder.
+folders-earlier-put-back-home-only = Nakala ya awali inaweza kurudishwa ndani ya folda ya nyumbani pekee.
+
+# Red words when the place to put an earlier version back has no usable name.
+folders-earlier-put-back-no-place = Hapo si mahali ambapo faili inaweza kwenda.
+
+# Red words when the folder an earlier version was in cannot be made again; why it failed.
+folders-earlier-put-back-folder-lost = Folda iliyokuwemo haikuweza kutengenezwa tena: { $why }
+
+# Red words when copying an earlier version back fails; why it failed.
+folders-earlier-put-back-copy-failed = Nakala ya awali haikuweza kunakiliwa: { $why }
+
+# Red words when what is there now cannot be set aside before putting an earlier version back; why it failed.
+folders-earlier-put-back-aside-failed = Kilichopo sasa hakikuweza kuwekwa kando: { $why }
+
+# Red words when the earlier version could not be put in place and what was there has been left under another name; why it failed, then that name.
+folders-earlier-put-back-in-place-named = Nakala ya awali haikuweza kuwekwa mahali pake: { $why }. Kilichokuwepo sasa kinaitwa { $name }.
+
+# Red words when the earlier version could not be put in place; why it failed.
+folders-earlier-put-back-in-place = Nakala ya awali haikuweza kuwekwa mahali pake: { $why }

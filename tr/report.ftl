@@ -44,9 +44,6 @@ report-not-taken = Raporlar henüz alınmıyor.
 # Written where the Send button would be, while Buildmorphic is being asked whether it is taking reports.
 report-checking = Denetleniyor.
 
-# Written where the Send button would be, when the switch for reports in Settings is off.
-report-off = Raporlar kapalı.
-
 # Why a report is waiting: Buildmorphic had too many reports at once and the report is tried again later.
 report-too-many = Aynı anda çok fazla rapor var.
 
@@ -122,4 +119,14 @@ report-no-log = Yanında gönderilecek günlük yok, bu yüzden gönderilemez. B
 
 
 report-sent-as-bug = Gönderildi. { $number } numaralı hata olarak görüldü. Teşekkürler.
+
+
+# Under the title, beta only: why a report matters and what it holds.
+report-beta = Trindle beta aşamasında ve her rapor onu kusursuz çalıştırmamıza yardımcı olur. Rapor anonimdir ve özel ya da kişisel hiçbir şey içermez. E-posta gerekmez, kullanıcı adı isteğe bağlıdır. Gönder'e basana kadar hiçbir şey gönderilmez.
+
+# Typing box under the first one: the optional Buildmorphic username that credits the report.
+report-username-box = Buildmorphic kullanıcı adı (isteğe bağlı)
+
+# Red words when a report posted by hand could not get through. $why is the reason, such as "No connection."
+report-try-again = Gönderilmedi. { $why } Yeniden denemek için Gönder'e basın.
 

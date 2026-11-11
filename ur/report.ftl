@@ -42,9 +42,6 @@ report-not-taken = رپورٹیں ابھی قبول نہیں ہو رہیں۔
 # Written where the Send button would be, while Buildmorphic is being asked whether it is taking reports.
 report-checking = جانچ ہو رہی ہے۔
 
-# Written where the Send button would be, when the switch for reports in Settings is off.
-report-off = رپورٹیں بند ہیں۔
-
 # Why a report is waiting: Buildmorphic had too many reports at once and the report is tried again later.
 report-too-many = ایک ساتھ بہت زیادہ رپورٹیں۔
 
@@ -120,4 +117,14 @@ report-no-log = اس کے ساتھ بھیجنے کے لیے کوئی لاگ نہ
 
 
 report-sent-as-bug = بھیج دیا گیا۔ خرابی { $number } کے طور پر درج ہوا۔ شکریہ۔
+
+
+# Under the title, beta only: why a report matters and what it holds.
+report-beta = Trindle بیٹا میں ہے، اور ہر رپورٹ اسے بہترین طریقے سے چلانے میں ہماری مدد کرتی ہے۔ رپورٹ گمنام ہوتی ہے اور اس میں کوئی نجی یا ذاتی چیز نہیں ہوتی۔ ای میل کی ضرورت نہیں اور صارف نام اختیاری ہے۔ جب تک آپ بھیجیں نہ دبائیں، کچھ نہیں بھیجا جاتا۔
+
+# Typing box under the first one: the optional Buildmorphic username that credits the report.
+report-username-box = Buildmorphic صارف نام (اختیاری)
+
+# Red words when a report posted by hand could not get through. $why is the reason, such as "No connection."
+report-try-again = نہیں بھیجا گیا۔ { $why } دوبارہ کوشش کے لیے بھیجیں دبائیں۔
 

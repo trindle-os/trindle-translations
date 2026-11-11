@@ -164,3 +164,28 @@ settings-blocking-private-sub = Quad9 不记录是谁发出的查询。
 # Name of the choice in Private server that uses the network's own servers.
 settings-blocking-provider-network = 你的网络
 
+
+# Heading of the Firewall card, first on the Firewall and blocking page.
+settings-firewall = 防火墙
+
+# Help text (i button) of the Firewall card.
+settings-firewall-about = 开启时，防火墙会拦住其他电脑发来的、本机没有请求过的所有连接，所以同一 Wi-Fi 上的人无法随意尝试。上网、更新和打印机照常可用。等待别人连接的程序，例如游戏服务器，需要在下面开放它的端口。关闭时，任何电脑都能连上每个在监听的程序。切换时会要求输入管理员密码。
+
+# Name of the firewall's on and off switch.
+settings-firewall-switch = 防火墙
+
+# Small line under the switch while the firewall is on.
+settings-firewall-on-sub = 除非你允许，否则其他电脑无法连接。
+
+# Small line under the switch while the firewall is off.
+settings-firewall-off-sub = 已关闭：其他电脑可以连上每个在监听的程序。
+
+# Said beside the switch once the firewall is on.
+settings-firewall-done-on = 防火墙已开启
+
+# Said beside the switch once the firewall is off.
+settings-firewall-done-off = 防火墙已关闭
+
+# Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
+settings-blocking-card = 拦截
+

@@ -63,3 +63,10 @@ folders-app-view-not-kept = L'affichage de ce dossier n'a pas pu être conservé
 
 # Red words at the foot of the window when the choice of grouping could not be saved.
 folders-app-grouping-not-kept = Le regroupement n'a pas pu être conservé pour la prochaine fois.
+
+# Said in a window run as administrator when a file, an archive or a preview is asked for.
+folders-app-root-folders-only = Une fenêtre lancée en tant qu'administrateur ne travaille qu'avec des dossiers : aucun fichier n'y est donc ouvert, exploré ou affiché avec les droits d'administrateur.
+
+# Red words when the list of what opens what cannot be read, so the choice is not written; why it cannot be read.
+folders-app-opener-unreadable = Rien n'a été modifié, car { $why }.
+

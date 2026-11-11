@@ -353,7 +353,6 @@ text-done = हो गया
 text-untitled-file = बिना नाम.txt
 
 
-
 # Line under the Save button when the file was changed by something else after Text opened, saved or reloaded it. Nothing has been saved.
 text-changed-elsewhere = आपके खोलने के बाद कहीं और बदली गई है।
 

@@ -51,3 +51,7 @@ folders-remote-mtp-rename-storage = Bir depolama alanını yeniden adlandırma
 # Words shown when the phone is plugged in but shows no storage.
 folders-remote-mtp-no-storage = Telefon hiçbir depolama alanı göstermiyor. Kilidini açın, Dosya aktarımı'nı seçin ve yeniden deneyin.
 
+
+# Name shown for a phone's storage that has no name of its own.
+folders-remote-mtp-storage-name = Depolama
+

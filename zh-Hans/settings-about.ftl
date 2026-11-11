@@ -224,7 +224,6 @@ settings-about-updates-waiting = 正在等待密码...
 settings-about-updates-by-itself-sub = 关闭后，除非你要求，否则不会查找。
 
 
-
 # Bold line of the switch for Debian's security fixes; also the switch's name for a screen reader.
 settings-about-security = 安全更新
 

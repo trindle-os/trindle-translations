@@ -40,9 +40,6 @@ store-group-settings = 应用设置
 # Small heading over the categories of apps.
 store-group-categories = 分类
 
-# Small heading over the other ways to get an app.
-store-group-more = 获取应用的更多方式
-
 # Title of a page of search results; the words searched for are in the quotes.
 store-grid-results = “{ $text }”的搜索结果
 
@@ -105,4 +102,8 @@ store-not-updated-none = 未更新，Flatpak 也没有给出原因。
 
 # Side bar place and title: the AppImages AppImageHub lists.
 store-nav-browse = 浏览 AppImage
+
+
+# Heading of the Flatpaks a detailed search found on Flathub.
+store-gh-flathub = Flathub 上的 Flatpak（{ $n }）
 

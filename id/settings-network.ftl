@@ -301,3 +301,55 @@ settings-network-kept-anyway = { $words } Jaringan tetap disimpan: lupakan denga
 
 # Said in red when a network would not disconnect.
 settings-network-disconnect-failed = Jaringan tidak mau terputus.
+
+# Heading of the card that lists the ports opened by hand.
+settings-network-ports = Port terbuka
+
+# Help text (i button) of the Open ports card.
+settings-network-ports-about = Setiap port tertutup kecuali komputer ini memintanya lebih dulu, jadi program yang menunggu sambungan dari orang lain, seperti server game atau alat sinkronisasi, tidak dapat dijangkau sampai port-nya dibuka di sini. Port yang dibuka di sini hanya mengizinkan komputer di jaringan rumah Anda, tidak pernah internet yang lebih luas. Membuka atau menutupnya meminta kata sandi administrator.
+
+# Line in the Open ports card when no port is open.
+settings-network-ports-none = Tidak ada port yang dibuka
+
+# Small line under it.
+settings-network-ports-none-sub = Setiap port tertutup bagi komputer lain.
+
+# Small line under an open port, such as TCP 37666.
+settings-network-port-sub = Terbuka untuk jaringan rumah Anda.
+
+# Tooltip of the button that closes an open port. { $port } is like TCP 37666.
+settings-network-port-close = Tutup { $port }
+
+# Heading of the line that opens a port.
+settings-network-port-add = Buka sebuah port
+
+# Small line under it.
+settings-network-port-add-sub = Untuk program yang disambungi orang lain.
+
+# Placeholder in the box where the port number is typed.
+settings-network-port-number = Nomor port
+
+# Tooltip of the choice of TCP, UDP or both.
+settings-network-port-protocol = Protokol
+
+# Choice: the TCP protocol only. Usually left as TCP.
+settings-network-port-tcp = TCP
+
+# Choice: the UDP protocol only. Usually left as UDP.
+settings-network-port-udp = UDP
+
+# Choice: both TCP and UDP.
+settings-network-port-both = Keduanya
+
+# Button that opens the typed port.
+settings-network-port-open = Buka
+
+# Red words when what was typed is not a port number.
+settings-network-port-not-a-port = Ketik angka dari 1 sampai 65535.
+
+# Red words when the port is already open.
+settings-network-port-already = Sudah terbuka.
+
+# Said under the line once the port is open.
+settings-network-port-opened = Terbuka
+

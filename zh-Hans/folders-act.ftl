@@ -327,3 +327,7 @@ folders-act-links-failed =
 # SAFETY: needs a human review before it ships
 # Words under the file lines when the window is closed while work waits for an answer.
 folders-act-closing-waits = 有些工作正在等待回答。请先回答，或停止这些工作，再关闭。
+
+# Words under the file lines when the window is closed while work goes on.
+folders-act-closing-busy = 传输完成前，“文件夹”无法关闭。请等它完成，或先停止，再关闭。
+

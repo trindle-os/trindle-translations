@@ -37,18 +37,6 @@ store-tab-count = { $name } { $n }
 # Spoken name of a strip of tabs on the Installed page.
 store-tabs-show = 显示
 
-# How long is left when it is a minute or less.
-store-left-minute = 还剩约一分钟
-
-# How long is left, in minutes.
-store-left-minutes = 还剩约 { $n } 分钟
-
-# How long is left, in hours.
-store-left-hours =
-    { $n ->
-       *[other] 还剩约 { $n } 小时
-    }
-
 # Credit under a package's page for the list its site was checked against.
 store-origin-credit = 已对照 HaGeZi 的威胁情报列表检查
 

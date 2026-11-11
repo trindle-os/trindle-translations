@@ -40,9 +40,6 @@ store-group-settings = Pengaturan aplikasi
 # Small heading over the categories of apps.
 store-group-categories = Kategori
 
-# Small heading over the other ways to get an app.
-store-group-more = Cara lain mendapatkan aplikasi
-
 # Title of a page of search results; the words searched for are in the quotes.
 store-grid-results = Hasil untuk “{ $text }”
 
@@ -105,4 +102,8 @@ store-not-updated-none = Tidak diperbarui, dan Flatpak tidak memberi alasan.
 
 # Side bar place and title: the AppImages AppImageHub lists.
 store-nav-browse = Jelajahi AppImage
+
+
+# Heading of the Flatpaks a detailed search found on Flathub.
+store-gh-flathub = Flatpak di Flathub ({ $n })
 

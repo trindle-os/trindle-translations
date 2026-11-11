@@ -79,7 +79,6 @@ kit-example-gallery-hello = नमस्ते, { $name }
 kit-example-gallery-progress = प्रगति
 
 
-
 # The gallery's number box: the card's heading, and the name of the box.
 kit-example-gallery-copies = संख्या बॉक्स
 

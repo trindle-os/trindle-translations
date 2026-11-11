@@ -378,3 +378,10 @@ settings-keyboard-restart-clash = { $keys } başka bir kısayol tarafından zate
 # Said in red under a restart shortcut that could not be kept; { $why } is the reason.
 settings-keyboard-restart-not-saved = Kaydedilmedi: { $why }
 
+
+# Name of the shortcut and its line that opens the window to report a problem.
+settings-keyboard-shortcuts-report = Sorun bildir
+
+# Tip of the round button that opens the report window now.
+settings-keyboard-shortcuts-report-tip = Sorunu şimdi bildir
+

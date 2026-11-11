@@ -62,9 +62,6 @@ folders-view-sort-by = Urutkan menurut
 # Name read out for the toolbar's Group by strip.
 folders-view-group-by = Kelompokkan menurut
 
-# Tip and spoken name of the toolbar button that shows hidden files.
-folders-view-show-hidden = Tampilkan file tersembunyi
-
 # Tip of the toolbar button that hides the preview panel.
 folders-view-panel-hide = Sembunyikan panel pratinjau (Alt+P)
 
@@ -328,4 +325,14 @@ folders-view-search-none = Tidak ada yang bisa dicari di halaman ini
 
 # Name read out for the Search button, which says whether it is pressed.
 folders-view-search-spoken = Cari
+
+
+# Tip of the toolbar button that shows hidden files (Ctrl+H).
+folders-view-hidden-show = Tampilkan berkas tersembunyi (Ctrl+H)
+
+# Tip of the toolbar button that hides hidden files again (Ctrl+H).
+folders-view-hidden-hide = Sembunyikan berkas tersembunyi (Ctrl+H)
+
+# Name read out for the toolbar button that shows or hides hidden files.
+folders-view-hidden-spoken = Berkas tersembunyi
 

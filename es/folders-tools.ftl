@@ -406,3 +406,7 @@ folders-tools-compare-copy-left = Copiar { $n } que faltan o más recientes a la
 # Button in the pane compare window; { $n } is how many names are copied to the right folder.
 folders-tools-compare-copy-right = Copiar { $n } que faltan o más recientes a la derecha
 
+
+# Line in the Wipe window naming the folders that were picked too, which are not wiped.
+folders-tools-wipe-left-out = Las carpetas no se borran de forma segura, así que estas se dejan como están: { $names }.
+

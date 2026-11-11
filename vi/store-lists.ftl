@@ -38,18 +38,6 @@ store-tab-count = { $name } { $n }
 # Spoken name of a strip of tabs on the Installed page.
 store-tabs-show = Hiển thị
 
-# How long is left when it is a minute or less.
-store-left-minute = còn khoảng một phút
-
-# How long is left, in minutes.
-store-left-minutes = còn khoảng { $n } phút
-
-# How long is left, in hours.
-store-left-hours =
-    { $n ->
-       *[other] còn khoảng { $n } giờ
-    }
-
 # Credit under a package's page for the list its site was checked against.
 store-origin-credit = Đã đối chiếu với danh sách Threat Intelligence của HaGeZi
 

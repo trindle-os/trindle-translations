@@ -19,17 +19,11 @@ welcome-page-plugins = प्लगइन और जोड़ते हैं
 # Title of the sixth page, about crash reports.
 welcome-page-reports = Trindle को सुधारने में मदद करें
 
-# Title of the page that shows the coloured dots for what is in use.
-welcome-page-dots = बिंदु
-
 # Title of the last page, with a few things worth knowing.
 welcome-page-know = जानने लायक बातें
 
 # Sentence under the title of the first page.
 welcome-sentence-hello = आपकी ज़रूरत की हर चीज़ एक ही घेरे में है, रिंग में।
-
-# Sentence under the title of the second page.
-welcome-sentence-ring = स्क्रीन के बिल्कुल किनारे पर डबल-क्लिक करें, या Super कुंजी दबाएँ।
 
 # Sentence under the title of the third page.
 welcome-sentence-apps = अभी लगभग कुछ भी इंस्टॉल नहीं है, इसलिए अपनी पसंद के ऐप चुनें।
@@ -39,12 +33,6 @@ welcome-sentence-more-apps = और चुनें, फिर चुने ह�
 
 # Sentence under the title of the fifth page.
 welcome-sentence-plugins = प्लगइन Apps से मिलने वाले छोटे अतिरिक्त हिस्से हैं, और हर एक सिर्फ़ वही करता है जिसकी आप अनुमति दें।
-
-# Sentence under the title of the sixth page.
-welcome-sentence-reports = कुछ गड़बड़ होने पर चाहें तो रिपोर्ट भेजें।
-
-# Sentence under the title of the dots page.
-welcome-sentence-dots = बिंदु का मतलब है कि कोई प्रोग्राम आपकी कोई चीज़ इस्तेमाल कर रहा है।
 
 # Sentence under the title of the last page.
 welcome-sentence-know = कुछ बातें जो Trindle को अलग बनाती हैं।
@@ -104,39 +92,6 @@ welcome-chosen = चुने गए: { $names }।
 # Names of apps when there are more than three: the first two, then how many others.
 welcome-named-more = { $first }, { $second } और { $more } अन्य
 
-# Head of the card with the picture of the ring on the first page.
-welcome-hello-ring = रिंग
-
-# Head of the card on the first page that lists what the ring holds.
-welcome-hello-held = इसमें क्या है
-
-# Name of the first thing the ring holds.
-welcome-held-programs = आपके प्रोग्राम
-
-# Line under it.
-welcome-held-programs-line = बाहरी घेरे में रहते हैं।
-
-# Name of the second thing the ring holds.
-welcome-held-time = समय और तारीख़
-
-# Line under it.
-welcome-held-time-line = बीच में रहते हैं।
-
-# Name of the third thing the ring holds.
-welcome-held-switches = स्विच
-
-# Line under it.
-welcome-held-switches-line = आवाज़, स्क्रीन, चालू रखना और पावर।
-
-# Head of the card with the picture of the pointer opening the ring.
-welcome-ring-pointer = पॉइंटर से
-
-# Head of the card with the picture of the Super key.
-welcome-ring-keyboard = कीबोर्ड से
-
-# Note under the picture of the Super key.
-welcome-ring-super-note = Super कुंजी पर अक्सर Windows का लोगो होता है।
-
 # Head of a card of apps: web browsers.
 welcome-kind-browser = वेब ब्राउज़र
 
@@ -156,10 +111,10 @@ welcome-kind-media = संगीत और वीडियो
 welcome-kind-pictures = चित्र और ड्रॉइंग
 
 # Head of a card of apps: notes and writing.
-welcome-kind-notes = नोट्स और लेखन
+welcome-kind-notes = नोट्स और पासवर्ड
 
 # Head of a card of apps: PDF and documents.
-welcome-kind-pdf = PDF और दस्तावेज़
+welcome-kind-pdf = PDF और गेम
 
 # Shown in a card of apps when none of them is on Flathub.
 welcome-kind-empty = इनमें से कोई भी अभी Flathub पर नहीं है।
@@ -176,14 +131,8 @@ welcome-app-picked = { $name }, चुना गया
 # Name of the round button on an app's row that picks it.
 welcome-app-pick = { $name } चुनें
 
-# Head of the card with the picture of the ring holding plugins.
-welcome-plugins-ring = रिंग में
-
 # Head of the card that lists the plugins on offer.
 welcome-plugins-card = प्लगइन
-
-# Beside the button that opens Apps at its Plugins page.
-welcome-plugins-where = Apps में, Plugins के नीचे।
 
 # Name of the button that opens Apps at its Plugins page.
 welcome-plugins-open = Apps में प्लगइन खोलें
@@ -191,14 +140,8 @@ welcome-plugins-open = Apps में प्लगइन खोलें
 # Said in the plugins card while there are none to show.
 welcome-plugins-none = उपलब्ध प्लगइन Apps में सूचीबद्ध हैं।
 
-# Head of the card on the crash reports page.
-welcome-reports-card = क्रैश रिपोर्ट
-
 # The one question about crash reports.
 welcome-reports-question = कुछ गड़बड़ होने पर रिपोर्ट भेजकर Trindle को सुधारने में मदद करें? आप उसे हमेशा पहले देखते हैं।
-
-# Note under the question about crash reports.
-welcome-reports-note = आपके दबाए बिना कुछ नहीं भेजा जाता। आप पूरी रिपोर्ट पहले देखते हैं, और उसमें कोई फ़ाइल, पासवर्ड या Wi-Fi नाम नहीं होता।
 
 # Second note under the question about crash reports.
 welcome-reports-settings = आप इसे कभी भी Settings में, Crash reports पर बदल सकते हैं।
@@ -235,24 +178,6 @@ welcome-know-help = मदद Settings में है
 
 # Line in that card.
 welcome-know-help-line = यह परिचय All apps में Welcome नाम से है, जब भी आप इसे दोबारा देखना चाहें।
-
-# What the screen reader says for the picture of the ring on a clear screen.
-welcome-picture-hello = एक छोटी स्क्रीन जिस पर बीच में रिंग के सिवा कुछ नहीं: उसके केंद्र में समय, चारों ओर पसंदीदा ऐप।
-
-# What the screen reader says for the picture of the ring holding plugins.
-welcome-picture-plugins = एक छोटी स्क्रीन पर खुली रिंग, जिसके बीच में, समय के नीचे, कुछ प्लगइन के आइकन एक कतार में हैं, वहाँ जहाँ इंस्टॉल होने पर प्लगइन का आइकन आता है।
-
-# What the screen reader says for the picture of the pointer opening the ring.
-welcome-picture-dots = बिंदु कहाँ दिखते हैं, इसके दो छोटे चित्र: रिंग में किसी विंडो के टैब पर, और स्क्रीन के ऊपर बीच में।
-
-welcome-dots-where-tab = किसी विंडो के टैब पर
-
-welcome-dots-where-corner = स्क्रीन के ऊपर बीच में
-
-welcome-picture-ring = एक छोटी स्क्रीन। पॉइंटर बिल्कुल ऊपरी किनारे पर जाकर डबल-क्लिक करता है, और रिंग बीच में खुल जाती है।
-
-# What the screen reader says for the picture of the Super key.
-welcome-picture-super = Super कुंजी दबाई जा रही है, जिससे रिंग खुलती है।
 
 
 
@@ -331,19 +256,6 @@ welcome-files-hidden = छिपे हुए नाम
 # Line in that card.
 welcome-files-hidden-line = बिंदु से शुरू होने वाला नाम, जैसे .config, छिपा रहता है। उसमें किसी ऐप की सेटिंग होती हैं।
 
-# Head of a card on the files page.
-welcome-files-bin = रद्दी की टोकरी
-
-# Line in that card.
-# SAFETY: needs a human review before it ships
-welcome-files-bin-line = हटाई गई फ़ाइल टोकरी में तब तक रहती है जब तक आप उसे खाली न करें।
-
-# Head of a card on the software page.
-welcome-software-apps = ऐप्स के लिए एक जगह
-
-# Line in that card.
-welcome-software-apps-line = प्रोग्राम खोजने, लगाने और हटाने के लिए रिंग से ऐप्स खोलें।
-
 # Head of a card on the software page.
 welcome-software-exe = सेटअप फ़ाइलें नहीं
 
@@ -355,13 +267,6 @@ welcome-software-updates = अपडेट एक जगह
 
 # Line in that card.
 welcome-software-updates-line = ऐप्स और सेटिंग सब कुछ नया रखते हैं, इसलिए किसी ऐप को अपना अपडेटर नहीं चाहिए।
-
-# Head of a card on the software page.
-welcome-software-remove = हटाना साफ़ है
-
-# Line in that card.
-# SAFETY: needs a human review before it ships
-welcome-software-remove-line = किसी ऐप को हटाने पर वह पूरा हट जाता है और कुछ नहीं बचता।
 
 # Head of a card on the administrator password page.
 # SAFETY: needs a human review before it ships
@@ -394,12 +299,6 @@ welcome-snap-taken = आपके लिए लिया गया
 welcome-snap-taken-line = Btrfs सिस्टम पर हर सॉफ़्टवेयर बदलाव से पहले और बाद में एक स्नैपशॉट लिया जाता है।
 
 # Head of a card on the snapshots page.
-welcome-snap-list = सेटिंग में सूची
-
-# Line in that card.
-welcome-snap-list-line = सेटिंग, स्नैपशॉट में वे सूचीबद्ध हैं। कैमरा अभी एक लेता है।
-
-# Head of a card on the snapshots page.
 welcome-snap-boot = शुरू न होने पर काम आता है
 
 # Line in that card.
@@ -428,4 +327,270 @@ welcome-words-where = यह सेटिंग, क्षेत्र और �
 
 # Name of the round button that opens that Settings page.
 welcome-words-open = क्षेत्र और भाषा खोलें
+
+
+# Sentence under the title of the open-the-ring page, when one click at the edge opens it.
+welcome-sentence-ring-one = पॉइंटर को स्क्रीन के किसी भी किनारे पर धकेलें और एक बार क्लिक करें।
+
+# Sentence under the title of the open-the-ring page, when the edge is set to a double click.
+welcome-sentence-ring-two = पॉइंटर को स्क्रीन के किसी भी किनारे पर धकेलें और डबल-क्लिक करें।
+
+# Sentence under the title of the crash reports page.
+welcome-sentence-reports-plain = रिपोर्टें गुमनाम होती हैं, और हर एक गड़बड़ी सुधारने में मदद करती है।
+
+# Title of the page about the half circles at the top of the screen that show what is in use.
+welcome-page-marks = ऊपर के निशान
+
+# Sentence under that title.
+welcome-sentence-marks = ऊपर एक आधा घेरा दिखे तो इसका मतलब है कि कोई प्रोग्राम आपकी किसी चीज़ का इस्तेमाल कर रहा है।
+
+# Under each answer on the first page: how many pages that answer shows.
+welcome-level-pages =
+    { $n ->
+        [one] एक पन्ना
+       *[other] { $n } पन्ने
+    }
+
+# Under the answer for someone who has used Trindle.
+welcome-level-closes = परिचय बंद हो जाता है
+
+# First point on the ring page, marked on the picture: the apps round the outside.
+welcome-hello-apps = आपके ऐप
+
+# Line under it.
+welcome-hello-apps-line = बाहरी घेरे में। किसी पर राइट-क्लिक करके उसे वहीं रखें।
+
+# Second point: the round buttons in the middle.
+welcome-hello-switches = झटपट स्विच
+
+# Line under it.
+welcome-hello-switches-line = आवाज़, Wi-Fi, Bluetooth और बहुत कुछ, हर एक एक क्लिक में।
+
+# Third point: the clock.
+welcome-hello-time = समय और तारीख़
+
+# Line under it.
+welcome-hello-time-line = हमेशा बीच में।
+
+# Fourth point: the button at the bottom of the middle that lists every app.
+welcome-hello-all = हर ऐप
+
+# Line under it.
+welcome-hello-all-line = नीचे का बटन सभी की सूची दिखाता है।
+
+# First point on the open-the-ring page.
+welcome-ring-edge = किनारे पर धकेलें
+
+# Line under it.
+welcome-ring-edge-line = कोई भी किनारा चलेगा, चाहे कोई विंडो पूरी स्क्रीन घेरे हो।
+
+# Second point, when one click opens the ring.
+welcome-ring-click-one = एक बार क्लिक करें
+
+# Second point, when the edge is set to a double click.
+welcome-ring-click-two = डबल-क्लिक करें
+
+# Line under either.
+welcome-ring-click-line = रिंग स्क्रीन के बीच में खुलती है।
+
+# Third point.
+welcome-ring-super = या Super कुंजी दबाएँ
+
+# Line under it.
+welcome-ring-super-line = उस पर अक्सर Windows का लोगो बना होता है।
+
+# Fourth point.
+welcome-ring-close = इसे बंद करें
+
+# Line under it.
+welcome-ring-close-line = इसके बाहर कहीं भी क्लिक करें, या Escape दबाएँ।
+
+# Point on the files page, marked on the Trash.
+welcome-files-trash = ट्रैश
+
+# Line under it.
+welcome-files-trash-line = मिटाई गई फ़ाइल वहाँ तब तक पड़ी रहती है जब तक आप उसे खाली नहीं करते।
+
+# Point on the software page, marked on the search box in the picture of Apps.
+welcome-software-search = कोई भी ऐप खोजें
+
+# Line under it.
+welcome-software-search-line = नाम टाइप करें, या बाईं ओर किस्म के हिसाब से देखें।
+
+# Point on the software page, marked on an app's install button.
+welcome-software-install = एक क्लिक में इंस्टॉल
+
+# Line under it.
+welcome-software-install-line = सिर्फ़ आपके लिए, बिना पासवर्ड के, और बाद में हटाने पर कुछ भी पीछे नहीं बचता।
+
+# Fourth point on the administrator password page.
+welcome-admin-care = सिर्फ़ उसके लिए जो आपने शुरू किया
+
+# Line under it.
+welcome-admin-care-line = इसे तभी टाइप करें जब बदलाव आपने खुद माँगा हो, किसी वेबसाइट या संदेश के कहने पर कभी नहीं।
+
+# Head of the made-up password window in the picture on that page.
+welcome-admin-sample-title = प्रशासक का पासवर्ड
+
+# What the made-up password window asks.
+welcome-admin-sample-message = Apps इस कंप्यूटर पर सबके लिए एक प्रोग्राम इंस्टॉल करना चाहता है।
+
+# The line under it in the made-up window.
+welcome-admin-sample-note = अनुमति देने के लिए अपना पासवर्ड टाइप करें।
+
+# The main button of the made-up window.
+welcome-admin-sample-allow = अनुमति दें
+
+# First point on the crash reports page.
+welcome-reports-anon = गुमनाम
+
+# Line under it.
+welcome-reports-anon-line = रिपोर्ट में आपका नाम, आपका ईमेल पता या कंप्यूटर का नाम कभी नहीं होता।
+
+# Second point.
+welcome-reports-private = कुछ भी निजी नहीं
+
+# Line under it.
+welcome-reports-private-line = कोई फ़ाइल नहीं, कोई पासवर्ड नहीं, कोई Wi-Fi नाम नहीं। फ़ोल्डर, नाम और ईमेल पते मिटा दिए जाते हैं।
+
+# Point on the marks page, marked on the top edge of the picture.
+welcome-marks-where = स्क्रीन के ऊपर बीच में
+
+# Line under it.
+welcome-marks-where-line = जब तक कोई प्रोग्राम आपकी किसी चीज़ का इस्तेमाल करता है, यह हमेशा हर विंडो के ऊपर दिखता है।
+
+# Head of the key of colours on the marks page.
+welcome-marks-key = हर रंग का मतलब
+
+# Point on the snapshots page, marked on the list.
+welcome-snap-back = एक क्लिक में वापस जाएँ
+
+# Line under it.
+welcome-snap-back-line = सिस्टम को वैसा ही कर देता है जैसा उस पल था।
+
+# Point on the snapshots page, marked on the camera button.
+welcome-snap-take = खुद एक लें
+
+# Line under it.
+welcome-snap-take-line = कभी भी, कुछ नया आज़माने से पहले।
+
+# Head of the column of the made-up word sheet that holds what Trindle says.
+welcome-words-sheet-said = Trindle कहता है
+
+# Head of the column that holds the person's own words.
+welcome-words-sheet-yours = आपके शब्द
+
+# Made-up own words in the sheet, in place of "Start using Trindle".
+welcome-words-sheet-start = चलिए शुरू करें
+
+# Made-up own words in the sheet, in place of "Install the chosen apps".
+welcome-words-sheet-install = सब ले आओ
+
+# Made-up own words in the sheet, in place of "Close".
+welcome-words-sheet-close = अभी के लिए बस
+
+# What the screen reader says for the screenshot of the ring.
+welcome-picture-ring-shot = खुली हुई रिंग: बाहर की ओर ऐप, बीच में झटपट स्विच और समय, और नीचे हर ऐप का बटन। नंबर हर हिस्से को दिखाते हैं।
+
+# What the screen reader says for the moving picture of opening the ring.
+welcome-picture-ring-open = एक स्क्रीन। पॉइंटर सबसे ऊपर के किनारे पर जाकर क्लिक करता है, और रिंग बीच में खुल जाती है। फिर Super कुंजी दबाई जाती है और वह दोबारा खुलती है।
+
+# What the screen reader says for the screenshot of Folders.
+welcome-picture-folders = Folders में होम फ़ोल्डर खुला है, जिसमें दस्तावेज़, डाउनलोड, संगीत और चित्र हैं। नंबर हर हिस्से को दिखाते हैं।
+
+# What the screen reader says for the screenshot of Apps.
+welcome-picture-apps = Apps, Discover पर खुला है, जिसमें एक खोज बॉक्स और लोकप्रिय ऐप हैं, हर एक के साथ इंस्टॉल बटन है। नंबर हर हिस्से को दिखाते हैं।
+
+# What the screen reader says for the screenshot of the Plugins page in Apps.
+welcome-picture-plugins-shot = Apps, Plugins पर खुला है: हर प्लगइन के साथ यह लिखा है कि वह क्या माँगता है, और एक इंस्टॉल बटन है।
+
+# What the screen reader says for the screenshot of the report window.
+welcome-picture-report = समस्या बताएँ विंडो: क्या गड़बड़ हुई यह लिखने का बॉक्स, और एक पंक्ति जो बताती है कि रिपोर्ट में क्या होता है।
+
+# What the screen reader says for the screenshot of Settings, Snapshots.
+welcome-picture-snapshots = Settings, स्नैपशॉट: स्नैपशॉट की सूची, हर एक के साथ वापस जाने का बटन, और अभी एक लेने का बटन। नंबर हर हिस्से को दिखाते हैं।
+
+# What the screen reader says for the picture of the password window.
+welcome-picture-admin = धुंधली स्क्रीन के ऊपर प्रशासक के पासवर्ड की विंडो, जो सबके लिए एक प्रोग्राम इंस्टॉल करने का पासवर्ड माँग रही है।
+
+# What the screen reader says for the picture of the marks at the top of the screen.
+welcome-picture-marks = एक स्क्रीन का ऊपरी हिस्सा, जिसके ऊपरी किनारे के बीच से तीन आधे घेरे लटके हैं, हर एक अलग रंग का।
+
+# What the screen reader says for the picture of a word sheet.
+welcome-picture-sheet = शब्दों की एक शीट: बाईं ओर Trindle जो कहता है, और दाईं ओर किसी के अपने शब्द।
+
+# First point on the plugins page.
+welcome-plugins-in-apps = Apps में, Plugins के नीचे
+
+# Line under it.
+welcome-plugins-in-apps-line = हर प्लगइन सूची में आने से पहले जाँचा जाता है, और एक क्लिक में इंस्टॉल हो जाता है।
+
+# Second point on the plugins page.
+welcome-plugins-allowed = सिर्फ़ वही जिसकी आप अनुमति दें
+
+# Line under it.
+welcome-plugins-allowed-line = हर एक बताता है कि वह क्या माँगता है, और अपने अलग डिब्बे में रहता है।
+
+# Head of the list of plugins on offer now, read from the catalogue.
+welcome-plugins-now = अभी उपलब्ध
+
+# Above the list of what an answer on the first page adds, for someone new to Linux.
+welcome-level-adds = बुनियादी बातें जोड़ता है:
+
+# Above the list for someone who has used Linux.
+welcome-level-shows = वह दिखाता है जो Trindle का अपना है:
+
+# In the card for someone who has used Trindle: where the tour is found again.
+welcome-level-again = जब भी आप इसे दोबारा चाहें, Welcome All apps में है।
+
+# What the screen reader says for the picture on the Good to know card about boxes.
+welcome-picture-know-boxes = Apps, Permissions: स्विच जो बताते हैं कि कोई प्रोग्राम नेटवर्क तक पहुँचा या आपकी फ़ाइलें खोलीं।
+
+# What the screen reader says for the picture on the Good to know card about updates.
+welcome-picture-know-updates = Apps, Updates: Security updates का स्विच चालू है, हर दिन।
+
+# What the screen reader says for the picture on the Good to know card about the ring.
+welcome-picture-know-ring = रिंग का बीच का हिस्सा: समय के ऊपर Settings, Apps और बाकी के गोल बटन।
+
+# What the screen reader says for the picture on the Good to know card about Help.
+welcome-picture-know-help = Settings की सूची, जिसमें सबसे नीचे Help है।
+
+# Title of the firewall page.
+welcome-page-firewall = फ़ायरवॉल
+
+# The one sentence under the firewall page's title.
+welcome-sentence-firewall = दूसरे कंप्यूटरों को बाहर रखें, या अंदर आने दें।
+
+# Heading of the first point on the firewall page.
+welcome-firewall-on = अजनबियों को बाहर रखता है
+
+# Line under it.
+welcome-firewall-on-line = नेटवर्क पर कोई भी इस कंप्यूटर तक नहीं पहुँच सकता, जब तक इसने खुद पहले न माँगा हो। ब्राउज़िंग, अपडेट और प्रिंटर फिर भी काम करते हैं।
+
+# Heading of the second point on the firewall page.
+welcome-firewall-ports = पोर्ट बंद हैं
+
+# Line under it.
+welcome-firewall-ports-line = जिस प्रोग्राम से दूसरे जुड़ते हैं, जैसे गेम सर्वर, उसका पोर्ट Settings में, फ़ायरवॉल और रोक में खोलना पड़ता है।
+
+# The question on the firewall page.
+welcome-firewall-question = फ़ायरवॉल चालू करें?
+
+# Answer: switch the firewall on.
+welcome-firewall-yes = चालू करें
+
+# Answer: leave the firewall off.
+welcome-firewall-no = बंद रहने दें
+
+# Tooltip of the two answers.
+welcome-firewall-choice = फ़ायरवॉल
+
+# Small note under the answers.
+welcome-firewall-settings = आप इसे बाद में Settings में, फ़ायरवॉल और रोक में बदल सकते हैं।
+
+# Red words when the firewall could not be switched and no reason was given.
+welcome-firewall-not-changed = बदला नहीं गया।
+
+# What the firewall page's picture shows, for the screen reader.
+welcome-picture-firewall = Settings, फ़ायरवॉल और रोक: फ़ायरवॉल का स्विच और एक खुला पोर्ट।
 

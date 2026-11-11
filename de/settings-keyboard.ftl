@@ -377,3 +377,10 @@ settings-keyboard-restart-clash = { $keys } wird schon von einem anderen Tastenk
 # Said in red under a restart shortcut that could not be kept; { $why } is the reason.
 settings-keyboard-restart-not-saved = Nicht gespeichert: { $why }
 
+
+# Name of the shortcut and its line that opens the window to report a problem.
+settings-keyboard-shortcuts-report = Ein Problem melden
+
+# Tip of the round button that opens the report window now.
+settings-keyboard-shortcuts-report-tip = Jetzt ein Problem melden
+

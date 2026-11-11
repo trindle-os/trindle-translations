@@ -130,7 +130,6 @@ ring-tray-take-out = 从环中取出
 ring-tray-full = 环里已有四个。请先取出一个。
 
 
-
 # Name of the updates button when nothing is known to wait and Settings has looking for updates by itself switched off.
 ring-updates-off = 检查已关闭
 

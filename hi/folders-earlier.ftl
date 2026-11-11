@@ -99,3 +99,28 @@ folders-earlier-put-back-tip = वापस रखें
 
 # Tip and name of the round button on an earlier version's row that compares it with the one there now.
 folders-earlier-compare-tip = दोनों को पढ़ें और बताएँ कि उनमें वही है या नहीं
+
+# Red words when what is given to put back is not one of the earlier versions.
+folders-earlier-put-back-not-version = यह कोई पुराना संस्करण नहीं है।
+
+# Red words when an earlier version is asked to be put back outside the home folder.
+folders-earlier-put-back-home-only = पुराना संस्करण सिर्फ़ होम फ़ोल्डर के अंदर वापस रखा जा सकता है।
+
+# Red words when the place to put an earlier version back has no usable name.
+folders-earlier-put-back-no-place = फ़ाइल यहाँ नहीं रखी जा सकती।
+
+# Red words when the folder an earlier version was in cannot be made again; why it failed.
+folders-earlier-put-back-folder-lost = जिस फ़ोल्डर में वह था, उसे दोबारा नहीं बनाया जा सका: { $why }
+
+# Red words when copying an earlier version back fails; why it failed.
+folders-earlier-put-back-copy-failed = पुराना संस्करण कॉपी नहीं हो सका: { $why }
+
+# Red words when what is there now cannot be set aside before putting an earlier version back; why it failed.
+folders-earlier-put-back-aside-failed = जो अभी वहाँ है उसे एक तरफ़ नहीं रखा जा सका: { $why }
+
+# Red words when the earlier version could not be put in place and what was there has been left under another name; why it failed, then that name.
+folders-earlier-put-back-in-place-named = पुराना संस्करण अपनी जगह पर नहीं रखा जा सका: { $why }। जो वहाँ था, उसका नाम अब { $name } है।
+
+# Red words when the earlier version could not be put in place; why it failed.
+folders-earlier-put-back-in-place = पुराना संस्करण अपनी जगह पर नहीं रखा जा सका: { $why }
+

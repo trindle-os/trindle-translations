@@ -437,3 +437,7 @@ folders-tools-compare-copy-left = Копировать влево отсутст
 
 # Button in the pane compare window; { $n } is how many names are copied to the right folder.
 folders-tools-compare-copy-right = Копировать вправо отсутствующие или более новые: { $n }
+
+# Line in the Wipe window naming the folders that were picked too, which are not wiped.
+folders-tools-wipe-left-out = Папки не стираются, поэтому эти остаются как есть: { $names }.
+

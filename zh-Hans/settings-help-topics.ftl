@@ -1053,7 +1053,6 @@ settings-help-topics-hardware-no-driver-p2 = 很新的芯片可能在 Debian 提
 settings-help-topics-hardware-no-driver-p3 = 在那之前，USB Wi-Fi 网卡在任何电脑上都无需设置即可使用。插上它，它就会显示在“网络”中。这条消息不会更改你电脑上的任何内容。
 
 
-
 # Title of the Help topic "Playing games".
 settings-help-topics-games-title = 玩游戏
 
@@ -1089,7 +1088,6 @@ settings-help-topics-games-p6 = 键盘和鼠标可以使用。PlayStation、Swit
 
 # Help topic "Playing games": tip 7.
 settings-help-topics-games-tip7 = 暂不支持 HDR 和可变刷新率。
-
 
 
 # Title of the Help topic "A Bluetooth device will not connect".

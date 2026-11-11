@@ -108,9 +108,6 @@ folders-far-connect-key = Tệp khóa, nếu bạn chọn
 # Tip of the button beside the key file box that opens the file chooser, and title of that chooser.
 folders-far-connect-pick-key = Chọn tệp khóa
 
-# Button of the key file chooser that accepts the chosen file.
-folders-far-connect-choose = Chọn
-
 # Note on the Connect to a server card saying where the connection settings come from.
 folders-far-connect-ssh-setup = Dùng thiết lập ssh của chính bạn: cấu hình, agent, khóa và các máy chủ đã biết.
 

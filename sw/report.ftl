@@ -39,9 +39,6 @@ report-not-taken = Ripoti bado hazipokelewi.
 # Written where the Send button would be, while Buildmorphic is being asked whether it is taking reports.
 report-checking = Inakagua.
 
-# Written where the Send button would be, when the switch for reports in Settings is off.
-report-off = Ripoti zimezimwa.
-
 # Why a report is waiting: Buildmorphic had too many reports at once and the report is tried again later.
 report-too-many = Ripoti nyingi mno kwa wakati mmoja.
 
@@ -117,4 +114,14 @@ report-no-log = Hakuna kumbukumbu ya kutuma nayo, kwa hiyo haiwezi kutumwa. Ihif
 
 
 report-sent-as-bug = Imetumwa. Imehesabiwa kama hitilafu { $number }. Asante.
+
+
+# Under the title, beta only: why a report matters and what it holds.
+report-beta = Trindle iko katika hatua ya beta, na kila ripoti hutusaidia kuifanya ifanye kazi kikamilifu. Ripoti haina jina na haina chochote cha faragha au cha kibinafsi. Barua pepe haihitajiki, na jina la mtumiaji ni la hiari. Hakuna kinachotumwa hadi ubonyeze Tuma.
+
+# Typing box under the first one: the optional Buildmorphic username that credits the report.
+report-username-box = Jina la mtumiaji la Buildmorphic (la hiari)
+
+# Red words when a report posted by hand could not get through. $why is the reason, such as "No connection."
+report-try-again = Haikutumwa. { $why } Bonyeza Tuma ujaribu tena.
 

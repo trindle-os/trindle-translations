@@ -152,3 +152,58 @@ folders-sharing-changing = 正在更改共享…
 # Calm words while a share is made.
 folders-sharing-sharing-it = 正在共享…
 
+
+# Red words under the name box when a share has no name.
+folders-sharing-name-empty = 请给共享起个名字。
+
+# Red words under the name box when a share's name is too long; the most letters allowed.
+folders-sharing-name-long = 共享的名称最多可以有 { $most } 个字符。
+
+# Red words when a share's name holds a letter that is not allowed.
+folders-sharing-name-bad-letters = 共享的名称不能包含 % < > * ? | / \ + = ; : " 或逗号。
+
+# Red words when a share's name ends in a dollar sign, which would hide it.
+folders-sharing-name-dollar = 以 $ 结尾的名称会把共享隐藏起来，所以不能使用。
+
+# Red words when a share's name starts with a dash.
+folders-sharing-name-dash = 共享的名称不能以短横线开头。
+
+# Red words when a share's name is one Samba keeps for itself; the name.
+folders-sharing-name-reserved = Samba 自己保留了名称 { $name }。请换一个。
+
+# Name offered for a share when the folder's own name cannot be used.
+folders-sharing-default-name = 已共享
+
+# Red words when Samba says only the person's own folders can be shared.
+folders-sharing-only-yours-short = 只能共享属于你的文件夹。
+
+# Red words when a share's name is someone's login on this computer.
+folders-sharing-name-is-login = 这个名称是此电脑上某人的登录名，共享不能使用。请换一个。
+
+# Red words when this computer's Samba settings do not allow shares without a password.
+folders-sharing-no-guests-allowed = 此电脑的 Samba 设置不允许不用密码的共享。
+
+# Red words when the most folders Samba allows are already shared.
+folders-sharing-too-many = 此电脑已共享了允许的最多文件夹数量。
+
+# Red words when the folder to share has gone.
+folders-sharing-folder-gone = 那个文件夹已经不在了。
+
+# Red words when Samba failed without saying why.
+folders-sharing-samba-silent = Samba 没有说明原因。
+
+# Red words repeating what Samba said when it failed; Samba's last line.
+folders-sharing-samba-said = Samba 说：{ $said }
+
+# Red words when a folder that must be opened to guests belongs to someone else; its path.
+folders-sharing-guests-not-yours = { $path } 属于别人，所以无法在这里向访客开放。
+
+# Red words when a folder's permissions could not be changed to let guests in; its path, then why.
+folders-sharing-guests-not-changed = 无法更改 { $path }：{ $why }
+
+# Red words when setting up sharing cannot fetch Samba because the computer is offline.
+folders-sharing-setup-offline = 无法获取 Samba：这台电脑似乎没有联网。请连接互联网后再试。
+
+# Red words when setting up sharing cannot go on because another install is running.
+folders-sharing-setup-busy = 其他程序正在安装时，无法装入 Samba。请几分钟后再试。
+

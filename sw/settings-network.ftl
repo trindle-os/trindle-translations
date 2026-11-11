@@ -304,3 +304,55 @@ settings-network-kept-anyway = { $words } Hata hivyo ilihifadhiwa: isahau kwa pi
 
 # Said in red when a network would not disconnect.
 settings-network-disconnect-failed = Haikukubali kukatwa.
+
+
+# Heading of the card that lists the ports opened by hand.
+settings-network-ports = Milango iliyofunguliwa
+
+# Help text (i button) of the Open ports card.
+settings-network-ports-about = Kila mlango umefungwa isipokuwa kompyuta hii iliomba kwanza, kwa hiyo programu inayosubiri wengine waunganishe, kama seva ya mchezo au zana ya kusawazisha, haiwezi kufikiwa hadi mlango wake ufunguliwe hapa. Mlango unaofunguliwa hapa huruhusu kompyuta za mtandao wako wa nyumbani pekee, kamwe si intaneti pana. Kufungua au kufunga mlango huomba nenosiri la msimamizi.
+
+# Line in the Open ports card when no port is open.
+settings-network-ports-none = Hakuna milango iliyofunguliwa
+
+# Small line under it.
+settings-network-ports-none-sub = Kila mlango umefungwa kwa kompyuta nyingine.
+
+# Small line under an open port, such as TCP 37666.
+settings-network-port-sub = Umefunguliwa kwa mtandao wako wa nyumbani.
+
+# Tooltip of the button that closes an open port. { $port } is like TCP 37666.
+settings-network-port-close = Funga { $port }
+
+# Heading of the line that opens a port.
+settings-network-port-add = Fungua mlango
+
+# Small line under it.
+settings-network-port-add-sub = Kwa programu ambayo wengine huunganisha nayo.
+
+# Placeholder in the box where the port number is typed.
+settings-network-port-number = Nambari ya mlango
+
+# Tooltip of the choice of TCP, UDP or both.
+settings-network-port-protocol = Itifaki
+
+# Choice: the TCP protocol only. Usually left as TCP.
+settings-network-port-tcp = TCP
+
+# Choice: the UDP protocol only. Usually left as UDP.
+settings-network-port-udp = UDP
+
+# Choice: both TCP and UDP.
+settings-network-port-both = Zote mbili
+
+# Button that opens the typed port.
+settings-network-port-open = Fungua
+
+# Red words when what was typed is not a port number.
+settings-network-port-not-a-port = Andika nambari kutoka 1 hadi 65535.
+
+# Red words when the port is already open.
+settings-network-port-already = Tayari umefunguliwa.
+
+# Said under the line once the port is open.
+settings-network-port-opened = Umefunguliwa

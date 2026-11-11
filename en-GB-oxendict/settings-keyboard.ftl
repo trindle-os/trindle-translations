@@ -7,3 +7,6 @@ settings-keyboard-caps-acts-as-about = Another Ctrl, Escape, and so on.
 # Words behind the i of the keys and buttons card; the examples are names a person types.
 settings-keyboard-keys-about = Any key or mouse button can do something else: another key or button, keys held together such as Ctrl+C, a run of keys one after another such as H, I, nothing at all, or one thing tapped, and another held, such as Escape tapped, Ctrl held. It works everywhere from the login screen on. Ctrl, Alt and an F key always reach a text console, and trindle-settings --keys default typed there puts every key back.
 
+# Title of the card with the keys that take a screenshot and show the shortcut list.
+settings-keyboard-shortcuts-title = Screenshot, report, and shortcut list
+

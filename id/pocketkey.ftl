@@ -6,31 +6,13 @@ pk-title-sudo = Jalankan ini sebagai administrator?
 # The heading when a program wants to change a system setting.
 # SAFETY: needs a human review before it ships
 pk-title-polkit = Izinkan perubahan ini?
-# The heading on the lock screen.
-# SAFETY: needs a human review before it ships
-pk-title-unlock = Buka kunci layar?
-# The heading on the login screen.
-# SAFETY: needs a human review before it ships
-pk-title-login = Masuk?
 # The heading when a phone is being added.
 # SAFETY: needs a human review before it ships
 pk-title-pair = Tambahkan ponsel ini?
 
-# Shown when a command asked for administrator rights and gave no details.
-# SAFETY: needs a human review before it ships
-pk-what-sudo = Sebuah perintah meminta hak administrator.
 # Shown when a program asked to change a setting and gave no details.
 # SAFETY: needs a human review before it ships
 pk-what-polkit = Sebuah program ingin mengubah pengaturan sistem.
-# Shown on the lock screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-unlock = Buka kunci layar ini.
-# Shown on the login screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-login = Masuk ke komputer ini.
-# Shown when a phone is being added and no code could be shown.
-# SAFETY: needs a human review before it ships
-pk-what-pair = Sebuah ponsel ingin ditambahkan.
 # The question when a phone is being added. $name is the phone's name, $code the digits both screens show.
 # SAFETY: needs a human review before it ships
 pk-pair-detail = Apakah kode di { $name } adalah { $code }?
@@ -56,14 +38,6 @@ pk-pairing-scan = Pindai ini dengan Pocketkey di ponsel Anda. Berlaku selama tig
 pk-pairing-qr = Kode QR untuk memasangkan ponsel Anda
 # The question under the six numbers. $name is the phone's name.
 pk-pairing-same-numbers = Apakah { $name } menampilkan enam angka yang sama ini?
-# The button that agrees the numbers match.
-# SAFETY: needs a human review before it ships
-pk-pairing-match = Cocok
-# The button that says they do not match.
-# SAFETY: needs a human review before it ships
-pk-pairing-no-match = Tidak cocok
-# Shown after the person agreed, until the phone agrees too.
-pk-pairing-waiting-phone = Menunggu ponsel juga mengatakan ya…
 # The button that stops pairing.
 pk-pairing-stop = Hentikan pemasangan
 # The button that closes the window once pairing has ended.
@@ -114,3 +88,17 @@ pk-set-6-hours = 6 jam
 pk-set-1-day = 1 hari
 pk-set-forget = Lupakan ponsel ini
 pk-set-forget-sub = Ponsel ini tidak lagi dapat menjawab untuk Anda di sini.
+
+# Under those numbers: where to answer.
+pk-pairing-answer-on-screen = Jawab pada pertanyaan layar penuh.
+
+pk-pairing-why-needs-password = Menambah ponsel memerlukan kata sandi Anda, bukan ponsel yang sudah Anda punya. Tutup jendela ini, mulai memasangkan lagi, lalu ketik kata sandi Anda.
+
+pk-set-sudo = Sudo dan perubahan sistem
+
+pk-set-sudo-sub = Apa yang harus dilakukan ponsel sebelum menjawabnya.
+
+pk-set-sudo-unlocked = Ponsel baru saja dibuka kuncinya
+
+pk-set-sudo-any = Ponsel meski sedang terkunci
+

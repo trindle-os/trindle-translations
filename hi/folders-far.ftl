@@ -112,9 +112,6 @@ folders-far-connect-key = कुंजी फ़ाइल, अगर आप च�
 # Tip of the button beside the key file box that opens the file chooser, and title of that chooser.
 folders-far-connect-pick-key = कुंजी फ़ाइल चुनें
 
-# Button of the key file chooser that accepts the chosen file.
-folders-far-connect-choose = चुनें
-
 # Note on the Connect to a server card saying where the connection settings come from.
 folders-far-connect-ssh-setup = आपका अपना ssh सेट-अप इस्तेमाल होता है: उसका config, एजेंट, कुंजियाँ और जाने-पहचाने सर्वर।
 

@@ -329,7 +329,6 @@ settings-keyboard-usb-about = 当某个 USB 端口无法启动时，Trindle 会�
 settings-keyboard-button-and-mark = { $error }；并且无法撤销它的标记：{ $undo }
 
 
-
 # Title of the card with the keys that take a screenshot and show the shortcut list.
 settings-keyboard-shortcuts-title = 截图和快捷键列表
 
@@ -377,4 +376,11 @@ settings-keyboard-restart-clash = { $keys } 已被另一个快捷键使用。
 
 # Said in red under a restart shortcut that could not be kept; { $why } is the reason.
 settings-keyboard-restart-not-saved = 未保存：{ $why }
+
+
+# Name of the shortcut and its line that opens the window to report a problem.
+settings-keyboard-shortcuts-report = 报告问题
+
+# Tip of the round button that opens the report window now.
+settings-keyboard-shortcuts-report-tip = 立即报告问题
 

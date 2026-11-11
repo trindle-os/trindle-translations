@@ -71,3 +71,9 @@ folders-app-view-not-kept = تعذّر حفظ عرض هذا المجلد.
 # Red words at the foot of the window when the choice of grouping could not be saved.
 folders-app-grouping-not-kept = تعذّر حفظ التجميع للمرة القادمة.
 
+# Said in a window run as administrator when a file, an archive or a preview is asked for.
+folders-app-root-folders-only = النافذة التي تعمل بصلاحيات المسؤول تتعامل مع المجلدات فقط، فلا يُفتح فيها ملف ولا يُنظر داخل أرشيف ولا تُعرض معاينة بصلاحيات المسؤول.
+
+# Red words when the list of what opens what cannot be read, so the choice is not written; why it cannot be read.
+folders-app-opener-unreadable = لم يتغيّر شيء، لأن { $why }.
+

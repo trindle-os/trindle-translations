@@ -40,9 +40,6 @@ store-group-settings = Cài đặt cho ứng dụng
 # Small heading over the categories of apps.
 store-group-categories = Danh mục
 
-# Small heading over the other ways to get an app.
-store-group-more = Thêm cách lấy ứng dụng
-
 # Title of a page of search results; the words searched for are in the quotes.
 store-grid-results = Kết quả cho “{ $text }”
 
@@ -105,4 +102,8 @@ store-not-updated-none = Chưa cập nhật, và Flatpak không nêu lý do.
 
 # Side bar place and title: the AppImages AppImageHub lists.
 store-nav-browse = Duyệt AppImage
+
+
+# Heading of the Flatpaks a detailed search found on Flathub.
+store-gh-flathub = Flatpak trên Flathub ({ $n })
 

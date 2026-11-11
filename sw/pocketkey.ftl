@@ -6,31 +6,13 @@ pk-title-sudo = Endesha hii kama msimamizi?
 # The heading when a program wants to change a system setting.
 # SAFETY: needs a human review before it ships
 pk-title-polkit = Ruhusu mabadiliko haya?
-# The heading on the lock screen.
-# SAFETY: needs a human review before it ships
-pk-title-unlock = Fungua skrini?
-# The heading on the login screen.
-# SAFETY: needs a human review before it ships
-pk-title-login = Ingia?
 # The heading when a phone is being added.
 # SAFETY: needs a human review before it ships
 pk-title-pair = Ongeza simu hii?
 
-# Shown when a command asked for administrator rights and gave no details.
-# SAFETY: needs a human review before it ships
-pk-what-sudo = Amri inataka haki za msimamizi.
 # Shown when a program asked to change a setting and gave no details.
 # SAFETY: needs a human review before it ships
 pk-what-polkit = Programu inataka kubadilisha mpangilio wa mfumo.
-# Shown on the lock screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-unlock = Fungua skrini hii.
-# Shown on the login screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-login = Ingia kwenye kompyuta hii.
-# Shown when a phone is being added and no code could be shown.
-# SAFETY: needs a human review before it ships
-pk-what-pair = Simu inataka kuongezwa.
 # The question when a phone is being added. $name is the phone's name, $code the digits both screens show.
 # SAFETY: needs a human review before it ships
 pk-pair-detail = Je, msimbo kwenye { $name } ni { $code }?
@@ -56,14 +38,6 @@ pk-pairing-scan = Changanua hii kwa Pocketkey kwenye simu yako. Inafanya kazi kw
 pk-pairing-qr = Msimbo wa QR wa kuoanisha simu yako
 # The question under the six numbers. $name is the phone's name.
 pk-pairing-same-numbers = Je, { $name } inaonyesha namba hizi sita zile zile?
-# The button that agrees the numbers match.
-# SAFETY: needs a human review before it ships
-pk-pairing-match = Zinalingana
-# The button that says they do not match.
-# SAFETY: needs a human review before it ships
-pk-pairing-no-match = Hazilingani
-# Shown after the person agreed, until the phone agrees too.
-pk-pairing-waiting-phone = Inasubiri simu iseme ndiyo pia…
 # The button that stops pairing.
 pk-pairing-stop = Acha kuoanisha
 # The button that closes the window once pairing has ended.
@@ -114,3 +88,17 @@ pk-set-6-hours = Saa 6
 pk-set-1-day = Siku 1
 pk-set-forget = Sahau simu hii
 pk-set-forget-sub = Haiwezi tena kujibu kwa niaba yako hapa.
+
+
+# Under those numbers: where to answer.
+pk-pairing-answer-on-screen = Jibu kwenye swali la skrini nzima.
+
+pk-pairing-why-needs-password = Kuongeza simu kunahitaji nenosiri lako, si simu uliyo nayo tayari. Funga dirisha hili, anza kuoanisha tena kisha uandike nenosiri lako.
+
+pk-set-sudo = Sudo na mabadiliko ya mfumo
+
+pk-set-sudo-sub = Kile simu inachopaswa kufanya kabla ya kuyajibu.
+
+pk-set-sudo-unlocked = Simu imefunguliwa sasa hivi
+
+pk-set-sudo-any = Simu hata ikiwa imefungwa

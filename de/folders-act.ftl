@@ -323,3 +323,7 @@ folders-act-links-failed =
 
 # Words under the file lines when the window is closed while work waits for an answer.
 folders-act-closing-waits = Manche Arbeit wartet auf eine Antwort. Beantworte sie oder beende die Arbeit, bevor du schließt.
+
+# Words under the file lines when the window is closed while work goes on.
+folders-act-closing-busy = Ordner kann nicht geschlossen werden, solange die Übertragung läuft. Warte, bis sie fertig ist, oder beende sie, und schließe dann.
+

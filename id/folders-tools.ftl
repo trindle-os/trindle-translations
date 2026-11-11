@@ -405,3 +405,7 @@ folders-tools-compare-copy-left = Salin { $n } yang hilang atau lebih baru ke ki
 # Button in the pane compare window; { $n } is how many names are copied to the right folder.
 # SAFETY: needs a human review before it ships
 folders-tools-compare-copy-right = Salin { $n } yang hilang atau lebih baru ke kanan
+
+# Line in the Wipe window naming the folders that were picked too, which are not wiped.
+folders-tools-wipe-left-out = Folder tidak dihapus bersih, jadi ini dibiarkan apa adanya: { $names }.
+

@@ -385,3 +385,13 @@ admin-system-needs-btrfs = Necesita Btrfs.
 # Red words in Settings when a restore swapped the systems but could not finish tidying up. { $why } is the reason.
 admin-restore-finish-later = La instantánea está en su sitio y el equipo arrancará desde ella. La limpieza del sistema antiguo no terminó y se volverá a intentar en el próximo arranque: { $why }
 
+
+# Red words in Settings when too many ports are open already. { $most } is a number.
+admin-ports-too-many = Se pueden abrir como máximo { $most } puertos.
+
+# Red words in Settings when the list of open ports could not be kept. { $why } is the system's reason.
+admin-ports-not-kept = No se pudo guardar la lista de puertos abiertos: { $why }.
+
+# Red words in Settings when the firewall could not be switched off. { $why } is the system's reason.
+admin-firewall-still-on = El cortafuegos sigue activado: { $why }
+

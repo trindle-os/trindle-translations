@@ -164,3 +164,28 @@ settings-blocking-private-sub = Quad9 speichert nicht, wer gefragt hat.
 
 # Name of the choice in Private server that uses the network's own servers.
 settings-blocking-provider-network = Dein Netzwerk
+
+# Heading of the Firewall card, first on the Firewall and blocking page.
+settings-firewall = Firewall
+
+# Help text (i button) of the Firewall card.
+settings-firewall-about = Eingeschaltet hält die Firewall jede Verbindung von anderen Computern fern, die dieser Computer nicht angefragt hat, sodass niemand im selben WLAN sein Glück versuchen kann. Surfen, Updates und Drucker funktionieren weiterhin. Ein Programm, das auf Verbindungen von anderen wartet, etwa ein Spieleserver, braucht seinen Port unten geöffnet. Ausgeschaltet kann jeder Computer im Netzwerk jedes Programm erreichen, das auf Verbindungen wartet. Zum Umschalten wird das Passwort des Administrators gebraucht.
+
+# Name of the firewall's on and off switch.
+settings-firewall-switch = Firewall
+
+# Small line under the switch while the firewall is on.
+settings-firewall-on-sub = Andere Computer können sich nicht verbinden, wenn du es nicht erlaubst.
+
+# Small line under the switch while the firewall is off.
+settings-firewall-off-sub = Aus: Andere Computer können jedes Programm erreichen, das auf Verbindungen wartet.
+
+# Said beside the switch once the firewall is on.
+settings-firewall-done-on = Firewall an
+
+# Said beside the switch once the firewall is off.
+settings-firewall-done-off = Firewall aus
+
+# Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
+settings-blocking-card = Blockieren
+

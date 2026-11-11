@@ -141,3 +141,58 @@ folders-sharing-changing = Mengubah folder bersama…
 
 # Calm words while a share is made.
 folders-sharing-sharing-it = Membagikannya…
+
+# Red words under the name box when a share has no name.
+folders-sharing-name-empty = Beri nama untuk berbagi ini.
+
+# Red words under the name box when a share's name is too long; the most letters allowed.
+folders-sharing-name-long = Nama sebuah berbagi paling panjang { $most } huruf.
+
+# Red words when a share's name holds a letter that is not allowed.
+folders-sharing-name-bad-letters = Nama sebuah berbagi tidak boleh berisi % < > * ? | / \ + = ; : " atau koma.
+
+# Red words when a share's name ends in a dollar sign, which would hide it.
+folders-sharing-name-dollar = Nama yang diakhiri $ akan menyembunyikan berbagi ini, jadi tidak dipakai.
+
+# Red words when a share's name starts with a dash.
+folders-sharing-name-dash = Nama sebuah berbagi tidak boleh diawali tanda hubung.
+
+# Red words when a share's name is one Samba keeps for itself; the name.
+folders-sharing-name-reserved = Samba menyimpan nama { $name } untuk dirinya sendiri. Pilih nama lain.
+
+# Name offered for a share when the folder's own name cannot be used.
+folders-sharing-default-name = Dibagikan
+
+# Red words when Samba says only the person's own folders can be shared.
+folders-sharing-only-yours-short = Hanya folder milik Anda yang dapat dibagikan.
+
+# Red words when a share's name is someone's login on this computer.
+folders-sharing-name-is-login = Nama itu adalah login seseorang di komputer ini, jadi tidak dapat dipakai untuk berbagi. Pilih nama lain.
+
+# Red words when this computer's Samba settings do not allow shares without a password.
+folders-sharing-no-guests-allowed = Pengaturan Samba di komputer ini tidak mengizinkan berbagi tanpa kata sandi.
+
+# Red words when the most folders Samba allows are already shared.
+folders-sharing-too-many = Komputer ini sudah membagikan folder sebanyak yang diizinkan.
+
+# Red words when the folder to share has gone.
+folders-sharing-folder-gone = Folder itu sudah tidak ada.
+
+# Red words when Samba failed without saying why.
+folders-sharing-samba-silent = Samba tidak menyebutkan alasannya.
+
+# Red words repeating what Samba said when it failed; Samba's last line.
+folders-sharing-samba-said = Kata Samba: { $said }
+
+# Red words when a folder that must be opened to guests belongs to someone else; its path.
+folders-sharing-guests-not-yours = { $path } milik orang lain, jadi tidak dapat dibuka untuk tamu dari sini.
+
+# Red words when a folder's permissions could not be changed to let guests in; its path, then why.
+folders-sharing-guests-not-changed = { $path } tidak dapat diubah: { $why }
+
+# Red words when setting up sharing cannot fetch Samba because the computer is offline.
+folders-sharing-setup-offline = Samba tidak dapat diunduh: komputer ini tampaknya tidak terhubung ke internet. Sambungkan ke internet lalu coba lagi.
+
+# Red words when setting up sharing cannot go on because another install is running.
+folders-sharing-setup-busy = Samba tidak dapat dipasang selagi ada hal lain yang sedang dipasang. Coba lagi beberapa menit lagi.
+

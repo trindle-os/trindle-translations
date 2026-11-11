@@ -87,9 +87,6 @@ folders-settings-right-pane-sub = Sağ bölmenin başladığı yer.
 # Title of the folder chooser that opens from a pane's setting.
 folders-settings-choose-title = Bölmenin başlayacağı yeri seçin
 
-# Button of that folder chooser that accepts the folder.
-folders-settings-choose-accept = Seç
-
 # Red words under the Kept logins list when a login could not be let go; { $server } is the computer and { $why } says why.
 folders-settings-forget-failed = { $server } unutulamadı: { $why }
 

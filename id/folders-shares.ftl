@@ -159,3 +159,49 @@ folders-shares-reconnecting = Menghubungkan kembali { $name }…
 
 # Red words under the file lines when the list of remembered shares could not be written.
 folders-shares-not-remembered = Berbagi jaringan tidak dapat diingat untuk lain kali.
+
+# Red words when a share's user name cannot be used.
+folders-shares-bad-user = Itu bukan nama pengguna yang dapat dipakai sebuah berbagi.
+
+# Red words when a share's domain cannot be used.
+folders-shares-bad-domain = Itu bukan domain yang dapat dipakai sebuah berbagi.
+
+# Red words when a share's password holds a line break.
+folders-shares-bad-password = Kata sandi sebuah berbagi tidak boleh berisi pergantian baris.
+
+# Red words when a computer wants a user name and password; the computer, then what is being opened.
+folders-shares-needs-login = { $server } meminta nama pengguna dan kata sandi untuk { $it }.
+
+# Red words when the user name or password was refused; what is being opened.
+folders-shares-wrong-login = Nama pengguna atau kata sandi tidak benar untuk { $it }.
+
+# Red words when the account on a computer cannot be used; the computer.
+folders-shares-account = Akun Anda di { $server } terkunci atau dinonaktifkan, atau kata sandinya sudah kedaluwarsa.
+
+# Red words when a computer has no share of that name; the computer, then the share.
+folders-shares-no-share = { $server } tidak memiliki folder bersama bernama { $share }.
+
+# Red words when the account may not open a share; what is being opened.
+folders-shares-denied = Akun itu tidak boleh membuka { $it }.
+
+# Red words when a computer did not answer; the computer.
+folders-shares-asleep = { $server } tidak menjawab. Mungkin sedang tidur atau mati: nyalakan lalu coba lagi.
+
+# Red words when no computer of that name is on the network; the name.
+folders-shares-no-computer = Tidak ditemukan komputer bernama { $server } di jaringan ini.
+
+# Red words when a computer only speaks the old unsafe SMB1; the computer.
+folders-shares-smb1 = { $server } hanya mengenal SMB1, cara berbagi lama yang tidak lagi aman, jadi Trindle tidak memakainya.
+
+# Red words when a Debian package needed for sharing is missing; the package name.
+folders-shares-missing = Ini memerlukan { $package } dari Debian, yang belum terpasang.
+
+# Red words when a share could not be opened and the system gave no reason.
+folders-shares-open-failed = Berbagi tidak dapat dibuka.
+
+# Red words when a shared folder could not be opened and the system gave no reason.
+folders-shares-open-export-failed = Folder bersama tidak dapat dibuka.
+
+# Red words when a computer's shared folders could not be listed and the system gave no reason.
+folders-shares-list-failed = Folder bersamanya tidak dapat didaftar.
+

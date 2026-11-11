@@ -170,3 +170,28 @@ settings-blocking-private-sub = Quad9 не хранит сведений о то
 
 # Name of the choice in Private server that uses the network's own servers.
 settings-blocking-provider-network = Ваша сеть
+
+# Heading of the Firewall card, first on the Firewall and blocking page.
+settings-firewall = Брандмауэр
+
+# Help text (i button) of the Firewall card.
+settings-firewall-about = Когда он включён, брандмауэр не пускает ни одно соединение с других компьютеров, которое этот компьютер не запрашивал, поэтому никто в той же сети Wi-Fi не сможет попытать удачу. Сайты, обновления и принтеры продолжают работать. Программе, которая ждёт подключений от других, например игровому серверу, нужно открыть порт ниже. Когда он выключен, до любой программы, ждущей подключений, может добраться любой компьютер в сети. Для переключения нужен пароль администратора.
+
+# Name of the firewall's on and off switch.
+settings-firewall-switch = Брандмауэр
+
+# Small line under the switch while the firewall is on.
+settings-firewall-on-sub = Другие компьютеры не могут подключиться, пока вы не разрешите.
+
+# Small line under the switch while the firewall is off.
+settings-firewall-off-sub = Выключен: другие компьютеры могут добраться до любой программы, ждущей подключений.
+
+# Said beside the switch once the firewall is on.
+settings-firewall-done-on = Брандмауэр включён
+
+# Said beside the switch once the firewall is off.
+settings-firewall-done-off = Брандмауэр выключен
+
+# Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
+settings-blocking-card = Блокировка
+

@@ -43,9 +43,6 @@ report-not-taken = Отчёты пока не принимаются.
 # Written where the Send button would be, while Buildmorphic is being asked whether it is taking reports.
 report-checking = Проверка.
 
-# Written where the Send button would be, when the switch for reports in Settings is off.
-report-off = Отправка отчётов выключена.
-
 # Why a report is waiting: Buildmorphic had too many reports at once and the report is tried again later.
 report-too-many = Слишком много отчётов одновременно.
 
@@ -121,4 +118,14 @@ report-no-log = Нет журнала, который можно отправи�
 
 
 report-sent-as-bug = Отправлено. Принято как ошибка { $number }. Спасибо.
+
+
+# Under the title, beta only: why a report matters and what it holds.
+report-beta = Trindle находится в бета-версии, и каждый отчёт помогает нам довести его работу до совершенства. Отчёт анонимный и не содержит ничего личного. Электронная почта не нужна, имя пользователя необязательно. Ничего не отправляется, пока вы не нажмёте «Отправить».
+
+# Typing box under the first one: the optional Buildmorphic username that credits the report.
+report-username-box = Имя пользователя Buildmorphic (необязательно)
+
+# Red words when a report posted by hand could not get through. $why is the reason, such as "No connection."
+report-try-again = Не отправлено. { $why } Нажмите «Отправить», чтобы повторить.
 

@@ -165,3 +165,49 @@ folders-shares-reconnecting = Повторное подключение { $name 
 
 # Red words under the file lines when the list of remembered shares could not be written.
 folders-shares-not-remembered = Не удалось запомнить сетевые папки до следующего раза.
+
+# Red words when a share's user name cannot be used.
+folders-shares-bad-user = Такое имя пользователя для общего ресурса не подходит.
+
+# Red words when a share's domain cannot be used.
+folders-shares-bad-domain = Такой домен для общего ресурса не подходит.
+
+# Red words when a share's password holds a line break.
+folders-shares-bad-password = Пароль общего ресурса не может содержать перенос строки.
+
+# Red words when a computer wants a user name and password; the computer, then what is being opened.
+folders-shares-needs-login = «{ $server }» запрашивает имя пользователя и пароль для { $it }.
+
+# Red words when the user name or password was refused; what is being opened.
+folders-shares-wrong-login = Имя пользователя или пароль для { $it } неверны.
+
+# Red words when the account on a computer cannot be used; the computer.
+folders-shares-account = Ваша учётная запись на «{ $server }» заблокирована или отключена, либо истёк срок действия её пароля.
+
+# Red words when a computer has no share of that name; the computer, then the share.
+folders-shares-no-share = На «{ $server }» нет общей папки с именем { $share }.
+
+# Red words when the account may not open a share; what is being opened.
+folders-shares-denied = Этой учётной записи нельзя открывать { $it }.
+
+# Red words when a computer did not answer; the computer.
+folders-shares-asleep = «{ $server }» не ответил. Возможно, он в спящем режиме или выключен: разбудите его и повторите.
+
+# Red words when no computer of that name is on the network; the name.
+folders-shares-no-computer = В этой сети не найден компьютер с именем «{ $server }».
+
+# Red words when a computer only speaks the old unsafe SMB1; the computer.
+folders-shares-smb1 = «{ $server }» работает только по SMB1, старому способу общего доступа, который больше не безопасен, поэтому Trindle его не использует.
+
+# Red words when a Debian package needed for sharing is missing; the package name.
+folders-shares-missing = Для этого нужен пакет Debian { $package }, а он не установлен.
+
+# Red words when a share could not be opened and the system gave no reason.
+folders-shares-open-failed = Не удалось открыть общий ресурс.
+
+# Red words when a shared folder could not be opened and the system gave no reason.
+folders-shares-open-export-failed = Не удалось открыть общую папку.
+
+# Red words when a computer's shared folders could not be listed and the system gave no reason.
+folders-shares-list-failed = Не удалось получить список его общих папок.
+

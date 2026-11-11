@@ -413,3 +413,7 @@ folders-tools-compare-copy-left = Nakili { $n } zinazokosekana au mpya zaidi had
 
 # Button in the pane compare window; { $n } is how many names are copied to the right folder.
 folders-tools-compare-copy-right = Nakili { $n } zinazokosekana au mpya zaidi hadi kulia
+
+
+# Line in the Wipe window naming the folders that were picked too, which are not wiped.
+folders-tools-wipe-left-out = Folda hazifutwi kabisa, kwa hiyo hizi zinaachwa kama zilivyo: { $names }.

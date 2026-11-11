@@ -6,31 +6,13 @@ pk-title-sudo = اسے ایڈمنسٹریٹر کے طور پر چلائیں؟
 # The heading when a program wants to change a system setting.
 # SAFETY: needs a human review before it ships
 pk-title-polkit = اس تبدیلی کی اجازت دیں؟
-# The heading on the lock screen.
-# SAFETY: needs a human review before it ships
-pk-title-unlock = اسکرین کھولیں؟
-# The heading on the login screen.
-# SAFETY: needs a human review before it ships
-pk-title-login = لاگ اِن کریں؟
 # The heading when a phone is being added.
 # SAFETY: needs a human review before it ships
 pk-title-pair = یہ فون شامل کریں؟
 
-# Shown when a command asked for administrator rights and gave no details.
-# SAFETY: needs a human review before it ships
-pk-what-sudo = ایک کمانڈ ایڈمنسٹریٹر کے حقوق چاہتی ہے۔
 # Shown when a program asked to change a setting and gave no details.
 # SAFETY: needs a human review before it ships
 pk-what-polkit = ایک پروگرام سسٹم کی ترتیب بدلنا چاہتا ہے۔
-# Shown on the lock screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-unlock = اس اسکرین کو کھولیں۔
-# Shown on the login screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-login = اس کمپیوٹر میں لاگ اِن کریں۔
-# Shown when a phone is being added and no code could be shown.
-# SAFETY: needs a human review before it ships
-pk-what-pair = ایک فون شامل ہونا چاہتا ہے۔
 # The question when a phone is being added. $name is the phone's name, $code the digits both screens show.
 # SAFETY: needs a human review before it ships
 pk-pair-detail = کیا { $name } پر کوڈ { $code } ہے؟
@@ -56,14 +38,6 @@ pk-pairing-scan = اپنے فون پر Pocketkey سے اسے اسکین کریں
 pk-pairing-qr = آپ کا فون جوڑنے کے لیے QR کوڈ
 # The question under the six numbers. $name is the phone's name.
 pk-pairing-same-numbers = کیا { $name } بھی یہی چھ نمبر دکھا رہا ہے؟
-# The button that agrees the numbers match.
-# SAFETY: needs a human review before it ships
-pk-pairing-match = یہ ملتے ہیں
-# The button that says they do not match.
-# SAFETY: needs a human review before it ships
-pk-pairing-no-match = یہ نہیں ملتے
-# Shown after the person agreed, until the phone agrees too.
-pk-pairing-waiting-phone = فون کے بھی ہاں کہنے کا انتظار ہے…
 # The button that stops pairing.
 pk-pairing-stop = جوڑنا روکیں
 # The button that closes the window once pairing has ended.
@@ -114,3 +88,17 @@ pk-set-6-hours = 6 گھنٹے
 pk-set-1-day = 1 دن
 pk-set-forget = اس فون کو بھلا دیں
 pk-set-forget-sub = یہ اب یہاں آپ کی طرف سے جواب نہیں دے سکے گا۔
+
+# Under those numbers: where to answer.
+pk-pairing-answer-on-screen = پوری اسکرین والے سوال کا جواب دیں۔
+
+pk-pairing-why-needs-password = فون شامل کرنے کے لیے آپ کا پاس ورڈ چاہیے، آپ کا موجودہ فون نہیں۔ یہ ونڈو بند کریں، جوڑنا دوبارہ شروع کریں اور اپنا پاس ورڈ لکھیں۔
+
+pk-set-sudo = Sudo اور سسٹم کی تبدیلیاں
+
+pk-set-sudo-sub = جواب دینے سے پہلے فون کو کیا کرنا ہوگا۔
+
+pk-set-sudo-unlocked = فون ابھی ابھی کھلا ہو
+
+pk-set-sudo-any = فون چاہے مقفل ہو
+

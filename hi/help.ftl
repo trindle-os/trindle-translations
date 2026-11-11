@@ -45,7 +45,6 @@ help-error = त्रुटि, जैसी बताई गई थी
 help-error-copy = त्रुटि कॉपी करें
 
 
-
 # The sentence at the top of the front page, over the search box and the pages.
 help-lead = Trindle के बारे में सब कुछ, सीधे शब्दों में। ऊपर खोजें, या नीचे कोई पेज खोलें।
 

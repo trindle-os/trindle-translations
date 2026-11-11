@@ -111,9 +111,6 @@ folders-far-connect-key = Faili ya ufunguo, kama unaichagua
 # SAFETY: needs a human review before it ships
 folders-far-connect-pick-key = Chagua faili ya ufunguo
 
-# Button of the key file chooser that accepts the chosen file.
-folders-far-connect-choose = Chagua
-
 # Note on the Connect to a server card saying where the connection settings come from.
 # SAFETY: needs a human review before it ships
 folders-far-connect-ssh-setup = Mipangilio yako mwenyewe ya ssh inatumika: usanidi wake, wakala, funguo na seva zinazojulikana.

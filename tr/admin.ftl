@@ -398,3 +398,13 @@ admin-system-needs-btrfs = Btrfs gerekir.
 # Red words in Settings when a restore swapped the systems but could not finish tidying up. { $why } is the reason.
 admin-restore-finish-later = Anlık görüntü yerine konuldu ve bilgisayar ondan açılacak. Eski sistemin temizlenmesi tamamlanamadı ve bir sonraki açılışta yeniden denenecek: { $why }
 
+
+# Red words in Settings when too many ports are open already. { $most } is a number.
+admin-ports-too-many = En fazla { $most } port açılabilir.
+
+# Red words in Settings when the list of open ports could not be kept. { $why } is the system's reason.
+admin-ports-not-kept = Açık portların listesi kaydedilemedi: { $why }.
+
+# Red words in Settings when the firewall could not be switched off. { $why } is the system's reason.
+admin-firewall-still-on = Güvenlik duvarı hâlâ açık: { $why }
+

@@ -60,3 +60,10 @@ folders-app-view-not-kept = Không thể lưu kiểu xem của thư mục này.
 
 # Red words at the foot of the window when the choice of grouping could not be saved.
 folders-app-grouping-not-kept = Không thể lưu cách nhóm cho lần sau.
+
+# Said in a window run as administrator when a file, an archive or a preview is asked for.
+folders-app-root-folders-only = Cửa sổ chạy với quyền quản trị viên chỉ làm việc với thư mục, nên trong đó không có tệp nào được mở, xem bên trong hay hiển thị bằng quyền quản trị viên.
+
+# Red words when the list of what opens what cannot be read, so the choice is not written; why it cannot be read.
+folders-app-opener-unreadable = Chưa có gì thay đổi, vì { $why }.
+

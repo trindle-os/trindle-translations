@@ -415,3 +415,7 @@ folders-tools-compare-copy-left = { $n } fehlende oder neuere nach links kopiere
 # Button in the pane compare window; { $n } is how many names are copied to the right folder.
 # SAFETY: needs a human review before it ships
 folders-tools-compare-copy-right = { $n } fehlende oder neuere nach rechts kopieren
+
+# Line in the Wipe window naming the folders that were picked too, which are not wiped.
+folders-tools-wipe-left-out = Ordner werden nicht gelöscht, darum bleiben diese unverändert: { $names }.
+

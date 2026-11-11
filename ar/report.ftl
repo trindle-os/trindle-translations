@@ -44,9 +44,6 @@ report-not-taken = لا تُستقبل التقارير بعد.
 # Written where the Send button would be, while Buildmorphic is being asked whether it is taking reports.
 report-checking = جارٍ التحقق.
 
-# Written where the Send button would be, when the switch for reports in Settings is off.
-report-off = التقارير متوقفة.
-
 # Why a report is waiting: Buildmorphic had too many reports at once and the report is tried again later.
 report-too-many = تقارير كثيرة في وقت واحد.
 
@@ -122,4 +119,14 @@ report-no-log = لا يوجد سجل يُرسل معه، لذا لا يمكن إ
 
 
 report-sent-as-bug = أُرسل. سُجّل كخلل رقم { $number }. شكرًا لك.
+
+
+# Under the title, beta only: why a report matters and what it holds.
+report-beta = Trindle في مرحلة تجريبية، وكل تقرير يساعدنا على جعله يعمل بإتقان. التقرير مجهول الهوية ولا يحتوي على أي شيء خاص أو شخصي. لا حاجة إلى بريد إلكتروني، واسم المستخدم اختياري. لا يُرسل شيء حتى تضغط على إرسال.
+
+# Typing box under the first one: the optional Buildmorphic username that credits the report.
+report-username-box = اسم مستخدم Buildmorphic (اختياري)
+
+# Red words when a report posted by hand could not get through. $why is the reason, such as "No connection."
+report-try-again = لم يُرسل. { $why } اضغط على إرسال للمحاولة مرة أخرى.
 

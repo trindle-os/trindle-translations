@@ -231,7 +231,6 @@ ring-startup-add = लॉगिन पर शुरू करें
 ring-startup-remove = लॉगिन पर शुरू करना बंद करें
 
 
-
 # Help for the option that opens the shortcut list, or closes it when it is showing.
 ring-cli-shortcuts = हर कीबोर्ड शॉर्टकट सूची में दिखाएँ, या सूची हटाएँ (Super और K, जब तक सेटिंग्स में बदला न जाए)
 

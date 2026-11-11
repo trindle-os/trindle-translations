@@ -8,3 +8,10 @@ folders-imaging-unreadable = तस्वीर पढ़ी नहीं जा
 
 # Reason shown when a resized picture would have to be written in a kind Folders cannot write.
 folders-imaging-no-write = यह ऐसी तस्वीर नहीं है जिसे फ़ोल्डर लिखता है
+
+# Why a link to a picture is not turned.
+folders-imaging-no-turn-link = लिंक को घुमाया नहीं जाता; जिस तस्वीर की ओर वह ले जाता है, उसे घुमाएँ
+
+# Why a moving picture is not turned.
+folders-imaging-no-turn-moving = चलती तस्वीर को घुमाया नहीं जाता, क्योंकि सिर्फ़ उसकी पहली तस्वीर बचेगी
+

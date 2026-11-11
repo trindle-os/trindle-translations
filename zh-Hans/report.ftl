@@ -43,9 +43,6 @@ report-not-taken = 目前暂不接收报告。
 # Written where the Send button would be, while Buildmorphic is being asked whether it is taking reports.
 report-checking = 正在检查。
 
-# Written where the Send button would be, when the switch for reports in Settings is off.
-report-off = 报告功能已关闭。
-
 # Why a report is waiting: Buildmorphic had too many reports at once and the report is tried again later.
 report-too-many = 同时收到的报告太多。
 
@@ -119,6 +116,15 @@ report-reading-log = 正在读取日志。
 report-no-log = 没有可随报告发送的日志，所以无法发送。请改为保存。
 
 
-
 report-sent-as-bug = 已发送。已记录为问题 { $number }。谢谢。
+
+
+# Under the title, beta only: why a report matters and what it holds.
+report-beta = Trindle 目前处于测试阶段，每一份报告都能帮助我们让它运行得更完美。报告是匿名的，不含任何私人或个人信息。无需电子邮箱，用户名可填可不填。按下“发送”之前不会发送任何内容。
+
+# Typing box under the first one: the optional Buildmorphic username that credits the report.
+report-username-box = Buildmorphic 用户名（可选）
+
+# Red words when a report posted by hand could not get through. $why is the reason, such as "No connection."
+report-try-again = 未发送。{ $why } 请按“发送”重试。
 

@@ -1115,3 +1115,11 @@ scan-main-start-no-window = Trindle Scan: डेस्कटॉप ने वि
 # Red words at start-up when the home folder is not set to a full path, so settings and profiles cannot be kept.
 scan-main-error-no-home = आपका होम फ़ोल्डर तय नहीं है, इसलिए इस बार आपकी सेटिंग और प्रोफ़ाइल सहेजी नहीं जा सकतीं।
 
+
+# Red words when pages could not be copied to the recovery folder, so a crash would lose them.
+scan-main-error-not-kept =
+    { $n ->
+        [one] एक पेज रिकवरी फ़ोल्डर में कॉपी नहीं हो सका, इसलिए क्रैश होने पर वह खो जाएगा।
+       *[other] { $n } पेज रिकवरी फ़ोल्डर में कॉपी नहीं हो सके, इसलिए क्रैश होने पर वे खो जाएँगे।
+    }
+

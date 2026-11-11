@@ -101,3 +101,28 @@ folders-earlier-put-back-tip = Khôi phục
 # Tip and name of the round button on an earlier version's row that compares it with the one there now.
 folders-earlier-compare-tip = Đọc cả hai và cho biết nội dung có giống nhau không
 
+
+# Red words when what is given to put back is not one of the earlier versions.
+folders-earlier-put-back-not-version = Đó không phải là một phiên bản cũ.
+
+# Red words when an earlier version is asked to be put back outside the home folder.
+folders-earlier-put-back-home-only = Chỉ có thể khôi phục phiên bản cũ vào bên trong thư mục nhà.
+
+# Red words when the place to put an earlier version back has no usable name.
+folders-earlier-put-back-no-place = Tệp không thể được đặt vào chỗ đó.
+
+# Red words when the folder an earlier version was in cannot be made again; why it failed.
+folders-earlier-put-back-folder-lost = Không thể tạo lại thư mục chứa nó: { $why }
+
+# Red words when copying an earlier version back fails; why it failed.
+folders-earlier-put-back-copy-failed = Không thể sao chép phiên bản cũ: { $why }
+
+# Red words when what is there now cannot be set aside before putting an earlier version back; why it failed.
+folders-earlier-put-back-aside-failed = Không thể để riêng những gì đang ở đó: { $why }
+
+# Red words when the earlier version could not be put in place and what was there has been left under another name; why it failed, then that name.
+folders-earlier-put-back-in-place-named = Không thể đặt phiên bản cũ vào chỗ: { $why }. Những gì ở đó trước đây giờ có tên là { $name }.
+
+# Red words when the earlier version could not be put in place; why it failed.
+folders-earlier-put-back-in-place = Không thể đặt phiên bản cũ vào chỗ: { $why }
+

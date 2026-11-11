@@ -1114,3 +1114,11 @@ scan-main-start-no-window = Trindle Scan: masaüstü bir pencere açmadı.
 # Red words at start-up when the home folder is not set to a full path, so settings and profiles cannot be kept.
 scan-main-error-no-home = Ev klasörün ayarlı değil, bu yüzden bu sefer ayarların ve profillerin saklanamaz.
 
+
+# Red words when pages could not be copied to the recovery folder, so a crash would lose them.
+scan-main-error-not-kept =
+    { $n ->
+        [one] Bir sayfa kurtarma klasörüne kopyalanamadı, bu yüzden bir çökme onu kaybettirir.
+       *[other] { $n } sayfa kurtarma klasörüne kopyalanamadı, bu yüzden bir çökme onları kaybettirir.
+    }
+

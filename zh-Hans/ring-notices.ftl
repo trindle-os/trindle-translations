@@ -199,7 +199,6 @@ ring-plugin-cannot-work = 它暂时无法工作：已允许 0 项，共 { $asks 
 ring-copied-said = 已复制。{ $said }
 
 
-
 # Title of the notice for ordinary programs that have just reached the network; the program names are under it, and Allow means this is fine.
 ring-outside-network = 已连接到网络
 

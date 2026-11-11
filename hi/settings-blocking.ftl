@@ -159,3 +159,28 @@ settings-blocking-private-sub = Quad9 कोई रिकॉर्ड नही�
 
 # Name of the choice in Private server that uses the network's own servers.
 settings-blocking-provider-network = आपका नेटवर्क
+
+# Heading of the Firewall card, first on the Firewall and blocking page.
+settings-firewall = फ़ायरवॉल
+
+# Help text (i button) of the Firewall card.
+settings-firewall-about = चालू होने पर, फ़ायरवॉल दूसरे कंप्यूटरों के वे सभी कनेक्शन रोक देता है जो इस कंप्यूटर ने नहीं माँगे, ताकि उसी Wi-Fi पर कोई भी किस्मत न आज़मा सके। ब्राउज़िंग, अपडेट और प्रिंटर चलते रहते हैं। जो प्रोग्राम दूसरों के जुड़ने का इंतज़ार करता है, जैसे गेम सर्वर, उसका पोर्ट नीचे खोलना पड़ता है। बंद होने पर, सुनने वाले हर प्रोग्राम तक नेटवर्क का कोई भी कंप्यूटर पहुँच सकता है। इसे बदलते समय प्रशासक का पासवर्ड माँगा जाता है।
+
+# Name of the firewall's on and off switch.
+settings-firewall-switch = फ़ायरवॉल
+
+# Small line under the switch while the firewall is on.
+settings-firewall-on-sub = जब तक आप अनुमति न दें, दूसरे कंप्यूटर नहीं जुड़ सकते।
+
+# Small line under the switch while the firewall is off.
+settings-firewall-off-sub = बंद: दूसरे कंप्यूटर सुनने वाले हर प्रोग्राम तक पहुँच सकते हैं।
+
+# Said beside the switch once the firewall is on.
+settings-firewall-done-on = फ़ायरवॉल चालू
+
+# Said beside the switch once the firewall is off.
+settings-firewall-done-off = फ़ायरवॉल बंद
+
+# Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
+settings-blocking-card = रोक
+

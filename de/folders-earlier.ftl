@@ -96,3 +96,28 @@ folders-earlier-put-back-tip = Zurücklegen
 
 # Tip and name of the round button on an earlier version's row that compares it with the one there now.
 folders-earlier-compare-tip = Beide durchlesen und sagen, ob der Inhalt derselbe ist
+
+# Red words when what is given to put back is not one of the earlier versions.
+folders-earlier-put-back-not-version = Das ist keine frühere Version.
+
+# Red words when an earlier version is asked to be put back outside the home folder.
+folders-earlier-put-back-home-only = Eine frühere Version kann nur im Home-Ordner zurückgelegt werden.
+
+# Red words when the place to put an earlier version back has no usable name.
+folders-earlier-put-back-no-place = Dort kann keine Datei hin.
+
+# Red words when the folder an earlier version was in cannot be made again; why it failed.
+folders-earlier-put-back-folder-lost = Der Ordner, in dem sie lag, konnte nicht neu angelegt werden: { $why }
+
+# Red words when copying an earlier version back fails; why it failed.
+folders-earlier-put-back-copy-failed = Die frühere Version konnte nicht kopiert werden: { $why }
+
+# Red words when what is there now cannot be set aside before putting an earlier version back; why it failed.
+folders-earlier-put-back-aside-failed = Was jetzt dort liegt, konnte nicht beiseitegelegt werden: { $why }
+
+# Red words when the earlier version could not be put in place and what was there has been left under another name; why it failed, then that name.
+folders-earlier-put-back-in-place-named = Die frühere Version konnte nicht an ihren Platz gelegt werden: { $why }. Was dort lag, heißt jetzt { $name }.
+
+# Red words when the earlier version could not be put in place; why it failed.
+folders-earlier-put-back-in-place = Die frühere Version konnte nicht an ihren Platz gelegt werden: { $why }
+

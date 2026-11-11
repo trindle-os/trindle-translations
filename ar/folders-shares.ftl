@@ -164,3 +164,49 @@ folders-shares-reconnecting = جارٍ إعادة الاتصال بـ { $name }�
 
 # Red words under the file lines when the list of remembered shares could not be written.
 folders-shares-not-remembered = تعذّر تذكّر المشاركات للمرة القادمة.
+
+# Red words when a share's user name cannot be used.
+folders-shares-bad-user = هذا ليس اسم مستخدم يمكن لمشاركة أن تقبله.
+
+# Red words when a share's domain cannot be used.
+folders-shares-bad-domain = هذا ليس نطاقًا يمكن لمشاركة أن تقبله.
+
+# Red words when a share's password holds a line break.
+folders-shares-bad-password = لا يمكن أن تحتوي كلمة مرور المشاركة على فاصل أسطر.
+
+# Red words when a computer wants a user name and password; the computer, then what is being opened.
+folders-shares-needs-login = يطلب { $server } اسم مستخدم وكلمة مرور لفتح { $it }.
+
+# Red words when the user name or password was refused; what is being opened.
+folders-shares-wrong-login = اسم المستخدم أو كلمة المرور غير صحيحة لفتح { $it }.
+
+# Red words when the account on a computer cannot be used; the computer.
+folders-shares-account = حسابك على { $server } مقفل أو متوقف، أو انتهت صلاحية كلمة مروره.
+
+# Red words when a computer has no share of that name; the computer, then the share.
+folders-shares-no-share = ليس في { $server } مجلد مشترك باسم { $share }.
+
+# Red words when the account may not open a share; what is being opened.
+folders-shares-denied = لا يُسمح لذلك الحساب بفتح { $it }.
+
+# Red words when a computer did not answer; the computer.
+folders-shares-asleep = لم يردّ { $server }. ربما هو في وضع السكون أو متوقف: أيقظه وحاول مرة أخرى.
+
+# Red words when no computer of that name is on the network; the name.
+folders-shares-no-computer = تعذّر العثور على حاسوب باسم { $server } على هذه الشبكة.
+
+# Red words when a computer only speaks the old unsafe SMB1; the computer.
+folders-shares-smb1 = { $server } يتكلم SMB1 فقط، وهي طريقة قديمة للمشاركة لم تعد آمنة، لذلك لا يستخدمها Trindle.
+
+# Red words when a Debian package needed for sharing is missing; the package name.
+folders-shares-missing = هذا يحتاج إلى { $package } من Debian، وهو غير مثبّت.
+
+# Red words when a share could not be opened and the system gave no reason.
+folders-shares-open-failed = تعذّر فتح المشاركة.
+
+# Red words when a shared folder could not be opened and the system gave no reason.
+folders-shares-open-export-failed = تعذّر فتح المجلد المشترك.
+
+# Red words when a computer's shared folders could not be listed and the system gave no reason.
+folders-shares-list-failed = تعذّر عرض مجلداته المشتركة.
+

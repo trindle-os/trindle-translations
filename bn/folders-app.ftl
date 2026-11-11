@@ -61,3 +61,10 @@ folders-app-view-not-kept = এই ফোল্ডারের ভিউ রা�
 
 # Red words at the foot of the window when the choice of grouping could not be saved.
 folders-app-grouping-not-kept = গ্রুপ করার পছন্দ পরের বারের জন্য রাখা যায়নি।
+
+
+# Said in a window run as administrator when a file, an archive or a preview is asked for.
+folders-app-root-folders-only = অ্যাডমিনিস্ট্রেটর হিসেবে চালানো উইন্ডো শুধু ফোল্ডার নিয়ে কাজ করে, তাই এতে অ্যাডমিনিস্ট্রেটরের অধিকারে কোনো ফাইল খোলা, ভেতরে দেখা বা প্রিভিউ করা হয় না।
+
+# Red words when the list of what opens what cannot be read, so the choice is not written; why it cannot be read.
+folders-app-opener-unreadable = কিছুই বদলায়নি, কারণ { $why }।

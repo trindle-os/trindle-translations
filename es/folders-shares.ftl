@@ -148,3 +148,49 @@ folders-shares-reconnecting = Volviendo a conectar { $name }…
 
 # Red words under the file lines when the list of remembered shares could not be written.
 folders-shares-not-remembered = No se pudieron recordar los recursos compartidos para la próxima vez.
+
+# Red words when a share's user name cannot be used.
+folders-shares-bad-user = Ese no es un nombre de usuario que admita un recurso compartido.
+
+# Red words when a share's domain cannot be used.
+folders-shares-bad-domain = Ese no es un dominio que admita un recurso compartido.
+
+# Red words when a share's password holds a line break.
+folders-shares-bad-password = La contraseña de un recurso compartido no puede contener un salto de línea.
+
+# Red words when a computer wants a user name and password; the computer, then what is being opened.
+folders-shares-needs-login = { $server } pide un nombre de usuario y una contraseña para { $it }.
+
+# Red words when the user name or password was refused; what is being opened.
+folders-shares-wrong-login = El nombre de usuario o la contraseña no eran correctos para { $it }.
+
+# Red words when the account on a computer cannot be used; the computer.
+folders-shares-account = Tu cuenta en { $server } está bloqueada o desactivada, o su contraseña ha caducado.
+
+# Red words when a computer has no share of that name; the computer, then the share.
+folders-shares-no-share = { $server } no tiene ninguna carpeta compartida llamada { $share }.
+
+# Red words when the account may not open a share; what is being opened.
+folders-shares-denied = Esa cuenta no puede abrir { $it }.
+
+# Red words when a computer did not answer; the computer.
+folders-shares-asleep = { $server } no respondió. Puede estar en reposo o apagado: despiértalo y vuelve a intentarlo.
+
+# Red words when no computer of that name is on the network; the name.
+folders-shares-no-computer = No se encontró ningún equipo llamado { $server } en esta red.
+
+# Red words when a computer only speaks the old unsafe SMB1; the computer.
+folders-shares-smb1 = { $server } solo habla SMB1, una forma antigua de compartir que ya no es segura, así que Trindle no la usa.
+
+# Red words when a Debian package needed for sharing is missing; the package name.
+folders-shares-missing = Esto necesita { $package } de Debian, que no está instalado.
+
+# Red words when a share could not be opened and the system gave no reason.
+folders-shares-open-failed = No se pudo abrir el recurso compartido.
+
+# Red words when a shared folder could not be opened and the system gave no reason.
+folders-shares-open-export-failed = No se pudo abrir la carpeta compartida.
+
+# Red words when a computer's shared folders could not be listed and the system gave no reason.
+folders-shares-list-failed = No se pudieron listar sus carpetas compartidas.
+

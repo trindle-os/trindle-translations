@@ -6,31 +6,13 @@ pk-title-sudo = 以管理员身份运行此项？
 # The heading when a program wants to change a system setting.
 # SAFETY: needs a human review before it ships
 pk-title-polkit = 允许此更改？
-# The heading on the lock screen.
-# SAFETY: needs a human review before it ships
-pk-title-unlock = 解锁屏幕？
-# The heading on the login screen.
-# SAFETY: needs a human review before it ships
-pk-title-login = 登录？
 # The heading when a phone is being added.
 # SAFETY: needs a human review before it ships
 pk-title-pair = 添加这部手机？
 
-# Shown when a command asked for administrator rights and gave no details.
-# SAFETY: needs a human review before it ships
-pk-what-sudo = 某个命令需要管理员权限。
 # Shown when a program asked to change a setting and gave no details.
 # SAFETY: needs a human review before it ships
 pk-what-polkit = 某个程序想更改系统设置。
-# Shown on the lock screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-unlock = 解锁此屏幕。
-# Shown on the login screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-login = 登录这台电脑。
-# Shown when a phone is being added and no code could be shown.
-# SAFETY: needs a human review before it ships
-pk-what-pair = 有一部手机想被添加。
 # The question when a phone is being added. $name is the phone's name, $code the digits both screens show.
 # SAFETY: needs a human review before it ships
 pk-pair-detail = { $name } 上的代码是 { $code } 吗？
@@ -56,14 +38,6 @@ pk-pairing-scan = 用手机上的 Pocketkey 扫描此码。它三分钟内有效
 pk-pairing-qr = 用于配对手机的二维码
 # The question under the six numbers. $name is the phone's name.
 pk-pairing-same-numbers = { $name } 是否显示相同的这六个数字？
-# The button that agrees the numbers match.
-# SAFETY: needs a human review before it ships
-pk-pairing-match = 一致
-# The button that says they do not match.
-# SAFETY: needs a human review before it ships
-pk-pairing-no-match = 不一致
-# Shown after the person agreed, until the phone agrees too.
-pk-pairing-waiting-phone = 正在等待手机也确认…
 # The button that stops pairing.
 pk-pairing-stop = 停止配对
 # The button that closes the window once pairing has ended.
@@ -114,3 +88,17 @@ pk-set-6-hours = 6 小时
 pk-set-1-day = 1 天
 pk-set-forget = 忘记这部手机
 pk-set-forget-sub = 它将不能再在这里代你回答。
+
+# Under those numbers: where to answer.
+pk-pairing-answer-on-screen = 请在全屏的提问上回答。
+
+pk-pairing-why-needs-password = 添加手机需要输入你的密码，而不是用你已有的那部手机。请关闭此窗口，重新开始配对，然后输入你的密码。
+
+pk-set-sudo = Sudo 和系统更改
+
+pk-set-sudo-sub = 手机回答这些请求之前必须满足的条件。
+
+pk-set-sudo-unlocked = 手机刚刚解锁过
+
+pk-set-sudo-any = 手机，即使已锁定
+

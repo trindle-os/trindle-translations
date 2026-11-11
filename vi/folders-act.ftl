@@ -328,3 +328,7 @@ folders-act-links-failed =
 # Words under the file lines when the window is closed while work waits for an answer.
 folders-act-closing-waits = Một số công việc đang chờ câu trả lời. Hãy trả lời, hoặc dừng công việc, trước khi đóng.
 
+
+# Words under the file lines when the window is closed while work goes on.
+folders-act-closing-busy = Thư mục không thể đóng cho đến khi việc chuyển xong. Hãy đợi, hoặc dừng việc đó, rồi đóng.
+

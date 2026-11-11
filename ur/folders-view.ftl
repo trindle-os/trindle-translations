@@ -63,9 +63,6 @@ folders-view-sort-by = ترتیب بلحاظ
 # Name read out for the toolbar's Group by strip.
 folders-view-group-by = گروپ بلحاظ
 
-# Tip and spoken name of the toolbar button that shows hidden files.
-folders-view-show-hidden = چھپی ہوئی فائلیں دکھائیں
-
 # Tip of the toolbar button that hides the preview panel.
 folders-view-panel-hide = پیش منظر کا پینل چھپائیں (Alt+P)
 
@@ -331,4 +328,14 @@ folders-view-search-none = اس صفحے پر تلاش کرنے کے لیے کچ
 
 # Name read out for the Search button, which says whether it is pressed.
 folders-view-search-spoken = تلاش
+
+
+# Tip of the toolbar button that shows hidden files (Ctrl+H).
+folders-view-hidden-show = چھپی ہوئی فائلیں دکھائیں (Ctrl+H)
+
+# Tip of the toolbar button that hides hidden files again (Ctrl+H).
+folders-view-hidden-hide = چھپی ہوئی فائلیں چھپائیں (Ctrl+H)
+
+# Name read out for the toolbar button that shows or hides hidden files.
+folders-view-hidden-spoken = چھپی ہوئی فائلیں
 

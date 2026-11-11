@@ -47,7 +47,6 @@ help-error = 错误原文
 help-error-copy = 复制错误
 
 
-
 # The sentence at the top of the front page, over the search box and the pages.
 help-lead = 关于 Trindle 的一切，用通俗的话讲。可以在上面搜索，或打开下面的页面。
 

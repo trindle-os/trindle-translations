@@ -1115,3 +1115,10 @@ scan-main-start-no-window = Trindle Scan：桌面不肯打开窗口。
 # Red words at start-up when the home folder is not set to a full path, so settings and profiles cannot be kept.
 scan-main-error-no-home = 未设置你的主文件夹，所以这次无法保存你的设置和配置文件。
 
+
+# Red words when pages could not be copied to the recovery folder, so a crash would lose them.
+scan-main-error-not-kept =
+    { $n ->
+       *[other] 有 { $n } 页无法复制到恢复文件夹，所以一旦崩溃就会丢失。
+    }
+

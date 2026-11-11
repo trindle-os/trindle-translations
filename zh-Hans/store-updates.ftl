@@ -298,7 +298,6 @@ store-upd-flatpak-said = { $words } Flatpak 提示：{ $why }
 store-upd-trindle = Trindle
 
 
-
 # Headline of Updates with looking for updates by itself switched off in Settings and no check pressed yet.
 store-upd-off = 自动检查更新已关闭。点击“检查更新”即可查找。
 

@@ -99,3 +99,7 @@ folders-remote-screen-no-name = một mục không có tên
 # Red words when a server or phone sent far more than the answer to a question could hold, and was stopped.
 folders-remote-mod-too-much = Nó đã gửi nhiều hơn mức một câu trả lời có thể chứa, nên đã bị dừng lại.
 
+
+# Why a thing on a WebDAV server was not removed as a file: it is a folder now.
+folders-remote-dav-not-a-file = { $name } giờ là một thư mục, nên không bị xóa.
+

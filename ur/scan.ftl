@@ -1115,3 +1115,10 @@ scan-main-start-no-window = Trindle Scan: ڈیسک ٹاپ نے ونڈو نہیں
 # Red words at start-up when the home folder is not set to a full path, so settings and profiles cannot be kept.
 scan-main-error-no-home = آپ کا ہوم فولڈر مقرر نہیں ہے، اس لیے اس بار آپ کی ترتیبات اور پروفائل محفوظ نہیں ہو سکتے۔
 
+# Red words when pages could not be copied to the recovery folder, so a crash would lose them.
+scan-main-error-not-kept =
+    { $n ->
+        [one] ایک صفحہ ریکوری فولڈر میں کاپی نہیں ہو سکا، اس لیے کریش میں وہ ضائع ہو جائے گا۔
+       *[other] { $n } صفحات ریکوری فولڈر میں کاپی نہیں ہو سکے، اس لیے کریش میں وہ ضائع ہو جائیں گے۔
+    }
+

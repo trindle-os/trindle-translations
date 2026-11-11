@@ -270,7 +270,6 @@ kit-only-your-own = यहाँ केवल आपका अपना दब�
 kit-no-layout = कीबोर्ड लेआउट पढ़ा नहीं जा सका, इसलिए टाइप करने से कुछ नहीं होता।
 
 
-
 # Read out by the screen reader for the line between two areas of a window that can be dragged to make one bigger.
 kit-divider = विभाजक
 

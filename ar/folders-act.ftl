@@ -344,3 +344,6 @@ folders-act-links-failed =
 # Words under the file lines when the window is closed while work waits for an answer.
 folders-act-closing-waits = بعض الأعمال تنتظر جواباً. أجب عنها، أو أوقف العمل، قبل الإغلاق.
 
+# Words under the file lines when the window is closed while work goes on.
+folders-act-closing-busy = لا يمكن إغلاق Folders قبل انتهاء النقل. انتظر انتهاءه أو أوقفه ثم أغلق.
+

@@ -309,3 +309,55 @@ settings-network-kept-anyway = { $words } 但它仍被保存了：重新加入�
 # Said in red when a network would not disconnect.
 settings-network-disconnect-failed = 无法断开连接。
 
+
+# Heading of the card that lists the ports opened by hand.
+settings-network-ports = 开放的端口
+
+# Help text (i button) of the Open ports card.
+settings-network-ports-about = 除非本机先提出请求，否则每个端口都是关闭的，所以等待别人连接的程序，例如游戏服务器或同步工具，必须先在这里开放端口才能被连上。在这里开放的端口只允许你家庭网络中的电脑连入，绝不会对更广的互联网开放。开放或关闭端口时会要求输入管理员密码。
+
+# Line in the Open ports card when no port is open.
+settings-network-ports-none = 没有开放的端口
+
+# Small line under it.
+settings-network-ports-none-sub = 对其他电脑，所有端口都是关闭的。
+
+# Small line under an open port, such as TCP 37666.
+settings-network-port-sub = 向你的家庭网络开放。
+
+# Tooltip of the button that closes an open port. { $port } is like TCP 37666.
+settings-network-port-close = 关闭 { $port }
+
+# Heading of the line that opens a port.
+settings-network-port-add = 开放端口
+
+# Small line under it.
+settings-network-port-add-sub = 供别人要连接的程序使用。
+
+# Placeholder in the box where the port number is typed.
+settings-network-port-number = 端口号
+
+# Tooltip of the choice of TCP, UDP or both.
+settings-network-port-protocol = 协议
+
+# Choice: the TCP protocol only. Usually left as TCP.
+settings-network-port-tcp = TCP
+
+# Choice: the UDP protocol only. Usually left as UDP.
+settings-network-port-udp = UDP
+
+# Choice: both TCP and UDP.
+settings-network-port-both = 两者
+
+# Button that opens the typed port.
+settings-network-port-open = 开放
+
+# Red words when what was typed is not a port number.
+settings-network-port-not-a-port = 请输入 1 到 65535 之间的数字。
+
+# Red words when the port is already open.
+settings-network-port-already = 已经开放。
+
+# Said under the line once the port is open.
+settings-network-port-opened = 已开放
+

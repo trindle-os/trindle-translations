@@ -348,7 +348,6 @@ text-done = 完成
 text-untitled-file = 未命名.txt
 
 
-
 # Line under the Save button when the file was changed by something else after Text opened, saved or reloaded it. Nothing has been saved.
 text-changed-elsewhere = 自你打开后，它已在别处被更改。
 

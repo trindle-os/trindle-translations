@@ -64,9 +64,6 @@ folders-view-sort-by = इसके अनुसार क्रम दें
 # Name read out for the toolbar's Group by strip.
 folders-view-group-by = इसके अनुसार समूह बनाएँ
 
-# Tip and spoken name of the toolbar button that shows hidden files.
-folders-view-show-hidden = छिपी फ़ाइलें दिखाएँ
-
 # Tip of the toolbar button that hides the preview panel.
 folders-view-panel-hide = पूर्वावलोकन पैनल छिपाएँ (Alt+P)
 
@@ -264,7 +261,6 @@ folders-view-items =
     }
 
 
-
 # Quiet words at the end of a pinned row whose network share is not connected.
 folders-view-not-connected = जुड़ा नहीं है
 
@@ -287,7 +283,6 @@ folders-view-shares-down =
 
 # Tip of the round button that lets a network share that is not connected go from the list; its name.
 folders-view-forget-share = { $name } को भूल जाएँ
-
 
 
 # Name read out for the top bar's button that shows two panes side by side, or one.
@@ -335,4 +330,14 @@ folders-view-search-none = इस पृष्ठ पर खोजने के 
 
 # Name read out for the Search button, which says whether it is pressed.
 folders-view-search-spoken = खोजें
+
+
+# Tip of the toolbar button that shows hidden files (Ctrl+H).
+folders-view-hidden-show = छिपी हुई फ़ाइलें दिखाएँ (Ctrl+H)
+
+# Tip of the toolbar button that hides hidden files again (Ctrl+H).
+folders-view-hidden-hide = छिपी हुई फ़ाइलें छिपाएँ (Ctrl+H)
+
+# Name read out for the toolbar button that shows or hides hidden files.
+folders-view-hidden-spoken = छिपी हुई फ़ाइलें
 

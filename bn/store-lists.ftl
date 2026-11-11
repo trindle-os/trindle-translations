@@ -37,19 +37,6 @@ store-tab-count = { $name } { $n }
 # Spoken name of a strip of tabs on the Installed page.
 store-tabs-show = দেখান
 
-# How long is left when it is a minute or less.
-store-left-minute = প্রায় এক মিনিট বাকি
-
-# How long is left, in minutes.
-store-left-minutes = প্রায় { $n } মিনিট বাকি
-
-# How long is left, in hours.
-store-left-hours =
-    { $n ->
-        [one] প্রায় ১ ঘণ্টা বাকি
-       *[other] প্রায় { $n } ঘণ্টা বাকি
-    }
-
 # Credit under a package's page for the list its site was checked against.
 store-origin-credit = HaGeZi-র Threat Intelligence তালিকার সঙ্গে মিলিয়ে দেখা হয়েছে
 

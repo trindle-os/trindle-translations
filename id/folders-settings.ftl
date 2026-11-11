@@ -89,9 +89,6 @@ folders-settings-right-pane-sub = Tempat panel kanan dimulai.
 # Title of the folder chooser that opens from a pane's setting.
 folders-settings-choose-title = Pilih tempat panel dimulai
 
-# Button of that folder chooser that accepts the folder.
-folders-settings-choose-accept = Pilih
-
 # Red words under the Kept logins list when a login could not be let go; { $server } is the computer and { $why } says why.
 folders-settings-forget-failed = { $server } tidak dapat dilupakan: { $why }
 

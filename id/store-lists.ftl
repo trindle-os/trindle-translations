@@ -37,18 +37,6 @@ store-tab-count = { $name } { $n }
 # Spoken name of a strip of tabs on the Installed page.
 store-tabs-show = Tampilkan
 
-# How long is left when it is a minute or less.
-store-left-minute = sisa sekitar satu menit
-
-# How long is left, in minutes.
-store-left-minutes = sisa sekitar { $n } menit
-
-# How long is left, in hours.
-store-left-hours =
-    { $n ->
-       *[other] sisa sekitar { $n } jam
-    }
-
 # Credit under a package's page for the list its site was checked against.
 store-origin-credit = Diperiksa terhadap daftar Threat Intelligence HaGeZi
 

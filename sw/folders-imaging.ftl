@@ -9,3 +9,10 @@ folders-imaging-unreadable = picha haikuweza kusomwa
 
 # Reason shown when a resized picture would have to be written in a kind Folders cannot write.
 folders-imaging-no-write = si aina ya picha ambayo Folders inaweza kuandika
+
+
+# Why a link to a picture is not turned.
+folders-imaging-no-turn-link = kiungo hakigeuzwi; geuza picha ambayo kinaielekeza
+
+# Why a moving picture is not turned.
+folders-imaging-no-turn-moving = picha inayosogea haigeuzwi, kwa kuwa ni picha yake ya kwanza tu ingebaki

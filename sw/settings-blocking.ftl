@@ -160,3 +160,28 @@ settings-blocking-private-sub = Quad9 haihifadhi rekodi ya aliyeuliza.
 
 # Name of the choice in Private server that uses the network's own servers.
 settings-blocking-provider-network = Mtandao wako
+
+
+# Heading of the Firewall card, first on the Firewall and blocking page.
+settings-firewall = Ngome ya moto
+
+# Help text (i button) of the Firewall card.
+settings-firewall-about = Ikiwa imewashwa, ngome ya moto huzuia kila muunganisho kutoka kompyuta nyingine ambao kompyuta hii haikuuomba, ili mtu yeyote kwenye Wi-Fi ile ile asijaribu bahati yake. Kuvinjari, masasisho na vichapishi bado hufanya kazi. Programu inayosubiri wengine waunganishe, kama seva ya mchezo, inahitaji mlango wake ufunguliwe hapa chini. Ikizimwa, kompyuta yoyote kwenye mtandao inaweza kufikia kila programu inayosubiri. Kuibadilisha huomba nenosiri la msimamizi.
+
+# Name of the firewall's on and off switch.
+settings-firewall-switch = Ngome ya moto
+
+# Small line under the switch while the firewall is on.
+settings-firewall-on-sub = Kompyuta nyingine haziwezi kuunganisha usipoziruhusu.
+
+# Small line under the switch while the firewall is off.
+settings-firewall-off-sub = Imezimwa: kompyuta nyingine zinaweza kufikia kila programu inayosubiri.
+
+# Said beside the switch once the firewall is on.
+settings-firewall-done-on = Ngome ya moto imewashwa
+
+# Said beside the switch once the firewall is off.
+settings-firewall-done-off = Ngome ya moto imezimwa
+
+# Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
+settings-blocking-card = Kuzuia

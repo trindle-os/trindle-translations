@@ -63,9 +63,6 @@ folders-view-sort-by = 排序方式
 # Name read out for the toolbar's Group by strip.
 folders-view-group-by = 分组方式
 
-# Tip and spoken name of the toolbar button that shows hidden files.
-folders-view-show-hidden = 显示隐藏文件
-
 # Tip of the toolbar button that hides the preview panel.
 folders-view-panel-hide = 隐藏预览面板（Alt+P）
 
@@ -287,7 +284,6 @@ folders-view-shares-down =
 folders-view-forget-share = 忘记 { $name }
 
 
-
 # Name read out for the top bar's button that shows two panes side by side, or one.
 folders-view-two-panes = 双窗格
 
@@ -333,4 +329,14 @@ folders-view-search-none = 此页面上没有可搜索的内容
 
 # Name read out for the Search button, which says whether it is pressed.
 folders-view-search-spoken = 搜索
+
+
+# Tip of the toolbar button that shows hidden files (Ctrl+H).
+folders-view-hidden-show = 显示隐藏文件 (Ctrl+H)
+
+# Tip of the toolbar button that hides hidden files again (Ctrl+H).
+folders-view-hidden-hide = 隐藏隐藏文件 (Ctrl+H)
+
+# Name read out for the toolbar button that shows or hides hidden files.
+folders-view-hidden-spoken = 隐藏文件
 

@@ -148,3 +148,58 @@ folders-sharing-changing = Đang thay đổi chia sẻ…
 
 # Calm words while a share is made.
 folders-sharing-sharing-it = Đang chia sẻ…
+
+# Red words under the name box when a share has no name.
+folders-sharing-name-empty = Hãy đặt tên cho mục chia sẻ.
+
+# Red words under the name box when a share's name is too long; the most letters allowed.
+folders-sharing-name-long = Tên của mục chia sẻ chỉ được dài tối đa { $most } ký tự.
+
+# Red words when a share's name holds a letter that is not allowed.
+folders-sharing-name-bad-letters = Tên của mục chia sẻ không được chứa ký tự nào trong % < > * ? | / \ + = ; : " hoặc dấu phẩy.
+
+# Red words when a share's name ends in a dollar sign, which would hide it.
+folders-sharing-name-dollar = Tên kết thúc bằng $ sẽ ẩn mục chia sẻ, nên không được dùng.
+
+# Red words when a share's name starts with a dash.
+folders-sharing-name-dash = Tên của mục chia sẻ không được bắt đầu bằng dấu gạch ngang.
+
+# Red words when a share's name is one Samba keeps for itself; the name.
+folders-sharing-name-reserved = Samba giữ tên { $name } cho riêng nó. Hãy chọn tên khác.
+
+# Name offered for a share when the folder's own name cannot be used.
+folders-sharing-default-name = Đã chia sẻ
+
+# Red words when Samba says only the person's own folders can be shared.
+folders-sharing-only-yours-short = Chỉ những thư mục thuộc về bạn mới có thể được chia sẻ.
+
+# Red words when a share's name is someone's login on this computer.
+folders-sharing-name-is-login = Tên đó là tên đăng nhập của ai đó trên máy tính này, nên mục chia sẻ không thể dùng. Hãy chọn tên khác.
+
+# Red words when this computer's Samba settings do not allow shares without a password.
+folders-sharing-no-guests-allowed = Cài đặt Samba của máy tính này không cho phép chia sẻ không cần mật khẩu.
+
+# Red words when the most folders Samba allows are already shared.
+folders-sharing-too-many = Máy tính này đã chia sẻ số thư mục tối đa cho phép.
+
+# Red words when the folder to share has gone.
+folders-sharing-folder-gone = Thư mục đó không còn nữa.
+
+# Red words when Samba failed without saying why.
+folders-sharing-samba-silent = Samba không nói lý do.
+
+# Red words repeating what Samba said when it failed; Samba's last line.
+folders-sharing-samba-said = Samba báo: { $said }
+
+# Red words when a folder that must be opened to guests belongs to someone else; its path.
+folders-sharing-guests-not-yours = { $path } thuộc về người khác, nên không thể mở cho khách từ đây.
+
+# Red words when a folder's permissions could not be changed to let guests in; its path, then why.
+folders-sharing-guests-not-changed = Không thể thay đổi { $path }: { $why }
+
+# Red words when setting up sharing cannot fetch Samba because the computer is offline.
+folders-sharing-setup-offline = Không thể tải Samba: máy tính này có vẻ đang ngoại tuyến. Hãy kết nối internet rồi thử lại.
+
+# Red words when setting up sharing cannot go on because another install is running.
+folders-sharing-setup-busy = Không thể cài Samba khi đang cài thứ khác. Hãy thử lại sau vài phút.
+

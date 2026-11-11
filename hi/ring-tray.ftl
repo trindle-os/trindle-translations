@@ -136,7 +136,6 @@ ring-tray-take-out = रिंग से निकालें
 ring-tray-full = रिंग में पहले से चार हैं। पहले एक निकालें।
 
 
-
 # Name of the updates button when nothing is known to wait and Settings has looking for updates by itself switched off.
 ring-updates-off = जाँच बंद है
 

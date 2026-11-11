@@ -40,9 +40,6 @@ store-group-settings = ایپس کی سیٹنگز
 # Small heading over the categories of apps.
 store-group-categories = زمرے
 
-# Small heading over the other ways to get an app.
-store-group-more = ایپس حاصل کرنے کے مزید طریقے
-
 # Title of a page of search results; the words searched for are in the quotes.
 store-grid-results = “{ $text }” کے نتائج
 
@@ -105,4 +102,7 @@ store-not-updated-none = اپ ڈیٹ نہیں ہوئی، اور Flatpak نے ک�
 
 # Side bar place and title: the AppImages AppImageHub lists.
 store-nav-browse = AppImage براؤز کریں
+
+# Heading of the Flatpaks a detailed search found on Flathub.
+store-gh-flathub = Flathub پر Flatpak ({ $n })
 

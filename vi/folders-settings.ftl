@@ -89,9 +89,6 @@ folders-settings-right-pane-sub = Nơi ngăn phải bắt đầu.
 # Title of the folder chooser that opens from a pane's setting.
 folders-settings-choose-title = Chọn nơi ngăn bắt đầu
 
-# Button of that folder chooser that accepts the folder.
-folders-settings-choose-accept = Chọn
-
 # Red words under the Kept logins list when a login could not be let go; { $server } is the computer and { $why } says why.
 folders-settings-forget-failed = Không quên được { $server }: { $why }
 

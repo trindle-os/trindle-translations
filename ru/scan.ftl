@@ -1154,3 +1154,13 @@ scan-main-start-no-window = Trindle Scan: рабочий стол не откр�
 # Red words at start-up when the home folder is not set to a full path, so settings and profiles cannot be kept.
 scan-main-error-no-home = Ваша домашняя папка не задана, поэтому на этот раз настройки и профили сохранить нельзя.
 
+
+# Red words when pages could not be copied to the recovery folder, so a crash would lose them.
+scan-main-error-not-kept =
+    { $n ->
+        [one] Не удалось скопировать { $n } страницу в папку восстановления, поэтому при сбое она пропала бы.
+        [few] Не удалось скопировать { $n } страницы в папку восстановления, поэтому при сбое они пропали бы.
+        [many] Не удалось скопировать { $n } страниц в папку восстановления, поэтому при сбое они пропали бы.
+       *[other] Не удалось скопировать { $n } страницы в папку восстановления, поэтому при сбое они пропали бы.
+    }
+

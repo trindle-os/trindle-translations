@@ -378,3 +378,10 @@ settings-keyboard-restart-clash = { $keys } پہلے سے کسی اور شارٹ
 # Said in red under a restart shortcut that could not be kept; { $why } is the reason.
 settings-keyboard-restart-not-saved = محفوظ نہیں ہوا: { $why }
 
+
+# Name of the shortcut and its line that opens the window to report a problem.
+settings-keyboard-shortcuts-report = مسئلے کی اطلاع دیں
+
+# Tip of the round button that opens the report window now.
+settings-keyboard-shortcuts-report-tip = ابھی مسئلے کی اطلاع دیں
+

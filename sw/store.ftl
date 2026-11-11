@@ -40,9 +40,6 @@ store-group-settings = Mipangilio ya programu
 # Small heading over the categories of apps.
 store-group-categories = Aina
 
-# Small heading over the other ways to get an app.
-store-group-more = Njia zaidi za kupata programu
-
 # Title of a page of search results; the words searched for are in the quotes.
 store-grid-results = Matokeo ya “{ $text }”
 
@@ -106,3 +103,7 @@ store-not-updated-none = Haikusasishwa, na Flatpak haikutoa sababu.
 # Side bar place and title: the AppImages AppImageHub lists.
 store-nav-browse = Vinjari AppImage
 
+
+
+# Heading of the Flatpaks a detailed search found on Flathub.
+store-gh-flathub = Flatpak kwenye Flathub ({ $n })

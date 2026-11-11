@@ -226,7 +226,6 @@ settings-bluetooth-sound-failed = 无法重启蓝牙声音服务，因此在你�
 settings-bluetooth-sound-help = 为什么关闭再开启蓝牙后耳机音质会变差
 
 
-
 # Said in red when a device is no longer in BlueZ's list; the first sentence says what could not be done.
 settings-bluetooth-cause-gone = { $could_not }设备已不在已知列表中。请重新搜索。
 

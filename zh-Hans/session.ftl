@@ -90,7 +90,6 @@ session-wallpaper-left-out = 有 { $count } 张被略过：{ $why }。
 session-lock-check-abandoned = 耗时过长。请重试。
 
 
-
 # Heading of the question asked by Ctrl+Alt+Shift+Esc and by the Restart everything button in Settings.
 session-restart-question = 重启整个桌面吗？
 

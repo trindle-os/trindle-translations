@@ -400,3 +400,12 @@ admin-system-needs-btrfs = Btrfs درکار ہے۔
 # Red words in Settings when a restore swapped the systems but could not finish tidying up. { $why } is the reason.
 admin-restore-finish-later = اسنیپ شاٹ اپنی جگہ پر ہے اور کمپیوٹر اسی سے شروع ہوگا۔ پرانے سسٹم کی صفائی مکمل نہیں ہوئی اور اگلی بار شروع ہونے پر دوبارہ کی جائے گی: { $why }
 
+# Red words in Settings when too many ports are open already. { $most } is a number.
+admin-ports-too-many = زیادہ سے زیادہ { $most } پورٹ کھولے جا سکتے ہیں۔
+
+# Red words in Settings when the list of open ports could not be kept. { $why } is the system's reason.
+admin-ports-not-kept = کھلے پورٹوں کی فہرست محفوظ نہیں ہو سکی: { $why }۔
+
+# Red words in Settings when the firewall could not be switched off. { $why } is the system's reason.
+admin-firewall-still-on = فائر وال اب بھی چل رہی ہے: { $why }
+

@@ -167,3 +167,28 @@ settings-blocking-private-sub = Quad9, kimin sorduğuna dair kayıt tutmaz.
 # Name of the choice in Private server that uses the network's own servers.
 settings-blocking-provider-network = Ağınız
 
+
+# Heading of the Firewall card, first on the Firewall and blocking page.
+settings-firewall = Güvenlik duvarı
+
+# Help text (i button) of the Firewall card.
+settings-firewall-about = Açıkken güvenlik duvarı, bu bilgisayarın istemediği, diğer bilgisayarlardan gelen her bağlantıyı dışarıda tutar, böylece aynı Wi-Fi'deki hiç kimse şansını deneyemez. Gezinme, güncellemeler ve yazıcılar çalışmaya devam eder. Başkalarının bağlanmasını bekleyen bir program, örneğin bir oyun sunucusu, için aşağıdan portunu açmanız gerekir. Kapalıyken, dinleyen her programa ağdaki herhangi bir bilgisayar ulaşabilir. Değiştirmek yöneticinin parolasını ister.
+
+# Name of the firewall's on and off switch.
+settings-firewall-switch = Güvenlik duvarı
+
+# Small line under the switch while the firewall is on.
+settings-firewall-on-sub = İzin vermedikçe diğer bilgisayarlar bağlanamaz.
+
+# Small line under the switch while the firewall is off.
+settings-firewall-off-sub = Kapalı: diğer bilgisayarlar dinleyen her programa ulaşabilir.
+
+# Said beside the switch once the firewall is on.
+settings-firewall-done-on = Güvenlik duvarı açık
+
+# Said beside the switch once the firewall is off.
+settings-firewall-done-off = Güvenlik duvarı kapalı
+
+# Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
+settings-blocking-card = Engelleme
+

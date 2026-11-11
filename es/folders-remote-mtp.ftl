@@ -52,3 +52,7 @@ folders-remote-mtp-rename-storage = Cambiar el nombre de un almacenamiento
 # Words shown when the phone is plugged in but shows no storage.
 folders-remote-mtp-no-storage = El teléfono no muestra ningún almacenamiento. Desbloquéalo, elige Transferencia de archivos e inténtalo de nuevo.
 
+
+# Name shown for a phone's storage that has no name of its own.
+folders-remote-mtp-storage-name = Almacenamiento
+

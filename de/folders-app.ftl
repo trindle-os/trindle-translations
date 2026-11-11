@@ -62,3 +62,10 @@ folders-app-view-not-kept = Die Ansicht dieses Ordners konnte nicht gespeichert 
 
 # Red words at the foot of the window when the choice of grouping could not be saved.
 folders-app-grouping-not-kept = Die Gruppierung konnte nicht für das nächste Mal gespeichert werden.
+
+# Said in a window run as administrator when a file, an archive or a preview is asked for.
+folders-app-root-folders-only = Ein als Administrator gestartetes Fenster arbeitet nur mit Ordnern, darum wird darin keine Datei mit Administratorrechten geöffnet, durchsucht oder angezeigt.
+
+# Red words when the list of what opens what cannot be read, so the choice is not written; why it cannot be read.
+folders-app-opener-unreadable = Es wurde nichts geändert, weil { $why }.
+

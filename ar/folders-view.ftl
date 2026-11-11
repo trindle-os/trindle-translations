@@ -71,9 +71,6 @@ folders-view-sort-by = رتّب حسب
 # Name read out for the toolbar's Group by strip.
 folders-view-group-by = جمّع حسب
 
-# Tip and spoken name of the toolbar button that shows hidden files.
-folders-view-show-hidden = أظهر الملفات المخفية
-
 # Tip of the toolbar button that hides the preview panel.
 folders-view-panel-hide = أخفِ لوحة المعاينة (Alt+P)
 
@@ -347,4 +344,14 @@ folders-view-search-none = لا يوجد ما يمكن البحث عنه في ه
 
 # Name read out for the Search button, which says whether it is pressed.
 folders-view-search-spoken = بحث
+
+
+# Tip of the toolbar button that shows hidden files (Ctrl+H).
+folders-view-hidden-show = إظهار الملفات المخفية (Ctrl+H)
+
+# Tip of the toolbar button that hides hidden files again (Ctrl+H).
+folders-view-hidden-hide = إخفاء الملفات المخفية (Ctrl+H)
+
+# Name read out for the toolbar button that shows or hides hidden files.
+folders-view-hidden-spoken = الملفات المخفية
 

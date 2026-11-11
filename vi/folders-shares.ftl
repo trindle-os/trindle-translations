@@ -165,3 +165,49 @@ folders-shares-reconnecting = Đang kết nối lại { $name }…
 
 # Red words under the file lines when the list of remembered shares could not be written.
 folders-shares-not-remembered = Không thể ghi nhớ các thư mục chia sẻ cho lần sau.
+
+# Red words when a share's user name cannot be used.
+folders-shares-bad-user = Mục chia sẻ không nhận tên người dùng đó.
+
+# Red words when a share's domain cannot be used.
+folders-shares-bad-domain = Mục chia sẻ không nhận miền đó.
+
+# Red words when a share's password holds a line break.
+folders-shares-bad-password = Mật khẩu của mục chia sẻ không được có ngắt dòng.
+
+# Red words when a computer wants a user name and password; the computer, then what is being opened.
+folders-shares-needs-login = { $server } yêu cầu tên người dùng và mật khẩu cho { $it }.
+
+# Red words when the user name or password was refused; what is being opened.
+folders-shares-wrong-login = Tên người dùng hoặc mật khẩu không đúng cho { $it }.
+
+# Red words when the account on a computer cannot be used; the computer.
+folders-shares-account = Tài khoản của bạn trên { $server } đã bị khóa hoặc tắt, hoặc mật khẩu đã hết hạn.
+
+# Red words when a computer has no share of that name; the computer, then the share.
+folders-shares-no-share = { $server } không có thư mục chia sẻ nào tên là { $share }.
+
+# Red words when the account may not open a share; what is being opened.
+folders-shares-denied = Tài khoản đó không được mở { $it }.
+
+# Red words when a computer did not answer; the computer.
+folders-shares-asleep = { $server } không trả lời. Có thể máy đang ngủ hoặc đã tắt: hãy đánh thức nó rồi thử lại.
+
+# Red words when no computer of that name is on the network; the name.
+folders-shares-no-computer = Không tìm thấy máy tính nào tên là { $server } trên mạng này.
+
+# Red words when a computer only speaks the old unsafe SMB1; the computer.
+folders-shares-smb1 = { $server } chỉ dùng SMB1, một cách chia sẻ cũ không còn an toàn, nên Trindle không dùng nó.
+
+# Red words when a Debian package needed for sharing is missing; the package name.
+folders-shares-missing = Việc này cần { $package } của Debian, nhưng nó chưa được cài.
+
+# Red words when a share could not be opened and the system gave no reason.
+folders-shares-open-failed = Không thể mở mục chia sẻ.
+
+# Red words when a shared folder could not be opened and the system gave no reason.
+folders-shares-open-export-failed = Không thể mở thư mục chia sẻ.
+
+# Red words when a computer's shared folders could not be listed and the system gave no reason.
+folders-shares-list-failed = Không thể liệt kê các thư mục chia sẻ của nó.
+

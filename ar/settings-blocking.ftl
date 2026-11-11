@@ -178,3 +178,28 @@ settings-blocking-private-sub = لا يحتفظ Quad9 بسجل عمّن سأل.
 
 # Name of the choice in Private server that uses the network's own servers.
 settings-blocking-provider-network = شبكتك
+
+# Heading of the Firewall card, first on the Firewall and blocking page.
+settings-firewall = جدار الحماية
+
+# Help text (i button) of the Firewall card.
+settings-firewall-about = عندما يكون جدار الحماية يعمل، يمنع كل اتصال من حواسيب أخرى لم يطلبه هذا الحاسوب، فلا يستطيع أحد على شبكة Wi-Fi نفسها أن يجرّب حظه. يبقى التصفح والتحديثات والطابعات تعمل. البرنامج الذي ينتظر اتصال الآخرين، مثل خادم الألعاب، يحتاج إلى فتح منفذه أدناه. وعندما يكون متوقفًا، يمكن لأي حاسوب على الشبكة الوصول إلى كل برنامج ينتظر الاتصال. تغيير هذا الإعداد يطلب كلمة مرور المسؤول.
+
+# Name of the firewall's on and off switch.
+settings-firewall-switch = جدار الحماية
+
+# Small line under the switch while the firewall is on.
+settings-firewall-on-sub = لا تستطيع الحواسيب الأخرى الاتصال إلا إذا سمحت لها.
+
+# Small line under the switch while the firewall is off.
+settings-firewall-off-sub = متوقف: تستطيع الحواسيب الأخرى الوصول إلى كل برنامج ينتظر الاتصال.
+
+# Said beside the switch once the firewall is on.
+settings-firewall-done-on = جدار الحماية يعمل
+
+# Said beside the switch once the firewall is off.
+settings-firewall-done-off = جدار الحماية متوقف
+
+# Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
+settings-blocking-card = الحظر
+

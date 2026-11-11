@@ -1107,3 +1107,11 @@ scan-main-start-no-window = Trindle Scan: Die Arbeitsoberfläche wollte kein Fen
 # Red words at start-up when the home folder is not set to a full path, so settings and profiles cannot be kept.
 scan-main-error-no-home = Dein Home-Ordner ist nicht festgelegt, daher können deine Einstellungen und Profile diesmal nicht gespeichert werden.
 
+
+# Red words when pages could not be copied to the recovery folder, so a crash would lose them.
+scan-main-error-not-kept =
+    { $n ->
+        [one] Eine Seite konnte nicht in den Wiederherstellungsordner kopiert werden, darum ginge sie bei einem Absturz verloren.
+       *[other] { $n } Seiten konnten nicht in den Wiederherstellungsordner kopiert werden, darum gingen sie bei einem Absturz verloren.
+    }
+

@@ -99,7 +99,10 @@ folders-remote-screen-not-a-name = 已跳过：服务器发来的名称不安全
 folders-remote-screen-no-name = 一个没有名称的项目
 
 
-
 # Red words when a server or phone sent far more than the answer to a question could hold, and was stopped.
 folders-remote-mod-too-much = 它发送的内容远超一个答案所能容纳的范围，所以已被停止。
+
+
+# Why a thing on a WebDAV server was not removed as a file: it is a folder now.
+folders-remote-dav-not-a-file = { $name } 现在是文件夹，因此没有删除。
 

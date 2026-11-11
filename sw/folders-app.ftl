@@ -62,3 +62,10 @@ folders-app-view-not-kept = Mwonekano wa folda hii haukuweza kuhifadhiwa.
 
 # Red words at the foot of the window when the choice of grouping could not be saved.
 folders-app-grouping-not-kept = Mpangilio wa vikundi haukuweza kuhifadhiwa kwa mara ijayo.
+
+
+# Said in a window run as administrator when a file, an archive or a preview is asked for.
+folders-app-root-folders-only = Dirisha linaloendeshwa kama msimamizi hufanya kazi na folda tu, kwa hiyo hakuna faili inayofunguliwa, kutazamwa ndani au kuonyeshwa ndani yake kwa haki za msimamizi.
+
+# Red words when the list of what opens what cannot be read, so the choice is not written; why it cannot be read.
+folders-app-opener-unreadable = Hakuna kilichobadilika, kwa sababu { $why }.

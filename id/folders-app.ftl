@@ -60,3 +60,10 @@ folders-app-view-not-kept = Tampilan folder ini tidak dapat disimpan.
 # Red words at the foot of the window when the choice of grouping could not be saved.
 folders-app-grouping-not-kept = Pengelompokan tidak dapat disimpan untuk lain kali.
 
+
+# Said in a window run as administrator when a file, an archive or a preview is asked for.
+folders-app-root-folders-only = Jendela yang dijalankan sebagai administrator hanya bekerja dengan folder, jadi tidak ada berkas yang dibuka, dilihat isinya, atau ditampilkan di dalamnya dengan hak administrator.
+
+# Red words when the list of what opens what cannot be read, so the choice is not written; why it cannot be read.
+folders-app-opener-unreadable = Tidak ada yang diubah, karena { $why }.
+

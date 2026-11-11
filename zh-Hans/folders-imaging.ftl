@@ -10,3 +10,10 @@ folders-imaging-unreadable = 无法读取这张图片
 # Reason shown when a resized picture would have to be written in a kind Folders cannot write.
 folders-imaging-no-write = “文件夹”无法写出这种图片格式
 
+
+# Why a link to a picture is not turned.
+folders-imaging-no-turn-link = 链接不能旋转；请旋转它指向的图片
+
+# Why a moving picture is not turned.
+folders-imaging-no-turn-moving = 动图不能旋转，因为只会保留它的第一帧
+

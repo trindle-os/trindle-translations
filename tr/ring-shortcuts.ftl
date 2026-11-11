@@ -134,3 +134,7 @@ ring-shortcuts-heading-plugins = Eklentiler
 # Heading over the shortcuts the person set up on the list.
 ring-shortcuts-heading-yours = Sizinkiler
 
+
+# Words for the key that opens the window to report a problem.
+ring-shortcuts-report = Sorun bildir
+

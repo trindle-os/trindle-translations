@@ -50,3 +50,7 @@ folders-remote-mtp-rename-storage = স্টোরেজের নাম বদ
 
 # Words shown when the phone is plugged in but shows no storage.
 folders-remote-mtp-no-storage = ফোনে কোনো স্টোরেজ দেখা যাচ্ছে না। ফোন আনলক করে "ফাইল ট্রান্সফার" বেছে নিন, তারপর আবার চেষ্টা করুন।
+
+
+# Name shown for a phone's storage that has no name of its own.
+folders-remote-mtp-storage-name = স্টোরেজ

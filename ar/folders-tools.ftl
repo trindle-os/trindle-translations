@@ -457,3 +457,7 @@ folders-tools-compare-copy-left = نسخ { $n } مفقودًا أو أحدث إ�
 # SAFETY: needs a human review before it ships
 # Button in the pane compare window; { $n } is how many names are copied to the right folder.
 folders-tools-compare-copy-right = نسخ { $n } مفقودًا أو أحدث إلى اليمين
+
+# Line in the Wipe window naming the folders that were picked too, which are not wiped.
+folders-tools-wipe-left-out = لا تُمحى المجلدات، لذلك تُترك هذه كما هي: { $names }.
+

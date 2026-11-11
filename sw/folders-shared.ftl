@@ -46,3 +46,28 @@ folders-wallpaper-over-200 = zaidi ya MB 200
 
 # Two reasons joined, as in "larger than 4K or over 20 MB"; the two come in.
 folders-wallpaper-reasons-or = { $first } au { $second }
+
+
+# Row in the sidebar for a drive that is locked; the drive's name, so a narrow row still says it is locked.
+folders-volumes-locked-row = Imefungwa: { $name }
+
+# Name given to a drive that has none.
+folders-volumes-drive = Diski
+
+# Red words under the password box when the passphrase did not open an encrypted drive.
+folders-volumes-wrong-passphrase = Nenosiri hilo halikuifungua.
+
+# Said when a drive that is open already is opened again.
+folders-volumes-already-open = Tayari imefunguliwa.
+
+# Said when a locked drive is opened without a passphrase.
+folders-volumes-needs-passphrase = Nenosiri linahitajika ili kuifungua.
+
+# Line in the passphrase window saying which drive it is for; the drive's name.
+folders-volumes-passphrase-for = Nenosiri la { $name }
+
+# Title of the passphrase window for a locked drive.
+folders-volumes-unlock-title = Fungua diski
+
+# Said when the passphrase window could not be opened.
+folders-volumes-prompt-failed = Dirisha la nenosiri halikufunguka.

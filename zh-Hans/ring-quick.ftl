@@ -258,7 +258,6 @@ ring-quick-mic-level = 麦克风音量
 ring-quick-title-tray = 托盘图标
 
 
-
 # Heading of the shortcut list page, opened with Super and K.
 ring-quick-title-shortcuts = 快捷键
 

@@ -6,31 +6,13 @@ pk-title-sudo = هل تشغّل هذا كمسؤول؟
 # The heading when a program wants to change a system setting.
 # SAFETY: needs a human review before it ships
 pk-title-polkit = هل تسمح بهذا التغيير؟
-# The heading on the lock screen.
-# SAFETY: needs a human review before it ships
-pk-title-unlock = هل تفتح قفل الشاشة؟
-# The heading on the login screen.
-# SAFETY: needs a human review before it ships
-pk-title-login = هل تسجّل الدخول؟
 # The heading when a phone is being added.
 # SAFETY: needs a human review before it ships
 pk-title-pair = هل تضيف هذا الهاتف؟
 
-# Shown when a command asked for administrator rights and gave no details.
-# SAFETY: needs a human review before it ships
-pk-what-sudo = أمر يريد صلاحيات المسؤول.
 # Shown when a program asked to change a setting and gave no details.
 # SAFETY: needs a human review before it ships
 pk-what-polkit = برنامج يريد تغيير إعداد في النظام.
-# Shown on the lock screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-unlock = افتح قفل هذه الشاشة.
-# Shown on the login screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-login = سجّل الدخول إلى هذا الحاسوب.
-# Shown when a phone is being added and no code could be shown.
-# SAFETY: needs a human review before it ships
-pk-what-pair = هاتف يريد أن يُضاف.
 # The question when a phone is being added. $name is the phone's name, $code the digits both screens show.
 # SAFETY: needs a human review before it ships
 pk-pair-detail = هل الرمز على { $name } هو { $code }؟
@@ -56,14 +38,6 @@ pk-pairing-scan = امسح هذا بتطبيق Pocketkey على هاتفك. يع
 pk-pairing-qr = رمز QR لاقتران هاتفك
 # The question under the six numbers. $name is the phone's name.
 pk-pairing-same-numbers = هل يعرض { $name } هذه الأرقام الستة نفسها؟
-# The button that agrees the numbers match.
-# SAFETY: needs a human review before it ships
-pk-pairing-match = متطابقة
-# The button that says they do not match.
-# SAFETY: needs a human review before it ships
-pk-pairing-no-match = غير متطابقة
-# Shown after the person agreed, until the phone agrees too.
-pk-pairing-waiting-phone = بانتظار أن يقول الهاتف نعم أيضًا…
 # The button that stops pairing.
 pk-pairing-stop = أوقف الاقتران
 # The button that closes the window once pairing has ended.
@@ -114,3 +88,17 @@ pk-set-6-hours = 6 ساعات
 pk-set-1-day = يوم واحد
 pk-set-forget = انسَ هذا الهاتف
 pk-set-forget-sub = لن يستطيع الإجابة عنك هنا بعد الآن.
+
+# Under those numbers: where to answer.
+pk-pairing-answer-on-screen = أجب عن السؤال على الشاشة الكاملة.
+
+pk-pairing-why-needs-password = إضافة هاتف تحتاج إلى كلمة مرورك، لا إلى الهاتف الذي لديك. أغلق هذه النافذة، وابدأ الاقتران من جديد، واكتب كلمة مرورك.
+
+pk-set-sudo = Sudo وتغييرات النظام
+
+pk-set-sudo-sub = ما يجب أن يحدث للهاتف قبل أن يجيب عنها.
+
+pk-set-sudo-unlocked = الهاتف مفتوح القفل قبل لحظة
+
+pk-set-sudo-any = الهاتف حتى لو كان مقفلًا
+

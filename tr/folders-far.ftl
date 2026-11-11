@@ -108,9 +108,6 @@ folders-far-connect-key = Anahtar dosyası, seçerseniz
 # Tip of the button beside the key file box that opens the file chooser, and title of that chooser.
 folders-far-connect-pick-key = Anahtar dosyasını seçin
 
-# Button of the key file chooser that accepts the chosen file.
-folders-far-connect-choose = Seç
-
 # Note on the Connect to a server card saying where the connection settings come from.
 folders-far-connect-ssh-setup = Kendi ssh kurulumunuz kullanılır: yapılandırması, aracısı, anahtarları ve bilinen sunucuları.
 

@@ -150,3 +150,58 @@ folders-sharing-changing = साझा फ़ोल्डर बदल रह�
 # Calm words while a share is made.
 folders-sharing-sharing-it = साझा कर रहे हैं…
 
+
+# Red words under the name box when a share has no name.
+folders-sharing-name-empty = शेयर को एक नाम दें।
+
+# Red words under the name box when a share's name is too long; the most letters allowed.
+folders-sharing-name-long = शेयर के नाम में ज़्यादा से ज़्यादा { $most } अक्षर हो सकते हैं।
+
+# Red words when a share's name holds a letter that is not allowed.
+folders-sharing-name-bad-letters = शेयर के नाम में % < > * ? | / \ + = ; : " या अल्पविराम में से कुछ नहीं हो सकता।
+
+# Red words when a share's name ends in a dollar sign, which would hide it.
+folders-sharing-name-dollar = $ पर खत्म होने वाला नाम शेयर को छिपा देगा, इसलिए उसे इस्तेमाल नहीं किया जाता।
+
+# Red words when a share's name starts with a dash.
+folders-sharing-name-dash = शेयर का नाम डैश से शुरू नहीं हो सकता।
+
+# Red words when a share's name is one Samba keeps for itself; the name.
+folders-sharing-name-reserved = Samba ने { $name } नाम अपने लिए रखा है। कोई और नाम चुनें।
+
+# Name offered for a share when the folder's own name cannot be used.
+folders-sharing-default-name = साझा
+
+# Red words when Samba says only the person's own folders can be shared.
+folders-sharing-only-yours-short = सिर्फ़ वही फ़ोल्डर साझा हो सकते हैं जो आपके हैं।
+
+# Red words when a share's name is someone's login on this computer.
+folders-sharing-name-is-login = यह नाम इस कंप्यूटर पर किसी का लॉगिन है, इसलिए शेयर का यह नाम नहीं हो सकता। कोई और नाम चुनें।
+
+# Red words when this computer's Samba settings do not allow shares without a password.
+folders-sharing-no-guests-allowed = इस कंप्यूटर की Samba सेटिंग बिना पासवर्ड के शेयर की अनुमति नहीं देतीं।
+
+# Red words when the most folders Samba allows are already shared.
+folders-sharing-too-many = यह कंप्यूटर पहले ही उतने फ़ोल्डर साझा कर रहा है जितने की अनुमति है।
+
+# Red words when the folder to share has gone.
+folders-sharing-folder-gone = वह फ़ोल्डर अब वहाँ नहीं है।
+
+# Red words when Samba failed without saying why.
+folders-sharing-samba-silent = Samba ने कारण नहीं बताया।
+
+# Red words repeating what Samba said when it failed; Samba's last line.
+folders-sharing-samba-said = Samba ने कहा: { $said }
+
+# Red words when a folder that must be opened to guests belongs to someone else; its path.
+folders-sharing-guests-not-yours = { $path } किसी और का है, इसलिए उसे यहाँ से मेहमानों के लिए खोला नहीं जा सकता।
+
+# Red words when a folder's permissions could not be changed to let guests in; its path, then why.
+folders-sharing-guests-not-changed = { $path } को बदला नहीं जा सका: { $why }
+
+# Red words when setting up sharing cannot fetch Samba because the computer is offline.
+folders-sharing-setup-offline = Samba लाया नहीं जा सका: लगता है यह कंप्यूटर ऑफ़लाइन है। इंटरनेट से जुड़ें और फिर कोशिश करें।
+
+# Red words when setting up sharing cannot go on because another install is running.
+folders-sharing-setup-busy = जब कुछ और इंस्टॉल हो रहा हो, तब Samba नहीं लगाया जा सकता। कुछ मिनट बाद फिर कोशिश करें।
+

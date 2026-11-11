@@ -103,3 +103,7 @@ folders-remote-screen-no-name = adı olmayan bir öğe
 # Red words when a server or phone sent far more than the answer to a question could hold, and was stopped.
 folders-remote-mod-too-much = Bir yanıtın alabileceğinden çok daha fazlasını gönderdi, bu yüzden durduruldu.
 
+
+# Why a thing on a WebDAV server was not removed as a file: it is a folder now.
+folders-remote-dav-not-a-file = { $name } artık bir klasör, bu yüzden kaldırılmadı.
+

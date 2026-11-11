@@ -826,3 +826,13 @@ store-appimage-warn-ok = Tamam
 # Button on that card that gives the install up.
 store-appimage-warn-cancel = İptal
 
+
+# Tick box under the Search page's box: look on Flathub, for Flatpaks.
+store-gh-place-flathub = Flathub (Flatpak'ler)
+
+# Tick box: look on AppImageHub, for AppImages.
+store-gh-place-hub = AppImageHub (AppImage'ler)
+
+# Tick box: look on GitHub, which needs Enter.
+store-gh-place-github = GitHub
+

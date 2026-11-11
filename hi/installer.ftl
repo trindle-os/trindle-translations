@@ -651,7 +651,6 @@ installer-boot-failed = इस कंप्यूटर पर बूट मे�
 installer-sure = पक्का?
 
 
-
 # Note on the ring picture, at the tab at the edge.
 installer-tour-ring-foot = क्या खुला है, क्लिपबोर्ड, और स्क्रीन साफ़ करने वाला एक बटन
 
@@ -678,7 +677,6 @@ installer-halt-stuck = डिस्क को छोड़ा नहीं ज�
 
 # The copy is done and the person is still answering.
 installer-step-waiting = कॉपी हो गया। आपके उत्तरों का इंतज़ार है।
-
 
 
 installer-already-running = इस कंप्यूटर पर पहले से एक और इंस्टॉलर चल रहा है।

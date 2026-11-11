@@ -333,7 +333,6 @@ settings-keyboard-usb-about = जब कोई USB पोर्ट शुरू 
 settings-keyboard-button-and-mark = { $error }; और उसका निशान फिर से हटाया नहीं जा सका: { $undo }
 
 
-
 # Title of the card with the keys that take a screenshot and show the shortcut list.
 settings-keyboard-shortcuts-title = स्क्रीनशॉट और शॉर्टकट सूची
 
@@ -381,4 +380,11 @@ settings-keyboard-restart-clash = { $keys } पहले से किसी द
 
 # Said in red under a restart shortcut that could not be kept; { $why } is the reason.
 settings-keyboard-restart-not-saved = सहेजा नहीं गया: { $why }
+
+
+# Name of the shortcut and its line that opens the window to report a problem.
+settings-keyboard-shortcuts-report = समस्या बताएँ
+
+# Tip of the round button that opens the report window now.
+settings-keyboard-shortcuts-report-tip = अभी समस्या बताएँ
 

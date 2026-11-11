@@ -1113,3 +1113,11 @@ scan-main-start-no-window = Trindle Scan: eneo-kazi halikufungua dirisha.
 # Red words at start-up when the home folder is not set to a full path, so settings and profiles cannot be kept.
 scan-main-error-no-home = Folda yako ya nyumbani haijawekwa, kwa hiyo mipangilio na wasifu wako haviwezi kuhifadhiwa wakati huu.
 
+
+
+# Red words when pages could not be copied to the recovery folder, so a crash would lose them.
+scan-main-error-not-kept =
+    { $n ->
+        [one] Ukurasa mmoja haukuweza kunakiliwa kwenye folda ya kurejesha, kwa hiyo hitilafu ingeupoteza.
+       *[other] Kurasa { $n } hazikuweza kunakiliwa kwenye folda ya kurejesha, kwa hiyo hitilafu ingezipoteza.
+    }

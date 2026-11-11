@@ -324,3 +324,7 @@ folders-act-links-failed =
 
 # Words under the file lines when the window is closed while work waits for an answer.
 folders-act-closing-waits = Bazı işler bir yanıt bekliyor. Kapatmadan önce yanıtlayın ya da işi durdurun.
+
+# Words under the file lines when the window is closed while work goes on.
+folders-act-closing-busy = Aktarım bitmeden klasör penceresi kapatılamaz. Bitmesini bekleyin ya da durdurun, sonra kapatın.
+

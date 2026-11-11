@@ -229,7 +229,6 @@ settings-about-updates-waiting = पासवर्ड का इंतज़ा
 settings-about-updates-by-itself-sub = बंद: कहने तक कुछ नहीं देखा जाता।
 
 
-
 # Bold line of the switch for Debian's security fixes; also the switch's name for a screen reader.
 settings-about-security = सुरक्षा अपडेट
 

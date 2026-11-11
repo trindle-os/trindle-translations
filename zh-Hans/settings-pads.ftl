@@ -75,7 +75,6 @@ settings-pads-other-title = 其他更改
 settings-pads-other-about = 摇杆反向、摇杆互换和死区。输入格式如 Left Stick dead zone = 10%，或 Right Stick Y = inverted。
 
 
-
 # Where a choice in that list comes from; { $what } is the key, mouse button or controller button.
 settings-pads-on-keyboard = 键盘：{ $what }
 
@@ -89,7 +88,6 @@ settings-pads-left-click = 左键单击
 settings-pads-right-click = 右键单击
 
 settings-pads-middle-click = 中键单击
-
 
 
 # Title of the card that chooses a profile for each game.

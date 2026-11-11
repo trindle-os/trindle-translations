@@ -51,3 +51,7 @@ folders-remote-mtp-rename-storage = Mengganti nama penyimpanan
 # Words shown when the phone is plugged in but shows no storage.
 folders-remote-mtp-no-storage = Ponsel tidak menampilkan penyimpanan. Buka kunci ponsel dan pilih Transfer berkas, lalu coba lagi.
 
+
+# Name shown for a phone's storage that has no name of its own.
+folders-remote-mtp-storage-name = Penyimpanan
+

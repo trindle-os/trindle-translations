@@ -324,3 +324,7 @@ folders-act-links-failed =
 # Words under the file lines when the window is closed while work waits for an answer.
 folders-act-closing-waits = Kazi fulani inasubiri jibu. Ijibu, au simamisha kazi, kabla ya kufunga.
 
+
+
+# Words under the file lines when the window is closed while work goes on.
+folders-act-closing-busy = Folders haiwezi kufungwa hadi uhamishaji ukamilike. Subiri ukamilike, au usimamishe, kisha ufunge.

@@ -50,3 +50,7 @@ folders-remote-mtp-rename-storage = स्टोरेज का नाम ब�
 
 # Words shown when the phone is plugged in but shows no storage.
 folders-remote-mtp-no-storage = फ़ोन कोई स्टोरेज नहीं दिखा रहा। उसे अनलॉक करें और फ़ाइल ट्रांसफ़र चुनें, फिर कोशिश करें।
+
+# Name shown for a phone's storage that has no name of its own.
+folders-remote-mtp-storage-name = स्टोरेज
+

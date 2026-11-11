@@ -240,7 +240,6 @@ ring-startup-add = 登录时启动
 ring-startup-remove = 不再在登录时启动
 
 
-
 # Help for the option that opens the shortcut list, or closes it when it is showing.
 ring-cli-shortcuts = 以列表显示所有键盘快捷键，或收起列表（Super 和 K，除非在“设置”中更改）
 

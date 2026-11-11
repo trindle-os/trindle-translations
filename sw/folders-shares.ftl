@@ -160,3 +160,49 @@ folders-shares-reconnecting = Inaunganisha tena { $name }…
 
 # Red words under the file lines when the list of remembered shares could not be written.
 folders-shares-not-remembered = Hazikuweza kukumbukwa kwa mara ijayo.
+
+
+# Red words when a share's user name cannot be used.
+folders-shares-bad-user = Hilo si jina la mtumiaji ambalo shea inaweza kupokea.
+
+# Red words when a share's domain cannot be used.
+folders-shares-bad-domain = Hicho si kikoa ambacho shea inaweza kupokea.
+
+# Red words when a share's password holds a line break.
+folders-shares-bad-password = Nenosiri la shea haliwezi kuwa na mstari mpya.
+
+# Red words when a computer wants a user name and password; the computer, then what is being opened.
+folders-shares-needs-login = { $server } inataka jina la mtumiaji na nenosiri la { $it }.
+
+# Red words when the user name or password was refused; what is being opened.
+folders-shares-wrong-login = Jina la mtumiaji au nenosiri halikuwa sahihi kwa { $it }.
+
+# Red words when the account on a computer cannot be used; the computer.
+folders-shares-account = Akaunti yako kwenye { $server } imefungwa au imezimwa, au nenosiri lake limeisha muda.
+
+# Red words when a computer has no share of that name; the computer, then the share.
+folders-shares-no-share = { $server } haina folda iliyoshirikiwa iitwayo { $share }.
+
+# Red words when the account may not open a share; what is being opened.
+folders-shares-denied = Akaunti hiyo haiwezi kufungua { $it }.
+
+# Red words when a computer did not answer; the computer.
+folders-shares-asleep = { $server } haikujibu. Huenda imelala au imezimwa: iamshe kisha ujaribu tena.
+
+# Red words when no computer of that name is on the network; the name.
+folders-shares-no-computer = Hakuna kompyuta iitwayo { $server } iliyopatikana kwenye mtandao huu.
+
+# Red words when a computer only speaks the old unsafe SMB1; the computer.
+folders-shares-smb1 = { $server } hutumia SMB1 pekee, njia ya zamani ya kushiriki ambayo haiko salama tena, kwa hiyo Trindle haitumii.
+
+# Red words when a Debian package needed for sharing is missing; the package name.
+folders-shares-missing = Hii inahitaji { $package } ya Debian, ambayo haijawekwa.
+
+# Red words when a share could not be opened and the system gave no reason.
+folders-shares-open-failed = Shea haikuweza kufunguliwa.
+
+# Red words when a shared folder could not be opened and the system gave no reason.
+folders-shares-open-export-failed = Folda iliyoshirikiwa haikuweza kufunguliwa.
+
+# Red words when a computer's shared folders could not be listed and the system gave no reason.
+folders-shares-list-failed = Folda zake zilizoshirikiwa hazikuweza kuorodheshwa.

@@ -134,3 +134,7 @@ ring-shortcuts-heading-plugins = Plugin
 # Heading over the shortcuts the person set up on the list.
 ring-shortcuts-heading-yours = Của bạn
 
+
+# Words for the key that opens the window to report a problem.
+ring-shortcuts-report = Báo cáo sự cố
+

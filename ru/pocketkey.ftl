@@ -6,31 +6,13 @@ pk-title-sudo = Запустить это от имени администрат
 # The heading when a program wants to change a system setting.
 # SAFETY: needs a human review before it ships
 pk-title-polkit = Разрешить это изменение?
-# The heading on the lock screen.
-# SAFETY: needs a human review before it ships
-pk-title-unlock = Разблокировать экран?
-# The heading on the login screen.
-# SAFETY: needs a human review before it ships
-pk-title-login = Войти?
 # The heading when a phone is being added.
 # SAFETY: needs a human review before it ships
 pk-title-pair = Добавить этот телефон?
 
-# Shown when a command asked for administrator rights and gave no details.
-# SAFETY: needs a human review before it ships
-pk-what-sudo = Команде нужны права администратора.
 # Shown when a program asked to change a setting and gave no details.
 # SAFETY: needs a human review before it ships
 pk-what-polkit = Программа хочет изменить параметр системы.
-# Shown on the lock screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-unlock = Разблокировать этот экран.
-# Shown on the login screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-login = Войти в этот компьютер.
-# Shown when a phone is being added and no code could be shown.
-# SAFETY: needs a human review before it ships
-pk-what-pair = Телефон хочет быть добавлен.
 # The question when a phone is being added. $name is the phone's name, $code the digits both screens show.
 # SAFETY: needs a human review before it ships
 pk-pair-detail = Код на { $name } такой: { $code }?
@@ -56,14 +38,6 @@ pk-pairing-scan = Отсканируйте это в Pocketkey на телефо
 pk-pairing-qr = QR-код для сопряжения телефона
 # The question under the six numbers. $name is the phone's name.
 pk-pairing-same-numbers = Показывает ли «{ $name }» те же шесть цифр?
-# The button that agrees the numbers match.
-# SAFETY: needs a human review before it ships
-pk-pairing-match = Совпадают
-# The button that says they do not match.
-# SAFETY: needs a human review before it ships
-pk-pairing-no-match = Не совпадают
-# Shown after the person agreed, until the phone agrees too.
-pk-pairing-waiting-phone = Ждём, пока телефон тоже ответит «да»…
 # The button that stops pairing.
 pk-pairing-stop = Прекратить сопряжение
 # The button that closes the window once pairing has ended.
@@ -114,3 +88,17 @@ pk-set-6-hours = 6 часов
 pk-set-1-day = 1 день
 pk-set-forget = Забыть этот телефон
 pk-set-forget-sub = Он больше не сможет отвечать за вас здесь.
+
+# Under those numbers: where to answer.
+pk-pairing-answer-on-screen = Ответьте на вопрос на весь экран.
+
+pk-pairing-why-needs-password = Чтобы добавить телефон, нужен ваш пароль, а не уже подключённый телефон. Закройте это окно, начните сопряжение заново и введите пароль.
+
+pk-set-sudo = Sudo и изменения в системе
+
+pk-set-sudo-sub = Что должен сделать телефон, прежде чем отвечать на них.
+
+pk-set-sudo-unlocked = Телефон только что разблокирован
+
+pk-set-sudo-any = Телефон, даже заблокированный
+

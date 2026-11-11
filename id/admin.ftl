@@ -397,3 +397,13 @@ admin-system-needs-btrfs = Memerlukan Btrfs.
 # Red words in Settings when a restore swapped the systems but could not finish tidying up. { $why } is the reason.
 admin-restore-finish-later = Snapshot sudah terpasang dan komputer akan menyala darinya. Pembersihan sistem lama belum selesai dan akan dicoba lagi pada saat menyala berikutnya: { $why }
 
+
+# Red words in Settings when too many ports are open already. { $most } is a number.
+admin-ports-too-many = Paling banyak { $most } port yang dapat dibuka.
+
+# Red words in Settings when the list of open ports could not be kept. { $why } is the system's reason.
+admin-ports-not-kept = Daftar port yang terbuka tidak dapat disimpan: { $why }.
+
+# Red words in Settings when the firewall could not be switched off. { $why } is the system's reason.
+admin-firewall-still-on = Firewall masih menyala: { $why }
+

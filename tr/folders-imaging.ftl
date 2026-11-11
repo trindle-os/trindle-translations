@@ -9,3 +9,10 @@ folders-imaging-unreadable = resim okunamadı
 
 # Reason shown when a resized picture would have to be written in a kind Folders cannot write.
 folders-imaging-no-write = Folders'ın yazabildiği bir resim türü değil
+
+# Why a link to a picture is not turned.
+folders-imaging-no-turn-link = bağlantı döndürülmez; gösterdiği resmi döndürün
+
+# Why a moving picture is not turned.
+folders-imaging-no-turn-moving = hareketli resim döndürülmez, çünkü yalnızca ilk resmi kalırdı
+

@@ -78,7 +78,6 @@ kit-example-gallery-hello = 你好，{ $name }
 kit-example-gallery-progress = 进度
 
 
-
 # The gallery's number box: the card's heading, and the name of the box.
 kit-example-gallery-copies = 数字框
 

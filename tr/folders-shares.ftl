@@ -162,3 +162,49 @@ folders-shares-reconnecting = { $name } yeniden bağlanıyor…
 
 # Red words under the file lines when the list of remembered shares could not be written.
 folders-shares-not-remembered = Paylaşımlar bir sonraki sefer için hatırlanamadı.
+
+# Red words when a share's user name cannot be used.
+folders-shares-bad-user = Bu, bir paylaşımın kabul edebileceği bir kullanıcı adı değil.
+
+# Red words when a share's domain cannot be used.
+folders-shares-bad-domain = Bu, bir paylaşımın kabul edebileceği bir etki alanı değil.
+
+# Red words when a share's password holds a line break.
+folders-shares-bad-password = Bir paylaşımın parolasında satır sonu olamaz.
+
+# Red words when a computer wants a user name and password; the computer, then what is being opened.
+folders-shares-needs-login = { $server }, { $it } için kullanıcı adı ve parola istiyor.
+
+# Red words when the user name or password was refused; what is being opened.
+folders-shares-wrong-login = Kullanıcı adı ya da parola { $it } için doğru değildi.
+
+# Red words when the account on a computer cannot be used; the computer.
+folders-shares-account = { $server } üzerindeki hesabınız kilitli ya da kapatılmış, veya parolasının süresi dolmuş.
+
+# Red words when a computer has no share of that name; the computer, then the share.
+folders-shares-no-share = { $server } üzerinde { $share } adlı paylaşılan klasör yok.
+
+# Red words when the account may not open a share; what is being opened.
+folders-shares-denied = Bu hesap { $it } öğesini açamaz.
+
+# Red words when a computer did not answer; the computer.
+folders-shares-asleep = { $server } yanıt vermedi. Uykuda ya da kapalı olabilir: uyandırın ve yeniden deneyin.
+
+# Red words when no computer of that name is on the network; the name.
+folders-shares-no-computer = Bu ağda { $server } adlı bir bilgisayar bulunamadı.
+
+# Red words when a computer only speaks the old unsafe SMB1; the computer.
+folders-shares-smb1 = { $server } yalnızca SMB1 konuşuyor; bu, artık güvenli olmayan eski bir paylaşım yöntemi, bu yüzden Trindle onu kullanmaz.
+
+# Red words when a Debian package needed for sharing is missing; the package name.
+folders-shares-missing = Bunun için Debian'ın { $package } paketi gerekiyor, ama kurulu değil.
+
+# Red words when a share could not be opened and the system gave no reason.
+folders-shares-open-failed = Paylaşım açılamadı.
+
+# Red words when a shared folder could not be opened and the system gave no reason.
+folders-shares-open-export-failed = Paylaşılan klasör açılamadı.
+
+# Red words when a computer's shared folders could not be listed and the system gave no reason.
+folders-shares-list-failed = Paylaşılan klasörler listelenemedi.
+

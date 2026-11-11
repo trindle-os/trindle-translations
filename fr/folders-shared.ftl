@@ -44,3 +44,28 @@ folders-wallpaper-over-200 = plus de 200 Mo
 
 # Two reasons joined, as in "larger than 4K or over 20 MB"; the two come in.
 folders-wallpaper-reasons-or = { $first } ou { $second }
+
+# Row in the sidebar for a drive that is locked; the drive's name, so a narrow row still says it is locked.
+folders-volumes-locked-row = Verrouillé : { $name }
+
+# Name given to a drive that has none.
+folders-volumes-drive = Disque
+
+# Red words under the password box when the passphrase did not open an encrypted drive.
+folders-volumes-wrong-passphrase = Cette phrase secrète ne l'a pas ouvert.
+
+# Said when a drive that is open already is opened again.
+folders-volumes-already-open = Il est déjà ouvert.
+
+# Said when a locked drive is opened without a passphrase.
+folders-volumes-needs-passphrase = Une phrase secrète est nécessaire pour l'ouvrir.
+
+# Line in the passphrase window saying which drive it is for; the drive's name.
+folders-volumes-passphrase-for = Phrase secrète pour { $name }
+
+# Title of the passphrase window for a locked drive.
+folders-volumes-unlock-title = Déverrouiller le disque
+
+# Said when the passphrase window could not be opened.
+folders-volumes-prompt-failed = La fenêtre de la phrase secrète ne s'est pas ouverte.
+

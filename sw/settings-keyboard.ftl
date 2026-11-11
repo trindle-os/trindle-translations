@@ -377,3 +377,10 @@ settings-keyboard-restart-clash = { $keys } tayari inatumiwa na njia nyingine ya
 # Said in red under a restart shortcut that could not be kept; { $why } is the reason.
 settings-keyboard-restart-not-saved = Haijahifadhiwa: { $why }
 
+
+# Name of the shortcut and its line that opens the window to report a problem.
+settings-keyboard-shortcuts-report = Ripoti tatizo
+
+# Tip of the round button that opens the report window now.
+settings-keyboard-shortcuts-report-tip = Ripoti tatizo sasa
+

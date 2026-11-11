@@ -185,7 +185,6 @@ kit-size-gb = { $size } GB
 kit-size-tb = { $size } TB
 
 
-
 # The language's own ten figures, nought to nine, for a language the toolkit has no region rule for; the rule (CLDR) wins for those it knows.
 kit-number-digits = 0123456789
 

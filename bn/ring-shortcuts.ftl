@@ -134,3 +134,7 @@ ring-shortcuts-heading-plugins = প্লাগইন
 # Heading over the shortcuts the person set up on the list.
 ring-shortcuts-heading-yours = আপনার
 
+
+# Words for the key that opens the window to report a problem.
+ring-shortcuts-report = সমস্যা জানান
+

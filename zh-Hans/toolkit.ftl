@@ -268,7 +268,6 @@ kit-only-your-own = 这里只有您自己的按键才有效。
 kit-no-layout = 无法读取键盘布局，所以输入不起作用。
 
 
-
 # Read out by the screen reader for the line between two areas of a window that can be dragged to make one bigger.
 kit-divider = 分隔线
 

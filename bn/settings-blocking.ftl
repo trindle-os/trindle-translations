@@ -163,3 +163,28 @@ settings-blocking-private-sub = Quad9 কে চেয়েছিল তার 
 
 # Name of the choice in Private server that uses the network's own servers.
 settings-blocking-provider-network = আপনার নেটওয়ার্ক
+
+
+# Heading of the Firewall card, first on the Firewall and blocking page.
+settings-firewall = ফায়ারওয়াল
+
+# Help text (i button) of the Firewall card.
+settings-firewall-about = চালু থাকলে ফায়ারওয়াল অন্য কম্পিউটারের এমন প্রতিটি সংযোগ ঠেকায় যা এই কম্পিউটার চায়নি, তাই একই Wi-Fi-তে কেউ চেষ্টা করে সুবিধা নিতে পারে না। ব্রাউজ করা, আপডেট ও প্রিন্টার ঠিকঠাক চলে। যে প্রোগ্রাম অন্যদের যুক্ত হওয়ার অপেক্ষা করে, যেমন গেম সার্ভার, তার পোর্ট নিচে খুলতে হবে। বন্ধ থাকলে নেটওয়ার্কের যেকোনো কম্পিউটার অপেক্ষায় থাকা প্রতিটি প্রোগ্রামে পৌঁছাতে পারে। এটি বদলাতে অ্যাডমিনিস্ট্রেটরের পাসওয়ার্ড লাগে।
+
+# Name of the firewall's on and off switch.
+settings-firewall-switch = ফায়ারওয়াল
+
+# Small line under the switch while the firewall is on.
+settings-firewall-on-sub = আপনি অনুমতি না দিলে অন্য কম্পিউটার যুক্ত হতে পারে না।
+
+# Small line under the switch while the firewall is off.
+settings-firewall-off-sub = বন্ধ: অপেক্ষায় থাকা প্রতিটি প্রোগ্রামে অন্য কম্পিউটার পৌঁছাতে পারে।
+
+# Said beside the switch once the firewall is on.
+settings-firewall-done-on = ফায়ারওয়াল চালু
+
+# Said beside the switch once the firewall is off.
+settings-firewall-done-off = ফায়ারওয়াল বন্ধ
+
+# Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
+settings-blocking-card = ব্লক করা

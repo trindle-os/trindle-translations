@@ -310,3 +310,55 @@ settings-network-kept-anyway = { $words } फिर भी यह सहेज�
 # Said in red when a network would not disconnect.
 settings-network-disconnect-failed = यह जुड़ाव हटाया नहीं जा सका।
 
+
+# Heading of the card that lists the ports opened by hand.
+settings-network-ports = खुले पोर्ट
+
+# Help text (i button) of the Open ports card.
+settings-network-ports-about = हर पोर्ट बंद रहता है, जब तक इस कंप्यूटर ने पहले न माँगा हो। इसलिए जो प्रोग्राम दूसरों के जुड़ने का इंतज़ार करता है, जैसे गेम सर्वर या सिंक टूल, उस तक तब तक नहीं पहुँचा जा सकता जब तक उसका पोर्ट यहाँ न खोला जाए। यहाँ खोला गया पोर्ट सिर्फ़ आपके घर के नेटवर्क के कंप्यूटरों को आने देता है, पूरे इंटरनेट को कभी नहीं। पोर्ट खोलने या बंद करने पर प्रशासक का पासवर्ड माँगा जाता है।
+
+# Line in the Open ports card when no port is open.
+settings-network-ports-none = कोई पोर्ट खुला नहीं है
+
+# Small line under it.
+settings-network-ports-none-sub = दूसरे कंप्यूटरों के लिए हर पोर्ट बंद है।
+
+# Small line under an open port, such as TCP 37666.
+settings-network-port-sub = आपके घर के नेटवर्क के लिए खुला।
+
+# Tooltip of the button that closes an open port. { $port } is like TCP 37666.
+settings-network-port-close = { $port } बंद करें
+
+# Heading of the line that opens a port.
+settings-network-port-add = पोर्ट खोलें
+
+# Small line under it.
+settings-network-port-add-sub = ऐसे प्रोग्राम के लिए जिससे दूसरे जुड़ते हैं।
+
+# Placeholder in the box where the port number is typed.
+settings-network-port-number = पोर्ट नंबर
+
+# Tooltip of the choice of TCP, UDP or both.
+settings-network-port-protocol = प्रोटोकॉल
+
+# Choice: the TCP protocol only. Usually left as TCP.
+settings-network-port-tcp = TCP
+
+# Choice: the UDP protocol only. Usually left as UDP.
+settings-network-port-udp = UDP
+
+# Choice: both TCP and UDP.
+settings-network-port-both = दोनों
+
+# Button that opens the typed port.
+settings-network-port-open = खोलें
+
+# Red words when what was typed is not a port number.
+settings-network-port-not-a-port = 1 से 65535 के बीच की संख्या लिखें।
+
+# Red words when the port is already open.
+settings-network-port-already = पहले से खुला है।
+
+# Said under the line once the port is open.
+settings-network-port-opened = खुल गया
+

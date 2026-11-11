@@ -51,3 +51,7 @@ folders-remote-mtp-rename-storage = اسٹوریج کا نام بدلنا
 
 # Words shown when the phone is plugged in but shows no storage.
 folders-remote-mtp-no-storage = فون کوئی اسٹوریج نہیں دکھا رہا۔ اسے ان لاک کریں اور فائل ٹرانسفر چنیں، پھر دوبارہ کوشش کریں۔
+
+# Name shown for a phone's storage that has no name of its own.
+folders-remote-mtp-storage-name = اسٹوریج
+

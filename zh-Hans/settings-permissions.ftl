@@ -238,7 +238,6 @@ settings-permissions-not-added = 从 Folders 运行，未添加到 Apps
 settings-permissions-kind-tip = 应用类型
 
 
-
 # Heading of the card for programs that are not in a box.
 settings-outside-heading = 沙盒之外的程序
 

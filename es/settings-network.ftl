@@ -294,3 +294,55 @@ settings-network-kept-anyway = { $words } Se guardó de todos modos: olvídala c
 # Said in red when a network would not disconnect.
 settings-network-disconnect-failed = No se pudo desconectar.
 
+
+# Heading of the card that lists the ports opened by hand.
+settings-network-ports = Puertos abiertos
+
+# Help text (i button) of the Open ports card.
+settings-network-ports-about = Todos los puertos están cerrados salvo que este equipo lo haya pedido, así que no se puede llegar a un programa que espera conexiones de otros, como un servidor de juegos o una herramienta de sincronización, hasta que abras aquí su puerto. Un puerto abierto aquí deja entrar solo a los equipos de tu red doméstica, nunca a internet. Abrir o cerrar uno pide la contraseña de administrador.
+
+# Line in the Open ports card when no port is open.
+settings-network-ports-none = Ningún puerto abierto
+
+# Small line under it.
+settings-network-ports-none-sub = Todos los puertos están cerrados para los otros equipos.
+
+# Small line under an open port, such as TCP 37666.
+settings-network-port-sub = Abierto a tu red doméstica.
+
+# Tooltip of the button that closes an open port. { $port } is like TCP 37666.
+settings-network-port-close = Cerrar { $port }
+
+# Heading of the line that opens a port.
+settings-network-port-add = Abrir un puerto
+
+# Small line under it.
+settings-network-port-add-sub = Para un programa al que se conectan otros.
+
+# Placeholder in the box where the port number is typed.
+settings-network-port-number = Número de puerto
+
+# Tooltip of the choice of TCP, UDP or both.
+settings-network-port-protocol = Protocolo
+
+# Choice: the TCP protocol only. Usually left as TCP.
+settings-network-port-tcp = TCP
+
+# Choice: the UDP protocol only. Usually left as UDP.
+settings-network-port-udp = UDP
+
+# Choice: both TCP and UDP.
+settings-network-port-both = Ambos
+
+# Button that opens the typed port.
+settings-network-port-open = Abrir
+
+# Red words when what was typed is not a port number.
+settings-network-port-not-a-port = Escribe un número del 1 al 65535.
+
+# Red words when the port is already open.
+settings-network-port-already = Ya está abierto.
+
+# Said under the line once the port is open.
+settings-network-port-opened = Abierto
+

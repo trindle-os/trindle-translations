@@ -134,3 +134,7 @@ ring-shortcuts-heading-plugins = Plugins
 # Heading over the shortcuts the person set up on the list.
 ring-shortcuts-heading-yours = Os seus
 
+
+# Words for the key that opens the window to report a problem.
+ring-shortcuts-report = Relatar um problema
+

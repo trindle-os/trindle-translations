@@ -1117,3 +1117,11 @@ scan-main-start-no-window = Trindle Scan: el escritorio no abrió una ventana.
 # Red words at start-up when the home folder is not set to a full path, so settings and profiles cannot be kept.
 scan-main-error-no-home = Tu carpeta personal no está definida, así que esta vez no se pueden conservar tus ajustes y perfiles.
 
+
+# Red words when pages could not be copied to the recovery folder, so a crash would lose them.
+scan-main-error-not-kept =
+    { $n ->
+        [one] Una página no se pudo copiar a la carpeta de recuperación, así que un fallo la perdería.
+       *[other] { $n } páginas no se pudieron copiar a la carpeta de recuperación, así que un fallo las perdería.
+    }
+

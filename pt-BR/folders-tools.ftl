@@ -416,3 +416,7 @@ folders-tools-compare-copy-left = Copiar { $n } ausentes ou mais novos para a es
 
 # Button in the pane compare window; { $n } is how many names are copied to the right folder.
 folders-tools-compare-copy-right = Copiar { $n } ausentes ou mais novos para a direita
+
+# Line in the Wipe window naming the folders that were picked too, which are not wiped.
+folders-tools-wipe-left-out = Pastas não são apagadas, então estas ficam como estão: { $names }.
+

@@ -261,7 +261,6 @@ ring-quick-mic-level = माइक्रोफ़ोन का स्तर
 ring-quick-title-tray = ट्रे आइकन
 
 
-
 # Heading of the shortcut list page, opened with Super and K.
 ring-quick-title-shortcuts = शॉर्टकट
 

@@ -331,3 +331,7 @@ folders-act-links-failed =
 
 # Words under the file lines when the window is closed while work waits for an answer.
 folders-act-closing-waits = Какая-то работа ждёт ответа. Ответьте или остановите её, прежде чем закрывать.
+
+# Words under the file lines when the window is closed while work goes on.
+folders-act-closing-busy = Папки нельзя закрыть, пока не закончится передача. Дождитесь её или остановите, а затем закройте.
+

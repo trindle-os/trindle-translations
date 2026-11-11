@@ -166,3 +166,49 @@ folders-shares-reconnecting = Reconectando { $name }…
 # Red words under the file lines when the list of remembered shares could not be written.
 folders-shares-not-remembered = Não foi possível guardar os compartilhamentos para a próxima vez.
 
+
+# Red words when a share's user name cannot be used.
+folders-shares-bad-user = Esse não é um nome de usuário que um compartilhamento aceite.
+
+# Red words when a share's domain cannot be used.
+folders-shares-bad-domain = Esse não é um domínio que um compartilhamento aceite.
+
+# Red words when a share's password holds a line break.
+folders-shares-bad-password = A senha de um compartilhamento não pode ter quebra de linha.
+
+# Red words when a computer wants a user name and password; the computer, then what is being opened.
+folders-shares-needs-login = { $server } pede nome de usuário e senha para { $it }.
+
+# Red words when the user name or password was refused; what is being opened.
+folders-shares-wrong-login = O nome de usuário ou a senha não estava certo para { $it }.
+
+# Red words when the account on a computer cannot be used; the computer.
+folders-shares-account = Sua conta em { $server } está bloqueada ou desativada, ou a senha dela expirou.
+
+# Red words when a computer has no share of that name; the computer, then the share.
+folders-shares-no-share = { $server } não tem uma pasta compartilhada chamada { $share }.
+
+# Red words when the account may not open a share; what is being opened.
+folders-shares-denied = Essa conta não pode abrir { $it }.
+
+# Red words when a computer did not answer; the computer.
+folders-shares-asleep = { $server } não respondeu. Ele pode estar em repouso ou desligado: acorde-o e tente de novo.
+
+# Red words when no computer of that name is on the network; the name.
+folders-shares-no-computer = Nenhum computador chamado { $server } foi encontrado nesta rede.
+
+# Red words when a computer only speaks the old unsafe SMB1; the computer.
+folders-shares-smb1 = { $server } só fala SMB1, um jeito antigo de compartilhar que não é mais seguro, então o Trindle não o usa.
+
+# Red words when a Debian package needed for sharing is missing; the package name.
+folders-shares-missing = Isto precisa do pacote { $package } do Debian, que não está instalado.
+
+# Red words when a share could not be opened and the system gave no reason.
+folders-shares-open-failed = O compartilhamento não pôde ser aberto.
+
+# Red words when a shared folder could not be opened and the system gave no reason.
+folders-shares-open-export-failed = A pasta compartilhada não pôde ser aberta.
+
+# Red words when a computer's shared folders could not be listed and the system gave no reason.
+folders-shares-list-failed = As pastas compartilhadas dele não puderam ser listadas.
+

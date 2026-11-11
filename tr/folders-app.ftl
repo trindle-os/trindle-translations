@@ -62,3 +62,10 @@ folders-app-view-not-kept = Bu klasörün görünümü saklanamadı.
 # Red words at the foot of the window when the choice of grouping could not be saved.
 folders-app-grouping-not-kept = Gruplama bir sonraki sefer için saklanamadı.
 
+
+# Said in a window run as administrator when a file, an archive or a preview is asked for.
+folders-app-root-folders-only = Yönetici olarak çalışan bir pencere yalnızca klasörlerle çalışır, bu yüzden içinde hiçbir dosya yönetici yetkisiyle açılmaz, içine bakılmaz ya da gösterilmez.
+
+# Red words when the list of what opens what cannot be read, so the choice is not written; why it cannot be read.
+folders-app-opener-unreadable = Hiçbir şey değişmedi, çünkü { $why }.
+

@@ -329,3 +329,7 @@ folders-act-links-failed =
 # Words under the file lines when the window is closed while work waits for an answer.
 folders-act-closing-waits = Algum trabalho está esperando uma resposta. Responda a ele, ou pare o trabalho, antes de fechar.
 
+
+# Words under the file lines when the window is closed while work goes on.
+folders-act-closing-busy = Pastas não pode fechar até a transferência terminar. Espere por ela, ou pare-a, e então feche.
+

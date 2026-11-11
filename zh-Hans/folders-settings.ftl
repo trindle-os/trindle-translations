@@ -92,9 +92,6 @@ folders-settings-right-pane-sub = 右窗格从哪里开始。
 # Title of the folder chooser that opens from a pane's setting.
 folders-settings-choose-title = 选择窗格的起始位置
 
-# Button of that folder chooser that accepts the folder.
-folders-settings-choose-accept = 选择
-
 # SAFETY: needs a human review before it ships
 # Red words under the Kept logins list when a login could not be let go; { $server } is the computer and { $why } says why.
 folders-settings-forget-failed = 无法忘记 { $server }：{ $why }

@@ -41,9 +41,6 @@ report-not-taken = Hiện chưa nhận báo cáo.
 # Written where the Send button would be, while Buildmorphic is being asked whether it is taking reports.
 report-checking = Đang kiểm tra.
 
-# Written where the Send button would be, when the switch for reports in Settings is off.
-report-off = Báo cáo đang tắt.
-
 # Why a report is waiting: Buildmorphic had too many reports at once and the report is tried again later.
 report-too-many = Có quá nhiều báo cáo cùng lúc.
 
@@ -119,4 +116,14 @@ report-no-log = Không có nhật ký để gửi kèm, nên không thể gửi.
 
 
 report-sent-as-bug = Đã gửi. Được ghi nhận là lỗi { $number }. Cảm ơn bạn.
+
+
+# Under the title, beta only: why a report matters and what it holds.
+report-beta = Trindle đang ở bản beta, và mỗi báo cáo giúp chúng tôi làm cho nó chạy hoàn hảo. Báo cáo là ẩn danh và không chứa gì riêng tư hay cá nhân. Không cần email và tên người dùng là tùy chọn. Không có gì được gửi cho đến khi bạn nhấn Gửi.
+
+# Typing box under the first one: the optional Buildmorphic username that credits the report.
+report-username-box = Tên người dùng Buildmorphic (tùy chọn)
+
+# Red words when a report posted by hand could not get through. $why is the reason, such as "No connection."
+report-try-again = Chưa gửi. { $why } Nhấn Gửi để thử lại.
 

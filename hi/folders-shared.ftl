@@ -46,3 +46,28 @@ folders-wallpaper-over-200 = 200 MB से ऊपर
 
 # Two reasons joined, as in "larger than 4K or over 20 MB"; the two come in.
 folders-wallpaper-reasons-or = { $first } या { $second }
+
+# Row in the sidebar for a drive that is locked; the drive's name, so a narrow row still says it is locked.
+folders-volumes-locked-row = बंद: { $name }
+
+# Name given to a drive that has none.
+folders-volumes-drive = ड्राइव
+
+# Red words under the password box when the passphrase did not open an encrypted drive.
+folders-volumes-wrong-passphrase = उस पासफ़्रेज़ से वह नहीं खुला।
+
+# Said when a drive that is open already is opened again.
+folders-volumes-already-open = वह पहले से खुला है।
+
+# Said when a locked drive is opened without a passphrase.
+folders-volumes-needs-passphrase = उसे खोलने के लिए पासफ़्रेज़ चाहिए।
+
+# Line in the passphrase window saying which drive it is for; the drive's name.
+folders-volumes-passphrase-for = { $name } का पासफ़्रेज़
+
+# Title of the passphrase window for a locked drive.
+folders-volumes-unlock-title = ड्राइव खोलें
+
+# Said when the passphrase window could not be opened.
+folders-volumes-prompt-failed = पासफ़्रेज़ वाली विंडो नहीं खुली।
+

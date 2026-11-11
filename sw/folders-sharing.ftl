@@ -153,3 +153,58 @@ folders-sharing-changing = Inabadilisha kushiriki…
 
 # Calm words while a share is made.
 folders-sharing-sharing-it = Inashiriki…
+
+
+# Red words under the name box when a share has no name.
+folders-sharing-name-empty = Ipe shea jina.
+
+# Red words under the name box when a share's name is too long; the most letters allowed.
+folders-sharing-name-long = Jina la shea linaweza kuwa na herufi zisizozidi { $most }.
+
+# Red words when a share's name holds a letter that is not allowed.
+folders-sharing-name-bad-letters = Jina la shea haliwezi kuwa na herufi yoyote kati ya % < > * ? | / \ + = ; : " wala koma.
+
+# Red words when a share's name ends in a dollar sign, which would hide it.
+folders-sharing-name-dollar = Jina linaloishia na $ lingeficha shea, kwa hiyo halitumiki.
+
+# Red words when a share's name starts with a dash.
+folders-sharing-name-dash = Jina la shea haliwezi kuanza na kistari.
+
+# Red words when a share's name is one Samba keeps for itself; the name.
+folders-sharing-name-reserved = Samba huliweka jina { $name } kwa ajili yake yenyewe. Chagua lingine.
+
+# Name offered for a share when the folder's own name cannot be used.
+folders-sharing-default-name = Imeshirikiwa
+
+# Red words when Samba says only the person's own folders can be shared.
+folders-sharing-only-yours-short = Folda zilizo zako pekee ndizo zinazoweza kushirikiwa.
+
+# Red words when a share's name is someone's login on this computer.
+folders-sharing-name-is-login = Jina hilo ni la kuingia la mtu kwenye kompyuta hii, kwa hiyo shea haiwezi kulitumia. Chagua lingine.
+
+# Red words when this computer's Samba settings do not allow shares without a password.
+folders-sharing-no-guests-allowed = Mipangilio ya Samba ya kompyuta hii hairuhusu shea bila nenosiri.
+
+# Red words when the most folders Samba allows are already shared.
+folders-sharing-too-many = Kompyuta hii tayari inashiriki folda nyingi kadiri inavyoruhusu.
+
+# Red words when the folder to share has gone.
+folders-sharing-folder-gone = Folda hiyo haipo tena.
+
+# Red words when Samba failed without saying why.
+folders-sharing-samba-silent = Samba haikusema kwa nini.
+
+# Red words repeating what Samba said when it failed; Samba's last line.
+folders-sharing-samba-said = Samba ilisema: { $said }
+
+# Red words when a folder that must be opened to guests belongs to someone else; its path.
+folders-sharing-guests-not-yours = { $path } ni ya mtu mwingine, kwa hiyo haiwezi kufunguliwa kwa wageni kutoka hapa.
+
+# Red words when a folder's permissions could not be changed to let guests in; its path, then why.
+folders-sharing-guests-not-changed = { $path } haikuweza kubadilishwa: { $why }
+
+# Red words when setting up sharing cannot fetch Samba because the computer is offline.
+folders-sharing-setup-offline = Samba haikuweza kupakuliwa: kompyuta hii inaonekana haina intaneti. Unganisha kwenye intaneti kisha ujaribu tena.
+
+# Red words when setting up sharing cannot go on because another install is running.
+folders-sharing-setup-busy = Samba haikuweza kuwekwa wakati kitu kingine kinawekwa. Jaribu tena baada ya dakika chache.

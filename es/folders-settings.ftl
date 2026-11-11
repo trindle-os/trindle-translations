@@ -87,9 +87,6 @@ folders-settings-right-pane-sub = Dónde empieza el panel derecho.
 # Title of the folder chooser that opens from a pane's setting.
 folders-settings-choose-title = Elige dónde empieza el panel
 
-# Button of that folder chooser that accepts the folder.
-folders-settings-choose-accept = Elegir
-
 # Red words under the Kept logins list when a login could not be let go; { $server } is the computer and { $why } says why.
 folders-settings-forget-failed = No se pudo olvidar { $server }: { $why }
 

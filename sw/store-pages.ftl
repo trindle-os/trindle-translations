@@ -834,3 +834,13 @@ store-appimage-warn-ok = Sawa
 # Button on that card that gives the install up.
 store-appimage-warn-cancel = Ghairi
 
+
+
+# Tick box under the Search page's box: look on Flathub, for Flatpaks.
+store-gh-place-flathub = Flathub (Flatpak)
+
+# Tick box: look on AppImageHub, for AppImages.
+store-gh-place-hub = AppImageHub (AppImage)
+
+# Tick box: look on GitHub, which needs Enter.
+store-gh-place-github = GitHub

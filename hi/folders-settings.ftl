@@ -90,9 +90,6 @@ folders-settings-right-pane-sub = दायाँ पैन कहाँ से 
 # Title of the folder chooser that opens from a pane's setting.
 folders-settings-choose-title = चुनें कि पैन कहाँ से शुरू हो
 
-# Button of that folder chooser that accepts the folder.
-folders-settings-choose-accept = चुनें
-
 # Red words under the Kept logins list when a login could not be let go; { $server } is the computer and { $why } says why.
 folders-settings-forget-failed = { $server } को भुलाया नहीं जा सका: { $why }
 
@@ -153,7 +150,6 @@ folders-settings-drives-sub = USB ड्राइव लगाते ही ख�
 
 # Note on the Drives part when the ring is on this computer.
 folders-settings-ring-note = दोनों तरह से वह साइडबार में है, और रिंग बताती है कि वह वहाँ है।
-
 
 
 # Choice on the settings card: the part about network shares.

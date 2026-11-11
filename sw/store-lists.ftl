@@ -36,19 +36,6 @@ store-tab-count = { $name } { $n }
 # Spoken name of a strip of tabs on the Installed page.
 store-tabs-show = Onyesha
 
-# How long is left when it is a minute or less.
-store-left-minute = imebaki takriban dakika moja
-
-# How long is left, in minutes.
-store-left-minutes = imebaki takriban dakika { $n }
-
-# How long is left, in hours.
-store-left-hours =
-    { $n ->
-        [one] imebaki takriban saa 1
-       *[other] imebaki takriban saa { $n }
-    }
-
 # Credit under a package's page for the list its site was checked against.
 store-origin-credit = Imekaguliwa dhidi ya orodha ya Threat Intelligence ya HaGeZi
 

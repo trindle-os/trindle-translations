@@ -108,9 +108,6 @@ folders-far-connect-key = 密钥文件（如果你选择）
 # Tip of the button beside the key file box that opens the file chooser, and title of that chooser.
 folders-far-connect-pick-key = 选择密钥文件
 
-# Button of the key file chooser that accepts the chosen file.
-folders-far-connect-choose = 选择
-
 # Note on the Connect to a server card saying where the connection settings come from.
 folders-far-connect-ssh-setup = 使用你自己的 ssh 设置：其配置、代理、密钥和已知服务器。
 

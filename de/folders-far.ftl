@@ -108,9 +108,6 @@ folders-far-connect-key = Schlüsseldatei, falls du eine wählst
 # Tip of the button beside the key file box that opens the file chooser, and title of that chooser.
 folders-far-connect-pick-key = Schlüsseldatei wählen
 
-# Button of the key file chooser that accepts the chosen file.
-folders-far-connect-choose = Wählen
-
 # Note on the Connect to a server card saying where the connection settings come from.
 folders-far-connect-ssh-setup = Dein eigenes ssh-Setup wird verwendet: Konfiguration, Agent, Schlüssel und bekannte Server.
 

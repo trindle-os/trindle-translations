@@ -169,3 +169,28 @@ settings-blocking-private-sub = Quad9 no guarda registro de quién preguntó.
 # Name of the choice in Private server that uses the network's own servers.
 settings-blocking-provider-network = Tu red
 
+
+# Heading of the Firewall card, first on the Firewall and blocking page.
+settings-firewall = Cortafuegos
+
+# Help text (i button) of the Firewall card.
+settings-firewall-about = Activado, el cortafuegos bloquea toda conexión de otros equipos que este equipo no haya pedido, así que nadie en la misma Wi-Fi puede probar suerte. Navegar, actualizar e imprimir siguen funcionando. Un programa que espera conexiones de otros, como un servidor de juegos, necesita que abras su puerto más abajo. Desactivado, cualquier equipo de la red puede llegar a todo programa que esté escuchando. Cambiarlo pide la contraseña de administrador.
+
+# Name of the firewall's on and off switch.
+settings-firewall-switch = Cortafuegos
+
+# Small line under the switch while the firewall is on.
+settings-firewall-on-sub = Los otros equipos no pueden conectarse si no lo permites.
+
+# Small line under the switch while the firewall is off.
+settings-firewall-off-sub = Desactivado: los otros equipos pueden llegar a todo programa que escuche.
+
+# Said beside the switch once the firewall is on.
+settings-firewall-done-on = Cortafuegos activado
+
+# Said beside the switch once the firewall is off.
+settings-firewall-done-off = Cortafuegos desactivado
+
+# Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
+settings-blocking-card = Bloqueo
+

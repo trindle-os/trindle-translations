@@ -150,3 +150,58 @@ folders-sharing-changing = جارٍ تغيير المشاركة…
 
 # Calm words while a share is made.
 folders-sharing-sharing-it = جارٍ مشاركته…
+
+# Red words under the name box when a share has no name.
+folders-sharing-name-empty = أعطِ المشاركة اسمًا.
+
+# Red words under the name box when a share's name is too long; the most letters allowed.
+folders-sharing-name-long = يمكن أن يصل اسم المشاركة إلى { $most } حرفًا على الأكثر.
+
+# Red words when a share's name holds a letter that is not allowed.
+folders-sharing-name-bad-letters = لا يمكن أن يحتوي اسم المشاركة على أي من % < > * ? | / \ + = ; : " ولا على فاصلة.
+
+# Red words when a share's name ends in a dollar sign, which would hide it.
+folders-sharing-name-dollar = الاسم الذي ينتهي بـ $ يُخفي المشاركة، لذلك لا يُستخدم.
+
+# Red words when a share's name starts with a dash.
+folders-sharing-name-dash = لا يمكن أن يبدأ اسم المشاركة بشرطة.
+
+# Red words when a share's name is one Samba keeps for itself; the name.
+folders-sharing-name-reserved = يحتفظ Samba بالاسم { $name } لنفسه. اختر اسمًا آخر.
+
+# Name offered for a share when the folder's own name cannot be used.
+folders-sharing-default-name = مشترك
+
+# Red words when Samba says only the person's own folders can be shared.
+folders-sharing-only-yours-short = لا يمكن مشاركة إلا المجلدات التي تخصك.
+
+# Red words when a share's name is someone's login on this computer.
+folders-sharing-name-is-login = هذا الاسم هو اسم دخول شخص على هذا الحاسوب، فلا يمكن أن تحمله مشاركة. اختر اسمًا آخر.
+
+# Red words when this computer's Samba settings do not allow shares without a password.
+folders-sharing-no-guests-allowed = إعدادات Samba في هذا الحاسوب لا تسمح بمشاركات بلا كلمة مرور.
+
+# Red words when the most folders Samba allows are already shared.
+folders-sharing-too-many = يشارك هذا الحاسوب بالفعل أكبر عدد من المجلدات يسمح به.
+
+# Red words when the folder to share has gone.
+folders-sharing-folder-gone = ذلك المجلد لم يعد موجودًا.
+
+# Red words when Samba failed without saying why.
+folders-sharing-samba-silent = لم يذكر Samba السبب.
+
+# Red words repeating what Samba said when it failed; Samba's last line.
+folders-sharing-samba-said = قال Samba: { $said }
+
+# Red words when a folder that must be opened to guests belongs to someone else; its path.
+folders-sharing-guests-not-yours = { $path } يخص شخصًا آخر، لذلك لا يمكن فتحه للضيوف من هنا.
+
+# Red words when a folder's permissions could not be changed to let guests in; its path, then why.
+folders-sharing-guests-not-changed = تعذّر تغيير { $path }: { $why }
+
+# Red words when setting up sharing cannot fetch Samba because the computer is offline.
+folders-sharing-setup-offline = تعذّر جلب Samba: يبدو أن هذا الحاسوب غير متصل. اتصل بالإنترنت وحاول مرة أخرى.
+
+# Red words when setting up sharing cannot go on because another install is running.
+folders-sharing-setup-busy = تعذّر تثبيت Samba بينما يجري تثبيت شيء آخر. حاول مرة أخرى بعد بضع دقائق.
+

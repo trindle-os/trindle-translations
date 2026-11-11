@@ -303,3 +303,55 @@ settings-network-kept-anyway = { $words } Сеть всё же сохранен�
 
 # Said in red when a network would not disconnect.
 settings-network-disconnect-failed = Не удалось отключиться.
+
+# Heading of the card that lists the ports opened by hand.
+settings-network-ports = Открытые порты
+
+# Help text (i button) of the Open ports card.
+settings-network-ports-about = Все порты закрыты, если этот компьютер не запросил иное, поэтому до программы, ждущей подключений от других, например игрового сервера или средства синхронизации, не достучаться, пока её порт не открыт здесь. Порт, открытый здесь, пускает только компьютеры вашей домашней сети, но не весь интернет. Чтобы открыть или закрыть порт, нужен пароль администратора.
+
+# Line in the Open ports card when no port is open.
+settings-network-ports-none = Нет открытых портов
+
+# Small line under it.
+settings-network-ports-none-sub = Все порты закрыты для других компьютеров.
+
+# Small line under an open port, such as TCP 37666.
+settings-network-port-sub = Открыт для вашей домашней сети.
+
+# Tooltip of the button that closes an open port. { $port } is like TCP 37666.
+settings-network-port-close = Закрыть { $port }
+
+# Heading of the line that opens a port.
+settings-network-port-add = Открыть порт
+
+# Small line under it.
+settings-network-port-add-sub = Для программы, к которой подключаются другие.
+
+# Placeholder in the box where the port number is typed.
+settings-network-port-number = Номер порта
+
+# Tooltip of the choice of TCP, UDP or both.
+settings-network-port-protocol = Протокол
+
+# Choice: the TCP protocol only. Usually left as TCP.
+settings-network-port-tcp = TCP
+
+# Choice: the UDP protocol only. Usually left as UDP.
+settings-network-port-udp = UDP
+
+# Choice: both TCP and UDP.
+settings-network-port-both = Оба
+
+# Button that opens the typed port.
+settings-network-port-open = Открыть
+
+# Red words when what was typed is not a port number.
+settings-network-port-not-a-port = Введите число от 1 до 65535.
+
+# Red words when the port is already open.
+settings-network-port-already = Уже открыт.
+
+# Said under the line once the port is open.
+settings-network-port-opened = Открыт
+

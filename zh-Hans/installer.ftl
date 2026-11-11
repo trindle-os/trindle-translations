@@ -667,7 +667,6 @@ installer-boot-failed = 无法在这台电脑上安装启动菜单。
 installer-sure = 确定吗？
 
 
-
 # Note on the ring picture, at the tab at the edge.
 installer-tour-ring-foot = 已打开的内容、剪贴板，以及一个清空屏幕的按钮
 
@@ -694,7 +693,6 @@ installer-halt-stuck = 无法释放这块磁盘。请重新启动电脑后再试
 
 # The copy is done and the person is still answering.
 installer-step-waiting = 已复制。正在等待你的回答。
-
 
 
 installer-already-running = 这台计算机上已经有另一个安装程序在运行。

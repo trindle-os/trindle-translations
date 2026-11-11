@@ -91,7 +91,6 @@ session-wallpaper-left-out = { $count } छोड़े गए: { $why }।
 session-lock-check-abandoned = इसमें बहुत समय लगा। फिर से कोशिश करें।
 
 
-
 # Heading of the question asked by Ctrl+Alt+Shift+Esc and by the Restart everything button in Settings.
 session-restart-question = पूरा डेस्कटॉप रीस्टार्ट करें?
 

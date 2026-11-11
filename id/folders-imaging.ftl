@@ -9,3 +9,10 @@ folders-imaging-unreadable = gambar tidak dapat dibaca
 
 # Reason shown when a resized picture would have to be written in a kind Folders cannot write.
 folders-imaging-no-write = bukan jenis gambar yang dapat ditulis Folders
+
+# Why a link to a picture is not turned.
+folders-imaging-no-turn-link = tautan tidak diputar; putar gambar yang ditunjuknya
+
+# Why a moving picture is not turned.
+folders-imaging-no-turn-moving = gambar bergerak tidak diputar, karena hanya gambar pertamanya yang akan disimpan
+

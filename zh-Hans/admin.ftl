@@ -383,7 +383,6 @@ admin-driver-virtual-camera = 虚拟摄像头
 admin-language-in-use = { $code } 是这台电脑启动时使用的语言，所以会保留。
 
 
-
 # The kernel or chip has no split-lock slowing to turn off.
 admin-split-lock-none = 这台电脑没有可以关闭的拆分锁减速功能。
 
@@ -414,4 +413,14 @@ admin-system-needs-btrfs = 需要 Btrfs。
 
 # Red words in Settings when a restore swapped the systems but could not finish tidying up. { $why } is the reason.
 admin-restore-finish-later = 快照已就位，电脑将从它启动。清理旧系统没有完成，下次启动时会再试一次：{ $why }
+
+
+# Red words in Settings when too many ports are open already. { $most } is a number.
+admin-ports-too-many = 最多只能开放 { $most } 个端口。
+
+# Red words in Settings when the list of open ports could not be kept. { $why } is the system's reason.
+admin-ports-not-kept = 无法保存已开放端口的列表：{ $why }。
+
+# Red words in Settings when the firewall could not be switched off. { $why } is the system's reason.
+admin-firewall-still-on = 防火墙仍然开着：{ $why }
 

@@ -6,31 +6,13 @@ pk-title-sudo = Dies als Administrator ausführen?
 # The heading when a program wants to change a system setting.
 # SAFETY: needs a human review before it ships
 pk-title-polkit = Diese Änderung erlauben?
-# The heading on the lock screen.
-# SAFETY: needs a human review before it ships
-pk-title-unlock = Bildschirm entsperren?
-# The heading on the login screen.
-# SAFETY: needs a human review before it ships
-pk-title-login = Anmelden?
 # The heading when a phone is being added.
 # SAFETY: needs a human review before it ships
 pk-title-pair = Dieses Telefon hinzufügen?
 
-# Shown when a command asked for administrator rights and gave no details.
-# SAFETY: needs a human review before it ships
-pk-what-sudo = Ein Befehl möchte Administratorrechte.
 # Shown when a program asked to change a setting and gave no details.
 # SAFETY: needs a human review before it ships
 pk-what-polkit = Ein Programm möchte eine Systemeinstellung ändern.
-# Shown on the lock screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-unlock = Diesen Bildschirm entsperren.
-# Shown on the login screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-login = An diesem Computer anmelden.
-# Shown when a phone is being added and no code could be shown.
-# SAFETY: needs a human review before it ships
-pk-what-pair = Ein Telefon möchte hinzugefügt werden.
 # The question when a phone is being added. $name is the phone's name, $code the digits both screens show.
 # SAFETY: needs a human review before it ships
 pk-pair-detail = Ist der Code auf { $name } { $code }?
@@ -56,14 +38,6 @@ pk-pairing-scan = Scanne das mit Pocketkey auf deinem Telefon. Es gilt drei Minu
 pk-pairing-qr = QR-Code zum Koppeln deines Telefons
 # The question under the six numbers. $name is the phone's name.
 pk-pairing-same-numbers = Zeigt { $name } dieselben sechs Zahlen?
-# The button that agrees the numbers match.
-# SAFETY: needs a human review before it ships
-pk-pairing-match = Sie stimmen überein
-# The button that says they do not match.
-# SAFETY: needs a human review before it ships
-pk-pairing-no-match = Sie stimmen nicht überein
-# Shown after the person agreed, until the phone agrees too.
-pk-pairing-waiting-phone = Warten, bis auch das Telefon Ja sagt …
 # The button that stops pairing.
 pk-pairing-stop = Kopplung beenden
 # The button that closes the window once pairing has ended.
@@ -114,3 +88,17 @@ pk-set-6-hours = 6 Stunden
 pk-set-1-day = 1 Tag
 pk-set-forget = Dieses Telefon vergessen
 pk-set-forget-sub = Es kann hier nicht mehr für dich antworten.
+
+# Under those numbers: where to answer.
+pk-pairing-answer-on-screen = Antworte auf die Frage im Vollbild.
+
+pk-pairing-why-needs-password = Zum Hinzufügen eines Telefons brauchst du dein Passwort, nicht das Telefon, das du schon hast. Schließe dieses Fenster, starte die Kopplung neu und gib dein Passwort ein.
+
+pk-set-sudo = Sudo und Systemänderungen
+
+pk-set-sudo-sub = Was das Telefon erfüllen muss, bevor es darauf antwortet.
+
+pk-set-sudo-unlocked = Telefon gerade entsperrt
+
+pk-set-sudo-any = Telefon auch wenn gesperrt
+

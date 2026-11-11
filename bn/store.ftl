@@ -39,9 +39,6 @@ store-group-settings = অ্যাপের সেটিংস
 # Small heading over the categories of apps.
 store-group-categories = বিভাগ
 
-# Small heading over the other ways to get an app.
-store-group-more = অ্যাপ পাওয়ার আরও উপায়
-
 # Title of a page of search results; the words searched for are in the quotes.
 store-grid-results = “{ $text }” এর ফলাফল
 
@@ -105,3 +102,7 @@ store-not-updated-none = আপডেট হয়নি, এবং Flatpak ক�
 # Side bar place and title: the AppImages AppImageHub lists.
 store-nav-browse = AppImage ব্রাউজ করুন
 
+
+
+# Heading of the Flatpaks a detailed search found on Flathub.
+store-gh-flathub = Flathub-এ Flatpak ({ $n })

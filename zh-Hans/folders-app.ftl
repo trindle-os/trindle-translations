@@ -60,3 +60,10 @@ folders-app-view-not-kept = 无法保存此文件夹的视图。
 
 # Red words at the foot of the window when the choice of grouping could not be saved.
 folders-app-grouping-not-kept = 无法为下次保存分组的设置。
+
+# Said in a window run as administrator when a file, an archive or a preview is asked for.
+folders-app-root-folders-only = 以管理员身份运行的窗口只处理文件夹，因此不会以管理员权限打开、查看或预览任何文件。
+
+# Red words when the list of what opens what cannot be read, so the choice is not written; why it cannot be read.
+folders-app-opener-unreadable = 没有任何改动，因为{ $why }。
+

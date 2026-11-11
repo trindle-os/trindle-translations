@@ -406,3 +406,13 @@ admin-system-needs-btrfs = Inahitaji Btrfs.
 # Red words in Settings when a restore swapped the systems but could not finish tidying up. { $why } is the reason.
 admin-restore-finish-later = Picha ya hali iko mahali pake na kompyuta itaanza kutoka humo. Kusafisha mfumo wa zamani hakukukamilika na kutajaribiwa tena wakati wa kuanza kwa pili: { $why }
 
+
+
+# Red words in Settings when too many ports are open already. { $most } is a number.
+admin-ports-too-many = Milango isiyozidi { $most } inaweza kufunguliwa.
+
+# Red words in Settings when the list of open ports could not be kept. { $why } is the system's reason.
+admin-ports-not-kept = Orodha ya milango iliyofunguliwa haikuweza kuhifadhiwa: { $why }.
+
+# Red words in Settings when the firewall could not be switched off. { $why } is the system's reason.
+admin-firewall-still-on = Ngome ya moto bado imewashwa: { $why }

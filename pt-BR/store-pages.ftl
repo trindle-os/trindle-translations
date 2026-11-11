@@ -831,3 +831,13 @@ store-appimage-warn-ok = OK
 # Button on that card that gives the install up.
 store-appimage-warn-cancel = Cancelar
 
+
+# Tick box under the Search page's box: look on Flathub, for Flatpaks.
+store-gh-place-flathub = Flathub (Flatpaks)
+
+# Tick box: look on AppImageHub, for AppImages.
+store-gh-place-hub = AppImageHub (AppImages)
+
+# Tick box: look on GitHub, which needs Enter.
+store-gh-place-github = GitHub
+

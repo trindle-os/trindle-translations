@@ -157,10 +157,55 @@ folders-shares-closing = { $name } बंद कर रहे हैं…
 folders-shares-close-failed = { $name } बंद नहीं हो सका: { $why }।
 
 
-
 # Words under the file lines while a remembered network share is being mounted again; its name.
 folders-shares-reconnecting = { $name } फिर से जुड़ रहा है…
 
 # Red words under the file lines when the list of remembered shares could not be written.
 folders-shares-not-remembered = शेयर अगली बार के लिए याद नहीं रखे जा सके।
+
+
+# Red words when a share's user name cannot be used.
+folders-shares-bad-user = यह ऐसा उपयोगकर्ता नाम नहीं है जो कोई शेयर ले सके।
+
+# Red words when a share's domain cannot be used.
+folders-shares-bad-domain = यह ऐसा डोमेन नहीं है जो कोई शेयर ले सके।
+
+# Red words when a share's password holds a line break.
+folders-shares-bad-password = शेयर के पासवर्ड में नई पंक्ति नहीं हो सकती।
+
+# Red words when a computer wants a user name and password; the computer, then what is being opened.
+folders-shares-needs-login = { $server } को { $it } के लिए उपयोगकर्ता नाम और पासवर्ड चाहिए।
+
+# Red words when the user name or password was refused; what is being opened.
+folders-shares-wrong-login = { $it } के लिए उपयोगकर्ता नाम या पासवर्ड सही नहीं था।
+
+# Red words when the account on a computer cannot be used; the computer.
+folders-shares-account = { $server } पर आपका खाता बंद है या रोका गया है, या उसका पासवर्ड पुराना हो चुका है।
+
+# Red words when a computer has no share of that name; the computer, then the share.
+folders-shares-no-share = { $server } पर { $share } नाम का कोई साझा फ़ोल्डर नहीं है।
+
+# Red words when the account may not open a share; what is being opened.
+folders-shares-denied = वह खाता { $it } को खोल नहीं सकता।
+
+# Red words when a computer did not answer; the computer.
+folders-shares-asleep = { $server } ने जवाब नहीं दिया। हो सकता है वह सो रहा हो या बंद हो: उसे जगाएँ और फिर कोशिश करें।
+
+# Red words when no computer of that name is on the network; the name.
+folders-shares-no-computer = इस नेटवर्क पर { $server } नाम का कोई कंप्यूटर नहीं मिला।
+
+# Red words when a computer only speaks the old unsafe SMB1; the computer.
+folders-shares-smb1 = { $server } सिर्फ़ SMB1 बोलता है, जो साझा करने का एक पुराना तरीका है और अब सुरक्षित नहीं है, इसलिए Trindle उसे इस्तेमाल नहीं करता।
+
+# Red words when a Debian package needed for sharing is missing; the package name.
+folders-shares-missing = इसके लिए Debian का { $package } चाहिए, जो इंस्टॉल नहीं है।
+
+# Red words when a share could not be opened and the system gave no reason.
+folders-shares-open-failed = शेयर खोला नहीं जा सका।
+
+# Red words when a shared folder could not be opened and the system gave no reason.
+folders-shares-open-export-failed = साझा फ़ोल्डर खोला नहीं जा सका।
+
+# Red words when a computer's shared folders could not be listed and the system gave no reason.
+folders-shares-list-failed = उसके साझा फ़ोल्डरों की सूची नहीं बन सकी।
 

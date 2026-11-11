@@ -39,9 +39,6 @@ store-group-settings = Настройки приложений
 # Small heading over the categories of apps.
 store-group-categories = Категории
 
-# Small heading over the other ways to get an app.
-store-group-more = Другие способы получить приложения
-
 # Title of a page of search results; the words searched for are in the quotes.
 store-grid-results = Результаты по запросу «{ $text }»
 
@@ -104,4 +101,8 @@ store-not-updated-none = Не обновлено, причину Flatpak не н
 
 # Side bar place and title: the AppImages AppImageHub lists.
 store-nav-browse = Обзор AppImage
+
+
+# Heading of the Flatpaks a detailed search found on Flathub.
+store-gh-flathub = Flatpak-приложения на Flathub ({ $n })
 

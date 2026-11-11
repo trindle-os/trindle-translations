@@ -306,3 +306,55 @@ settings-network-kept-anyway = { $words } پھر بھی یہ محفوظ ہو گ�
 
 # Said in red when a network would not disconnect.
 settings-network-disconnect-failed = یہ منقطع نہیں ہوا۔
+
+# Heading of the card that lists the ports opened by hand.
+settings-network-ports = کھلے پورٹ
+
+# Help text (i button) of the Open ports card.
+settings-network-ports-about = ہر پورٹ بند رہتا ہے جب تک اس کمپیوٹر نے پہلے نہ مانگا ہو، اس لیے جو پروگرام دوسروں کے جڑنے کا انتظار کرتا ہے، جیسے گیم سرور یا سنک کا ٹول، اس تک اس وقت تک پہنچا نہیں جا سکتا جب تک اس کا پورٹ یہاں نہ کھولا جائے۔ یہاں کھولا گیا پورٹ صرف آپ کے گھر کے نیٹ ورک کے کمپیوٹروں کو آنے دیتا ہے، وسیع انٹرنیٹ کو کبھی نہیں۔ پورٹ کھولنے یا بند کرنے پر ایڈمنسٹریٹر کا پاس ورڈ مانگا جاتا ہے۔
+
+# Line in the Open ports card when no port is open.
+settings-network-ports-none = کوئی پورٹ نہیں کھلا
+
+# Small line under it.
+settings-network-ports-none-sub = ہر پورٹ دوسرے کمپیوٹروں کے لیے بند ہے۔
+
+# Small line under an open port, such as TCP 37666.
+settings-network-port-sub = آپ کے گھر کے نیٹ ورک کے لیے کھلا ہے۔
+
+# Tooltip of the button that closes an open port. { $port } is like TCP 37666.
+settings-network-port-close = { $port } بند کریں
+
+# Heading of the line that opens a port.
+settings-network-port-add = پورٹ کھولیں
+
+# Small line under it.
+settings-network-port-add-sub = اس پروگرام کے لیے جس سے دوسرے جڑتے ہیں۔
+
+# Placeholder in the box where the port number is typed.
+settings-network-port-number = پورٹ نمبر
+
+# Tooltip of the choice of TCP, UDP or both.
+settings-network-port-protocol = پروٹوکول
+
+# Choice: the TCP protocol only. Usually left as TCP.
+settings-network-port-tcp = TCP
+
+# Choice: the UDP protocol only. Usually left as UDP.
+settings-network-port-udp = UDP
+
+# Choice: both TCP and UDP.
+settings-network-port-both = دونوں
+
+# Button that opens the typed port.
+settings-network-port-open = کھولیں
+
+# Red words when what was typed is not a port number.
+settings-network-port-not-a-port = 1 سے 65535 تک کا نمبر لکھیں۔
+
+# Red words when the port is already open.
+settings-network-port-already = پہلے سے کھلا ہے۔
+
+# Said under the line once the port is open.
+settings-network-port-opened = کھل گیا
+

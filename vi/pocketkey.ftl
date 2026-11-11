@@ -6,31 +6,13 @@ pk-title-sudo = Chạy việc này với quyền quản trị?
 # The heading when a program wants to change a system setting.
 # SAFETY: needs a human review before it ships
 pk-title-polkit = Cho phép thay đổi này?
-# The heading on the lock screen.
-# SAFETY: needs a human review before it ships
-pk-title-unlock = Mở khóa màn hình?
-# The heading on the login screen.
-# SAFETY: needs a human review before it ships
-pk-title-login = Đăng nhập?
 # The heading when a phone is being added.
 # SAFETY: needs a human review before it ships
 pk-title-pair = Thêm điện thoại này?
 
-# Shown when a command asked for administrator rights and gave no details.
-# SAFETY: needs a human review before it ships
-pk-what-sudo = Một lệnh muốn có quyền quản trị.
 # Shown when a program asked to change a setting and gave no details.
 # SAFETY: needs a human review before it ships
 pk-what-polkit = Một chương trình muốn đổi một cài đặt hệ thống.
-# Shown on the lock screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-unlock = Mở khóa màn hình này.
-# Shown on the login screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-login = Đăng nhập vào máy tính này.
-# Shown when a phone is being added and no code could be shown.
-# SAFETY: needs a human review before it ships
-pk-what-pair = Một điện thoại muốn được thêm.
 # The question when a phone is being added. $name is the phone's name, $code the digits both screens show.
 # SAFETY: needs a human review before it ships
 pk-pair-detail = Mã trên { $name } có phải là { $code } không?
@@ -56,14 +38,6 @@ pk-pairing-scan = Quét mã này bằng Pocketkey trên điện thoại của b�
 pk-pairing-qr = Mã QR để ghép đôi điện thoại của bạn
 # The question under the six numbers. $name is the phone's name.
 pk-pairing-same-numbers = { $name } có hiện sáu số giống như vậy không?
-# The button that agrees the numbers match.
-# SAFETY: needs a human review before it ships
-pk-pairing-match = Khớp nhau
-# The button that says they do not match.
-# SAFETY: needs a human review before it ships
-pk-pairing-no-match = Không khớp nhau
-# Shown after the person agreed, until the phone agrees too.
-pk-pairing-waiting-phone = Đang chờ điện thoại cũng đồng ý…
 # The button that stops pairing.
 pk-pairing-stop = Dừng ghép đôi
 # The button that closes the window once pairing has ended.
@@ -114,3 +88,17 @@ pk-set-6-hours = 6 giờ
 pk-set-1-day = 1 ngày
 pk-set-forget = Quên điện thoại này
 pk-set-forget-sub = Nó sẽ không thể trả lời thay bạn ở đây nữa.
+
+# Under those numbers: where to answer.
+pk-pairing-answer-on-screen = Hãy trả lời câu hỏi trên toàn màn hình.
+
+pk-pairing-why-needs-password = Thêm điện thoại cần mật khẩu của bạn, không phải chiếc điện thoại bạn đã có. Hãy đóng cửa sổ này, bắt đầu ghép đôi lại và nhập mật khẩu của bạn.
+
+pk-set-sudo = Sudo và thay đổi hệ thống
+
+pk-set-sudo-sub = Điều điện thoại phải đáp ứng trước khi trả lời chúng.
+
+pk-set-sudo-unlocked = Điện thoại vừa được mở khóa
+
+pk-set-sudo-any = Điện thoại, kể cả khi đang khóa
+

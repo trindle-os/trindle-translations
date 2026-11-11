@@ -9,3 +9,10 @@ folders-imaging-unreadable = l’image n’a pas pu être lue
 
 # Reason shown when a resized picture would have to be written in a kind Folders cannot write.
 folders-imaging-no-write = ce n’est pas un format d’image que Dossiers sait écrire
+
+# Why a link to a picture is not turned.
+folders-imaging-no-turn-link = un lien ne se pivote pas ; pivotez l’image vers laquelle il pointe
+
+# Why a moving picture is not turned.
+folders-imaging-no-turn-moving = une image animée ne se pivote pas, car seule sa première image serait conservée
+

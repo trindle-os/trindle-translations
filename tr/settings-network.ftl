@@ -314,3 +314,55 @@ settings-network-kept-anyway = { $words } Yine de kaydedildi: yeniden katılmada
 # SAFETY: needs a human review before it ships
 settings-network-disconnect-failed = Bağlantı kesilmedi.
 
+
+# Heading of the card that lists the ports opened by hand.
+settings-network-ports = Açık portlar
+
+# Help text (i button) of the Open ports card.
+settings-network-ports-about = Bu bilgisayar önce istemedikçe her port kapalıdır, bu yüzden başkalarının bağlanmasını bekleyen bir program, örneğin bir oyun sunucusu ya da eşitleme aracı, portu burada açılana kadar erişilemez kalır. Burada açılan bir port yalnızca ev ağınızdaki bilgisayarları içeri alır, geniş internetten kimseyi almaz. Birini açmak ya da kapatmak yöneticinin parolasını ister.
+
+# Line in the Open ports card when no port is open.
+settings-network-ports-none = Açık port yok
+
+# Small line under it.
+settings-network-ports-none-sub = Her port diğer bilgisayarlara kapalı.
+
+# Small line under an open port, such as TCP 37666.
+settings-network-port-sub = Ev ağınıza açık.
+
+# Tooltip of the button that closes an open port. { $port } is like TCP 37666.
+settings-network-port-close = { $port } portunu kapat
+
+# Heading of the line that opens a port.
+settings-network-port-add = Bir port aç
+
+# Small line under it.
+settings-network-port-add-sub = Başkalarının bağlandığı bir program için.
+
+# Placeholder in the box where the port number is typed.
+settings-network-port-number = Port numarası
+
+# Tooltip of the choice of TCP, UDP or both.
+settings-network-port-protocol = Protokol
+
+# Choice: the TCP protocol only. Usually left as TCP.
+settings-network-port-tcp = TCP
+
+# Choice: the UDP protocol only. Usually left as UDP.
+settings-network-port-udp = UDP
+
+# Choice: both TCP and UDP.
+settings-network-port-both = İkisi de
+
+# Button that opens the typed port.
+settings-network-port-open = Aç
+
+# Red words when what was typed is not a port number.
+settings-network-port-not-a-port = 1 ile 65535 arasında bir sayı yazın.
+
+# Red words when the port is already open.
+settings-network-port-already = Zaten açık.
+
+# Said under the line once the port is open.
+settings-network-port-opened = Açıldı
+

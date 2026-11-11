@@ -97,3 +97,28 @@ folders-earlier-put-back-tip = 还原
 
 # Tip and name of the round button on an earlier version's row that compares it with the one there now.
 folders-earlier-compare-tip = 通读两者并说明内容是否相同
+
+# Red words when what is given to put back is not one of the earlier versions.
+folders-earlier-put-back-not-version = 这不是较早的版本。
+
+# Red words when an earlier version is asked to be put back outside the home folder.
+folders-earlier-put-back-home-only = 较早的版本只能放回主文件夹内。
+
+# Red words when the place to put an earlier version back has no usable name.
+folders-earlier-put-back-no-place = 文件不能放在这个位置。
+
+# Red words when the folder an earlier version was in cannot be made again; why it failed.
+folders-earlier-put-back-folder-lost = 无法重新创建它原来所在的文件夹：{ $why }
+
+# Red words when copying an earlier version back fails; why it failed.
+folders-earlier-put-back-copy-failed = 无法复制较早的版本：{ $why }
+
+# Red words when what is there now cannot be set aside before putting an earlier version back; why it failed.
+folders-earlier-put-back-aside-failed = 无法把现在的内容先移到一旁：{ $why }
+
+# Red words when the earlier version could not be put in place and what was there has been left under another name; why it failed, then that name.
+folders-earlier-put-back-in-place-named = 无法放回较早的版本：{ $why }。原来的内容现在名为 { $name }。
+
+# Red words when the earlier version could not be put in place; why it failed.
+folders-earlier-put-back-in-place = 无法放回较早的版本：{ $why }
+

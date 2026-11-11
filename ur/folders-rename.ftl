@@ -6,3 +6,7 @@ folders-rename-clash = کچھ نئے نام آپس میں ٹکرا رہے ہیں
 
 # Reason shown when a rename stops because a new name is already taken; the full path of the name follows.
 folders-rename-already-there = { $path } پہلے سے موجود ہے
+
+# Why a rename of names that swap could not start: no place to note them first.
+folders-rename-no-journal = پہلے ناموں کو لکھ کر رکھنے کی کوئی جگہ نہیں ہے
+

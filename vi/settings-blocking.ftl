@@ -162,3 +162,28 @@ settings-blocking-private-sub = Quad9 không lưu lại ai đã hỏi.
 # Name of the choice in Private server that uses the network's own servers.
 settings-blocking-provider-network = Mạng của bạn
 
+
+# Heading of the Firewall card, first on the Firewall and blocking page.
+settings-firewall = Tường lửa
+
+# Help text (i button) of the Firewall card.
+settings-firewall-about = Khi bật, tường lửa chặn mọi kết nối từ máy tính khác mà máy này không yêu cầu, nên không ai dùng chung Wi-Fi có thể thử vận may. Duyệt web, cập nhật và máy in vẫn hoạt động. Chương trình chờ người khác kết nối, như máy chủ trò chơi, cần mở cổng của nó ở dưới. Khi tắt, mọi máy tính trong mạng đều có thể truy cập mọi chương trình đang chờ kết nối. Việc chuyển bật tắt cần mật khẩu của quản trị viên.
+
+# Name of the firewall's on and off switch.
+settings-firewall-switch = Tường lửa
+
+# Small line under the switch while the firewall is on.
+settings-firewall-on-sub = Máy tính khác không thể kết nối trừ khi bạn cho phép.
+
+# Small line under the switch while the firewall is off.
+settings-firewall-off-sub = Tắt: máy tính khác có thể truy cập mọi chương trình đang chờ kết nối.
+
+# Said beside the switch once the firewall is on.
+settings-firewall-done-on = Tường lửa đã bật
+
+# Said beside the switch once the firewall is off.
+settings-firewall-done-off = Tường lửa đã tắt
+
+# Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
+settings-blocking-card = Chặn
+

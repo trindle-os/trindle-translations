@@ -411,3 +411,7 @@ folders-tools-compare-copy-left = Sao chép { $n } mục thiếu hoặc mới h�
 # Button in the pane compare window; { $n } is how many names are copied to the right folder.
 # SAFETY: needs a human review before it ships
 folders-tools-compare-copy-right = Sao chép { $n } mục thiếu hoặc mới hơn sang bên phải
+
+# Line in the Wipe window naming the folders that were picked too, which are not wiped.
+folders-tools-wipe-left-out = Thư mục không bị xóa sạch, nên những mục này được giữ nguyên: { $names }.
+

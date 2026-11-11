@@ -65,3 +65,10 @@ folders-app-view-not-kept = Не удалось сохранить вид это
 
 # Red words at the foot of the window when the choice of grouping could not be saved.
 folders-app-grouping-not-kept = Не удалось сохранить группировку на следующий раз.
+
+# Said in a window run as administrator when a file, an archive or a preview is asked for.
+folders-app-root-folders-only = Окно, запущенное от имени администратора, работает только с папками, поэтому в нём ни один файл не открывается, не просматривается изнутри и не показывается с правами администратора.
+
+# Red words when the list of what opens what cannot be read, so the choice is not written; why it cannot be read.
+folders-app-opener-unreadable = Ничего не изменилось, потому что { $why }.
+

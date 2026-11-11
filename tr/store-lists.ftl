@@ -37,19 +37,6 @@ store-tab-count = { $name } { $n }
 # Spoken name of a strip of tabs on the Installed page.
 store-tabs-show = Göster
 
-# How long is left when it is a minute or less.
-store-left-minute = yaklaşık bir dakika kaldı
-
-# How long is left, in minutes.
-store-left-minutes = yaklaşık { $n } dakika kaldı
-
-# How long is left, in hours.
-store-left-hours =
-    { $n ->
-        [one] yaklaşık 1 saat kaldı
-       *[other] yaklaşık { $n } saat kaldı
-    }
-
 # Credit under a package's page for the list its site was checked against.
 store-origin-credit = HaGeZi'nin Threat Intelligence listesine göre denetlendi
 

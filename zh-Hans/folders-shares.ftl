@@ -164,3 +164,49 @@ folders-shares-reconnecting = 正在重新连接 { $name }…
 
 # Red words under the file lines when the list of remembered shares could not be written.
 folders-shares-not-remembered = 无法记住这些共享，下次需要重新添加。
+
+# Red words when a share's user name cannot be used.
+folders-shares-bad-user = 共享不能使用这个用户名。
+
+# Red words when a share's domain cannot be used.
+folders-shares-bad-domain = 共享不能使用这个域。
+
+# Red words when a share's password holds a line break.
+folders-shares-bad-password = 共享的密码不能包含换行。
+
+# Red words when a computer wants a user name and password; the computer, then what is being opened.
+folders-shares-needs-login = { $server } 需要用户名和密码才能打开{ $it }。
+
+# Red words when the user name or password was refused; what is being opened.
+folders-shares-wrong-login = 用户名或密码不对，无法打开{ $it }。
+
+# Red words when the account on a computer cannot be used; the computer.
+folders-shares-account = 你在 { $server } 上的账户已被锁定或停用，或者密码已过期。
+
+# Red words when a computer has no share of that name; the computer, then the share.
+folders-shares-no-share = { $server } 上没有名为 { $share } 的共享文件夹。
+
+# Red words when the account may not open a share; what is being opened.
+folders-shares-denied = 该账户无权打开{ $it }。
+
+# Red words when a computer did not answer; the computer.
+folders-shares-asleep = { $server } 没有响应。它可能已休眠或已关机：请唤醒它后再试。
+
+# Red words when no computer of that name is on the network; the name.
+folders-shares-no-computer = 在此网络上找不到名为 { $server } 的电脑。
+
+# Red words when a computer only speaks the old unsafe SMB1; the computer.
+folders-shares-smb1 = { $server } 只支持 SMB1。这是一种旧的共享方式，已不再安全，所以 Trindle 不使用它。
+
+# Red words when a Debian package needed for sharing is missing; the package name.
+folders-shares-missing = 这需要 Debian 的 { $package }，但它尚未安装。
+
+# Red words when a share could not be opened and the system gave no reason.
+folders-shares-open-failed = 无法打开该共享。
+
+# Red words when a shared folder could not be opened and the system gave no reason.
+folders-shares-open-export-failed = 无法打开该共享文件夹。
+
+# Red words when a computer's shared folders could not be listed and the system gave no reason.
+folders-shares-list-failed = 无法列出它的共享文件夹。
+

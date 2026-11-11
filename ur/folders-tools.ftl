@@ -418,3 +418,7 @@ folders-tools-compare-copy-left = { $n } غائب یا نئے بائیں طرف 
 # Button in the pane compare window; { $n } is how many names are copied to the right folder.
 # SAFETY: needs a human review before it ships
 folders-tools-compare-copy-right = { $n } غائب یا نئے دائیں طرف کاپی کریں
+
+# Line in the Wipe window naming the folders that were picked too, which are not wiped.
+folders-tools-wipe-left-out = فولڈر مٹائے نہیں جاتے، اس لیے یہ جیسے ہیں ویسے ہی چھوڑ دیے گئے: { $names }۔
+

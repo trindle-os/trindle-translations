@@ -404,3 +404,7 @@ folders-tools-compare-copy-left = Eksik ya da daha yeni { $n } öğeyi sola kopy
 # SAFETY: needs a human review before it ships
 # Button in the pane compare window; { $n } is how many names are copied to the right folder.
 folders-tools-compare-copy-right = Eksik ya da daha yeni { $n } öğeyi sağa kopyala
+
+# Line in the Wipe window naming the folders that were picked too, which are not wiped.
+folders-tools-wipe-left-out = Klasörler güvenli biçimde silinmez, bu yüzden şunlar olduğu gibi bırakıldı: { $names }.
+

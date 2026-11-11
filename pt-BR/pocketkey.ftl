@@ -6,31 +6,13 @@ pk-title-sudo = Executar isto como administrador?
 # The heading when a program wants to change a system setting.
 # SAFETY: needs a human review before it ships
 pk-title-polkit = Permitir esta alteração?
-# The heading on the lock screen.
-# SAFETY: needs a human review before it ships
-pk-title-unlock = Desbloquear a tela?
-# The heading on the login screen.
-# SAFETY: needs a human review before it ships
-pk-title-login = Entrar?
 # The heading when a phone is being added.
 # SAFETY: needs a human review before it ships
 pk-title-pair = Adicionar este telefone?
 
-# Shown when a command asked for administrator rights and gave no details.
-# SAFETY: needs a human review before it ships
-pk-what-sudo = Um comando quer direitos de administrador.
 # Shown when a program asked to change a setting and gave no details.
 # SAFETY: needs a human review before it ships
 pk-what-polkit = Um programa quer alterar uma configuração do sistema.
-# Shown on the lock screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-unlock = Desbloquear esta tela.
-# Shown on the login screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-login = Entrar neste computador.
-# Shown when a phone is being added and no code could be shown.
-# SAFETY: needs a human review before it ships
-pk-what-pair = Um telefone quer ser adicionado.
 # The question when a phone is being added. $name is the phone's name, $code the digits both screens show.
 # SAFETY: needs a human review before it ships
 pk-pair-detail = O código em { $name } é { $code }?
@@ -56,14 +38,6 @@ pk-pairing-scan = Escaneie isto com o Pocketkey no seu telefone. Funciona por tr
 pk-pairing-qr = Código QR para parear seu celular
 # The question under the six numbers. $name is the phone's name.
 pk-pairing-same-numbers = { $name } mostra estes mesmos seis números?
-# The button that agrees the numbers match.
-# SAFETY: needs a human review before it ships
-pk-pairing-match = São iguais
-# The button that says they do not match.
-# SAFETY: needs a human review before it ships
-pk-pairing-no-match = Não são iguais
-# Shown after the person agreed, until the phone agrees too.
-pk-pairing-waiting-phone = Aguardando o celular dizer sim também…
 # The button that stops pairing.
 pk-pairing-stop = Parar o pareamento
 # The button that closes the window once pairing has ended.
@@ -114,3 +88,17 @@ pk-set-6-hours = 6 horas
 pk-set-1-day = 1 dia
 pk-set-forget = Esquecer este celular
 pk-set-forget-sub = Ele não poderá mais responder por você aqui.
+
+# Under those numbers: where to answer.
+pk-pairing-answer-on-screen = Responda na pergunta em tela cheia.
+
+pk-pairing-why-needs-password = Adicionar um celular exige sua senha, não o celular que você já tem. Feche esta janela, comece o pareamento de novo e digite sua senha.
+
+pk-set-sudo = Sudo e alterações no sistema
+
+pk-set-sudo-sub = O que o celular deve ter feito antes de responder a elas.
+
+pk-set-sudo-unlocked = Celular desbloqueado agora há pouco
+
+pk-set-sudo-any = Celular, mesmo bloqueado
+

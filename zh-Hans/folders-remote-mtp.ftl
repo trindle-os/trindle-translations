@@ -53,3 +53,7 @@ folders-remote-mtp-rename-storage = 重命名存储
 # Words shown when the phone is plugged in but shows no storage.
 folders-remote-mtp-no-storage = 手机没有显示任何存储。请解锁手机并选择“文件传输”，然后再试一次。
 
+
+# Name shown for a phone's storage that has no name of its own.
+folders-remote-mtp-storage-name = 存储空间
+

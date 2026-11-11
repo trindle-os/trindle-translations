@@ -88,9 +88,6 @@ folders-settings-right-pane-sub = Где открывается правая п�
 # Title of the folder chooser that opens from a pane's setting.
 folders-settings-choose-title = Выберите, где открывается панель
 
-# Button of that folder chooser that accepts the folder.
-folders-settings-choose-accept = Выбрать
-
 # Red words under the Kept logins list when a login could not be let go; { $server } is the computer and { $why } says why.
 # SAFETY: needs a human review before it ships
 folders-settings-forget-failed = Не удалось забыть { $server }: { $why }

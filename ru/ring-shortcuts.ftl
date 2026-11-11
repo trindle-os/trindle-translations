@@ -132,3 +132,7 @@ ring-shortcuts-heading-plugins = Плагины
 # Heading over the shortcuts the person set up on the list.
 ring-shortcuts-heading-yours = Ваши
 
+
+# Words for the key that opens the window to report a problem.
+ring-shortcuts-report = Сообщить о проблеме
+

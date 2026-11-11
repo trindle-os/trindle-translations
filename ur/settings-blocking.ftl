@@ -164,3 +164,28 @@ settings-blocking-private-sub = Quad9 کوئی ریکارڈ نہیں رکھتا 
 
 # Name of the choice in Private server that uses the network's own servers.
 settings-blocking-provider-network = آپ کا نیٹ ورک
+
+# Heading of the Firewall card, first on the Firewall and blocking page.
+settings-firewall = فائر وال
+
+# Help text (i button) of the Firewall card.
+settings-firewall-about = چلتی ہو تو فائر وال دوسرے کمپیوٹروں کا ہر وہ کنکشن روک دیتی ہے جو اس کمپیوٹر نے نہیں مانگا، اس لیے اسی Wi-Fi پر کوئی قسمت آزما نہیں سکتا۔ براؤزنگ، اپ ڈیٹس اور پرنٹر پھر بھی کام کرتے ہیں۔ جو پروگرام دوسروں کے جڑنے کا انتظار کرتا ہے، جیسے گیم سرور، اس کا پورٹ نیچے کھولنا پڑتا ہے۔ بند ہو تو نیٹ ورک کا ہر کمپیوٹر ہر اس پروگرام تک پہنچ سکتا ہے جو سن رہا ہو۔ اسے بدلنے پر ایڈمنسٹریٹر کا پاس ورڈ مانگا جاتا ہے۔
+
+# Name of the firewall's on and off switch.
+settings-firewall-switch = فائر وال
+
+# Small line under the switch while the firewall is on.
+settings-firewall-on-sub = دوسرے کمپیوٹر اس وقت تک نہیں جڑ سکتے جب تک آپ اجازت نہ دیں۔
+
+# Small line under the switch while the firewall is off.
+settings-firewall-off-sub = بند: دوسرے کمپیوٹر ہر اس پروگرام تک پہنچ سکتے ہیں جو سن رہا ہو۔
+
+# Said beside the switch once the firewall is on.
+settings-firewall-done-on = فائر وال چل رہی ہے
+
+# Said beside the switch once the firewall is off.
+settings-firewall-done-off = فائر وال بند ہے
+
+# Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
+settings-blocking-card = روک
+

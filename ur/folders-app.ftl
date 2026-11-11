@@ -62,3 +62,10 @@ folders-app-view-not-kept = اس فولڈر کا منظر محفوظ نہیں ہ
 
 # Red words at the foot of the window when the choice of grouping could not be saved.
 folders-app-grouping-not-kept = گروپ بندی اگلی بار کے لیے محفوظ نہیں ہو سکی۔
+
+# Said in a window run as administrator when a file, an archive or a preview is asked for.
+folders-app-root-folders-only = ایڈمنسٹریٹر کے طور پر چلنے والی ونڈو صرف فولڈروں کے ساتھ کام کرتی ہے، اس لیے اس میں ایڈمنسٹریٹر کے حقوق کے ساتھ کوئی فائل نہ کھلتی ہے، نہ اس کے اندر دیکھا جاتا ہے، نہ دکھائی جاتی ہے۔
+
+# Red words when the list of what opens what cannot be read, so the choice is not written; why it cannot be read.
+folders-app-opener-unreadable = کچھ نہیں بدلا، کیونکہ { $why }۔
+

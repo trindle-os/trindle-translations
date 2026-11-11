@@ -44,3 +44,28 @@ folders-wallpaper-over-200 = trên 200 MB
 
 # Two reasons joined, as in "larger than 4K or over 20 MB"; the two come in.
 folders-wallpaper-reasons-or = { $first } hoặc { $second }
+
+# Row in the sidebar for a drive that is locked; the drive's name, so a narrow row still says it is locked.
+folders-volumes-locked-row = Đã khóa: { $name }
+
+# Name given to a drive that has none.
+folders-volumes-drive = Ổ đĩa
+
+# Red words under the password box when the passphrase did not open an encrypted drive.
+folders-volumes-wrong-passphrase = Cụm mật khẩu đó không mở được nó.
+
+# Said when a drive that is open already is opened again.
+folders-volumes-already-open = Nó đã được mở rồi.
+
+# Said when a locked drive is opened without a passphrase.
+folders-volumes-needs-passphrase = Cần có cụm mật khẩu để mở nó.
+
+# Line in the passphrase window saying which drive it is for; the drive's name.
+folders-volumes-passphrase-for = Cụm mật khẩu cho { $name }
+
+# Title of the passphrase window for a locked drive.
+folders-volumes-unlock-title = Mở khóa ổ đĩa
+
+# Said when the passphrase window could not be opened.
+folders-volumes-prompt-failed = Không mở được cửa sổ cụm mật khẩu.
+

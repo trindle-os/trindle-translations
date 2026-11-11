@@ -98,3 +98,28 @@ folders-earlier-put-back-tip = Kembalikan
 # Tip and name of the round button on an earlier version's row that compares it with the one there now.
 folders-earlier-compare-tip = Baca keduanya dan katakan apakah isinya sama
 
+
+# Red words when what is given to put back is not one of the earlier versions.
+folders-earlier-put-back-not-version = Itu bukan versi sebelumnya.
+
+# Red words when an earlier version is asked to be put back outside the home folder.
+folders-earlier-put-back-home-only = Versi sebelumnya hanya dapat dikembalikan ke dalam folder home.
+
+# Red words when the place to put an earlier version back has no usable name.
+folders-earlier-put-back-no-place = Itu bukan tempat untuk sebuah berkas.
+
+# Red words when the folder an earlier version was in cannot be made again; why it failed.
+folders-earlier-put-back-folder-lost = Folder tempatnya dulu tidak dapat dibuat lagi: { $why }
+
+# Red words when copying an earlier version back fails; why it failed.
+folders-earlier-put-back-copy-failed = Versi sebelumnya tidak dapat disalin: { $why }
+
+# Red words when what is there now cannot be set aside before putting an earlier version back; why it failed.
+folders-earlier-put-back-aside-failed = Apa yang ada sekarang tidak dapat disisihkan: { $why }
+
+# Red words when the earlier version could not be put in place and what was there has been left under another name; why it failed, then that name.
+folders-earlier-put-back-in-place-named = Versi sebelumnya tidak dapat dipasang di tempatnya: { $why }. Yang tadinya ada di situ sekarang bernama { $name }.
+
+# Red words when the earlier version could not be put in place; why it failed.
+folders-earlier-put-back-in-place = Versi sebelumnya tidak dapat dipasang di tempatnya: { $why }
+

@@ -44,9 +44,6 @@ report-not-taken = Laporan belum diterima.
 # Written where the Send button would be, while Buildmorphic is being asked whether it is taking reports.
 report-checking = Memeriksa.
 
-# Written where the Send button would be, when the switch for reports in Settings is off.
-report-off = Laporan dimatikan.
-
 # Why a report is waiting: Buildmorphic had too many reports at once and the report is tried again later.
 report-too-many = Terlalu banyak laporan sekaligus.
 
@@ -122,4 +119,14 @@ report-no-log = Tidak ada log untuk dikirim bersamanya, jadi tidak dapat dikirim
 
 
 report-sent-as-bug = Terkirim. Tercatat sebagai bug { $number }. Terima kasih.
+
+
+# Under the title, beta only: why a report matters and what it holds.
+report-beta = Trindle masih dalam tahap beta, dan setiap laporan membantu kami membuatnya berjalan sempurna. Laporan bersifat anonim dan tidak berisi apa pun yang pribadi. Tidak perlu email, dan nama pengguna bersifat opsional. Tidak ada yang dikirim sampai Anda menekan Kirim.
+
+# Typing box under the first one: the optional Buildmorphic username that credits the report.
+report-username-box = Nama pengguna Buildmorphic (opsional)
+
+# Red words when a report posted by hand could not get through. $why is the reason, such as "No connection."
+report-try-again = Belum terkirim. { $why } Tekan Kirim untuk mencoba lagi.
 

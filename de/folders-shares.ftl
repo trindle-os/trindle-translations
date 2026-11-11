@@ -162,3 +162,49 @@ folders-shares-reconnecting = { $name } wird erneut verbunden …
 
 # Red words under the file lines when the list of remembered shares could not be written.
 folders-shares-not-remembered = Die Freigaben konnten für das nächste Mal nicht gemerkt werden.
+
+# Red words when a share's user name cannot be used.
+folders-shares-bad-user = Diesen Benutzernamen kann eine Freigabe nicht annehmen.
+
+# Red words when a share's domain cannot be used.
+folders-shares-bad-domain = Diese Domain kann eine Freigabe nicht annehmen.
+
+# Red words when a share's password holds a line break.
+folders-shares-bad-password = Das Passwort einer Freigabe darf keinen Zeilenumbruch enthalten.
+
+# Red words when a computer wants a user name and password; the computer, then what is being opened.
+folders-shares-needs-login = { $server } verlangt einen Benutzernamen und ein Passwort für { $it }.
+
+# Red words when the user name or password was refused; what is being opened.
+folders-shares-wrong-login = Der Benutzername oder das Passwort war für { $it } nicht richtig.
+
+# Red words when the account on a computer cannot be used; the computer.
+folders-shares-account = Dein Konto auf { $server } ist gesperrt oder ausgeschaltet, oder sein Passwort ist abgelaufen.
+
+# Red words when a computer has no share of that name; the computer, then the share.
+folders-shares-no-share = { $server } hat keinen freigegebenen Ordner namens { $share }.
+
+# Red words when the account may not open a share; what is being opened.
+folders-shares-denied = Dieses Konto darf { $it } nicht öffnen.
+
+# Red words when a computer did not answer; the computer.
+folders-shares-asleep = { $server } hat nicht geantwortet. Vielleicht schläft er oder ist ausgeschaltet: Wecke ihn auf und versuche es noch einmal.
+
+# Red words when no computer of that name is on the network; the name.
+folders-shares-no-computer = In diesem Netzwerk wurde kein Computer namens { $server } gefunden.
+
+# Red words when a computer only speaks the old unsafe SMB1; the computer.
+folders-shares-smb1 = { $server } spricht nur SMB1, eine alte Art der Freigabe, die nicht mehr sicher ist, darum verwendet Trindle sie nicht.
+
+# Red words when a Debian package needed for sharing is missing; the package name.
+folders-shares-missing = Dafür wird { $package } von Debian gebraucht, das nicht installiert ist.
+
+# Red words when a share could not be opened and the system gave no reason.
+folders-shares-open-failed = Die Freigabe konnte nicht geöffnet werden.
+
+# Red words when a shared folder could not be opened and the system gave no reason.
+folders-shares-open-export-failed = Der freigegebene Ordner konnte nicht geöffnet werden.
+
+# Red words when a computer's shared folders could not be listed and the system gave no reason.
+folders-shares-list-failed = Seine freigegebenen Ordner konnten nicht aufgelistet werden.
+

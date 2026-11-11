@@ -167,3 +167,28 @@ settings-blocking-private-sub = Quad9 ne garde aucune trace de qui a demandé.
 
 # Name of the choice in Private server that uses the network's own servers.
 settings-blocking-provider-network = Votre réseau
+
+# Heading of the Firewall card, first on the Firewall and blocking page.
+settings-firewall = Pare-feu
+
+# Help text (i button) of the Firewall card.
+settings-firewall-about = Activé, le pare-feu bloque toute connexion d'autres ordinateurs que cet ordinateur n'a pas demandée, afin que personne sur le même Wi-Fi ne puisse tenter sa chance. La navigation, les mises à jour et les imprimantes fonctionnent toujours. Un programme qui attend que d'autres s'y connectent, comme un serveur de jeu, a besoin que son port soit ouvert plus bas. Désactivé, tout programme à l'écoute est accessible depuis n'importe quel ordinateur du réseau. Le changer demande le mot de passe administrateur.
+
+# Name of the firewall's on and off switch.
+settings-firewall-switch = Pare-feu
+
+# Small line under the switch while the firewall is on.
+settings-firewall-on-sub = Les autres ordinateurs ne peuvent pas se connecter sans votre accord.
+
+# Small line under the switch while the firewall is off.
+settings-firewall-off-sub = Désactivé : les autres ordinateurs peuvent atteindre tout programme à l'écoute.
+
+# Said beside the switch once the firewall is on.
+settings-firewall-done-on = Pare-feu activé
+
+# Said beside the switch once the firewall is off.
+settings-firewall-done-off = Pare-feu désactivé
+
+# Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
+settings-blocking-card = Blocage
+

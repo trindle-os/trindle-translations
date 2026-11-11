@@ -1196,3 +1196,14 @@ scan-main-start-no-window = Trindle Scan: لم يفتح سطح المكتب نا
 # Red words at start-up when the home folder is not set to a full path, so settings and profiles cannot be kept.
 scan-main-error-no-home = مجلد المنزل غير محدد، لذا لا يمكن حفظ إعداداتك وملفاتك الشخصية هذه المرة.
 
+# Red words when pages could not be copied to the recovery folder, so a crash would lose them.
+scan-main-error-not-kept =
+    { $n ->
+        [zero] تعذّر نسخ أي صفحة إلى مجلد الاسترداد.
+        [one] تعذّر نسخ صفحة واحدة إلى مجلد الاسترداد، لذلك سيفقدها أي انهيار.
+        [two] تعذّر نسخ صفحتين إلى مجلد الاسترداد، لذلك سيفقدهما أي انهيار.
+        [few] تعذّر نسخ { $n } صفحات إلى مجلد الاسترداد، لذلك سيفقدها أي انهيار.
+        [many] تعذّر نسخ { $n } صفحة إلى مجلد الاسترداد، لذلك سيفقدها أي انهيار.
+       *[other] تعذّر نسخ { $n } صفحة إلى مجلد الاسترداد، لذلك سيفقدها أي انهيار.
+    }
+

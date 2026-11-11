@@ -52,3 +52,6 @@ folders-remote-mtp-rename-storage = إعادة تسمية وحدة تخزين
 # Words shown when the phone is plugged in but shows no storage.
 folders-remote-mtp-no-storage = لا يُظهر الهاتف أي وحدة تخزين. افتح قفله واختر نقل الملفات، ثم حاول مرة أخرى.
 
+# Name shown for a phone's storage that has no name of its own.
+folders-remote-mtp-storage-name = التخزين
+

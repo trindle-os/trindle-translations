@@ -409,3 +409,7 @@ folders-tools-compare-copy-left = 把 { $n } 个缺少或较新的项目复制�
 # Button in the pane compare window; { $n } is how many names are copied to the right folder.
 folders-tools-compare-copy-right = 把 { $n } 个缺少或较新的项目复制到右边
 
+
+# Line in the Wipe window naming the folders that were picked too, which are not wiped.
+folders-tools-wipe-left-out = 文件夹不会被抹除，所以这些保持原样：{ $names }。
+

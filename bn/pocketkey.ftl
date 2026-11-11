@@ -6,31 +6,13 @@ pk-title-sudo = এটি অ্যাডমিনিস্ট্রেটর �
 # The heading when a program wants to change a system setting.
 # SAFETY: needs a human review before it ships
 pk-title-polkit = এই পরিবর্তনের অনুমতি দেবেন?
-# The heading on the lock screen.
-# SAFETY: needs a human review before it ships
-pk-title-unlock = স্ক্রিন আনলক করবেন?
-# The heading on the login screen.
-# SAFETY: needs a human review before it ships
-pk-title-login = লগ ইন করবেন?
 # The heading when a phone is being added.
 # SAFETY: needs a human review before it ships
 pk-title-pair = এই ফোন যোগ করবেন?
 
-# Shown when a command asked for administrator rights and gave no details.
-# SAFETY: needs a human review before it ships
-pk-what-sudo = একটি কমান্ড অ্যাডমিনিস্ট্রেটরের অধিকার চাইছে।
 # Shown when a program asked to change a setting and gave no details.
 # SAFETY: needs a human review before it ships
 pk-what-polkit = একটি প্রোগ্রাম সিস্টেমের একটি সেটিং বদলাতে চাইছে।
-# Shown on the lock screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-unlock = এই স্ক্রিন আনলক করুন।
-# Shown on the login screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-login = এই কম্পিউটারে লগ ইন করুন।
-# Shown when a phone is being added and no code could be shown.
-# SAFETY: needs a human review before it ships
-pk-what-pair = একটি ফোন যোগ হতে চাইছে।
 # The question when a phone is being added. $name is the phone's name, $code the digits both screens show.
 # SAFETY: needs a human review before it ships
 pk-pair-detail = { $name }-এ কোডটি কি { $code }?
@@ -56,14 +38,6 @@ pk-pairing-scan = আপনার ফোনের Pocketkey দিয়ে এ�
 pk-pairing-qr = আপনার ফোন জোড়া লাগানোর জন্য QR কোড
 # The question under the six numbers. $name is the phone's name.
 pk-pairing-same-numbers = { $name } কি এই একই ছয়টি সংখ্যা দেখাচ্ছে?
-# The button that agrees the numbers match.
-# SAFETY: needs a human review before it ships
-pk-pairing-match = মিলেছে
-# The button that says they do not match.
-# SAFETY: needs a human review before it ships
-pk-pairing-no-match = মেলেনি
-# Shown after the person agreed, until the phone agrees too.
-pk-pairing-waiting-phone = ফোনও হ্যাঁ বলার অপেক্ষায়…
 # The button that stops pairing.
 pk-pairing-stop = জোড়া লাগানো থামান
 # The button that closes the window once pairing has ended.
@@ -114,3 +88,17 @@ pk-set-6-hours = ৬ ঘণ্টা
 pk-set-1-day = ১ দিন
 pk-set-forget = এই ফোন ভুলে যান
 pk-set-forget-sub = এটি আর এখানে আপনার হয়ে উত্তর দিতে পারবে না।
+
+
+# Under those numbers: where to answer.
+pk-pairing-answer-on-screen = পূর্ণ পর্দার প্রশ্নে উত্তর দিন।
+
+pk-pairing-why-needs-password = নতুন ফোন যোগ করতে আপনার পাসওয়ার্ড লাগে, আপনার আগের ফোন নয়। এই উইন্ডো বন্ধ করুন, আবার জোড়া লাগানো শুরু করুন এবং পাসওয়ার্ড লিখুন।
+
+pk-set-sudo = Sudo ও সিস্টেম বদল
+
+pk-set-sudo-sub = উত্তর দেওয়ার আগে ফোনকে কী করতে হবে।
+
+pk-set-sudo-unlocked = ফোন এইমাত্র আনলক হয়েছে
+
+pk-set-sudo-any = ফোন তালাবদ্ধ থাকলেও

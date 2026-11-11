@@ -1059,7 +1059,6 @@ settings-help-topics-hardware-no-driver-p2 = बहुत नई चिप क�
 settings-help-topics-hardware-no-driver-p3 = तब तक, USB Wi-Fi स्टिक बिना किसी सेटअप के किसी भी कंप्यूटर पर काम करती है। उसे लगाएँ और वह Network में दिखती है। इस संदेश से आपके कंप्यूटर में कुछ नहीं बदला जाता।
 
 
-
 # Title of the Help topic "Playing games".
 settings-help-topics-games-title = गेम खेलना
 
@@ -1095,7 +1094,6 @@ settings-help-topics-games-p6 = कीबोर्ड और माउस का
 
 # Help topic "Playing games": tip 7.
 settings-help-topics-games-tip7 = HDR और वेरिएबल रिफ़्रेश रेट अभी समर्थित नहीं हैं।
-
 
 
 # Title of the Help topic "A Bluetooth device will not connect".

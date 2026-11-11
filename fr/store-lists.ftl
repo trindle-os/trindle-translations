@@ -38,19 +38,6 @@ store-tab-count = { $name } { $n }
 # Spoken name of a strip of tabs on the Installed page.
 store-tabs-show = Afficher
 
-# How long is left when it is a minute or less.
-store-left-minute = environ une minute restante
-
-# How long is left, in minutes.
-store-left-minutes = environ { $n } minutes restantes
-
-# How long is left, in hours.
-store-left-hours =
-    { $n ->
-        [one] environ 1 heure restante
-       *[other] environ { $n } heures restantes
-    }
-
 # Credit under a package's page for the list its site was checked against.
 store-origin-credit = Vérifié avec la liste Threat Intelligence de HaGeZi
 

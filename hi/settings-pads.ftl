@@ -90,7 +90,6 @@ settings-pads-right-click = दायाँ क्लिक
 settings-pads-middle-click = बीच का क्लिक
 
 
-
 # Title of the card that chooses a profile for each game.
 settings-pads-profiles-title = प्रोफ़ाइल
 

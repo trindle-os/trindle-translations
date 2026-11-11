@@ -327,7 +327,6 @@ plugins-shortcut-not-saved-unchanged = इसे सहेजा नहीं �
 plugins-shortcut-not-saved = इसे सहेजा नहीं जा सका ({ $why })।
 
 
-
 # Red words when a plugin other than Trindle's screen reader asks for the accessibility permission.
 plugins-accessibility-only-reader = सुलभता की अनुमति केवल सूची में मौजूद Trindle के स्क्रीन रीडर के लिए है।
 

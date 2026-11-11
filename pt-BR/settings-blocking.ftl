@@ -167,3 +167,28 @@ settings-blocking-private-sub = A Quad9 não guarda registro de quem perguntou.
 
 # Name of the choice in Private server that uses the network's own servers.
 settings-blocking-provider-network = Sua rede
+
+# Heading of the Firewall card, first on the Firewall and blocking page.
+settings-firewall = Firewall
+
+# Help text (i button) of the Firewall card.
+settings-firewall-about = Ligado, o firewall barra toda conexão de outros computadores que este computador não pediu, então ninguém no mesmo Wi-Fi pode tentar a sorte. Navegar, atualizações e impressoras continuam funcionando. Um programa que espera conexões de outros, como um servidor de jogo, precisa ter a porta aberta abaixo. Desligado, qualquer computador da rede pode alcançar todo programa que está escutando. Mudar isto pede a senha do administrador.
+
+# Name of the firewall's on and off switch.
+settings-firewall-switch = Firewall
+
+# Small line under the switch while the firewall is on.
+settings-firewall-on-sub = Outros computadores não podem se conectar, a menos que você permita.
+
+# Small line under the switch while the firewall is off.
+settings-firewall-off-sub = Desligado: outros computadores alcançam todo programa que está escutando.
+
+# Said beside the switch once the firewall is on.
+settings-firewall-done-on = Firewall ligado
+
+# Said beside the switch once the firewall is off.
+settings-firewall-done-off = Firewall desligado
+
+# Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
+settings-blocking-card = Bloqueio
+

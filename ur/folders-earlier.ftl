@@ -97,3 +97,28 @@ folders-earlier-put-back-tip = واپس رکھیں
 
 # Tip and name of the round button on an earlier version's row that compares it with the one there now.
 folders-earlier-compare-tip = دونوں کو پڑھ کر بتائیں کہ ان میں وہی ہے یا نہیں
+
+# Red words when what is given to put back is not one of the earlier versions.
+folders-earlier-put-back-not-version = یہ پرانی نقل نہیں ہے۔
+
+# Red words when an earlier version is asked to be put back outside the home folder.
+folders-earlier-put-back-home-only = پرانی نقل صرف ہوم فولڈر کے اندر واپس رکھی جا سکتی ہے۔
+
+# Red words when the place to put an earlier version back has no usable name.
+folders-earlier-put-back-no-place = یہ ایسی جگہ نہیں جہاں فائل رکھی جا سکے۔
+
+# Red words when the folder an earlier version was in cannot be made again; why it failed.
+folders-earlier-put-back-folder-lost = جس فولڈر میں یہ تھی وہ دوبارہ نہیں بن سکا: { $why }
+
+# Red words when copying an earlier version back fails; why it failed.
+folders-earlier-put-back-copy-failed = پرانی نقل کی کاپی نہیں ہو سکی: { $why }
+
+# Red words when what is there now cannot be set aside before putting an earlier version back; why it failed.
+folders-earlier-put-back-aside-failed = جو اب وہاں ہے اسے ایک طرف نہیں رکھا جا سکا: { $why }
+
+# Red words when the earlier version could not be put in place and what was there has been left under another name; why it failed, then that name.
+folders-earlier-put-back-in-place-named = پرانی نقل اپنی جگہ پر نہیں رکھی جا سکی: { $why }۔ جو وہاں تھا اس کا نام اب { $name } ہے۔
+
+# Red words when the earlier version could not be put in place; why it failed.
+folders-earlier-put-back-in-place = پرانی نقل اپنی جگہ پر نہیں رکھی جا سکی: { $why }
+

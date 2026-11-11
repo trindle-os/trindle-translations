@@ -254,7 +254,6 @@ settings-permissions-not-added = Folders से चलाया गया, Apps 
 settings-permissions-kind-tip = ऐप का प्रकार
 
 
-
 # Heading of the card for programs that are not in a box.
 settings-outside-heading = डिब्बे के बाहर के प्रोग्राम
 

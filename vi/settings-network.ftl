@@ -308,3 +308,55 @@ settings-network-kept-anyway = { $words } Mạng vẫn được lưu: hãy quên
 # Said in red when a network would not disconnect.
 settings-network-disconnect-failed = Không thể ngắt kết nối.
 
+
+# Heading of the card that lists the ports opened by hand.
+settings-network-ports = Cổng đang mở
+
+# Help text (i button) of the Open ports card.
+settings-network-ports-about = Mọi cổng đều đóng trừ khi máy tính này yêu cầu trước, nên chương trình chờ người khác kết nối, như máy chủ trò chơi hoặc công cụ đồng bộ, không thể truy cập được cho đến khi cổng của nó được mở ở đây. Cổng mở ở đây chỉ cho máy tính trong mạng gia đình của bạn vào, không bao giờ cho internet rộng lớn. Mở hoặc đóng một cổng cần mật khẩu của quản trị viên.
+
+# Line in the Open ports card when no port is open.
+settings-network-ports-none = Chưa mở cổng nào
+
+# Small line under it.
+settings-network-ports-none-sub = Mọi cổng đều đóng với máy tính khác.
+
+# Small line under an open port, such as TCP 37666.
+settings-network-port-sub = Mở cho mạng gia đình của bạn.
+
+# Tooltip of the button that closes an open port. { $port } is like TCP 37666.
+settings-network-port-close = Đóng { $port }
+
+# Heading of the line that opens a port.
+settings-network-port-add = Mở một cổng
+
+# Small line under it.
+settings-network-port-add-sub = Dành cho chương trình mà người khác kết nối tới.
+
+# Placeholder in the box where the port number is typed.
+settings-network-port-number = Số cổng
+
+# Tooltip of the choice of TCP, UDP or both.
+settings-network-port-protocol = Giao thức
+
+# Choice: the TCP protocol only. Usually left as TCP.
+settings-network-port-tcp = TCP
+
+# Choice: the UDP protocol only. Usually left as UDP.
+settings-network-port-udp = UDP
+
+# Choice: both TCP and UDP.
+settings-network-port-both = Cả hai
+
+# Button that opens the typed port.
+settings-network-port-open = Mở
+
+# Red words when what was typed is not a port number.
+settings-network-port-not-a-port = Hãy nhập một số từ 1 đến 65535.
+
+# Red words when the port is already open.
+settings-network-port-already = Đã mở rồi.
+
+# Said under the line once the port is open.
+settings-network-port-opened = Đã mở
+

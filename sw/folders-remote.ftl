@@ -101,3 +101,7 @@ folders-remote-screen-no-name = kitu kisicho na jina
 # Red words when a server or phone sent far more than the answer to a question could hold, and was stopped.
 folders-remote-mod-too-much = Ilituma zaidi sana ya kile ambacho jibu moja linaweza kubeba, kwa hiyo ilisimamishwa.
 
+
+
+# Why a thing on a WebDAV server was not removed as a file: it is a folder now.
+folders-remote-dav-not-a-file = { $name } sasa ni folda, kwa hiyo haikuondolewa.

@@ -6,31 +6,13 @@ pk-title-sudo = Bu yönetici olarak çalıştırılsın mı?
 # The heading when a program wants to change a system setting.
 # SAFETY: needs a human review before it ships
 pk-title-polkit = Bu değişikliğe izin verilsin mi?
-# The heading on the lock screen.
-# SAFETY: needs a human review before it ships
-pk-title-unlock = Ekranın kilidi açılsın mı?
-# The heading on the login screen.
-# SAFETY: needs a human review before it ships
-pk-title-login = Giriş yapılsın mı?
 # The heading when a phone is being added.
 # SAFETY: needs a human review before it ships
 pk-title-pair = Bu telefon eklensin mi?
 
-# Shown when a command asked for administrator rights and gave no details.
-# SAFETY: needs a human review before it ships
-pk-what-sudo = Bir komut yönetici hakları istiyor.
 # Shown when a program asked to change a setting and gave no details.
 # SAFETY: needs a human review before it ships
 pk-what-polkit = Bir program sistem ayarını değiştirmek istiyor.
-# Shown on the lock screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-unlock = Bu ekranın kilidini aç.
-# Shown on the login screen with no details.
-# SAFETY: needs a human review before it ships
-pk-what-login = Bu bilgisayarda oturum aç.
-# Shown when a phone is being added and no code could be shown.
-# SAFETY: needs a human review before it ships
-pk-what-pair = Bir telefon eklenmek istiyor.
 # The question when a phone is being added. $name is the phone's name, $code the digits both screens show.
 # SAFETY: needs a human review before it ships
 pk-pair-detail = { $name } üzerindeki kod { $code } mi?
@@ -56,14 +38,6 @@ pk-pairing-scan = Bunu telefonundaki Pocketkey ile tara. Üç dakika geçerlidir
 pk-pairing-qr = Telefonunuzu eşleştirmek için QR kodu
 # The question under the six numbers. $name is the phone's name.
 pk-pairing-same-numbers = { $name } da bu altı sayıyı gösteriyor mu?
-# The button that agrees the numbers match.
-# SAFETY: needs a human review before it ships
-pk-pairing-match = Eşleşiyor
-# The button that says they do not match.
-# SAFETY: needs a human review before it ships
-pk-pairing-no-match = Eşleşmiyor
-# Shown after the person agreed, until the phone agrees too.
-pk-pairing-waiting-phone = Telefonun da evet demesi bekleniyor…
 # The button that stops pairing.
 pk-pairing-stop = Eşleştirmeyi durdur
 # The button that closes the window once pairing has ended.
@@ -114,3 +88,17 @@ pk-set-6-hours = 6 saat
 pk-set-1-day = 1 gün
 pk-set-forget = Bu telefonu unut
 pk-set-forget-sub = Artık burada sizin adınıza yanıt veremez.
+
+# Under those numbers: where to answer.
+pk-pairing-answer-on-screen = Tam ekran sorusunu yanıtlayın.
+
+pk-pairing-why-needs-password = Telefon eklemek için, sahip olduğunuz telefon değil, parolanız gerekir. Bu pencereyi kapatın, eşleştirmeyi yeniden başlatın ve parolanızı yazın.
+
+pk-set-sudo = Sudo ve sistem değişiklikleri
+
+pk-set-sudo-sub = Telefonun bunlara yanıt vermeden önce ne yapmış olması gerektiği.
+
+pk-set-sudo-unlocked = Telefonun kilidi az önce açıldı
+
+pk-set-sudo-any = Telefon kilitliyken bile
+

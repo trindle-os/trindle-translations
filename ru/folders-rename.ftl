@@ -5,3 +5,7 @@ folders-rename-clash = некоторые новые имена совпадаю
 
 # Reason shown when a rename stops because a new name is already taken; the full path of the name follows.
 folders-rename-already-there = { $path } уже существует
+
+# Why a rename of names that swap could not start: no place to note them first.
+folders-rename-no-journal = негде заранее записать имена
+

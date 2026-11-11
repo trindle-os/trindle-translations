@@ -376,7 +376,6 @@ admin-driver-virtual-camera = वर्चुअल कैमरा
 admin-language-in-use = { $code } वह भाषा है जिसमें यह कंप्यूटर शुरू होता है, इसलिए यह रहेगी।
 
 
-
 # The kernel or chip has no split-lock slowing to turn off.
 admin-split-lock-none = इस कंप्यूटर में बंद करने के लिए कोई स्प्लिट-लॉक धीमापन नहीं है।
 
@@ -407,4 +406,14 @@ admin-system-needs-btrfs = Btrfs चाहिए।
 
 # Red words in Settings when a restore swapped the systems but could not finish tidying up. { $why } is the reason.
 admin-restore-finish-later = स्नैपशॉट अपनी जगह पर है और कंप्यूटर उसी से शुरू होगा। पुराने सिस्टम की सफ़ाई पूरी नहीं हुई और अगली शुरुआत पर फिर कोशिश की जाएगी: { $why }
+
+
+# Red words in Settings when too many ports are open already. { $most } is a number.
+admin-ports-too-many = ज़्यादा से ज़्यादा { $most } पोर्ट खोले जा सकते हैं।
+
+# Red words in Settings when the list of open ports could not be kept. { $why } is the system's reason.
+admin-ports-not-kept = खुले पोर्ट की सूची सहेजी नहीं जा सकी: { $why }।
+
+# Red words in Settings when the firewall could not be switched off. { $why } is the system's reason.
+admin-firewall-still-on = फ़ायरवॉल अब भी चालू है: { $why }
 

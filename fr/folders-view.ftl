@@ -66,9 +66,6 @@ folders-view-sort-by = Trier par
 # Name read out for the toolbar's Group by strip.
 folders-view-group-by = Grouper par
 
-# Tip and spoken name of the toolbar button that shows hidden files.
-folders-view-show-hidden = Afficher les fichiers cachés
-
 # Tip of the toolbar button that hides the preview panel.
 folders-view-panel-hide = Masquer le panneau d’aperçu (Alt+P)
 
@@ -335,4 +332,14 @@ folders-view-search-none = Il n'y a rien à rechercher sur cette page
 
 # Name read out for the Search button, which says whether it is pressed.
 folders-view-search-spoken = Rechercher
+
+
+# Tip of the toolbar button that shows hidden files (Ctrl+H).
+folders-view-hidden-show = Afficher les fichiers cachés (Ctrl+H)
+
+# Tip of the toolbar button that hides hidden files again (Ctrl+H).
+folders-view-hidden-hide = Masquer les fichiers cachés (Ctrl+H)
+
+# Name read out for the toolbar button that shows or hides hidden files.
+folders-view-hidden-spoken = Fichiers cachés
 

@@ -159,3 +159,28 @@ settings-blocking-private-sub = Quad9 tidak mencatat siapa yang bertanya.
 
 # Name of the choice in Private server that uses the network's own servers.
 settings-blocking-provider-network = Jaringan Anda
+
+# Heading of the Firewall card, first on the Firewall and blocking page.
+settings-firewall = Firewall
+
+# Help text (i button) of the Firewall card.
+settings-firewall-about = Saat menyala, firewall menahan setiap sambungan dari komputer lain yang tidak diminta komputer ini, sehingga tidak ada yang di Wi-Fi yang sama dapat mencoba masuk. Menjelajah, pembaruan, dan printer tetap berfungsi. Program yang menunggu sambungan dari orang lain, seperti server game, memerlukan port-nya dibuka di bawah. Saat mati, setiap program yang mendengarkan dapat dijangkau oleh komputer mana pun di jaringan. Mengubahnya meminta kata sandi administrator.
+
+# Name of the firewall's on and off switch.
+settings-firewall-switch = Firewall
+
+# Small line under the switch while the firewall is on.
+settings-firewall-on-sub = Komputer lain tidak dapat tersambung kecuali Anda mengizinkan.
+
+# Small line under the switch while the firewall is off.
+settings-firewall-off-sub = Mati: komputer lain dapat menjangkau setiap program yang mendengarkan.
+
+# Said beside the switch once the firewall is on.
+settings-firewall-done-on = Firewall menyala
+
+# Said beside the switch once the firewall is off.
+settings-firewall-done-off = Firewall mati
+
+# Heading of the card that blocks adverts and bad sites, on the Firewall and blocking page.
+settings-blocking-card = Pemblokiran
+

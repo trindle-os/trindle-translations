@@ -64,9 +64,6 @@ folders-view-sort-by = সাজানোর ধরন
 # Name read out for the toolbar's Group by strip.
 folders-view-group-by = ভাগ করার ধরন
 
-# Tip and spoken name of the toolbar button that shows hidden files.
-folders-view-show-hidden = লুকানো ফাইল দেখান
-
 # Tip of the toolbar button that hides the preview panel.
 folders-view-panel-hide = প্রিভিউ প্যানেল লুকান (Alt+P)
 
@@ -335,4 +332,14 @@ folders-view-search-none = এই পাতায় খোঁজার কি�
 
 # Name read out for the Search button, which says whether it is pressed.
 folders-view-search-spoken = খুঁজুন
+
+
+# Tip of the toolbar button that shows hidden files (Ctrl+H).
+folders-view-hidden-show = লুকানো ফাইল দেখান (Ctrl+H)
+
+# Tip of the toolbar button that hides hidden files again (Ctrl+H).
+folders-view-hidden-hide = লুকানো ফাইল লুকান (Ctrl+H)
+
+# Name read out for the toolbar button that shows or hides hidden files.
+folders-view-hidden-spoken = লুকানো ফাইল
 

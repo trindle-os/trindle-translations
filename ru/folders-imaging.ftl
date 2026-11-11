@@ -8,3 +8,10 @@ folders-imaging-unreadable = не удалось прочитать изобра
 
 # Reason shown when a resized picture would have to be written in a kind Folders cannot write.
 folders-imaging-no-write = Folders не записывает изображения такого вида
+
+# Why a link to a picture is not turned.
+folders-imaging-no-turn-link = ссылка не поворачивается; поверните картинку, на которую она указывает
+
+# Why a moving picture is not turned.
+folders-imaging-no-turn-moving = анимированная картинка не поворачивается, так как сохранился бы только её первый кадр
+

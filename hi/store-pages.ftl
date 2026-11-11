@@ -767,13 +767,11 @@ store-browse-add = Trindle के ऐप्स में जोड़ें
 store-browse-details = विवरण और फ़ाइलें देखें
 
 
-
 # Part of the front page's line when nothing is known to wait and looking for updates by itself is switched off in Settings.
 store-grid-home-unchecked = अपडेट की जाँच बंद है
 
 # One line at the foot of Apps' results when the search asks for ChatGPT, OpenAI or Codex.
 store-chatgpt-returns = OpenAI अपने डाउनलोड पर हस्ताक्षर कर दे, तब ChatGPT लौट आएगा।
-
 
 
 # Line under the front page's title when it lists Flathub's apps and AppImageHub's; says how many there are and what waits.
@@ -811,4 +809,14 @@ store-appimage-warn-ok = ठीक है
 
 # Button on that card that gives the install up.
 store-appimage-warn-cancel = रद्द करें
+
+
+# Tick box under the Search page's box: look on Flathub, for Flatpaks.
+store-gh-place-flathub = Flathub (Flatpak)
+
+# Tick box: look on AppImageHub, for AppImages.
+store-gh-place-hub = AppImageHub (AppImage)
+
+# Tick box: look on GitHub, which needs Enter.
+store-gh-place-github = GitHub
 

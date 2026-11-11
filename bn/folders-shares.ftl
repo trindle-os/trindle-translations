@@ -164,3 +164,49 @@ folders-shares-reconnecting = { $name } আবার যুক্ত হচ্�
 
 # Red words under the file lines when the list of remembered shares could not be written.
 folders-shares-not-remembered = শেয়ারগুলো পরের বারের জন্য মনে রাখা যায়নি।
+
+
+# Red words when a share's user name cannot be used.
+folders-shares-bad-user = ওটি এমন ব্যবহারকারীর নাম নয় যা কোনো শেয়ার নিতে পারে।
+
+# Red words when a share's domain cannot be used.
+folders-shares-bad-domain = ওটি এমন ডোমেন নয় যা কোনো শেয়ার নিতে পারে।
+
+# Red words when a share's password holds a line break.
+folders-shares-bad-password = শেয়ারের পাসওয়ার্ডে নতুন লাইন থাকতে পারে না।
+
+# Red words when a computer wants a user name and password; the computer, then what is being opened.
+folders-shares-needs-login = { $server } { $it }-এর জন্য ব্যবহারকারীর নাম ও পাসওয়ার্ড চাইছে।
+
+# Red words when the user name or password was refused; what is being opened.
+folders-shares-wrong-login = { $it }-এর জন্য ব্যবহারকারীর নাম বা পাসওয়ার্ড ঠিক ছিল না।
+
+# Red words when the account on a computer cannot be used; the computer.
+folders-shares-account = { $server }-এ আপনার অ্যাকাউন্ট তালাবদ্ধ বা বন্ধ করা, অথবা এর পাসওয়ার্ডের মেয়াদ শেষ।
+
+# Red words when a computer has no share of that name; the computer, then the share.
+folders-shares-no-share = { $server }-এ { $share } নামে কোনো শেয়ার করা ফোল্ডার নেই।
+
+# Red words when the account may not open a share; what is being opened.
+folders-shares-denied = ওই অ্যাকাউন্ট { $it } খুলতে পারে না।
+
+# Red words when a computer did not answer; the computer.
+folders-shares-asleep = { $server } সাড়া দেয়নি। এটি ঘুমিয়ে থাকতে বা বন্ধ থাকতে পারে: এটি জাগিয়ে আবার চেষ্টা করুন।
+
+# Red words when no computer of that name is on the network; the name.
+folders-shares-no-computer = এই নেটওয়ার্কে { $server } নামে কোনো কম্পিউটার পাওয়া যায়নি।
+
+# Red words when a computer only speaks the old unsafe SMB1; the computer.
+folders-shares-smb1 = { $server } শুধু SMB1 বোঝে, যা শেয়ার করার একটি পুরনো ও আর নিরাপদ নয় এমন উপায়, তাই Trindle এটি ব্যবহার করে না।
+
+# Red words when a Debian package needed for sharing is missing; the package name.
+folders-shares-missing = এর জন্য Debian-এর { $package } দরকার, যা ইনস্টল করা নেই।
+
+# Red words when a share could not be opened and the system gave no reason.
+folders-shares-open-failed = শেয়ারটি খোলা যায়নি।
+
+# Red words when a shared folder could not be opened and the system gave no reason.
+folders-shares-open-export-failed = শেয়ার করা ফোল্ডারটি খোলা যায়নি।
+
+# Red words when a computer's shared folders could not be listed and the system gave no reason.
+folders-shares-list-failed = এর শেয়ার করা ফোল্ডারের তালিকা দেখানো যায়নি।

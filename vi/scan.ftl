@@ -1095,3 +1095,10 @@ scan-main-start-no-window = Trindle Scan: màn hình nền không mở cửa s�
 # Red words at start-up when the home folder is not set to a full path, so settings and profiles cannot be kept.
 scan-main-error-no-home = Thư mục chính của bạn chưa được đặt, nên lần này không thể lưu cài đặt và hồ sơ của bạn.
 
+
+# Red words when pages could not be copied to the recovery folder, so a crash would lose them.
+scan-main-error-not-kept =
+    { $n ->
+       *[other] Có { $n } trang không thể sao chép vào thư mục khôi phục, nên sự cố sẽ làm mất chúng.
+    }
+

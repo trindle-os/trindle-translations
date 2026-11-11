@@ -172,7 +172,6 @@ store-boxed-home-why-pasta-said = pasta 报告：{ $why }
 store-boxed-home-why-pasta-no-join = pasta 无法加入该网络空间
 
 
-
 # Title of the notice when a program was given a downloaded file and run in a box with no internet.
 store-downloaded-opened = 在没有网络的情况下打开
 

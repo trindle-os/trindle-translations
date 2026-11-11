@@ -196,7 +196,6 @@ ring-plugin-cannot-work = यह अभी काम नहीं कर सक�
 ring-copied-said = कॉपी हो गया। { $said }
 
 
-
 # Title of the notice for ordinary programs that have just reached the network; the program names are under it, and Allow means this is fine.
 ring-outside-network = नेटवर्क तक पहुँचा
 

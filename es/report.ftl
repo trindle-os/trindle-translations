@@ -44,9 +44,6 @@ report-not-taken = Todavía no se aceptan informes.
 # Written where the Send button would be, while Buildmorphic is being asked whether it is taking reports.
 report-checking = Comprobando.
 
-# Written where the Send button would be, when the switch for reports in Settings is off.
-report-off = Los informes están desactivados.
-
 # Why a report is waiting: Buildmorphic had too many reports at once and the report is tried again later.
 report-too-many = Demasiados informes a la vez.
 
@@ -122,4 +119,14 @@ report-no-log = No hay registro que enviar con él, así que no se puede enviar.
 
 
 report-sent-as-bug = Enviado. Registrado como el error { $number }. Gracias.
+
+
+# Under the title, beta only: why a report matters and what it holds.
+report-beta = Trindle está en fase beta y cada informe nos ayuda a que funcione a la perfección. Un informe es anónimo y no contiene nada privado ni personal. No hace falta correo electrónico y el nombre de usuario es opcional. No se envía nada hasta que pulses Enviar.
+
+# Typing box under the first one: the optional Buildmorphic username that credits the report.
+report-username-box = Nombre de usuario de Buildmorphic (opcional)
+
+# Red words when a report posted by hand could not get through. $why is the reason, such as "No connection."
+report-try-again = No enviado. { $why } Pulsa Enviar para intentarlo de nuevo.
 

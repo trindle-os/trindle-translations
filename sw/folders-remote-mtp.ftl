@@ -51,3 +51,7 @@ folders-remote-mtp-rename-storage = Kubadilisha jina la hifadhi
 
 # Words shown when the phone is plugged in but shows no storage.
 folders-remote-mtp-no-storage = Simu haionyeshi hifadhi yoyote. Ifungue kisha uchague Uhamishaji wa faili, halafu ujaribu tena.
+
+
+# Name shown for a phone's storage that has no name of its own.
+folders-remote-mtp-storage-name = Hifadhi

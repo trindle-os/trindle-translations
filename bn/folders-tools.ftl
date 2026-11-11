@@ -408,3 +408,7 @@ folders-tools-compare-copy-left = নেই বা নতুন { $n }টি ব
 
 # Button in the pane compare window; { $n } is how many names are copied to the right folder.
 folders-tools-compare-copy-right = নেই বা নতুন { $n }টি ডানে কপি করুন
+
+
+# Line in the Wipe window naming the folders that were picked too, which are not wiped.
+folders-tools-wipe-left-out = ফোল্ডার ওয়াইপ করা হয় না, তাই এগুলো যেমন আছে তেমনই থাকবে: { $names }।

@@ -336,3 +336,7 @@ folders-act-links-failed =
 # SAFETY: needs a human review before it ships
 folders-act-closing-waits = Un travail attend une réponse. Répondez-y, ou arrêtez le travail, avant de fermer.
 
+
+# Words under the file lines when the window is closed while work goes on.
+folders-act-closing-busy = Folders ne peut pas se fermer tant que le transfert n'est pas terminé. Attendez la fin, ou arrêtez-le, puis fermez.
+

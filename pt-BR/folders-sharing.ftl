@@ -154,3 +154,58 @@ folders-sharing-changing = Alterando o compartilhamento…
 # Calm words while a share is made.
 folders-sharing-sharing-it = Compartilhando…
 
+
+# Red words under the name box when a share has no name.
+folders-sharing-name-empty = Dê um nome ao compartilhamento.
+
+# Red words under the name box when a share's name is too long; the most letters allowed.
+folders-sharing-name-long = O nome de um compartilhamento pode ter no máximo { $most } letras.
+
+# Red words when a share's name holds a letter that is not allowed.
+folders-sharing-name-bad-letters = O nome de um compartilhamento não pode conter nenhum destes: % < > * ? | / \ + = ; : " ou vírgula.
+
+# Red words when a share's name ends in a dollar sign, which would hide it.
+folders-sharing-name-dollar = Um nome terminado em $ esconderia o compartilhamento, então não é usado.
+
+# Red words when a share's name starts with a dash.
+folders-sharing-name-dash = O nome de um compartilhamento não pode começar com hífen.
+
+# Red words when a share's name is one Samba keeps for itself; the name.
+folders-sharing-name-reserved = O Samba guarda o nome { $name } para si. Escolha outro.
+
+# Name offered for a share when the folder's own name cannot be used.
+folders-sharing-default-name = Compartilhada
+
+# Red words when Samba says only the person's own folders can be shared.
+folders-sharing-only-yours-short = Só pastas que pertencem a você podem ser compartilhadas.
+
+# Red words when a share's name is someone's login on this computer.
+folders-sharing-name-is-login = Esse nome é o login de alguém neste computador, então um compartilhamento não pode tê-lo. Escolha outro.
+
+# Red words when this computer's Samba settings do not allow shares without a password.
+folders-sharing-no-guests-allowed = As configurações do Samba deste computador não permitem compartilhamentos sem senha.
+
+# Red words when the most folders Samba allows are already shared.
+folders-sharing-too-many = Este computador já compartilha o máximo de pastas que permite.
+
+# Red words when the folder to share has gone.
+folders-sharing-folder-gone = Essa pasta não está mais lá.
+
+# Red words when Samba failed without saying why.
+folders-sharing-samba-silent = O Samba não disse por quê.
+
+# Red words repeating what Samba said when it failed; Samba's last line.
+folders-sharing-samba-said = O Samba disse: { $said }
+
+# Red words when a folder that must be opened to guests belongs to someone else; its path.
+folders-sharing-guests-not-yours = { $path } pertence a outra pessoa, então não pode ser aberta a convidados daqui.
+
+# Red words when a folder's permissions could not be changed to let guests in; its path, then why.
+folders-sharing-guests-not-changed = { $path } não pôde ser alterada: { $why }
+
+# Red words when setting up sharing cannot fetch Samba because the computer is offline.
+folders-sharing-setup-offline = Não foi possível baixar o Samba: este computador parece estar sem internet. Conecte-se à internet e tente de novo.
+
+# Red words when setting up sharing cannot go on because another install is running.
+folders-sharing-setup-busy = O Samba não pôde ser instalado enquanto outra coisa está sendo instalada. Tente de novo em alguns minutos.
+

@@ -51,3 +51,7 @@ folders-remote-mtp-rename-storage = Einen Speicher umzubenennen
 
 # Words shown when the phone is plugged in but shows no storage.
 folders-remote-mtp-no-storage = Das Telefon zeigt keinen Speicher an. Entsperre es, wähle Dateiübertragung und versuche es dann erneut.
+
+# Name shown for a phone's storage that has no name of its own.
+folders-remote-mtp-storage-name = Speicher
+

@@ -403,3 +403,13 @@ admin-system-needs-btrfs = Нужна Btrfs.
 # Red words in Settings when a restore swapped the systems but could not finish tidying up. { $why } is the reason.
 admin-restore-finish-later = Снимок установлен на место, и компьютер запустится с него. Убрать старую систему не удалось, это будет повторено при следующем запуске: { $why }
 
+
+# Red words in Settings when too many ports are open already. { $most } is a number.
+admin-ports-too-many = Можно открыть не более { $most } портов.
+
+# Red words in Settings when the list of open ports could not be kept. { $why } is the system's reason.
+admin-ports-not-kept = Не удалось сохранить список открытых портов: { $why }.
+
+# Red words in Settings when the firewall could not be switched off. { $why } is the system's reason.
+admin-firewall-still-on = Брандмауэр всё ещё включён: { $why }
+

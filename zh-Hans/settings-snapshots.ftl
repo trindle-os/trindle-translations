@@ -242,7 +242,6 @@ settings-snap-before = 还原之前
 settings-snap-before-about = 从快照启动时，现在所做的任何操作都不会保留：如果系统就应该是这个样子，请在列表中对它按“还原”，然后重启。在这台电脑上，主目录可能属于系统的一部分，这时还原快照也会把你自己的文件恢复到当时的样子，所以请先把新的内容复制到安全的地方。
 
 
-
 # Name of the switch that keeps the system's own files read-only.
 settings-snap-locked = 系统文件已锁定
 

@@ -106,9 +106,6 @@ folders-far-connect-key = Berkas kunci, jika Anda memilih satu
 # Tip of the button beside the key file box that opens the file chooser, and title of that chooser.
 folders-far-connect-pick-key = Pilih berkas kunci
 
-# Button of the key file chooser that accepts the chosen file.
-folders-far-connect-choose = Pilih
-
 # Note on the Connect to a server card saying where the connection settings come from.
 folders-far-connect-ssh-setup = Pengaturan ssh Anda sendiri dipakai: konfigurasi, agen, kunci, dan server yang dikenal.
 

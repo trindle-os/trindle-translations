@@ -307,3 +307,54 @@ settings-network-kept-anyway = { $words } ومع ذلك حُفظت: انسَها
 # Said in red when a network would not disconnect.
 settings-network-disconnect-failed = رفضت قطع الاتصال.
 
+# Heading of the card that lists the ports opened by hand.
+settings-network-ports = المنافذ المفتوحة
+
+# Help text (i button) of the Open ports card.
+settings-network-ports-about = كل منفذ مغلق ما لم يطلب هذا الحاسوب ذلك أولًا، لذلك لا يمكن الوصول إلى برنامج ينتظر اتصال الآخرين، مثل خادم الألعاب أو أداة المزامنة، حتى يُفتح منفذه هنا. المنفذ المفتوح هنا يُدخل الحواسيب على شبكة بيتك فقط، ولا يُدخل الإنترنت الأوسع أبدًا. فتح منفذ أو إغلاقه يطلب كلمة مرور المسؤول.
+
+# Line in the Open ports card when no port is open.
+settings-network-ports-none = لا منافذ مفتوحة
+
+# Small line under it.
+settings-network-ports-none-sub = كل منفذ مغلق أمام الحواسيب الأخرى.
+
+# Small line under an open port, such as TCP 37666.
+settings-network-port-sub = مفتوح لشبكة بيتك.
+
+# Tooltip of the button that closes an open port. { $port } is like TCP 37666.
+settings-network-port-close = إغلاق { $port }
+
+# Heading of the line that opens a port.
+settings-network-port-add = فتح منفذ
+
+# Small line under it.
+settings-network-port-add-sub = لبرنامج يتصل به الآخرون.
+
+# Placeholder in the box where the port number is typed.
+settings-network-port-number = رقم المنفذ
+
+# Tooltip of the choice of TCP, UDP or both.
+settings-network-port-protocol = البروتوكول
+
+# Choice: the TCP protocol only. Usually left as TCP.
+settings-network-port-tcp = TCP
+
+# Choice: the UDP protocol only. Usually left as UDP.
+settings-network-port-udp = UDP
+
+# Choice: both TCP and UDP.
+settings-network-port-both = الاثنان
+
+# Button that opens the typed port.
+settings-network-port-open = فتح
+
+# Red words when what was typed is not a port number.
+settings-network-port-not-a-port = اكتب رقمًا من 1 إلى 65535.
+
+# Red words when the port is already open.
+settings-network-port-already = مفتوح بالفعل.
+
+# Said under the line once the port is open.
+settings-network-port-opened = فُتح
+
