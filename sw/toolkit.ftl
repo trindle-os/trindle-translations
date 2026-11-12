@@ -236,6 +236,19 @@ kit-month-10 = Oktoba
 kit-month-11 = Novemba
 
 kit-month-12 = Desemba
+# A month as it reads inside a whole date, such as "12 November 2026". Some languages change the ending there, so it has its own key.
+kit-month-in-date-1 = Januari
+kit-month-in-date-2 = Februari
+kit-month-in-date-3 = Machi
+kit-month-in-date-4 = Aprili
+kit-month-in-date-5 = Mei
+kit-month-in-date-6 = Juni
+kit-month-in-date-7 = Julai
+kit-month-in-date-8 = Agosti
+kit-month-in-date-9 = Septemba
+kit-month-in-date-10 = Oktoba
+kit-month-in-date-11 = Novemba
+kit-month-in-date-12 = Desemba
 
 kit-weekday-1 = Jtatu
 

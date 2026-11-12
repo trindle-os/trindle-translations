@@ -231,6 +231,19 @@ kit-month-10 = октябрь
 kit-month-11 = ноябрь
 
 kit-month-12 = декабрь
+# A month as it reads inside a whole date, such as "12 November 2026". Some languages change the ending there, so it has its own key.
+kit-month-in-date-1 = января
+kit-month-in-date-2 = февраля
+kit-month-in-date-3 = марта
+kit-month-in-date-4 = апреля
+kit-month-in-date-5 = мая
+kit-month-in-date-6 = июня
+kit-month-in-date-7 = июля
+kit-month-in-date-8 = августа
+kit-month-in-date-9 = сентября
+kit-month-in-date-10 = октября
+kit-month-in-date-11 = ноября
+kit-month-in-date-12 = декабря
 
 kit-weekday-1 = пн
 

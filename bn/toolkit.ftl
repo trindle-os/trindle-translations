@@ -236,6 +236,19 @@ kit-month-10 = অক্টোবর
 kit-month-11 = নভেম্বর
 
 kit-month-12 = ডিসেম্বর
+# A month as it reads inside a whole date, such as "12 November 2026". Some languages change the ending there, so it has its own key.
+kit-month-in-date-1 = জানুয়ারি
+kit-month-in-date-2 = ফেব্রুয়ারি
+kit-month-in-date-3 = মার্চ
+kit-month-in-date-4 = এপ্রিল
+kit-month-in-date-5 = মে
+kit-month-in-date-6 = জুন
+kit-month-in-date-7 = জুলাই
+kit-month-in-date-8 = আগস্ট
+kit-month-in-date-9 = সেপ্টেম্বর
+kit-month-in-date-10 = অক্টোবর
+kit-month-in-date-11 = নভেম্বর
+kit-month-in-date-12 = ডিসেম্বর
 
 kit-weekday-1 = সোম
 

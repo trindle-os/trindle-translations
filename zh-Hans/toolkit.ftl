@@ -223,6 +223,19 @@ kit-month-10 = 10月
 kit-month-11 = 11月
 
 kit-month-12 = 12月
+# A month as it reads inside a whole date, such as "12 November 2026". Some languages change the ending there, so it has its own key.
+kit-month-in-date-1 = 1月
+kit-month-in-date-2 = 2月
+kit-month-in-date-3 = 3月
+kit-month-in-date-4 = 4月
+kit-month-in-date-5 = 5月
+kit-month-in-date-6 = 6月
+kit-month-in-date-7 = 7月
+kit-month-in-date-8 = 8月
+kit-month-in-date-9 = 9月
+kit-month-in-date-10 = 10月
+kit-month-in-date-11 = 11月
+kit-month-in-date-12 = 12月
 
 kit-weekday-1 = 周一
 

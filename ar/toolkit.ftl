@@ -231,6 +231,19 @@ kit-month-10 = أكتوبر
 kit-month-11 = نوفمبر
 
 kit-month-12 = ديسمبر
+# A month as it reads inside a whole date, such as "12 November 2026". Some languages change the ending there, so it has its own key.
+kit-month-in-date-1 = يناير
+kit-month-in-date-2 = فبراير
+kit-month-in-date-3 = مارس
+kit-month-in-date-4 = أبريل
+kit-month-in-date-5 = مايو
+kit-month-in-date-6 = يونيو
+kit-month-in-date-7 = يوليو
+kit-month-in-date-8 = أغسطس
+kit-month-in-date-9 = سبتمبر
+kit-month-in-date-10 = أكتوبر
+kit-month-in-date-11 = نوفمبر
+kit-month-in-date-12 = ديسمبر
 
 kit-weekday-1 = اثنين
 

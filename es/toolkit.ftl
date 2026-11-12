@@ -225,6 +225,19 @@ kit-month-10 = octubre
 kit-month-11 = noviembre
 
 kit-month-12 = diciembre
+# A month as it reads inside a whole date, such as "12 November 2026". Some languages change the ending there, so it has its own key.
+kit-month-in-date-1 = enero
+kit-month-in-date-2 = febrero
+kit-month-in-date-3 = marzo
+kit-month-in-date-4 = abril
+kit-month-in-date-5 = mayo
+kit-month-in-date-6 = junio
+kit-month-in-date-7 = julio
+kit-month-in-date-8 = agosto
+kit-month-in-date-9 = septiembre
+kit-month-in-date-10 = octubre
+kit-month-in-date-11 = noviembre
+kit-month-in-date-12 = diciembre
 
 kit-weekday-1 = lun
 

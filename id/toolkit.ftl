@@ -226,6 +226,19 @@ kit-month-10 = Oktober
 kit-month-11 = November
 
 kit-month-12 = Desember
+# A month as it reads inside a whole date, such as "12 November 2026". Some languages change the ending there, so it has its own key.
+kit-month-in-date-1 = Januari
+kit-month-in-date-2 = Februari
+kit-month-in-date-3 = Maret
+kit-month-in-date-4 = April
+kit-month-in-date-5 = Mei
+kit-month-in-date-6 = Juni
+kit-month-in-date-7 = Juli
+kit-month-in-date-8 = Agustus
+kit-month-in-date-9 = September
+kit-month-in-date-10 = Oktober
+kit-month-in-date-11 = November
+kit-month-in-date-12 = Desember
 
 kit-weekday-1 = Sen
 

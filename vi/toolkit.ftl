@@ -224,6 +224,19 @@ kit-month-10 = Tháng 10
 kit-month-11 = Tháng 11
 
 kit-month-12 = Tháng 12
+# A month as it reads inside a whole date, such as "12 November 2026". Some languages change the ending there, so it has its own key.
+kit-month-in-date-1 = Tháng 1
+kit-month-in-date-2 = Tháng 2
+kit-month-in-date-3 = Tháng 3
+kit-month-in-date-4 = Tháng 4
+kit-month-in-date-5 = Tháng 5
+kit-month-in-date-6 = Tháng 6
+kit-month-in-date-7 = Tháng 7
+kit-month-in-date-8 = Tháng 8
+kit-month-in-date-9 = Tháng 9
+kit-month-in-date-10 = Tháng 10
+kit-month-in-date-11 = Tháng 11
+kit-month-in-date-12 = Tháng 12
 
 kit-weekday-1 = T2
 

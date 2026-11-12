@@ -225,6 +225,19 @@ kit-month-10 = अक्टूबर
 kit-month-11 = नवंबर
 
 kit-month-12 = दिसंबर
+# A month as it reads inside a whole date, such as "12 November 2026". Some languages change the ending there, so it has its own key.
+kit-month-in-date-1 = जनवरी
+kit-month-in-date-2 = फ़रवरी
+kit-month-in-date-3 = मार्च
+kit-month-in-date-4 = अप्रैल
+kit-month-in-date-5 = मई
+kit-month-in-date-6 = जून
+kit-month-in-date-7 = जुलाई
+kit-month-in-date-8 = अगस्त
+kit-month-in-date-9 = सितंबर
+kit-month-in-date-10 = अक्टूबर
+kit-month-in-date-11 = नवंबर
+kit-month-in-date-12 = दिसंबर
 
 kit-weekday-1 = सोम
 

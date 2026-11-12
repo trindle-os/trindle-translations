@@ -237,6 +237,19 @@ kit-month-10 = octobre
 kit-month-11 = novembre
 
 kit-month-12 = décembre
+# A month as it reads inside a whole date, such as "12 November 2026". Some languages change the ending there, so it has its own key.
+kit-month-in-date-1 = janvier
+kit-month-in-date-2 = février
+kit-month-in-date-3 = mars
+kit-month-in-date-4 = avril
+kit-month-in-date-5 = mai
+kit-month-in-date-6 = juin
+kit-month-in-date-7 = juillet
+kit-month-in-date-8 = août
+kit-month-in-date-9 = septembre
+kit-month-in-date-10 = octobre
+kit-month-in-date-11 = novembre
+kit-month-in-date-12 = décembre
 
 kit-weekday-1 = lun
 

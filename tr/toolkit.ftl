@@ -237,6 +237,19 @@ kit-month-10 = Ekim
 kit-month-11 = Kasım
 
 kit-month-12 = Aralık
+# A month as it reads inside a whole date, such as "12 November 2026". Some languages change the ending there, so it has its own key.
+kit-month-in-date-1 = Ocak
+kit-month-in-date-2 = Şubat
+kit-month-in-date-3 = Mart
+kit-month-in-date-4 = Nisan
+kit-month-in-date-5 = Mayıs
+kit-month-in-date-6 = Haziran
+kit-month-in-date-7 = Temmuz
+kit-month-in-date-8 = Ağustos
+kit-month-in-date-9 = Eylül
+kit-month-in-date-10 = Ekim
+kit-month-in-date-11 = Kasım
+kit-month-in-date-12 = Aralık
 
 kit-weekday-1 = Pzt
 
