@@ -3,19 +3,19 @@
 
 
 # What the box at the top of the command palette is called; the screen reader says it and it shows while the box is empty.
-kit-palette-search = Tippen, um eine Aktion zu finden
+kit-palette-search = Aktionen suchen
 
 # What the palette's list of matching actions is called; the screen reader says it.
 kit-palette-list = Passende Aktionen
 
 # Shown under the palette's box when no action matches what was typed.
-kit-palette-none = Keine Aktion passt.
+kit-palette-none = Keine passenden Aktionen.
 
 # Red words under a phone number box when what was typed cannot be a phone number.
 kit-check-phone = Gib eine Telefonnummer mit 7 bis 15 Ziffern ein.
 
 # Red words under a date box when what was typed is not a real date.
-kit-check-date = Gib ein echtes Datum als Jahr-Monat-Tag ein, etwa 2026-10-30.
+kit-check-date = Gib ein Datum als Jahr-Monat-Tag ein, etwa 2026-10-30.
 
 # Red words under a colour box when what was typed is not a colour code.
 kit-check-hex = Gib einen Farbcode ein, etwa #fbc711.
@@ -66,9 +66,9 @@ kit-dock-grip = An einen anderen Rand ziehen
 kit-form-number = Gib eine Zahl ein, etwa 12 oder 3,5.
 
 # The sentence under a file chooser page's title, by what it is for.
-kit-files-open-lead = Wähle die Datei zum Öffnen.
+kit-files-open-lead = Wähle eine Datei zum Öffnen.
 
-kit-files-save-lead = Wähle einen Ordner und gib den Namen zum Speichern ein.
+kit-files-save-lead = Wähle einen Ordner und gib dann einen Namen für die Datei ein.
 
 kit-files-folder-lead = Wähle einen Ordner oder bleibe im aktuellen.
 
@@ -98,15 +98,15 @@ kit-files-name = Dateiname
 kit-files-empty = Dieser Ordner ist leer.
 
 # Red words when the folder cannot be read.
-kit-filepage-unreadable = Dieser Ordner konnte nicht gelesen werden. Wähle einen anderen.
+kit-filepage-unreadable = Trindle konnte diesen Ordner nicht öffnen. Wähle einen anderen.
 
 # Red words after Open with no file chosen.
 kit-files-choose-first = Wähle zuerst eine Datei.
 
 # Red words after Save with no name, or a name that cannot be a file's.
-kit-files-name-needed = Gib einen Namen für die Datei ein, ohne Schrägstrich.
+kit-files-name-needed = Gib einen Namen für die Datei ein. Er darf keinen Schrägstrich enthalten.
 
-kit-fonts-lead = Wähle eine Schrift und ihre Größe.
+kit-fonts-lead = Wähle eine Schrift und eine Größe.
 
 # The box that finds fonts by name.
 kit-fonts-search = Schrift nach Namen suchen

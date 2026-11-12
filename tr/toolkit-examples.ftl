@@ -2,10 +2,10 @@
 # machine translated (Turkish), not yet reviewed by a person.
 
 # Standard error, when no Wayland desktop answers.
-kit-run-no-desktop = Pencere açılacak bir Wayland masaüstü yok
+kit-run-no-desktop = Hiçbir Wayland masaüstü yanıt vermedi, bu yüzden pencere açılamıyor
 
 # Standard error, when the desktop would not open the window.
-kit-run-no-window = Masaüstü pencere açmadı
+kit-run-no-window = Masaüstü pencere açamadı.
 
 # The hello example: the window's title, its button and what it says about the presses.
 kit-example-hello-title = Merhaba
@@ -81,7 +81,7 @@ kit-example-gallery-progress = İlerleme
 
 
 # The gallery's number box: the card's heading, and the name of the box.
-kit-example-gallery-copies = Sayı kutusu
+kit-example-gallery-copies = Sayı alanı
 
 kit-example-gallery-copies-name = Kopya
 
@@ -100,37 +100,37 @@ kit-example-gallery-span-now = { $low } ile { $high } arası
 # The gallery's dialog card: its heading, how it behaves, the button that opens the page, and the page's title, message and main answer.
 kit-example-gallery-dialog = Diyalog sayfası
 
-kit-example-gallery-dialog-how = Bir soru tüm pencereyi kaplar, asla açılır pencere olmaz. Klavye İptal üzerinde başlar ve Escape iptal eder.
+kit-example-gallery-dialog-how = Sorular açılır pencere yerine tüm pencereyi kaplar. Önce İptal seçilidir ve Esc iptal eder.
 
 kit-example-gallery-dialog-open = Sayıyı sıfırla
 
 kit-example-gallery-ask-title = Sayı sıfırlansın mı?
 
-kit-example-gallery-ask-message = Basış sayısı sıfıra döner.
+kit-example-gallery-ask-message = Bu işlem, basılma sayısını sıfırlar.
 
 kit-example-gallery-ask-yes = Sıfırla
 
 # The gallery's sideways card: the heading, how to move it, and the words on each of twelve buttons in the strip.
-kit-example-gallery-along = Yan şerit
+kit-example-gallery-along = Yatay şerit
 
-kit-example-gallery-along-how = Kaydırın, tekerlekle Shift'i, Sol ve Sağ tuşlarını kullanın ya da görünmeyen bir düğmeye Tab ile gidin.
+kit-example-gallery-along-how = Kaydırın, Shift tuşunu basılı tutup fare tekerleğini çevirin ya da Sol ve Sağ ok tuşlarını kullanın. Görünmeyen bir düğmeye ulaşmak için Tab'a basın.
 
 kit-example-gallery-along-item = Öğe { $n }
 
 kit-example-gallery-split = Bölme
 
-kit-example-gallery-split-first = Ayırıcıyı sürükleyin ya da odaklanıp ok tuşlarını kullanın.
+kit-example-gallery-split-first = Ayırıcıyı sürükleyin ya da seçip ok tuşlarını kullanın.
 
-kit-example-gallery-split-second = Home ve End onu iki uçtan birine götürür.
+kit-example-gallery-split-second = Ayırıcıyı iki uçtan birine götürmek için Home ya da End'e basın.
 
 kit-example-gallery-menu = Bağlam menüsü
 
-kit-example-gallery-menu-how = Burada sağ tıklayın, parmağınızı basılı tutun ya da Menü tuşuna basın; bir satırı yakmak için bir harf yazın.
+kit-example-gallery-menu-how = Burada sağ tıklayın, basılı tutun ya da Menü tuşuna basın. Bir satırı vurgulamak için bir harf yazın.
 
 # The context menu example: the window's title, what it says to do, the card's words, its menu's rows, and what shows once it is removed.
 kit-example-context-title = Bağlam menüsü
 
-kit-example-context-how = Karta sağ tıklayın, üzerinde parmağınızı basılı tutun ya da Menü tuşuna basın
+kit-example-context-how = Karta sağ tıklayın, kartı basılı tutun ya da Menü tuşuna basın
 
 kit-example-context-note = Alışveriş listesi
 
@@ -160,7 +160,7 @@ kit-example-bench-rows = On bin satır
 # The menu bar example: the window's title, what it says to do, the menus' titles and rows, and what shows once a row is chosen.
 kit-example-bar-title = Menü çubuğu
 
-kit-example-bar-how = Bir başlığa basın ya da Tab ile çubuğa gelip ok tuşlarını, Return'ü ve Escape'i kullanın. Alt ile bir başlığın işaretli harfi onu açar, bir harf yazmak o harfle başlayan sonraki satırı yakar.
+kit-example-bar-how = Bir menü adına tıklayın ya da Tab ile menü çubuğuna gelip ok tuşlarını, Enter'ı ve Esc'i kullanın. Alt ile bir menünün işaretli harfi onu açar. O harfle başlayan sonraki satırı vurgulamak için bir harf yazın.
 
 kit-example-bar-file = &Dosya
 
@@ -187,7 +187,7 @@ kit-example-bar-chose = { $what } seçtiniz
 # The gallery's column view card: its heading, how it behaves, its name for a screen reader, the two column headings, and the names of the folders and files in it.
 kit-example-gallery-columns = Sütun görünümü
 
-kit-example-gallery-columns-how = Satırlar bir üst öğenin altında açılır. Oka basın, çift tıklayın ya da Sağ, Sol ve Enter'ı kullanın. Ctrl ve Shift birkaç satır seçer, altlarındaki boşluktan sürüklenen bir bant da değdiklerini seçer.
+kit-example-gallery-columns-how = Bir klasörü açmak için oka tıklayın ya da klasöre çift tıklayın; veya Sağ, Sol ve Enter tuşlarını kullanın. Birkaç satır seçmek için Ctrl ya da Shift tuşunu basılı tutun veya satırların üzerinden sürükleyin.
 
 kit-example-gallery-columns-name = Dosyalar
 

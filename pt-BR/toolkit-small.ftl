@@ -46,7 +46,7 @@ kit-more-people =
 # The gradient editor. The bar's name has $n, how many stops the gradient has.
 kit-gradient-bar = Gradiente com { $n } pontos
 
-kit-gradient-place = Posição do ponto escolhido
+kit-gradient-place = Posição do ponto selecionado
 
 kit-gradient-add = Adicionar um ponto
 

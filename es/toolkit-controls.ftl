@@ -3,22 +3,22 @@
 
 
 # What the box at the top of the command palette is called; the screen reader says it and it shows while the box is empty.
-kit-palette-search = Escribe para buscar una acción
+kit-palette-search = Buscar acciones
 
 # What the palette's list of matching actions is called; the screen reader says it.
 kit-palette-list = Acciones coincidentes
 
 # Shown under the palette's box when no action matches what was typed.
-kit-palette-none = Ninguna acción coincide.
+kit-palette-none = No hay acciones que coincidan.
 
 # Red words under a phone number box when what was typed cannot be a phone number.
-kit-check-phone = Escribe un número de teléfono de 7 a 15 cifras.
+kit-check-phone = Escribe un número de teléfono de 7 a 15 dígitos.
 
 # Red words under a date box when what was typed is not a real date.
-kit-check-date = Escribe una fecha real como año-mes-día, por ejemplo 2026-10-30.
+kit-check-date = Escribe una fecha como año-mes-día, por ejemplo 2026-10-30.
 
 # Red words under a colour box when what was typed is not a colour code.
-kit-check-hex = Escribe un código de color como #fbc711.
+kit-check-hex = Escribe un código de color, como #fbc711.
 
 # Tip of the button beside a volume slider that silences the sound.
 kit-volume-mute = Silenciar
@@ -66,11 +66,11 @@ kit-dock-grip = Arrastrar a otro borde
 kit-form-number = Escribe un número, como 12 o 3,5.
 
 # The sentence under a file chooser page's title, by what it is for.
-kit-files-open-lead = Elige el archivo que quieres abrir.
+kit-files-open-lead = Elige un archivo para abrir.
 
-kit-files-save-lead = Elige una carpeta y escribe el nombre con el que guardar.
+kit-files-save-lead = Elige una carpeta y escribe un nombre para el archivo.
 
-kit-files-folder-lead = Elige una carpeta, o conserva en la que estás.
+kit-files-folder-lead = Elige una carpeta, o quédate en la que estás.
 
 # The main answer at the foot of a file chooser page.
 kit-files-open = Abrir
@@ -98,15 +98,15 @@ kit-files-name = Nombre del archivo
 kit-files-empty = Esta carpeta está vacía.
 
 # Red words when the folder cannot be read.
-kit-filepage-unreadable = No se pudo leer esta carpeta. Elige otra.
+kit-filepage-unreadable = Trindle no pudo abrir esta carpeta. Elige otra.
 
 # Red words after Open with no file chosen.
 kit-files-choose-first = Elige primero un archivo.
 
 # Red words after Save with no name, or a name that cannot be a file's.
-kit-files-name-needed = Escribe un nombre para el archivo, sin barra.
+kit-files-name-needed = Escribe un nombre para el archivo. No puede contener una barra.
 
-kit-fonts-lead = Elige una fuente y su tamaño.
+kit-fonts-lead = Elige una fuente y un tamaño.
 
 # The box that finds fonts by name.
 kit-fonts-search = Buscar una fuente por nombre

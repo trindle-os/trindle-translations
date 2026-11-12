@@ -2,10 +2,10 @@
 
 
 # The style sheet checker: a number written past the limits Trindle's sheet gives it. $line is the line in the file, $name the setting.
-kit-sheet-out-of-range = سطر { $line }: --{ $name } کی قدر { $value } ہے، جو اس کی حدوں { $min } سے { $max } سے باہر ہے۔
+kit-sheet-out-of-range = سطر { $line }: --{ $name } کی قدر { $value } ہے۔ یہ { $min } اور { $max } کے درمیان ہونی چاہیے۔
 
 # The style sheet checker: a colour the sheet sets cannot be told from what it is drawn on. $look is dark or light, $ink the setting, $on what it is drawn on, $stands and $floor contrast ratios.
-kit-sheet-short = { $look } منظر میں، { $on } پر --{ $ink } کا تناسب ایک کے مقابلے میں { $stands } ہے، جو مطلوبہ { $floor } سے کم ہے۔
+kit-sheet-short = { $look } ظاہری شکل میں، { $on } پر --{ $ink } کا کنٹراسٹ { $stands } بمقابلہ 1 ہے۔ کم از کم { $floor } بمقابلہ 1 ضروری ہے۔
 
 # The two looks, as named in the line above.
 kit-sheet-dark = گہرا
@@ -29,31 +29,31 @@ kit-inspect-size = { $w } ضرب { $h } پکسل، مقام { $x }، { $y }
 # The inspector: the widget's state, $state being the words below joined by commas.
 kit-inspect-state = حالت: { $state }
 
-kit-inspect-keyboard = اس پر کی بورڈ ہے
+kit-inspect-keyboard = اس پر کی بورڈ فوکس ہے
 
-kit-inspect-pointer = اس پر پوائنٹر ہے
+kit-inspect-pointer = پوائنٹر اس کے اوپر ہے
 
 kit-inspect-pressed = دبا ہوا
 
-kit-inspect-takes-keys = کی بورڈ لیتا ہے
+kit-inspect-takes-keys = ٹائپنگ قبول کرتا ہے
 
 kit-inspect-off = استعمال نہیں ہو سکتا
 
-kit-inspect-rest = آرام کی حالت میں
+kit-inspect-rest = عام
 
 # The inspector: what a screen reader is told. $role is its kind, such as Button; $name its name.
 kit-inspect-reader = اسکرین ریڈر: { $role } "{ $name }"
 
-kit-inspect-unread = اسکرین ریڈر: اسے اس کے بارے میں کچھ نہیں بتایا گیا
+kit-inspect-unread = اسکرین ریڈر: کوئی وضاحت نہیں
 
 # The speed overlay, Ctrl+Shift+F11: how long the last frame took to paint.
-kit-speed-paint = پینٹ { $ms } ملی سیکنڈ
+kit-speed-paint = ڈرائنگ کا وقت: { $ms } ملی سیکنڈ
 
 # The speed overlay: memory the program holds, in megabytes.
 kit-speed-memory = میموری { $mb } MB
 
 # The speed overlay: how much of the window the last frame painted again.
-kit-speed-damage = دوبارہ پینٹ ہوا: ونڈو کا { $share } فیصد
+kit-speed-damage = دوبارہ بنایا گیا: ونڈو کا { $share } فیصد
 
 # The speed overlay: what drew the last frame.
 kit-speed-gpu = گرافکس کارڈ نے بنایا
@@ -66,7 +66,7 @@ kit-new-usage =
     ایک فولڈر <name> بناتا ہے جس میں ایک ونڈو والا پروگرام، ایک اسٹائل شیٹ، ایک زبان کی فائل اور ایک ٹیسٹ ہوتا ہے۔ --toolkit کے ساتھ، وہ اس راستے پر موجود ٹول کٹ استعمال کرتا ہے۔
 
 # trindle-new: the name given cannot be a program's name. $name is what was given.
-kit-new-bad-name = { $name } پروگرام کا نام نہیں ہو سکتا: چھوٹے حروف، اعداد اور ہائفن استعمال کریں، اور حرف سے شروع کریں۔
+kit-new-bad-name = { $name } پروگرام کا نام نہیں ہو سکتا۔ چھوٹے حروف، اعداد اور ہائفن استعمال کریں، اور حرف سے شروع کریں۔
 
 # trindle-new: a file or folder of that name is already there.
 kit-new-exists = { $name } پہلے سے موجود ہے، اس لیے کچھ نہیں لکھا گیا۔
@@ -78,7 +78,7 @@ kit-new-no-toolkit = { $path } پر کوئی ٹول کٹ نہیں ملی۔
 kit-new-unwritten = { $path } لکھا نہیں جا سکا۔
 
 # trindle-new: the program was made. $name is its folder.
-kit-new-made = { $name } بن گیا۔ اسے cargo run سے چلائیں، اور cargo test سے جانچیں۔
+kit-new-made = { $name } بنا دیا گیا۔ اسے cargo run سے چلائیں اور cargo test سے جانچیں۔
 
 # trindle-lang-check, which lists the words a language still lacks: its help.
 kit-lang-check-usage =
@@ -95,7 +95,7 @@ kit-showcase-words = سادہ الفاظ
 
 kit-showcase-heading = ایک عنوان
 
-kit-showcase-note = کسی چیز کے نیچے ایک ہلکی سطر
+kit-showcase-note = ثانوی متن
 
 kit-showcase-add = شامل کریں
 

@@ -5,7 +5,7 @@
 kit-chart-part = भाग { $n }
 
 # A chart with no values. $name is what the chart shows.
-kit-chart-empty = { $name }: बिना मानों का चार्ट।
+kit-chart-empty = { $name }: इस चार्ट में कोई मान नहीं है।
 
 # A line chart. $name is what it shows, $n how many values; the rest are figures.
 kit-chart-line =

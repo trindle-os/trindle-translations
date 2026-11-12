@@ -84,7 +84,7 @@ kit-click-again = Tekrar tıklayın: { $action }
 # SAFETY: needs a human review before it ships
 kit-click-again-bare = Tekrar tıklayın
 
-kit-job-wait = İşin bitmesini bekleyin.
+kit-job-wait = Görevin bitmesini bekleyin.
 
 # The last line of a label on pointing that is cut short, when what is left is the rest of one line.
 kit-more = + daha fazla
@@ -97,61 +97,61 @@ kit-more-lines =
     }
 
 # Said under whatever was dropped on, when nothing came of it.
-kit-dropped-empty = Bırakılandan bir sonuç çıkmadı.
+kit-dropped-empty = Trindle bıraktığınız öğelerle bir şey yapamadı.
 
 # Said when what was dropped is too big to take by dropping.
-kit-dropped-too-big = Bırakılan öğe bu yolla alınamayacak kadar büyük.
+kit-dropped-too-big = Bıraktığınız öğe sürükleyip almak için çok büyük.
 
 # Said when what was dropped took too long to arrive.
-kit-dropped-too-slow = Bırakılan öğenin gelmesi çok uzun sürdü, bu yüzden bırakıldı.
+kit-dropped-too-slow = Bıraktığınız öğenin gelmesi çok uzun sürdü, bu yüzden Trindle beklemeyi bıraktı.
 
 # Said when too many things were dropped at once.
-kit-dropped-too-many = Bir seferde çok fazla öğe bırakıldı. Her seferinde daha azını bırakın.
+kit-dropped-too-many = Bir seferde çok fazla öğe bıraktınız. Her seferinde daha azını bırakın.
 
 # Said when what was dropped was a list of files that are not on this computer.
-kit-dropped-not-files = Bırakılan, bu bilgisayardaki dosyaların bir listesi değil.
+kit-dropped-not-files = Bıraktığınız öğeler bu bilgisayardaki dosyalar değil.
 
 # Label of a link button whose address is not a web address.
 kit-link-not-web = Web adresi değil
 
 # Label of a link button whose address opens a mail program.
-kit-link-mailto = Bir mailto adresini açar
+kit-link-mailto = E-posta adresi
 
 # Label of a link button whose address opens a file.
-kit-link-file = Bir dosyayı açar
+kit-link-file = Bu bilgisayardaki dosya
 
 # Read out by the screen reader for a link button. $label is the shown address.
 kit-link-to = { $label } bağlantısı
 
 # Said under whatever asked for a file or folder, when the window for choosing did not answer.
-kit-chooser-no-answer = Seçme penceresi yanıt vermedi. Yeniden deneyin.
+kit-chooser-no-answer = Seçim penceresi yanıt vermedi. Yeniden deneyin.
 
 # Starts a fault found in a theme file the person is trying. $line is the line number in the file, $why what is wrong.
 kit-theme-line = { $line }. satır: { $why }
 
 # Fault in a theme file the person is trying: it is bigger than 64 KB.
-kit-theme-too-big = Dosya tema olamayacak kadar büyük. Bir tema en fazla 64 KB olabilir.
+kit-theme-too-big = Bu tema dosyası çok büyük. En büyük boyut 64 KB.
 
 # Fault in a theme file the person is trying: it holds unreadable characters.
-kit-theme-not-sheet = Dosya bir stil sayfası değil: sözcüklerden fazlasını içeriyor.
+kit-theme-not-sheet = Bu dosya bir stil sayfası değil. Düz metinden fazlasını içeriyor.
 
 # Fault in a theme file the person is trying: it brings in another file.
-kit-theme-imports = bir tema başka bir dosyayı ya da web adresini içe alamaz.
+kit-theme-imports = bir tema başka bir dosyayı ya da web adresini içe aktaramaz.
 
 # Fault in a theme file the person is trying: a value is too long. $name is the setting's name.
-kit-theme-too-long = --{ $name } değer olamayacak kadar uzun.
+kit-theme-too-long = --{ $name } değeri çok uzun.
 
 # Fault in a theme file the person is trying: a setting that should be a colour is not one Trindle can read. $name is the setting's name.
-kit-theme-not-colour = --{ $name } Trindle'ın okuyabileceği bir renk değil.
+kit-theme-not-colour = Trindle --{ $name } değerini renk olarak okuyamıyor.
 
 # Fault in a theme file the person is trying: a setting that should be a number is not one Trindle can read.
-kit-theme-not-number = --{ $name } Trindle'ın okuyabileceği bir sayı değil.
+kit-theme-not-number = Trindle --{ $name } değerini sayı olarak okuyamıyor.
 
 # Fault in a theme file the person is trying: a setting that should be a shadow is not one Trindle can read.
-kit-theme-not-shadow = --{ $name } Trindle'ın okuyabileceği bir gölge değil.
+kit-theme-not-shadow = Trindle --{ $name } değerini gölge olarak okuyamıyor.
 
 # Fault in a theme file the person is trying: nothing in it is a setting Trindle knows.
-kit-theme-nothing-known = Dosyadaki hiçbir şey Trindle'ın bildiği bir değer değil, bu yüzden hiçbir şeyi değiştirmez.
+kit-theme-nothing-known = Trindle bu dosyadaki hiçbir ayarı tanımıyor, bu yüzden hiçbir şey değişmez.
 
 # The name a screen reader gives a ring that shows how far a job has got.
 kit-progress = İlerleme
@@ -273,13 +273,13 @@ kit-key-shift = Shift
 
 kit-key-alt = Alt
 
-kit-key-logo = Logo
+kit-key-logo = Super
 
 # Said in a window of Trindle's own when something tried to press a button that only the person may press.
-kit-only-your-own = Burada yalnızca kendi basışınız işe yarar.
+kit-only-your-own = Bu düğmeye yalnızca siz basabilirsiniz.
 
 # Said in a window when keys are pressed but the keyboard layout could not be read.
-kit-no-layout = Klavye düzeni okunamadı, bu yüzden yazmak bir şey yapmıyor.
+kit-no-layout = Trindle klavye düzenini okuyamadı, bu yüzden yazamazsınız.
 
 
 
@@ -290,13 +290,13 @@ kit-divider = Ayırıcı
 kit-click-again-small = evet
 
 # Read out by the screen reader for the control under something dragged, when letting go there would drop it in.
-kit-drop-target = Bırakma hedefi
+kit-drop-target = Bırakma alanı
 
 # Fault in a theme or style sheet: a setting that takes only named steps was given something else. $steps is the list of steps, $guide the file that explains them.
-kit-theme-not-step = --{ $name } şu adımlardan yalnızca birini alır: { $steps }. Başka her şey atlanır. Bkz. { $guide }.
+kit-theme-not-step = --{ $name } yalnızca şunlardan biri olabilir: { $steps }. Trindle başka değerleri yok sayar. Bkz. { $guide }.
 
 # Standard error, when the folder of the person's style sheet cannot be watched. $folder is the folder, $why the system's reason.
-kit-sheet-not-watched = { $folder } içindeki stil sayfasında yapılan değişiklikler yalnızca yeniden başlatmadan sonra görünür: { $why }
+kit-sheet-not-watched = { $folder } içindeki stil sayfasında yapılan değişiklikleri görmek için yeniden başlatın. { $why }
 
 # What a screen reader calls the row of menu titles across the top of a window.
 kit-menu-bar = Menü çubuğu
@@ -326,10 +326,10 @@ kit-range-low = alt uç
 kit-range-high = üst uç
 
 # The button that takes a step off a number box's number. $what is the box's name.
-kit-spin-less = Daha az { $what }
+kit-spin-less = Azalt: { $what }
 
 # The button that adds a step to a number box's number. $what is the box's name.
-kit-spin-more = Daha çok { $what }
+kit-spin-more = Artır: { $what }
 
 # Red words under a number box whose typing is not a number.
 kit-spin-not-number = { $min } ile { $max } arasında bir sayı yazın
@@ -340,15 +340,15 @@ kit-tab-count = { $title }, { $count }
 # The ready settings page for a program's own look (settings::look_page).
 kit-look-title = Görünüm
 
-kit-look-lead = Masaüstünün geri kalanı ne yaparsa yapsın bu programın nasıl göründüğü.
+kit-look-lead = Bu programın masaüstünün geri kalanından ayrı olarak nasıl görüneceğini seçin.
 
 kit-look-group = Görünüm
 
 kit-look-shade = Açık ya da koyu
 
-kit-look-shade-help = Masaüstünü izleyin ya da hep tek bir görünüm kullanın.
+kit-look-shade-help = Masaüstüyle aynı olsun ya da hep açık veya koyu kalsın.
 
-kit-look-desktop = Masaüstü gibi
+kit-look-desktop = Masaüstüyle aynı
 
 kit-look-dark = Koyu
 
@@ -356,10 +356,10 @@ kit-look-light = Açık
 
 kit-look-highlight = Vurgu rengi
 
-kit-look-highlight-help = Ana eylemin ve seçilenin rengi.
+kit-look-highlight-help = Ana düğmelerin ve seçili öğelerin rengi.
 
 # A button that gives the highlight back to the desktop's choice.
-kit-look-highlight-desktop = Masaüstününkini kullan
+kit-look-highlight-desktop = Masaüstüyle aynı
 
 # Over the column of week numbers in a date picker; keep it as short as the short weekday names.
 kit-date-week-short = Hf
@@ -386,7 +386,7 @@ kit-key-end = End
 
 kit-key-enter = Enter
 
-kit-key-escape = Escape
+kit-key-escape = Esc
 
 kit-key-tab = Tab
 
@@ -402,10 +402,10 @@ kit-key-insert = Insert
 kit-shortcuts = Klavye kısayolları
 
 # Under a shortcut on that page whose keys the window always takes first.
-kit-shortcut-kept-window = Pencere bu tuşu parçalar arasında gezinmek ve kapatmak için ayırır.
+kit-shortcut-kept-window = Bu tuş, denetimler arasında gezinmek ve pencereyi kapatmak için ayrılmıştır.
 
 # Under a shortcut on that page whose keys a text box takes first while you type.
-kit-shortcut-kept-typing = Siz yazarken bu tuşu önce metin kutusu alır.
+kit-shortcut-kept-typing = Yazarken bu tuş önce metin kutusuna gider.
 
 # The heading of the page of emoji to pick from.
 kit-emoji = Emoji
@@ -823,7 +823,7 @@ kit-player-time = { $at } / { $length }
 ## The page shown after a program crashed or met a fault
 kit-crash-title = Bir şeyler ters gitti
 
-kit-crash-lead = { $program } bir hata yüzünden durdu. Aşağıdaki raporu kopyalayıp hata bildiriminizle gönderin, böylece düzeltilebilir.
+kit-crash-lead = { $program } bir sorun çıktığı için durdu. Aşağıdaki raporu kopyalayıp hata bildiriminizle birlikte gönderin, böylece sorun giderilebilir.
 
 kit-crash-copy = Raporu kopyala
 
@@ -854,11 +854,11 @@ kit-frame-move = Taşı
 kit-frame-resize = Yeniden boyutlandır
 
 # Settings: which figures numbers are written in.
-kit-numerals-title = Rakamlar
+kit-numerals-title = Rakam biçimi
 
 kit-numerals-help = Sayıların, tarihlerin ve saatlerin nasıl yazıldığı.
 
-kit-numerals-auto = Bölgenin genelde yazdığı gibi
+kit-numerals-auto = Bölgenizdeki olağan biçim
 
 kit-numerals-latin = Her zaman 0 ile 9
 

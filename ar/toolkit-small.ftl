@@ -49,7 +49,7 @@ kit-more-people =
 # The gradient editor. The bar's name has $n, how many stops the gradient has.
 kit-gradient-bar = تدرّج بـ { $n } نقاط توقف
 
-kit-gradient-place = موضع نقطة التوقف المختارة
+kit-gradient-place = موضع نقطة التوقف المحددة
 
 kit-gradient-add = إضافة نقطة توقف
 

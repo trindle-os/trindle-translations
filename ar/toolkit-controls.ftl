@@ -3,22 +3,22 @@
 
 
 # What the box at the top of the command palette is called; the screen reader says it and it shows while the box is empty.
-kit-palette-search = اكتب للعثور على إجراء
+kit-palette-search = ابحث في الإجراءات
 
 # What the palette's list of matching actions is called; the screen reader says it.
 kit-palette-list = الإجراءات المطابقة
 
 # Shown under the palette's box when no action matches what was typed.
-kit-palette-none = لا إجراء مطابق.
+kit-palette-none = لا توجد إجراءات مطابقة.
 
 # Red words under a phone number box when what was typed cannot be a phone number.
-kit-check-phone = اكتب رقم هاتف من 7 إلى 15 رقمًا.
+kit-check-phone = أدخل رقم هاتف من 7 إلى 15 خانة.
 
 # Red words under a date box when what was typed is not a real date.
-kit-check-date = اكتب تاريخًا حقيقيًا بصيغة سنة-شهر-يوم، مثل 2026-10-30.
+kit-check-date = أدخل تاريخًا بصيغة سنة-شهر-يوم، مثل 2026-10-30.
 
 # Red words under a colour box when what was typed is not a colour code.
-kit-check-hex = اكتب رمز لون مثل #fbc711.
+kit-check-hex = أدخل رمز لون، مثل #fbc711.
 
 # Tip of the button beside a volume slider that silences the sound.
 kit-volume-mute = كتم
@@ -63,14 +63,14 @@ kit-dock-float = عائم فوق الصفحة
 kit-dock-grip = اسحب إلى حافة أخرى
 
 # Red words under a form's box for a number when what was typed is not a number.
-kit-form-number = اكتب رقمًا، مثل 12 أو 3.5.
+kit-form-number = أدخل رقمًا، مثل 12 أو 3.5.
 
 # The sentence under a file chooser page's title, by what it is for.
-kit-files-open-lead = اختر الملف المراد فتحه.
+kit-files-open-lead = اختر ملفًا لفتحه.
 
-kit-files-save-lead = اختر مجلدًا واكتب الاسم الذي سيُحفظ به.
+kit-files-save-lead = اختر مجلدًا، ثم اكتب اسمًا للملف.
 
-kit-files-folder-lead = اختر مجلدًا، أو أبقِ المجلد الذي أنت فيه.
+kit-files-folder-lead = اختر مجلدًا، أو ابقَ في المجلد الذي أنت فيه.
 
 # The main answer at the foot of a file chooser page.
 kit-files-open = فتح
@@ -98,15 +98,15 @@ kit-files-name = اسم الملف
 kit-files-empty = هذا المجلد فارغ.
 
 # Red words when the folder cannot be read.
-kit-filepage-unreadable = تعذّرت قراءة هذا المجلد. اختر مجلدًا آخر.
+kit-filepage-unreadable = تعذّر على Trindle فتح هذا المجلد. اختر مجلدًا آخر.
 
 # Red words after Open with no file chosen.
 kit-files-choose-first = اختر ملفًا أولًا.
 
 # Red words after Save with no name, or a name that cannot be a file's.
-kit-files-name-needed = اكتب اسمًا للملف، دون شرطة مائلة.
+kit-files-name-needed = اكتب اسمًا للملف. لا يمكن أن يحتوي على شرطة مائلة.
 
-kit-fonts-lead = اختر خطًّا وحجمه.
+kit-fonts-lead = اختر خطًّا وحجمًا.
 
 # The box that finds fonts by name.
 kit-fonts-search = ابحث عن خط بالاسم

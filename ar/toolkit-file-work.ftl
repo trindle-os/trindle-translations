@@ -6,46 +6,46 @@
 kit-work-trouble = { $name } ({ $why })
 
 # Reason for something left behind: a hidden thing or a link was not there when the folder was looked through.
-kit-work-not-looked = لم يكن موجودًا عند النظر في هذا، فتُرك
+kit-work-not-looked = كان مفقودًا عندما فحص Trindle، فتم تجاوزه
 
 # Reason for something left behind: a hidden thing or a link was in a folder too big to look through to its end.
-kit-work-too-big = أكبر من أن يُفحص كاملًا، فتُرك
+kit-work-too-big = كان أكبر من أن يُفحص كاملًا، فتم تجاوزه
 
 # Reason nothing was brought: something another program dropped changed after it was dropped.
-kit-work-changed-since = تغيّر منذ إسقاطه، فلم يُجلب شيء
+kit-work-changed-since = تغيّر بعد أن أسقطته، فلم يُنسخ أو يُنقل
 
 # Reason a thing was not given its name: something else took the name after the folder was looked at.
-kit-work-taken = أُعطي شيء آخر هذا الاسم في الأثناء
+kit-work-taken = يوجد الآن عنصر آخر بهذا الاسم
 
 # Reason nothing was replaced: the one to make way could not be put in the Trash.
-kit-work-no-trash = تعذّر نقل الموجود بالفعل إلى سلة المحذوفات
+kit-work-no-trash = تعذّر نقل العنصر الموجود بالفعل إلى سلة المحذوفات
 
 # Reason a moved item was not taken away from where it was: it changed after it was copied.
-kit-work-stayed = تغيّر بعد نسخه، فهو لا يزال حيث كان
+kit-work-stayed = تغيّر بعد نسخه، لذا تركه Trindle حيث كان
 
 # Reason given for a folder copied to a drive that would not say everything written had reached it.
-kit-work-not-kept = لم يحتفظ القرص بما كُتب، فقد يكون بعضه غير موجود
+kit-work-not-kept = لم يحفظ القرص كل شيء، فقد يكون بعضه مفقودًا
 
 # Reason a folder is said to have failed: its list stopped part way.
-kit-work-not-all = تعذّرت قراءته كله
+kit-work-not-all = تعذّر على Trindle قراءته كله
 
 # Reason a thing was not moved or copied: it is inside the one it would replace.
-kit-work-inside-replaced = هو داخل ما سيحل محله
+kit-work-inside-replaced = هو داخل المجلد الذي سيحل محله
 
 # Reason a thing was not brought: a copy made it, so it was already there.
-kit-work-copy-made-it = هذه النسخة هي التي أنشأته
+kit-work-copy-made-it = أنشأه Trindle أثناء هذا النسخ، لذا لم ينسخه مرة أخرى
 
 # Reason a file copy was refused: what was written is not what was read.
-kit-work-copy-wrong = النسخة ليست ما قُرئ
+kit-work-copy-wrong = النسخة لا تطابق الأصل
 
 # Reason, in the words of a notice, why a thing dragged to another program was not moved: it was changed after it was picked up.
-kit-proof-not-as-picked = تغيّر بعد التقاطه، فهو لا يزال حيث كان
+kit-proof-not-as-picked = تغيّر بعد أن التقطته، فهو لا يزال حيث كان
 
 # Reason, in the words of a notice, why a folder dragged to another program was not moved: it could not be looked through to its end.
-kit-proof-not-looked-through = تعذّر تفحّصه حتى نهايته، فهو لا يزال حيث كان
+kit-proof-not-looked-through = تعذّر على Trindle فحصه كله، فهو لا يزال حيث كان
 
 # Reason, in the words of a notice, why something could not be set aside to be removed.
-kit-proof-not-taken-away = تعذّر نقله بعيدًا
+kit-proof-not-taken-away = تعذّر على Trindle إزالته
 
 # Reason, in the words of a notice, why something could not be put in the Trash.
 kit-proof-not-to-trash = تعذّر نقله إلى سلة المحذوفات
@@ -87,10 +87,10 @@ kit-proof-count-other =
 kit-proof-count-some = بعض العناصر
 
 # The sentence in red for everything a move, copy or delete left where it was; why is the counts.
-kit-proof-not-moved-said = لم يُنقل: { $why }.
+kit-proof-not-moved-said = تعذّر على Trindle نقل هذا: { $why }.
 
 # The same in the brackets after a name.
-kit-proof-not-moved-reason = لم يُنقل: { $why }
+kit-proof-not-moved-reason = تعذّر نقله: { $why }
 
 # Joins the counts in a notice of what stayed: the earlier ones, then the last.
 kit-proof-count-both = { $first } و{ $second }
@@ -111,7 +111,7 @@ kit-proof-no-permission = لا إذن
 kit-proof-unreadable = تعذّرت قراءته
 
 # Reason shown when an item cannot be moved to the Trash because the Trash folder on its drive could be used by other people.
-kit-trash-drive-unsafe = سلة المحذوفات في هذا القرص ليست آمنة للاستخدام
+kit-trash-drive-unsafe = ليس من الآمن استخدام سلة المحذوفات في هذا القرص
 
 # Reason shown when an item to move to the Trash has no name to move.
 kit-trash-nothing-to-move = لا شيء لنقله
@@ -124,5 +124,5 @@ kit-reach-not-answering = الحاسوب الآخر لا يستجيب.
 
 
 
-kit-work-drive-no-safe-restore = لا يمكن لهذا القرص الاستعادة بأمان؛ انسخ الملف من سلة المحذوفات بدلًا من ذلك
+kit-work-drive-no-safe-restore = لا يستطيع هذا القرص استعادة الملفات بأمان، لذا انسخ الملف من سلة المحذوفات بدلًا من ذلك
 

@@ -6,7 +6,7 @@
 kit-chart-part = Bagian { $n }
 
 # A chart with no values. $name is what the chart shows.
-kit-chart-empty = { $name }: grafik tanpa nilai.
+kit-chart-empty = { $name }: grafik ini tidak memiliki nilai.
 
 # A line chart. $name is what it shows, $n how many values; the rest are figures.
 kit-chart-line =

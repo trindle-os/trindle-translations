@@ -2,10 +2,10 @@
 # machine translated (Indonesian), not yet reviewed by a person.
 
 # Standard error, when no Wayland desktop answers.
-kit-run-no-desktop = Tidak ada desktop Wayland untuk membuka jendela
+kit-run-no-desktop = Tidak ada desktop Wayland yang merespons, jadi jendela tidak dapat dibuka
 
 # Standard error, when the desktop would not open the window.
-kit-run-no-window = Desktop tidak membuka jendela
+kit-run-no-window = Desktop tidak dapat membuka jendela.
 
 # The hello example: the window's title, its button and what it says about the presses.
 kit-example-hello-title = Halo
@@ -80,7 +80,7 @@ kit-example-gallery-progress = Kemajuan
 
 
 # The gallery's number box: the card's heading, and the name of the box.
-kit-example-gallery-copies = Kotak angka
+kit-example-gallery-copies = Kolom angka
 
 kit-example-gallery-copies-name = Salinan
 
@@ -99,37 +99,37 @@ kit-example-gallery-span-now = Dari { $low } sampai { $high }
 # The gallery's dialog card: its heading, how it behaves, the button that opens the page, and the page's title, message and main answer.
 kit-example-gallery-dialog = Halaman dialog
 
-kit-example-gallery-dialog-how = Pertanyaan memenuhi seluruh jendela, tidak pernah berupa pop-up. Papan ketik mulai di Batal dan Escape membatalkan.
+kit-example-gallery-dialog-how = Pertanyaan memenuhi seluruh jendela, bukan muncul sebagai pop-up. Batal terpilih lebih dulu, dan Esc membatalkan.
 
 kit-example-gallery-dialog-open = Setel ulang hitungan
 
 kit-example-gallery-ask-title = Setel ulang hitungan?
 
-kit-example-gallery-ask-message = Jumlah tekanan kembali ke nol.
+kit-example-gallery-ask-message = Ini akan mengatur ulang jumlah penekanan ke nol.
 
 kit-example-gallery-ask-yes = Setel ulang
 
 # The gallery's sideways card: the heading, how to move it, and the words on each of twelve buttons in the strip.
-kit-example-gallery-along = Strip menyamping
+kit-example-gallery-along = Strip horizontal
 
-kit-example-gallery-along-how = Gesek, pakai Shift dengan roda, Kiri dan Kanan, atau Tab ke tombol yang tidak terlihat.
+kit-example-gallery-along-how = Usap, tahan Shift sambil memutar roda mouse, atau pakai tombol panah Kiri dan Kanan. Tekan Tab untuk menjangkau tombol yang tidak terlihat.
 
 kit-example-gallery-along-item = Item { $n }
 
 kit-example-gallery-split = Pisah
 
-kit-example-gallery-split-first = Seret pembatasnya, atau fokuskan dan pakai tombol panah.
+kit-example-gallery-split-first = Seret pembatasnya, atau pilih pembatas lalu pakai tombol panah.
 
-kit-example-gallery-split-second = Home dan End membawanya ke salah satu ujung.
+kit-example-gallery-split-second = Tekan Home atau End untuk memindahkan pembatas ke salah satu ujung.
 
 kit-example-gallery-menu = Menu konteks
 
-kit-example-gallery-menu-how = Klik kanan di sini, tahan jari, atau tekan tombol Menu; ketik huruf untuk menyalakan baris.
+kit-example-gallery-menu-how = Klik kanan di sini, tekan dan tahan, atau tekan tombol Menu. Ketik huruf untuk menyorot baris.
 
 # The context menu example: the window's title, what it says to do, the card's words, its menu's rows, and what shows once it is removed.
 kit-example-context-title = Menu konteks
 
-kit-example-context-how = Klik kanan kartu, tahan jari di atasnya, atau tekan tombol Menu
+kit-example-context-how = Klik kanan kartu, tekan dan tahan kartu, atau tekan tombol Menu
 
 kit-example-context-note = Daftar belanja
 
@@ -159,7 +159,7 @@ kit-example-bench-rows = Sepuluh ribu baris
 # The menu bar example: the window's title, what it says to do, the menus' titles and rows, and what shows once a row is chosen.
 kit-example-bar-title = Bilah menu
 
-kit-example-bar-how = Tekan sebuah judul, atau Tab ke bilah dan pakai tombol panah, Return, dan Escape. Alt dengan huruf bertanda pada judul membukanya, dan mengetik huruf menyalakan baris berikutnya yang diawali huruf itu.
+kit-example-bar-how = Klik nama menu, atau tekan Tab untuk menjangkau bilah menu lalu pakai tombol panah, Enter, dan Esc. Menekan Alt bersama huruf bertanda pada sebuah menu akan membukanya. Ketik huruf untuk menyorot baris berikutnya yang diawali huruf itu.
 
 kit-example-bar-file = &File
 
@@ -186,7 +186,7 @@ kit-example-bar-chose = Anda memilih { $what }
 # The gallery's column view card: its heading, how it behaves, its name for a screen reader, the two column headings, and the names of the folders and files in it.
 kit-example-gallery-columns = Tampilan kolom
 
-kit-example-gallery-columns-how = Baris terbuka di bawah induknya. Tekan panah, klik dua kali, atau pakai Kanan, Kiri, dan Enter. Ctrl dan Shift memilih beberapa baris, dan pita yang diseret dari ruang di bawahnya memilih apa yang dilintasinya.
+kit-example-gallery-columns-how = Klik panah atau klik dua kali folder untuk membukanya, atau pakai tombol Kanan, Kiri, dan Enter. Tahan Ctrl atau Shift untuk memilih beberapa baris, atau seret melintasi baris untuk memilihnya.
 
 kit-example-gallery-columns-name = File
 

@@ -2,10 +2,10 @@
 # machine translated (Swahili), not yet reviewed by a person.
 
 # Standard error, when no Wayland desktop answers.
-kit-run-no-desktop = Hakuna eneo-kazi la Wayland la kufungulia dirisha
+kit-run-no-desktop = Hakuna eneo-kazi la Wayland lililojibu, kwa hiyo dirisha haliwezi kufunguka
 
 # Standard error, when the desktop would not open the window.
-kit-run-no-window = Eneo-kazi halikufungua dirisha
+kit-run-no-window = Eneo-kazi halikuweza kufungua dirisha.
 
 # The hello example: the window's title, its button and what it says about the presses.
 kit-example-hello-title = Hujambo
@@ -81,7 +81,7 @@ kit-example-gallery-progress = Maendeleo
 
 
 # The gallery's number box: the card's heading, and the name of the box.
-kit-example-gallery-copies = Kisanduku cha namba
+kit-example-gallery-copies = Sehemu ya namba
 
 kit-example-gallery-copies-name = Nakala
 
@@ -100,37 +100,37 @@ kit-example-gallery-span-now = Kutoka { $low } hadi { $high }
 # The gallery's dialog card: its heading, how it behaves, the button that opens the page, and the page's title, message and main answer.
 kit-example-gallery-dialog = Ukurasa wa mazungumzo
 
-kit-example-gallery-dialog-how = Swali huchukua dirisha zima, kamwe si kidukizo. Kibodi huanzia kwenye Ghairi na Escape huighairi.
+kit-example-gallery-dialog-how = Maswali hujaza dirisha zima badala ya kuibuka. Ghairi huchaguliwa kwanza, na Escape hughairi.
 
 kit-example-gallery-dialog-open = Weka upya hesabu
 
 kit-example-gallery-ask-title = Kuweka upya hesabu?
 
-kit-example-gallery-ask-message = Idadi ya mibonyezo inarudi sifuri.
+kit-example-gallery-ask-message = Hii itaweka upya idadi ya mibonyezo kuwa sifuri.
 
 kit-example-gallery-ask-yes = Weka upya
 
 # The gallery's sideways card: the heading, how to move it, and the words on each of twelve buttons in the strip.
-kit-example-gallery-along = Mkanda wa pembeni
+kit-example-gallery-along = Mkanda mlalo
 
-kit-example-gallery-along-how = Telezesha, tumia Shift na gurudumu, Kushoto na Kulia, au Tab hadi kitufe kisichoonekana.
+kit-example-gallery-along-how = Telezesha, shikilia Shift na uzungushe gurudumu la kipanya, au tumia vitufe vya mishale vya Kushoto na Kulia. Bonyeza Tab ili kufikia kitufe kisichoonekana.
 
 kit-example-gallery-along-item = Kipengee { $n }
 
 kit-example-gallery-split = Gawanya
 
-kit-example-gallery-split-first = Buruta kigawanyaji, au kilenge na utumie vitufe vya mishale.
+kit-example-gallery-split-first = Buruta kigawanyaji, au kichague na utumie vitufe vya mishale.
 
-kit-example-gallery-split-second = Home na End hukipeleka kwenye ncha yoyote.
+kit-example-gallery-split-second = Bonyeza Home au End ili kukipeleka kigawanyaji kwenye ncha yoyote.
 
 kit-example-gallery-menu = Menyu ya muktadha
 
-kit-example-gallery-menu-how = Bofya kulia hapa, shikilia kidole, au bonyeza kitufe cha Menu; andika herufi ili kuwasha safu.
+kit-example-gallery-menu-how = Bofya kulia hapa, bonyeza na ushikilie, au bonyeza kitufe cha Menu. Andika herufi ili kuangazia safu mlalo.
 
 # The context menu example: the window's title, what it says to do, the card's words, its menu's rows, and what shows once it is removed.
 kit-example-context-title = Menyu ya muktadha
 
-kit-example-context-how = Bofya kulia kadi, shikilia kidole juu yake, au bonyeza kitufe cha Menu
+kit-example-context-how = Bofya kulia kadi, ibonyeze na kuishikilia, au bonyeza kitufe cha Menu
 
 kit-example-context-note = Orodha ya manunuzi
 
@@ -160,7 +160,7 @@ kit-example-bench-rows = Safu elfu kumi
 # The menu bar example: the window's title, what it says to do, the menus' titles and rows, and what shows once a row is chosen.
 kit-example-bar-title = Pau ya menyu
 
-kit-example-bar-how = Bonyeza kichwa, au Tab hadi kwenye pau na utumie vitufe vya mishale, Return na Escape. Alt pamoja na herufi iliyowekewa alama ya kichwa hukifungua, na kuandika herufi huwasha safu inayofuata inayoanza nayo.
+kit-example-bar-how = Bofya jina la menyu, au bonyeza Tab ili kufikia upau wa menyu kisha utumie vitufe vya mishale, Enter na Escape. Alt pamoja na herufi iliyowekewa alama ya menyu hiyo huifungua. Andika herufi ili kuangazia safu mlalo inayofuata inayoanza nayo.
 
 kit-example-bar-file = &Faili
 
@@ -187,7 +187,7 @@ kit-example-bar-chose = Umechagua { $what }
 # The gallery's column view card: its heading, how it behaves, its name for a screen reader, the two column headings, and the names of the folders and files in it.
 kit-example-gallery-columns = Mwonekano wa safu wima
 
-kit-example-gallery-columns-how = Safu hufunguka chini ya mzazi. Bonyeza mshale, bofya mara mbili, au tumia Kulia, Kushoto na Enter. Ctrl na Shift huchagua safu kadhaa, na mstatili unaoburutwa kutoka nafasi iliyo chini yake huchagua inachovuka.
+kit-example-gallery-columns-how = Bofya mshale au bofya mara mbili folda ili kuifungua, au tumia vitufe vya Kulia, Kushoto na Enter. Shikilia Ctrl au Shift ili kuchagua safu mlalo kadhaa, au buruta juu ya safu mlalo ili kuzichagua.
 
 kit-example-gallery-columns-name = Faili
 

@@ -3,31 +3,31 @@
 
 
 # Why a file was not read or written, worded as a clause that can follow "because".
-kit-files-not-text = الملف الذي يحفظه ليس نصًا ولا يمكن قراءته
+kit-files-not-text = الملف الذي حُفظ فيه ليس نصًا، لذا لا يمكن قراءته
 
-kit-files-not-allowed = هذا الحساب غير مسموح له بقراءة الملف الذي يحفظه
+kit-files-not-allowed = حسابك غير مسموح له بقراءة الملف الذي حُفظ فيه
 
-kit-files-not-ordinary = الملف الذي يحفظه ليس ملفًا عاديًا ولا يمكن قراءته
+kit-files-not-ordinary = الملف الذي حُفظ فيه ليس ملفًا عاديًا، لذا لا يمكن قراءته
 
-kit-files-unreadable = تعذّرت قراءة الملف الذي يحفظه
+kit-files-unreadable = تعذّرت قراءة الملف الذي حُفظ فيه
 
-kit-files-too-big = الملف الذي يحفظه أكبر من أن يُقرأ كاملًا
+kit-files-too-big = الملف الذي حُفظ فيه أكبر من أن يُقرأ دفعة واحدة
 
-kit-files-no-name-kept = ليس له اسم يُحفظ به
+kit-files-no-name-kept = ليس له اسم ملف يُحفظ به
 
-kit-files-dangling = هو رابط إلى مكان غير موجود
+kit-files-dangling = هو رابط إلى شيء غير موجود
 
-kit-files-nought = لا يمكن أن يحتوي الاسم على صفر حرفي
+kit-files-nought = يحتوي اسمه على بايت صفري، وهذا غير مسموح
 
 kit-files-taken = يوجد بالفعل شيء بهذا الاسم
 
-kit-files-not-a-name = ليس اسمًا في مجلد
+kit-files-not-a-name = ليس اسمًا صالحًا لعنصر في مجلد
 
 kit-files-old-name-stays = تعذّرت إزالة الاسم القديم
 
-kit-files-no-name-opened = ليس له اسم يُفتح به داخل المجلد
+kit-files-no-name-opened = ليس له اسم ملف يُفتح به
 
-kit-files-not-plain = ليس اسمًا بسيطًا واحدًا
+kit-files-not-plain = يجب أن يكون اسم ملف واحدًا فقط
 
 kit-files-name-unkeepable = لا يمكن حفظ اسمه في ملف إعدادات
 
@@ -38,60 +38,60 @@ kit-files-changed = تغيّر أثناء نسخه
 kit-files-not-a-file = ليس ملفًا ولا مجلدًا
 
 # What a program with no window says when it cannot reach the desktop.
-kit-windowless-no-desktop = لا سطح مكتب للتحدث معه
+kit-windowless-no-desktop = تعذّر على Trindle الوصول إلى سطح المكتب
 
 kit-windowless-no-answer = لم يستجب سطح المكتب
 
 kit-windowless-no-seat = ليس لسطح المكتب لوحة مفاتيح أو فأرة
 
 # Answers to a call over the session bus that could not be made.
-kit-bus-no-answer-in-time = لم يصل رد في الوقت المناسب.
+kit-bus-no-answer-in-time = انتهت مهلة الطلب.
 
-kit-bus-already-offered = هذه الواجهة معروضة بالفعل عند هذا المسار.
+kit-bus-already-offered = هذه الواجهة متاحة بالفعل عند هذا المسار.
 
-kit-bus-bad-path = هذا ليس مسار كائن صالحًا.
+kit-bus-bad-path = مسار الكائن هذا غير صالح.
 
-kit-bus-too-many-waiting = عدد كبير من الاستدعاءات ينتظر؛ حاول مرة أخرى.
+kit-bus-too-many-waiting = هناك عدد كبير من الطلبات في الانتظار. حاول مرة أخرى.
 
-kit-bus-no-machine-id = لا معرّف للجهاز.
+kit-bus-no-machine-id = معرّف الجهاز مفقود.
 
-kit-bus-busy = مشغول باستدعاء آخر لهذه الواجهة؛ حاول مرة أخرى.
+kit-bus-busy = هناك طلب آخر قيد التنفيذ لهذه الواجهة. حاول مرة أخرى.
 
-kit-bus-no-interface = لا توجد هذه الواجهة هنا.
+kit-bus-no-interface = لم يُعثر على هذه الواجهة.
 
-kit-bus-no-object = لا يوجد هذا الكائن هنا.
+kit-bus-no-object = لم يُعثر على هذا الكائن.
 
-kit-bus-give-interface = أعطِ واجهة.
+kit-bus-give-interface = حدّد واجهة.
 
-kit-bus-give-property = أعطِ واجهة وخاصية.
+kit-bus-give-property = حدّد واجهة وخاصية.
 
-kit-bus-give-value = أعطِ واجهة وخاصية وقيمة.
+kit-bus-give-value = حدّد واجهة وخاصية وقيمة.
 
-kit-bus-no-property = لا توجد هذه الخاصية.
+kit-bus-no-property = لم يُعثر على هذه الخاصية.
 
-kit-bus-read-only = لا يمكن ضبط هذه الخاصية.
+kit-bus-read-only = لا يمكن تغيير هذه الخاصية.
 
-kit-bus-unanswered = لم يُعطَ أي رد.
+kit-bus-unanswered = لم يصل أي رد على الطلب.
 
-kit-bus-closed = أُغلقت الناقلة
+kit-bus-closed = أُغلق الاتصال
 
-kit-bus-no-method-here = لا توجد هذه الدالة هنا.
+kit-bus-no-method-here = لم يُعثر على هذه الدالة.
 
 # Answers from the media player link and the notification link.
-kit-mpris-seek = يأخذ التقديم وقتًا.
+kit-mpris-seek = يتطلب Seek وقتًا.
 
-kit-mpris-set-position = يأخذ SetPosition مقطعًا ووقتًا.
+kit-mpris-set-position = يتطلب SetPosition مقطعًا ووقتًا.
 
-kit-mpris-no-uri = لا يفتح هذا المشغّل أي عناوين.
+kit-mpris-no-uri = لا يستطيع هذا المشغّل فتح العناوين.
 
-kit-mpris-app-id = معرّف التطبيق ليس اسم نطاق معكوسًا بسيطًا.
+kit-mpris-app-id = يجب أن يكون معرّف التطبيق اسم نطاق معكوسًا بسيطًا.
 
-kit-notify-bad-arguments = المعطيات لا تناسب هذا الاستدعاء.
+kit-notify-bad-arguments = المعطيات غير صالحة لهذا الاستدعاء.
 
-kit-once-raise-only = لا يُعرض هنا إلا Raise
+kit-once-raise-only = Raise وحده مدعوم هنا
 
 # Why a document could not be made into a PDF.
 kit-print-too-long = المستند أطول من 200 صفحة
 
-kit-print-no-room = لا مساحة لرسم الصفحات
+kit-print-no-room = لا توجد ذاكرة كافية لرسم الصفحات
 

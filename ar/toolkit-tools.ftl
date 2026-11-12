@@ -3,10 +3,10 @@
 
 
 # The style sheet checker: a number written past the limits Trindle's sheet gives it. $line is the line in the file, $name the setting.
-kit-sheet-out-of-range = السطر { $line }: قيمة --{ $name } هي { $value }، خارج حدّيها من { $min } إلى { $max }.
+kit-sheet-out-of-range = السطر { $line }: قيمة --{ $name } هي { $value }. يجب أن تكون بين { $min } و{ $max }.
 
 # The style sheet checker: a colour the sheet sets cannot be told from what it is drawn on. $look is dark or light, $ink the setting, $on what it is drawn on, $stands and $floor contrast ratios.
-kit-sheet-short = في مظهر { $look }، تبلغ نسبة --{ $ink } على { $on } { $stands } إلى واحد، دون الحد المطلوب { $floor } إلى واحد.
+kit-sheet-short = في مظهر { $look }، يبلغ التباين بين --{ $ink } و{ $on } { $stands } إلى 1. والحد الأدنى المطلوب { $floor } إلى 1.
 
 # The two looks, as named in the line above.
 kit-sheet-dark = الداكن
@@ -30,25 +30,25 @@ kit-inspect-size = { $w } في { $h } بكسل عند { $x }، { $y }
 # The inspector: the widget's state, $state being the words below joined by commas.
 kit-inspect-state = الحالة: { $state }
 
-kit-inspect-keyboard = لوحة المفاتيح عليه
+kit-inspect-keyboard = عليه تركيز لوحة المفاتيح
 
-kit-inspect-pointer = المؤشر عليه
+kit-inspect-pointer = المؤشر فوقه
 
 kit-inspect-pressed = مضغوط
 
-kit-inspect-takes-keys = يستقبل لوحة المفاتيح
+kit-inspect-takes-keys = يقبل الكتابة
 
 kit-inspect-off = لا يمكن استخدامه
 
-kit-inspect-rest = في حالة سكون
+kit-inspect-rest = عادي
 
 # The inspector: what a screen reader is told. $role is its kind, such as Button; $name its name.
 kit-inspect-reader = قارئ الشاشة: { $role } "{ $name }"
 
-kit-inspect-unread = قارئ الشاشة: لم يُخبَر بشيء عنه
+kit-inspect-unread = قارئ الشاشة: لا يوجد وصف
 
 # The speed overlay, Ctrl+Shift+F11: how long the last frame took to paint.
-kit-speed-paint = الرسم { $ms } ملي ثانية
+kit-speed-paint = وقت الرسم: { $ms } مللي ثانية
 
 # The speed overlay: memory the program holds, in megabytes.
 kit-speed-memory = الذاكرة { $mb } ميغابايت
@@ -67,7 +67,7 @@ kit-new-usage =
     ينشئ مجلدًا باسم <name> فيه برنامج بنافذة واحدة وورقة أنماط وملف لغة واختبار. مع --toolkit يستخدم مجموعة الأدوات الموجودة في ذلك المسار.
 
 # trindle-new: the name given cannot be a program's name. $name is what was given.
-kit-new-bad-name = لا يصلح { $name } اسمًا لبرنامج: استخدم أحرفًا صغيرة وأرقامًا وشرطات، وابدأ بحرف.
+kit-new-bad-name = لا يصلح { $name } اسمًا لبرنامج. استخدم أحرفًا لاتينية صغيرة وأرقامًا وشرطات، وابدأ بحرف.
 
 # trindle-new: a file or folder of that name is already there.
 kit-new-exists = { $name } موجود بالفعل، فلم يُكتب شيء.
@@ -79,7 +79,7 @@ kit-new-no-toolkit = لم تُعثر على مجموعة أدوات في { $path
 kit-new-unwritten = تعذّرت الكتابة في { $path }.
 
 # trindle-new: the program was made. $name is its folder.
-kit-new-made = أُنشئ { $name }. شغّله بالأمر cargo run، واختبره بالأمر cargo test.
+kit-new-made = أُنشئ { $name }. شغّله بالأمر cargo run واختبره بالأمر cargo test.
 
 # trindle-lang-check, which lists the words a language still lacks: its help.
 kit-lang-check-usage =
@@ -96,7 +96,7 @@ kit-showcase-words = كلمات بسيطة
 
 kit-showcase-heading = عنوان
 
-kit-showcase-note = سطر أهدأ تحت شيء ما
+kit-showcase-note = نص ثانوي
 
 kit-showcase-add = إضافة
 

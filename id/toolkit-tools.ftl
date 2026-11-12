@@ -3,10 +3,10 @@
 
 
 # The style sheet checker: a number written past the limits Trindle's sheet gives it. $line is the line in the file, $name the setting.
-kit-sheet-out-of-range = Baris { $line }: --{ $name } bernilai { $value }, di luar batasnya yaitu { $min } sampai { $max }.
+kit-sheet-out-of-range = Baris { $line }: --{ $name } bernilai { $value }. Nilainya harus antara { $min } dan { $max }.
 
 # The style sheet checker: a colour the sheet sets cannot be told from what it is drawn on. $look is dark or light, $ink the setting, $on what it is drawn on, $stands and $floor contrast ratios.
-kit-sheet-short = Pada tampilan { $look }, --{ $ink } di atas { $on } berkontras { $stands } banding satu, di bawah { $floor } banding satu yang diperlukan.
+kit-sheet-short = Pada tampilan { $look }, --{ $ink } di atas { $on } memiliki rasio kontras { $stands } banding 1. Rasio minimal yang diperlukan adalah { $floor } banding 1.
 
 # The two looks, as named in the line above.
 kit-sheet-dark = gelap
@@ -30,31 +30,31 @@ kit-inspect-size = { $w } kali { $h } piksel di { $x }, { $y }
 # The inspector: the widget's state, $state being the words below joined by commas.
 kit-inspect-state = Keadaan: { $state }
 
-kit-inspect-keyboard = papan ketik di atasnya
+kit-inspect-keyboard = memiliki fokus papan ketik
 
-kit-inspect-pointer = penunjuk di atasnya
+kit-inspect-pointer = penunjuk berada di atasnya
 
 kit-inspect-pressed = ditekan
 
-kit-inspect-takes-keys = menerima papan ketik
+kit-inspect-takes-keys = menerima ketikan
 
 kit-inspect-off = tidak dapat dipakai
 
-kit-inspect-rest = diam
+kit-inspect-rest = normal
 
 # The inspector: what a screen reader is told. $role is its kind, such as Button; $name its name.
 kit-inspect-reader = Pembaca layar: { $role } "{ $name }"
 
-kit-inspect-unread = Pembaca layar: tidak diberi tahu apa-apa tentangnya
+kit-inspect-unread = Pembaca layar: tanpa deskripsi
 
 # The speed overlay, Ctrl+Shift+F11: how long the last frame took to paint.
-kit-speed-paint = Gambar { $ms } md
+kit-speed-paint = Waktu menggambar: { $ms } ms
 
 # The speed overlay: memory the program holds, in megabytes.
 kit-speed-memory = Memori { $mb } MB
 
 # The speed overlay: how much of the window the last frame painted again.
-kit-speed-damage = Digambar ulang: { $share } persen jendela
+kit-speed-damage = Digambar ulang: { $share } persen dari jendela
 
 # The speed overlay: what drew the last frame.
 kit-speed-gpu = Digambar oleh kartu grafis
@@ -67,7 +67,7 @@ kit-new-usage =
     Membuat folder <nama> berisi program dengan satu jendela, lembar gaya, file bahasa, dan satu uji. Dengan --toolkit, memakai toolkit di jalur itu.
 
 # trindle-new: the name given cannot be a program's name. $name is what was given.
-kit-new-bad-name = { $name } tidak bisa menjadi nama program: pakai huruf kecil, angka, dan tanda hubung, diawali huruf.
+kit-new-bad-name = { $name } tidak bisa menjadi nama program. Pakai huruf kecil, angka, dan tanda hubung, serta awali dengan huruf.
 
 # trindle-new: a file or folder of that name is already there.
 kit-new-exists = { $name } sudah ada, jadi tidak ada yang ditulis.
@@ -79,7 +79,7 @@ kit-new-no-toolkit = Toolkit tidak ditemukan di { $path }.
 kit-new-unwritten = { $path } tidak dapat ditulis.
 
 # trindle-new: the program was made. $name is its folder.
-kit-new-made = { $name } dibuat. Jalankan dengan cargo run, dan ujilah dengan cargo test.
+kit-new-made = { $name } dibuat. Jalankan dengan cargo run dan uji dengan cargo test.
 
 # trindle-lang-check, which lists the words a language still lacks: its help.
 kit-lang-check-usage =
@@ -96,7 +96,7 @@ kit-showcase-words = Kata sederhana
 
 kit-showcase-heading = Sebuah judul
 
-kit-showcase-note = Baris yang lebih tenang di bawah sesuatu
+kit-showcase-note = Teks sekunder
 
 kit-showcase-add = Tambah
 

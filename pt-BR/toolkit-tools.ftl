@@ -3,10 +3,10 @@
 
 
 # The style sheet checker: a number written past the limits Trindle's sheet gives it. $line is the line in the file, $name the setting.
-kit-sheet-out-of-range = Linha { $line }: --{ $name } vale { $value }, fora dos limites de { $min } a { $max }.
+kit-sheet-out-of-range = Linha { $line }: --{ $name } vale { $value }. Precisa estar entre { $min } e { $max }.
 
 # The style sheet checker: a colour the sheet sets cannot be told from what it is drawn on. $look is dark or light, $ink the setting, $on what it is drawn on, $stands and $floor contrast ratios.
-kit-sheet-short = Na aparência { $look }, --{ $ink } sobre { $on } fica em { $stands } para um, abaixo dos { $floor } para um de que precisa.
+kit-sheet-short = Na aparência { $look }, --{ $ink } sobre { $on } tem contraste de { $stands } para 1. O mínimo necessário é { $floor } para 1.
 
 # The two looks, as named in the line above.
 kit-sheet-dark = escura
@@ -30,31 +30,31 @@ kit-inspect-size = { $w } por { $h } pixels em { $x }, { $y }
 # The inspector: the widget's state, $state being the words below joined by commas.
 kit-inspect-state = Estado: { $state }
 
-kit-inspect-keyboard = teclado nele
+kit-inspect-keyboard = tem o foco do teclado
 
-kit-inspect-pointer = ponteiro nele
+kit-inspect-pointer = ponteiro sobre ele
 
 kit-inspect-pressed = apertado
 
-kit-inspect-takes-keys = recebe o teclado
+kit-inspect-takes-keys = aceita digitação
 
 kit-inspect-off = não pode ser usado
 
-kit-inspect-rest = em repouso
+kit-inspect-rest = normal
 
 # The inspector: what a screen reader is told. $role is its kind, such as Button; $name its name.
 kit-inspect-reader = Leitor de tela: { $role } "{ $name }"
 
-kit-inspect-unread = Leitor de tela: não foi informado de nada sobre ele
+kit-inspect-unread = Leitor de tela: sem descrição
 
 # The speed overlay, Ctrl+Shift+F11: how long the last frame took to paint.
-kit-speed-paint = Pintura { $ms } ms
+kit-speed-paint = Tempo de desenho: { $ms } ms
 
 # The speed overlay: memory the program holds, in megabytes.
 kit-speed-memory = Memória { $mb } MB
 
 # The speed overlay: how much of the window the last frame painted again.
-kit-speed-damage = Pintado de novo: { $share } por cento da janela
+kit-speed-damage = Redesenhado: { $share } por cento da janela
 
 # The speed overlay: what drew the last frame.
 kit-speed-gpu = Desenhado pela placa de vídeo
@@ -67,7 +67,7 @@ kit-new-usage =
     Cria uma pasta <nome> com um programa de uma janela, uma folha de estilo, um arquivo de idioma e um teste. Com --toolkit, usa o toolkit nesse caminho.
 
 # trindle-new: the name given cannot be a program's name. $name is what was given.
-kit-new-bad-name = { $name } não pode ser o nome de um programa: use letras minúsculas, números e hifens, começando por uma letra.
+kit-new-bad-name = { $name } não pode ser o nome de um programa. Use letras minúsculas, números e hifens, e comece com uma letra.
 
 # trindle-new: a file or folder of that name is already there.
 kit-new-exists = { $name } já existe, então nada foi escrito.
@@ -96,7 +96,7 @@ kit-showcase-words = Palavras simples
 
 kit-showcase-heading = Um título
 
-kit-showcase-note = Uma linha mais discreta sob algo
+kit-showcase-note = Texto secundário
 
 kit-showcase-add = Adicionar
 

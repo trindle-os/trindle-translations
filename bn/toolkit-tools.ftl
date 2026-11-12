@@ -3,10 +3,10 @@
 
 
 # The style sheet checker: a number written past the limits Trindle's sheet gives it. $line is the line in the file, $name the setting.
-kit-sheet-out-of-range = লাইন { $line }: --{ $name } হলো { $value }, যা এর সীমা { $min } থেকে { $max }-এর বাইরে।
+kit-sheet-out-of-range = লাইন { $line }: --{ $name } হলো { $value }। এটি অবশ্যই { $min } থেকে { $max }-এর মধ্যে হতে হবে।
 
 # The style sheet checker: a colour the sheet sets cannot be told from what it is drawn on. $look is dark or light, $ink the setting, $on what it is drawn on, $stands and $floor contrast ratios.
-kit-sheet-short = { $look } চেহারায় { $on }-এর উপর --{ $ink } এক-এর তুলনায় { $stands } দাঁড়ায়, যা প্রয়োজনীয় এক-এর তুলনায় { $floor }-এর নিচে।
+kit-sheet-short = { $look } চেহারায় { $on }-এর উপর --{ $ink }-এর কনট্রাস্ট অনুপাত { $stands } : 1। এটি কমপক্ষে { $floor } : 1 হওয়া দরকার।
 
 # The two looks, as named in the line above.
 kit-sheet-dark = গাঢ়
@@ -30,25 +30,25 @@ kit-inspect-size = { $x }, { $y } অবস্থানে { $w } বাই { $h
 # The inspector: the widget's state, $state being the words below joined by commas.
 kit-inspect-state = অবস্থা: { $state }
 
-kit-inspect-keyboard = এর উপর কিবোর্ড
+kit-inspect-keyboard = কিবোর্ড ফোকাস আছে
 
-kit-inspect-pointer = এর উপর পয়েন্টার
+kit-inspect-pointer = পয়েন্টার এর উপরে
 
 kit-inspect-pressed = চাপা
 
-kit-inspect-takes-keys = কিবোর্ড নেয়
+kit-inspect-takes-keys = টাইপ করা যায়
 
 kit-inspect-off = ব্যবহার করা যায় না
 
-kit-inspect-rest = বিশ্রামে
+kit-inspect-rest = স্বাভাবিক
 
 # The inspector: what a screen reader is told. $role is its kind, such as Button; $name its name.
 kit-inspect-reader = স্ক্রিন রিডার: { $role } "{ $name }"
 
-kit-inspect-unread = স্ক্রিন রিডার: এ সম্পর্কে কিছু বলা হয়নি
+kit-inspect-unread = স্ক্রিন রিডার: কোনো বর্ণনা নেই
 
 # The speed overlay, Ctrl+Shift+F11: how long the last frame took to paint.
-kit-speed-paint = আঁকা { $ms } ms
+kit-speed-paint = আঁকার সময়: { $ms } ms
 
 # The speed overlay: memory the program holds, in megabytes.
 kit-speed-memory = মেমরি { $mb } MB
@@ -67,10 +67,10 @@ kit-new-usage =
     <name> নামে একটি ফোল্ডার বানায়, যাতে এক উইন্ডোর একটি প্রোগ্রাম, একটি স্টাইল শিট, একটি ভাষা ফাইল ও একটি পরীক্ষা থাকে। --toolkit দিলে সেই পথের টুলকিট ব্যবহার করে।
 
 # trindle-new: the name given cannot be a program's name. $name is what was given.
-kit-new-bad-name = { $name } প্রোগ্রামের নাম হতে পারে না: ছোট হাতের অক্ষর, সংখ্যা ও হাইফেন ব্যবহার করুন, একটি অক্ষর দিয়ে শুরু করুন।
+kit-new-bad-name = { $name } প্রোগ্রামের নাম হতে পারে না। ছোট হাতের অক্ষর, সংখ্যা ও হাইফেন ব্যবহার করুন, আর একটি অক্ষর দিয়ে শুরু করুন।
 
 # trindle-new: a file or folder of that name is already there.
-kit-new-exists = { $name } ইতিমধ্যে আছে, তাই কিছুই লেখা হয়নি।
+kit-new-exists = { $name } আগে থেকেই আছে, তাই কিছুই লেখা হয়নি।
 
 # trindle-new: the toolkit folder given cannot be found.
 kit-new-no-toolkit = { $path }-এ কোনো টুলকিট পাওয়া যায়নি।
@@ -79,7 +79,7 @@ kit-new-no-toolkit = { $path }-এ কোনো টুলকিট পাওয�
 kit-new-unwritten = { $path } লেখা যায়নি।
 
 # trindle-new: the program was made. $name is its folder.
-kit-new-made = { $name } বানানো হয়েছে। cargo run দিয়ে চালান, আর cargo test দিয়ে পরীক্ষা করুন।
+kit-new-made = { $name } তৈরি হয়েছে। cargo run দিয়ে চালান এবং cargo test দিয়ে পরীক্ষা করুন।
 
 # trindle-lang-check, which lists the words a language still lacks: its help.
 kit-lang-check-usage =
@@ -96,7 +96,7 @@ kit-showcase-words = সহজ কথা
 
 kit-showcase-heading = একটি শিরোনাম
 
-kit-showcase-note = কিছুর নিচে একটি শান্ত লাইন
+kit-showcase-note = গৌণ লেখা
 
 kit-showcase-add = যোগ করুন
 

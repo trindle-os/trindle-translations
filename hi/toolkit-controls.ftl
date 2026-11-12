@@ -2,22 +2,22 @@
 
 
 # What the box at the top of the command palette is called; the screen reader says it and it shows while the box is empty.
-kit-palette-search = कोई क्रिया खोजने के लिए लिखें
+kit-palette-search = क्रियाएँ खोजें
 
 # What the palette's list of matching actions is called; the screen reader says it.
 kit-palette-list = मेल खाती क्रियाएँ
 
 # Shown under the palette's box when no action matches what was typed.
-kit-palette-none = कोई क्रिया मेल नहीं खाती।
+kit-palette-none = कोई मेल खाती क्रिया नहीं।
 
 # Red words under a phone number box when what was typed cannot be a phone number.
-kit-check-phone = 7 से 15 अंकों का फ़ोन नंबर लिखें।
+kit-check-phone = 7 से 15 अंकों वाला फ़ोन नंबर दर्ज करें।
 
 # Red words under a date box when what was typed is not a real date.
-kit-check-date = सही तारीख वर्ष-महीना-दिन के रूप में लिखें, जैसे 2026-10-30।
+kit-check-date = तारीख वर्ष-महीना-दिन के रूप में दर्ज करें, जैसे 2026-10-30।
 
 # Red words under a colour box when what was typed is not a colour code.
-kit-check-hex = रंग का कोड लिखें, जैसे #fbc711।
+kit-check-hex = रंग का कोड दर्ज करें, जैसे #fbc711।
 
 # Tip of the button beside a volume slider that silences the sound.
 kit-volume-mute = म्यूट करें
@@ -47,29 +47,29 @@ kit-lock-lock = बदलाव रोकने के लिए लॉक क�
 kit-year = वर्ष
 
 # Tip of the button on a panel's head that moves it to the left of the window.
-kit-dock-left = बाईं ओर जोड़ें
+kit-dock-left = बाईं ओर डॉक करें
 
 # Tip of the button on a panel's head that moves it to the right of the window.
-kit-dock-right = दाईं ओर जोड़ें
+kit-dock-right = दाईं ओर डॉक करें
 
 # Tip of the button on a panel's head that moves it to the foot of the window.
-kit-dock-bottom = नीचे जोड़ें
+kit-dock-bottom = नीचे डॉक करें
 
 # Tip of the button on a panel's head that lets it float over the main area.
-kit-dock-float = पेज के ऊपर तैराएँ
+kit-dock-float = पेज के ऊपर फ़्लोट करें
 
 # Name of the handle on a panel's head that is dragged to move the panel to another edge.
 kit-dock-grip = दूसरे किनारे पर खींचें
 
 # Red words under a form's box for a number when what was typed is not a number.
-kit-form-number = कोई संख्या लिखें, जैसे 12 या 3.5।
+kit-form-number = कोई संख्या दर्ज करें, जैसे 12 या 3.5।
 
 # The sentence under a file chooser page's title, by what it is for.
-kit-files-open-lead = खोलने के लिए फ़ाइल चुनें।
+kit-files-open-lead = खोलने के लिए कोई फ़ाइल चुनें।
 
-kit-files-save-lead = कोई फ़ोल्डर चुनें और सहेजने का नाम लिखें।
+kit-files-save-lead = कोई फ़ोल्डर चुनें, फिर फ़ाइल के लिए नाम लिखें।
 
-kit-files-folder-lead = कोई फ़ोल्डर चुनें, या जिसमें हैं उसी को रखें।
+kit-files-folder-lead = कोई फ़ोल्डर चुनें, या जिस फ़ोल्डर में हैं उसी में रहें।
 
 # The main answer at the foot of a file chooser page.
 kit-files-open = खोलें
@@ -97,15 +97,15 @@ kit-files-name = फ़ाइल का नाम
 kit-files-empty = यह फ़ोल्डर खाली है।
 
 # Red words when the folder cannot be read.
-kit-filepage-unreadable = यह फ़ोल्डर पढ़ा नहीं जा सका। कोई दूसरा चुनें।
+kit-filepage-unreadable = Trindle यह फ़ोल्डर खोल नहीं सका। कोई दूसरा फ़ोल्डर चुनें।
 
 # Red words after Open with no file chosen.
 kit-files-choose-first = पहले कोई फ़ाइल चुनें।
 
 # Red words after Save with no name, or a name that cannot be a file's.
-kit-files-name-needed = फ़ाइल का नाम लिखें, बिना स्लैश के।
+kit-files-name-needed = फ़ाइल का नाम लिखें। उसमें स्लैश नहीं हो सकता।
 
-kit-fonts-lead = फ़ॉन्ट और उसका आकार चुनें।
+kit-fonts-lead = कोई फ़ॉन्ट और आकार चुनें।
 
 # The box that finds fonts by name.
 kit-fonts-search = नाम से फ़ॉन्ट खोजें

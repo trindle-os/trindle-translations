@@ -2,10 +2,10 @@
 # machine translated (Spanish), not yet reviewed by a person.
 
 # Standard error, when no Wayland desktop answers.
-kit-run-no-desktop = No hay un escritorio Wayland donde abrir una ventana
+kit-run-no-desktop = Ningún escritorio Wayland respondió, así que la ventana no se puede abrir
 
 # Standard error, when the desktop would not open the window.
-kit-run-no-window = El escritorio no abrió una ventana
+kit-run-no-window = El escritorio no pudo abrir una ventana.
 
 # The hello example: the window's title, its button and what it says about the presses.
 kit-example-hello-title = Hola
@@ -55,7 +55,7 @@ kit-example-gallery-count = Pulsado { $n } veces
 
 kit-example-gallery-choices = Opciones
 
-kit-example-gallery-switch-name = Avisos
+kit-example-gallery-switch-name = Notificaciones
 
 kit-example-gallery-size-name = Tamaño
 
@@ -82,7 +82,7 @@ kit-example-gallery-progress = Progreso
 
 
 # The gallery's number box: the card's heading, and the name of the box.
-kit-example-gallery-copies = Cuadro de número
+kit-example-gallery-copies = Campo numérico
 
 kit-example-gallery-copies-name = Copias
 
@@ -101,37 +101,37 @@ kit-example-gallery-span-now = De { $low } a { $high }
 # The gallery's dialog card: its heading, how it behaves, the button that opens the page, and the page's title, message and main answer.
 kit-example-gallery-dialog = Página de diálogo
 
-kit-example-gallery-dialog-how = Una pregunta ocupa toda la ventana, nunca una ventana emergente. El teclado empieza en Cancelar y Escape cancela.
+kit-example-gallery-dialog-how = Las preguntas ocupan toda la ventana en lugar de aparecer como ventana emergente. Cancelar queda seleccionado al principio y Esc cancela.
 
 kit-example-gallery-dialog-open = Restablecer el recuento
 
 kit-example-gallery-ask-title = ¿Restablecer el recuento?
 
-kit-example-gallery-ask-message = El número de pulsaciones vuelve a cero.
+kit-example-gallery-ask-message = Esto pondrá el contador de pulsaciones a cero.
 
 kit-example-gallery-ask-yes = Restablecer
 
 # The gallery's sideways card: the heading, how to move it, and the words on each of twelve buttons in the strip.
-kit-example-gallery-along = Tira lateral
+kit-example-gallery-along = Tira horizontal
 
-kit-example-gallery-along-how = Desliza con el dedo, usa Mayús con la rueda, Izquierda y Derecha, o pasa con Tab a un botón que no se ve.
+kit-example-gallery-along-how = Desliza con el dedo, mantén pulsada Mayús y gira la rueda del ratón, o usa las flechas Izquierda y Derecha. Pulsa Tab para llegar a un botón que no se ve.
 
 kit-example-gallery-along-item = Elemento { $n }
 
 kit-example-gallery-split = Dividir
 
-kit-example-gallery-split-first = Arrastra el divisor, o enfócalo y usa las teclas de flecha.
+kit-example-gallery-split-first = Arrastra el divisor, o selecciónalo y usa las teclas de flecha.
 
-kit-example-gallery-split-second = Inicio y Fin lo llevan a cualquiera de los extremos.
+kit-example-gallery-split-second = Pulsa Inicio o Fin para llevar el divisor a cualquiera de los extremos.
 
 kit-example-gallery-menu = Menú contextual
 
-kit-example-gallery-menu-how = Haz clic derecho aquí, mantén pulsado con un dedo o pulsa la tecla Menú; escribe una letra para iluminar una fila.
+kit-example-gallery-menu-how = Haz clic derecho aquí, mantén pulsado o pulsa la tecla Menú. Escribe una letra para resaltar una fila.
 
 # The context menu example: the window's title, what it says to do, the card's words, its menu's rows, and what shows once it is removed.
 kit-example-context-title = Menú contextual
 
-kit-example-context-how = Haz clic derecho en la tarjeta, mantén un dedo sobre ella o pulsa la tecla Menú
+kit-example-context-how = Haz clic derecho en la tarjeta, mantenla pulsada o pulsa la tecla Menú
 
 kit-example-context-note = Lista de la compra
 
@@ -161,7 +161,7 @@ kit-example-bench-rows = Diez mil filas
 # The menu bar example: the window's title, what it says to do, the menus' titles and rows, and what shows once a row is chosen.
 kit-example-bar-title = Barra de menús
 
-kit-example-bar-how = Pulsa un título, o pasa con Tab a la barra y usa las teclas de flecha, Retorno y Escape. Alt con la letra marcada de un título lo abre, y al escribir una letra se ilumina la siguiente fila que empieza por ella.
+kit-example-bar-how = Haz clic en el nombre de un menú, o pulsa Tab para llegar a la barra de menús y usa las flechas, Intro y Esc. Alt más la letra marcada de un menú lo abre. Escribe una letra para resaltar la siguiente fila que empieza por ella.
 
 kit-example-bar-file = &Archivo
 
@@ -188,7 +188,7 @@ kit-example-bar-chose = Elegiste { $what }
 # The gallery's column view card: its heading, how it behaves, its name for a screen reader, the two column headings, and the names of the folders and files in it.
 kit-example-gallery-columns = Vista en columnas
 
-kit-example-gallery-columns-how = Las filas se abren bajo un elemento superior. Pulsa la flecha, haz doble clic, o usa Derecha, Izquierda e Intro. Ctrl y Mayús eligen varias filas, y una banda arrastrada desde el espacio bajo ellas elige lo que cruza.
+kit-example-gallery-columns-how = Haz clic en la flecha o doble clic en una carpeta para abrirla, o usa las teclas Derecha, Izquierda e Intro. Mantén pulsada Ctrl o Mayús para seleccionar varias filas, o arrastra sobre las filas para seleccionarlas.
 
 kit-example-gallery-columns-name = Archivos
 

@@ -3,31 +3,31 @@
 
 
 # Why a file was not read or written, worded as a clause that can follow "because".
-kit-files-not-text = el archivo que lo guarda no es de texto y no se puede leer
+kit-files-not-text = el archivo donde se guarda no es de texto, así que no se puede leer
 
-kit-files-not-allowed = esta cuenta no tiene permiso para leer el archivo que lo guarda
+kit-files-not-allowed = tu cuenta no tiene permiso para leer el archivo donde se guarda
 
-kit-files-not-ordinary = el archivo que lo guarda no es un archivo normal y no se puede leer
+kit-files-not-ordinary = el archivo donde se guarda no es un archivo normal, así que no se puede leer
 
-kit-files-unreadable = el archivo que lo guarda no se puede leer
+kit-files-unreadable = el archivo donde se guarda no se puede leer
 
-kit-files-too-big = el archivo que lo guarda es demasiado grande para leerlo entero
+kit-files-too-big = el archivo donde se guarda es demasiado grande para leerlo de una vez
 
-kit-files-no-name-kept = no tiene un nombre con el que guardarse
+kit-files-no-name-kept = no tiene un nombre de archivo con el que guardarse
 
-kit-files-dangling = es un enlace a un lugar que no existe
+kit-files-dangling = es un enlace a algo que no existe
 
-kit-files-nought = un nombre no puede contener un cero
+kit-files-nought = su nombre contiene un byte cero, algo que no está permitido
 
 kit-files-taken = ya hay algo con ese nombre
 
-kit-files-not-a-name = no es un nombre dentro de una carpeta
+kit-files-not-a-name = no es un nombre válido para un elemento de una carpeta
 
 kit-files-old-name-stays = no se pudo quitar el nombre antiguo
 
-kit-files-no-name-opened = no tiene un nombre con el que abrirse dentro de la carpeta
+kit-files-no-name-opened = no tiene un nombre de archivo con el que abrirse
 
-kit-files-not-plain = no es un nombre simple
+kit-files-not-plain = debe ser un único nombre de archivo
 
 kit-files-name-unkeepable = su nombre no se puede guardar en un archivo de ajustes
 
@@ -38,28 +38,28 @@ kit-files-changed = cambió mientras se copiaba
 kit-files-not-a-file = no es un archivo ni una carpeta
 
 # What a program with no window says when it cannot reach the desktop.
-kit-windowless-no-desktop = no hay un escritorio con el que comunicarse
+kit-windowless-no-desktop = Trindle no pudo conectar con el escritorio
 
 kit-windowless-no-answer = el escritorio no respondió
 
 kit-windowless-no-seat = el escritorio no tiene teclado ni ratón
 
 # Answers to a call over the session bus that could not be made.
-kit-bus-no-answer-in-time = No llegó respuesta a tiempo.
+kit-bus-no-answer-in-time = Se agotó el tiempo de espera de la solicitud.
 
-kit-bus-already-offered = Esa interfaz ya se ofrece en esta ruta.
+kit-bus-already-offered = Esta interfaz ya está disponible en esta ruta.
 
-kit-bus-bad-path = Esa no es una ruta de objeto válida.
+kit-bus-bad-path = Esta ruta de objeto no es válida.
 
-kit-bus-too-many-waiting = Hay demasiadas llamadas en espera; inténtalo de nuevo.
+kit-bus-too-many-waiting = Hay demasiadas solicitudes en espera. Inténtalo de nuevo.
 
-kit-bus-no-machine-id = Sin identificador de máquina.
+kit-bus-no-machine-id = Falta el identificador de la máquina.
 
-kit-bus-busy = Ocupado con otra llamada a esta interfaz; inténtalo de nuevo.
+kit-bus-busy = Hay otra solicitud a esta interfaz en curso. Inténtalo de nuevo.
 
-kit-bus-no-interface = Aquí no existe esa interfaz.
+kit-bus-no-interface = No se encontró esta interfaz.
 
-kit-bus-no-object = Aquí no existe ese objeto.
+kit-bus-no-object = No se encontró este objeto.
 
 kit-bus-give-interface = Indica una interfaz.
 
@@ -67,31 +67,31 @@ kit-bus-give-property = Indica una interfaz y una propiedad.
 
 kit-bus-give-value = Indica una interfaz, una propiedad y un valor.
 
-kit-bus-no-property = No existe esa propiedad.
+kit-bus-no-property = No se encontró esta propiedad.
 
-kit-bus-read-only = Esta propiedad no se puede establecer.
+kit-bus-read-only = Esta propiedad no se puede cambiar.
 
-kit-bus-unanswered = No se dio ninguna respuesta.
+kit-bus-unanswered = La solicitud no recibió respuesta.
 
-kit-bus-closed = el bus se cerró
+kit-bus-closed = la conexión se cerró
 
-kit-bus-no-method-here = Aquí no existe ese método.
+kit-bus-no-method-here = No se encontró este método.
 
 # Answers from the media player link and the notification link.
-kit-mpris-seek = Seek necesita un tiempo.
+kit-mpris-seek = Seek requiere un valor de tiempo.
 
-kit-mpris-set-position = SetPosition necesita una pista y un tiempo.
+kit-mpris-set-position = SetPosition requiere una pista y un valor de tiempo.
 
-kit-mpris-no-uri = Este reproductor no abre direcciones.
+kit-mpris-no-uri = Este reproductor no puede abrir direcciones.
 
-kit-mpris-app-id = El identificador de la aplicación no es un nombre simple de dominio inverso.
+kit-mpris-app-id = El identificador de la aplicación debe ser un nombre de dominio inverso simple.
 
-kit-notify-bad-arguments = Los argumentos no encajan con esta llamada.
+kit-notify-bad-arguments = Los argumentos no son válidos para esta llamada.
 
-kit-once-raise-only = aquí solo se ofrece Raise
+kit-once-raise-only = aquí solo se admite Raise
 
 # Why a document could not be made into a PDF.
 kit-print-too-long = el documento tiene más de 200 páginas
 
-kit-print-no-room = no hay espacio para pintar las páginas
+kit-print-no-room = no hay memoria suficiente para dibujar las páginas
 

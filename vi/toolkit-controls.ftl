@@ -3,22 +3,22 @@
 
 
 # What the box at the top of the command palette is called; the screen reader says it and it shows while the box is empty.
-kit-palette-search = Gõ để tìm một hành động
+kit-palette-search = Tìm hành động
 
 # What the palette's list of matching actions is called; the screen reader says it.
 kit-palette-list = Các hành động khớp
 
 # Shown under the palette's box when no action matches what was typed.
-kit-palette-none = Không có hành động nào khớp.
+kit-palette-none = Không có hành động nào phù hợp.
 
 # Red words under a phone number box when what was typed cannot be a phone number.
-kit-check-phone = Hãy viết số điện thoại từ 7 đến 15 chữ số.
+kit-check-phone = Hãy nhập số điện thoại gồm 7 đến 15 chữ số.
 
 # Red words under a date box when what was typed is not a real date.
-kit-check-date = Hãy viết một ngày có thật theo dạng năm-tháng-ngày, ví dụ 2026-10-30.
+kit-check-date = Hãy nhập ngày theo dạng năm-tháng-ngày, ví dụ 2026-10-30.
 
 # Red words under a colour box when what was typed is not a colour code.
-kit-check-hex = Hãy viết mã màu như #fbc711.
+kit-check-hex = Hãy nhập mã màu, ví dụ #fbc711.
 
 # Tip of the button beside a volume slider that silences the sound.
 kit-volume-mute = Tắt tiếng
@@ -54,23 +54,23 @@ kit-dock-left = Gắn vào bên trái
 kit-dock-right = Gắn vào bên phải
 
 # Tip of the button on a panel's head that moves it to the foot of the window.
-kit-dock-bottom = Gắn vào phía dưới
+kit-dock-bottom = Gắn ở phía dưới
 
 # Tip of the button on a panel's head that lets it float over the main area.
-kit-dock-float = Nổi trên trang
+kit-dock-float = Nổi phía trên trang
 
 # Name of the handle on a panel's head that is dragged to move the panel to another edge.
 kit-dock-grip = Kéo sang cạnh khác
 
 # Red words under a form's box for a number when what was typed is not a number.
-kit-form-number = Hãy viết một số, ví dụ 12 hoặc 3,5.
+kit-form-number = Hãy nhập một số, ví dụ 12 hoặc 3,5.
 
 # The sentence under a file chooser page's title, by what it is for.
-kit-files-open-lead = Chọn tệp để mở.
+kit-files-open-lead = Chọn một tệp để mở.
 
-kit-files-save-lead = Chọn một thư mục và gõ tên để lưu.
+kit-files-save-lead = Chọn một thư mục, rồi gõ tên cho tệp.
 
-kit-files-folder-lead = Chọn một thư mục, hoặc giữ thư mục bạn đang ở.
+kit-files-folder-lead = Chọn một thư mục, hoặc ở lại thư mục bạn đang mở.
 
 # The main answer at the foot of a file chooser page.
 kit-files-open = Mở
@@ -98,15 +98,15 @@ kit-files-name = Tên tệp
 kit-files-empty = Thư mục này trống.
 
 # Red words when the folder cannot be read.
-kit-filepage-unreadable = Không đọc được thư mục này. Hãy chọn thư mục khác.
+kit-filepage-unreadable = Trindle không mở được thư mục này. Hãy chọn thư mục khác.
 
 # Red words after Open with no file chosen.
 kit-files-choose-first = Hãy chọn một tệp trước.
 
 # Red words after Save with no name, or a name that cannot be a file's.
-kit-files-name-needed = Hãy gõ tên cho tệp, không có dấu gạch chéo.
+kit-files-name-needed = Hãy gõ tên cho tệp. Tên không được chứa dấu gạch chéo.
 
-kit-fonts-lead = Chọn một phông chữ và cỡ chữ.
+kit-fonts-lead = Chọn phông chữ và cỡ chữ.
 
 # The box that finds fonts by name.
 kit-fonts-search = Tìm phông chữ theo tên

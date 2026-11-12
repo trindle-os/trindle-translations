@@ -2,22 +2,22 @@
 
 
 # What the box at the top of the command palette is called; the screen reader says it and it shows while the box is empty.
-kit-palette-search = Saisissez pour trouver une action
+kit-palette-search = Rechercher des actions
 
 # What the palette's list of matching actions is called; the screen reader says it.
 kit-palette-list = Actions correspondantes
 
 # Shown under the palette's box when no action matches what was typed.
-kit-palette-none = Aucune action ne correspond.
+kit-palette-none = Aucune action correspondante.
 
 # Red words under a phone number box when what was typed cannot be a phone number.
 kit-check-phone = Saisissez un numéro de téléphone de 7 à 15 chiffres.
 
 # Red words under a date box when what was typed is not a real date.
-kit-check-date = Saisissez une vraie date sous la forme année-mois-jour, par exemple 2026-10-30.
+kit-check-date = Saisissez une date sous la forme année-mois-jour, par exemple 2026-10-30.
 
 # Red words under a colour box when what was typed is not a colour code.
-kit-check-hex = Saisissez un code couleur tel que #fbc711.
+kit-check-hex = Saisissez un code couleur, par exemple #fbc711.
 
 # Tip of the button beside a volume slider that silences the sound.
 kit-volume-mute = Couper le son
@@ -65,11 +65,11 @@ kit-dock-grip = Faire glisser vers un autre bord
 kit-form-number = Saisissez un nombre, par exemple 12 ou 3,5.
 
 # The sentence under a file chooser page's title, by what it is for.
-kit-files-open-lead = Choisissez le fichier à ouvrir.
+kit-files-open-lead = Choisissez un fichier à ouvrir.
 
-kit-files-save-lead = Choisissez un dossier et saisissez le nom sous lequel enregistrer.
+kit-files-save-lead = Choisissez un dossier, puis saisissez un nom pour le fichier.
 
-kit-files-folder-lead = Choisissez un dossier, ou gardez celui où vous êtes.
+kit-files-folder-lead = Choisissez un dossier, ou restez dans celui où vous êtes.
 
 # The main answer at the foot of a file chooser page.
 kit-files-open = Ouvrir
@@ -97,15 +97,15 @@ kit-files-name = Nom du fichier
 kit-files-empty = Ce dossier est vide.
 
 # Red words when the folder cannot be read.
-kit-filepage-unreadable = Ce dossier n'a pas pu être lu. Choisissez-en un autre.
+kit-filepage-unreadable = Trindle n’a pas pu ouvrir ce dossier. Choisissez-en un autre.
 
 # Red words after Open with no file chosen.
-kit-files-choose-first = Choisissez d'abord un fichier.
+kit-files-choose-first = Choisissez d’abord un fichier.
 
 # Red words after Save with no name, or a name that cannot be a file's.
-kit-files-name-needed = Saisissez un nom pour le fichier, sans barre oblique.
+kit-files-name-needed = Saisissez un nom pour le fichier. Il ne peut pas contenir de barre oblique.
 
-kit-fonts-lead = Choisissez une police et sa taille.
+kit-fonts-lead = Choisissez une police et une taille.
 
 # The box that finds fonts by name.
 kit-fonts-search = Trouver une police par son nom
@@ -131,5 +131,5 @@ kit-fonts-sample-tip = { $words }, en { $family }
 kit-fonts-use = Utiliser cette police
 
 # Red words after the answer with no font chosen.
-kit-fonts-choose-first = Choisissez d'abord une police.
+kit-fonts-choose-first = Choisissez d’abord une police.
 

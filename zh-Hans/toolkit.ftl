@@ -81,62 +81,62 @@ kit-more-lines =
     }
 
 # Said under whatever was dropped on, when nothing came of it.
-kit-dropped-empty = 拖放的内容没有得到任何东西。
+kit-dropped-empty = Trindle 无法处理拖入的项目。
 
 # Said when what was dropped is too big to take by dropping.
-kit-dropped-too-big = 拖放的内容太大，无法这样接收。
+kit-dropped-too-big = 拖入的内容太大，无法接收。
 
 # Said when what was dropped took too long to arrive.
-kit-dropped-too-slow = 拖放的内容送来得太慢，因此已放弃。
+kit-dropped-too-slow = 拖入的内容送达太慢，所以 Trindle 不再等待。
 
 # Said when too many things were dropped at once.
-kit-dropped-too-many = 一次拖放的东西太多。请每次少拖放一些。
+kit-dropped-too-many = 一次拖入的项目太多。请每次少拖一些。
 
 # Said when what was dropped was a list of files that are not on this computer.
-kit-dropped-not-files = 拖放的内容不是这台电脑上的文件列表。
+kit-dropped-not-files = 拖入的项目不是这台电脑上的文件。
 
 # Label of a link button whose address is not a web address.
 kit-link-not-web = 不是网址
 
 # Label of a link button whose address opens a mail program.
-kit-link-mailto = 打开邮件地址
+kit-link-mailto = 邮件地址
 
 # Label of a link button whose address opens a file.
-kit-link-file = 打开文件
+kit-link-file = 这台电脑上的文件
 
 # Read out by the screen reader for a link button. $label is the shown address.
 kit-link-to = 指向 { $label } 的链接
 
 # Said under whatever asked for a file or folder, when the window for choosing did not answer.
-kit-chooser-no-answer = 选择窗口没有响应。请再试一次。
+kit-chooser-no-answer = 选择器窗口没有响应。请再试一次。
 
 # Starts a fault found in a theme file the person is trying. $line is the line number in the file, $why what is wrong.
 kit-theme-line = 第 { $line } 行：{ $why }
 
 # Fault in a theme file the person is trying: it is bigger than 64 KB.
-kit-theme-too-big = 文件太大，不能作为主题。主题最大为 64 KB。
+kit-theme-too-big = 这个主题文件太大。最大为 64 KB。
 
 # Fault in a theme file the person is trying: it holds unreadable characters.
-kit-theme-not-sheet = 该文件不是样式表：它含有文字以外的内容。
+kit-theme-not-sheet = 这个文件不是样式表。它包含的不只是纯文本。
 
 # Fault in a theme file the person is trying: it brings in another file.
-kit-theme-imports = 主题不能引入其他文件或网址。
+kit-theme-imports = 主题不能导入其他文件或网址。
 
 # Fault in a theme file the person is trying: a value is too long. $name is the setting's name.
-kit-theme-too-long = --{ $name } 太长，不能作为值。
+kit-theme-too-long = --{ $name } 的值太长。
 
 # Fault in a theme file the person is trying: a setting that should be a colour is not one Trindle can read. $name is the setting's name.
-kit-theme-not-colour = --{ $name } 不是 Trindle 能读懂的颜色。
+kit-theme-not-colour = Trindle 无法将 --{ $name } 识别为颜色。
 
 # Fault in a theme file the person is trying: a setting that should be a number is not one Trindle can read.
-kit-theme-not-number = --{ $name } 不是 Trindle 能读懂的数字。
+kit-theme-not-number = Trindle 无法将 --{ $name } 识别为数字。
 
 # Fault in a theme file the person is trying: a setting that should be a shadow is not one Trindle can read.
-kit-theme-not-shadow = --{ $name } 不是 Trindle 能读懂的阴影。
+kit-theme-not-shadow = Trindle 无法将 --{ $name } 识别为阴影。
 
 # Fault in a theme file the person is trying: nothing in it is a setting Trindle knows.
 # SAFETY: needs a human review before it ships
-kit-theme-nothing-known = 文件中没有任何 Trindle 认识的值，所以不会改变任何内容。
+kit-theme-nothing-known = Trindle 不认识这个文件中的任何设置，所以不会改变任何内容。
 
 # The name a screen reader gives a ring that shows how far a job has got.
 kit-progress = 进度
@@ -259,13 +259,13 @@ kit-key-shift = Shift
 
 kit-key-alt = Alt
 
-kit-key-logo = Logo
+kit-key-logo = Super
 
 # Said in a window of Trindle's own when something tried to press a button that only the person may press.
-kit-only-your-own = 这里只有您自己的按键才有效。
+kit-only-your-own = 只有本人可以按此按钮。
 
 # Said in a window when keys are pressed but the keyboard layout could not be read.
-kit-no-layout = 无法读取键盘布局，所以输入不起作用。
+kit-no-layout = Trindle 无法读取键盘布局，所以无法输入。
 
 
 # Read out by the screen reader for the line between two areas of a window that can be dragged to make one bigger.
@@ -275,13 +275,13 @@ kit-divider = 分隔线
 kit-click-again-small = 是
 
 # Read out by the screen reader for the control under something dragged, when letting go there would drop it in.
-kit-drop-target = 放置目标
+kit-drop-target = 放置区域
 
 # Fault in a theme or style sheet: a setting that takes only named steps was given something else. $steps is the list of steps, $guide the file that explains them.
-kit-theme-not-step = --{ $name } 只接受这些档位之一：{ $steps }。其他的都会被忽略。请参阅 { $guide }。
+kit-theme-not-step = --{ $name } 只能是以下之一：{ $steps }。Trindle 会忽略其他任何值。请参阅 { $guide }。
 
 # Standard error, when the folder of the person's style sheet cannot be watched. $folder is the folder, $why the system's reason.
-kit-sheet-not-watched = 对 { $folder } 中样式表的更改要重启后才会显示：{ $why }
+kit-sheet-not-watched = 请重启以查看对 { $folder } 中样式表的更改。{ $why }
 
 # What a screen reader calls the row of menu titles across the top of a window.
 kit-menu-bar = 菜单栏
@@ -305,16 +305,16 @@ kit-path = 路径
 kit-path-more = 更多位置
 
 # Said after a range slider's name for its low handle.
-kit-range-low = 低端
+kit-range-low = 下限
 
 # Said after a range slider's name for its high handle.
-kit-range-high = 高端
+kit-range-high = 上限
 
 # The button that takes a step off a number box's number. $what is the box's name.
-kit-spin-less = 减少{ $what }
+kit-spin-less = 减小{ $what }
 
 # The button that adds a step to a number box's number. $what is the box's name.
-kit-spin-more = 增加{ $what }
+kit-spin-more = 增大{ $what }
 
 # Red words under a number box whose typing is not a number.
 kit-spin-not-number = 请输入 { $min } 到 { $max } 之间的数字
@@ -325,15 +325,15 @@ kit-tab-count = { $title }，{ $count }
 # The ready settings page for a program's own look (settings::look_page).
 kit-look-title = 外观
 
-kit-look-lead = 这个程序的外观，不受桌面其他部分影响。
+kit-look-lead = 选择这个程序的外观，不受桌面其他部分影响。
 
 kit-look-group = 外观
 
 kit-look-shade = 浅色或深色
 
-kit-look-shade-help = 跟随桌面，或始终使用一种外观。
+kit-look-shade-help = 跟随桌面，或始终使用浅色或深色。
 
-kit-look-desktop = 跟随桌面
+kit-look-desktop = 与桌面相同
 
 kit-look-dark = 深色
 
@@ -341,10 +341,10 @@ kit-look-light = 浅色
 
 kit-look-highlight = 强调色
 
-kit-look-highlight-help = 主要操作和所选内容的颜色。
+kit-look-highlight-help = 主要按钮和所选项目的颜色。
 
 # A button that gives the highlight back to the desktop's choice.
-kit-look-highlight-desktop = 使用桌面的
+kit-look-highlight-desktop = 与桌面相同
 
 # Over the column of week numbers in a date picker; keep it as short as the short weekday names.
 kit-date-week-short = 周
@@ -371,7 +371,7 @@ kit-key-end = End
 
 kit-key-enter = 回车
 
-kit-key-escape = Escape
+kit-key-escape = Esc
 
 kit-key-tab = Tab
 
@@ -387,10 +387,10 @@ kit-key-insert = Insert
 kit-shortcuts = 键盘快捷键
 
 # Under a shortcut on that page whose keys the window always takes first.
-kit-shortcut-kept-window = 窗口保留此键，用于在各部分之间移动和关闭。
+kit-shortcut-kept-window = 此键保留用于在控件之间移动和关闭窗口。
 
 # Under a shortcut on that page whose keys a text box takes first while you type.
-kit-shortcut-kept-typing = 输入时，文本框会优先使用此键。
+kit-shortcut-kept-typing = 输入时，此键会先交给文本框。
 
 # The heading of the page of emoji to pick from.
 kit-emoji = 表情符号
@@ -798,7 +798,7 @@ kit-player-seek = 位置
 
 kit-player-mute = 静音
 
-kit-player-unmute = 开启声音
+kit-player-unmute = 取消静音
 
 kit-player-volume = 音量
 
@@ -808,7 +808,7 @@ kit-player-time = { $at } / { $length }
 ## The page shown after a program crashed or met a fault
 kit-crash-title = 出错了
 
-kit-crash-lead = { $program } 因故障而停止。请复制下面的报告，并随错误报告一起发送，以便修复。
+kit-crash-lead = { $program } 因出现问题而停止。请复制下面的报告，并随错误报告一起发送，以便解决这个问题。
 
 kit-crash-copy = 复制报告
 
@@ -839,11 +839,11 @@ kit-frame-move = 移动
 kit-frame-resize = 调整大小
 
 # Settings: which figures numbers are written in.
-kit-numerals-title = 数字
+kit-numerals-title = 数字样式
 
 kit-numerals-help = 数字、日期和时间的书写方式。
 
-kit-numerals-auto = 按该地区通常的写法
+kit-numerals-auto = 按所在地区的通用写法
 
 kit-numerals-latin = 始终使用 0 到 9
 

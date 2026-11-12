@@ -45,7 +45,7 @@ kit-more-people =
 # The gradient editor. The bar's name has $n, how many stops the gradient has.
 kit-gradient-bar = { $n }টি বিন্দুর গ্রেডিয়েন্ট
 
-kit-gradient-place = বেছে নেওয়া বিন্দুর অবস্থান
+kit-gradient-place = বাছা বিন্দুর অবস্থান
 
 kit-gradient-add = একটি বিন্দু যোগ করুন
 

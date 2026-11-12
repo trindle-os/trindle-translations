@@ -3,63 +3,63 @@
 
 
 # Why a file was not read or written, worded as a clause that can follow "because".
-kit-files-not-text = die Datei, die es aufbewahrt, ist kein Text und kann nicht gelesen werden
+kit-files-not-text = die Datei, in der es gespeichert ist, ist kein Text und kann deshalb nicht gelesen werden
 
-kit-files-not-allowed = dieses Konto darf die Datei, die es aufbewahrt, nicht lesen
+kit-files-not-allowed = dein Konto darf die Datei, in der es gespeichert ist, nicht lesen
 
-kit-files-not-ordinary = die Datei, die es aufbewahrt, ist keine gewöhnliche Datei und kann nicht gelesen werden
+kit-files-not-ordinary = die Datei, in der es gespeichert ist, ist keine gewöhnliche Datei und kann deshalb nicht gelesen werden
 
-kit-files-unreadable = die Datei, die es aufbewahrt, kann nicht gelesen werden
+kit-files-unreadable = die Datei, in der es gespeichert ist, kann nicht gelesen werden
 
-kit-files-too-big = die Datei, die es aufbewahrt, ist zu groß, um ganz gelesen zu werden
+kit-files-too-big = die Datei, in der es gespeichert ist, ist zu groß, um sie auf einmal zu lesen
 
-kit-files-no-name-kept = es hat keinen Namen, unter dem es aufbewahrt werden könnte
+kit-files-no-name-kept = es hat keinen Dateinamen, unter dem es gespeichert werden könnte
 
-kit-files-dangling = es ist eine Verknüpfung zu einem Ort, den es nicht gibt
+kit-files-dangling = es ist eine Verknüpfung zu etwas, das nicht existiert
 
-kit-files-nought = ein Name darf keine Null enthalten
+kit-files-nought = sein Name enthält ein Nullbyte, das nicht erlaubt ist
 
 kit-files-taken = es gibt bereits etwas mit diesem Namen
 
-kit-files-not-a-name = kein Name in einem Ordner
+kit-files-not-a-name = es ist kein gültiger Name für ein Element in einem Ordner
 
 kit-files-old-name-stays = der alte Name konnte nicht entfernt werden
 
-kit-files-no-name-opened = es hat keinen Namen, unter dem es im Ordner geöffnet werden könnte
+kit-files-no-name-opened = es hat keinen Dateinamen, mit dem es geöffnet werden könnte
 
-kit-files-not-plain = nicht ein einzelner schlichter Name
+kit-files-not-plain = es muss ein einzelner Dateiname sein
 
-kit-files-name-unkeepable = sein Name kann nicht in einer Einstellungsdatei aufbewahrt werden
+kit-files-name-unkeepable = sein Name kann nicht in einer Einstellungsdatei gespeichert werden
 
-kit-files-char-unkeepable = es enthält einen Zeilenumbruch oder ein anderes Zeichen, das nicht aufbewahrt werden kann
+kit-files-char-unkeepable = es enthält einen Zeilenumbruch oder ein anderes Zeichen, das nicht gespeichert werden kann
 
 kit-files-changed = es hat sich beim Kopieren geändert
 
-kit-files-not-a-file = weder eine Datei noch ein Ordner
+kit-files-not-a-file = es ist weder eine Datei noch ein Ordner
 
 # What a program with no window says when it cannot reach the desktop.
-kit-windowless-no-desktop = keine Arbeitsoberfläche, mit der gesprochen werden könnte
+kit-windowless-no-desktop = Trindle konnte die Arbeitsoberfläche nicht erreichen
 
-kit-windowless-no-answer = die Arbeitsoberfläche hat nicht geantwortet
+kit-windowless-no-answer = die Arbeitsoberfläche hat nicht reagiert
 
 kit-windowless-no-seat = die Arbeitsoberfläche hat keine Tastatur und keine Maus
 
 # Answers to a call over the session bus that could not be made.
-kit-bus-no-answer-in-time = Es kam keine Antwort rechtzeitig.
+kit-bus-no-answer-in-time = Zeitüberschreitung bei der Anfrage.
 
-kit-bus-already-offered = Diese Schnittstelle wird unter diesem Pfad bereits angeboten.
+kit-bus-already-offered = Diese Schnittstelle ist unter diesem Pfad bereits verfügbar.
 
-kit-bus-bad-path = Das ist kein gültiger Objektpfad.
+kit-bus-bad-path = Dieser Objektpfad ist ungültig.
 
-kit-bus-too-many-waiting = Zu viele Aufrufe warten; versuche es erneut.
+kit-bus-too-many-waiting = Zu viele Anfragen warten. Versuche es erneut.
 
-kit-bus-no-machine-id = Keine Maschinen-ID.
+kit-bus-no-machine-id = Die Maschinen-ID fehlt.
 
-kit-bus-busy = Mit einem anderen Aufruf dieser Schnittstelle beschäftigt; versuche es erneut.
+kit-bus-busy = Eine andere Anfrage an diese Schnittstelle läuft gerade. Versuche es erneut.
 
-kit-bus-no-interface = Hier gibt es keine solche Schnittstelle.
+kit-bus-no-interface = Diese Schnittstelle wurde nicht gefunden.
 
-kit-bus-no-object = Hier gibt es kein solches Objekt.
+kit-bus-no-object = Dieses Objekt wurde nicht gefunden.
 
 kit-bus-give-interface = Gib eine Schnittstelle an.
 
@@ -67,31 +67,31 @@ kit-bus-give-property = Gib eine Schnittstelle und eine Eigenschaft an.
 
 kit-bus-give-value = Gib eine Schnittstelle, eine Eigenschaft und einen Wert an.
 
-kit-bus-no-property = Keine solche Eigenschaft.
+kit-bus-no-property = Diese Eigenschaft wurde nicht gefunden.
 
-kit-bus-read-only = Diese Eigenschaft kann nicht gesetzt werden.
+kit-bus-read-only = Diese Eigenschaft kann nicht geändert werden.
 
-kit-bus-unanswered = Es wurde keine Antwort gegeben.
+kit-bus-unanswered = Die Anfrage wurde nicht beantwortet.
 
-kit-bus-closed = der Bus wurde geschlossen
+kit-bus-closed = die Verbindung wurde geschlossen
 
-kit-bus-no-method-here = Hier gibt es keine solche Methode.
+kit-bus-no-method-here = Diese Methode wurde nicht gefunden.
 
 # Answers from the media player link and the notification link.
-kit-mpris-seek = Seek braucht eine Zeit.
+kit-mpris-seek = Für Seek ist eine Zeitangabe nötig.
 
-kit-mpris-set-position = SetPosition braucht einen Titel und eine Zeit.
+kit-mpris-set-position = Für SetPosition sind ein Titel und eine Zeitangabe nötig.
 
-kit-mpris-no-uri = Dieser Player öffnet keine Adressen.
+kit-mpris-no-uri = Dieser Player kann keine Adressen öffnen.
 
-kit-mpris-app-id = Die App-ID ist kein schlichter Reverse-Domain-Name.
+kit-mpris-app-id = Die App-ID muss ein einfacher umgekehrter Domainname sein.
 
-kit-notify-bad-arguments = Die Argumente passen nicht zu diesem Aufruf.
+kit-notify-bad-arguments = Die Argumente sind für diesen Aufruf nicht gültig.
 
-kit-once-raise-only = hier wird nur Raise angeboten
+kit-once-raise-only = hier wird nur Raise unterstützt
 
 # Why a document could not be made into a PDF.
 kit-print-too-long = das Dokument ist länger als 200 Seiten
 
-kit-print-no-room = kein Platz, um die Seiten zu zeichnen
+kit-print-no-room = es ist nicht genug Speicher vorhanden, um die Seiten zu zeichnen
 

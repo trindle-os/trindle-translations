@@ -6,7 +6,7 @@
 kit-chart-part = Phần { $n }
 
 # A chart with no values. $name is what the chart shows.
-kit-chart-empty = { $name }: biểu đồ không có giá trị.
+kit-chart-empty = { $name }: biểu đồ này không có giá trị.
 
 # A line chart. $name is what it shows, $n how many values; the rest are figures.
 kit-chart-line =

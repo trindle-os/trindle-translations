@@ -3,10 +3,10 @@
 
 
 # The style sheet checker: a number written past the limits Trindle's sheet gives it. $line is the line in the file, $name the setting.
-kit-sheet-out-of-range = Mstari { $line }: --{ $name } ni { $value }, nje ya mipaka yake ya { $min } hadi { $max }.
+kit-sheet-out-of-range = Mstari { $line }: --{ $name } ni { $value }. Lazima iwe kati ya { $min } na { $max }.
 
 # The style sheet checker: a colour the sheet sets cannot be told from what it is drawn on. $look is dark or light, $ink the setting, $on what it is drawn on, $stands and $floor contrast ratios.
-kit-sheet-short = Katika mwonekano wa { $look }, --{ $ink } kwenye { $on } ina uwiano wa { $stands } kwa moja, chini ya { $floor } kwa moja inayohitaji.
+kit-sheet-short = Katika mwonekano wa { $look }, --{ $ink } kwenye { $on } ina utofautishaji wa { $stands } kwa 1. Inahitaji angalau { $floor } kwa 1.
 
 # The two looks, as named in the line above.
 kit-sheet-dark = giza
@@ -30,31 +30,31 @@ kit-inspect-size = Pikseli { $w } kwa { $h } kwenye { $x }, { $y }
 # The inspector: the widget's state, $state being the words below joined by commas.
 kit-inspect-state = Hali: { $state }
 
-kit-inspect-keyboard = kibodi iko juu yake
+kit-inspect-keyboard = ina mwelekeo wa kibodi
 
 kit-inspect-pointer = kielekezi kiko juu yake
 
 kit-inspect-pressed = imebonyezwa
 
-kit-inspect-takes-keys = inapokea kibodi
+kit-inspect-takes-keys = inakubali kuandika
 
 kit-inspect-off = haiwezi kutumika
 
-kit-inspect-rest = imetulia
+kit-inspect-rest = kawaida
 
 # The inspector: what a screen reader is told. $role is its kind, such as Button; $name its name.
 kit-inspect-reader = Kisoma skrini: { $role } "{ $name }"
 
-kit-inspect-unread = Kisoma skrini: hakijaambiwa lolote kuihusu
+kit-inspect-unread = Kisoma skrini: hakuna maelezo
 
 # The speed overlay, Ctrl+Shift+F11: how long the last frame took to paint.
-kit-speed-paint = Uchoraji ms { $ms }
+kit-speed-paint = Muda wa kuchora: { $ms } ms
 
 # The speed overlay: memory the program holds, in megabytes.
 kit-speed-memory = Kumbukumbu MB { $mb }
 
 # The speed overlay: how much of the window the last frame painted again.
-kit-speed-damage = Imechorwa tena: asilimia { $share } ya dirisha
+kit-speed-damage = Imechorwa upya: asilimia { $share } ya dirisha
 
 # The speed overlay: what drew the last frame.
 kit-speed-gpu = Imechorwa na kadi ya picha
@@ -67,7 +67,7 @@ kit-new-usage =
     Hutengeneza folda <name> yenye programu yenye dirisha moja, laha ya mtindo, faili ya lugha na jaribio. Kwa --toolkit, hutumia zana zilizo kwenye njia hiyo.
 
 # trindle-new: the name given cannot be a program's name. $name is what was given.
-kit-new-bad-name = { $name } haiwezi kuwa jina la programu: tumia herufi ndogo, namba na vistari, ukianza na herufi.
+kit-new-bad-name = { $name } haiwezi kuwa jina la programu. Tumia herufi ndogo, namba na vistari, na uanze na herufi.
 
 # trindle-new: a file or folder of that name is already there.
 kit-new-exists = { $name } tayari ipo, kwa hiyo hakuna kilichoandikwa.
@@ -79,7 +79,7 @@ kit-new-no-toolkit = Hakuna zana zilizopatikana kwenye { $path }.
 kit-new-unwritten = { $path } haikuweza kuandikwa.
 
 # trindle-new: the program was made. $name is its folder.
-kit-new-made = { $name } imetengenezwa. Iendeshe kwa cargo run, na uijaribu kwa cargo test.
+kit-new-made = { $name } imeundwa. Iendeshe kwa cargo run na uijaribu kwa cargo test.
 
 # trindle-lang-check, which lists the words a language still lacks: its help.
 kit-lang-check-usage =
@@ -96,7 +96,7 @@ kit-showcase-words = Maneno rahisi
 
 kit-showcase-heading = Kichwa
 
-kit-showcase-note = Mstari tulivu zaidi chini ya kitu
+kit-showcase-note = Maandishi ya pili
 
 kit-showcase-add = Ongeza
 

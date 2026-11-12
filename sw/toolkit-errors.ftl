@@ -3,95 +3,95 @@
 
 
 # Why a file was not read or written, worded as a clause that can follow "because".
-kit-files-not-text = faili inayoihifadhi si maandishi na haiwezi kusomwa
+kit-files-not-text = faili ilipohifadhiwa si maandishi, kwa hiyo haiwezi kusomwa
 
-kit-files-not-allowed = akaunti hii hairuhusiwi kusoma faili inayoihifadhi
+kit-files-not-allowed = akaunti yako haijaruhusiwa kusoma faili ilipohifadhiwa
 
-kit-files-not-ordinary = faili inayoihifadhi si faili ya kawaida na haiwezi kusomwa
+kit-files-not-ordinary = faili ilipohifadhiwa si faili ya kawaida, kwa hiyo haiwezi kusomwa
 
-kit-files-unreadable = faili inayoihifadhi haiwezi kusomwa
+kit-files-unreadable = faili ilipohifadhiwa haiwezi kusomwa
 
-kit-files-too-big = faili inayoihifadhi ni kubwa mno kusomwa yote
+kit-files-too-big = faili ilipohifadhiwa ni kubwa mno kusomwa kwa mara moja
 
-kit-files-no-name-kept = haina jina la kuhifadhiwa chini yake
+kit-files-no-name-kept = haina jina la faili la kuihifadhia
 
-kit-files-dangling = ni kiungo cha mahali pasipokuwepo
+kit-files-dangling = ni kiungo cha kitu kisichokuwepo
 
-kit-files-nought = jina haliwezi kuwa na sifuri ya baiti
+kit-files-nought = jina lake lina baiti ya sifuri, jambo lisiloruhusiwa
 
 kit-files-taken = tayari kuna kitu chenye jina hilo
 
-kit-files-not-a-name = si jina ndani ya folda
+kit-files-not-a-name = si jina halali la kitu ndani ya folda
 
 kit-files-old-name-stays = jina la zamani halikuweza kuondolewa
 
-kit-files-no-name-opened = haina jina la kufunguliwa ndani ya folda
+kit-files-no-name-opened = haina jina la faili la kuifungulia
 
-kit-files-not-plain = si jina moja rahisi
+kit-files-not-plain = lazima liwe jina moja la faili
 
 kit-files-name-unkeepable = jina lake haliwezi kuhifadhiwa kwenye faili ya mipangilio
 
-kit-files-char-unkeepable = lina kukatika kwa mstari au herufi nyingine isiyoweza kuhifadhiwa
+kit-files-char-unkeepable = lina mstari mpya au herufi nyingine isiyoweza kuhifadhiwa
 
 kit-files-changed = ilibadilika wakati ikinakiliwa
 
 kit-files-not-a-file = si faili wala folda
 
 # What a program with no window says when it cannot reach the desktop.
-kit-windowless-no-desktop = hakuna eneo-kazi la kuzungumza nalo
+kit-windowless-no-desktop = Trindle haikuweza kufikia eneo-kazi
 
 kit-windowless-no-answer = eneo-kazi halikujibu
 
 kit-windowless-no-seat = eneo-kazi halina kibodi wala kipanya
 
 # Answers to a call over the session bus that could not be made.
-kit-bus-no-answer-in-time = Jibu halikuja kwa wakati.
+kit-bus-no-answer-in-time = Muda wa ombi umeisha.
 
-kit-bus-already-offered = Kiolesura hicho tayari kinatolewa kwenye njia hii.
+kit-bus-already-offered = Kiolesura hiki tayari kinapatikana kwenye njia hii.
 
-kit-bus-bad-path = Hiyo si njia halali ya kitu.
+kit-bus-bad-path = Njia hii ya kitu si halali.
 
-kit-bus-too-many-waiting = Simu nyingi mno zinasubiri; jaribu tena.
+kit-bus-too-many-waiting = Maombi mengi mno yanasubiri. Jaribu tena.
 
-kit-bus-no-machine-id = Hakuna kitambulisho cha mashine.
+kit-bus-no-machine-id = Kitambulisho cha mashine hakipo.
 
-kit-bus-busy = Kuna shughuli na simu nyingine kwa kiolesura hiki; jaribu tena.
+kit-bus-busy = Ombi lingine la kiolesura hiki linaendelea. Jaribu tena.
 
-kit-bus-no-interface = Hakuna kiolesura kama hicho hapa.
+kit-bus-no-interface = Kiolesura hiki hakikupatikana.
 
-kit-bus-no-object = Hakuna kitu kama hicho hapa.
+kit-bus-no-object = Kitu hiki hakikupatikana.
 
-kit-bus-give-interface = Toa kiolesura.
+kit-bus-give-interface = Taja kiolesura.
 
-kit-bus-give-property = Toa kiolesura na sifa.
+kit-bus-give-property = Taja kiolesura na sifa.
 
-kit-bus-give-value = Toa kiolesura, sifa na thamani.
+kit-bus-give-value = Taja kiolesura, sifa na thamani.
 
-kit-bus-no-property = Hakuna sifa kama hiyo.
+kit-bus-no-property = Sifa hii haikupatikana.
 
-kit-bus-read-only = Sifa hii haiwezi kuwekwa.
+kit-bus-read-only = Sifa hii haiwezi kubadilishwa.
 
-kit-bus-unanswered = Hakuna jibu lililotolewa.
+kit-bus-unanswered = Ombi halikupata jibu.
 
-kit-bus-closed = basi lilifungwa
+kit-bus-closed = muunganisho ulifungwa
 
-kit-bus-no-method-here = Hakuna njia kama hiyo hapa.
+kit-bus-no-method-here = Mbinu hii haikupatikana.
 
 # Answers from the media player link and the notification link.
 kit-mpris-seek = Seek inahitaji muda.
 
 kit-mpris-set-position = SetPosition inahitaji wimbo na muda.
 
-kit-mpris-no-uri = Kicheza hiki hakifungui anwani zozote.
+kit-mpris-no-uri = Kicheza hiki hakiwezi kufungua anwani.
 
-kit-mpris-app-id = Kitambulisho cha programu si jina rahisi la kikoa kilichogeuzwa.
+kit-mpris-app-id = Kitambulisho cha programu lazima kiwe jina rahisi la kikoa kilichogeuzwa.
 
-kit-notify-bad-arguments = Hoja hazifai simu hii.
+kit-notify-bad-arguments = Hoja hizi hazifai kwa wito huu.
 
-kit-once-raise-only = Raise pekee ndiyo inayotolewa hapa
+kit-once-raise-only = Raise pekee ndiyo inayotumika hapa
 
 # Why a document could not be made into a PDF.
 kit-print-too-long = hati ni ndefu kuliko kurasa 200
 
-kit-print-no-room = hakuna nafasi ya kuchora kurasa
+kit-print-no-room = hakuna kumbukumbu ya kutosha kuchora kurasa
 

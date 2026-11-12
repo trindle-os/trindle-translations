@@ -2,19 +2,19 @@
 
 
 # What the box at the top of the command palette is called; the screen reader says it and it shows while the box is empty.
-kit-palette-search = عمل ڈھونڈنے کے لیے لکھیں
+kit-palette-search = عمل تلاش کریں
 
 # What the palette's list of matching actions is called; the screen reader says it.
 kit-palette-list = ملتے جلتے عمل
 
 # Shown under the palette's box when no action matches what was typed.
-kit-palette-none = کوئی عمل نہیں ملتا۔
+kit-palette-none = کوئی مماثل عمل نہیں۔
 
 # Red words under a phone number box when what was typed cannot be a phone number.
-kit-check-phone = 7 سے 15 ہندسوں کا فون نمبر لکھیں۔
+kit-check-phone = 7 سے 15 ہندسوں والا فون نمبر لکھیں۔
 
 # Red words under a date box when what was typed is not a real date.
-kit-check-date = سال-مہینہ-دن کی شکل میں صحیح تاریخ لکھیں، جیسے 2026-10-30۔
+kit-check-date = سال-مہینہ-دن کی شکل میں تاریخ لکھیں، جیسے 2026-10-30۔
 
 # Red words under a colour box when what was typed is not a colour code.
 kit-check-hex = رنگ کا کوڈ لکھیں، جیسے #fbc711۔
@@ -56,7 +56,7 @@ kit-dock-right = دائیں جانب جوڑیں
 kit-dock-bottom = نیچے جوڑیں
 
 # Tip of the button on a panel's head that lets it float over the main area.
-kit-dock-float = صفحے پر تیرتا رکھیں
+kit-dock-float = صفحے کے اوپر تیرنے دیں
 
 # Name of the handle on a panel's head that is dragged to move the panel to another edge.
 kit-dock-grip = دوسرے کنارے پر کھینچیں
@@ -65,11 +65,11 @@ kit-dock-grip = دوسرے کنارے پر کھینچیں
 kit-form-number = عدد لکھیں، جیسے 12 یا 3.5۔
 
 # The sentence under a file chooser page's title, by what it is for.
-kit-files-open-lead = کھولنے کے لیے فائل چنیں۔
+kit-files-open-lead = کھولنے کے لیے کوئی فائل چنیں۔
 
-kit-files-save-lead = فولڈر چنیں اور محفوظ کرنے کا نام لکھیں۔
+kit-files-save-lead = فولڈر چنیں، پھر فائل کا نام لکھیں۔
 
-kit-files-folder-lead = فولڈر چنیں، یا جس میں ہیں وہی رکھیں۔
+kit-files-folder-lead = فولڈر چنیں، یا جس فولڈر میں ہیں اسی میں رہیں۔
 
 # The main answer at the foot of a file chooser page.
 kit-files-open = کھولیں
@@ -97,15 +97,15 @@ kit-files-name = فائل کا نام
 kit-files-empty = یہ فولڈر خالی ہے۔
 
 # Red words when the folder cannot be read.
-kit-filepage-unreadable = یہ فولڈر پڑھا نہیں جا سکا۔ کوئی اور چنیں۔
+kit-filepage-unreadable = Trindle یہ فولڈر کھول نہیں سکا۔ کوئی دوسرا چنیں۔
 
 # Red words after Open with no file chosen.
 kit-files-choose-first = پہلے فائل چنیں۔
 
 # Red words after Save with no name, or a name that cannot be a file's.
-kit-files-name-needed = فائل کا نام لکھیں، سلیش کے بغیر۔
+kit-files-name-needed = فائل کا نام لکھیں۔ اس میں سلیش نہیں ہو سکتا۔
 
-kit-fonts-lead = فونٹ اور اس کا سائز چنیں۔
+kit-fonts-lead = فونٹ اور سائز چنیں۔
 
 # The box that finds fonts by name.
 kit-fonts-search = نام سے فونٹ ڈھونڈیں

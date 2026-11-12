@@ -44,7 +44,7 @@ kit-more-people =
 # The gradient editor. The bar's name has $n, how many stops the gradient has.
 kit-gradient-bar = Dải chuyển màu có { $n } điểm dừng
 
-kit-gradient-place = Vị trí của điểm dừng đã chọn
+kit-gradient-place = Vị trí điểm dừng đang chọn
 
 kit-gradient-add = Thêm một điểm dừng
 

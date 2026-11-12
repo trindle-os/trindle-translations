@@ -2,10 +2,10 @@
 # machine translated (French), not yet reviewed by a person.
 
 # Standard error, when no Wayland desktop answers.
-kit-run-no-desktop = Aucun bureau Wayland sur lequel ouvrir une fenêtre
+kit-run-no-desktop = Aucun bureau Wayland n’a répondu, donc la fenêtre ne peut pas s’ouvrir
 
 # Standard error, when the desktop would not open the window.
-kit-run-no-window = Le bureau n’a pas ouvert de fenêtre
+kit-run-no-window = Le bureau n’a pas pu ouvrir de fenêtre.
 
 # The hello example: the window's title, its button and what it says about the presses.
 kit-example-hello-title = Bonjour
@@ -100,37 +100,37 @@ kit-example-gallery-span-now = De { $low } à { $high }
 # The gallery's dialog card: its heading, how it behaves, the button that opens the page, and the page's title, message and main answer.
 kit-example-gallery-dialog = Page de dialogue
 
-kit-example-gallery-dialog-how = Une question occupe toute la fenêtre, jamais une fenêtre surgissante. Le clavier commence sur Annuler et Échap annule.
+kit-example-gallery-dialog-how = Les questions occupent toute la fenêtre au lieu de s’ouvrir dans une fenêtre contextuelle. Annuler est sélectionné en premier, et Échap annule.
 
 kit-example-gallery-dialog-open = Remettre le compteur à zéro
 
 kit-example-gallery-ask-title = Remettre le compteur à zéro ?
 
-kit-example-gallery-ask-message = Le nombre de pressions revient à zéro.
+kit-example-gallery-ask-message = Cela remettra le compteur d’appuis à zéro.
 
 kit-example-gallery-ask-yes = Remettre à zéro
 
 # The gallery's sideways card: the heading, how to move it, and the words on each of twelve buttons in the strip.
-kit-example-gallery-along = Bandeau latéral
+kit-example-gallery-along = Bandeau horizontal
 
-kit-example-gallery-along-how = Faites-le glisser, utilisez Maj avec la molette, Gauche et Droite, ou Tab jusqu'à un bouton hors de vue.
+kit-example-gallery-along-how = Faites-le glisser, maintenez Maj en tournant la molette, ou utilisez les flèches Gauche et Droite. Appuyez sur Tab pour atteindre un bouton hors de vue.
 
 kit-example-gallery-along-item = Élément { $n }
 
 kit-example-gallery-split = Séparateur
 
-kit-example-gallery-split-first = Faites glisser la séparation, ou placez-y le focus et utilisez les touches fléchées.
+kit-example-gallery-split-first = Faites glisser la séparation, ou sélectionnez-la et utilisez les touches fléchées.
 
-kit-example-gallery-split-second = Début et Fin l'amènent à l'une ou l'autre extrémité.
+kit-example-gallery-split-second = Appuyez sur Début ou Fin pour la déplacer à l’une ou l’autre extrémité.
 
 kit-example-gallery-menu = Menu contextuel
 
-kit-example-gallery-menu-how = Clic droit ici, doigt maintenu, ou touche Menu ; tapez une lettre pour allumer une ligne.
+kit-example-gallery-menu-how = Faites un clic droit ici, appuyez longuement, ou appuyez sur la touche Menu. Tapez une lettre pour mettre une ligne en évidence.
 
 # The context menu example: the window's title, what it says to do, the card's words, its menu's rows, and what shows once it is removed.
 kit-example-context-title = Menu contextuel
 
-kit-example-context-how = Clic droit sur la carte, doigt maintenu dessus, ou touche Menu
+kit-example-context-how = Faites un clic droit sur la carte, appuyez longuement dessus, ou appuyez sur la touche Menu
 
 kit-example-context-note = Liste de courses
 
@@ -147,7 +147,7 @@ kit-example-context-removed = La carte a été retirée
 kit-example-context-back = La remettre
 
 # The bench example: the window's title, the clock, the progress bar's name, the text box's hint and the list's name.
-kit-example-bench-title = Test de vitesse d'affichage
+kit-example-bench-title = Test de vitesse d’affichage
 
 kit-example-bench-clock = Temps : { $secs } s
 
@@ -160,7 +160,7 @@ kit-example-bench-rows = Dix mille lignes
 # The menu bar example: the window's title, what it says to do, the menus' titles and rows, and what shows once a row is chosen.
 kit-example-bar-title = Barre de menus
 
-kit-example-bar-how = Appuyez sur un titre, ou passez à la barre avec Tab et utilisez les touches fléchées, Entrée et Échap. Alt avec la lettre marquée d'un titre l'ouvre, et taper une lettre allume la ligne suivante qui commence par elle.
+kit-example-bar-how = Cliquez sur le nom d’un menu, ou appuyez sur Tab pour atteindre la barre de menus et utilisez les flèches, Entrée et Échap. Appuyez sur Alt et la lettre marquée d’un menu pour l’ouvrir. Tapez une lettre pour mettre en évidence la ligne suivante qui commence par cette lettre.
 
 kit-example-bar-file = &Fichier
 
@@ -187,7 +187,7 @@ kit-example-bar-chose = Vous avez choisi { $what }
 # The gallery's column view card: its heading, how it behaves, its name for a screen reader, the two column headings, and the names of the folders and files in it.
 kit-example-gallery-columns = Vue en colonnes
 
-kit-example-gallery-columns-how = Les lignes s'ouvrent sous un parent. Appuyez sur la flèche, double-cliquez, ou utilisez Droite, Gauche et Entrée. Ctrl et Maj choisissent plusieurs lignes, et une zone tracée depuis l'espace sous elles choisit ce qu'elle traverse.
+kit-example-gallery-columns-how = Cliquez sur la flèche ou double-cliquez sur un dossier pour l’ouvrir, ou utilisez les touches Droite, Gauche et Entrée. Maintenez Ctrl ou Maj pour sélectionner plusieurs lignes, ou faites glisser le pointeur sur les lignes pour les sélectionner.
 
 kit-example-gallery-columns-name = Fichiers
 

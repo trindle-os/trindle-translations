@@ -3,22 +3,22 @@
 
 
 # What the box at the top of the command palette is called; the screen reader says it and it shows while the box is empty.
-kit-palette-search = Digite para achar uma ação
+kit-palette-search = Pesquisar ações
 
 # What the palette's list of matching actions is called; the screen reader says it.
 kit-palette-list = Ações correspondentes
 
 # Shown under the palette's box when no action matches what was typed.
-kit-palette-none = Nenhuma ação corresponde.
+kit-palette-none = Nenhuma ação encontrada.
 
 # Red words under a phone number box when what was typed cannot be a phone number.
-kit-check-phone = Escreva um número de telefone de 7 a 15 algarismos.
+kit-check-phone = Digite um número de telefone com 7 a 15 dígitos.
 
 # Red words under a date box when what was typed is not a real date.
-kit-check-date = Escreva uma data real como ano-mês-dia, por exemplo 2026-10-30.
+kit-check-date = Digite uma data como ano-mês-dia, por exemplo 2026-10-30.
 
 # Red words under a colour box when what was typed is not a colour code.
-kit-check-hex = Escreva um código de cor como #fbc711.
+kit-check-hex = Digite um código de cor, como #fbc711.
 
 # Tip of the button beside a volume slider that silences the sound.
 kit-volume-mute = Silenciar
@@ -63,14 +63,14 @@ kit-dock-float = Flutuar sobre a página
 kit-dock-grip = Arraste para outra borda
 
 # Red words under a form's box for a number when what was typed is not a number.
-kit-form-number = Escreva um número, como 12 ou 3,5.
+kit-form-number = Digite um número, como 12 ou 3,5.
 
 # The sentence under a file chooser page's title, by what it is for.
-kit-files-open-lead = Escolha o arquivo a abrir.
+kit-files-open-lead = Escolha um arquivo para abrir.
 
-kit-files-save-lead = Escolha uma pasta e digite o nome com que salvar.
+kit-files-save-lead = Escolha uma pasta e digite um nome para o arquivo.
 
-kit-files-folder-lead = Escolha uma pasta ou fique na que você está.
+kit-files-folder-lead = Escolha uma pasta ou continue na pasta em que você está.
 
 # The main answer at the foot of a file chooser page.
 kit-files-open = Abrir
@@ -98,15 +98,15 @@ kit-files-name = Nome do arquivo
 kit-files-empty = Esta pasta está vazia.
 
 # Red words when the folder cannot be read.
-kit-filepage-unreadable = Não foi possível ler esta pasta. Escolha outra.
+kit-filepage-unreadable = O Trindle não conseguiu abrir esta pasta. Escolha outra.
 
 # Red words after Open with no file chosen.
 kit-files-choose-first = Escolha um arquivo primeiro.
 
 # Red words after Save with no name, or a name that cannot be a file's.
-kit-files-name-needed = Digite um nome para o arquivo, sem barra.
+kit-files-name-needed = Digite um nome para o arquivo. Ele não pode conter uma barra.
 
-kit-fonts-lead = Escolha uma fonte e o tamanho dela.
+kit-fonts-lead = Escolha uma fonte e um tamanho.
 
 # The box that finds fonts by name.
 kit-fonts-search = Achar uma fonte pelo nome

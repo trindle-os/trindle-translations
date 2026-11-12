@@ -2,10 +2,10 @@
 # machine translated (Simplified Chinese), not yet reviewed by a person.
 
 # Standard error, when no Wayland desktop answers.
-kit-run-no-desktop = 没有可以打开窗口的 Wayland 桌面
+kit-run-no-desktop = 没有 Wayland 桌面响应，所以无法打开窗口
 
 # Standard error, when the desktop would not open the window.
-kit-run-no-window = 桌面没有打开窗口
+kit-run-no-window = 桌面无法打开窗口。
 
 # The hello example: the window's title, its button and what it says about the presses.
 kit-example-hello-title = 你好
@@ -79,7 +79,7 @@ kit-example-gallery-progress = 进度
 
 
 # The gallery's number box: the card's heading, and the name of the box.
-kit-example-gallery-copies = 数字框
+kit-example-gallery-copies = 数字输入框
 
 kit-example-gallery-copies-name = 份数
 
@@ -96,39 +96,39 @@ kit-example-gallery-span-name = 价格
 kit-example-gallery-span-now = 从 { $low } 到 { $high }
 
 # The gallery's dialog card: its heading, how it behaves, the button that opens the page, and the page's title, message and main answer.
-kit-example-gallery-dialog = 对话页面
+kit-example-gallery-dialog = 对话框页面
 
-kit-example-gallery-dialog-how = 问题会占满整个窗口，绝不弹窗。键盘焦点从“取消”开始，按 Escape 即取消。
+kit-example-gallery-dialog-how = 问题会占满整个窗口，而不是弹出窗口。首先选中的是“取消”，按 Esc 也会取消。
 
 kit-example-gallery-dialog-open = 重置计数
 
 kit-example-gallery-ask-title = 重置计数吗？
 
-kit-example-gallery-ask-message = 点击次数会回到零。
+kit-example-gallery-ask-message = 这会把按下次数重置为零。
 
 kit-example-gallery-ask-yes = 重置
 
 # The gallery's sideways card: the heading, how to move it, and the words on each of twelve buttons in the strip.
-kit-example-gallery-along = 横向条
+kit-example-gallery-along = 横向滚动区域
 
-kit-example-gallery-along-how = 可以滑动、Shift 加滚轮、左右键，或用 Tab 移到看不见的按钮。
+kit-example-gallery-along-how = 可以滑动，也可以按住 Shift 并转动鼠标滚轮，或使用左右方向键。按 Tab 可移到看不见的按钮。
 
 kit-example-gallery-along-item = 项目 { $n }
 
 kit-example-gallery-split = 分割
 
-kit-example-gallery-split-first = 拖动分隔条，或聚焦后用方向键。
+kit-example-gallery-split-first = 拖动分隔条，或选中分隔条后使用方向键。
 
-kit-example-gallery-split-second = Home 和 End 可将其移到任一端。
+kit-example-gallery-split-second = 按 Home 或 End 可将分隔条移到任一端。
 
 kit-example-gallery-menu = 右键菜单
 
-kit-example-gallery-menu-how = 在这里右键单击、用手指按住，或按菜单键；输入一个字母可点亮对应的行。
+kit-example-gallery-menu-how = 在这里右键单击，或按住不放，或按菜单键。输入一个字母可高亮对应的行。
 
 # The context menu example: the window's title, what it says to do, the card's words, its menu's rows, and what shows once it is removed.
 kit-example-context-title = 右键菜单
 
-kit-example-context-how = 在卡片上右键单击、用手指按住，或按菜单键
+kit-example-context-how = 在卡片上右键单击、按住不放，或按菜单键
 
 kit-example-context-note = 购物清单
 
@@ -158,7 +158,7 @@ kit-example-bench-rows = 一万行
 # The menu bar example: the window's title, what it says to do, the menus' titles and rows, and what shows once a row is chosen.
 kit-example-bar-title = 菜单栏
 
-kit-example-bar-how = 点击标题，或按 Tab 移到菜单栏后用方向键、回车和 Escape。Alt 加标题中带标记的字母可将其打开，输入一个字母会点亮下一个以它开头的行。
+kit-example-bar-how = 单击菜单名称，或按 Tab 移到菜单栏后用方向键、回车和 Esc。按 Alt 加菜单中带标记的字母可将其打开。输入一个字母可高亮下一个以它开头的行。
 
 kit-example-bar-file = 文件(&F)
 
@@ -180,12 +180,12 @@ kit-example-bar-medium = 中
 
 kit-example-bar-large = 大
 
-kit-example-bar-chose = 你选择了{ $what }
+kit-example-bar-chose = 您选择了{ $what }
 
 # The gallery's column view card: its heading, how it behaves, its name for a screen reader, the two column headings, and the names of the folders and files in it.
 kit-example-gallery-columns = 分栏视图
 
-kit-example-gallery-columns-how = 各行在其上级下展开。点击箭头、双击，或用右键、左键和回车。Ctrl 和 Shift 可选择多行，从它们下方的空白处拖出的选框会选中所经过的内容。
+kit-example-gallery-columns-how = 单击箭头或双击文件夹可将其展开，也可以用右、左方向键和回车。按住 Ctrl 或 Shift 可选择多行，也可以在行上拖动来选择。
 
 kit-example-gallery-columns-name = 文件
 

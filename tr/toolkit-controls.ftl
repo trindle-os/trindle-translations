@@ -3,7 +3,7 @@
 
 
 # What the box at the top of the command palette is called; the screen reader says it and it shows while the box is empty.
-kit-palette-search = Bir eylem bulmak için yazın
+kit-palette-search = Eylemlerde ara
 
 # What the palette's list of matching actions is called; the screen reader says it.
 kit-palette-list = Eşleşen eylemler
@@ -12,13 +12,13 @@ kit-palette-list = Eşleşen eylemler
 kit-palette-none = Eşleşen eylem yok.
 
 # Red words under a phone number box when what was typed cannot be a phone number.
-kit-check-phone = 7 ile 15 rakamlı bir telefon numarası yazın.
+kit-check-phone = 7 ile 15 haneli bir telefon numarası girin.
 
 # Red words under a date box when what was typed is not a real date.
-kit-check-date = Gerçek bir tarihi yıl-ay-gün olarak yazın, örneğin 2026-10-30.
+kit-check-date = Bir tarihi yıl-ay-gün olarak girin, örneğin 2026-10-30.
 
 # Red words under a colour box when what was typed is not a colour code.
-kit-check-hex = #fbc711 gibi bir renk kodu yazın.
+kit-check-hex = #fbc711 gibi bir renk kodu girin.
 
 # Tip of the button beside a volume slider that silences the sound.
 kit-volume-mute = Sesi kapat
@@ -57,20 +57,20 @@ kit-dock-right = Sağa yasla
 kit-dock-bottom = Alta yasla
 
 # Tip of the button on a panel's head that lets it float over the main area.
-kit-dock-float = Sayfanın üstünde yüzsün
+kit-dock-float = Sayfanın üzerinde yüzdür
 
 # Name of the handle on a panel's head that is dragged to move the panel to another edge.
 kit-dock-grip = Başka bir kenara sürükleyin
 
 # Red words under a form's box for a number when what was typed is not a number.
-kit-form-number = 12 ya da 3,5 gibi bir sayı yazın.
+kit-form-number = 12 ya da 3,5 gibi bir sayı girin.
 
 # The sentence under a file chooser page's title, by what it is for.
-kit-files-open-lead = Açılacak dosyayı seçin.
+kit-files-open-lead = Açılacak bir dosya seçin.
 
-kit-files-save-lead = Bir klasör seçin ve kaydedilecek adı yazın.
+kit-files-save-lead = Bir klasör seçin, sonra dosya için bir ad yazın.
 
-kit-files-folder-lead = Bir klasör seçin ya da içinde bulunduğunuzu koruyun.
+kit-files-folder-lead = Bir klasör seçin ya da bulunduğunuz klasörde kalın.
 
 # The main answer at the foot of a file chooser page.
 kit-files-open = Aç
@@ -98,15 +98,15 @@ kit-files-name = Dosya adı
 kit-files-empty = Bu klasör boş.
 
 # Red words when the folder cannot be read.
-kit-filepage-unreadable = Bu klasör okunamadı. Başka birini seçin.
+kit-filepage-unreadable = Trindle bu klasörü açamadı. Başka bir klasör seçin.
 
 # Red words after Open with no file chosen.
 kit-files-choose-first = Önce bir dosya seçin.
 
 # Red words after Save with no name, or a name that cannot be a file's.
-kit-files-name-needed = Dosya için eğik çizgisiz bir ad yazın.
+kit-files-name-needed = Dosya için bir ad yazın. Ad eğik çizgi içeremez.
 
-kit-fonts-lead = Bir yazı tipi ve boyutunu seçin.
+kit-fonts-lead = Bir yazı tipi ve bir boyut seçin.
 
 # The box that finds fonts by name.
 kit-fonts-search = Yazı tipini adıyla bul

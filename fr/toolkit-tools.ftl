@@ -2,10 +2,10 @@
 
 
 # The style sheet checker: a number written past the limits Trindle's sheet gives it. $line is the line in the file, $name the setting.
-kit-sheet-out-of-range = Ligne { $line } : --{ $name } vaut { $value }, hors de ses limites de { $min } à { $max }.
+kit-sheet-out-of-range = Ligne { $line } : --{ $name } vaut { $value }. Cette valeur doit être comprise entre { $min } et { $max }.
 
 # The style sheet checker: a colour the sheet sets cannot be told from what it is drawn on. $look is dark or light, $ink the setting, $on what it is drawn on, $stands and $floor contrast ratios.
-kit-sheet-short = Dans l'apparence { $look }, --{ $ink } sur { $on } a un contraste de { $stands } pour un, sous les { $floor } pour un requis.
+kit-sheet-short = Dans l’apparence { $look }, --{ $ink } sur { $on } a un contraste de { $stands } pour 1. Il faut au moins { $floor } pour 1.
 
 # The two looks, as named in the line above.
 kit-sheet-dark = sombre
@@ -16,7 +16,7 @@ kit-sheet-light = claire
 kit-sheet-fine = { $file } : aucun problème trouvé.
 
 # The style sheet checker: a file it could not read. $file is its name.
-kit-sheet-unread = { $file } n'a pas pu être lu.
+kit-sheet-unread = { $file } n’a pas pu être lu.
 
 # The style sheet checker's help, shown by trindle-sheet-check --help.
 kit-sheet-usage =
@@ -29,31 +29,31 @@ kit-inspect-size = { $w } par { $h } pixels en { $x }, { $y }
 # The inspector: the widget's state, $state being the words below joined by commas.
 kit-inspect-state = État : { $state }
 
-kit-inspect-keyboard = clavier dessus
+kit-inspect-keyboard = a le focus clavier
 
 kit-inspect-pointer = pointeur dessus
 
 kit-inspect-pressed = enfoncé
 
-kit-inspect-takes-keys = reçoit le clavier
+kit-inspect-takes-keys = accepte la saisie
 
 kit-inspect-off = inutilisable
 
-kit-inspect-rest = au repos
+kit-inspect-rest = normal
 
 # The inspector: what a screen reader is told. $role is its kind, such as Button; $name its name.
-kit-inspect-reader = Lecteur d'écran : { $role } « { $name } »
+kit-inspect-reader = Lecteur d’écran : { $role } « { $name } »
 
-kit-inspect-unread = Lecteur d'écran : n'en dit rien
+kit-inspect-unread = Lecteur d’écran : aucune description
 
 # The speed overlay, Ctrl+Shift+F11: how long the last frame took to paint.
-kit-speed-paint = Dessin { $ms } ms
+kit-speed-paint = Temps de dessin : { $ms } ms
 
 # The speed overlay: memory the program holds, in megabytes.
 kit-speed-memory = Mémoire { $mb } Mo
 
 # The speed overlay: how much of the window the last frame painted again.
-kit-speed-damage = Redessiné : { $share } pour cent de la fenêtre
+kit-speed-damage = Redessiné : { $share } % de la fenêtre
 
 # The speed overlay: what drew the last frame.
 kit-speed-gpu = Dessiné par la carte graphique
@@ -66,19 +66,19 @@ kit-new-usage =
     Crée un dossier <nom> contenant un programme à une fenêtre, une feuille de style, un fichier de langue et un test. Avec --toolkit, il utilise la boîte à outils située à ce chemin.
 
 # trindle-new: the name given cannot be a program's name. $name is what was given.
-kit-new-bad-name = { $name } ne peut pas être le nom d'un programme : utilisez des minuscules, des chiffres et des traits d'union, en commençant par une lettre.
+kit-new-bad-name = { $name } ne peut pas être le nom d’un programme. Utilisez des lettres minuscules, des chiffres et des traits d’union, et commencez par une lettre.
 
 # trindle-new: a file or folder of that name is already there.
-kit-new-exists = { $name } existe déjà, rien n'a donc été écrit.
+kit-new-exists = { $name } existe déjà, donc rien n’a été écrit.
 
 # trindle-new: the toolkit folder given cannot be found.
 kit-new-no-toolkit = Aucune boîte à outils trouvée à { $path }.
 
 # trindle-new: a file could not be written.
-kit-new-unwritten = { $path } n'a pas pu être écrit.
+kit-new-unwritten = { $path } n’a pas pu être écrit.
 
 # trindle-new: the program was made. $name is its folder.
-kit-new-made = { $name } créé. Lancez-le avec cargo run, et testez-le avec cargo test.
+kit-new-made = { $name } a été créé. Lancez-le avec cargo run et testez-le avec cargo test.
 
 # trindle-lang-check, which lists the words a language still lacks: its help.
 kit-lang-check-usage =
@@ -95,7 +95,7 @@ kit-showcase-words = Mots simples
 
 kit-showcase-heading = Un titre
 
-kit-showcase-note = Une ligne plus discrète sous quelque chose
+kit-showcase-note = Texte secondaire
 
 kit-showcase-add = Ajouter
 
@@ -103,7 +103,7 @@ kit-showcase-save = Enregistrer
 
 kit-showcase-wifi = Wi-Fi
 
-kit-showcase-agree = J'accepte
+kit-showcase-agree = J’accepte
 
 kit-showcase-volume = Volume
 

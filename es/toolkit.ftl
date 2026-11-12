@@ -82,61 +82,61 @@ kit-more-lines =
     }
 
 # Said under whatever was dropped on, when nothing came of it.
-kit-dropped-empty = No salió nada de lo que se soltó.
+kit-dropped-empty = Trindle no pudo hacer nada con los elementos que soltaste.
 
 # Said when what was dropped is too big to take by dropping.
-kit-dropped-too-big = Lo que se soltó es demasiado grande para recibirlo así.
+kit-dropped-too-big = Lo que soltaste es demasiado grande para arrastrarlo aquí.
 
 # Said when what was dropped took too long to arrive.
-kit-dropped-too-slow = Lo que se soltó tardó demasiado en llegar, así que se dejó.
+kit-dropped-too-slow = Lo que soltaste tardó demasiado en llegar, así que Trindle dejó de esperar.
 
 # Said when too many things were dropped at once.
-kit-dropped-too-many = Se soltaron demasiadas cosas a la vez. Suelta menos cada vez.
+kit-dropped-too-many = Soltaste demasiados elementos a la vez. Suelta menos cada vez.
 
 # Said when what was dropped was a list of files that are not on this computer.
-kit-dropped-not-files = Lo que se soltó no es una lista de archivos de este equipo.
+kit-dropped-not-files = Los elementos que soltaste no son archivos de este equipo.
 
 # Label of a link button whose address is not a web address.
 kit-link-not-web = No es una dirección web
 
 # Label of a link button whose address opens a mail program.
-kit-link-mailto = Abre una dirección mailto
+kit-link-mailto = Dirección de correo
 
 # Label of a link button whose address opens a file.
-kit-link-file = Abre un archivo
+kit-link-file = Archivo de este equipo
 
 # Read out by the screen reader for a link button. $label is the shown address.
 kit-link-to = Enlace a { $label }
 
 # Said under whatever asked for a file or folder, when the window for choosing did not answer.
-kit-chooser-no-answer = La ventana para elegir no respondió. Inténtalo de nuevo.
+kit-chooser-no-answer = La ventana de selección no respondió. Inténtalo de nuevo.
 
 # Starts a fault found in a theme file the person is trying. $line is the line number in the file, $why what is wrong.
 kit-theme-line = Línea { $line }: { $why }
 
 # Fault in a theme file the person is trying: it is bigger than 64 KB.
-kit-theme-too-big = El archivo es demasiado grande para ser un tema. Un tema pesa como máximo 64 KB.
+kit-theme-too-big = Este archivo de tema es demasiado grande. El tamaño máximo es 64 KB.
 
 # Fault in a theme file the person is trying: it holds unreadable characters.
-kit-theme-not-sheet = El archivo no es una hoja de estilo: contiene algo más que palabras.
+kit-theme-not-sheet = Este archivo no es una hoja de estilo. Contiene algo más que texto sin formato.
 
 # Fault in a theme file the person is trying: it brings in another file.
-kit-theme-imports = un tema no puede traer otro archivo ni una dirección web.
+kit-theme-imports = un tema no puede importar otro archivo ni una dirección web.
 
 # Fault in a theme file the person is trying: a value is too long. $name is the setting's name.
-kit-theme-too-long = --{ $name } es demasiado largo para ser un valor.
+kit-theme-too-long = El valor de --{ $name } es demasiado largo.
 
 # Fault in a theme file the person is trying: a setting that should be a colour is not one Trindle can read. $name is the setting's name.
-kit-theme-not-colour = --{ $name } no es un color que Trindle pueda leer.
+kit-theme-not-colour = Trindle no puede leer --{ $name } como un color.
 
 # Fault in a theme file the person is trying: a setting that should be a number is not one Trindle can read.
-kit-theme-not-number = --{ $name } no es un número que Trindle pueda leer.
+kit-theme-not-number = Trindle no puede leer --{ $name } como un número.
 
 # Fault in a theme file the person is trying: a setting that should be a shadow is not one Trindle can read.
-kit-theme-not-shadow = --{ $name } no es una sombra que Trindle pueda leer.
+kit-theme-not-shadow = Trindle no puede leer --{ $name } como una sombra.
 
 # Fault in a theme file the person is trying: nothing in it is a setting Trindle knows.
-kit-theme-nothing-known = Nada del archivo es un valor que Trindle conozca, así que no cambiaría nada.
+kit-theme-nothing-known = Trindle no reconoce ningún ajuste de este archivo, así que no cambiaría nada.
 
 # The name a screen reader gives a ring that shows how far a job has got.
 kit-progress = Progreso
@@ -144,7 +144,7 @@ kit-progress = Progreso
 # The name a screen reader gives a menu that opens over a window.
 kit-menu = Menú
 
-kit-job-wait = Espera a que termine el trabajo.
+kit-job-wait = Espera a que termine la tarea.
 
 # Shown at the end of a dropdown's search box: how many rows match out of how many there are.
 kit-search-of = { $n } de { $total }
@@ -261,13 +261,13 @@ kit-key-shift = Mayús
 
 kit-key-alt = Alt
 
-kit-key-logo = Logo
+kit-key-logo = Super
 
 # Said in a window of Trindle's own when something tried to press a button that only the person may press.
-kit-only-your-own = Aquí solo funciona su propia pulsación.
+kit-only-your-own = Solo tú puedes pulsar este botón.
 
 # Said in a window when keys are pressed but the keyboard layout could not be read.
-kit-no-layout = No se pudo leer la distribución del teclado, así que escribir no hace nada.
+kit-no-layout = Trindle no pudo leer la distribución del teclado, así que no puedes escribir.
 
 
 
@@ -278,13 +278,13 @@ kit-divider = Divisor
 kit-click-again-small = sí
 
 # Read out by the screen reader for the control under something dragged, when letting go there would drop it in.
-kit-drop-target = Zona de destino
+kit-drop-target = Zona para soltar
 
 # Fault in a theme or style sheet: a setting that takes only named steps was given something else. $steps is the list of steps, $guide the file that explains them.
-kit-theme-not-step = --{ $name } solo admite uno de estos pasos: { $steps }. Cualquier otro se ignora. Consulta { $guide }.
+kit-theme-not-step = --{ $name } solo puede ser uno de estos valores: { $steps }. Trindle ignora cualquier otro. Consulta { $guide }.
 
 # Standard error, when the folder of the person's style sheet cannot be watched. $folder is the folder, $why the system's reason.
-kit-sheet-not-watched = Los cambios en la hoja de estilo de { $folder } solo se verán tras reiniciar: { $why }
+kit-sheet-not-watched = Reinicia para ver los cambios en la hoja de estilo de { $folder }. { $why }
 
 # What a screen reader calls the row of menu titles across the top of a window.
 kit-menu-bar = Barra de menús
@@ -314,10 +314,10 @@ kit-range-low = extremo inferior
 kit-range-high = extremo superior
 
 # The button that takes a step off a number box's number. $what is the box's name.
-kit-spin-less = Menos { $what }
+kit-spin-less = Disminuir { $what }
 
 # The button that adds a step to a number box's number. $what is the box's name.
-kit-spin-more = Más { $what }
+kit-spin-more = Aumentar { $what }
 
 # Red words under a number box whose typing is not a number.
 kit-spin-not-number = Escribe un número de { $min } a { $max }
@@ -328,15 +328,15 @@ kit-tab-count = { $title }, { $count }
 # The ready settings page for a program's own look (settings::look_page).
 kit-look-title = Aspecto
 
-kit-look-lead = Cómo se ve este programa, haga lo que haga el resto del escritorio.
+kit-look-lead = Elige cómo se ve este programa, con independencia del resto del escritorio.
 
 kit-look-group = Aspecto
 
 kit-look-shade = Claro u oscuro
 
-kit-look-shade-help = Seguir al escritorio, o usar siempre un solo aspecto.
+kit-look-shade-help = Igual que el escritorio, o siempre claro u oscuro.
 
-kit-look-desktop = Como el escritorio
+kit-look-desktop = Igual que el escritorio
 
 kit-look-dark = Oscuro
 
@@ -344,10 +344,10 @@ kit-look-light = Claro
 
 kit-look-highlight = Color de resalte
 
-kit-look-highlight-help = El color de la acción principal y de lo que está elegido.
+kit-look-highlight-help = El color de los botones principales y de los elementos seleccionados.
 
 # A button that gives the highlight back to the desktop's choice.
-kit-look-highlight-desktop = Usar el del escritorio
+kit-look-highlight-desktop = Igual que el escritorio
 
 # Over the column of week numbers in a date picker; keep it as short as the short weekday names.
 kit-date-week-short = Sem
@@ -374,7 +374,7 @@ kit-key-end = Fin
 
 kit-key-enter = Intro
 
-kit-key-escape = Escape
+kit-key-escape = Esc
 
 kit-key-tab = Tab
 
@@ -390,10 +390,10 @@ kit-key-insert = Insertar
 kit-shortcuts = Atajos de teclado
 
 # Under a shortcut on that page whose keys the window always takes first.
-kit-shortcut-kept-window = La ventana se reserva esta tecla para moverse entre partes y para cerrar.
+kit-shortcut-kept-window = Esta tecla está reservada para moverse entre controles y cerrar la ventana.
 
 # Under a shortcut on that page whose keys a text box takes first while you type.
-kit-shortcut-kept-typing = Un cuadro de texto recibe primero esta tecla mientras escribes.
+kit-shortcut-kept-typing = Mientras escribes, esta tecla va primero al cuadro de texto.
 
 # The heading of the page of emoji to pick from.
 kit-emoji = Emoji
@@ -803,7 +803,7 @@ kit-player-seek = Posición
 
 kit-player-mute = Silenciar
 
-kit-player-unmute = Activar el sonido
+kit-player-unmute = Activar sonido
 
 kit-player-volume = Volumen
 
@@ -813,7 +813,7 @@ kit-player-time = { $at } de { $length }
 ## The page shown after a program crashed or met a fault
 kit-crash-title = Algo salió mal
 
-kit-crash-lead = { $program } se detuvo por un fallo. Copia el informe de abajo y envíalo con tu informe de error, para que se pueda corregir.
+kit-crash-lead = { $program } se detuvo porque algo salió mal. Copia el informe de abajo y envíalo con tu informe de error para que se pueda corregir el problema.
 
 kit-crash-copy = Copiar informe
 
@@ -845,13 +845,13 @@ kit-frame-move = Mover
 kit-frame-resize = Cambiar tamaño
 
 # Settings: which figures numbers are written in.
-kit-numerals-title = Cifras
+kit-numerals-title = Estilo de números
 
 kit-numerals-help = Cómo se escriben los números, las fechas y las horas.
 
-kit-numerals-auto = Como suele escribirlas la región
+kit-numerals-auto = Lo habitual en tu región
 
 kit-numerals-latin = Siempre de 0 a 9
 
-kit-numerals-native = Las cifras propias del idioma
+kit-numerals-native = Los dígitos propios del idioma
 

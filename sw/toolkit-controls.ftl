@@ -3,22 +3,22 @@
 
 
 # What the box at the top of the command palette is called; the screen reader says it and it shows while the box is empty.
-kit-palette-search = Andika ili kupata kitendo
+kit-palette-search = Tafuta vitendo
 
 # What the palette's list of matching actions is called; the screen reader says it.
 kit-palette-list = Vitendo vinavyolingana
 
 # Shown under the palette's box when no action matches what was typed.
-kit-palette-none = Hakuna kitendo kinacholingana.
+kit-palette-none = Hakuna vitendo vinavyolingana.
 
 # Red words under a phone number box when what was typed cannot be a phone number.
-kit-check-phone = Andika namba ya simu ya tarakimu 7 hadi 15.
+kit-check-phone = Weka namba ya simu yenye tarakimu 7 hadi 15.
 
 # Red words under a date box when what was typed is not a real date.
-kit-check-date = Andika tarehe halisi kama mwaka-mwezi-siku, kama 2026-10-30.
+kit-check-date = Weka tarehe kama mwaka-mwezi-siku, kama 2026-10-30.
 
 # Red words under a colour box when what was typed is not a colour code.
-kit-check-hex = Andika msimbo wa rangi kama #fbc711.
+kit-check-hex = Weka msimbo wa rangi, kama #fbc711.
 
 # Tip of the button beside a volume slider that silences the sound.
 kit-volume-mute = Nyamazisha
@@ -63,14 +63,14 @@ kit-dock-float = Elea juu ya ukurasa
 kit-dock-grip = Buruta hadi ukingo mwingine
 
 # Red words under a form's box for a number when what was typed is not a number.
-kit-form-number = Andika namba, kama 12 au 3.5.
+kit-form-number = Weka namba, kama 12 au 3.5.
 
 # The sentence under a file chooser page's title, by what it is for.
 kit-files-open-lead = Chagua faili ya kufungua.
 
-kit-files-save-lead = Chagua folda na uandike jina la kuhifadhia.
+kit-files-save-lead = Chagua folda, kisha andika jina la faili.
 
-kit-files-folder-lead = Chagua folda, au ubaki kwenye uliyopo.
+kit-files-folder-lead = Chagua folda, au baki kwenye uliyopo.
 
 # The main answer at the foot of a file chooser page.
 kit-files-open = Fungua
@@ -98,15 +98,15 @@ kit-files-name = Jina la faili
 kit-files-empty = Folda hii haina kitu.
 
 # Red words when the folder cannot be read.
-kit-filepage-unreadable = Folda hii haikuweza kusomwa. Chagua nyingine.
+kit-filepage-unreadable = Trindle haikuweza kufungua folda hii. Chagua nyingine.
 
 # Red words after Open with no file chosen.
 kit-files-choose-first = Chagua faili kwanza.
 
 # Red words after Save with no name, or a name that cannot be a file's.
-kit-files-name-needed = Andika jina la faili, bila mkwaju.
+kit-files-name-needed = Andika jina la faili. Haliwezi kuwa na mkwaju.
 
-kit-fonts-lead = Chagua fonti na ukubwa wake.
+kit-fonts-lead = Chagua fonti na ukubwa.
 
 # The box that finds fonts by name.
 kit-fonts-search = Tafuta fonti kwa jina

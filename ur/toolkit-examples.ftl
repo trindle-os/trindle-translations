@@ -2,10 +2,10 @@
 # machine translated (Urdu), not yet reviewed by a person.
 
 # Standard error, when no Wayland desktop answers.
-kit-run-no-desktop = ونڈو کھولنے کے لیے کوئی Wayland ڈیسک ٹاپ نہیں ہے
+kit-run-no-desktop = کسی Wayland ڈیسک ٹاپ نے جواب نہیں دیا، اس لیے ونڈو نہیں کھل سکتی
 
 # Standard error, when the desktop would not open the window.
-kit-run-no-window = ڈیسک ٹاپ نے ونڈو نہیں کھولی
+kit-run-no-window = ڈیسک ٹاپ ونڈو نہیں کھول سکا۔
 
 # The hello example: the window's title, its button and what it says about the presses.
 kit-example-hello-title = السلام علیکم
@@ -100,37 +100,37 @@ kit-example-gallery-span-now = { $low } سے { $high } تک
 # The gallery's dialog card: its heading, how it behaves, the button that opens the page, and the page's title, message and main answer.
 kit-example-gallery-dialog = ڈائیلاگ صفحہ
 
-kit-example-gallery-dialog-how = سوال پوری ونڈو لیتا ہے، کبھی پاپ اپ نہیں بنتا۔ کی بورڈ منسوخ پر شروع ہوتا ہے اور Escape منسوخ کرتا ہے۔
+kit-example-gallery-dialog-how = سوال پاپ اپ ہونے کے بجائے پوری ونڈو بھر دیتے ہیں۔ پہلے منسوخ منتخب ہوتا ہے، اور Escape منسوخ کرتا ہے۔
 
 kit-example-gallery-dialog-open = گنتی صفر کریں
 
 kit-example-gallery-ask-title = گنتی صفر کریں؟
 
-kit-example-gallery-ask-message = دبانے کی تعداد صفر پر واپس چلی جائے گی۔
+kit-example-gallery-ask-message = اس سے دبانے کی گنتی صفر ہو جائے گی۔
 
 kit-example-gallery-ask-yes = صفر کریں
 
 # The gallery's sideways card: the heading, how to move it, and the words on each of twelve buttons in the strip.
-kit-example-gallery-along = پہلو کی پٹی
+kit-example-gallery-along = افقی پٹی
 
-kit-example-gallery-along-how = اسے سوائپ کریں، پہیے کے ساتھ Shift، بائیں اور دائیں، یا نظر سے باہر بٹن تک Tab استعمال کریں۔
+kit-example-gallery-along-how = اسے سوائپ کریں، Shift دبائے رکھ کر ماؤس کا پہیہ گھمائیں، یا بائیں اور دائیں ایرو کلیدیں استعمال کریں۔ نظر سے باہر بٹن تک پہنچنے کے لیے Tab دبائیں۔
 
 kit-example-gallery-along-item = آئٹم { $n }
 
 kit-example-gallery-split = تقسیم
 
-kit-example-gallery-split-first = تقسیم کی لکیر کھینچیں، یا اس پر فوکس کر کے ایرو کلیدیں استعمال کریں۔
+kit-example-gallery-split-first = تقسیم کی لکیر کھینچیں، یا اسے منتخب کر کے ایرو کلیدیں استعمال کریں۔
 
-kit-example-gallery-split-second = Home اور End اسے کسی بھی سرے تک لے جاتی ہیں۔
+kit-example-gallery-split-second = لکیر کو کسی بھی سرے تک لے جانے کے لیے Home یا End دبائیں۔
 
 kit-example-gallery-menu = سیاق و سباق کا مینو
 
-kit-example-gallery-menu-how = یہاں رائٹ کلک کریں، انگلی دبائے رکھیں، یا Menu کلید دبائیں؛ قطار روشن کرنے کے لیے کوئی حرف لکھیں۔
+kit-example-gallery-menu-how = یہاں رائٹ کلک کریں، دبا کر رکھیں، یا Menu کلید دبائیں۔ قطار کو نمایاں کرنے کے لیے کوئی حرف لکھیں۔
 
 # The context menu example: the window's title, what it says to do, the card's words, its menu's rows, and what shows once it is removed.
 kit-example-context-title = سیاق و سباق کا مینو
 
-kit-example-context-how = کارڈ پر رائٹ کلک کریں، اس پر انگلی دبائے رکھیں، یا Menu کلید دبائیں
+kit-example-context-how = کارڈ پر رائٹ کلک کریں، اسے دبا کر رکھیں، یا Menu کلید دبائیں
 
 kit-example-context-note = خریداری کی فہرست
 
@@ -160,7 +160,7 @@ kit-example-bench-rows = دس ہزار قطاریں
 # The menu bar example: the window's title, what it says to do, the menus' titles and rows, and what shows once a row is chosen.
 kit-example-bar-title = مینو بار
 
-kit-example-bar-how = کسی عنوان کو دبائیں، یا بار تک Tab کریں اور ایرو کلیدیں، Return اور Escape استعمال کریں۔ عنوان کے نشان زد حرف کے ساتھ Alt اسے کھولتا ہے، اور کوئی حرف لکھنے سے اس سے شروع ہونے والی اگلی قطار روشن ہوتی ہے۔
+kit-example-bar-how = مینو کے نام پر کلک کریں، یا Tab دبا کر مینو بار تک پہنچیں اور ایرو کلیدیں، Enter اور Escape استعمال کریں۔ مینو کے نشان زد حرف کے ساتھ Alt دبانے سے وہ کھلتا ہے۔ اس حرف سے شروع ہونے والی اگلی قطار کو نمایاں کرنے کے لیے وہ حرف لکھیں۔
 
 kit-example-bar-file = &فائل
 
@@ -187,7 +187,7 @@ kit-example-bar-chose = آپ نے { $what } چنا
 # The gallery's column view card: its heading, how it behaves, its name for a screen reader, the two column headings, and the names of the folders and files in it.
 kit-example-gallery-columns = کالم منظر
 
-kit-example-gallery-columns-how = قطاریں والد کے نیچے کھلتی ہیں۔ ایرو دبائیں، ڈبل کلک کریں، یا Right، Left اور Enter استعمال کریں۔ Ctrl اور Shift کئی قطاریں چنتے ہیں، اور ان کے نیچے کی خالی جگہ سے کھینچی گئی پٹی جو کچھ پار کرے اسے چنتی ہے۔
+kit-example-gallery-columns-how = ایرو پر کلک کریں یا فولڈر پر ڈبل کلک کریں تاکہ وہ کھلے، یا دائیں، بائیں اور Enter کلیدیں استعمال کریں۔ کئی قطاریں منتخب کرنے کے لیے Ctrl یا Shift دبائے رکھیں، یا قطاروں پر ڈریگ کریں۔
 
 kit-example-gallery-columns-name = فائلیں
 

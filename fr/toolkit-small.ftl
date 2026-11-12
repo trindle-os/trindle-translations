@@ -44,14 +44,14 @@ kit-more-people =
 # The gradient editor. The bar's name has $n, how many stops the gradient has.
 kit-gradient-bar = Dégradé de { $n } points
 
-kit-gradient-place = Position du point choisi
+kit-gradient-place = Position du point sélectionné
 
 kit-gradient-add = Ajouter un point
 
 kit-gradient-remove = Retirer le point
 
 # The "i" button that shows and hides a card's help.
-kit-help-show = Afficher l'aide
+kit-help-show = Afficher l’aide
 
-kit-help-hide = Masquer l'aide
+kit-help-hide = Masquer l’aide
 

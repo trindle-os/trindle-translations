@@ -45,7 +45,7 @@ kit-more-people =
 # The gradient editor. The bar's name has $n, how many stops the gradient has.
 kit-gradient-bar = Gradienti yenye vituo { $n }
 
-kit-gradient-place = Mahali pa kituo kilichochaguliwa
+kit-gradient-place = Nafasi ya kituo kilichochaguliwa
 
 kit-gradient-add = Ongeza kituo
 

@@ -2,10 +2,10 @@
 # machine translated (Hindi), not yet reviewed by a person.
 
 # Standard error, when no Wayland desktop answers.
-kit-run-no-desktop = खिड़की खोलने के लिए कोई Wayland डेस्कटॉप नहीं है
+kit-run-no-desktop = किसी Wayland डेस्कटॉप ने जवाब नहीं दिया, इसलिए विंडो नहीं खुल सकती
 
 # Standard error, when the desktop would not open the window.
-kit-run-no-window = डेस्कटॉप ने खिड़की नहीं खोली
+kit-run-no-window = डेस्कटॉप विंडो नहीं खोल सका।
 
 # The hello example: the window's title, its button and what it says about the presses.
 kit-example-hello-title = नमस्ते
@@ -80,7 +80,7 @@ kit-example-gallery-progress = प्रगति
 
 
 # The gallery's number box: the card's heading, and the name of the box.
-kit-example-gallery-copies = संख्या बॉक्स
+kit-example-gallery-copies = संख्या फ़ील्ड
 
 kit-example-gallery-copies-name = प्रतियाँ
 
@@ -99,37 +99,37 @@ kit-example-gallery-span-now = { $low } से { $high } तक
 # The gallery's dialog card: its heading, how it behaves, the button that opens the page, and the page's title, message and main answer.
 kit-example-gallery-dialog = संवाद पेज
 
-kit-example-gallery-dialog-how = सवाल पूरी विंडो घेरता है, कभी पॉप-अप नहीं बनता। कीबोर्ड रद्द करें पर शुरू होता है और Escape रद्द कर देता है।
+kit-example-gallery-dialog-how = सवाल पॉप-अप की जगह पूरी विंडो में दिखते हैं। रद्द करें पहले से चुना होता है, और Escape दबाने पर रद्द हो जाता है।
 
 kit-example-gallery-dialog-open = गिनती रीसेट करें
 
 kit-example-gallery-ask-title = गिनती रीसेट करें?
 
-kit-example-gallery-ask-message = दबाने की संख्या वापस शून्य हो जाएगी।
+kit-example-gallery-ask-message = इससे दबाने की गिनती शून्य हो जाएगी।
 
 kit-example-gallery-ask-yes = रीसेट करें
 
 # The gallery's sideways card: the heading, how to move it, and the words on each of twelve buttons in the strip.
-kit-example-gallery-along = बगल की पट्टी
+kit-example-gallery-along = क्षैतिज पट्टी
 
-kit-example-gallery-along-how = इसे स्वाइप करें, पहिये के साथ Shift, बायाँ और दायाँ, या Tab से नज़र से बाहर के किसी बटन तक जाएँ।
+kit-example-gallery-along-how = इसे स्वाइप करें, Shift दबाए रखकर माउस व्हील घुमाएँ, या बायाँ और दायाँ तीर कुंजियाँ इस्तेमाल करें। नज़र से बाहर के किसी बटन तक पहुँचने के लिए Tab दबाएँ।
 
 kit-example-gallery-along-item = चीज़ { $n }
 
 kit-example-gallery-split = विभाजन
 
-kit-example-gallery-split-first = विभाजक को खींचें, या उस पर फ़ोकस करके तीर की कुंजियाँ इस्तेमाल करें।
+kit-example-gallery-split-first = विभाजक को खींचें, या उसे चुनकर तीर की कुंजियाँ इस्तेमाल करें।
 
-kit-example-gallery-split-second = Home और End उसे किसी भी सिरे पर ले जाते हैं।
+kit-example-gallery-split-second = विभाजक को किसी भी सिरे पर ले जाने के लिए Home या End दबाएँ।
 
 kit-example-gallery-menu = संदर्भ मेनू
 
-kit-example-gallery-menu-how = यहाँ राइट क्लिक करें, उँगली टिकाए रखें, या Menu कुंजी दबाएँ; किसी पंक्ति को रोशन करने के लिए अक्षर लिखें।
+kit-example-gallery-menu-how = यहाँ राइट-क्लिक करें, देर तक दबाए रखें, या Menu कुंजी दबाएँ। किसी पंक्ति को हाइलाइट करने के लिए अक्षर लिखें।
 
 # The context menu example: the window's title, what it says to do, the card's words, its menu's rows, and what shows once it is removed.
 kit-example-context-title = संदर्भ मेनू
 
-kit-example-context-how = कार्ड पर राइट क्लिक करें, उस पर उँगली टिकाए रखें, या Menu कुंजी दबाएँ
+kit-example-context-how = कार्ड पर राइट-क्लिक करें, उसे देर तक दबाए रखें, या Menu कुंजी दबाएँ
 
 kit-example-context-note = खरीदारी की सूची
 
@@ -159,7 +159,7 @@ kit-example-bench-rows = दस हज़ार पंक्तियाँ
 # The menu bar example: the window's title, what it says to do, the menus' titles and rows, and what shows once a row is chosen.
 kit-example-bar-title = मेनू पट्टी
 
-kit-example-bar-how = किसी शीर्षक को दबाएँ, या Tab से पट्टी तक जाकर तीर की कुंजियाँ, Return और Escape इस्तेमाल करें। शीर्षक के चिह्नित अक्षर के साथ Alt उसे खोलता है, और अक्षर लिखने से उस अक्षर से शुरू होने वाली अगली पंक्ति रोशन होती है।
+kit-example-bar-how = किसी मेन्यू के नाम पर क्लिक करें, या Tab दबाकर मेन्यू बार तक जाएँ और तीर की कुंजियाँ, Enter और Escape इस्तेमाल करें। मेन्यू के चिह्नित अक्षर के साथ Alt दबाने पर वह खुलता है। उस अक्षर से शुरू होने वाली अगली पंक्ति को हाइलाइट करने के लिए अक्षर लिखें।
 
 kit-example-bar-file = &फ़ाइल
 
@@ -186,7 +186,7 @@ kit-example-bar-chose = आपने { $what } चुना
 # The gallery's column view card: its heading, how it behaves, its name for a screen reader, the two column headings, and the names of the folders and files in it.
 kit-example-gallery-columns = स्तंभ दृश्य
 
-kit-example-gallery-columns-how = पंक्तियाँ अपने माता-पिता के नीचे खुलती हैं। तीर दबाएँ, डबल क्लिक करें, या दायाँ, बायाँ और Enter इस्तेमाल करें। Ctrl और Shift कई पंक्तियाँ चुनते हैं, और उनके नीचे की खाली जगह से खींची गई पट्टी वह सब चुनती है जिसे वह पार करती है।
+kit-example-gallery-columns-how = खोलने के लिए तीर पर क्लिक करें या किसी फ़ोल्डर पर डबल-क्लिक करें, या दायाँ, बायाँ और Enter कुंजियाँ इस्तेमाल करें। कई पंक्तियाँ चुनने के लिए Ctrl या Shift दबाए रखें, या पंक्तियों के ऊपर से खींचें।
 
 kit-example-gallery-columns-name = फ़ाइलें
 

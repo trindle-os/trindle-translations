@@ -44,7 +44,7 @@ kit-more-people =
 # The gradient editor. The bar's name has $n, how many stops the gradient has.
 kit-gradient-bar = { $n } पड़ावों वाला ग्रेडिएंट
 
-kit-gradient-place = चुने गए पड़ाव की जगह
+kit-gradient-place = चुने गए पड़ाव की स्थिति
 
 kit-gradient-add = पड़ाव जोड़ें
 

@@ -3,95 +3,95 @@
 
 
 # Why a file was not read or written, worded as a clause that can follow "because".
-kit-files-not-text = onu tutan dosya metin değil ve okunamıyor
+kit-files-not-text = kaydedildiği dosya metin olmadığı için okunamıyor
 
-kit-files-not-allowed = bu hesabın onu tutan dosyayı okumaya izni yok
+kit-files-not-allowed = hesabınızın kaydedildiği dosyayı okuma izni yok
 
-kit-files-not-ordinary = onu tutan dosya sıradan bir dosya değil ve okunamıyor
+kit-files-not-ordinary = kaydedildiği dosya sıradan bir dosya olmadığı için okunamıyor
 
-kit-files-unreadable = onu tutan dosya okunamıyor
+kit-files-unreadable = kaydedildiği dosya okunamıyor
 
-kit-files-too-big = onu tutan dosya bütünüyle okunamayacak kadar büyük
+kit-files-too-big = kaydedildiği dosya tek seferde okunamayacak kadar büyük
 
-kit-files-no-name-kept = altında saklanacağı bir adı yok
+kit-files-no-name-kept = kaydedileceği bir dosya adı yok
 
-kit-files-dangling = olmayan bir yere giden bağlantı
+kit-files-dangling = var olmayan bir şeye giden bağlantı
 
-kit-files-nought = bir ad sıfır karakteri içeremez
+kit-files-nought = adında izin verilmeyen bir sıfır baytı var
 
 kit-files-taken = bu adda zaten bir şey var
 
-kit-files-not-a-name = bir klasördeki ad değil
+kit-files-not-a-name = klasördeki bir öğe için geçerli bir ad değil
 
 kit-files-old-name-stays = eski ad kaldırılamadı
 
-kit-files-no-name-opened = klasörün içinde açılacağı bir adı yok
+kit-files-no-name-opened = açılacağı bir dosya adı yok
 
-kit-files-not-plain = tek bir düz ad değil
+kit-files-not-plain = tek bir dosya adı olmalı
 
-kit-files-name-unkeepable = adı bir ayar dosyasında saklanamaz
+kit-files-name-unkeepable = adı bir ayar dosyasına kaydedilemez
 
-kit-files-char-unkeepable = satır sonu ya da saklanamayan başka bir karakter içeriyor
+kit-files-char-unkeepable = satır sonu ya da kaydedilemeyen başka bir karakter içeriyor
 
 kit-files-changed = kopyalanırken değişti
 
-kit-files-not-a-file = ne dosya ne klasör
+kit-files-not-a-file = ne dosya ne de klasör
 
 # What a program with no window says when it cannot reach the desktop.
-kit-windowless-no-desktop = konuşulacak masaüstü yok
+kit-windowless-no-desktop = Trindle masaüstüne ulaşamadı
 
 kit-windowless-no-answer = masaüstü yanıt vermedi
 
 kit-windowless-no-seat = masaüstünde klavye ya da fare yok
 
 # Answers to a call over the session bus that could not be made.
-kit-bus-no-answer-in-time = Zamanında yanıt gelmedi.
+kit-bus-no-answer-in-time = İstek zaman aşımına uğradı.
 
-kit-bus-already-offered = Bu arayüz bu yolda zaten sunuluyor.
+kit-bus-already-offered = Bu arayüz bu yolda zaten kullanılabilir.
 
-kit-bus-bad-path = Bu geçerli bir nesne yolu değil.
+kit-bus-bad-path = Bu nesne yolu geçerli değil.
 
-kit-bus-too-many-waiting = Çok fazla çağrı bekliyor; yeniden deneyin.
+kit-bus-too-many-waiting = Çok fazla istek bekliyor. Yeniden deneyin.
 
-kit-bus-no-machine-id = Makine kimliği yok.
+kit-bus-no-machine-id = Makine kimliği eksik.
 
-kit-bus-busy = Bu arayüze yapılan başka bir çağrıyla meşgul; yeniden deneyin.
+kit-bus-busy = Bu arayüze yapılan başka bir istek sürüyor. Yeniden deneyin.
 
-kit-bus-no-interface = Burada böyle bir arayüz yok.
+kit-bus-no-interface = Bu arayüz bulunamadı.
 
-kit-bus-no-object = Burada böyle bir nesne yok.
+kit-bus-no-object = Bu nesne bulunamadı.
 
-kit-bus-give-interface = Bir arayüz verin.
+kit-bus-give-interface = Bir arayüz belirtin.
 
-kit-bus-give-property = Bir arayüz ve bir özellik verin.
+kit-bus-give-property = Bir arayüz ve bir özellik belirtin.
 
-kit-bus-give-value = Bir arayüz, bir özellik ve bir değer verin.
+kit-bus-give-value = Bir arayüz, bir özellik ve bir değer belirtin.
 
-kit-bus-no-property = Böyle bir özellik yok.
+kit-bus-no-property = Bu özellik bulunamadı.
 
-kit-bus-read-only = Bu özellik ayarlanamaz.
+kit-bus-read-only = Bu özellik değiştirilemez.
 
-kit-bus-unanswered = Yanıt verilmedi.
+kit-bus-unanswered = İstek yanıt almadı.
 
-kit-bus-closed = yol kapandı
+kit-bus-closed = bağlantı kapandı
 
-kit-bus-no-method-here = Burada böyle bir yöntem yok.
+kit-bus-no-method-here = Bu yöntem bulunamadı.
 
 # Answers from the media player link and the notification link.
-kit-mpris-seek = Seek bir zaman alır.
+kit-mpris-seek = Seek için bir zaman değeri gerekir.
 
-kit-mpris-set-position = SetPosition bir parça ve bir zaman alır.
+kit-mpris-set-position = SetPosition için bir parça ve bir zaman değeri gerekir.
 
-kit-mpris-no-uri = Bu oynatıcı adres açmaz.
+kit-mpris-no-uri = Bu oynatıcı adres açamaz.
 
-kit-mpris-app-id = Uygulama kimliği düz bir ters alan adı değil.
+kit-mpris-app-id = Uygulama kimliği basit bir ters alan adı olmalı.
 
-kit-notify-bad-arguments = Bağımsız değişkenler bu çağrıya uymuyor.
+kit-notify-bad-arguments = Bağımsız değişkenler bu çağrı için geçerli değil.
 
-kit-once-raise-only = burada yalnızca Raise sunuluyor
+kit-once-raise-only = burada yalnızca Raise destekleniyor
 
 # Why a document could not be made into a PDF.
 kit-print-too-long = belge 200 sayfadan uzun
 
-kit-print-no-room = sayfaları boyayacak yer yok
+kit-print-no-room = sayfaları çizmek için yeterli bellek yok
 

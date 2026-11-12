@@ -3,10 +3,10 @@
 
 
 # The style sheet checker: a number written past the limits Trindle's sheet gives it. $line is the line in the file, $name the setting.
-kit-sheet-out-of-range = Dòng { $line }: --{ $name } là { $value }, nằm ngoài giới hạn từ { $min } đến { $max }.
+kit-sheet-out-of-range = Dòng { $line }: --{ $name } là { $value }. Giá trị phải nằm trong khoảng từ { $min } đến { $max }.
 
 # The style sheet checker: a colour the sheet sets cannot be told from what it is drawn on. $look is dark or light, $ink the setting, $on what it is drawn on, $stands and $floor contrast ratios.
-kit-sheet-short = Ở giao diện { $look }, --{ $ink } trên { $on } đạt tỉ lệ { $stands } trên một, thấp hơn mức { $floor } trên một mà nó cần.
+kit-sheet-short = Ở giao diện { $look }, --{ $ink } trên { $on } có độ tương phản { $stands } trên 1. Cần tối thiểu { $floor } trên 1.
 
 # The two looks, as named in the line above.
 kit-sheet-dark = tối
@@ -30,25 +30,25 @@ kit-inspect-size = { $w } nhân { $h } điểm ảnh tại { $x }, { $y }
 # The inspector: the widget's state, $state being the words below joined by commas.
 kit-inspect-state = Trạng thái: { $state }
 
-kit-inspect-keyboard = bàn phím đang ở trên nó
+kit-inspect-keyboard = đang có tiêu điểm bàn phím
 
 kit-inspect-pointer = con trỏ đang ở trên nó
 
 kit-inspect-pressed = đang được nhấn
 
-kit-inspect-takes-keys = nhận bàn phím
+kit-inspect-takes-keys = nhận được thao tác gõ
 
 kit-inspect-off = không dùng được
 
-kit-inspect-rest = đang nghỉ
+kit-inspect-rest = bình thường
 
 # The inspector: what a screen reader is told. $role is its kind, such as Button; $name its name.
 kit-inspect-reader = Trình đọc màn hình: { $role } "{ $name }"
 
-kit-inspect-unread = Trình đọc màn hình: không được báo gì về nó
+kit-inspect-unread = Trình đọc màn hình: không có mô tả
 
 # The speed overlay, Ctrl+Shift+F11: how long the last frame took to paint.
-kit-speed-paint = Vẽ { $ms } ms
+kit-speed-paint = Thời gian vẽ: { $ms } ms
 
 # The speed overlay: memory the program holds, in megabytes.
 kit-speed-memory = Bộ nhớ { $mb } MB
@@ -67,19 +67,19 @@ kit-new-usage =
     Tạo một thư mục <name> chứa một chương trình có một cửa sổ, một bảng định kiểu, một tệp ngôn ngữ và một bài kiểm tra. Với --toolkit, nó dùng bộ công cụ ở đường dẫn đó.
 
 # trindle-new: the name given cannot be a program's name. $name is what was given.
-kit-new-bad-name = { $name } không thể là tên của một chương trình: hãy dùng chữ thường, số và dấu gạch nối, bắt đầu bằng một chữ cái.
+kit-new-bad-name = { $name } không thể là tên chương trình. Hãy dùng chữ thường, số và dấu gạch nối, và bắt đầu bằng một chữ cái.
 
 # trindle-new: a file or folder of that name is already there.
-kit-new-exists = { $name } đã có sẵn, nên chưa ghi gì.
+kit-new-exists = { $name } đã tồn tại, nên chưa ghi gì.
 
 # trindle-new: the toolkit folder given cannot be found.
 kit-new-no-toolkit = Không tìm thấy bộ công cụ tại { $path }.
 
 # trindle-new: a file could not be written.
-kit-new-unwritten = Không thể ghi { $path }.
+kit-new-unwritten = Không ghi được { $path }.
 
 # trindle-new: the program was made. $name is its folder.
-kit-new-made = Đã tạo { $name }. Chạy nó bằng cargo run, và kiểm tra bằng cargo test.
+kit-new-made = Đã tạo { $name }. Chạy bằng cargo run và kiểm tra bằng cargo test.
 
 # trindle-lang-check, which lists the words a language still lacks: its help.
 kit-lang-check-usage =
@@ -96,7 +96,7 @@ kit-showcase-words = Chữ thường
 
 kit-showcase-heading = Một tiêu đề
 
-kit-showcase-note = Một dòng nhẹ hơn bên dưới một thứ gì đó
+kit-showcase-note = Chữ phụ
 
 kit-showcase-add = Thêm
 

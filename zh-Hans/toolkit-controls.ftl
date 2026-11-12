@@ -2,7 +2,7 @@
 
 
 # What the box at the top of the command palette is called; the screen reader says it and it shows while the box is empty.
-kit-palette-search = 输入以查找操作
+kit-palette-search = 搜索操作
 
 # What the palette's list of matching actions is called; the screen reader says it.
 kit-palette-list = 匹配的操作
@@ -11,13 +11,13 @@ kit-palette-list = 匹配的操作
 kit-palette-none = 没有匹配的操作。
 
 # Red words under a phone number box when what was typed cannot be a phone number.
-kit-check-phone = 请填写 7 至 15 位数字的电话号码。
+kit-check-phone = 请输入 7 至 15 位数字的电话号码。
 
 # Red words under a date box when what was typed is not a real date.
-kit-check-date = 请填写真实日期，格式为年-月-日，例如 2026-10-30。
+kit-check-date = 请按年-月-日的格式输入日期，例如 2026-10-30。
 
 # Red words under a colour box when what was typed is not a colour code.
-kit-check-hex = 请填写颜色代码，例如 #fbc711。
+kit-check-hex = 请输入颜色代码，例如 #fbc711。
 
 # Tip of the button beside a volume slider that silences the sound.
 kit-volume-mute = 静音
@@ -62,14 +62,14 @@ kit-dock-float = 浮在页面上方
 kit-dock-grip = 拖到另一条边
 
 # Red words under a form's box for a number when what was typed is not a number.
-kit-form-number = 请填写数字，例如 12 或 3.5。
+kit-form-number = 请输入数字，例如 12 或 3.5。
 
 # The sentence under a file chooser page's title, by what it is for.
 kit-files-open-lead = 请选择要打开的文件。
 
-kit-files-save-lead = 请选择文件夹，并输入保存的名称。
+kit-files-save-lead = 请选择文件夹，然后为文件输入名称。
 
-kit-files-folder-lead = 请选择文件夹，或保留当前所在的文件夹。
+kit-files-folder-lead = 请选择文件夹，或留在当前所在的文件夹。
 
 # The main answer at the foot of a file chooser page.
 kit-files-open = 打开
@@ -97,15 +97,15 @@ kit-files-name = 文件名
 kit-files-empty = 这个文件夹是空的。
 
 # Red words when the folder cannot be read.
-kit-filepage-unreadable = 无法读取这个文件夹。请选择另一个。
+kit-filepage-unreadable = Trindle 无法打开这个文件夹。请选择其他文件夹。
 
 # Red words after Open with no file chosen.
 kit-files-choose-first = 请先选择一个文件。
 
 # Red words after Save with no name, or a name that cannot be a file's.
-kit-files-name-needed = 请为文件输入名称，不要带斜杠。
+kit-files-name-needed = 请为文件输入名称。名称中不能包含斜杠。
 
-kit-fonts-lead = 请选择字体及其大小。
+kit-fonts-lead = 请选择字体和字号。
 
 # The box that finds fonts by name.
 kit-fonts-search = 按名称查找字体

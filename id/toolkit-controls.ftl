@@ -3,7 +3,7 @@
 
 
 # What the box at the top of the command palette is called; the screen reader says it and it shows while the box is empty.
-kit-palette-search = Ketik untuk mencari tindakan
+kit-palette-search = Cari tindakan
 
 # What the palette's list of matching actions is called; the screen reader says it.
 kit-palette-list = Tindakan yang cocok
@@ -12,13 +12,13 @@ kit-palette-list = Tindakan yang cocok
 kit-palette-none = Tidak ada tindakan yang cocok.
 
 # Red words under a phone number box when what was typed cannot be a phone number.
-kit-check-phone = Tulis nomor telepon 7 sampai 15 angka.
+kit-check-phone = Masukkan nomor telepon dengan 7 sampai 15 digit.
 
 # Red words under a date box when what was typed is not a real date.
-kit-check-date = Tulis tanggal yang benar sebagai tahun-bulan-hari, seperti 2026-10-30.
+kit-check-date = Masukkan tanggal sebagai tahun-bulan-hari, seperti 2026-10-30.
 
 # Red words under a colour box when what was typed is not a colour code.
-kit-check-hex = Tulis kode warna seperti #fbc711.
+kit-check-hex = Masukkan kode warna, seperti #fbc711.
 
 # Tip of the button beside a volume slider that silences the sound.
 kit-volume-mute = Bisukan
@@ -63,12 +63,12 @@ kit-dock-float = Mengambang di atas halaman
 kit-dock-grip = Seret ke tepi lain
 
 # Red words under a form's box for a number when what was typed is not a number.
-kit-form-number = Tulis angka, seperti 12 atau 3,5.
+kit-form-number = Masukkan angka, seperti 12 atau 3,5.
 
 # The sentence under a file chooser page's title, by what it is for.
 kit-files-open-lead = Pilih file yang akan dibuka.
 
-kit-files-save-lead = Pilih folder dan ketik nama untuk menyimpan.
+kit-files-save-lead = Pilih folder, lalu ketik nama untuk file.
 
 kit-files-folder-lead = Pilih folder, atau tetap di folder yang sedang Anda buka.
 
@@ -98,15 +98,15 @@ kit-files-name = Nama file
 kit-files-empty = Folder ini kosong.
 
 # Red words when the folder cannot be read.
-kit-filepage-unreadable = Folder ini tidak dapat dibaca. Pilih yang lain.
+kit-filepage-unreadable = Trindle tidak dapat membuka folder ini. Pilih folder lain.
 
 # Red words after Open with no file chosen.
 kit-files-choose-first = Pilih file dulu.
 
 # Red words after Save with no name, or a name that cannot be a file's.
-kit-files-name-needed = Ketik nama untuk file, tanpa garis miring.
+kit-files-name-needed = Ketik nama untuk file. Nama tidak boleh berisi garis miring.
 
-kit-fonts-lead = Pilih font dan ukurannya.
+kit-fonts-lead = Pilih font dan ukuran.
 
 # The box that finds fonts by name.
 kit-fonts-search = Cari font berdasarkan nama

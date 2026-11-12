@@ -2,10 +2,10 @@
 # machine translated (German), not yet reviewed by a person.
 
 # Standard error, when no Wayland desktop answers.
-kit-run-no-desktop = Kein Wayland-Desktop, auf dem ein Fenster geöffnet werden kann
+kit-run-no-desktop = Keine Wayland-Arbeitsoberfläche hat geantwortet, daher lässt sich das Fenster nicht öffnen
 
 # Standard error, when the desktop would not open the window.
-kit-run-no-window = Der Desktop hat kein Fenster geöffnet
+kit-run-no-window = Die Arbeitsoberfläche konnte kein Fenster öffnen.
 
 # The hello example: the window's title, its button and what it says about the presses.
 kit-example-hello-title = Hallo
@@ -54,7 +54,7 @@ kit-example-gallery-count = { $n } Mal gedrückt
 
 kit-example-gallery-choices = Auswahl
 
-kit-example-gallery-switch-name = Hinweise
+kit-example-gallery-switch-name = Benachrichtigungen
 
 kit-example-gallery-size-name = Größe
 
@@ -100,37 +100,37 @@ kit-example-gallery-span-now = Von { $low } bis { $high }
 # The gallery's dialog card: its heading, how it behaves, the button that opens the page, and the page's title, message and main answer.
 kit-example-gallery-dialog = Dialogseite
 
-kit-example-gallery-dialog-how = Eine Frage nimmt das ganze Fenster ein, nie ein Pop-up. Die Tastatur beginnt bei Abbrechen, und Escape bricht ab.
+kit-example-gallery-dialog-how = Fragen füllen das ganze Fenster aus, statt als Pop-up zu erscheinen. Zuerst ist Abbrechen ausgewählt, und Esc bricht ab.
 
 kit-example-gallery-dialog-open = Zähler zurücksetzen
 
 kit-example-gallery-ask-title = Den Zähler zurücksetzen?
 
-kit-example-gallery-ask-message = Die Zahl der Klicks geht zurück auf Null.
+kit-example-gallery-ask-message = Dadurch wird die Zahl der Klicks auf null zurückgesetzt.
 
 kit-example-gallery-ask-yes = Zurücksetzen
 
 # The gallery's sideways card: the heading, how to move it, and the words on each of twelve buttons in the strip.
-kit-example-gallery-along = Streifen zur Seite
+kit-example-gallery-along = Waagerechter Streifen
 
-kit-example-gallery-along-how = Wische darüber, nutze Umschalt mit dem Rad, Links und Rechts oder gehe mit Tab zu einer Taste außer Sicht.
+kit-example-gallery-along-how = Wische darüber, halte Umschalt gedrückt und drehe das Mausrad, oder nutze die Pfeiltasten Links und Rechts. Mit Tab erreichst du eine Schaltfläche außerhalb des sichtbaren Bereichs.
 
 kit-example-gallery-along-item = Element { $n }
 
 kit-example-gallery-split = Teilung
 
-kit-example-gallery-split-first = Ziehe die Trennlinie, oder fokussiere sie und nutze die Pfeiltasten.
+kit-example-gallery-split-first = Ziehe die Trennlinie, oder wähle sie aus und nutze die Pfeiltasten.
 
-kit-example-gallery-split-second = Mit Pos1 und Ende gelangt sie an jedes Ende.
+kit-example-gallery-split-second = Mit Pos1 oder Ende springt die Trennlinie an den Anfang oder ans Ende.
 
 kit-example-gallery-menu = Kontextmenü
 
-kit-example-gallery-menu-how = Klicke hier mit rechts, halte einen Finger darauf oder drücke die Menütaste; tippe einen Buchstaben, um eine Zeile hervorzuheben.
+kit-example-gallery-menu-how = Klicke hier mit der rechten Maustaste, halte gedrückt oder drücke die Menütaste. Tippe einen Buchstaben, um eine Zeile hervorzuheben.
 
 # The context menu example: the window's title, what it says to do, the card's words, its menu's rows, and what shows once it is removed.
 kit-example-context-title = Kontextmenü
 
-kit-example-context-how = Klicke mit rechts auf die Karte, halte einen Finger darauf oder drücke die Menütaste
+kit-example-context-how = Klicke mit der rechten Maustaste auf die Karte, halte sie gedrückt oder drücke die Menütaste
 
 kit-example-context-note = Einkaufsliste
 
@@ -160,7 +160,7 @@ kit-example-bench-rows = Zehntausend Zeilen
 # The menu bar example: the window's title, what it says to do, the menus' titles and rows, and what shows once a row is chosen.
 kit-example-bar-title = Menüleiste
 
-kit-example-bar-how = Drücke auf einen Titel oder gehe mit Tab zur Leiste und nutze Pfeiltasten, Eingabe und Escape. Alt mit dem markierten Buchstaben eines Titels öffnet ihn, und das Tippen eines Buchstabens hebt die nächste Zeile hervor, die damit beginnt.
+kit-example-bar-how = Klicke auf einen Menünamen, oder gehe mit Tab zur Menüleiste und nutze die Pfeiltasten, Eingabe und Esc. Alt mit dem markierten Buchstaben eines Menüs öffnet es. Tippe einen Buchstaben, um die nächste Zeile hervorzuheben, die damit beginnt.
 
 kit-example-bar-file = &Datei
 
@@ -187,7 +187,7 @@ kit-example-bar-chose = Du hast { $what } gewählt
 # The gallery's column view card: its heading, how it behaves, its name for a screen reader, the two column headings, and the names of the folders and files in it.
 kit-example-gallery-columns = Spaltenansicht
 
-kit-example-gallery-columns-how = Zeilen öffnen sich unter einem Elternelement. Drücke den Pfeil, doppelklicke oder nutze Rechts, Links und Eingabe. Mit Strg und Umschalt wählst du mehrere Zeilen, und ein Rahmen, der aus dem Platz unter ihnen aufgezogen wird, wählt, was er überquert.
+kit-example-gallery-columns-how = Klicke auf den Pfeil oder doppelklicke auf einen Ordner, um ihn zu öffnen, oder nutze die Pfeiltasten Rechts und Links oder Eingabe. Halte Strg oder Umschalt gedrückt, um mehrere Zeilen auszuwählen, oder ziehe über die Zeilen, um sie auszuwählen.
 
 kit-example-gallery-columns-name = Dateien
 

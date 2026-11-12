@@ -1,7 +1,7 @@
 # machine translated (Russian), not yet reviewed by a person.
 
 # What the box at the top of the command palette is called; the screen reader says it and it shows while the box is empty.
-kit-palette-search = Введите, чтобы найти действие
+kit-palette-search = Поиск действий
 
 # What the palette's list of matching actions is called; the screen reader says it.
 kit-palette-list = Подходящие действия
@@ -13,7 +13,7 @@ kit-palette-none = Нет подходящих действий.
 kit-check-phone = Введите номер телефона из 7–15 цифр.
 
 # Red words under a date box when what was typed is not a real date.
-kit-check-date = Введите настоящую дату в виде год-месяц-день, например 2026-10-30.
+kit-check-date = Введите дату в виде год-месяц-день, например 2026-10-30.
 
 # Red words under a colour box when what was typed is not a colour code.
 kit-check-hex = Введите код цвета, например #fbc711.
@@ -55,7 +55,7 @@ kit-dock-right = Закрепить справа
 kit-dock-bottom = Закрепить внизу
 
 # Tip of the button on a panel's head that lets it float over the main area.
-kit-dock-float = Плавать над страницей
+kit-dock-float = Разместить над страницей
 
 # Name of the handle on a panel's head that is dragged to move the panel to another edge.
 kit-dock-grip = Перетащите к другому краю
@@ -64,11 +64,11 @@ kit-dock-grip = Перетащите к другому краю
 kit-form-number = Введите число, например 12 или 3,5.
 
 # The sentence under a file chooser page's title, by what it is for.
-kit-files-open-lead = Выберите файл, который нужно открыть.
+kit-files-open-lead = Выберите файл, чтобы открыть его.
 
-kit-files-save-lead = Выберите папку и введите имя, под которым сохранить.
+kit-files-save-lead = Выберите папку, затем введите имя файла.
 
-kit-files-folder-lead = Выберите папку или оставьте ту, в которой вы находитесь.
+kit-files-folder-lead = Выберите папку или останьтесь в текущей.
 
 # The main answer at the foot of a file chooser page.
 kit-files-open = Открыть
@@ -96,15 +96,15 @@ kit-files-name = Имя файла
 kit-files-empty = Эта папка пуста.
 
 # Red words when the folder cannot be read.
-kit-filepage-unreadable = Эту папку не удалось прочитать. Выберите другую.
+kit-filepage-unreadable = Trindle не удалось открыть эту папку. Выберите другую.
 
 # Red words after Open with no file chosen.
 kit-files-choose-first = Сначала выберите файл.
 
 # Red words after Save with no name, or a name that cannot be a file's.
-kit-files-name-needed = Введите имя файла без косой черты.
+kit-files-name-needed = Введите имя файла. В нём не должно быть косой черты.
 
-kit-fonts-lead = Выберите шрифт и его размер.
+kit-fonts-lead = Выберите шрифт и размер.
 
 # The box that finds fonts by name.
 kit-fonts-search = Найти шрифт по названию

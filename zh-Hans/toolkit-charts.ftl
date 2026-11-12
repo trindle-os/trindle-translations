@@ -5,7 +5,7 @@
 kit-chart-part = 第 { $n } 部分
 
 # A chart with no values. $name is what the chart shows.
-kit-chart-empty = { $name }：没有数值的图表。
+kit-chart-empty = { $name }：此图表没有数值。
 
 # A line chart. $name is what it shows, $n how many values; the rest are figures.
 kit-chart-line =

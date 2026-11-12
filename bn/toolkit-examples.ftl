@@ -2,10 +2,10 @@
 # machine translated (Bengali), not yet reviewed by a person.
 
 # Standard error, when no Wayland desktop answers.
-kit-run-no-desktop = জানালা খোলার মতো কোনো Wayland ডেস্কটপ নেই
+kit-run-no-desktop = কোনো Wayland ডেস্কটপ সাড়া দেয়নি, তাই উইন্ডো খোলা যাচ্ছে না
 
 # Standard error, when the desktop would not open the window.
-kit-run-no-window = ডেস্কটপ জানালা খোলেনি
+kit-run-no-window = ডেস্কটপ উইন্ডো খুলতে পারেনি।
 
 # The hello example: the window's title, its button and what it says about the presses.
 kit-example-hello-title = নমস্কার
@@ -81,7 +81,7 @@ kit-example-gallery-progress = অগ্রগতি
 
 
 # The gallery's number box: the card's heading, and the name of the box.
-kit-example-gallery-copies = সংখ্যার বাক্স
+kit-example-gallery-copies = সংখ্যার ঘর
 
 kit-example-gallery-copies-name = কপি
 
@@ -100,37 +100,37 @@ kit-example-gallery-span-now = { $low } থেকে { $high }
 # The gallery's dialog card: its heading, how it behaves, the button that opens the page, and the page's title, message and main answer.
 kit-example-gallery-dialog = ডায়ালগ পাতা
 
-kit-example-gallery-dialog-how = প্রশ্ন পুরো উইন্ডো জুড়ে আসে, কখনও পপ-আপে নয়। কিবোর্ড শুরুতে "বাতিল"-এ থাকে এবং Escape বাতিল করে।
+kit-example-gallery-dialog-how = প্রশ্ন পপ-আপ না হয়ে পুরো উইন্ডো জুড়ে আসে। "বাতিল" প্রথমে বাছা থাকে, আর Escape চাপলে বাতিল হয়।
 
 kit-example-gallery-dialog-open = গণনা শূন্য করুন
 
 kit-example-gallery-ask-title = গণনা শূন্য করবেন?
 
-kit-example-gallery-ask-message = চাপের সংখ্যা আবার শূন্যে ফিরে যাবে।
+kit-example-gallery-ask-message = এতে চাপের সংখ্যা শূন্যে ফিরে যাবে।
 
 kit-example-gallery-ask-yes = শূন্য করুন
 
 # The gallery's sideways card: the heading, how to move it, and the words on each of twelve buttons in the strip.
-kit-example-gallery-along = পাশে সরানো ফালি
+kit-example-gallery-along = অনুভূমিক ফালি
 
-kit-example-gallery-along-how = এটি সোয়াইপ করুন, চাকার সঙ্গে Shift, বাঁ ও ডান, বা Tab দিয়ে চোখের আড়ালের বোতামে যান।
+kit-example-gallery-along-how = এটি সোয়াইপ করুন, অথবা Shift চেপে মাউসের চাকা ঘোরান, অথবা বাঁ ও ডান তীর কী ব্যবহার করুন। চোখের আড়ালের বোতামে যেতে Tab চাপুন।
 
 kit-example-gallery-along-item = আইটেম { $n }
 
 kit-example-gallery-split = ভাগ
 
-kit-example-gallery-split-first = বিভাজক টেনে সরান, অথবা এতে ফোকাস করে তীর কী ব্যবহার করুন।
+kit-example-gallery-split-first = বিভাজক টেনে সরান, অথবা এটি বেছে নিয়ে তীর কী ব্যবহার করুন।
 
-kit-example-gallery-split-second = Home ও End এটিকে যেকোনো প্রান্তে নিয়ে যায়।
+kit-example-gallery-split-second = বিভাজককে যেকোনো প্রান্তে নিতে Home বা End চাপুন।
 
 kit-example-gallery-menu = প্রসঙ্গ মেনু
 
-kit-example-gallery-menu-how = এখানে ডান ক্লিক করুন, আঙুল চেপে ধরুন, বা Menu কী চাপুন; একটি সারি জ্বালাতে একটি অক্ষর টাইপ করুন।
+kit-example-gallery-menu-how = এখানে ডান ক্লিক করুন, চেপে ধরে রাখুন, বা Menu কী চাপুন। একটি সারি হাইলাইট করতে একটি অক্ষর টাইপ করুন।
 
 # The context menu example: the window's title, what it says to do, the card's words, its menu's rows, and what shows once it is removed.
 kit-example-context-title = প্রসঙ্গ মেনু
 
-kit-example-context-how = কার্ডে ডান ক্লিক করুন, তার উপর আঙুল চেপে ধরুন, বা Menu কী চাপুন
+kit-example-context-how = কার্ডে ডান ক্লিক করুন, সেটি চেপে ধরে রাখুন, বা Menu কী চাপুন
 
 kit-example-context-note = বাজারের তালিকা
 
@@ -160,7 +160,7 @@ kit-example-bench-rows = দশ হাজার সারি
 # The menu bar example: the window's title, what it says to do, the menus' titles and rows, and what shows once a row is chosen.
 kit-example-bar-title = মেনু বার
 
-kit-example-bar-how = একটি শিরোনাম চাপুন, অথবা Tab দিয়ে বারে গিয়ে তীর কী, Return ও Escape ব্যবহার করুন। শিরোনামের চিহ্নিত অক্ষরের সঙ্গে Alt চাপলে সেটি খোলে, আর একটি অক্ষর টাইপ করলে সেই অক্ষর দিয়ে শুরু হওয়া পরের সারি জ্বলে ওঠে।
+kit-example-bar-how = একটি মেনুর নামে ক্লিক করুন, অথবা Tab চেপে মেনু বারে গিয়ে তীর কী, Enter ও Escape ব্যবহার করুন। মেনুর চিহ্নিত অক্ষরের সঙ্গে Alt চাপলে সেটি খোলে। একটি অক্ষর টাইপ করলে সেই অক্ষর দিয়ে শুরু হওয়া পরের সারি হাইলাইট হয়।
 
 kit-example-bar-file = &ফাইল
 
@@ -187,7 +187,7 @@ kit-example-bar-chose = আপনি { $what } বেছেছেন
 # The gallery's column view card: its heading, how it behaves, its name for a screen reader, the two column headings, and the names of the folders and files in it.
 kit-example-gallery-columns = স্তম্ভ দৃশ্য
 
-kit-example-gallery-columns-how = সারিগুলো একটি অভিভাবকের নিচে খোলে। তীর চাপুন, ডাবল ক্লিক করুন, অথবা ডান, বাঁ ও Enter ব্যবহার করুন। Ctrl ও Shift দিয়ে কয়েকটি সারি বাছা যায়, আর তাদের নিচের ফাঁকা জায়গা থেকে টানা ব্যান্ড যা ছুঁয়ে যায় তা বেছে নেয়।
+kit-example-gallery-columns-how = তীরে ক্লিক করুন বা কোনো ফোল্ডারে ডাবল ক্লিক করুন, অথবা ডান, বাঁ ও Enter কী ব্যবহার করুন। কয়েকটি সারি বাছতে Ctrl বা Shift চেপে ধরুন, অথবা সারিগুলোর উপর দিয়ে টেনে নিন।
 
 kit-example-gallery-columns-name = ফাইল
 

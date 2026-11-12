@@ -96,28 +96,28 @@ kit-more-lines =
     }
 
 # Said under whatever was dropped on, when nothing came of it.
-kit-dropped-empty = Hakuna kilichotokana na ulichodondosha.
+kit-dropped-empty = Trindle haikuweza kufanya lolote na vitu ulivyodondosha.
 
 # Said when what was dropped is too big to take by dropping.
-kit-dropped-too-big = Ulichodondosha ni kikubwa mno kuchukuliwa kwa njia hii.
+kit-dropped-too-big = Ulichodondosha ni kikubwa mno kuburutwa hapa.
 
 # Said when what was dropped took too long to arrive.
-kit-dropped-too-slow = Ulichodondosha kilichukua muda mrefu mno kufika, kwa hiyo kiliachwa.
+kit-dropped-too-slow = Ulichodondosha kilichukua muda mrefu mno kufika, kwa hiyo Trindle iliacha kusubiri.
 
 # Said when too many things were dropped at once.
-kit-dropped-too-many = Vitu vingi mno vilidondoshwa kwa wakati mmoja. Dondosha vichache kwa wakati.
+kit-dropped-too-many = Umedondosha vitu vingi mno kwa wakati mmoja. Dondosha vichache kwa wakati.
 
 # Said when what was dropped was a list of files that are not on this computer.
-kit-dropped-not-files = Ulichodondosha si orodha ya faili zilizo kwenye kompyuta hii.
+kit-dropped-not-files = Vitu ulivyodondosha si faili zilizo kwenye kompyuta hii.
 
 # Label of a link button whose address is not a web address.
 kit-link-not-web = Si anwani ya wavuti
 
 # Label of a link button whose address opens a mail program.
-kit-link-mailto = Hufungua anwani ya mailto
+kit-link-mailto = Anwani ya barua pepe
 
 # Label of a link button whose address opens a file.
-kit-link-file = Hufungua faili
+kit-link-file = Faili kwenye kompyuta hii
 
 # Read out by the screen reader for a link button. $label is the shown address.
 kit-link-to = Kiungo cha { $label }
@@ -129,28 +129,28 @@ kit-chooser-no-answer = Dirisha la kuchagua halikujibu. Jaribu tena.
 kit-theme-line = Mstari wa { $line }: { $why }
 
 # Fault in a theme file the person is trying: it is bigger than 64 KB.
-kit-theme-too-big = Faili ni kubwa mno kuwa mandhari. Mandhari ni KB 64 kwa kiwango cha juu.
+kit-theme-too-big = Faili hii ya mandhari ni kubwa mno. Ukubwa wa juu ni 64 KB.
 
 # Fault in a theme file the person is trying: it holds unreadable characters.
-kit-theme-not-sheet = Faili si laha ya mitindo: ina zaidi ya maneno tu.
+kit-theme-not-sheet = Faili hii si laha ya mitindo. Ina zaidi ya maandishi matupu.
 
 # Fault in a theme file the person is trying: it brings in another file.
-kit-theme-imports = mandhari haiwezi kuleta faili nyingine wala anwani ya wavuti.
+kit-theme-imports = mandhari haiwezi kuingiza faili nyingine wala anwani ya wavuti.
 
 # Fault in a theme file the person is trying: a value is too long. $name is the setting's name.
-kit-theme-too-long = --{ $name } ni ndefu mno kuwa thamani.
+kit-theme-too-long = Thamani ya --{ $name } ni ndefu mno.
 
 # Fault in a theme file the person is trying: a setting that should be a colour is not one Trindle can read. $name is the setting's name.
-kit-theme-not-colour = --{ $name } si rangi ambayo Trindle inaweza kusoma.
+kit-theme-not-colour = Trindle haiwezi kusoma --{ $name } kama rangi.
 
 # Fault in a theme file the person is trying: a setting that should be a number is not one Trindle can read.
-kit-theme-not-number = --{ $name } si nambari ambayo Trindle inaweza kusoma.
+kit-theme-not-number = Trindle haiwezi kusoma --{ $name } kama namba.
 
 # Fault in a theme file the person is trying: a setting that should be a shadow is not one Trindle can read.
-kit-theme-not-shadow = --{ $name } si kivuli ambacho Trindle inaweza kusoma.
+kit-theme-not-shadow = Trindle haiwezi kusoma --{ $name } kama kivuli.
 
 # Fault in a theme file the person is trying: nothing in it is a setting Trindle knows.
-kit-theme-nothing-known = Hakuna kitu kwenye faili ambacho ni thamani inayojulikana na Trindle, kwa hiyo haingebadilisha chochote.
+kit-theme-nothing-known = Trindle haitambui mipangilio yoyote kwenye faili hii, kwa hiyo hakuna kitakachobadilika.
 
 # The name a screen reader gives a ring that shows how far a job has got.
 kit-progress = Maendeleo
@@ -272,13 +272,13 @@ kit-key-shift = Shift
 
 kit-key-alt = Alt
 
-kit-key-logo = Logo
+kit-key-logo = Super
 
 # Said in a window of Trindle's own when something tried to press a button that only the person may press.
-kit-only-your-own = Hapa ni kubonyeza kwako mwenyewe tu kunakofanya kazi.
+kit-only-your-own = Ni wewe tu unayeweza kubonyeza kitufe hiki.
 
 # Said in a window when keys are pressed but the keyboard layout could not be read.
-kit-no-layout = Mpangilio wa kibodi haukuweza kusomwa, kwa hiyo kuandika hakufanyi kitu.
+kit-no-layout = Trindle haikuweza kusoma mpangilio wa kibodi, kwa hiyo huwezi kuandika.
 
 
 
@@ -289,13 +289,13 @@ kit-divider = Kigawanyaji
 kit-click-again-small = ndiyo
 
 # Read out by the screen reader for the control under something dragged, when letting go there would drop it in.
-kit-drop-target = Lengo la kudondosha
+kit-drop-target = Eneo la kudondosha
 
 # Fault in a theme or style sheet: a setting that takes only named steps was given something else. $steps is the list of steps, $guide the file that explains them.
-kit-theme-not-step = --{ $name } inakubali hatua moja tu kati ya hizi: { $steps }. Nyingine zote hupitwa. Tazama { $guide }.
+kit-theme-not-step = --{ $name } inaweza kuwa moja tu kati ya hizi: { $steps }. Trindle hupuuza thamani nyingine yoyote. Tazama { $guide }.
 
 # Standard error, when the folder of the person's style sheet cannot be watched. $folder is the folder, $why the system's reason.
-kit-sheet-not-watched = Mabadiliko kwenye laha ya mtindo katika { $folder } yataonekana baada ya kuanzisha upya tu: { $why }
+kit-sheet-not-watched = Anzisha upya ili uone mabadiliko ya laha ya mitindo katika { $folder }. { $why }
 
 # What a screen reader calls the row of menu titles across the top of a window.
 kit-menu-bar = Pau ya menyu
@@ -339,15 +339,15 @@ kit-tab-count = { $title }, { $count }
 # The ready settings page for a program's own look (settings::look_page).
 kit-look-title = Mwonekano
 
-kit-look-lead = Jinsi programu hii inavyoonekana, bila kujali kinachofanywa na eneo-kazi lingine.
+kit-look-lead = Chagua jinsi programu hii inavyoonekana, tofauti na kwingineko kwenye eneo-kazi.
 
 kit-look-group = Mwonekano
 
 kit-look-shade = Mwanga au giza
 
-kit-look-shade-help = Fuata eneo-kazi, au kila mara mwonekano mmoja.
+kit-look-shade-help = Fuata eneo-kazi, au tumia mwanga au giza kila mara.
 
-kit-look-desktop = Kama eneo-kazi
+kit-look-desktop = Sawa na eneo-kazi
 
 kit-look-dark = Giza
 
@@ -355,10 +355,10 @@ kit-look-light = Mwanga
 
 kit-look-highlight = Rangi ya msisitizo
 
-kit-look-highlight-help = Rangi ya kitendo kikuu na ya kilichochaguliwa.
+kit-look-highlight-help = Rangi ya vitufe vikuu na vitu vilivyochaguliwa.
 
 # A button that gives the highlight back to the desktop's choice.
-kit-look-highlight-desktop = Tumia ya eneo-kazi
+kit-look-highlight-desktop = Sawa na eneo-kazi
 
 # Over the column of week numbers in a date picker; keep it as short as the short weekday names.
 kit-date-week-short = Wk
@@ -401,10 +401,10 @@ kit-key-insert = Insert
 kit-shortcuts = Njia za mkato za kibodi
 
 # Under a shortcut on that page whose keys the window always takes first.
-kit-shortcut-kept-window = Dirisha huweka kitufe hiki kwa kuhama kati ya sehemu na kufunga.
+kit-shortcut-kept-window = Kitufe hiki kimetengwa kwa kuhama kati ya vidhibiti na kufunga dirisha.
 
 # Under a shortcut on that page whose keys a text box takes first while you type.
-kit-shortcut-kept-typing = Kisanduku cha maandishi hupokea kitufe hiki kwanza unapoandika.
+kit-shortcut-kept-typing = Unapoandika, kitufe hiki huenda kwanza kwenye kisanduku cha maandishi.
 
 # The heading of the page of emoji to pick from.
 kit-emoji = Emoji
@@ -822,7 +822,7 @@ kit-player-time = { $at } kati ya { $length }
 ## The page shown after a program crashed or met a fault
 kit-crash-title = Kuna tatizo
 
-kit-crash-lead = { $program } imesimama kwa sababu ya hitilafu. Nakili ripoti iliyo hapa chini na uitume pamoja na ripoti yako ya hitilafu, ili irekebishwe.
+kit-crash-lead = { $program } imesimama kwa sababu kitu kimekwenda vibaya. Nakili ripoti iliyo hapa chini na uitume pamoja na ripoti yako ya hitilafu ili tatizo lirekebishwe.
 
 kit-crash-copy = Nakili ripoti
 
@@ -853,11 +853,11 @@ kit-frame-move = Hamisha
 kit-frame-resize = Badilisha ukubwa
 
 # Settings: which figures numbers are written in.
-kit-numerals-title = Tarakimu
+kit-numerals-title = Mtindo wa namba
 
 kit-numerals-help = Jinsi namba, tarehe na saa zinavyoandikwa.
 
-kit-numerals-auto = Kama eneo kwa kawaida linavyoziandika
+kit-numerals-auto = Kawaida kwa eneo lako
 
 kit-numerals-latin = Kila mara 0 hadi 9
 

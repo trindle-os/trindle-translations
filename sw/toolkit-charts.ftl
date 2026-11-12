@@ -6,7 +6,7 @@
 kit-chart-part = Sehemu { $n }
 
 # A chart with no values. $name is what the chart shows.
-kit-chart-empty = { $name }: chati isiyo na thamani.
+kit-chart-empty = { $name }: chati hii haina thamani.
 
 # A line chart. $name is what it shows, $n how many values; the rest are figures.
 kit-chart-line =

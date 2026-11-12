@@ -3,10 +3,10 @@
 
 
 # The style sheet checker: a number written past the limits Trindle's sheet gives it. $line is the line in the file, $name the setting.
-kit-sheet-out-of-range = Zeile { $line }: --{ $name } ist { $value }, außerhalb seiner Grenzen von { $min } bis { $max }.
+kit-sheet-out-of-range = Zeile { $line }: --{ $name } ist { $value }. Der Wert muss zwischen { $min } und { $max } liegen.
 
 # The style sheet checker: a colour the sheet sets cannot be told from what it is drawn on. $look is dark or light, $ink the setting, $on what it is drawn on, $stands and $floor contrast ratios.
-kit-sheet-short = Im { $look } Aussehen hat --{ $ink } auf { $on } nur { $stands } zu eins, unter den { $floor } zu eins, die nötig sind.
+kit-sheet-short = Aussehen { $look }: --{ $ink } hat auf { $on } einen Kontrast von { $stands } zu 1. Nötig sind mindestens { $floor } zu 1.
 
 # The two looks, as named in the line above.
 kit-sheet-dark = dunklen
@@ -30,25 +30,25 @@ kit-inspect-size = { $w } mal { $h } Pixel bei { $x }, { $y }
 # The inspector: the widget's state, $state being the words below joined by commas.
 kit-inspect-state = Zustand: { $state }
 
-kit-inspect-keyboard = Tastatur darauf
+kit-inspect-keyboard = hat den Tastaturfokus
 
-kit-inspect-pointer = Zeiger darauf
+kit-inspect-pointer = Zeiger darüber
 
 kit-inspect-pressed = gedrückt
 
-kit-inspect-takes-keys = nimmt die Tastatur an
+kit-inspect-takes-keys = nimmt Tastatureingaben an
 
 kit-inspect-off = kann nicht benutzt werden
 
-kit-inspect-rest = in Ruhe
+kit-inspect-rest = normal
 
 # The inspector: what a screen reader is told. $role is its kind, such as Button; $name its name.
 kit-inspect-reader = Bildschirmleser: { $role } "{ $name }"
 
-kit-inspect-unread = Bildschirmleser: erfährt nichts davon
+kit-inspect-unread = Bildschirmleser: keine Beschreibung
 
 # The speed overlay, Ctrl+Shift+F11: how long the last frame took to paint.
-kit-speed-paint = Zeichnen { $ms } ms
+kit-speed-paint = Zeichenzeit: { $ms } ms
 
 # The speed overlay: memory the program holds, in megabytes.
 kit-speed-memory = Speicher { $mb } MB
@@ -67,10 +67,10 @@ kit-new-usage =
     Legt einen Ordner <name> an, der ein Programm mit einem Fenster, ein Stylesheet, eine Sprachdatei und einen Test enthält. Mit --toolkit wird das Toolkit unter diesem Pfad verwendet.
 
 # trindle-new: the name given cannot be a program's name. $name is what was given.
-kit-new-bad-name = { $name } kann nicht der Name eines Programms sein: Verwende Kleinbuchstaben, Ziffern und Bindestriche, beginnend mit einem Buchstaben.
+kit-new-bad-name = { $name } kann nicht der Name eines Programms sein. Verwende Kleinbuchstaben, Ziffern und Bindestriche und beginne mit einem Buchstaben.
 
 # trindle-new: a file or folder of that name is already there.
-kit-new-exists = { $name } ist schon da, deshalb wurde nichts geschrieben.
+kit-new-exists = { $name } existiert bereits, deshalb wurde nichts geschrieben.
 
 # trindle-new: the toolkit folder given cannot be found.
 kit-new-no-toolkit = Unter { $path } wurde kein Toolkit gefunden.
@@ -79,7 +79,7 @@ kit-new-no-toolkit = Unter { $path } wurde kein Toolkit gefunden.
 kit-new-unwritten = { $path } konnte nicht geschrieben werden.
 
 # trindle-new: the program was made. $name is its folder.
-kit-new-made = { $name } wurde angelegt. Starte es mit cargo run und teste es mit cargo test.
+kit-new-made = { $name } wurde erstellt. Starte es mit cargo run und teste es mit cargo test.
 
 # trindle-lang-check, which lists the words a language still lacks: its help.
 kit-lang-check-usage =
@@ -96,7 +96,7 @@ kit-showcase-words = Einfache Worte
 
 kit-showcase-heading = Eine Überschrift
 
-kit-showcase-note = Eine leisere Zeile unter etwas
+kit-showcase-note = Sekundärer Text
 
 kit-showcase-add = Hinzufügen
 

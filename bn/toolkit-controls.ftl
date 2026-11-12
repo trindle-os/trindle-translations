@@ -3,22 +3,22 @@
 
 
 # What the box at the top of the command palette is called; the screen reader says it and it shows while the box is empty.
-kit-palette-search = কাজ খুঁজতে টাইপ করুন
+kit-palette-search = অ্যাকশন খুঁজুন
 
 # What the palette's list of matching actions is called; the screen reader says it.
-kit-palette-list = মিলে যাওয়া কাজ
+kit-palette-list = মিলে যাওয়া অ্যাকশন
 
 # Shown under the palette's box when no action matches what was typed.
-kit-palette-none = কোনো কাজ মেলেনি।
+kit-palette-none = মেলে এমন কোনো অ্যাকশন নেই।
 
 # Red words under a phone number box when what was typed cannot be a phone number.
 kit-check-phone = 7 থেকে 15 অঙ্কের একটি ফোন নম্বর লিখুন।
 
 # Red words under a date box when what was typed is not a real date.
-kit-check-date = বছর-মাস-দিন আকারে একটি সত্যিকারের তারিখ লিখুন, যেমন 2026-10-30।
+kit-check-date = বছর-মাস-দিন আকারে একটি তারিখ লিখুন, যেমন 2026-10-30।
 
 # Red words under a colour box when what was typed is not a colour code.
-kit-check-hex = #fbc711-এর মতো একটি রঙের কোড লিখুন।
+kit-check-hex = একটি রঙের কোড লিখুন, যেমন #fbc711।
 
 # Tip of the button beside a volume slider that silences the sound.
 kit-volume-mute = শব্দ বন্ধ করুন
@@ -57,20 +57,20 @@ kit-dock-right = ডানে আটকান
 kit-dock-bottom = নিচে আটকান
 
 # Tip of the button on a panel's head that lets it float over the main area.
-kit-dock-float = পাতার উপর ভাসান
+kit-dock-float = পাতার উপরে ভাসিয়ে রাখুন
 
 # Name of the handle on a panel's head that is dragged to move the panel to another edge.
 kit-dock-grip = অন্য কিনারায় টেনে নিন
 
 # Red words under a form's box for a number when what was typed is not a number.
-kit-form-number = 12 বা 3.5-এর মতো একটি সংখ্যা লিখুন।
+kit-form-number = একটি সংখ্যা লিখুন, যেমন 12 বা 3.5।
 
 # The sentence under a file chooser page's title, by what it is for.
-kit-files-open-lead = যে ফাইলটি খুলবেন তা বেছে নিন।
+kit-files-open-lead = খোলার জন্য একটি ফাইল বেছে নিন।
 
-kit-files-save-lead = একটি ফোল্ডার বেছে নিন এবং যে নামে রাখবেন তা লিখুন।
+kit-files-save-lead = একটি ফোল্ডার বেছে নিন, তারপর ফাইলের একটি নাম লিখুন।
 
-kit-files-folder-lead = একটি ফোল্ডার বেছে নিন, অথবা যেটিতে আছেন সেটিই রাখুন।
+kit-files-folder-lead = একটি ফোল্ডার বেছে নিন, অথবা এখন যেটিতে আছেন সেটিতেই থাকুন।
 
 # The main answer at the foot of a file chooser page.
 kit-files-open = খুলুন
@@ -98,15 +98,15 @@ kit-files-name = ফাইলের নাম
 kit-files-empty = এই ফোল্ডারটি খালি।
 
 # Red words when the folder cannot be read.
-kit-filepage-unreadable = এই ফোল্ডারটি পড়া যায়নি। অন্যটি বেছে নিন।
+kit-filepage-unreadable = Trindle এই ফোল্ডারটি খুলতে পারেনি। অন্য একটি বেছে নিন।
 
 # Red words after Open with no file chosen.
 kit-files-choose-first = আগে একটি ফাইল বেছে নিন।
 
 # Red words after Save with no name, or a name that cannot be a file's.
-kit-files-name-needed = স্ল্যাশ ছাড়া ফাইলের একটি নাম লিখুন।
+kit-files-name-needed = ফাইলের একটি নাম লিখুন। নামে স্ল্যাশ থাকতে পারবে না।
 
-kit-fonts-lead = একটি ফন্ট ও তার মাপ বেছে নিন।
+kit-fonts-lead = একটি ফন্ট ও একটি মাপ বেছে নিন।
 
 # The box that finds fonts by name.
 kit-fonts-search = নাম দিয়ে ফন্ট খুঁজুন

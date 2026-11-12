@@ -1,10 +1,10 @@
 # machine translated (Russian), not yet reviewed by a person.
 
 # The style sheet checker: a number written past the limits Trindle's sheet gives it. $line is the line in the file, $name the setting.
-kit-sheet-out-of-range = Строка { $line }: --{ $name } равно { $value }, за пределами допустимого от { $min } до { $max }.
+kit-sheet-out-of-range = Строка { $line }: --{ $name } равно { $value }. Значение должно быть от { $min } до { $max }.
 
 # The style sheet checker: a colour the sheet sets cannot be told from what it is drawn on. $look is dark or light, $ink the setting, $on what it is drawn on, $stands and $floor contrast ratios.
-kit-sheet-short = В виде «{ $look }» у --{ $ink } на { $on } контраст { $stands } к одному, ниже необходимых { $floor } к одному.
+kit-sheet-short = При внешнем виде «{ $look }» у --{ $ink } на { $on } контраст { $stands } к 1. Нужно не менее { $floor } к 1.
 
 # The two looks, as named in the line above.
 kit-sheet-dark = тёмный
@@ -28,31 +28,31 @@ kit-inspect-size = { $w } на { $h } пикселей, позиция { $x }, {
 # The inspector: the widget's state, $state being the words below joined by commas.
 kit-inspect-state = Состояние: { $state }
 
-kit-inspect-keyboard = на нём клавиатура
+kit-inspect-keyboard = в фокусе клавиатуры
 
-kit-inspect-pointer = на нём указатель
+kit-inspect-pointer = под указателем
 
 kit-inspect-pressed = нажато
 
-kit-inspect-takes-keys = принимает клавиатуру
+kit-inspect-takes-keys = принимает ввод с клавиатуры
 
 kit-inspect-off = недоступно
 
-kit-inspect-rest = в покое
+kit-inspect-rest = обычное
 
 # The inspector: what a screen reader is told. $role is its kind, such as Button; $name its name.
 kit-inspect-reader = Экранный диктор: { $role } «{ $name }»
 
-kit-inspect-unread = Экранному диктору об этом ничего не сообщено
+kit-inspect-unread = Экранный диктор: описания нет
 
 # The speed overlay, Ctrl+Shift+F11: how long the last frame took to paint.
-kit-speed-paint = Отрисовка { $ms } мс
+kit-speed-paint = Время отрисовки: { $ms } мс
 
 # The speed overlay: memory the program holds, in megabytes.
 kit-speed-memory = Память { $mb } МБ
 
 # The speed overlay: how much of the window the last frame painted again.
-kit-speed-damage = Перерисовано: { $share } процентов окна
+kit-speed-damage = Перерисовано: { $share } % окна
 
 # The speed overlay: what drew the last frame.
 kit-speed-gpu = Рисует видеокарта
@@ -65,7 +65,7 @@ kit-new-usage =
     Создаёт папку <name> с программой из одного окна, таблицей стилей, языковым файлом и тестом. С --toolkit использует набор инструментов по этому пути.
 
 # trindle-new: the name given cannot be a program's name. $name is what was given.
-kit-new-bad-name = { $name } не может быть именем программы: используйте строчные буквы, цифры и дефисы, начиная с буквы.
+kit-new-bad-name = { $name } нельзя использовать как имя программы. Используйте строчные буквы, цифры и дефисы, а начинайте с буквы.
 
 # trindle-new: a file or folder of that name is already there.
 kit-new-exists = { $name } уже существует, поэтому ничего не записано.
@@ -94,7 +94,7 @@ kit-showcase-words = Простые слова
 
 kit-showcase-heading = Заголовок
 
-kit-showcase-note = Более тихая строка под чем-либо
+kit-showcase-note = Второстепенный текст
 
 kit-showcase-add = Добавить
 

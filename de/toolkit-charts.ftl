@@ -6,7 +6,7 @@
 kit-chart-part = Teil { $n }
 
 # A chart with no values. $name is what the chart shows.
-kit-chart-empty = { $name }: Diagramm ohne Werte.
+kit-chart-empty = { $name }: Dieses Diagramm hat keine Werte.
 
 # A line chart. $name is what it shows, $n how many values; the rest are figures.
 kit-chart-line =

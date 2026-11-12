@@ -45,7 +45,7 @@ kit-more-people =
 # The gradient editor. The bar's name has $n, how many stops the gradient has.
 kit-gradient-bar = { $n } duraklı renk geçişi
 
-kit-gradient-place = Seçilen durağın yeri
+kit-gradient-place = Seçili durağın konumu
 
 kit-gradient-add = Durak ekle
 
