@@ -5,16 +5,16 @@
 scan-app-name = Trindle Scan
 
 # Red words when the program's own settings could not be saved. The reason from the computer follows.
-scan-main-error-keep-settings = Ayarlarınız kaydedilemedi: { $why }
+scan-main-error-keep-settings = Trindle Scan ayarlarınızı kaydedemedi: { $why }
 
 # Red words when the profiles could not be saved. The reason from the computer follows.
-scan-main-error-keep-profiles = Profilleriniz kaydedilemedi: { $why }
+scan-main-error-keep-profiles = Trindle Scan profillerinizi kaydedemedi: { $why }
 
 # Red words under the bar when Scan is pressed with no scanner chosen.
-scan-main-error-no-scanner = Henüz tarayıcı seçilmedi.
+scan-main-error-no-scanner = Henüz bir tarayıcı seçmediniz.
 
 # Red words when Scan is pressed before the scanner has said what it can do.
-scan-main-error-wait-caps = Tarayıcının neler yapabildiğini bildirmesi bekleniyor.
+scan-main-error-wait-caps = Trindle Scan tarayıcının neler yapabildiğini hâlâ denetliyor. Biraz sonra yeniden deneyin.
 
 # Red words on the profile editor when Test scan is pressed with no scanner.
 scan-main-test-choose-scanner = Önce bir tarayıcı seçin, sonra yeniden deneyin.
@@ -23,7 +23,7 @@ scan-main-test-choose-scanner = Önce bir tarayıcı seçin, sonra yeniden deney
 scan-main-test-failed = Deneme taraması çalışmadı: { $why }
 
 # Red words on the profile editor when the scanner sent no page for the test scan.
-scan-main-test-no-page = Tarayıcıdan sayfa gelmedi. Bir sayfa koyup yeniden deneyin.
+scan-main-test-no-page = Tarayıcı sayfa göndermedi. Bir sayfa koyup yeniden deneyin.
 
 # Spoken by the screen reader when the test scan has finished.
 scan-main-announce-test-done = Deneme taraması bitti
@@ -32,17 +32,17 @@ scan-main-announce-test-done = Deneme taraması bitti
 scan-main-announce-test-failed = Deneme taraması çalışmadı
 
 # Note under the bar when a page came back damaged and was left out.
-scan-main-note-damaged = Bir sayfa bozuk geldi ve atlandı.
+scan-main-note-damaged = Bir sayfa bozuktu, bu yüzden Trindle Scan onu atladı.
 
-scan-save-page-unreadable = Taranan bir sayfa okunamadı, bu yüzden hiçbir şey kaydedilmedi.
+scan-save-page-unreadable = Trindle Scan taranan bir sayfayı okuyamadı, bu yüzden hiçbir şey kaydedilmedi.
 
-scan-save-page-encode = Bir sayfa resme dönüştürülemedi: { $why }
+scan-save-page-encode = Trindle Scan bir sayfayı resme dönüştüremedi: { $why }
 
 # Red words when a scan stopped part way. The first part says what went wrong, then how many pages were kept.
 scan-main-error-with-kept =
     { $words } { $n ->
-        [one] { $n } sayfa korundu.
-       *[other] { $n } sayfa korundu.
+        [one] Gelen sayfa hâlâ burada.
+       *[other] Gelen { $n } sayfa hâlâ burada.
     }
 
 # Note after saving a long scan as several PDF files: the folder and file name, then how many files.
@@ -59,12 +59,12 @@ scan-main-note-saved = { $path } konumuna kaydedildi
 scan-main-note-saved-summary = { $summary } { $path } konumuna kaydedildi
 
 # Red words when pages could not be saved. The reason follows.
-scan-main-error-save = Kaydedilemedi: { $why }. Sayfalar hâlâ burada.
+scan-main-error-save = Trindle Scan taramalarınızı kaydedemedi: { $why }. Sayfalarınız hâlâ burada.
 
 # Red words when an automatic save did not work. The reason follows.
-scan-main-error-autosave = Otomatik kaydedilemedi: { $why }. Sayfalar hâlâ burada.
+scan-main-error-autosave = Trindle Scan taramalarınızı otomatik olarak kaydedemedi: { $why }. Sayfalarınız hâlâ burada.
 
-scan-main-error-crashed = Programın içinde bir şeyler ters gitti ve iş durduruldu. Sayfalarınız hâlâ burada.
+scan-main-error-crashed = Bir şeyler ters gitti ve Trindle Scan durdu. Sayfalarınız hâlâ burada.
 
 # Note under the bar after pictures were added from files.
 scan-main-note-added =
@@ -79,12 +79,12 @@ scan-main-note-added-failed =
         [one] { $n } resim eklendi
        *[other] { $n } resim eklendi
     }. { $failed ->
-        [one] Bir dosya okunamadı.
-       *[other] { $failed } dosya okunamadı.
+        [one] Trindle Scan bir dosyayı okuyamadı.
+       *[other] Trindle Scan { $failed } dosyayı okuyamadı.
     }
 
 # Red words when the folder of saved files could not be opened.
-scan-main-error-open-folder = Klasör açılamadı.
+scan-main-error-open-folder = Trindle Scan klasörü açamadı.
 
 # Note under the bar after pages from last time were brought back.
 scan-main-note-recovered =
@@ -94,19 +94,19 @@ scan-main-note-recovered =
     } geri getirildi.
 
 # Note when the front sides are done and the person must turn the stack over.
-scan-main-note-turn-over = Destenin yönünü çevirin ve arka yüzler için Tara'ya basın.
+scan-main-note-turn-over = Desteyi ters çevirin, sonra arka yüzleri taramak için Tara'ya basın.
 
 # Note and question on the bar after a glass scan, asking whether to scan another page.
-scan-main-note-another-page = Bir sayfa daha?
+scan-main-note-another-page = Bir sayfa daha taransın mı?
 
 # Note under the bar when one run of a batch has finished.
-scan-main-note-run-done = { $n }. tur bitti.
+scan-main-note-run-done = { $n }. tarama bitti.
 
 # Summary when a batch has finished: how many runs and how many pages.
 scan-main-summary-batch =
     Toplu tarama bitti: { $runs ->
-        [one] { $runs } tur
-       *[other] { $runs } tur
+        [one] { $runs } tarama
+       *[other] { $runs } tarama
     }, { $pages ->
         [one] { $pages } sayfa
        *[other] { $pages } sayfa
@@ -117,10 +117,10 @@ scan-main-error-busy-still = Tarayıcı hâlâ meşgul. Birazdan yeniden deneyin
 
 # Red words while the program waits for a busy scanner, counting down.
 scan-main-error-busy-retry =
-    Tarayıcı meşgul. Yeniden deneniyor, { $n ->
+    Tarayıcı meşgul. Trindle Scan { $n ->
         [one] { $n } saniye
        *[other] { $n } saniye
-    } kaldı.
+    } sonra yeniden deneyecek.
 
 # Note under the bar when a scan has finished.
 scan-main-note-scanned =
@@ -134,7 +134,7 @@ scan-main-note-scanned-skipped =
     { $n ->
         [one] { $n } sayfa tarandı
        *[other] { $n } sayfa tarandı
-    }, { $blanks ->
+    } ve { $blanks ->
         [one] { $blanks } boş sayfa
        *[other] { $blanks } boş sayfa
     } atlandı
@@ -143,7 +143,7 @@ scan-main-note-scanned-skipped =
 scan-main-part-name = { $stem } bölüm { $n }
 
 # Red words when retrying was stopped because the scanner was busy.
-scan-main-error-stopped-busy = Durduruldu. Tarayıcı meşguldü.
+scan-main-error-stopped-busy = Tarayıcı meşgul olduğu için tarama durdu.
 
 # Words while an address typed by hand is being checked.
 scan-main-note-checking-address = Adres denetleniyor
@@ -152,10 +152,10 @@ scan-main-note-checking-address = Adres denetleniyor
 scan-main-filter-pictures = Resimler
 
 # Red words when something dropped on the window gave no files. The reason follows.
-scan-main-drop-nothing = Hiçbir şey eklenmedi: { $why }
+scan-main-drop-nothing = Trindle Scan dosyaları ekleyemedi: { $why }
 
 # Red words when text, not a file, is dropped on the window.
-scan-main-drop-text = Buraya yalnızca resim dosyaları bırakılabilir.
+scan-main-drop-text = Buraya yalnızca resim dosyaları bırakabilirsiniz.
 
 # Status line: how many pages are in the list.
 scan-status-pages =
@@ -181,7 +181,7 @@ scan-status-searching = Tarayıcılar aranıyor
 scan-status-ready = { $name } hazır
 
 # Status line while the chosen scanner is being asked what it can do.
-scan-status-asking = { $name } sorgulanıyor
+scan-status-asking = { $name } ile bağlantı kuruluyor
 
 # Status line when no scanner is chosen.
 scan-status-none = Tarayıcı seçilmedi
@@ -190,13 +190,13 @@ scan-status-none = Tarayıcı seçilmedi
 scan-status-line = { $pages }      { $state }
 
 # Red words under the profile name box when it is empty.
-scan-profiles-error-name-empty = Profilin bir adı olmalı.
+scan-profiles-error-name-empty = Profile bir ad verin.
 
 # Red words under the profile name box when another profile has that name.
 scan-profiles-error-name-taken = Başka bir profil bu adı zaten kullanıyor.
 
 # Red words when a page cannot be opened in the large view.
-scan-view-error-unshown = Bu sayfa gösterilemedi.
+scan-view-error-unshown = Trindle Scan bu sayfayı gösteremiyor.
 
 # Title above the large view of a page, and its spoken name.
 scan-view-page-of = Sayfa { $i } / { $n }
@@ -205,7 +205,7 @@ scan-view-page-of = Sayfa { $i } / { $n }
 scan-view-crop-heading = Kırp
 
 # Note under the crop heading.
-scan-view-crop-note = Kenar boşluklarını sayfanın oranı olarak kesin. Seçili tüm sayfalara uygulanır.
+scan-view-crop-note = Her kenardan ne kadar kesileceğini ayarlayın. Bu, seçili tüm sayfaları değiştirir.
 
 # Label of the crop slider for the left edge.
 scan-view-crop-left = Sol
@@ -267,14 +267,14 @@ scan-common-choose = Seç
 scan-common-use = Kullan
 
 # Note that changes are kept as they are made.
-scan-common-changes-save = Değişiklikler yaptıkça kaydedilir.
+scan-common-changes-save = Değişiklikleriniz yaptıkça kaydedilir.
 
 # Words on the bar between batch runs when the person must load the next stack.
 scan-bar-pause-empty = Sıradaki desteyi koyun, sonra Devam'a basın.
 
 # Words on the bar counting down to the next batch run.
 scan-bar-pause-wait =
-    Sonraki tur { $n ->
+    Sonraki tarama { $n ->
         [one] { $n } saniye sonra
        *[other] { $n } saniye sonra
     }
@@ -313,7 +313,7 @@ scan-bar-rotate-right = Sağa döndür
 scan-bar-flip = Ters çevir
 
 # Tip and spoken name of the button that opens the large view.
-scan-bar-look = Seçili ilk sayfaya bak
+scan-bar-look = İlk seçili sayfayı görüntüle
 
 # Tip and spoken name of the undo button.
 scan-bar-undo = Geri al
@@ -360,11 +360,11 @@ scan-pages-recover-left =
     }
 
 # Button that brings back the pages left from the last run.
-scan-pages-recover = Geri getir
+scan-pages-recover = Sayfaları geri getir
 
 # Button that throws away the pages left from the last run.
 # SAFETY: needs a human review before it ships
-scan-pages-discard = Bunları at
+scan-pages-discard = Sayfaları at
 
 # Label of the thumbnail size slider on the bottom bar.
 scan-pages-thumbnails = Küçük resimler
@@ -386,13 +386,13 @@ scan-pages-open-folder = Klasörü aç
 
 # Bottom bar button that removes saved pages from the list.
 # SAFETY: needs a human review before it ships
-scan-pages-clear-saved = Kaydedilenleri temizle
+scan-pages-clear-saved = Kaydedilen sayfaları temizle
 
 # Title of the picker (and of the system file chooser) for saving a PDF.
 scan-browse-title-save-pdf = Taramayı kaydet
 
 # Title of the picker for choosing where pictures are saved.
-scan-browse-title-save-folder = Resimlerin kaydedileceği klasörü seçin
+scan-browse-title-save-folder = Resimler için klasör
 
 # Title of the picker (and of the system file chooser) for adding pictures.
 scan-browse-title-pictures = Resim ekle
@@ -401,10 +401,10 @@ scan-browse-title-pictures = Resim ekle
 scan-browse-title-profile-folder = Taramaların kaydedileceği klasör
 
 # Title of the picker for the folder new profiles save into.
-scan-browse-title-settings-folder = Yeni profillerin kaydedileceği klasör
+scan-browse-title-settings-folder = Yeni profiller için varsayılan klasör
 
 # Title of the picker for the folder pages are kept in while the program is open.
-scan-browse-title-temp-folder = Program açıkken sayfaların tutulacağı klasör
+scan-browse-title-temp-folder = Geçici sayfalar klasörü
 
 # File name that scans start with, without the ending.
 scan-browse-default-name = Tarama
@@ -413,19 +413,19 @@ scan-browse-default-name = Tarama
 scan-browse-error-open-first-new = Önce klasörlerinizden birini açın, sonra yeni klasörü onun içinde oluşturun.
 
 # Red words in the picker when a new folder name is not plain.
-scan-browse-error-folder-name = Klasöre eğik çizgi içermeyen ve nokta ile başlamayan sade bir ad verin.
+scan-browse-error-folder-name = Klasör adları eğik çizgi içeremez veya nokta ile başlayamaz.
 
 # Red words in the picker when a folder could not be made. The reason follows.
-scan-browse-error-make-folder = Klasör oluşturulamadı: { $why }
+scan-browse-error-make-folder = Trindle Scan klasörü oluşturamadı: { $why }
 
 # Red words in the picker when Add is pressed with no pictures chosen.
-scan-browse-error-no-pictures = İstediğiniz resimlere basın, sonra ekleyin.
+scan-browse-error-no-pictures = İstediğiniz resimleri seçin, sonra ekleyin.
 
 # Red words in the picker when Save is pressed before a folder is open.
 scan-browse-error-open-first = Önce klasörlerinizden birini açın.
 
 # Red words in the picker when the file name is not plain.
-scan-browse-error-file-name = Dosyaya eğik çizgi içermeyen ve nokta ile başlamayan sade bir ad verin.
+scan-browse-error-file-name = Dosya adları eğik çizgi içeremez veya nokta ile başlayamaz.
 
 # Red words in the picker when a file with that name already exists.
 scan-browse-error-name-taken = Bu adda bir dosya zaten var. Başka bir ad seçin.
@@ -452,7 +452,7 @@ scan-browse-empty-pictures = Burada klasör ya da resim yok.
 scan-browse-empty-folders = Burada henüz klasör yok.
 
 # Label above the new folder box in the picker.
-scan-browse-new-folder = Burada yeni klasör
+scan-browse-new-folder = Yeni klasör
 
 # Spoken name of the new folder box in the picker.
 scan-browse-new-folder-spoken = Yeni klasörün adı
@@ -483,7 +483,7 @@ scan-shortcuts-title = Klavye kısayolları
 scan-shortcuts-profile-keys = 1 - 9
 
 # What the profile keys do.
-scan-shortcuts-profile-what = Birinci ile dokuzuncu profil arasından biriyle tara
+scan-shortcuts-profile-what = Listede o sıradaki profille tara
 
 # Keys that select every page.
 scan-shortcuts-select-keys = Ctrl+A
@@ -492,7 +492,7 @@ scan-shortcuts-select-keys = Ctrl+A
 scan-shortcuts-select-what = Tüm sayfaları seç
 
 # Key that deletes the selected pages.
-scan-shortcuts-delete-keys = Delete
+scan-shortcuts-delete-keys = Del
 
 # What the delete key does.
 # SAFETY: needs a human review before it ships
@@ -511,13 +511,13 @@ scan-shortcuts-redo-keys = Ctrl+Shift+Z
 scan-shortcuts-redo-what = Yinele
 
 # Keys that move the selected pages earlier.
-scan-shortcuts-earlier-keys = Alt+Sol
+scan-shortcuts-earlier-keys = Alt+Sol ok
 
 # What the move earlier keys do.
 scan-shortcuts-earlier-what = Seçili sayfaları öne taşı
 
 # Keys that move the selected pages later.
-scan-shortcuts-later-keys = Alt+Sağ
+scan-shortcuts-later-keys = Alt+Sağ ok
 
 # What the move later keys do.
 scan-shortcuts-later-what = Seçili sayfaları arkaya taşı
@@ -532,22 +532,22 @@ scan-shortcuts-tab-what = Düğmeler ve sayfalar arasında geç
 scan-shortcuts-press-keys = Boşluk veya Enter
 
 # What the space and enter keys do.
-scan-shortcuts-press-what = Odaktaki düğmeye bas veya odaktaki sayfayı seç
+scan-shortcuts-press-what = Vurgulanan düğmeye basın ya da vurgulanan sayfayı seçin
 
 # Note under the list of shortcuts.
-scan-shortcuts-note = Sayfaları tarayan ve düzenleyen tuşlar sayfa listesi ekranında çalışır.
+scan-shortcuts-note = Sayfaları tarama ve düzenleme tuşları sayfa listesi ekranında çalışır.
 
 # Title of the settings screen.
 scan-settings-title = Ayarlar
 
 # Label above the folder new profiles save into.
-scan-settings-folder = Yeni profillerin kaydedileceği klasör
+scan-settings-folder = Yeni profiller için varsayılan klasör
 
 # Words when no folder has been chosen.
 scan-settings-no-folder = Klasör seçilmedi
 
 # Label above the default file name box.
-scan-settings-pattern = Yeni profillerin başlangıç dosya adı
+scan-settings-pattern = Yeni profiller için varsayılan dosya adı
 
 # Spoken name of the default file name box.
 scan-settings-pattern-spoken = Varsayılan dosya adı deseni
@@ -572,15 +572,15 @@ scan-settings-units-mm = Milimetre
 scan-settings-units-in = İnç
 
 # Note showing a page size written in the chosen units.
-scan-settings-example = Örneğin { $size }
+scan-settings-example = Örneğin, { $size }
 
 # Label of the switch that takes saved pages out of the list.
 # SAFETY: needs a human review before it ships
-scan-settings-remove-saved = Kaydettikten sonra kaydedilen sayfaları listeden çıkar
+scan-settings-remove-saved = Kaydedildikten sonra sayfaları listeden çıkar
 
 # Spoken name of the remove saved pages switch.
 # SAFETY: needs a human review before it ships
-scan-settings-remove-saved-spoken = Kaydettikten sonra kaydedilen sayfaları kaldır
+scan-settings-remove-saved-spoken = Kaydettikten sonra sayfaları kaldır
 
 # Heading above the PDF details.
 scan-settings-pdf-heading = Kaydedilen PDF dosyaları
@@ -628,22 +628,22 @@ scan-settings-pdf-password-spoken = PDF parolası
 
 # Note under the PDF password box.
 # SAFETY: needs a human review before it ships
-scan-settings-pdf-password-note = Parola istemiyorsanız boş bırakın. Ayar dosyanızda düz metin olarak tutulur, bu yüzden parolayı yalnızca basit bir gizlilik için kullanın.
+scan-settings-pdf-password-note = Parola istemiyorsanız bunu boş bırakın. Ayar dosyanızı açabilen herkes parolayı okuyabilir, çünkü düz metin olarak saklanır.
 
 # Title written in a saved PDF when the person has not typed one.
 scan-settings-pdf-default-title = Tarama
 
 # Heading above the place pages are kept while open.
-scan-settings-progress-heading = Sürmekte olan sayfalar
+scan-settings-progress-heading = Geçici sayfalar
 
 # Label above the folder pages are kept in while the program is open.
-scan-settings-temp = Program açıkken sayfaların tutulacağı klasör
+scan-settings-temp = Geçici sayfalar klasörü
 
 # Words when the default place is used to keep pages.
-scan-settings-temp-default = Varsayılan konum
+scan-settings-temp-default = Varsayılan klasör
 
 # Note under the folder for pages in progress.
-scan-settings-temp-note = Bu, program bir sonraki açılışında kullanılır.
+scan-settings-temp-note = Bu değişiklik, Trindle Scan'i bir sonraki açışınızda geçerli olur.
 
 # A page size with its measurements in millimetres.
 scan-settings-size-mm = { $name }, { $w } x { $h } mm
@@ -655,7 +655,7 @@ scan-settings-size-in = { $name }, { $w } x { $h } inç
 scan-scanners-none = Tarayıcı bulunamadı. Bu bilgisayarla aynı ağda olduğunu denetleyin ya da adresini aşağıya yazın.
 
 # Label above the box for a scanner address.
-scan-scanners-address = Adresi elle girin
+scan-scanners-address = Tarayıcı adresi
 
 # Spoken name of the scanner address box.
 scan-scanners-address-spoken = Tarayıcı adresi, örneğin 192.168.1.40
@@ -664,13 +664,13 @@ scan-scanners-address-spoken = Tarayıcı adresi, örneğin 192.168.1.40
 scan-scanners-add = Ekle
 
 # Note under the scanner address box.
-scan-scanners-address-note = Başka bir ağdaki tarayıcı kendiliğinden bulunmaz. Adresi bunu çözer.
+scan-scanners-address-note = Trindle Scan başka bir ağdaki tarayıcıyı kendiliğinden bulamaz. Eklemek için adresini yazın.
 
 # Title of the screen for making a profile.
 scan-presets-title = Profil oluştur
 
 # Note on the screen for making a profile.
-scan-presets-note = Profil, tarama ayarlarınızı saklar. Başlangıç için birini seçin; sonra değiştirebilirsiniz.
+scan-presets-note = Profil, tarama ayarlarınızı saklar. Başlamak için birini seçin. Sonra değiştirebilirsiniz.
 
 # Title of the profiles screen.
 scan-profiles-title = Profiller
@@ -737,7 +737,7 @@ scan-profile-size-letter = Letter
 scan-profile-size-legal = Legal
 
 # Page size choice: the biggest the scanner can do.
-scan-profile-size-largest = Tarayıcının yapabildiği en büyük
+scan-profile-size-largest = Desteklenen en büyük boyut
 
 # File type PDF.
 scan-profile-format-pdf = PDF
@@ -752,19 +752,19 @@ scan-profile-format-png = PNG
 scan-profile-format-tiff = TIFF
 
 # Note when the scanner did not say how big its glass is.
-scan-profile-told-glass = Tarayıcı camının boyutunu bildirmedi, bu yüzden A4 varsayıldı.
+scan-profile-told-glass = Tarayıcı cam boyutunu bildirmedi, bu yüzden Trindle Scan A4 kullandı.
 
 # Note when the page size was cut down to what the scanner can do.
-scan-profile-told-size = Sayfa boyutu tarayıcının yapabildiğinden büyüktü, bu yüzden en büyüğü kullanıldı.
+scan-profile-told-size = Sayfa boyutu tarayıcı için çok büyüktü, bu yüzden Trindle Scan desteklenen en büyük boyutu kullandı.
 
 # Note when the resolution was changed to one the scanner offers.
-scan-profile-told-dpi = İnç başına { $dpi } nokta sunulmuyor, bu yüzden { $near } kullanıldı.
+scan-profile-told-dpi = Tarayıcı inç başına { $dpi } nokta çözünürlükte tarayamıyor, bu yüzden Trindle Scan { $near } kullandı.
 
 # Note when the scanner has no feeder and the glass was used.
-scan-profile-told-feeder = Tarayıcıda besleyici yok, bu yüzden cam kullanıldı.
+scan-profile-told-feeder = Tarayıcıda besleyici yok, bu yüzden Trindle Scan camı kullandı.
 
 # Note when the scanner cannot scan both sides in one pass.
-scan-profile-told-duplex = Tarayıcı iki yüzü tek geçişte tarayamıyor.
+scan-profile-told-duplex = Tarayıcı iki yüzü aynı anda tarayamıyor.
 
 # Title of the profile editor.
 scan-editor-title = Profili düzenle
@@ -782,7 +782,7 @@ scan-editor-test-heading = Deneme taraması
 scan-editor-test-busy = Deneme sayfası taranıyor
 
 # Note beside the Test scan button.
-scan-editor-test-note = Bu ayarlarla bir sayfa tarar. Sayfalarınıza eklenmez.
+scan-editor-test-note = Bu, bu ayarlarla bir sayfa tarar. Sayfalarınıza eklenmez.
 
 # Note under the test page picture.
 scan-editor-test-size = Deneme sayfası: { $w } x { $h } piksel
@@ -809,13 +809,13 @@ scan-editor-source-manual = Besleyici, desteyi elle çevir
 scan-editor-size = Sayfa boyutu
 
 # Label above the resolution choice.
-scan-editor-dpi = Çözünürlük, inç başına nokta
+scan-editor-dpi = Çözünürlük (inç başına nokta)
 
 # Spoken name of the resolution choice.
 scan-editor-dpi-spoken = Çözünürlük
 
 # Note under the resolution choice when it is high.
-scan-editor-dpi-note = Yüksek çözünürlük büyük dosyalara ve yavaş taramaya yol açar.
+scan-editor-dpi-note = Daha yüksek çözünürlük daha büyük dosyalar ve daha yavaş taramalar demektir.
 
 # Label above the colour choice.
 scan-editor-colour = Renk
@@ -833,7 +833,7 @@ scan-editor-colour-grey = Gri
 scan-editor-colour-bw = Siyah beyaz
 
 # Label above the black and white threshold slider.
-scan-editor-threshold = Ne kadar koyu siyah sayılır: { $n }
+scan-editor-threshold = Siyah beyaz eşiği: { $n }
 
 # Spoken name of the threshold slider.
 scan-editor-threshold-spoken = Siyah beyaz eşiği
@@ -857,16 +857,16 @@ scan-editor-reset-tone = Parlaklığı ve karşıtlığı sıfırla
 scan-editor-rotate = Her sayfayı döndür
 
 # Choice of turning: do not turn.
-scan-editor-rotate-none = Hayır
+scan-editor-rotate-none = Yok
 
 # Spoken name of the turn choice.
-scan-editor-rotate-spoken = Sabit döndürme, derece olarak
+scan-editor-rotate-spoken = Sayfa döndürme, derece olarak
 
 # Label and spoken name of the straighten switch.
 scan-editor-straighten = Sayfaları düzelt
 
 # Label of the trim borders switch.
-scan-editor-trim = Kenarlıkları ve fazla boşluğu kırp
+scan-editor-trim = Kenarlıkları ve boşlukları kırp
 
 # Spoken name of the trim borders switch.
 scan-editor-trim-spoken = Kenarlıkları kırp
@@ -887,7 +887,7 @@ scan-editor-batch-heading = Toplu tarama
 scan-editor-batch-one = Tek tarama
 
 # Choice of batch mode: a set number of runs.
-scan-editor-batch-several = Birkaç tur
+scan-editor-batch-several = Birkaç tarama
 
 # Choice of batch mode: runs until the person stops.
 scan-editor-batch-until = Ben durdurana kadar
@@ -896,19 +896,19 @@ scan-editor-batch-until = Ben durdurana kadar
 scan-editor-batch-spoken = Toplu tarama kipi
 
 # Label and spoken name of the number of runs choice.
-scan-editor-runs = Tur sayısı
+scan-editor-runs = Tarama sayısı
 
 # Label above the pause between runs choice.
-scan-editor-pause = Turlar arası bekleme, saniye
+scan-editor-pause = Taramalar arası bekleme (saniye)
 
 # Spoken name of the pause between runs choice.
-scan-editor-pause-spoken = Turlar arası bekleme
+scan-editor-pause-spoken = Taramalar arası bekleme
 
 # Choice of pause: wait until the person presses Continue.
 scan-editor-pause-wait = Beni bekle
 
 # Label and spoken name of the switch that puts all runs in one file.
-scan-editor-one-file = Tüm turlar tek dosyada
+scan-editor-one-file = Tüm taramalar tek dosyada
 
 # Heading above what happens after scanning.
 scan-editor-after-heading = Taramadan sonra
@@ -929,18 +929,18 @@ scan-editor-pattern-spoken = Dosya adı deseni
 scan-editor-next-file = Sonraki dosya: { $name }
 
 # Note listing the parts that can be used in a file name. The parts in curly brackets are typed as they are.
-scan-editor-parts = Kullanabileceğiniz parçalar: { $parts }. / işareti klasör oluşturur.
+scan-editor-parts = Dosya adında şunları kullanabilirsiniz: { $parts }. Klasör oluşturmak için / ekleyin.
 
 # Label of the switch that clears the pages from the list after saving.
 # SAFETY: needs a human review before it ships
-scan-editor-clear-after = Sonrasında sayfaları listeden temizle
+scan-editor-clear-after = Kaydettikten sonra sayfaları listeden temizle
 
 # Spoken name of the clear pages switch.
 # SAFETY: needs a human review before it ships
 scan-editor-clear-after-spoken = Kaydettikten sonra sayfaları temizle
 
 # Red words when the scanner did not answer. The reason follows.
-scan-escl-offline = Tarayıcı yanıt vermedi. { $detail }
+scan-escl-offline = Tarayıcı yanıt vermiyor. { $detail }
 
 # Red words when the scanner is busy.
 scan-escl-busy = Tarayıcı meşgul.
@@ -955,34 +955,34 @@ scan-escl-jam = Kâğıt sıkıştı.
 scan-escl-not-private = Bu adres yerel ağınızda değil.
 
 # Red words for any other scanner problem. The reason follows.
-scan-escl-other = Tarayıcı sorunu. { $detail }
+scan-escl-other = Tarayıcıda bir sorun oldu. { $detail }
 
 # Red words when a scan was stopped by the person.
 scan-escl-stopped = Tarama durduruldu.
 
 # Reason given when the scanner's address cannot be found.
-scan-escl-detail-no-address = Adres yok.
+scan-escl-detail-no-address = Tarayıcı adresi yok.
 
 # Reason given when the scanner answered with an error number.
-scan-escl-detail-answered = Şu yanıtı verdi: { $code }.
+scan-escl-detail-answered = Şu hata koduyla yanıt verdi: { $code }.
 
 # Reason given when the scanner did not say what it can scan.
 scan-escl-detail-no-caps = Neleri tarayabildiğini bildirmedi.
 
 # Reason given when the scanner refused a scan, with its error number.
-scan-escl-detail-refused = Taramayı reddetti ({ $code }).
+scan-escl-detail-refused = Taramayı başlatamadı (hata { $code }).
 
 # Reason given when the scanner did not say where the scan job is.
-scan-escl-detail-no-job = İş adresi vermedi.
+scan-escl-detail-no-job = Tarayıcı taramayı göndermedi.
 
 # Reason given when the scanner stopped with an error number.
-scan-escl-detail-stopped = Şu hatayla durdu: { $code }.
+scan-escl-detail-stopped = Şu hata koduyla durdu: { $code }.
 
 # Reason given when the scanner's answer could not be read.
-scan-escl-detail-broken = Bozuk bir yanıt.
+scan-escl-detail-broken = Trindle Scan'in okuyamadığı bir yanıt gönderdi.
 
 # Reason: the scanner gave an address with characters this program will not send.
-scan-escl-detail-unsafe = Bu programın kullanmayacağı bir adres verdi.
+scan-escl-detail-unsafe = Trindle Scan'in güvenle kullanamayacağı bir adres gönderdi.
 
 # Reason: the scanner took far too long to send its answer.
 scan-escl-detail-too-slow = Yanıt vermesi çok uzun sürdü.
@@ -991,35 +991,35 @@ scan-escl-detail-too-slow = Yanıt vermesi çok uzun sürdü.
 scan-scanners-usb = USB
 
 # Red words when a USB scanner is chosen but the computer lacks the scanner software.
-scan-sane-missing = USB tarayıcılar, bu bilgisayarda bulunmayan tarayıcı yazılımına (SANE) gerek duyar.
+scan-sane-missing = USB tarayıcılar, bu bilgisayarda yüklü olmayan SANE tarayıcı yazılımına gerek duyar.
 
 # Red words when the system will not let the program use the USB scanner.
 # SAFETY: needs a human review before it ships
-scan-sane-denied = Bu programın USB tarayıcıyı kullanmasına izin verilmiyor. İzinlerinde Trindle Scan için "Tarayıcıları ve USB aygıtlarını kullan" iznini verip programı yeniden açın.
+scan-sane-denied = Trindle Scan'in USB tarayıcıları kullanmasına izin verilmiyor. İzinlerinde "Use scanners and USB devices" seçeneğini açın, sonra Trindle Scan'i yeniden açın.
 
 # Red words when the scanner lid is open.
 scan-sane-cover = Tarayıcının kapağı açık. Kapatıp yeniden deneyin.
 
 # Reason given when the USB scanner cannot be reached.
-scan-sane-io = Tarayıcının takılı ve açık olduğunu denetleyin. Program açıldıktan sonra takılan tarayıcı, program yeniden açıldığında bulunur.
+scan-sane-io = Trindle Scan tarayıcıya ulaşamıyor. Tarayıcının takılı ve açık olduğunu denetleyin. Tarayıcıyı Trindle Scan'i açtıktan sonra taktıysanız, Trindle Scan'i kapatıp yeniden açın.
 
 # Red words when the scanner would not take one setting. { $what } is the scanner's own name for it.
 scan-sane-refused = Tarayıcı { $what } ayarını kabul etmedi, bu yüzden hiçbir şey taranmadı.
 
 # Red words when a USB scanner's name cannot be used.
-scan-sane-bad-device = Tarayıcının aygıt adı kullanılamıyor.
+scan-sane-bad-device = Trindle Scan bu tarayıcıyı kullanamıyor.
 
 # Red words when the scanner sends the picture in a form the program cannot read.
-scan-sane-frame = Tarayıcı resmi bu programın okuyamadığı bir biçimde gönderdi.
+scan-sane-frame = Tarayıcı resmi Trindle Scan'in okuyamadığı bir biçimde gönderdi.
 
 # Reason given when the chosen language for reading text is not a plain language code.
-scan-ocr-bad-language = Metin okuma için seçilen dil, programın tanıdığı bir dil değil.
+scan-ocr-bad-language = Trindle Scan o dilde metin okuyamıyor.
 
 # Reason given when reading the text of one page took too long.
 scan-ocr-too-slow = Bu sayfadaki metni okumak çok uzun sürdü.
 
 # Reason given when the text reader stopped with an error on a page.
-scan-ocr-failed = Bu sayfadaki metin okunamadı.
+scan-ocr-failed = Trindle Scan bu sayfadaki metni okuyamadı.
 
 # Words on the bar while the text of the pages is read for a searchable PDF.
 scan-ocr-reading = Sayfa { $i } / { $n } üzerindeki metin okunuyor
@@ -1028,13 +1028,13 @@ scan-ocr-reading = Sayfa { $i } / { $n } üzerindeki metin okunuyor
 scan-ocr-cancelled = Kaydetme iptal edildi. Sayfalar hâlâ burada.
 
 # Note under the bar when the program that reads text is not on this computer.
-scan-ocr-missing = Metin okumak için bu bilgisayarda bulunmayan Tesseract programı gerekir. Sayfalar aranabilir metin olmadan kaydedilir.
+scan-ocr-missing = Metin okumak için Trindle Scan'in Tesseract'a ihtiyacı var, ancak bu bilgisayarda yüklü değil. Sayfalar aranabilir metin olmadan kaydedilir.
 
 # Note under the bar when some pages could not be read for text. The page numbers follow.
 scan-ocr-unread =
     { $n ->
-        [one] { $list }. sayfadaki metin okunamadı. Bu sayfa aranabilir metin olmadan kaydedildi.
-       *[other] { $list } sayfalarındaki metin okunamadı. Bu sayfalar aranabilir metin olmadan kaydedildi.
+        [one] { $list } numaralı sayfadaki metin okunamadı. Bu sayfa aranabilir metin olmadan kaydedildi.
+       *[other] { $list } numaralı sayfalardaki metin okunamadı. Bu sayfalar aranabilir metin olmadan kaydedildi.
     }
 
 # Note under the bar: what was saved, then what went wrong with the text.
@@ -1047,13 +1047,13 @@ scan-editor-searchable = Metni aranabilir yap
 scan-editor-ocr-language = Metnin dili
 
 # Label above the choice of a second language to read.
-scan-editor-ocr-second = Sayfalarda iki dil varsa ikinci dil
+scan-editor-ocr-second = İkinci dil (isteğe bağlı)
 
 # Choice of second language: none.
 scan-editor-ocr-none = Yok
 
 # Note under the searchable text choice.
-scan-editor-ocr-note = Okuma, sayfa başına birkaç saniye sürer. Bir sayfa okunamazsa metin olmadan kaydedilir.
+scan-editor-ocr-note = Metin okuma, sayfa başına birkaç saniye sürer. Trindle Scan bir sayfadaki metni okuyamazsa, sayfayı aranabilir metin olmadan kaydeder.
 
 # Heading above the zoom buttons in the page viewer.
 scan-view-zoom-heading = Yakınlaştır
@@ -1069,10 +1069,10 @@ scan-view-zoom-fit = Tüm sayfa
 scan-view-zoom-actual = Gerçek boyut
 
 # Note under the zoom buttons.
-scan-view-zoom-note = Fare tekerleği de yakınlaştırır. Sayfayı sürükleyerek taşıyın. Artı, eksi ve 0 tuşları yakınlaştırır, uzaklaştırır ve tüm sayfayı gösterir.
+scan-view-zoom-note = Fare tekerleğiyle de yakınlaştırabilir, sayfayı sürükleyerek taşıyabilirsiniz. Artı ve eksi yakınlaştırır ve uzaklaştırır, 0 tüm sayfayı gösterir.
 
 # Label and spoken name of the choice of shape the crop box keeps.
-scan-view-crop-shape = Kırpma biçimi
+scan-view-crop-shape = Kırpma şekli
 
 # The shapes: free, square, and width to height as 4 to 3, 3 to 2 and 16 to 9.
 scan-view-crop-shape-free = Serbest
@@ -1107,18 +1107,18 @@ scan-close-discard = Sayfaları at ve kapat
 scan-close-keep = Çalışmaya devam et
 
 # Printed in the terminal, not shown in a window, when the program is started without a desktop to draw on.
-scan-main-start-no-desktop = Trindle Scan: pencere açılacak bir masaüstü yok.
+scan-main-start-no-desktop = Trindle Scan pencere açamıyor çünkü çalışan bir masaüstü yok.
 
-scan-main-start-no-window = Trindle Scan: masaüstü bir pencere açmadı.
+scan-main-start-no-window = Trindle Scan masaüstünde pencere açamadı.
 
 # Red words at start-up when the home folder is not set to a full path, so settings and profiles cannot be kept.
-scan-main-error-no-home = Ev klasörün ayarlı değil, bu yüzden bu sefer ayarların ve profillerin saklanamaz.
+scan-main-error-no-home = Trindle Scan ev klasörünüzü bulamıyor, bu yüzden bu sefer ayarlarınızı ve profillerinizi kaydedemiyor.
 
 
 # Red words when pages could not be copied to the recovery folder, so a crash would lose them.
 scan-main-error-not-kept =
     { $n ->
-        [one] Bir sayfa kurtarma klasörüne kopyalanamadı, bu yüzden bir çökme onu kaybettirir.
-       *[other] { $n } sayfa kurtarma klasörüne kopyalanamadı, bu yüzden bir çökme onları kaybettirir.
+        [one] Trindle Scan bir sayfayı kurtarma klasörüne kopyalayamadı. Trindle Scan çökerse onu kaybedersiniz.
+       *[other] Trindle Scan { $n } sayfayı kurtarma klasörüne kopyalayamadı. Trindle Scan çökerse onları kaybedersiniz.
     }
 

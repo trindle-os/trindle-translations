@@ -5,16 +5,16 @@
 scan-app-name = Trindle Scan
 
 # Red words when the program's own settings could not be saved. The reason from the computer follows.
-scan-main-error-keep-settings = Imeshindwa kuhifadhi mipangilio yako: { $why }
+scan-main-error-keep-settings = Trindle Scan imeshindwa kuhifadhi mipangilio yako: { $why }
 
 # Red words when the profiles could not be saved. The reason from the computer follows.
-scan-main-error-keep-profiles = Imeshindwa kuhifadhi wasifu wako: { $why }
+scan-main-error-keep-profiles = Trindle Scan imeshindwa kuhifadhi wasifu wako: { $why }
 
 # Red words under the bar when Scan is pressed with no scanner chosen.
-scan-main-error-no-scanner = Bado hujachagua skana.
+scan-main-error-no-scanner = Hujachagua skana bado.
 
 # Red words when Scan is pressed before the scanner has said what it can do.
-scan-main-error-wait-caps = Inasubiri skana ieleze inachoweza kufanya.
+scan-main-error-wait-caps = Trindle Scan bado inakagua kile ambacho skana inaweza kufanya. Jaribu tena baada ya muda mfupi.
 
 # Red words on the profile editor when Test scan is pressed with no scanner.
 scan-main-test-choose-scanner = Chagua skana kwanza, kisha ujaribu tena.
@@ -32,17 +32,17 @@ scan-main-announce-test-done = Skani ya majaribio imekamilika
 scan-main-announce-test-failed = Skani ya majaribio haikufanya kazi
 
 # Note under the bar when a page came back damaged and was left out.
-scan-main-note-damaged = Ukurasa mmoja ulirudi ukiwa umeharibika na umerukwa.
+scan-main-note-damaged = Ukurasa mmoja uliharibika, kwa hiyo Trindle Scan imeuruka.
 
-scan-save-page-unreadable = Ukurasa uliochanganuliwa haukuweza kusomwa, kwa hiyo hakuna kilichohifadhiwa.
+scan-save-page-unreadable = Trindle Scan haikuweza kusoma ukurasa uliochanganuliwa, kwa hiyo hakuna kilichohifadhiwa.
 
-scan-save-page-encode = Ukurasa haukuweza kugeuzwa kuwa picha: { $why }
+scan-save-page-encode = Trindle Scan haikuweza kugeuza ukurasa kuwa picha: { $why }
 
 # Red words when a scan stopped part way. The first part says what went wrong, then how many pages were kept.
 scan-main-error-with-kept =
     { $words } { $n ->
-        [one] Ukurasa { $n } umebaki.
-       *[other] Kurasa { $n } zimebaki.
+        [one] Ukurasa uliofika bado uko hapa.
+       *[other] Kurasa { $n } zilizofika bado ziko hapa.
     }
 
 # Note after saving a long scan as several PDF files: the folder and file name, then how many files.
@@ -59,12 +59,12 @@ scan-main-note-saved = Imehifadhiwa kwenye { $path }
 scan-main-note-saved-summary = { $summary } Imehifadhiwa kwenye { $path }
 
 # Red words when pages could not be saved. The reason follows.
-scan-main-error-save = Imeshindwa kuhifadhi: { $why }. Kurasa bado ziko hapa.
+scan-main-error-save = Trindle Scan imeshindwa kuhifadhi skani zako: { $why }. Kurasa zako bado ziko hapa.
 
 # Red words when an automatic save did not work. The reason follows.
-scan-main-error-autosave = Imeshindwa kuhifadhi kiotomatiki: { $why }. Kurasa bado ziko hapa.
+scan-main-error-autosave = Trindle Scan imeshindwa kuhifadhi skani zako kiotomatiki: { $why }. Kurasa zako bado ziko hapa.
 
-scan-main-error-crashed = Hitilafu imetokea ndani ya programu na kazi imesimamishwa. Kurasa zako bado ziko hapa.
+scan-main-error-crashed = Hitilafu imetokea, kwa hiyo Trindle Scan imesimama. Kurasa zako bado ziko hapa.
 
 # Note under the bar after pictures were added from files.
 scan-main-note-added =
@@ -79,12 +79,12 @@ scan-main-note-added-failed =
         [one] Picha { $n } imeongezwa
        *[other] Picha { $n } zimeongezwa
     }. { $failed ->
-        [one] Faili moja haikuweza kusomwa.
-       *[other] Faili { $failed } hazikuweza kusomwa.
+        [one] Trindle Scan haikuweza kusoma faili moja.
+       *[other] Trindle Scan haikuweza kusoma faili { $failed }.
     }
 
 # Red words when the folder of saved files could not be opened.
-scan-main-error-open-folder = Folda haikuweza kufunguliwa.
+scan-main-error-open-folder = Trindle Scan haikuweza kufungua folda.
 
 # Note under the bar after pages from last time were brought back.
 scan-main-note-recovered =
@@ -94,19 +94,19 @@ scan-main-note-recovered =
     }
 
 # Note when the front sides are done and the person must turn the stack over.
-scan-main-note-turn-over = Geuza rundo la karatasi kisha bonyeza Scan kwa upande wa nyuma.
+scan-main-note-turn-over = Geuza rundo la karatasi, kisha bonyeza Changanua ili uchanganue upande wa nyuma.
 
 # Note and question on the bar after a glass scan, asking whether to scan another page.
-scan-main-note-another-page = Ukurasa mwingine?
+scan-main-note-another-page = Changanua ukurasa mwingine?
 
 # Note under the bar when one run of a batch has finished.
-scan-main-note-run-done = Awamu ya { $n } imekamilika.
+scan-main-note-run-done = Skani ya { $n } imekamilika.
 
 # Summary when a batch has finished: how many runs and how many pages.
 scan-main-summary-batch =
     Kundi limekamilika: { $runs ->
-        [one] awamu { $runs }
-       *[other] awamu { $runs }
+        [one] skani { $runs }
+       *[other] skani { $runs }
     }, { $pages ->
         [one] ukurasa { $pages }
        *[other] kurasa { $pages }
@@ -117,9 +117,9 @@ scan-main-error-busy-still = Skana bado ina shughuli. Jaribu tena baada ya muda 
 
 # Red words while the program waits for a busy scanner, counting down.
 scan-main-error-busy-retry =
-    Skana ina shughuli. Inajaribu tena, { $n ->
-        [one] sekunde { $n } imebaki
-       *[other] sekunde { $n } zimebaki
+    Skana ina shughuli. Trindle Scan itajaribu tena kwa { $n ->
+        [one] sekunde { $n } zaidi
+       *[other] sekunde { $n } zaidi
     }.
 
 # Note under the bar when a scan has finished.
@@ -134,7 +134,7 @@ scan-main-note-scanned-skipped =
     { $n ->
         [one] Ukurasa { $n } umechanganuliwa
        *[other] Kurasa { $n } zimechanganuliwa
-    }, { $blanks ->
+    } na { $blanks ->
         [one] ukurasa mtupu { $blanks } umerukwa
        *[other] kurasa tupu { $blanks } zimerukwa
     }
@@ -143,7 +143,7 @@ scan-main-note-scanned-skipped =
 scan-main-part-name = { $stem } sehemu { $n }
 
 # Red words when retrying was stopped because the scanner was busy.
-scan-main-error-stopped-busy = Imesimamishwa. Skana ilikuwa na shughuli.
+scan-main-error-stopped-busy = Kuchanganua kumesimama kwa sababu skana ilikuwa na shughuli.
 
 # Words while an address typed by hand is being checked.
 scan-main-note-checking-address = Inakagua anwani
@@ -152,10 +152,10 @@ scan-main-note-checking-address = Inakagua anwani
 scan-main-filter-pictures = Picha
 
 # Red words when something dropped on the window gave no files. The reason follows.
-scan-main-drop-nothing = Hakuna kilichoongezwa: { $why }
+scan-main-drop-nothing = Trindle Scan imeshindwa kuongeza faili: { $why }
 
 # Red words when text, not a file, is dropped on the window.
-scan-main-drop-text = Ni faili za picha tu zinazoweza kuachiwa hapa.
+scan-main-drop-text = Unaweza kuachia faili za picha tu hapa.
 
 # Status line: how many pages are in the list.
 scan-status-pages =
@@ -169,7 +169,10 @@ scan-status-pages-selected =
     { $n ->
         [one] ukurasa { $n }
        *[other] kurasa { $n }
-    }, { $sel } zimechaguliwa
+    }, { $sel ->
+        [one] { $sel } umechaguliwa
+       *[other] { $sel } zimechaguliwa
+    }
 
 # Status line and bar label while a page is being scanned.
 scan-status-scanning = Inachanganua ukurasa { $n }
@@ -181,7 +184,7 @@ scan-status-searching = Inatafuta skana
 scan-status-ready = { $name } iko tayari
 
 # Status line while the chosen scanner is being asked what it can do.
-scan-status-asking = Inauliza { $name }
+scan-status-asking = Inawasiliana na { $name }
 
 # Status line when no scanner is chosen.
 scan-status-none = Hakuna skana iliyochaguliwa
@@ -190,13 +193,13 @@ scan-status-none = Hakuna skana iliyochaguliwa
 scan-status-line = { $pages }      { $state }
 
 # Red words under the profile name box when it is empty.
-scan-profiles-error-name-empty = Wasifu unahitaji jina.
+scan-profiles-error-name-empty = Andika jina la wasifu.
 
 # Red words under the profile name box when another profile has that name.
 scan-profiles-error-name-taken = Wasifu mwingine tayari una jina hilo.
 
 # Red words when a page cannot be opened in the large view.
-scan-view-error-unshown = Ukurasa huo haukuweza kuonyeshwa.
+scan-view-error-unshown = Trindle Scan haiwezi kuonyesha ukurasa huo.
 
 # Title above the large view of a page, and its spoken name.
 scan-view-page-of = Ukurasa { $i } kati ya { $n }
@@ -205,7 +208,7 @@ scan-view-page-of = Ukurasa { $i } kati ya { $n }
 scan-view-crop-heading = Kata
 
 # Note under the crop heading.
-scan-view-crop-note = Kata pembezoni kama sehemu ya ukurasa. Inatumika kwa kila ukurasa uliochaguliwa.
+scan-view-crop-note = Weka kiasi cha kukata kwenye kila ukingo. Hii inabadilisha kila ukurasa uliochaguliwa.
 
 # Label of the crop slider for the left edge.
 scan-view-crop-left = Kushoto
@@ -265,14 +268,14 @@ scan-common-choose = Chagua
 scan-common-use = Tumia
 
 # Note that changes are kept as they are made.
-scan-common-changes-save = Mabadiliko huhifadhiwa unapoyafanya.
+scan-common-changes-save = Mabadiliko yako huhifadhiwa unapoendelea.
 
 # Words on the bar between batch runs when the person must load the next stack.
 scan-bar-pause-empty = Weka rundo linalofuata, kisha bonyeza Endelea.
 
 # Words on the bar counting down to the next batch run.
 scan-bar-pause-wait =
-    Awamu inayofuata baada ya { $n ->
+    Skani inayofuata baada ya { $n ->
         [one] sekunde { $n }
        *[other] sekunde { $n }
     }
@@ -358,11 +361,11 @@ scan-pages-recover-left =
     }
 
 # Button that brings back the pages left from the last run.
-scan-pages-recover = Zirudishe
+scan-pages-recover = Rudisha kurasa
 
 # Button that throws away the pages left from the last run.
 # SAFETY: needs a human review before it ships
-scan-pages-discard = Zitupe
+scan-pages-discard = Tupa kurasa
 
 # Label of the thumbnail size slider on the bottom bar.
 scan-pages-thumbnails = Picha ndogo
@@ -384,13 +387,13 @@ scan-pages-open-folder = Fungua folda
 
 # Bottom bar button that removes saved pages from the list.
 # SAFETY: needs a human review before it ships
-scan-pages-clear-saved = Ondoa zilizohifadhiwa
+scan-pages-clear-saved = Ondoa kurasa zilizohifadhiwa
 
 # Title of the picker (and of the system file chooser) for saving a PDF.
 scan-browse-title-save-pdf = Hifadhi skani
 
 # Title of the picker for choosing where pictures are saved.
-scan-browse-title-save-folder = Chagua folda ya kuhifadhi picha
+scan-browse-title-save-folder = Folda ya picha
 
 # Title of the picker (and of the system file chooser) for adding pictures.
 scan-browse-title-pictures = Ongeza picha
@@ -399,10 +402,10 @@ scan-browse-title-pictures = Ongeza picha
 scan-browse-title-profile-folder = Folda ya kuhifadhi skani
 
 # Title of the picker for the folder new profiles save into.
-scan-browse-title-settings-folder = Folda ambayo wasifu mpya huhifadhi ndani yake
+scan-browse-title-settings-folder = Folda ya kawaida ya wasifu mpya
 
 # Title of the picker for the folder pages are kept in while the program is open.
-scan-browse-title-temp-folder = Folda ya kuweka kurasa programu inapofunguliwa
+scan-browse-title-temp-folder = Folda ya kurasa za muda
 
 # File name that scans start with, without the ending.
 scan-browse-default-name = Skani
@@ -411,19 +414,19 @@ scan-browse-default-name = Skani
 scan-browse-error-open-first-new = Fungua moja ya folda zako kwanza, kisha tengeneza folda mpya ndani yake.
 
 # Red words in the picker when a new folder name is not plain.
-scan-browse-error-folder-name = Ipe folda jina rahisi, bila mikwaju na lisianze na nukta.
+scan-browse-error-folder-name = Majina ya folda hayawezi kuwa na mikwaju wala kuanza na nukta.
 
 # Red words in the picker when a folder could not be made. The reason follows.
-scan-browse-error-make-folder = Imeshindwa kutengeneza folda: { $why }
+scan-browse-error-make-folder = Trindle Scan imeshindwa kuunda folda: { $why }
 
 # Red words in the picker when Add is pressed with no pictures chosen.
-scan-browse-error-no-pictures = Bonyeza picha unazotaka, kisha uziongeze.
+scan-browse-error-no-pictures = Chagua picha unazotaka, kisha uziongeze.
 
 # Red words in the picker when Save is pressed before a folder is open.
 scan-browse-error-open-first = Fungua moja ya folda zako kwanza.
 
 # Red words in the picker when the file name is not plain.
-scan-browse-error-file-name = Ipe faili jina rahisi, bila mikwaju na lisianze na nukta.
+scan-browse-error-file-name = Majina ya faili hayawezi kuwa na mikwaju wala kuanza na nukta.
 
 # Red words in the picker when a file with that name already exists.
 scan-browse-error-name-taken = Faili lenye jina hilo tayari lipo. Chagua jina lingine.
@@ -450,7 +453,7 @@ scan-browse-empty-pictures = Hakuna folda wala picha hapa.
 scan-browse-empty-folders = Bado hakuna folda hapa.
 
 # Label above the new folder box in the picker.
-scan-browse-new-folder = Folda mpya hapa
+scan-browse-new-folder = Folda mpya
 
 # Spoken name of the new folder box in the picker.
 scan-browse-new-folder-spoken = Jina la folda mpya
@@ -481,7 +484,7 @@ scan-shortcuts-title = Njia za mkato za kibodi
 scan-shortcuts-profile-keys = 1 hadi 9
 
 # What the profile keys do.
-scan-shortcuts-profile-what = Changanua kwa wasifu wa kwanza hadi wa tisa
+scan-shortcuts-profile-what = Changanua kwa wasifu ulio katika nafasi hiyo kwenye orodha
 
 # Keys that select every page.
 scan-shortcuts-select-keys = Ctrl+A
@@ -512,13 +515,13 @@ scan-shortcuts-redo-what = Rudia
 scan-shortcuts-earlier-keys = Alt+Left
 
 # What the move earlier keys do.
-scan-shortcuts-earlier-what = Sogeza kurasa zilizochaguliwa mbele
+scan-shortcuts-earlier-what = Sogeza kurasa zilizochaguliwa kuelekea mwanzo
 
 # Keys that move the selected pages later.
 scan-shortcuts-later-keys = Alt+Right
 
 # What the move later keys do.
-scan-shortcuts-later-what = Sogeza kurasa zilizochaguliwa nyuma
+scan-shortcuts-later-what = Sogeza kurasa zilizochaguliwa kuelekea mwisho
 
 # Keys that move between buttons and pages.
 scan-shortcuts-tab-keys = Tab na Shift+Tab
@@ -530,7 +533,7 @@ scan-shortcuts-tab-what = Hamia kati ya vitufe na kurasa
 scan-shortcuts-press-keys = Space au Enter
 
 # What the space and enter keys do.
-scan-shortcuts-press-what = Bonyeza kitufe au chagua ukurasa uliolengwa
+scan-shortcuts-press-what = Bonyeza kitufe kilichoangaziwa au chagua ukurasa ulioangaziwa
 
 # Note under the list of shortcuts.
 scan-shortcuts-note = Vitufe vya kuchanganua na kuhariri kurasa hufanya kazi kwenye skrini ya orodha ya kurasa.
@@ -539,13 +542,13 @@ scan-shortcuts-note = Vitufe vya kuchanganua na kuhariri kurasa hufanya kazi kwe
 scan-settings-title = Mipangilio
 
 # Label above the folder new profiles save into.
-scan-settings-folder = Folda ambayo wasifu mpya huhifadhi ndani yake
+scan-settings-folder = Folda ya kawaida ya wasifu mpya
 
 # Words when no folder has been chosen.
 scan-settings-no-folder = Hakuna folda iliyochaguliwa
 
 # Label above the default file name box.
-scan-settings-pattern = Jina la faili ambalo wasifu mpya huanza nalo
+scan-settings-pattern = Jina la kawaida la faili kwa wasifu mpya
 
 # Spoken name of the default file name box.
 scan-settings-pattern-spoken = Mtindo wa jina la faili wa kawaida
@@ -570,15 +573,15 @@ scan-settings-units-mm = Milimita
 scan-settings-units-in = Inchi
 
 # Note showing a page size written in the chosen units.
-scan-settings-example = Kwa mfano { $size }
+scan-settings-example = Kwa mfano, { $size }
 
 # Label of the switch that takes saved pages out of the list.
 # SAFETY: needs a human review before it ships
-scan-settings-remove-saved = Ondoa kurasa zilizohifadhiwa kwenye orodha baada ya kuhifadhi
+scan-settings-remove-saved = Ondoa kurasa kwenye orodha zikishahifadhiwa
 
 # Spoken name of the remove saved pages switch.
 # SAFETY: needs a human review before it ships
-scan-settings-remove-saved-spoken = Ondoa kurasa zilizohifadhiwa baada ya kuhifadhi
+scan-settings-remove-saved-spoken = Ondoa kurasa baada ya kuhifadhi
 
 # Heading above the PDF details.
 scan-settings-pdf-heading = Faili za PDF zilizohifadhiwa
@@ -626,34 +629,34 @@ scan-settings-pdf-password-spoken = Nenosiri la PDF
 
 # Note under the PDF password box.
 # SAFETY: needs a human review before it ships
-scan-settings-pdf-password-note = Liache wazi kama hutaki nenosiri. Linahifadhiwa kwenye faili lako la mipangilio kama maandishi wazi, kwa hiyo litumie nenosiri kwa faragha ya kawaida tu.
+scan-settings-pdf-password-note = Liache wazi kama hutaki nenosiri. Yeyote anayeweza kufungua faili lako la mipangilio anaweza kusoma nenosiri, kwa sababu linahifadhiwa kama maandishi wazi.
 
 # Title written in a saved PDF when the person has not typed one.
 scan-settings-pdf-default-title = Skani
 
 # Heading above the place pages are kept while open.
-scan-settings-progress-heading = Kurasa zinazoendelea
+scan-settings-progress-heading = Kurasa za muda
 
 # Label above the folder pages are kept in while the program is open.
-scan-settings-temp = Folda ya kuweka kurasa programu inapofunguliwa
+scan-settings-temp = Folda ya kurasa za muda
 
 # Words when the default place is used to keep pages.
-scan-settings-temp-default = Mahali pa kawaida
+scan-settings-temp-default = Folda ya kawaida
 
 # Note under the folder for pages in progress.
-scan-settings-temp-note = Hii itatumika programu itakapoanza tena.
+scan-settings-temp-note = Badiliko hili litaanza kutumika utakapofungua Trindle Scan tena.
 
 # A page size with its measurements in millimetres.
 scan-settings-size-mm = { $name }, { $w } kwa { $h } mm
 
 # A page size with its measurements in inches.
-scan-settings-size-in = { $name }, { $w } kwa { $h } in
+scan-settings-size-in = { $name }, { $w } kwa { $h } inchi
 
 # Note when no scanner was found.
 scan-scanners-none = Hakuna skana iliyopatikana. Hakikisha iko kwenye mtandao mmoja na kompyuta hii, au andika anwani yake hapa chini.
 
 # Label above the box for a scanner address.
-scan-scanners-address = Weka anwani kwa mkono
+scan-scanners-address = Anwani ya skana
 
 # Spoken name of the scanner address box.
 scan-scanners-address-spoken = Anwani ya skana, kwa mfano 192.168.1.40
@@ -662,13 +665,13 @@ scan-scanners-address-spoken = Anwani ya skana, kwa mfano 192.168.1.40
 scan-scanners-add = Ongeza
 
 # Note under the scanner address box.
-scan-scanners-address-note = Skana iliyo kwenye mtandao mwingine haipatikani yenyewe. Anwani yake hutatua tatizo hilo.
+scan-scanners-address-note = Trindle Scan haiwezi kupata skana iliyo kwenye mtandao mwingine yenyewe. Andika anwani yake ili kuiongeza.
 
 # Title of the screen for making a profile.
 scan-presets-title = Tengeneza wasifu
 
 # Note on the screen for making a profile.
-scan-presets-note = Wasifu huhifadhi mipangilio yako ya skani. Chagua mmoja wa kuanzia; unaweza kuubadilisha baadaye.
+scan-presets-note = Wasifu huhifadhi mipangilio yako ya skani. Chagua mmoja kuanza nao. Unaweza kuubadilisha baadaye.
 
 # Title of the profiles screen.
 scan-profiles-title = Wasifu
@@ -735,7 +738,7 @@ scan-profile-size-letter = Letter
 scan-profile-size-legal = Legal
 
 # Page size choice: the biggest the scanner can do.
-scan-profile-size-largest = Kubwa zaidi ambayo skana inaweza
+scan-profile-size-largest = Ukubwa mkubwa zaidi unaotumika
 
 # File type PDF.
 scan-profile-format-pdf = PDF
@@ -750,16 +753,16 @@ scan-profile-format-png = PNG
 scan-profile-format-tiff = TIFF
 
 # Note when the scanner did not say how big its glass is.
-scan-profile-told-glass = Skana haikueleza kioo chake ni kikubwa kiasi gani, kwa hiyo A4 imedhaniwa.
+scan-profile-told-glass = Skana haikutaja ukubwa wa kioo chake, kwa hiyo Trindle Scan ilitumia A4.
 
 # Note when the page size was cut down to what the scanner can do.
-scan-profile-told-size = Ukubwa wa ukurasa ulikuwa mkubwa kuliko skana inavyoweza, kwa hiyo ukubwa mkubwa zaidi umetumika.
+scan-profile-told-size = Ukubwa wa ukurasa ulikuwa mkubwa mno kwa skana, kwa hiyo Trindle Scan ilitumia ukubwa mkubwa zaidi unaotumika.
 
 # Note when the resolution was changed to one the scanner offers.
-scan-profile-told-dpi = { $dpi } nukta kwa inchi hazitolewi, kwa hiyo { $near } imetumika.
+scan-profile-told-dpi = Skana haiwezi kutumia { $dpi } nukta kwa inchi, kwa hiyo Trindle Scan ilitumia { $near }.
 
 # Note when the scanner has no feeder and the glass was used.
-scan-profile-told-feeder = Skana haina kilisha karatasi, kwa hiyo kioo kimetumika.
+scan-profile-told-feeder = Skana haina kilisha karatasi, kwa hiyo Trindle Scan ilitumia kioo.
 
 # Note when the scanner cannot scan both sides in one pass.
 scan-profile-told-duplex = Skana haiwezi kuchanganua pande zote mbili kwa mara moja.
@@ -780,7 +783,7 @@ scan-editor-test-heading = Skani ya majaribio
 scan-editor-test-busy = Inachanganua ukurasa wa majaribio
 
 # Note beside the Test scan button.
-scan-editor-test-note = Huchanganua ukurasa mmoja kwa mipangilio hii. Hauongezwi kwenye kurasa zako.
+scan-editor-test-note = Hii huchanganua ukurasa mmoja kwa mipangilio hii. Hauongezwi kwenye kurasa zako.
 
 # Note under the test page picture.
 scan-editor-test-size = Ukurasa wa majaribio: pikseli { $w } kwa { $h }
@@ -807,7 +810,7 @@ scan-editor-source-manual = Kilisha karatasi, geuza rundo
 scan-editor-size = Ukubwa wa ukurasa
 
 # Label above the resolution choice.
-scan-editor-dpi = Ubora, nukta kwa inchi
+scan-editor-dpi = Ubora (nukta kwa inchi)
 
 # Spoken name of the resolution choice.
 scan-editor-dpi-spoken = Ubora
@@ -831,7 +834,7 @@ scan-editor-colour-grey = Kijivu
 scan-editor-colour-bw = Nyeusi na nyeupe
 
 # Label above the black and white threshold slider.
-scan-editor-threshold = Giza kiasi gani huhesabiwa kuwa nyeusi: { $n }
+scan-editor-threshold = Kiwango cha nyeusi na nyeupe: { $n }
 
 # Spoken name of the threshold slider.
 scan-editor-threshold-spoken = Kizingiti cha nyeusi na nyeupe
@@ -855,16 +858,16 @@ scan-editor-reset-tone = Weka upya mwangaza na utofautishaji
 scan-editor-rotate = Zungusha kila ukurasa
 
 # Choice of turning: do not turn.
-scan-editor-rotate-none = Hapana
+scan-editor-rotate-none = Hakuna
 
 # Spoken name of the turn choice.
-scan-editor-rotate-spoken = Mzunguko maalum kwa digrii
+scan-editor-rotate-spoken = Mzunguko wa ukurasa kwa digrii
 
 # Label and spoken name of the straighten switch.
 scan-editor-straighten = Nyoosha kurasa
 
 # Label of the trim borders switch.
-scan-editor-trim = Kata kingo na pembezoni za ziada
+scan-editor-trim = Kata kingo na pembezoni
 
 # Spoken name of the trim borders switch.
 scan-editor-trim-spoken = Kata kingo
@@ -885,7 +888,7 @@ scan-editor-batch-heading = Kundi
 scan-editor-batch-one = Skani moja
 
 # Choice of batch mode: a set number of runs.
-scan-editor-batch-several = Awamu kadhaa
+scan-editor-batch-several = Skani kadhaa
 
 # Choice of batch mode: runs until the person stops.
 scan-editor-batch-until = Hadi nitakaposimamisha
@@ -894,19 +897,19 @@ scan-editor-batch-until = Hadi nitakaposimamisha
 scan-editor-batch-spoken = Hali ya kundi
 
 # Label and spoken name of the number of runs choice.
-scan-editor-runs = Idadi ya awamu
+scan-editor-runs = Idadi ya skani
 
 # Label above the pause between runs choice.
-scan-editor-pause = Mapumziko kati ya awamu, sekunde
+scan-editor-pause = Mapumziko kati ya skani (sekunde)
 
 # Spoken name of the pause between runs choice.
-scan-editor-pause-spoken = Mapumziko kati ya awamu
+scan-editor-pause-spoken = Mapumziko kati ya skani
 
 # Choice of pause: wait until the person presses Continue.
 scan-editor-pause-wait = Nisubiri
 
 # Label and spoken name of the switch that puts all runs in one file.
-scan-editor-one-file = Awamu zote katika faili moja
+scan-editor-one-file = Skani zote katika faili moja
 
 # Heading above what happens after scanning.
 scan-editor-after-heading = Baada ya kuchanganua
@@ -927,18 +930,18 @@ scan-editor-pattern-spoken = Mtindo wa jina la faili
 scan-editor-next-file = Faili linalofuata: { $name }
 
 # Note listing the parts that can be used in a file name. The parts in curly brackets are typed as they are.
-scan-editor-parts = Sehemu unazoweza kutumia: { $parts }. Alama ya / hutengeneza folda.
+scan-editor-parts = Unaweza kutumia haya katika jina la faili: { $parts }. Ongeza / ili kutengeneza folda.
 
 # Label of the switch that clears the pages from the list after saving.
 # SAFETY: needs a human review before it ships
-scan-editor-clear-after = Ondoa kurasa kwenye orodha baadaye
+scan-editor-clear-after = Ondoa kurasa kwenye orodha baada ya kuhifadhi
 
 # Spoken name of the clear pages switch.
 # SAFETY: needs a human review before it ships
 scan-editor-clear-after-spoken = Ondoa kurasa baada ya kuhifadhi
 
 # Red words when the scanner did not answer. The reason follows.
-scan-escl-offline = Skana haikujibu. { $detail }
+scan-escl-offline = Skana haijibu. { $detail }
 
 # Red words when the scanner is busy.
 scan-escl-busy = Skana ina shughuli.
@@ -953,71 +956,71 @@ scan-escl-jam = Karatasi imekwama.
 scan-escl-not-private = Anwani hiyo haiko kwenye mtandao wako wa ndani.
 
 # Red words for any other scanner problem. The reason follows.
-scan-escl-other = Tatizo la skana. { $detail }
+scan-escl-other = Skana ilikuwa na tatizo. { $detail }
 
 # Red words when a scan was stopped by the person.
 scan-escl-stopped = Skani imesimamishwa.
 
 # Reason given when the scanner's address cannot be found.
-scan-escl-detail-no-address = Hakuna anwani.
+scan-escl-detail-no-address = Hakuna anwani ya skana.
 
 # Reason given when the scanner answered with an error number.
-scan-escl-detail-answered = Ilijibu { $code }.
+scan-escl-detail-answered = Ilijibu kwa hitilafu { $code }.
 
 # Reason given when the scanner did not say what it can scan.
-scan-escl-detail-no-caps = Haikueleza inachoweza kuchanganua.
+scan-escl-detail-no-caps = Haikusema inaweza kuchanganua nini.
 
 # Reason given when the scanner refused a scan, with its error number.
-scan-escl-detail-refused = Ilikataa skani ({ $code }).
+scan-escl-detail-refused = Haikuweza kuanza skani (hitilafu { $code }).
 
 # Reason given when the scanner did not say where the scan job is.
-scan-escl-detail-no-job = Haikutoa anwani ya kazi.
+scan-escl-detail-no-job = Skana haikutuma skani.
 
 # Reason given when the scanner stopped with an error number.
-scan-escl-detail-stopped = Ilisimama na { $code }.
+scan-escl-detail-stopped = Ilisimama na hitilafu { $code }.
 
 # Reason given when the scanner's answer could not be read.
-scan-escl-detail-broken = Jibu lililoharibika.
+scan-escl-detail-broken = Ilituma jibu ambalo Trindle Scan haikuweza kusoma.
 
 # Reason: the scanner gave an address with characters this program will not send.
-scan-escl-detail-unsafe = Ilitoa anwani ambayo programu hii haitaitumia.
+scan-escl-detail-unsafe = Ilituma anwani ambayo Trindle Scan haiwezi kutumia kwa usalama.
 
 # Reason: the scanner took far too long to send its answer.
-scan-escl-detail-too-slow = Ilichukua muda mrefu sana kujibu.
+scan-escl-detail-too-slow = Ilichukua muda mrefu mno kujibu.
 
 # Detail under a scanner in the list that is plugged into this computer.
 scan-scanners-usb = USB
 
 # Red words when a USB scanner is chosen but the computer lacks the scanner software.
-scan-sane-missing = Skana za USB zinahitaji programu ya skana (SANE) ambayo haipo kwenye kompyuta hii.
+scan-sane-missing = Skana za USB zinahitaji programu ya skana ya SANE, ambayo haijasakinishwa kwenye kompyuta hii.
 
 # Red words when the system will not let the program use the USB scanner.
 # SAFETY: needs a human review before it ships
-scan-sane-denied = Programu hii hairuhusiwi kutumia skana ya USB. Ruhusu Use scanners and USB devices kwa Trindle Scan kwenye ruhusa zake, kisha ifungue tena.
+scan-sane-denied = Trindle Scan hairuhusiwi kutumia skana za USB. Washa “Use scanners and USB devices” kwenye ruhusa zake, kisha ifungue tena.
 
 # Red words when the scanner lid is open.
 scan-sane-cover = Kifuniko cha skana kiko wazi. Kifunge kisha ujaribu tena.
 
 # Reason given when the USB scanner cannot be reached.
-scan-sane-io = Hakikisha skana imechomekwa na kuwashwa. Skana iliyochomekwa baada ya programu kufunguliwa itapatikana programu itakapofunguliwa tena.
+scan-sane-io = Trindle Scan haiwezi kufikia skana. Hakikisha imechomekwa na kuwashwa. Kama uliichomeka baada ya kufungua Trindle Scan, ifunge kisha ifungue tena.
 
 # Red words when the scanner would not take one setting. { $what } is the scanner's own name for it.
-scan-sane-refused = Skana ilikataa mpangilio wake wa { $what }, kwa hiyo hakuna kilichochanganuliwa.
+scan-sane-refused = Skana haikukubali mpangilio wa { $what }, kwa hiyo hakuna kilichochanganuliwa.
 
 # Red words when a USB scanner's name cannot be used.
-scan-sane-bad-device = Jina la kifaa cha skana haliwezi kutumika.
+scan-sane-bad-device = Trindle Scan haiwezi kutumia skana hii.
 
 # Red words when the scanner sends the picture in a form the program cannot read.
-scan-sane-frame = Skana ilituma picha kwa namna ambayo programu hii haiwezi kuisoma.
+scan-sane-frame = Skana ilituma picha kwa namna ambayo Trindle Scan haiwezi kuisoma.
 
 # Reason given when the chosen language for reading text is not a plain language code.
-scan-ocr-bad-language = Lugha hiyo ya kusoma maandishi haijulikani kwa programu.
+scan-ocr-bad-language = Trindle Scan haiwezi kusoma maandishi katika lugha hiyo.
 
 # Reason given when reading the text of one page took too long.
 scan-ocr-too-slow = Kusoma maandishi ya ukurasa huu kulichukua muda mrefu sana.
 
 # Reason given when the text reader stopped with an error on a page.
-scan-ocr-failed = Maandishi ya ukurasa huu hayakuweza kusomwa.
+scan-ocr-failed = Trindle Scan haikuweza kusoma maandishi kwenye ukurasa huu.
 
 # Words on the bar while the text of the pages is read for a searchable PDF.
 scan-ocr-reading = Inasoma maandishi ya ukurasa { $i } kati ya { $n }
@@ -1026,7 +1029,7 @@ scan-ocr-reading = Inasoma maandishi ya ukurasa { $i } kati ya { $n }
 scan-ocr-cancelled = Kuhifadhi kumeghairiwa. Kurasa bado ziko hapa.
 
 # Note under the bar when the program that reads text is not on this computer.
-scan-ocr-missing = Kusoma maandishi kunahitaji programu ya Tesseract, ambayo haipo kwenye kompyuta hii. Kurasa zinahifadhiwa bila maandishi yanayotafutika.
+scan-ocr-missing = Ili kusoma maandishi, Trindle Scan inahitaji Tesseract, ambayo haijasakinishwa kwenye kompyuta hii. Kurasa zinahifadhiwa bila maandishi yanayotafutika.
 
 # Note under the bar when some pages could not be read for text. The page numbers follow.
 scan-ocr-unread =
@@ -1045,13 +1048,13 @@ scan-editor-searchable = Fanya maandishi yatafutike
 scan-editor-ocr-language = Lugha ya maandishi
 
 # Label above the choice of a second language to read.
-scan-editor-ocr-second = Lugha ya pili, ikiwa kurasa zinatumia mbili
+scan-editor-ocr-second = Lugha ya pili (si lazima)
 
 # Choice of second language: none.
 scan-editor-ocr-none = Hakuna
 
 # Note under the searchable text choice.
-scan-editor-ocr-note = Kusoma huchukua sekunde chache kwa ukurasa. Ukurasa usipoweza kusomwa huhifadhiwa bila maandishi.
+scan-editor-ocr-note = Kusoma maandishi huchukua sekunde chache kwa ukurasa. Trindle Scan ikishindwa kusoma maandishi kwenye ukurasa, huuhifadhi bila maandishi yanayotafutika.
 
 # Heading above the zoom buttons in the page viewer.
 scan-view-zoom-heading = Kukuza
@@ -1067,7 +1070,7 @@ scan-view-zoom-fit = Ukurasa mzima
 scan-view-zoom-actual = Ukubwa halisi
 
 # Note under the zoom buttons.
-scan-view-zoom-note = Gurudumu la kipanya pia hukuza. Buruta ukurasa kuusogeza. Vitufe plus, minus na 0 hukuza, hupunguza na kuonyesha ukurasa mzima.
+scan-view-zoom-note = Unaweza pia kukuza kwa gurudumu la kipanya na kuburuta ukurasa kuusogeza. Kitufe cha + hukuza, kitufe cha - hupunguza, na 0 huonyesha ukurasa mzima.
 
 # Label and spoken name of the choice of shape the crop box keeps.
 scan-view-crop-shape = Umbo la ukataji
@@ -1106,18 +1109,18 @@ scan-close-discard = Tupa na ufunge
 scan-close-keep = Endelea kufanya kazi
 
 # Printed in the terminal, not shown in a window, when the program is started without a desktop to draw on.
-scan-main-start-no-desktop = Trindle Scan: hakuna eneo-kazi la kufungua dirisha.
+scan-main-start-no-desktop = Trindle Scan haiwezi kufungua dirisha kwa sababu hakuna eneo-kazi linaloendeshwa.
 
-scan-main-start-no-window = Trindle Scan: eneo-kazi halikufungua dirisha.
+scan-main-start-no-window = Trindle Scan haikuweza kufungua dirisha kwenye eneo-kazi.
 
 # Red words at start-up when the home folder is not set to a full path, so settings and profiles cannot be kept.
-scan-main-error-no-home = Folda yako ya nyumbani haijawekwa, kwa hiyo mipangilio na wasifu wako haviwezi kuhifadhiwa wakati huu.
+scan-main-error-no-home = Trindle Scan haiwezi kupata folda yako ya nyumbani, kwa hiyo haiwezi kuhifadhi mipangilio na wasifu wako wakati huu.
 
 
 
 # Red words when pages could not be copied to the recovery folder, so a crash would lose them.
 scan-main-error-not-kept =
     { $n ->
-        [one] Ukurasa mmoja haukuweza kunakiliwa kwenye folda ya kurejesha, kwa hiyo hitilafu ingeupoteza.
-       *[other] Kurasa { $n } hazikuweza kunakiliwa kwenye folda ya kurejesha, kwa hiyo hitilafu ingezipoteza.
+        [one] Trindle Scan haikuweza kunakili ukurasa mmoja kwenye folda ya kurejesha. Trindle Scan ikisimama ghafla, utaupoteza.
+       *[other] Trindle Scan haikuweza kunakili kurasa { $n } kwenye folda ya kurejesha. Trindle Scan ikisimama ghafla, utazipoteza.
     }

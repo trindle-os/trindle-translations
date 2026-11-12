@@ -4,16 +4,16 @@
 scan-app-name = Trindle Scan
 
 # Red words when the program's own settings could not be saved. The reason from the computer follows.
-scan-main-error-keep-settings = Не удалось сохранить настройки: { $why }
+scan-main-error-keep-settings = Trindle Scan не смог сохранить настройки: { $why }
 
 # Red words when the profiles could not be saved. The reason from the computer follows.
-scan-main-error-keep-profiles = Не удалось сохранить профили: { $why }
+scan-main-error-keep-profiles = Trindle Scan не смог сохранить профили: { $why }
 
 # Red words under the bar when Scan is pressed with no scanner chosen.
-scan-main-error-no-scanner = Сканер ещё не выбран.
+scan-main-error-no-scanner = Вы ещё не выбрали сканер.
 
 # Red words when Scan is pressed before the scanner has said what it can do.
-scan-main-error-wait-caps = Ждём, пока сканер сообщит, что он умеет.
+scan-main-error-wait-caps = Trindle Scan ещё проверяет, что умеет сканер. Повторите попытку чуть позже.
 
 # Red words on the profile editor when Test scan is pressed with no scanner.
 scan-main-test-choose-scanner = Сначала выберите сканер, затем повторите попытку.
@@ -31,19 +31,20 @@ scan-main-announce-test-done = Пробное сканирование заве�
 scan-main-announce-test-failed = Пробное сканирование не удалось
 
 # Note under the bar when a page came back damaged and was left out.
-scan-main-note-damaged = Одна страница пришла повреждённой и была пропущена.
+scan-main-note-damaged = Одна страница была повреждена, поэтому Trindle Scan её пропустил.
 
-scan-save-page-unreadable = Отсканированную страницу не удалось прочитать, поэтому ничего не сохранено.
+scan-save-page-unreadable = Trindle Scan не смог прочитать отсканированную страницу, поэтому ничего не сохранено.
 
-scan-save-page-encode = Не удалось превратить страницу в изображение: { $why }
+scan-save-page-encode = Trindle Scan не смог превратить страницу в изображение: { $why }
 
 # Red words when a scan stopped part way. The first part says what went wrong, then how many pages were kept.
 scan-main-error-with-kept =
     { $words } { $n ->
-        [one] Сохранена { $n } страница.
-        [few] Сохранено { $n } страницы.
-        [many] Сохранено { $n } страниц.
-       *[other] Сохранено { $n } страницы.
+        [1] Страница, которая всё же пришла, осталась здесь.
+        [one] { $n } страница, которая всё же пришла, осталась здесь.
+        [few] { $n } страницы, которые всё же пришли, остались здесь.
+        [many] { $n } страниц, которые всё же пришли, остались здесь.
+       *[other] { $n } страницы, которые всё же пришли, остались здесь.
     }
 
 # Note after saving a long scan as several PDF files: the folder and file name, then how many files.
@@ -62,12 +63,12 @@ scan-main-note-saved = Сохранено в { $path }
 scan-main-note-saved-summary = { $summary } Сохранено в { $path }
 
 # Red words when pages could not be saved. The reason follows.
-scan-main-error-save = Не удалось сохранить: { $why }. Страницы остались здесь.
+scan-main-error-save = Trindle Scan не смог сохранить ваши сканы: { $why }. Страницы остались здесь.
 
 # Red words when an automatic save did not work. The reason follows.
-scan-main-error-autosave = Не удалось сохранить автоматически: { $why }. Страницы остались здесь.
+scan-main-error-autosave = Trindle Scan не смог автоматически сохранить ваши сканы: { $why }. Страницы остались здесь.
 
-scan-main-error-crashed = Внутри программы что-то пошло не так, и задание остановлено. Ваши страницы остались здесь.
+scan-main-error-crashed = Что-то пошло не так, и Trindle Scan остановился. Ваши страницы остались здесь.
 
 # Note under the bar after pictures were added from files.
 scan-main-note-added =
@@ -86,15 +87,15 @@ scan-main-note-added-failed =
         [many] Добавлено { $n } картинок
        *[other] Добавлено { $n } картинки
     }. { $failed ->
-        [1] Один файл не удалось прочитать.
-        [one] Не удалось прочитать { $failed } файл.
-        [few] Не удалось прочитать { $failed } файла.
-        [many] Не удалось прочитать { $failed } файлов.
-       *[other] Не удалось прочитать { $failed } файла.
+        [1] Trindle Scan не смог прочитать один файл.
+        [one] Trindle Scan не смог прочитать { $failed } файл.
+        [few] Trindle Scan не смог прочитать { $failed } файла.
+        [many] Trindle Scan не смог прочитать { $failed } файлов.
+       *[other] Trindle Scan не смог прочитать { $failed } файла.
     }
 
 # Red words when the folder of saved files could not be opened.
-scan-main-error-open-folder = Не удалось открыть папку.
+scan-main-error-open-folder = Trindle Scan не смог открыть папку.
 
 # Note under the bar after pages from last time were brought back.
 scan-main-note-recovered =
@@ -106,21 +107,21 @@ scan-main-note-recovered =
     }
 
 # Note when the front sides are done and the person must turn the stack over.
-scan-main-note-turn-over = Переверните стопку и нажмите «Сканировать» для обратных сторон.
+scan-main-note-turn-over = Переверните стопку и нажмите «Сканировать», чтобы отсканировать обратные стороны.
 
 # Note and question on the bar after a glass scan, asking whether to scan another page.
-scan-main-note-another-page = Ещё одну страницу?
+scan-main-note-another-page = Отсканировать ещё одну страницу?
 
 # Note under the bar when one run of a batch has finished.
-scan-main-note-run-done = Проход { $n } завершён.
+scan-main-note-run-done = Сканирование { $n } завершено.
 
 # Summary when a batch has finished: how many runs and how many pages.
 scan-main-summary-batch =
     Пакет завершён: { $runs ->
-        [one] { $runs } проход
-        [few] { $runs } прохода
-        [many] { $runs } проходов
-       *[other] { $runs } прохода
+        [one] { $runs } сканирование
+        [few] { $runs } сканирования
+        [many] { $runs } сканирований
+       *[other] { $runs } сканирования
     }, { $pages ->
         [one] { $pages } страница
         [few] { $pages } страницы
@@ -133,8 +134,8 @@ scan-main-error-busy-still = Сканер всё ещё занят. Повтор
 
 # Red words while the program waits for a busy scanner, counting down.
 scan-main-error-busy-retry =
-    Сканер занят. Пробуем снова, осталось { $n ->
-        [one] { $n } секунда
+    Сканер занят. Trindle Scan будет пробовать ещё { $n ->
+        [one] { $n } секунду
         [few] { $n } секунды
         [many] { $n } секунд
        *[other] { $n } секунды
@@ -156,13 +157,13 @@ scan-main-note-scanned-skipped =
         [few] Отсканировано { $n } страницы
         [many] Отсканировано { $n } страниц
        *[other] Отсканировано { $n } страницы
-    }, пропущено пустых: { $blanks }
+    } и пропущено пустых: { $blanks }
 
 # File name for one part of a PDF that was split into several files.
 scan-main-part-name = { $stem } часть { $n }
 
 # Red words when retrying was stopped because the scanner was busy.
-scan-main-error-stopped-busy = Остановлено. Сканер был занят.
+scan-main-error-stopped-busy = Сканирование остановлено: сканер был занят.
 
 # Words while an address typed by hand is being checked.
 scan-main-note-checking-address = Проверяем адрес
@@ -171,7 +172,7 @@ scan-main-note-checking-address = Проверяем адрес
 scan-main-filter-pictures = Картинки
 
 # Red words when something dropped on the window gave no files. The reason follows.
-scan-main-drop-nothing = Ничего не добавлено: { $why }
+scan-main-drop-nothing = Trindle Scan не смог добавить файлы: { $why }
 
 # Red words when text, not a file, is dropped on the window.
 scan-main-drop-text = Сюда можно перетащить только файлы с картинками.
@@ -204,7 +205,7 @@ scan-status-searching = Ищем сканеры
 scan-status-ready = { $name } готов
 
 # Status line while the chosen scanner is being asked what it can do.
-scan-status-asking = Опрашиваем { $name }
+scan-status-asking = Связываемся с { $name }
 
 # Status line when no scanner is chosen.
 scan-status-none = Сканер не выбран
@@ -213,13 +214,13 @@ scan-status-none = Сканер не выбран
 scan-status-line = { $pages }      { $state }
 
 # Red words under the profile name box when it is empty.
-scan-profiles-error-name-empty = У профиля должно быть название.
+scan-profiles-error-name-empty = Дайте профилю название.
 
 # Red words under the profile name box when another profile has that name.
 scan-profiles-error-name-taken = Профиль с таким названием уже есть.
 
 # Red words when a page cannot be opened in the large view.
-scan-view-error-unshown = Не удалось показать эту страницу.
+scan-view-error-unshown = Trindle Scan не может показать эту страницу.
 
 # Title above the large view of a page, and its spoken name.
 scan-view-page-of = Страница { $i } из { $n }
@@ -228,7 +229,7 @@ scan-view-page-of = Страница { $i } из { $n }
 scan-view-crop-heading = Обрезка
 
 # Note under the crop heading.
-scan-view-crop-note = Поля срезаются в долях страницы. Это относится ко всем выбранным страницам.
+scan-view-crop-note = Задайте, сколько срезать с каждого края. Это изменит все выбранные страницы.
 
 # Label of the crop slider for the left edge.
 scan-view-crop-left = Слева
@@ -291,14 +292,14 @@ scan-common-choose = Выбрать
 scan-common-use = Использовать
 
 # Note that changes are kept as they are made.
-scan-common-changes-save = Изменения сохраняются сразу.
+scan-common-changes-save = Ваши изменения сохраняются по ходу работы.
 
 # Words on the bar between batch runs when the person must load the next stack.
 scan-bar-pause-empty = Положите следующую стопку и нажмите «Продолжить».
 
 # Words on the bar counting down to the next batch run.
 scan-bar-pause-wait =
-    Следующий проход через { $n ->
+    Следующее сканирование через { $n ->
         [one] { $n } секунду
         [few] { $n } секунды
         [many] { $n } секунд
@@ -355,7 +356,7 @@ scan-bar-delete = Удалить выбранные страницы
 scan-bar-try-again = Повторить попытку
 
 # Button that scans from the glass when the feeder failed.
-scan-bar-use-glass = Использовать стекло
+scan-bar-use-glass = Вместо этого использовать стекло
 
 # Button that searches the network for scanners again.
 scan-bar-search-again = Искать снова
@@ -388,11 +389,11 @@ scan-pages-recover-left =
     }
 
 # Button that brings back the pages left from the last run.
-scan-pages-recover = Восстановить
+scan-pages-recover = Восстановить страницы
 
 # Button that throws away the pages left from the last run.
 # SAFETY: needs a human review before it ships
-scan-pages-discard = Отбросить
+scan-pages-discard = Не сохранять
 
 # Label of the thumbnail size slider on the bottom bar.
 scan-pages-thumbnails = Миниатюры
@@ -414,13 +415,13 @@ scan-pages-open-folder = Открыть папку
 
 # Bottom bar button that removes saved pages from the list.
 # SAFETY: needs a human review before it ships
-scan-pages-clear-saved = Убрать сохранённые
+scan-pages-clear-saved = Убрать сохранённые страницы
 
 # Title of the picker (and of the system file chooser) for saving a PDF.
 scan-browse-title-save-pdf = Сохранить скан
 
 # Title of the picker for choosing where pictures are saved.
-scan-browse-title-save-folder = Выберите папку для сохранения картинок
+scan-browse-title-save-folder = Папка для картинок
 
 # Title of the picker (and of the system file chooser) for adding pictures.
 scan-browse-title-pictures = Добавить картинки
@@ -429,10 +430,10 @@ scan-browse-title-pictures = Добавить картинки
 scan-browse-title-profile-folder = Папка для сохранения сканов
 
 # Title of the picker for the folder new profiles save into.
-scan-browse-title-settings-folder = Папка, в которую сохраняют новые профили
+scan-browse-title-settings-folder = Папка по умолчанию для новых профилей
 
 # Title of the picker for the folder pages are kept in while the program is open.
-scan-browse-title-temp-folder = Папка для хранения страниц, пока программа открыта
+scan-browse-title-temp-folder = Папка для временных страниц
 
 # File name that scans start with, without the ending.
 scan-browse-default-name = Скан
@@ -441,19 +442,19 @@ scan-browse-default-name = Скан
 scan-browse-error-open-first-new = Сначала откройте одну из своих папок, затем создайте новую папку внутри неё.
 
 # Red words in the picker when a new folder name is not plain.
-scan-browse-error-folder-name = Дайте папке простое имя: без косых черт и не начиная с точки.
+scan-browse-error-folder-name = В именах папок нельзя использовать косые черты, и они не могут начинаться с точки.
 
 # Red words in the picker when a folder could not be made. The reason follows.
-scan-browse-error-make-folder = Не удалось создать папку: { $why }
+scan-browse-error-make-folder = Trindle Scan не смог создать папку: { $why }
 
 # Red words in the picker when Add is pressed with no pictures chosen.
-scan-browse-error-no-pictures = Нажмите на нужные картинки, затем добавьте их.
+scan-browse-error-no-pictures = Выберите нужные картинки, затем добавьте их.
 
 # Red words in the picker when Save is pressed before a folder is open.
 scan-browse-error-open-first = Сначала откройте одну из своих папок.
 
 # Red words in the picker when the file name is not plain.
-scan-browse-error-file-name = Дайте файлу простое имя: без косых черт и не начиная с точки.
+scan-browse-error-file-name = В именах файлов нельзя использовать косые черты, и они не могут начинаться с точки.
 
 # Red words in the picker when a file with that name already exists.
 scan-browse-error-name-taken = Файл с таким именем уже есть. Выберите другое имя.
@@ -480,7 +481,7 @@ scan-browse-empty-pictures = Здесь нет ни папок, ни карти�
 scan-browse-empty-folders = Здесь пока нет папок.
 
 # Label above the new folder box in the picker.
-scan-browse-new-folder = Новая папка здесь
+scan-browse-new-folder = Новая папка
 
 # Spoken name of the new folder box in the picker.
 scan-browse-new-folder-spoken = Название новой папки
@@ -513,7 +514,7 @@ scan-shortcuts-title = Сочетания клавиш
 scan-shortcuts-profile-keys = от 1 до 9
 
 # What the profile keys do.
-scan-shortcuts-profile-what = Сканировать по профилю с первого по девятый
+scan-shortcuts-profile-what = Сканировать по профилю с этим номером в списке
 
 # Keys that select every page.
 scan-shortcuts-select-keys = Ctrl+A
@@ -522,7 +523,7 @@ scan-shortcuts-select-keys = Ctrl+A
 scan-shortcuts-select-what = Выбрать все страницы
 
 # Key that deletes the selected pages.
-scan-shortcuts-delete-keys = Delete
+scan-shortcuts-delete-keys = Del
 
 # What the delete key does.
 # SAFETY: needs a human review before it ships
@@ -541,13 +542,13 @@ scan-shortcuts-redo-keys = Ctrl+Shift+Z
 scan-shortcuts-redo-what = Повторить действие
 
 # Keys that move the selected pages earlier.
-scan-shortcuts-earlier-keys = Alt+Left
+scan-shortcuts-earlier-keys = Alt+Стрелка влево
 
 # What the move earlier keys do.
 scan-shortcuts-earlier-what = Переместить выбранные страницы раньше
 
 # Keys that move the selected pages later.
-scan-shortcuts-later-keys = Alt+Right
+scan-shortcuts-later-keys = Alt+Стрелка вправо
 
 # What the move later keys do.
 scan-shortcuts-later-what = Переместить выбранные страницы позже
@@ -562,16 +563,16 @@ scan-shortcuts-tab-what = Переходить между кнопками и с
 scan-shortcuts-press-keys = Пробел или Enter
 
 # What the space and enter keys do.
-scan-shortcuts-press-what = Нажать кнопку или выбрать страницу, на которой стоит фокус
+scan-shortcuts-press-what = Нажать выделенную кнопку или выбрать выделенную страницу
 
 # Note under the list of shortcuts.
-scan-shortcuts-note = Клавиши, которые сканируют и правят страницы, работают на экране со списком страниц.
+scan-shortcuts-note = Клавиши для сканирования и правки страниц работают на экране со списком страниц.
 
 # Title of the settings screen.
 scan-settings-title = Настройки
 
 # Label above the folder new profiles save into.
-scan-settings-folder = Папка, в которую сохраняют новые профили
+scan-settings-folder = Папка по умолчанию для новых профилей
 
 # Words when no folder has been chosen.
 scan-settings-no-folder = Папка не выбрана
@@ -608,11 +609,11 @@ scan-settings-example = Например, { $size }
 
 # Label of the switch that takes saved pages out of the list.
 # SAFETY: needs a human review before it ships
-scan-settings-remove-saved = Убирать сохранённые страницы из списка после сохранения
+scan-settings-remove-saved = Убирать страницы из списка после сохранения
 
 # Spoken name of the remove saved pages switch.
 # SAFETY: needs a human review before it ships
-scan-settings-remove-saved-spoken = Убирать сохранённые страницы после сохранения
+scan-settings-remove-saved-spoken = Убирать страницы после сохранения
 
 # Heading above the PDF details.
 scan-settings-pdf-heading = Сохранённые файлы PDF
@@ -660,34 +661,34 @@ scan-settings-pdf-password-spoken = Пароль PDF
 
 # Note under the PDF password box.
 # SAFETY: needs a human review before it ships
-scan-settings-pdf-password-note = Оставьте поле пустым, если пароль не нужен. Пароль хранится в файле настроек открытым текстом, поэтому используйте его только для защиты от случайных глаз.
+scan-settings-pdf-password-note = Оставьте поле пустым, если пароль не нужен. Пароль хранится открытым текстом, поэтому его может прочитать любой, кто откроет файл настроек.
 
 # Title written in a saved PDF when the person has not typed one.
 scan-settings-pdf-default-title = Скан
 
 # Heading above the place pages are kept while open.
-scan-settings-progress-heading = Страницы в работе
+scan-settings-progress-heading = Временные страницы
 
 # Label above the folder pages are kept in while the program is open.
-scan-settings-temp = Папка для хранения страниц, пока программа открыта
+scan-settings-temp = Папка для временных страниц
 
 # Words when the default place is used to keep pages.
-scan-settings-temp-default = Место по умолчанию
+scan-settings-temp-default = Папка по умолчанию
 
 # Note under the folder for pages in progress.
-scan-settings-temp-note = Новая папка будет использована при следующем запуске программы.
+scan-settings-temp-note = Это изменение вступит в силу, когда вы в следующий раз откроете Trindle Scan.
 
 # A page size with its measurements in millimetres.
 scan-settings-size-mm = { $name }, { $w } на { $h } мм
 
 # A page size with its measurements in inches.
-scan-settings-size-in = { $name }, { $w } на { $h } дюйма
+scan-settings-size-in = { $name }, { $w } на { $h } дюймов
 
 # Note when no scanner was found.
 scan-scanners-none = Сканер не найден. Проверьте, что он в той же сети, что и этот компьютер, или введите его адрес ниже.
 
 # Label above the box for a scanner address.
-scan-scanners-address = Ввести адрес вручную
+scan-scanners-address = Адрес сканера
 
 # Spoken name of the scanner address box.
 scan-scanners-address-spoken = Адрес сканера, например 192.168.1.40
@@ -696,13 +697,13 @@ scan-scanners-address-spoken = Адрес сканера, например 192.1
 scan-scanners-add = Добавить
 
 # Note under the scanner address box.
-scan-scanners-address-note = Сканер в другой сети сам не находится. Адрес помогает это обойти.
+scan-scanners-address-note = Trindle Scan сам не найдёт сканер в другой сети. Введите его адрес, чтобы добавить сканер.
 
 # Title of the screen for making a profile.
 scan-presets-title = Создать профиль
 
 # Note on the screen for making a profile.
-scan-presets-note = Профиль хранит ваши настройки сканирования. Выберите, с чего начать; позже это можно изменить.
+scan-presets-note = Профиль хранит ваши настройки сканирования. Выберите, с какого начать. Позже его можно изменить.
 
 # Title of the profiles screen.
 scan-profiles-title = Профили
@@ -769,7 +770,7 @@ scan-profile-size-letter = Letter
 scan-profile-size-legal = Legal
 
 # Page size choice: the biggest the scanner can do.
-scan-profile-size-largest = Максимум, что умеет сканер
+scan-profile-size-largest = Наибольший поддерживаемый размер
 
 # File type PDF.
 scan-profile-format-pdf = PDF
@@ -784,19 +785,19 @@ scan-profile-format-png = PNG
 scan-profile-format-tiff = TIFF
 
 # Note when the scanner did not say how big its glass is.
-scan-profile-told-glass = Сканер не сообщил размер своего стекла, поэтому принят размер A4.
+scan-profile-told-glass = Сканер не сообщил размер своего стекла, поэтому Trindle Scan взял A4.
 
 # Note when the page size was cut down to what the scanner can do.
-scan-profile-told-size = Размер страницы был больше, чем может сканер, поэтому взят наибольший.
+scan-profile-told-size = Размер страницы слишком велик для сканера, поэтому Trindle Scan взял наибольший поддерживаемый размер.
 
 # Note when the resolution was changed to one the scanner offers.
-scan-profile-told-dpi = Разрешение { $dpi } точек на дюйм недоступно, поэтому использовано { $near }.
+scan-profile-told-dpi = Сканер не умеет { $dpi } точек на дюйм, поэтому Trindle Scan взял { $near }.
 
 # Note when the scanner has no feeder and the glass was used.
-scan-profile-told-feeder = У сканера нет податчика, поэтому использовано стекло.
+scan-profile-told-feeder = У сканера нет податчика, поэтому Trindle Scan использовал стекло.
 
 # Note when the scanner cannot scan both sides in one pass.
-scan-profile-told-duplex = Сканер не умеет сканировать обе стороны за один проход.
+scan-profile-told-duplex = Сканер не умеет сканировать обе стороны сразу.
 
 # Title of the profile editor.
 scan-editor-title = Изменить профиль
@@ -841,13 +842,13 @@ scan-editor-source-manual = Податчик, стопку переворачи�
 scan-editor-size = Размер страницы
 
 # Label above the resolution choice.
-scan-editor-dpi = Разрешение, точек на дюйм
+scan-editor-dpi = Разрешение (точек на дюйм)
 
 # Spoken name of the resolution choice.
 scan-editor-dpi-spoken = Разрешение
 
 # Note under the resolution choice when it is high.
-scan-editor-dpi-note = Высокое разрешение даёт большие файлы и медленное сканирование.
+scan-editor-dpi-note = Чем выше разрешение, тем больше файлы и медленнее сканирование.
 
 # Label above the colour choice.
 scan-editor-colour = Цвет
@@ -865,7 +866,7 @@ scan-editor-colour-grey = Серый
 scan-editor-colour-bw = Чёрно-белый
 
 # Label above the black and white threshold slider.
-scan-editor-threshold = Насколько тёмное считать чёрным: { $n }
+scan-editor-threshold = Порог чёрно-белого: { $n }
 
 # Spoken name of the threshold slider.
 scan-editor-threshold-spoken = Порог чёрно-белого
@@ -889,16 +890,16 @@ scan-editor-reset-tone = Сбросить яркость и контрастно
 scan-editor-rotate = Поворачивать каждую страницу
 
 # Choice of turning: do not turn.
-scan-editor-rotate-none = Нет
+scan-editor-rotate-none = Без поворота
 
 # Spoken name of the turn choice.
-scan-editor-rotate-spoken = Постоянный поворот в градусах
+scan-editor-rotate-spoken = Поворот страницы в градусах
 
 # Label and spoken name of the straighten switch.
 scan-editor-straighten = Выравнивать страницы
 
 # Label of the trim borders switch.
-scan-editor-trim = Обрезать рамки и лишние поля
+scan-editor-trim = Обрезать рамки и поля
 
 # Spoken name of the trim borders switch.
 scan-editor-trim-spoken = Обрезать рамки
@@ -919,7 +920,7 @@ scan-editor-batch-heading = Пакет
 scan-editor-batch-one = Одно сканирование
 
 # Choice of batch mode: a set number of runs.
-scan-editor-batch-several = Несколько проходов
+scan-editor-batch-several = Несколько сканирований
 
 # Choice of batch mode: runs until the person stops.
 scan-editor-batch-until = Пока не остановлю
@@ -928,19 +929,19 @@ scan-editor-batch-until = Пока не остановлю
 scan-editor-batch-spoken = Режим пакета
 
 # Label and spoken name of the number of runs choice.
-scan-editor-runs = Число проходов
+scan-editor-runs = Число сканирований
 
 # Label above the pause between runs choice.
-scan-editor-pause = Пауза между проходами, секунд
+scan-editor-pause = Пауза между сканированиями (секунд)
 
 # Spoken name of the pause between runs choice.
-scan-editor-pause-spoken = Пауза между проходами
+scan-editor-pause-spoken = Пауза между сканированиями
 
 # Choice of pause: wait until the person presses Continue.
 scan-editor-pause-wait = Ждать меня
 
 # Label and spoken name of the switch that puts all runs in one file.
-scan-editor-one-file = Все проходы в одном файле
+scan-editor-one-file = Все сканирования в одном файле
 
 # Heading above what happens after scanning.
 scan-editor-after-heading = После сканирования
@@ -961,18 +962,18 @@ scan-editor-pattern-spoken = Шаблон имени файла
 scan-editor-next-file = Следующий файл: { $name }
 
 # Note listing the parts that can be used in a file name. The parts in curly brackets are typed as they are.
-scan-editor-parts = Что можно использовать: { $parts }. Символ / создаёт папку.
+scan-editor-parts = В имени файла можно использовать: { $parts }. Добавьте /, чтобы создать папку.
 
 # Label of the switch that clears the pages from the list after saving.
 # SAFETY: needs a human review before it ships
-scan-editor-clear-after = После сохранения очищать список страниц
+scan-editor-clear-after = Очищать список страниц после сохранения
 
 # Spoken name of the clear pages switch.
 # SAFETY: needs a human review before it ships
 scan-editor-clear-after-spoken = Очищать страницы после сохранения
 
 # Red words when the scanner did not answer. The reason follows.
-scan-escl-offline = Сканер не ответил. { $detail }
+scan-escl-offline = Сканер не отвечает. { $detail }
 
 # Red words when the scanner is busy.
 scan-escl-busy = Сканер занят.
@@ -981,40 +982,40 @@ scan-escl-busy = Сканер занят.
 scan-escl-no-paper = Положите бумагу в податчик.
 
 # Red words when paper is stuck.
-scan-escl-jam = Замятие бумаги.
+scan-escl-jam = Бумага замялась.
 
 # Red words when the address is not on the local network.
 scan-escl-not-private = Этого адреса нет в вашей локальной сети.
 
 # Red words for any other scanner problem. The reason follows.
-scan-escl-other = Неполадка сканера. { $detail }
+scan-escl-other = У сканера возникла неполадка. { $detail }
 
 # Red words when a scan was stopped by the person.
 scan-escl-stopped = Сканирование остановлено.
 
 # Reason given when the scanner's address cannot be found.
-scan-escl-detail-no-address = Нет адреса.
+scan-escl-detail-no-address = Адрес сканера не указан.
 
 # Reason given when the scanner answered with an error number.
-scan-escl-detail-answered = Он ответил: { $code }.
+scan-escl-detail-answered = Он ответил ошибкой { $code }.
 
 # Reason given when the scanner did not say what it can scan.
 scan-escl-detail-no-caps = Он не сообщил, что умеет сканировать.
 
 # Reason given when the scanner refused a scan, with its error number.
-scan-escl-detail-refused = Он отказался сканировать ({ $code }).
+scan-escl-detail-refused = Он не смог начать сканирование (ошибка { $code }).
 
 # Reason given when the scanner did not say where the scan job is.
-scan-escl-detail-no-job = Он не дал адрес задания.
+scan-escl-detail-no-job = Сканер не прислал скан.
 
 # Reason given when the scanner stopped with an error number.
-scan-escl-detail-stopped = Он остановился с кодом { $code }.
+scan-escl-detail-stopped = Он остановился с ошибкой { $code }.
 
 # Reason given when the scanner's answer could not be read.
-scan-escl-detail-broken = Повреждённый ответ.
+scan-escl-detail-broken = Он прислал ответ, который Trindle Scan не смог прочитать.
 
 # Reason: the scanner gave an address with characters this program will not send.
-scan-escl-detail-unsafe = Он дал адрес, который программа не будет использовать.
+scan-escl-detail-unsafe = Он прислал адрес, который Trindle Scan не может безопасно использовать.
 
 # Reason: the scanner took far too long to send its answer.
 scan-escl-detail-too-slow = Он слишком долго отвечал.
@@ -1023,35 +1024,35 @@ scan-escl-detail-too-slow = Он слишком долго отвечал.
 scan-scanners-usb = USB
 
 # Red words when a USB scanner is chosen but the computer lacks the scanner software.
-scan-sane-missing = Для сканеров USB нужна программа для работы со сканерами (SANE), которой на этом компьютере нет.
+scan-sane-missing = Для сканеров USB нужна программа SANE для работы со сканерами, но на этом компьютере её нет.
 
 # Red words when the system will not let the program use the USB scanner.
 # SAFETY: needs a human review before it ships
-scan-sane-denied = Этой программе не разрешено использовать сканер USB. Разрешите «Сканеры и устройства USB» для Trindle Scan в его разрешениях, затем откройте программу снова.
+scan-sane-denied = Trindle Scan не разрешено использовать сканеры USB. Включите «Use scanners and USB devices» в его разрешениях, затем откройте программу снова.
 
 # Red words when the scanner lid is open.
 scan-sane-cover = Крышка сканера открыта. Закройте её и повторите попытку.
 
 # Reason given when the USB scanner cannot be reached.
-scan-sane-io = Проверьте, что сканер подключён и включён. Сканер, подключённый после запуска программы, будет найден при следующем запуске.
+scan-sane-io = Trindle Scan не может связаться со сканером. Проверьте, что он подключён и включён. Если вы подключили его после запуска Trindle Scan, закройте Trindle Scan и откройте снова.
 
 # Red words when the scanner would not take one setting. { $what } is the scanner's own name for it.
 scan-sane-refused = Сканер не принял настройку «{ $what }», поэтому ничего не отсканировано.
 
 # Red words when a USB scanner's name cannot be used.
-scan-sane-bad-device = Имя устройства сканера непригодно.
+scan-sane-bad-device = Trindle Scan не может использовать этот сканер.
 
 # Red words when the scanner sends the picture in a form the program cannot read.
-scan-sane-frame = Сканер прислал картинку в виде, который программа не может прочитать.
+scan-sane-frame = Сканер прислал картинку в формате, который Trindle Scan не может прочитать.
 
 # Reason given when the chosen language for reading text is not a plain language code.
-scan-ocr-bad-language = Программа не знает такого языка для чтения текста.
+scan-ocr-bad-language = Trindle Scan не умеет читать текст на этом языке.
 
 # Reason given when reading the text of one page took too long.
 scan-ocr-too-slow = Чтение текста на этой странице заняло слишком много времени.
 
 # Reason given when the text reader stopped with an error on a page.
-scan-ocr-failed = Не удалось прочитать текст на этой странице.
+scan-ocr-failed = Trindle Scan не смог прочитать текст на этой странице.
 
 # Words on the bar while the text of the pages is read for a searchable PDF.
 scan-ocr-reading = Читаем текст на странице { $i } из { $n }
@@ -1061,7 +1062,7 @@ scan-ocr-reading = Читаем текст на странице { $i } из { $
 scan-ocr-cancelled = Сохранение отменено. Страницы остались здесь.
 
 # Note under the bar when the program that reads text is not on this computer.
-scan-ocr-missing = Для чтения текста нужна программа Tesseract, которой на этом компьютере нет. Страницы сохраняются без текста для поиска.
+scan-ocr-missing = Чтобы читать текст, Trindle Scan нужна программа Tesseract, но на этом компьютере её нет. Страницы сохраняются без текста для поиска.
 
 # Note under the bar when some pages could not be read for text. The page numbers follow.
 scan-ocr-unread =
@@ -1083,13 +1084,13 @@ scan-editor-searchable = Сделать текст доступным для п�
 scan-editor-ocr-language = Язык текста
 
 # Label above the choice of a second language to read.
-scan-editor-ocr-second = Второй язык, если на страницах два
+scan-editor-ocr-second = Второй язык (необязательно)
 
 # Choice of second language: none.
 scan-editor-ocr-none = Нет
 
 # Note under the searchable text choice.
-scan-editor-ocr-note = Чтение занимает несколько секунд на страницу. Если страницу не удаётся прочитать, она сохраняется без текста.
+scan-editor-ocr-note = Распознавание текста занимает несколько секунд на страницу. Если Trindle Scan не может прочитать текст на странице, он сохраняет её без текста для поиска.
 
 # Heading above the zoom buttons in the page viewer.
 scan-view-zoom-heading = Масштаб
@@ -1105,7 +1106,7 @@ scan-view-zoom-fit = Вся страница
 scan-view-zoom-actual = Реальный размер
 
 # Note under the zoom buttons.
-scan-view-zoom-note = Масштаб меняет и колёсико мыши. Чтобы двигать страницу, перетащите её. Клавиши «плюс», «минус» и 0 увеличивают, уменьшают и показывают всю страницу.
+scan-view-zoom-note = Масштаб можно менять и колёсиком мыши, а страницу можно двигать перетаскиванием. Клавиши «плюс» и «минус» увеличивают и уменьшают, а 0 показывает всю страницу.
 
 # Label and spoken name of the choice of shape the crop box keeps.
 scan-view-crop-shape = Форма обрезки
@@ -1141,26 +1142,27 @@ scan-close-scanning = Сканирование ещё идёт.
 
 # Button that closes the window and loses the unsaved pages.
 # SAFETY: needs a human review before it ships
-scan-close-discard = Отбросить и закрыть
+scan-close-discard = Не сохранять и закрыть
 
 # Button that goes back to the pages.
 scan-close-keep = Продолжить работу
 
 # Printed in the terminal, not shown in a window, when the program is started without a desktop to draw on.
-scan-main-start-no-desktop = Trindle Scan: нет рабочего стола, на котором можно открыть окно.
+scan-main-start-no-desktop = Trindle Scan не может открыть окно, потому что рабочий стол не запущен.
 
-scan-main-start-no-window = Trindle Scan: рабочий стол не открыл окно.
+scan-main-start-no-window = Trindle Scan не смог открыть окно на рабочем столе.
 
 # Red words at start-up when the home folder is not set to a full path, so settings and profiles cannot be kept.
-scan-main-error-no-home = Ваша домашняя папка не задана, поэтому на этот раз настройки и профили сохранить нельзя.
+scan-main-error-no-home = Trindle Scan не находит вашу домашнюю папку, поэтому на этот раз не сможет сохранить настройки и профили.
 
 
 # Red words when pages could not be copied to the recovery folder, so a crash would lose them.
 scan-main-error-not-kept =
     { $n ->
-        [one] Не удалось скопировать { $n } страницу в папку восстановления, поэтому при сбое она пропала бы.
-        [few] Не удалось скопировать { $n } страницы в папку восстановления, поэтому при сбое они пропали бы.
-        [many] Не удалось скопировать { $n } страниц в папку восстановления, поэтому при сбое они пропали бы.
-       *[other] Не удалось скопировать { $n } страницы в папку восстановления, поэтому при сбое они пропали бы.
+        [1] Trindle Scan не смог скопировать одну страницу в папку восстановления. Если Trindle Scan аварийно закроется, она пропадёт.
+        [one] Trindle Scan не смог скопировать { $n } страницу в папку восстановления. Если Trindle Scan аварийно закроется, они пропадут.
+        [few] Trindle Scan не смог скопировать { $n } страницы в папку восстановления. Если Trindle Scan аварийно закроется, они пропадут.
+        [many] Trindle Scan не смог скопировать { $n } страниц в папку восстановления. Если Trindle Scan аварийно закроется, они пропадут.
+       *[other] Trindle Scan не смог скопировать { $n } страницы в папку восстановления. Если Trindle Scan аварийно закроется, они пропадут.
     }
 

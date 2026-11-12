@@ -5,16 +5,16 @@
 scan-app-name = Trindle Scan
 
 # Red words when the program's own settings could not be saved. The reason from the computer follows.
-scan-main-error-keep-settings = Não foi possível guardar suas configurações: { $why }
+scan-main-error-keep-settings = O Trindle Scan não conseguiu salvar suas configurações: { $why }
 
 # Red words when the profiles could not be saved. The reason from the computer follows.
-scan-main-error-keep-profiles = Não foi possível guardar seus perfis: { $why }
+scan-main-error-keep-profiles = O Trindle Scan não conseguiu salvar seus perfis: { $why }
 
 # Red words under the bar when Scan is pressed with no scanner chosen.
-scan-main-error-no-scanner = Nenhum scanner escolhido ainda.
+scan-main-error-no-scanner = Você ainda não escolheu um scanner.
 
 # Red words when Scan is pressed before the scanner has said what it can do.
-scan-main-error-wait-caps = Aguardando o scanner informar o que ele pode fazer.
+scan-main-error-wait-caps = O Trindle Scan ainda está verificando o que o scanner consegue fazer. Tente de novo em instantes.
 
 # Red words on the profile editor when Test scan is pressed with no scanner.
 scan-main-test-choose-scanner = Escolha um scanner primeiro e tente de novo.
@@ -32,17 +32,17 @@ scan-main-announce-test-done = Digitalização de teste concluída
 scan-main-announce-test-failed = A digitalização de teste não funcionou
 
 # Note under the bar when a page came back damaged and was left out.
-scan-main-note-damaged = Uma página chegou danificada e foi ignorada.
+scan-main-note-damaged = Uma página estava danificada, então o Trindle Scan a ignorou.
 
-scan-save-page-unreadable = Não foi possível ler uma página digitalizada, então nada foi salvo.
+scan-save-page-unreadable = O Trindle Scan não conseguiu ler uma página digitalizada, então nada foi salvo.
 
-scan-save-page-encode = Não foi possível transformar uma página em imagem: { $why }
+scan-save-page-encode = O Trindle Scan não conseguiu transformar uma página em imagem: { $why }
 
 # Red words when a scan stopped part way. The first part says what went wrong, then how many pages were kept.
 scan-main-error-with-kept =
     { $words } { $n ->
-        [one] { $n } página mantida.
-       *[other] { $n } páginas mantidas.
+        [one] A página que chegou continua aqui.
+       *[other] As { $n } páginas que chegaram continuam aqui.
     }
 
 # Note after saving a long scan as several PDF files: the folder and file name, then how many files.
@@ -59,12 +59,12 @@ scan-main-note-saved = Salvo em { $path }
 scan-main-note-saved-summary = { $summary } Salvo em { $path }
 
 # Red words when pages could not be saved. The reason follows.
-scan-main-error-save = Não foi possível salvar: { $why }. As páginas continuam aqui.
+scan-main-error-save = O Trindle Scan não conseguiu salvar suas digitalizações: { $why }. Suas páginas continuam aqui.
 
 # Red words when an automatic save did not work. The reason follows.
-scan-main-error-autosave = Não foi possível salvar automaticamente: { $why }. As páginas continuam aqui.
+scan-main-error-autosave = O Trindle Scan não conseguiu salvar suas digitalizações automaticamente: { $why }. Suas páginas continuam aqui.
 
-scan-main-error-crashed = Algo deu errado dentro do programa e a tarefa foi interrompida. Suas páginas continuam aqui.
+scan-main-error-crashed = Algo deu errado, então o Trindle Scan parou. Suas páginas continuam aqui.
 
 # Note under the bar after pictures were added from files.
 scan-main-note-added =
@@ -79,12 +79,12 @@ scan-main-note-added-failed =
         [one] { $n } imagem adicionada
        *[other] { $n } imagens adicionadas
     }. { $failed ->
-        [one] Um arquivo não pôde ser lido.
-       *[other] { $failed } arquivos não puderam ser lidos.
+        [one] O Trindle Scan não conseguiu ler um arquivo.
+       *[other] O Trindle Scan não conseguiu ler { $failed } arquivos.
     }
 
 # Red words when the folder of saved files could not be opened.
-scan-main-error-open-folder = Não foi possível abrir a pasta.
+scan-main-error-open-folder = O Trindle Scan não conseguiu abrir a pasta.
 
 # Note under the bar after pages from last time were brought back.
 scan-main-note-recovered =
@@ -94,19 +94,19 @@ scan-main-note-recovered =
     } da última vez.
 
 # Note when the front sides are done and the person must turn the stack over.
-scan-main-note-turn-over = Vire a pilha e pressione Digitalizar para os versos.
+scan-main-note-turn-over = Vire a pilha e pressione Digitalizar para digitalizar os versos.
 
 # Note and question on the bar after a glass scan, asking whether to scan another page.
-scan-main-note-another-page = Outra página?
+scan-main-note-another-page = Digitalizar outra página?
 
 # Note under the bar when one run of a batch has finished.
-scan-main-note-run-done = Rodada { $n } concluída.
+scan-main-note-run-done = Digitalização { $n } concluída.
 
 # Summary when a batch has finished: how many runs and how many pages.
 scan-main-summary-batch =
     Lote concluído: { $runs ->
-        [one] { $runs } rodada
-       *[other] { $runs } rodadas
+        [one] { $runs } digitalização
+       *[other] { $runs } digitalizações
     }, { $pages ->
         [one] { $pages } página
        *[other] { $pages } páginas
@@ -117,9 +117,9 @@ scan-main-error-busy-still = O scanner ainda está ocupado. Tente de novo daqui 
 
 # Red words while the program waits for a busy scanner, counting down.
 scan-main-error-busy-retry =
-    O scanner está ocupado. Tentando de novo, { $n ->
-        [one] falta { $n } segundo
-       *[other] faltam { $n } segundos
+    O scanner está ocupado. O Trindle Scan vai tentar de novo por mais { $n ->
+        [one] { $n } segundo
+       *[other] { $n } segundos
     }.
 
 # Note under the bar when a scan has finished.
@@ -134,7 +134,7 @@ scan-main-note-scanned-skipped =
     { $n ->
         [one] { $n } página digitalizada
        *[other] { $n } páginas digitalizadas
-    }, { $blanks ->
+    } e { $blanks ->
         [one] { $blanks } página em branco ignorada
        *[other] { $blanks } páginas em branco ignoradas
     }
@@ -143,7 +143,7 @@ scan-main-note-scanned-skipped =
 scan-main-part-name = { $stem } parte { $n }
 
 # Red words when retrying was stopped because the scanner was busy.
-scan-main-error-stopped-busy = Interrompido. O scanner estava ocupado.
+scan-main-error-stopped-busy = A digitalização parou porque o scanner estava ocupado.
 
 # Words while an address typed by hand is being checked.
 scan-main-note-checking-address = Verificando o endereço
@@ -152,10 +152,10 @@ scan-main-note-checking-address = Verificando o endereço
 scan-main-filter-pictures = Imagens
 
 # Red words when something dropped on the window gave no files. The reason follows.
-scan-main-drop-nothing = Nada foi adicionado: { $why }
+scan-main-drop-nothing = O Trindle Scan não conseguiu adicionar os arquivos: { $why }
 
 # Red words when text, not a file, is dropped on the window.
-scan-main-drop-text = Só é possível soltar arquivos de imagem aqui.
+scan-main-drop-text = Aqui você só pode soltar arquivos de imagem.
 
 # Status line: how many pages are in the list.
 scan-status-pages =
@@ -169,7 +169,10 @@ scan-status-pages-selected =
     { $n ->
         [one] { $n } página
        *[other] { $n } páginas
-    }, { $sel } selecionadas
+    }, { $sel ->
+        [one] { $sel } selecionada
+       *[other] { $sel } selecionadas
+    }
 
 # Status line and bar label while a page is being scanned.
 scan-status-scanning = Digitalizando a página { $n }
@@ -181,7 +184,7 @@ scan-status-searching = Procurando scanners
 scan-status-ready = { $name } está pronto
 
 # Status line while the chosen scanner is being asked what it can do.
-scan-status-asking = Consultando { $name }
+scan-status-asking = Contatando { $name }
 
 # Status line when no scanner is chosen.
 scan-status-none = Nenhum scanner escolhido
@@ -190,13 +193,13 @@ scan-status-none = Nenhum scanner escolhido
 scan-status-line = { $pages }      { $state }
 
 # Red words under the profile name box when it is empty.
-scan-profiles-error-name-empty = Um perfil precisa de um nome.
+scan-profiles-error-name-empty = Dê um nome ao perfil.
 
 # Red words under the profile name box when another profile has that name.
 scan-profiles-error-name-taken = Outro perfil já tem esse nome.
 
 # Red words when a page cannot be opened in the large view.
-scan-view-error-unshown = Não foi possível mostrar essa página.
+scan-view-error-unshown = O Trindle Scan não consegue mostrar essa página.
 
 # Title above the large view of a page, and its spoken name.
 scan-view-page-of = Página { $i } de { $n }
@@ -205,7 +208,7 @@ scan-view-page-of = Página { $i } de { $n }
 scan-view-crop-heading = Recorte
 
 # Note under the crop heading.
-scan-view-crop-note = Corte as margens como uma parte da página. Vale para todas as páginas selecionadas.
+scan-view-crop-note = Defina quanto cortar de cada borda. Isso muda todas as páginas selecionadas.
 
 # Label of the crop slider for the left edge.
 scan-view-crop-left = Esquerda
@@ -267,14 +270,14 @@ scan-common-choose = Escolher
 scan-common-use = Usar
 
 # Note that changes are kept as they are made.
-scan-common-changes-save = As alterações são salvas conforme você as faz.
+scan-common-changes-save = Suas alterações são salvas conforme você avança.
 
 # Words on the bar between batch runs when the person must load the next stack.
 scan-bar-pause-empty = Coloque a próxima pilha e pressione Continuar.
 
 # Words on the bar counting down to the next batch run.
 scan-bar-pause-wait =
-    Próxima rodada em { $n ->
+    Próxima digitalização em { $n ->
         [one] { $n } segundo
        *[other] { $n } segundos
     }
@@ -329,7 +332,7 @@ scan-bar-delete = Excluir as páginas selecionadas
 scan-bar-try-again = Tentar de novo
 
 # Button that scans from the glass when the feeder failed.
-scan-bar-use-glass = Usar o vidro
+scan-bar-use-glass = Usar o vidro em vez disso
 
 # Button that searches the network for scanners again.
 scan-bar-search-again = Procurar de novo
@@ -360,11 +363,11 @@ scan-pages-recover-left =
     }
 
 # Button that brings back the pages left from the last run.
-scan-pages-recover = Recuperar
+scan-pages-recover = Recuperar páginas
 
 # Button that throws away the pages left from the last run.
 # SAFETY: needs a human review before it ships
-scan-pages-discard = Descartar
+scan-pages-discard = Descartar páginas
 
 # Label of the thumbnail size slider on the bottom bar.
 scan-pages-thumbnails = Miniaturas
@@ -386,13 +389,13 @@ scan-pages-open-folder = Abrir a pasta
 
 # Bottom bar button that removes saved pages from the list.
 # SAFETY: needs a human review before it ships
-scan-pages-clear-saved = Limpar as salvas
+scan-pages-clear-saved = Limpar páginas salvas
 
 # Title of the picker (and of the system file chooser) for saving a PDF.
 scan-browse-title-save-pdf = Salvar digitalização
 
 # Title of the picker for choosing where pictures are saved.
-scan-browse-title-save-folder = Escolha uma pasta para salvar as imagens
+scan-browse-title-save-folder = Pasta para as imagens
 
 # Title of the picker (and of the system file chooser) for adding pictures.
 scan-browse-title-pictures = Adicionar imagens
@@ -401,10 +404,10 @@ scan-browse-title-pictures = Adicionar imagens
 scan-browse-title-profile-folder = Pasta para salvar as digitalizações
 
 # Title of the picker for the folder new profiles save into.
-scan-browse-title-settings-folder = Pasta onde os novos perfis salvam
+scan-browse-title-settings-folder = Pasta padrão para novos perfis
 
 # Title of the picker for the folder pages are kept in while the program is open.
-scan-browse-title-temp-folder = Pasta para guardar as páginas enquanto o programa está aberto
+scan-browse-title-temp-folder = Pasta temporária das páginas
 
 # File name that scans start with, without the ending.
 scan-browse-default-name = Digitalização
@@ -413,19 +416,19 @@ scan-browse-default-name = Digitalização
 scan-browse-error-open-first-new = Abra uma de suas pastas primeiro e crie a nova pasta dentro dela.
 
 # Red words in the picker when a new folder name is not plain.
-scan-browse-error-folder-name = Dê à pasta um nome simples, sem barras e sem começar com ponto.
+scan-browse-error-folder-name = Nomes de pasta não podem conter barras nem começar com ponto.
 
 # Red words in the picker when a folder could not be made. The reason follows.
-scan-browse-error-make-folder = Não foi possível criar a pasta: { $why }
+scan-browse-error-make-folder = O Trindle Scan não conseguiu criar a pasta: { $why }
 
 # Red words in the picker when Add is pressed with no pictures chosen.
-scan-browse-error-no-pictures = Pressione as imagens que quer e depois adicione.
+scan-browse-error-no-pictures = Selecione as imagens que quer e depois adicione.
 
 # Red words in the picker when Save is pressed before a folder is open.
 scan-browse-error-open-first = Abra uma de suas pastas primeiro.
 
 # Red words in the picker when the file name is not plain.
-scan-browse-error-file-name = Dê ao arquivo um nome simples, sem barras e sem começar com ponto.
+scan-browse-error-file-name = Nomes de arquivo não podem conter barras nem começar com ponto.
 
 # Red words in the picker when a file with that name already exists.
 scan-browse-error-name-taken = Já existe um arquivo com esse nome. Escolha outro nome.
@@ -440,7 +443,7 @@ scan-browse-up = Subir
 scan-browse-kind-folder = Pasta
 
 # Detail under a picture that has been chosen in the picker.
-scan-browse-kind-chosen = Escolhida
+scan-browse-kind-chosen = Selecionada
 
 # Detail under a picture in the picker.
 scan-browse-kind-picture = Imagem
@@ -452,7 +455,7 @@ scan-browse-empty-pictures = Nenhuma pasta ou imagem aqui.
 scan-browse-empty-folders = Nenhuma pasta aqui ainda.
 
 # Label above the new folder box in the picker.
-scan-browse-new-folder = Nova pasta aqui
+scan-browse-new-folder = Nova pasta
 
 # Spoken name of the new folder box in the picker.
 scan-browse-new-folder-spoken = Nome da nova pasta
@@ -483,7 +486,7 @@ scan-shortcuts-title = Atalhos do teclado
 scan-shortcuts-profile-keys = 1 a 9
 
 # What the profile keys do.
-scan-shortcuts-profile-what = Digitalizar com o primeiro ao nono perfil
+scan-shortcuts-profile-what = Digitalizar com o perfil nessa posição da lista
 
 # Keys that select every page.
 scan-shortcuts-select-keys = Ctrl+A
@@ -511,13 +514,13 @@ scan-shortcuts-redo-keys = Ctrl+Shift+Z
 scan-shortcuts-redo-what = Refazer
 
 # Keys that move the selected pages earlier.
-scan-shortcuts-earlier-keys = Alt+Left
+scan-shortcuts-earlier-keys = Alt+Seta para a esquerda
 
 # What the move earlier keys do.
 scan-shortcuts-earlier-what = Mover as páginas selecionadas para antes
 
 # Keys that move the selected pages later.
-scan-shortcuts-later-keys = Alt+Right
+scan-shortcuts-later-keys = Alt+Seta para a direita
 
 # What the move later keys do.
 scan-shortcuts-later-what = Mover as páginas selecionadas para depois
@@ -532,22 +535,22 @@ scan-shortcuts-tab-what = Mover entre botões e páginas
 scan-shortcuts-press-keys = Espaço ou Enter
 
 # What the space and enter keys do.
-scan-shortcuts-press-what = Pressionar o botão ou escolher a página que está em foco
+scan-shortcuts-press-what = Pressionar o botão destacado ou escolher a página destacada
 
 # Note under the list of shortcuts.
-scan-shortcuts-note = As teclas que digitalizam e editam páginas funcionam na tela da lista de páginas.
+scan-shortcuts-note = As teclas para digitalizar e editar páginas funcionam na tela da lista de páginas.
 
 # Title of the settings screen.
 scan-settings-title = Configurações
 
 # Label above the folder new profiles save into.
-scan-settings-folder = Pasta onde os novos perfis salvam
+scan-settings-folder = Pasta padrão para novos perfis
 
 # Words when no folder has been chosen.
 scan-settings-no-folder = Nenhuma pasta escolhida
 
 # Label above the default file name box.
-scan-settings-pattern = Nome de arquivo com que os novos perfis começam
+scan-settings-pattern = Nome de arquivo padrão para novos perfis
 
 # Spoken name of the default file name box.
 scan-settings-pattern-spoken = Padrão do nome de arquivo
@@ -575,10 +578,10 @@ scan-settings-units-in = Polegadas
 scan-settings-example = Por exemplo, { $size }
 
 # Label of the switch that takes saved pages out of the list.
-scan-settings-remove-saved = Tirar da lista as páginas salvas depois de salvar
+scan-settings-remove-saved = Remover páginas da lista depois de salvas
 
 # Spoken name of the remove saved pages switch.
-scan-settings-remove-saved-spoken = Remover as páginas salvas depois de salvar
+scan-settings-remove-saved-spoken = Remover páginas depois de salvar
 
 # Heading above the PDF details.
 scan-settings-pdf-heading = Arquivos PDF salvos
@@ -626,22 +629,22 @@ scan-settings-pdf-password-spoken = Senha do PDF
 
 # Note under the PDF password box.
 # SAFETY: needs a human review before it ships
-scan-settings-pdf-password-note = Deixe vazio para não usar senha. Ela fica no seu arquivo de configurações como texto simples, então use senha só para uma privacidade básica.
+scan-settings-pdf-password-note = Deixe vazio para não usar senha. Qualquer pessoa que consiga abrir seu arquivo de configurações pode ler a senha, porque ela é armazenada como texto simples.
 
 # Title written in a saved PDF when the person has not typed one.
 scan-settings-pdf-default-title = Digitalização
 
 # Heading above the place pages are kept while open.
-scan-settings-progress-heading = Páginas em andamento
+scan-settings-progress-heading = Páginas temporárias
 
 # Label above the folder pages are kept in while the program is open.
-scan-settings-temp = Pasta para guardar as páginas enquanto o programa está aberto
+scan-settings-temp = Pasta temporária das páginas
 
 # Words when the default place is used to keep pages.
-scan-settings-temp-default = O local padrão
+scan-settings-temp-default = Pasta padrão
 
 # Note under the folder for pages in progress.
-scan-settings-temp-note = Esta será usada na próxima vez que o programa iniciar.
+scan-settings-temp-note = Esta alteração vale na próxima vez que você abrir o Trindle Scan.
 
 # A page size with its measurements in millimetres.
 scan-settings-size-mm = { $name }, { $w } por { $h } mm
@@ -653,7 +656,7 @@ scan-settings-size-in = { $name }, { $w } por { $h } pol
 scan-scanners-none = Nenhum scanner encontrado. Verifique se ele está na mesma rede que este computador ou digite o endereço dele abaixo.
 
 # Label above the box for a scanner address.
-scan-scanners-address = Digitar um endereço à mão
+scan-scanners-address = Endereço do scanner
 
 # Spoken name of the scanner address box.
 scan-scanners-address-spoken = Endereço do scanner, por exemplo 192.168.1.40
@@ -662,13 +665,13 @@ scan-scanners-address-spoken = Endereço do scanner, por exemplo 192.168.1.40
 scan-scanners-add = Adicionar
 
 # Note under the scanner address box.
-scan-scanners-address-note = Um scanner em outra rede não é encontrado sozinho. O endereço resolve isso.
+scan-scanners-address-note = O Trindle Scan não encontra sozinho um scanner em outra rede. Digite o endereço dele para adicioná-lo.
 
 # Title of the screen for making a profile.
 scan-presets-title = Criar um perfil
 
 # Note on the screen for making a profile.
-scan-presets-note = Um perfil guarda suas configurações de digitalização. Escolha um para começar; você pode mudá-lo depois.
+scan-presets-note = Um perfil armazena suas configurações de digitalização. Escolha um para começar. Você pode mudá-lo depois.
 
 # Title of the profiles screen.
 scan-profiles-title = Perfis
@@ -735,7 +738,7 @@ scan-profile-size-letter = Carta
 scan-profile-size-legal = Ofício
 
 # Page size choice: the biggest the scanner can do.
-scan-profile-size-largest = O maior que o scanner consegue
+scan-profile-size-largest = Maior tamanho compatível
 
 # File type PDF.
 scan-profile-format-pdf = PDF
@@ -750,19 +753,19 @@ scan-profile-format-png = PNG
 scan-profile-format-tiff = TIFF
 
 # Note when the scanner did not say how big its glass is.
-scan-profile-told-glass = O scanner não informou o tamanho do vidro, então foi assumido A4.
+scan-profile-told-glass = O scanner não informou o tamanho do vidro, então o Trindle Scan usou A4.
 
 # Note when the page size was cut down to what the scanner can do.
-scan-profile-told-size = O tamanho da página era maior do que o scanner consegue, então foi usado o maior.
+scan-profile-told-size = O tamanho da página era grande demais para o scanner, então o Trindle Scan usou o maior tamanho compatível.
 
 # Note when the resolution was changed to one the scanner offers.
-scan-profile-told-dpi = { $dpi } pontos por polegada não é oferecido, então foi usado { $near }.
+scan-profile-told-dpi = O scanner não consegue fazer { $dpi } pontos por polegada, então o Trindle Scan usou { $near }.
 
 # Note when the scanner has no feeder and the glass was used.
-scan-profile-told-feeder = O scanner não tem alimentador, então foi usado o vidro.
+scan-profile-told-feeder = O scanner não tem alimentador, então o Trindle Scan usou o vidro.
 
 # Note when the scanner cannot scan both sides in one pass.
-scan-profile-told-duplex = O scanner não consegue digitalizar os dois lados de uma só vez.
+scan-profile-told-duplex = O scanner não consegue digitalizar os dois lados ao mesmo tempo.
 
 # Title of the profile editor.
 scan-editor-title = Editar perfil
@@ -780,7 +783,7 @@ scan-editor-test-heading = Digitalização de teste
 scan-editor-test-busy = Digitalizando uma página de teste
 
 # Note beside the Test scan button.
-scan-editor-test-note = Digitaliza uma página com estas configurações. Ela não é adicionada às suas páginas.
+scan-editor-test-note = Isto digitaliza uma página com estas configurações. Ela não é adicionada às suas páginas.
 
 # Note under the test page picture.
 scan-editor-test-size = Página de teste: { $w } por { $h } pixels
@@ -807,13 +810,13 @@ scan-editor-source-manual = Alimentador, virar a pilha
 scan-editor-size = Tamanho da página
 
 # Label above the resolution choice.
-scan-editor-dpi = Resolução, pontos por polegada
+scan-editor-dpi = Resolução (pontos por polegada)
 
 # Spoken name of the resolution choice.
 scan-editor-dpi-spoken = Resolução
 
 # Note under the resolution choice when it is high.
-scan-editor-dpi-note = Resolução alta gera arquivos grandes e digitalizações lentas.
+scan-editor-dpi-note = Uma resolução maior gera arquivos maiores e digitalizações mais lentas.
 
 # Label above the colour choice.
 scan-editor-colour = Cor
@@ -831,7 +834,7 @@ scan-editor-colour-grey = Cinza
 scan-editor-colour-bw = Preto e branco
 
 # Label above the black and white threshold slider.
-scan-editor-threshold = Quão escuro conta como preto: { $n }
+scan-editor-threshold = Limite de preto e branco: { $n }
 
 # Spoken name of the threshold slider.
 scan-editor-threshold-spoken = Limite de preto e branco
@@ -855,16 +858,16 @@ scan-editor-reset-tone = Zerar brilho e contraste
 scan-editor-rotate = Girar todas as páginas
 
 # Choice of turning: do not turn.
-scan-editor-rotate-none = Não
+scan-editor-rotate-none = Nenhuma
 
 # Spoken name of the turn choice.
-scan-editor-rotate-spoken = Rotação fixa em graus
+scan-editor-rotate-spoken = Rotação da página em graus
 
 # Label and spoken name of the straighten switch.
 scan-editor-straighten = Endireitar as páginas
 
 # Label of the trim borders switch.
-scan-editor-trim = Cortar bordas e margem extra
+scan-editor-trim = Cortar bordas e margens
 
 # Spoken name of the trim borders switch.
 scan-editor-trim-spoken = Cortar bordas
@@ -885,7 +888,7 @@ scan-editor-batch-heading = Lote
 scan-editor-batch-one = Uma digitalização
 
 # Choice of batch mode: a set number of runs.
-scan-editor-batch-several = Várias rodadas
+scan-editor-batch-several = Várias digitalizações
 
 # Choice of batch mode: runs until the person stops.
 scan-editor-batch-until = Até eu parar
@@ -894,19 +897,19 @@ scan-editor-batch-until = Até eu parar
 scan-editor-batch-spoken = Modo de lote
 
 # Label and spoken name of the number of runs choice.
-scan-editor-runs = Número de rodadas
+scan-editor-runs = Número de digitalizações
 
 # Label above the pause between runs choice.
-scan-editor-pause = Pausa entre rodadas, segundos
+scan-editor-pause = Pausa entre digitalizações (segundos)
 
 # Spoken name of the pause between runs choice.
-scan-editor-pause-spoken = Pausa entre rodadas
+scan-editor-pause-spoken = Pausa entre digitalizações
 
 # Choice of pause: wait until the person presses Continue.
 scan-editor-pause-wait = Esperar por mim
 
 # Label and spoken name of the switch that puts all runs in one file.
-scan-editor-one-file = Todas as rodadas em um arquivo
+scan-editor-one-file = Todas as digitalizações em um arquivo
 
 # Heading above what happens after scanning.
 scan-editor-after-heading = Depois de digitalizar
@@ -927,16 +930,16 @@ scan-editor-pattern-spoken = Padrão do nome de arquivo
 scan-editor-next-file = Próximo arquivo: { $name }
 
 # Note listing the parts that can be used in a file name. The parts in curly brackets are typed as they are.
-scan-editor-parts = Partes que você pode usar: { $parts }. Uma / cria uma pasta.
+scan-editor-parts = Você pode usar isto no nome do arquivo: { $parts }. Adicione uma / para criar uma pasta.
 
 # Label of the switch that clears the pages from the list after saving.
-scan-editor-clear-after = Limpar as páginas da lista depois
+scan-editor-clear-after = Limpar páginas da lista depois de salvar
 
 # Spoken name of the clear pages switch.
 scan-editor-clear-after-spoken = Limpar as páginas depois de salvar
 
 # Red words when the scanner did not answer. The reason follows.
-scan-escl-offline = O scanner não respondeu. { $detail }
+scan-escl-offline = O scanner não está respondendo. { $detail }
 
 # Red words when the scanner is busy.
 scan-escl-busy = O scanner está ocupado.
@@ -945,40 +948,40 @@ scan-escl-busy = O scanner está ocupado.
 scan-escl-no-paper = Coloque papel no alimentador.
 
 # Red words when paper is stuck.
-scan-escl-jam = Papel atolado.
+scan-escl-jam = O papel atolou.
 
 # Red words when the address is not on the local network.
 scan-escl-not-private = Esse endereço não está na sua rede local.
 
 # Red words for any other scanner problem. The reason follows.
-scan-escl-other = Problema no scanner. { $detail }
+scan-escl-other = O scanner teve um problema. { $detail }
 
 # Red words when a scan was stopped by the person.
 scan-escl-stopped = A digitalização foi interrompida.
 
 # Reason given when the scanner's address cannot be found.
-scan-escl-detail-no-address = Sem endereço.
+scan-escl-detail-no-address = Não há endereço do scanner.
 
 # Reason given when the scanner answered with an error number.
-scan-escl-detail-answered = Ele respondeu { $code }.
+scan-escl-detail-answered = Ele respondeu com o erro { $code }.
 
 # Reason given when the scanner did not say what it can scan.
 scan-escl-detail-no-caps = Ele não informou o que consegue digitalizar.
 
 # Reason given when the scanner refused a scan, with its error number.
-scan-escl-detail-refused = Ele recusou a digitalização ({ $code }).
+scan-escl-detail-refused = Ele não conseguiu iniciar a digitalização (erro { $code }).
 
 # Reason given when the scanner did not say where the scan job is.
-scan-escl-detail-no-job = Ele não deu o endereço da tarefa.
+scan-escl-detail-no-job = O scanner não enviou a digitalização.
 
 # Reason given when the scanner stopped with an error number.
-scan-escl-detail-stopped = Ele parou com { $code }.
+scan-escl-detail-stopped = Ele parou com o erro { $code }.
 
 # Reason given when the scanner's answer could not be read.
-scan-escl-detail-broken = Uma resposta com defeito.
+scan-escl-detail-broken = Ele enviou uma resposta que o Trindle Scan não conseguiu ler.
 
 # Reason: the scanner gave an address with characters this program will not send.
-scan-escl-detail-unsafe = Ele deu um endereço que este programa não vai usar.
+scan-escl-detail-unsafe = Ele enviou um endereço que o Trindle Scan não pode usar com segurança.
 
 # Reason: the scanner took far too long to send its answer.
 scan-escl-detail-too-slow = Ele demorou demais para responder.
@@ -987,35 +990,35 @@ scan-escl-detail-too-slow = Ele demorou demais para responder.
 scan-scanners-usb = USB
 
 # Red words when a USB scanner is chosen but the computer lacks the scanner software.
-scan-sane-missing = Scanners USB precisam do software de scanner (SANE), que não está neste computador.
+scan-sane-missing = Scanners USB precisam do software de scanner SANE, que não está instalado neste computador.
 
 # Red words when the system will not let the program use the USB scanner.
 # SAFETY: needs a human review before it ships
-scan-sane-denied = Este programa não tem permissão para usar o scanner USB. Permita "Usar scanners e dispositivos USB" para o Trindle Scan nas permissões dele e abra-o de novo.
+scan-sane-denied = O Trindle Scan não tem permissão para usar scanners USB. Ative "Use scanners and USB devices" nas permissões dele e abra-o de novo.
 
 # Red words when the scanner lid is open.
 scan-sane-cover = A tampa do scanner está aberta. Feche-a e tente de novo.
 
 # Reason given when the USB scanner cannot be reached.
-scan-sane-io = Verifique se o scanner está conectado e ligado. Um scanner conectado depois que o programa abriu é encontrado quando o programa for aberto de novo.
+scan-sane-io = O Trindle Scan não consegue acessar o scanner. Verifique se ele está conectado e ligado. Se você o conectou depois de abrir o Trindle Scan, feche o Trindle Scan e abra de novo.
 
 # Red words when the scanner would not take one setting. { $what } is the scanner's own name for it.
 scan-sane-refused = O scanner não aceitou a configuração { $what }, então nada foi digitalizado.
 
 # Red words when a USB scanner's name cannot be used.
-scan-sane-bad-device = O nome do dispositivo do scanner não pode ser usado.
+scan-sane-bad-device = O Trindle Scan não consegue usar este scanner.
 
 # Red words when the scanner sends the picture in a form the program cannot read.
-scan-sane-frame = O scanner enviou a imagem em um formato que este programa não consegue ler.
+scan-sane-frame = O scanner enviou a imagem em um formato que o Trindle Scan não consegue ler.
 
 # Reason given when the chosen language for reading text is not a plain language code.
-scan-ocr-bad-language = Esse idioma para ler o texto não é um que o programa conheça.
+scan-ocr-bad-language = O Trindle Scan não consegue ler texto nesse idioma.
 
 # Reason given when reading the text of one page took too long.
 scan-ocr-too-slow = Ler o texto desta página demorou demais.
 
 # Reason given when the text reader stopped with an error on a page.
-scan-ocr-failed = Não foi possível ler o texto desta página.
+scan-ocr-failed = O Trindle Scan não conseguiu ler o texto desta página.
 
 # Words on the bar while the text of the pages is read for a searchable PDF.
 scan-ocr-reading = Lendo o texto da página { $i } de { $n }
@@ -1024,7 +1027,7 @@ scan-ocr-reading = Lendo o texto da página { $i } de { $n }
 scan-ocr-cancelled = O salvamento foi cancelado. As páginas continuam aqui.
 
 # Note under the bar when the program that reads text is not on this computer.
-scan-ocr-missing = Ler o texto exige o programa Tesseract, que não está neste computador. As páginas são salvas sem texto pesquisável.
+scan-ocr-missing = Para ler o texto, o Trindle Scan precisa do Tesseract, que não está instalado neste computador. As páginas são salvas sem texto pesquisável.
 
 # Note under the bar when some pages could not be read for text. The page numbers follow.
 scan-ocr-unread =
@@ -1043,13 +1046,13 @@ scan-editor-searchable = Tornar o texto pesquisável
 scan-editor-ocr-language = Idioma do texto
 
 # Label above the choice of a second language to read.
-scan-editor-ocr-second = Segundo idioma, se as páginas usam dois
+scan-editor-ocr-second = Segundo idioma (opcional)
 
 # Choice of second language: none.
 scan-editor-ocr-none = Nenhum
 
 # Note under the searchable text choice.
-scan-editor-ocr-note = Ler leva alguns segundos por página. Se uma página não puder ser lida, ela é salva sem o texto.
+scan-editor-ocr-note = Ler o texto leva alguns segundos por página. Se o Trindle Scan não conseguir ler o texto de uma página, ele a salva sem texto pesquisável.
 
 # Heading above the zoom buttons in the page viewer.
 scan-view-zoom-heading = Zoom
@@ -1065,7 +1068,7 @@ scan-view-zoom-fit = Página inteira
 scan-view-zoom-actual = Tamanho real
 
 # Note under the zoom buttons.
-scan-view-zoom-note = A roda do mouse também muda o zoom. Arraste a página para movê-la. As teclas mais, menos e 0 aumentam, diminuem e mostram a página inteira.
+scan-view-zoom-note = Você também pode dar zoom com a roda do mouse e arrastar a página para movê-la. As teclas mais e menos aumentam e diminuem o zoom, e 0 mostra a página inteira.
 
 # Label and spoken name of the choice of shape the crop box keeps.
 scan-view-crop-shape = Forma do recorte
@@ -1104,18 +1107,18 @@ scan-close-discard = Descartar e fechar
 scan-close-keep = Continuar trabalhando
 
 # Printed in the terminal, not shown in a window, when the program is started without a desktop to draw on.
-scan-main-start-no-desktop = Trindle Scan: não há uma área de trabalho para abrir uma janela.
+scan-main-start-no-desktop = O Trindle Scan não consegue abrir uma janela porque nenhuma área de trabalho está em execução.
 
-scan-main-start-no-window = Trindle Scan: a área de trabalho não abriu uma janela.
+scan-main-start-no-window = O Trindle Scan não conseguiu abrir uma janela na área de trabalho.
 
 # Red words at start-up when the home folder is not set to a full path, so settings and profiles cannot be kept.
-scan-main-error-no-home = Sua pasta pessoal não está definida, então desta vez suas configurações e perfis não podem ser mantidos.
+scan-main-error-no-home = O Trindle Scan não encontra sua pasta pessoal, então não consegue salvar suas configurações e perfis desta vez.
 
 
 # Red words when pages could not be copied to the recovery folder, so a crash would lose them.
 scan-main-error-not-kept =
     { $n ->
-        [one] Uma página não pôde ser copiada para a pasta de recuperação, então uma falha a perderia.
-       *[other] { $n } páginas não puderam ser copiadas para a pasta de recuperação, então uma falha as perderia.
+        [one] O Trindle Scan não conseguiu copiar uma página para a pasta de recuperação. Se o Trindle Scan travar, você a perderá.
+       *[other] O Trindle Scan não conseguiu copiar { $n } páginas para a pasta de recuperação. Se o Trindle Scan travar, você as perderá.
     }
 

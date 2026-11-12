@@ -5,43 +5,43 @@
 scan-app-name = Trindle Scan
 
 # Red words when the program's own settings could not be saved. The reason from the computer follows.
-scan-main-error-keep-settings = Pengaturan Anda tidak dapat disimpan: { $why }
+scan-main-error-keep-settings = Trindle Scan tidak dapat menyimpan pengaturan Anda: { $why }
 
 # Red words when the profiles could not be saved. The reason from the computer follows.
-scan-main-error-keep-profiles = Profil Anda tidak dapat disimpan: { $why }
+scan-main-error-keep-profiles = Trindle Scan tidak dapat menyimpan profil Anda: { $why }
 
 # Red words under the bar when Scan is pressed with no scanner chosen.
-scan-main-error-no-scanner = Belum ada pemindai yang dipilih.
+scan-main-error-no-scanner = Anda belum memilih pemindai.
 
 # Red words when Scan is pressed before the scanner has said what it can do.
-scan-main-error-wait-caps = Menunggu pemindai menyebutkan kemampuannya.
+scan-main-error-wait-caps = Trindle Scan masih memeriksa kemampuan pemindai. Coba lagi beberapa saat lagi.
 
 # Red words on the profile editor when Test scan is pressed with no scanner.
 scan-main-test-choose-scanner = Pilih pemindai dulu, lalu coba lagi.
 
 # Red words on the profile editor when the test scan failed. The reason follows.
-scan-main-test-failed = Pindai uji gagal: { $why }
+scan-main-test-failed = Pemindaian uji gagal: { $why }
 
 # Red words on the profile editor when the scanner sent no page for the test scan.
-scan-main-test-no-page = Tidak ada halaman dari pemindai. Masukkan halaman dan coba lagi.
+scan-main-test-no-page = Pemindai tidak mengirim halaman. Masukkan halaman dan coba lagi.
 
 # Spoken by the screen reader when the test scan has finished.
-scan-main-announce-test-done = Pindai uji selesai
+scan-main-announce-test-done = Pemindaian uji selesai
 
 # Spoken by the screen reader when the test scan did not work.
-scan-main-announce-test-failed = Pindai uji gagal
+scan-main-announce-test-failed = Pemindaian uji gagal
 
 # Note under the bar when a page came back damaged and was left out.
-scan-main-note-damaged = Satu halaman rusak dan dilewati.
+scan-main-note-damaged = Satu halaman rusak, jadi Trindle Scan melewatinya.
 
-scan-save-page-unreadable = Halaman hasil pindai tidak dapat dibaca, jadi tidak ada yang disimpan.
+scan-save-page-unreadable = Trindle Scan tidak dapat membaca halaman hasil pindai, jadi tidak ada yang disimpan.
 
-scan-save-page-encode = Halaman tidak dapat diubah menjadi gambar: { $why }
+scan-save-page-encode = Trindle Scan tidak dapat mengubah halaman menjadi gambar: { $why }
 
 # Red words when a scan stopped part way. The first part says what went wrong, then how many pages were kept.
 scan-main-error-with-kept =
     { $words } { $n ->
-       *[other] { $n } halaman disimpan.
+       *[other] { $n } halaman yang sempat masuk masih ada di sini.
     }
 
 # Note after saving a long scan as several PDF files: the folder and file name, then how many files.
@@ -57,12 +57,12 @@ scan-main-note-saved = Disimpan di { $path }
 scan-main-note-saved-summary = { $summary } Disimpan di { $path }
 
 # Red words when pages could not be saved. The reason follows.
-scan-main-error-save = Tidak dapat menyimpan: { $why }. Halaman masih ada di sini.
+scan-main-error-save = Trindle Scan tidak dapat menyimpan hasil pindai Anda: { $why }. Halaman Anda masih ada di sini.
 
 # Red words when an automatic save did not work. The reason follows.
-scan-main-error-autosave = Tidak dapat menyimpan otomatis: { $why }. Halaman masih ada di sini.
+scan-main-error-autosave = Trindle Scan tidak dapat menyimpan hasil pindai Anda secara otomatis: { $why }. Halaman Anda masih ada di sini.
 
-scan-main-error-crashed = Terjadi kesalahan di dalam program dan tugas dihentikan. Halaman Anda masih ada di sini.
+scan-main-error-crashed = Terjadi kesalahan, jadi Trindle Scan berhenti. Halaman Anda masih ada di sini.
 
 # Note under the bar after pictures were added from files.
 scan-main-note-added =
@@ -75,11 +75,11 @@ scan-main-note-added-failed =
     Menambahkan { $n ->
        *[other] { $n } gambar
     }. { $failed ->
-       *[other] { $failed } berkas tidak dapat dibaca.
+       *[other] Trindle Scan tidak dapat membaca { $failed } berkas.
     }
 
 # Red words when the folder of saved files could not be opened.
-scan-main-error-open-folder = Folder tidak dapat dibuka.
+scan-main-error-open-folder = Trindle Scan tidak dapat membuka folder.
 
 # Note under the bar after pages from last time were brought back.
 scan-main-note-recovered =
@@ -88,30 +88,30 @@ scan-main-note-recovered =
     } dari sesi sebelumnya.
 
 # Note when the front sides are done and the person must turn the stack over.
-scan-main-note-turn-over = Balikkan tumpukan lalu tekan Pindai untuk sisi belakang.
+scan-main-note-turn-over = Balikkan tumpukan, lalu tekan Pindai untuk memindai sisi belakang.
 
 # Note and question on the bar after a glass scan, asking whether to scan another page.
-scan-main-note-another-page = Halaman lain?
+scan-main-note-another-page = Pindai halaman lain?
 
 # Note under the bar when one run of a batch has finished.
-scan-main-note-run-done = Putaran { $n } selesai.
+scan-main-note-run-done = Pemindaian { $n } selesai.
 
 # Summary when a batch has finished: how many runs and how many pages.
 scan-main-summary-batch =
-    Kelompok selesai: { $runs ->
-       *[other] { $runs } putaran
+    Batch selesai: { $runs ->
+       *[other] { $runs } pemindaian
     }, { $pages ->
        *[other] { $pages } halaman
     }.
 
 # Red words when the scanner stayed busy for the whole waiting time.
-scan-main-error-busy-still = Pemindai masih sibuk. Coba lagi sebentar lagi.
+scan-main-error-busy-still = Pemindai masih sibuk. Coba lagi beberapa saat lagi.
 
 # Red words while the program waits for a busy scanner, counting down.
 scan-main-error-busy-retry =
-    Pemindai sedang sibuk. Mencoba lagi, sisa { $n ->
+    Pemindai sedang sibuk. Trindle Scan akan mencoba lagi selama { $n ->
        *[other] { $n } detik
-    }.
+    } lagi.
 
 # Note under the bar when a scan has finished.
 scan-main-note-scanned =
@@ -123,15 +123,15 @@ scan-main-note-scanned =
 scan-main-note-scanned-skipped =
     Memindai { $n ->
        *[other] { $n } halaman
-    }, { $blanks ->
+    } dan melewati { $blanks ->
        *[other] { $blanks } halaman kosong
-    } dilewati
+    }
 
 # File name for one part of a PDF that was split into several files.
 scan-main-part-name = { $stem } bagian { $n }
 
 # Red words when retrying was stopped because the scanner was busy.
-scan-main-error-stopped-busy = Dihentikan. Pemindai sibuk.
+scan-main-error-stopped-busy = Pemindaian berhenti karena pemindai sibuk.
 
 # Words while an address typed by hand is being checked.
 scan-main-note-checking-address = Memeriksa alamat
@@ -140,10 +140,10 @@ scan-main-note-checking-address = Memeriksa alamat
 scan-main-filter-pictures = Gambar
 
 # Red words when something dropped on the window gave no files. The reason follows.
-scan-main-drop-nothing = Tidak ada yang ditambahkan: { $why }
+scan-main-drop-nothing = Trindle Scan tidak dapat menambahkan berkas: { $why }
 
 # Red words when text, not a file, is dropped on the window.
-scan-main-drop-text = Hanya berkas gambar yang dapat dijatuhkan di sini.
+scan-main-drop-text = Hanya berkas gambar yang dapat diseret ke sini.
 
 # Status line: how many pages are in the list.
 scan-status-pages =
@@ -167,7 +167,7 @@ scan-status-searching = Mencari pemindai
 scan-status-ready = { $name } siap
 
 # Status line while the chosen scanner is being asked what it can do.
-scan-status-asking = Bertanya ke { $name }
+scan-status-asking = Menghubungi { $name }
 
 # Status line when no scanner is chosen.
 scan-status-none = Belum ada pemindai yang dipilih
@@ -176,13 +176,13 @@ scan-status-none = Belum ada pemindai yang dipilih
 scan-status-line = { $pages }      { $state }
 
 # Red words under the profile name box when it is empty.
-scan-profiles-error-name-empty = Profil perlu nama.
+scan-profiles-error-name-empty = Beri nama untuk profil.
 
 # Red words under the profile name box when another profile has that name.
 scan-profiles-error-name-taken = Profil lain sudah memakai nama itu.
 
 # Red words when a page cannot be opened in the large view.
-scan-view-error-unshown = Halaman itu tidak dapat ditampilkan.
+scan-view-error-unshown = Trindle Scan tidak dapat menampilkan halaman itu.
 
 # Title above the large view of a page, and its spoken name.
 scan-view-page-of = Halaman { $i } dari { $n }
@@ -191,7 +191,7 @@ scan-view-page-of = Halaman { $i } dari { $n }
 scan-view-crop-heading = Pangkas
 
 # Note under the crop heading.
-scan-view-crop-note = Potong tepi sebagai bagian dari halaman. Berlaku untuk semua halaman yang dipilih.
+scan-view-crop-note = Atur seberapa banyak yang dipotong dari setiap tepi. Ini mengubah semua halaman yang dipilih.
 
 # Label of the crop slider for the left edge.
 scan-view-crop-left = Kiri
@@ -251,14 +251,14 @@ scan-common-choose = Pilih
 scan-common-use = Pakai
 
 # Note that changes are kept as they are made.
-scan-common-changes-save = Perubahan tersimpan saat Anda membuatnya.
+scan-common-changes-save = Perubahan Anda disimpan otomatis.
 
 # Words on the bar between batch runs when the person must load the next stack.
 scan-bar-pause-empty = Masukkan tumpukan berikutnya, lalu tekan Lanjut.
 
 # Words on the bar counting down to the next batch run.
 scan-bar-pause-wait =
-    Putaran berikutnya dalam { $n ->
+    Pemindaian berikutnya dalam { $n ->
        *[other] { $n } detik
     }
 
@@ -312,7 +312,7 @@ scan-bar-delete = Hapus halaman yang dipilih
 scan-bar-try-again = Coba lagi
 
 # Button that scans from the glass when the feeder failed.
-scan-bar-use-glass = Pakai kaca pindai
+scan-bar-use-glass = Pakai kaca pindai sebagai gantinya
 
 # Button that searches the network for scanners again.
 scan-bar-search-again = Cari lagi
@@ -342,11 +342,11 @@ scan-pages-recover-left =
     }
 
 # Button that brings back the pages left from the last run.
-scan-pages-recover = Pulihkan
+scan-pages-recover = Pulihkan halaman
 
 # Button that throws away the pages left from the last run.
 # SAFETY: needs a human review before it ships
-scan-pages-discard = Buang
+scan-pages-discard = Buang halaman
 
 # Label of the thumbnail size slider on the bottom bar.
 scan-pages-thumbnails = Gambar mini
@@ -368,13 +368,13 @@ scan-pages-open-folder = Buka folder
 
 # Bottom bar button that removes saved pages from the list.
 # SAFETY: needs a human review before it ships
-scan-pages-clear-saved = Bersihkan yang tersimpan
+scan-pages-clear-saved = Bersihkan halaman tersimpan
 
 # Title of the picker (and of the system file chooser) for saving a PDF.
 scan-browse-title-save-pdf = Simpan hasil pindai
 
 # Title of the picker for choosing where pictures are saved.
-scan-browse-title-save-folder = Pilih folder untuk menyimpan gambar
+scan-browse-title-save-folder = Folder untuk gambar
 
 # Title of the picker (and of the system file chooser) for adding pictures.
 scan-browse-title-pictures = Tambah gambar
@@ -383,10 +383,10 @@ scan-browse-title-pictures = Tambah gambar
 scan-browse-title-profile-folder = Folder untuk menyimpan hasil pindai
 
 # Title of the picker for the folder new profiles save into.
-scan-browse-title-settings-folder = Folder tempat profil baru menyimpan
+scan-browse-title-settings-folder = Folder bawaan untuk profil baru
 
 # Title of the picker for the folder pages are kept in while the program is open.
-scan-browse-title-temp-folder = Folder untuk menyimpan halaman selama program terbuka
+scan-browse-title-temp-folder = Folder halaman sementara
 
 # File name that scans start with, without the ending.
 scan-browse-default-name = Pindai
@@ -395,19 +395,19 @@ scan-browse-default-name = Pindai
 scan-browse-error-open-first-new = Buka salah satu folder Anda dulu, lalu buat folder baru di dalamnya.
 
 # Red words in the picker when a new folder name is not plain.
-scan-browse-error-folder-name = Beri folder nama sederhana, tanpa garis miring dan tidak diawali titik.
+scan-browse-error-folder-name = Nama folder tidak boleh berisi garis miring atau diawali titik.
 
 # Red words in the picker when a folder could not be made. The reason follows.
-scan-browse-error-make-folder = Tidak dapat membuat folder: { $why }
+scan-browse-error-make-folder = Trindle Scan tidak dapat membuat folder: { $why }
 
 # Red words in the picker when Add is pressed with no pictures chosen.
-scan-browse-error-no-pictures = Tekan gambar yang Anda mau, lalu tambahkan.
+scan-browse-error-no-pictures = Pilih gambar yang Anda mau, lalu tambahkan.
 
 # Red words in the picker when Save is pressed before a folder is open.
 scan-browse-error-open-first = Buka salah satu folder Anda dulu.
 
 # Red words in the picker when the file name is not plain.
-scan-browse-error-file-name = Beri berkas nama sederhana, tanpa garis miring dan tidak diawali titik.
+scan-browse-error-file-name = Nama berkas tidak boleh berisi garis miring atau diawali titik.
 
 # Red words in the picker when a file with that name already exists.
 scan-browse-error-name-taken = Berkas dengan nama itu sudah ada. Pilih nama lain.
@@ -434,7 +434,7 @@ scan-browse-empty-pictures = Tidak ada folder atau gambar di sini.
 scan-browse-empty-folders = Belum ada folder di sini.
 
 # Label above the new folder box in the picker.
-scan-browse-new-folder = Folder baru di sini
+scan-browse-new-folder = Folder baru
 
 # Spoken name of the new folder box in the picker.
 scan-browse-new-folder-spoken = Nama folder baru
@@ -464,7 +464,7 @@ scan-shortcuts-title = Pintasan papan ketik
 scan-shortcuts-profile-keys = 1 sampai 9
 
 # What the profile keys do.
-scan-shortcuts-profile-what = Pindai dengan profil pertama sampai kesembilan
+scan-shortcuts-profile-what = Pindai dengan profil pada urutan itu dalam daftar
 
 # Keys that select every page.
 scan-shortcuts-select-keys = Ctrl+A
@@ -513,22 +513,22 @@ scan-shortcuts-tab-what = Berpindah antar tombol dan halaman
 scan-shortcuts-press-keys = Spasi atau Enter
 
 # What the space and enter keys do.
-scan-shortcuts-press-what = Tekan tombol atau pilih halaman yang sedang difokus
+scan-shortcuts-press-what = Tekan tombol yang disorot atau pilih halaman yang disorot
 
 # Note under the list of shortcuts.
-scan-shortcuts-note = Tombol untuk memindai dan menyunting halaman berfungsi di layar daftar halaman.
+scan-shortcuts-note = Tombol untuk pemindaian dan penyuntingan halaman berfungsi di layar daftar halaman.
 
 # Title of the settings screen.
 scan-settings-title = Pengaturan
 
 # Label above the folder new profiles save into.
-scan-settings-folder = Folder tempat profil baru menyimpan
+scan-settings-folder = Folder bawaan untuk profil baru
 
 # Words when no folder has been chosen.
 scan-settings-no-folder = Belum ada folder yang dipilih
 
 # Label above the default file name box.
-scan-settings-pattern = Nama berkas awal untuk profil baru
+scan-settings-pattern = Nama berkas bawaan untuk profil baru
 
 # Spoken name of the default file name box.
 scan-settings-pattern-spoken = Pola nama berkas bawaan
@@ -552,13 +552,13 @@ scan-settings-units-mm = Milimeter
 scan-settings-units-in = Inci
 
 # Note showing a page size written in the chosen units.
-scan-settings-example = Contoh { $size }
+scan-settings-example = Misalnya, { $size }
 
 # Label of the switch that takes saved pages out of the list.
-scan-settings-remove-saved = Keluarkan halaman tersimpan dari daftar setelah menyimpan
+scan-settings-remove-saved = Keluarkan halaman dari daftar setelah disimpan
 
 # Spoken name of the remove saved pages switch.
-scan-settings-remove-saved-spoken = Hapus halaman tersimpan setelah menyimpan
+scan-settings-remove-saved-spoken = Keluarkan halaman setelah menyimpan
 
 # Heading above the PDF details.
 scan-settings-pdf-heading = Berkas PDF tersimpan
@@ -606,22 +606,22 @@ scan-settings-pdf-password-spoken = Kata sandi PDF
 
 # Note under the PDF password box.
 # SAFETY: needs a human review before it ships
-scan-settings-pdf-password-note = Biarkan kosong jika tanpa kata sandi. Kata sandi disimpan di berkas pengaturan Anda sebagai teks biasa, jadi pakai hanya untuk privasi ringan.
+scan-settings-pdf-password-note = Biarkan kosong jika tanpa kata sandi. Siapa pun yang dapat membuka berkas pengaturan Anda dapat membaca kata sandi itu, karena disimpan sebagai teks biasa.
 
 # Title written in a saved PDF when the person has not typed one.
 scan-settings-pdf-default-title = Pindai
 
 # Heading above the place pages are kept while open.
-scan-settings-progress-heading = Halaman yang sedang dikerjakan
+scan-settings-progress-heading = Halaman sementara
 
 # Label above the folder pages are kept in while the program is open.
-scan-settings-temp = Folder untuk menyimpan halaman selama program terbuka
+scan-settings-temp = Folder halaman sementara
 
 # Words when the default place is used to keep pages.
-scan-settings-temp-default = Lokasi bawaan
+scan-settings-temp-default = Folder bawaan
 
 # Note under the folder for pages in progress.
-scan-settings-temp-note = Ini dipakai saat program dimulai berikutnya.
+scan-settings-temp-note = Perubahan ini berlaku saat Anda membuka Trindle Scan berikutnya.
 
 # A page size with its measurements in millimetres.
 scan-settings-size-mm = { $name }, { $w } kali { $h } mm
@@ -633,7 +633,7 @@ scan-settings-size-in = { $name }, { $w } kali { $h } inci
 scan-scanners-none = Pemindai tidak ditemukan. Periksa apakah pemindai ada di jaringan yang sama dengan komputer ini, atau ketik alamatnya di bawah.
 
 # Label above the box for a scanner address.
-scan-scanners-address = Masukkan alamat secara manual
+scan-scanners-address = Alamat pemindai
 
 # Spoken name of the scanner address box.
 scan-scanners-address-spoken = Alamat pemindai, misalnya 192.168.1.40
@@ -642,13 +642,13 @@ scan-scanners-address-spoken = Alamat pemindai, misalnya 192.168.1.40
 scan-scanners-add = Tambah
 
 # Note under the scanner address box.
-scan-scanners-address-note = Pemindai di jaringan lain tidak ditemukan sendiri. Alamatnya mengatasi hal itu.
+scan-scanners-address-note = Trindle Scan tidak dapat menemukan pemindai di jaringan lain dengan sendirinya. Ketik alamatnya untuk menambahkannya.
 
 # Title of the screen for making a profile.
 scan-presets-title = Buat profil
 
 # Note on the screen for making a profile.
-scan-presets-note = Profil menyimpan pengaturan pindai Anda. Pilih satu sebagai awal; Anda dapat mengubahnya nanti.
+scan-presets-note = Profil menyimpan pengaturan pindai Anda. Pilih satu untuk memulai. Anda dapat mengubahnya nanti.
 
 # Title of the profiles screen.
 scan-profiles-title = Profil
@@ -715,7 +715,7 @@ scan-profile-size-letter = Letter
 scan-profile-size-legal = Legal
 
 # Page size choice: the biggest the scanner can do.
-scan-profile-size-largest = Terbesar yang bisa dipindai
+scan-profile-size-largest = Ukuran terbesar yang didukung
 
 # File type PDF.
 scan-profile-format-pdf = PDF
@@ -730,16 +730,16 @@ scan-profile-format-png = PNG
 scan-profile-format-tiff = TIFF
 
 # Note when the scanner did not say how big its glass is.
-scan-profile-told-glass = Pemindai tidak menyebutkan ukuran kacanya, jadi A4 dianggap sebagai ukurannya.
+scan-profile-told-glass = Pemindai tidak melaporkan ukuran kacanya, jadi Trindle Scan memakai A4.
 
 # Note when the page size was cut down to what the scanner can do.
-scan-profile-told-size = Ukuran halaman lebih besar dari kemampuan pemindai, jadi ukuran terbesar dipakai.
+scan-profile-told-size = Ukuran halaman terlalu besar untuk pemindai, jadi Trindle Scan memakai ukuran terbesar yang didukung.
 
 # Note when the resolution was changed to one the scanner offers.
-scan-profile-told-dpi = { $dpi } titik per inci tidak tersedia, jadi { $near } dipakai.
+scan-profile-told-dpi = Pemindai tidak dapat memindai pada { $dpi } titik per inci, jadi Trindle Scan memakai { $near }.
 
 # Note when the scanner has no feeder and the glass was used.
-scan-profile-told-feeder = Pemindai tidak punya pengumpan, jadi kaca pindai dipakai.
+scan-profile-told-feeder = Pemindai tidak punya pengumpan, jadi Trindle Scan memakai kaca pindai.
 
 # Note when the scanner cannot scan both sides in one pass.
 scan-profile-told-duplex = Pemindai tidak dapat memindai kedua sisi sekaligus.
@@ -760,7 +760,7 @@ scan-editor-test-heading = Pindai uji
 scan-editor-test-busy = Memindai halaman uji
 
 # Note beside the Test scan button.
-scan-editor-test-note = Memindai satu halaman dengan pengaturan ini. Tidak ditambahkan ke halaman Anda.
+scan-editor-test-note = Ini memindai satu halaman dengan pengaturan ini. Halaman itu tidak ditambahkan ke halaman Anda.
 
 # Note under the test page picture.
 scan-editor-test-size = Halaman uji: { $w } kali { $h } piksel
@@ -787,13 +787,13 @@ scan-editor-source-manual = Pengumpan, balik tumpukan
 scan-editor-size = Ukuran halaman
 
 # Label above the resolution choice.
-scan-editor-dpi = Resolusi, titik per inci
+scan-editor-dpi = Resolusi (titik per inci)
 
 # Spoken name of the resolution choice.
 scan-editor-dpi-spoken = Resolusi
 
 # Note under the resolution choice when it is high.
-scan-editor-dpi-note = Resolusi tinggi membuat berkas besar dan pemindaian lambat.
+scan-editor-dpi-note = Resolusi lebih tinggi menghasilkan berkas lebih besar dan pemindaian lebih lambat.
 
 # Label above the colour choice.
 scan-editor-colour = Warna
@@ -811,7 +811,7 @@ scan-editor-colour-grey = Abu-abu
 scan-editor-colour-bw = Hitam putih
 
 # Label above the black and white threshold slider.
-scan-editor-threshold = Seberapa gelap dianggap hitam: { $n }
+scan-editor-threshold = Ambang hitam putih: { $n }
 
 # Spoken name of the threshold slider.
 scan-editor-threshold-spoken = Ambang hitam putih
@@ -835,16 +835,16 @@ scan-editor-reset-tone = Setel ulang kecerahan dan kontras
 scan-editor-rotate = Putar setiap halaman
 
 # Choice of turning: do not turn.
-scan-editor-rotate-none = Tidak
+scan-editor-rotate-none = Tidak ada
 
 # Spoken name of the turn choice.
-scan-editor-rotate-spoken = Rotasi tetap dalam derajat
+scan-editor-rotate-spoken = Rotasi halaman dalam derajat
 
 # Label and spoken name of the straighten switch.
 scan-editor-straighten = Luruskan halaman
 
 # Label of the trim borders switch.
-scan-editor-trim = Pangkas bingkai dan margin berlebih
+scan-editor-trim = Pangkas bingkai dan margin
 
 # Spoken name of the trim borders switch.
 scan-editor-trim-spoken = Pangkas bingkai
@@ -859,34 +859,34 @@ scan-editor-ask-more = Tanya halaman lain setelah setiap pindai
 scan-editor-ask-more-spoken = Tanya halaman lain
 
 # Heading above the batch choice.
-scan-editor-batch-heading = Kelompok
+scan-editor-batch-heading = Batch
 
 # Choice of batch mode: one scan.
-scan-editor-batch-one = Satu pindai
+scan-editor-batch-one = Satu kali pindai
 
 # Choice of batch mode: a set number of runs.
-scan-editor-batch-several = Beberapa putaran
+scan-editor-batch-several = Beberapa pemindaian
 
 # Choice of batch mode: runs until the person stops.
 scan-editor-batch-until = Sampai saya hentikan
 
 # Spoken name of the batch choice.
-scan-editor-batch-spoken = Mode kelompok
+scan-editor-batch-spoken = Mode batch
 
 # Label and spoken name of the number of runs choice.
-scan-editor-runs = Jumlah putaran
+scan-editor-runs = Jumlah pemindaian
 
 # Label above the pause between runs choice.
-scan-editor-pause = Jeda antar putaran, detik
+scan-editor-pause = Jeda antar pemindaian (detik)
 
 # Spoken name of the pause between runs choice.
-scan-editor-pause-spoken = Jeda antar putaran
+scan-editor-pause-spoken = Jeda antar pemindaian
 
 # Choice of pause: wait until the person presses Continue.
 scan-editor-pause-wait = Tunggu saya
 
 # Label and spoken name of the switch that puts all runs in one file.
-scan-editor-one-file = Semua putaran dalam satu berkas
+scan-editor-one-file = Semua pemindaian dalam satu berkas
 
 # Heading above what happens after scanning.
 scan-editor-after-heading = Setelah memindai
@@ -907,18 +907,18 @@ scan-editor-pattern-spoken = Pola nama berkas
 scan-editor-next-file = Berkas berikutnya: { $name }
 
 # Note listing the parts that can be used in a file name. The parts in curly brackets are typed as they are.
-scan-editor-parts = Bagian yang dapat dipakai: { $parts }. Tanda / membuat folder.
+scan-editor-parts = Anda dapat memakai bagian berikut pada nama berkas: { $parts }. Tambahkan / untuk membuat folder.
 
 # Label of the switch that clears the pages from the list after saving.
 # SAFETY: needs a human review before it ships
-scan-editor-clear-after = Bersihkan halaman dari daftar setelahnya
+scan-editor-clear-after = Bersihkan halaman dari daftar setelah disimpan
 
 # Spoken name of the clear pages switch.
 # SAFETY: needs a human review before it ships
 scan-editor-clear-after-spoken = Bersihkan halaman setelah menyimpan
 
 # Red words when the scanner did not answer. The reason follows.
-scan-escl-offline = Pemindai tidak menjawab. { $detail }
+scan-escl-offline = Pemindai tidak merespons. { $detail }
 
 # Red words when the scanner is busy.
 scan-escl-busy = Pemindai sedang sibuk.
@@ -933,71 +933,71 @@ scan-escl-jam = Kertas macet.
 scan-escl-not-private = Alamat itu tidak ada di jaringan lokal Anda.
 
 # Red words for any other scanner problem. The reason follows.
-scan-escl-other = Masalah pemindai. { $detail }
+scan-escl-other = Pemindai mengalami masalah. { $detail }
 
 # Red words when a scan was stopped by the person.
 scan-escl-stopped = Pemindaian dihentikan.
 
 # Reason given when the scanner's address cannot be found.
-scan-escl-detail-no-address = Tidak ada alamat.
+scan-escl-detail-no-address = Tidak ada alamat pemindai.
 
 # Reason given when the scanner answered with an error number.
-scan-escl-detail-answered = Pemindai menjawab { $code }.
+scan-escl-detail-answered = Pemindai membalas dengan kesalahan { $code }.
 
 # Reason given when the scanner did not say what it can scan.
-scan-escl-detail-no-caps = Pemindai tidak menyebutkan apa yang dapat dipindai.
+scan-escl-detail-no-caps = Pemindai tidak melaporkan apa yang dapat dipindainya.
 
 # Reason given when the scanner refused a scan, with its error number.
-scan-escl-detail-refused = Pemindai menolak pemindaian ({ $code }).
+scan-escl-detail-refused = Pemindai tidak dapat memulai pemindaian (kesalahan { $code }).
 
 # Reason given when the scanner did not say where the scan job is.
-scan-escl-detail-no-job = Pemindai tidak memberi alamat tugas.
+scan-escl-detail-no-job = Pemindai tidak mengirim hasil pindai.
 
 # Reason given when the scanner stopped with an error number.
-scan-escl-detail-stopped = Pemindai berhenti dengan { $code }.
+scan-escl-detail-stopped = Pemindai berhenti dengan kesalahan { $code }.
 
 # Reason given when the scanner's answer could not be read.
-scan-escl-detail-broken = Jawaban rusak.
+scan-escl-detail-broken = Pemindai mengirim balasan yang tidak dapat dibaca Trindle Scan.
 
 # Reason: the scanner gave an address with characters this program will not send.
-scan-escl-detail-unsafe = Pemindai memberi alamat yang tidak akan dipakai program ini.
+scan-escl-detail-unsafe = Pemindai mengirim alamat yang tidak aman dipakai Trindle Scan.
 
 # Reason: the scanner took far too long to send its answer.
-scan-escl-detail-too-slow = Pemindai terlalu lama menjawab.
+scan-escl-detail-too-slow = Pemindai terlalu lama merespons.
 
 # Detail under a scanner in the list that is plugged into this computer.
 scan-scanners-usb = USB
 
 # Red words when a USB scanner is chosen but the computer lacks the scanner software.
-scan-sane-missing = Pemindai USB memerlukan perangkat lunak pemindai (SANE) yang tidak ada di komputer ini.
+scan-sane-missing = Pemindai USB memerlukan perangkat lunak pemindai SANE, yang tidak terpasang di komputer ini.
 
 # Red words when the system will not let the program use the USB scanner.
 # SAFETY: needs a human review before it ships
-scan-sane-denied = Program ini tidak diizinkan memakai pemindai USB. Izinkan Use scanners and USB devices untuk Trindle Scan di izinnya, lalu buka lagi.
+scan-sane-denied = Trindle Scan tidak diizinkan memakai pemindai USB. Aktifkan “Use scanners and USB devices” di izin aplikasi ini, lalu buka Trindle Scan lagi.
 
 # Red words when the scanner lid is open.
 scan-sane-cover = Penutup pemindai terbuka. Tutup lalu coba lagi.
 
 # Reason given when the USB scanner cannot be reached.
-scan-sane-io = Periksa apakah pemindai tersambung dan menyala. Pemindai yang disambung setelah program dibuka akan ditemukan saat program dibuka lagi.
+scan-sane-io = Trindle Scan tidak dapat menjangkau pemindai. Periksa apakah pemindai tersambung dan menyala. Jika Anda menyambungkannya setelah membuka Trindle Scan, tutup Trindle Scan lalu buka lagi.
 
 # Red words when the scanner would not take one setting. { $what } is the scanner's own name for it.
 scan-sane-refused = Pemindai tidak menerima pengaturan { $what }, jadi tidak ada yang dipindai.
 
 # Red words when a USB scanner's name cannot be used.
-scan-sane-bad-device = Nama perangkat pemindai tidak dapat dipakai.
+scan-sane-bad-device = Trindle Scan tidak dapat memakai pemindai ini.
 
 # Red words when the scanner sends the picture in a form the program cannot read.
-scan-sane-frame = Pemindai mengirim gambar dalam bentuk yang tidak dapat dibaca program ini.
+scan-sane-frame = Pemindai mengirim gambar dalam bentuk yang tidak dapat dibaca Trindle Scan.
 
 # Reason given when the chosen language for reading text is not a plain language code.
-scan-ocr-bad-language = Bahasa untuk membaca teks itu tidak dikenal program.
+scan-ocr-bad-language = Trindle Scan tidak dapat membaca teks dalam bahasa itu.
 
 # Reason given when reading the text of one page took too long.
 scan-ocr-too-slow = Membaca teks di halaman ini terlalu lama.
 
 # Reason given when the text reader stopped with an error on a page.
-scan-ocr-failed = Teks di halaman ini tidak dapat dibaca.
+scan-ocr-failed = Trindle Scan tidak dapat membaca teks di halaman ini.
 
 # Words on the bar while the text of the pages is read for a searchable PDF.
 scan-ocr-reading = Membaca teks di halaman { $i } dari { $n }
@@ -1006,7 +1006,7 @@ scan-ocr-reading = Membaca teks di halaman { $i } dari { $n }
 scan-ocr-cancelled = Penyimpanan dibatalkan. Halaman masih ada di sini.
 
 # Note under the bar when the program that reads text is not on this computer.
-scan-ocr-missing = Membaca teks memerlukan program Tesseract, yang tidak ada di komputer ini. Halaman disimpan tanpa teks yang dapat dicari.
+scan-ocr-missing = Untuk membaca teks, Trindle Scan memerlukan Tesseract, yang tidak terpasang di komputer ini. Halaman disimpan tanpa teks yang dapat dicari.
 
 # Note under the bar when some pages could not be read for text. The page numbers follow.
 scan-ocr-unread =
@@ -1024,13 +1024,13 @@ scan-editor-searchable = Buat teks dapat dicari
 scan-editor-ocr-language = Bahasa teks
 
 # Label above the choice of a second language to read.
-scan-editor-ocr-second = Bahasa kedua, jika halaman memakai dua
+scan-editor-ocr-second = Bahasa kedua (opsional)
 
 # Choice of second language: none.
 scan-editor-ocr-none = Tidak ada
 
 # Note under the searchable text choice.
-scan-editor-ocr-note = Membaca memakan beberapa detik per halaman. Jika halaman tidak dapat dibaca, halaman disimpan tanpa teks.
+scan-editor-ocr-note = Membaca teks memakan beberapa detik per halaman. Jika Trindle Scan tidak dapat membaca teks di suatu halaman, halaman itu disimpan tanpa teks yang dapat dicari.
 
 # Heading above the zoom buttons in the page viewer.
 scan-view-zoom-heading = Zoom
@@ -1046,7 +1046,7 @@ scan-view-zoom-fit = Seluruh halaman
 scan-view-zoom-actual = Ukuran asli
 
 # Note under the zoom buttons.
-scan-view-zoom-note = Roda tetikus juga memperbesar. Seret halaman untuk menggesernya. Tombol plus, minus, dan 0 memperbesar, memperkecil, dan menampilkan seluruh halaman.
+scan-view-zoom-note = Anda juga dapat memperbesar dengan roda tetikus dan menyeret halaman untuk menggesernya. Plus dan minus memperbesar dan memperkecil, dan 0 menampilkan seluruh halaman.
 
 # Label and spoken name of the choice of shape the crop box keeps.
 scan-view-crop-shape = Bentuk pangkasan
@@ -1084,17 +1084,17 @@ scan-close-discard = Buang dan tutup
 scan-close-keep = Lanjutkan bekerja
 
 # Printed in the terminal, not shown in a window, when the program is started without a desktop to draw on.
-scan-main-start-no-desktop = Trindle Scan: tidak ada desktop untuk membuka jendela.
+scan-main-start-no-desktop = Trindle Scan tidak dapat membuka jendela karena tidak ada desktop yang berjalan.
 
-scan-main-start-no-window = Trindle Scan: desktop tidak mau membuka jendela.
+scan-main-start-no-window = Trindle Scan tidak dapat membuka jendela di desktop.
 
 # Red words at start-up when the home folder is not set to a full path, so settings and profiles cannot be kept.
-scan-main-error-no-home = Folder home Anda belum diatur, jadi kali ini pengaturan dan profil Anda tidak dapat disimpan.
+scan-main-error-no-home = Trindle Scan tidak dapat menemukan folder home Anda, jadi kali ini tidak dapat menyimpan pengaturan dan profil Anda.
 
 
 # Red words when pages could not be copied to the recovery folder, so a crash would lose them.
 scan-main-error-not-kept =
     { $n ->
-       *[other] { $n } halaman tidak dapat disalin ke folder pemulihan, jadi akan hilang jika terjadi crash.
+       *[other] Trindle Scan tidak dapat menyalin { $n } halaman ke folder pemulihan. Jika Trindle Scan berhenti tiba-tiba, halaman itu akan hilang.
     }
 

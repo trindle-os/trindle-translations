@@ -5,16 +5,16 @@
 scan-app-name = Trindle Scan
 
 # Red words when the program's own settings could not be saved. The reason from the computer follows.
-scan-main-error-keep-settings = تعذّر حفظ إعداداتك: { $why }
+scan-main-error-keep-settings = تعذّر على Trindle Scan حفظ إعداداتك: { $why }
 
 # Red words when the profiles could not be saved. The reason from the computer follows.
-scan-main-error-keep-profiles = تعذّر حفظ ملفات التعريف: { $why }
+scan-main-error-keep-profiles = تعذّر على Trindle Scan حفظ ملفات التعريف: { $why }
 
 # Red words under the bar when Scan is pressed with no scanner chosen.
 scan-main-error-no-scanner = لم تختر ماسحًا ضوئيًا بعد.
 
 # Red words when Scan is pressed before the scanner has said what it can do.
-scan-main-error-wait-caps = بانتظار أن يخبرنا الماسح الضوئي بما يستطيع فعله.
+scan-main-error-wait-caps = لا يزال Trindle Scan يتحقق مما يستطيع الماسح الضوئي فعله. حاول مرة أخرى بعد لحظة.
 
 # Red words on the profile editor when Test scan is pressed with no scanner.
 scan-main-test-choose-scanner = اختر ماسحًا ضوئيًا أولًا، ثم حاول مرة أخرى.
@@ -23,7 +23,7 @@ scan-main-test-choose-scanner = اختر ماسحًا ضوئيًا أولًا، 
 scan-main-test-failed = لم ينجح المسح التجريبي: { $why }
 
 # Red words on the profile editor when the scanner sent no page for the test scan.
-scan-main-test-no-page = لم تصل أي صفحة من الماسح الضوئي. ضع صفحة وحاول مرة أخرى.
+scan-main-test-no-page = لم يرسل الماسح الضوئي أي صفحة. ضع صفحة وحاول مرة أخرى.
 
 # Spoken by the screen reader when the test scan has finished.
 scan-main-announce-test-done = انتهى المسح التجريبي
@@ -32,21 +32,21 @@ scan-main-announce-test-done = انتهى المسح التجريبي
 scan-main-announce-test-failed = لم ينجح المسح التجريبي
 
 # Note under the bar when a page came back damaged and was left out.
-scan-main-note-damaged = وصلت صفحة تالفة وتم تخطيها.
+scan-main-note-damaged = كانت إحدى الصفحات تالفة، لذلك تخطّاها Trindle Scan.
 
-scan-save-page-unreadable = تعذّرت قراءة صفحة ممسوحة، لذلك لم يُحفظ شيء.
+scan-save-page-unreadable = تعذّرت على Trindle Scan قراءة صفحة ممسوحة، لذلك لم يُحفظ شيء.
 
-scan-save-page-encode = تعذّر تحويل صفحة إلى صورة: { $why }
+scan-save-page-encode = تعذّر على Trindle Scan تحويل صفحة إلى صورة: { $why }
 
 # Red words when a scan stopped part way. The first part says what went wrong, then how many pages were kept.
 scan-main-error-with-kept =
     { $words } { $n ->
-        [zero] لم تُحفظ أي صفحة.
-        [one] بقيت { $n } صفحة.
-        [two] بقيت { $n } صفحتان.
-        [few] بقيت { $n } صفحات.
-        [many] بقيت { $n } صفحة.
-       *[other] بقيت { $n } صفحة.
+        [zero] لم تصل أي صفحة.
+        [one] الصفحة التي وصلت ما زالت هنا.
+        [two] الصفحتان اللتان وصلتا ما زالتا هنا.
+        [few] الصفحات التي وصلت ({ $n }) ما زالت هنا.
+        [many] الصفحات التي وصلت ({ $n }) ما زالت هنا.
+       *[other] الصفحات التي وصلت ({ $n }) ما زالت هنا.
     }
 
 # Note after saving a long scan as several PDF files: the folder and file name, then how many files.
@@ -54,7 +54,7 @@ scan-main-save-files =
     { $path } ({ $n ->
         [zero] { $n } ملفات
         [one] { $n } ملف
-        [two] { $n } ملفان
+        [two] ملفان
         [few] { $n } ملفات
         [many] { $n } ملفًا
        *[other] { $n } ملف
@@ -67,19 +67,19 @@ scan-main-note-saved = تم الحفظ في { $path }
 scan-main-note-saved-summary = { $summary } تم الحفظ في { $path }
 
 # Red words when pages could not be saved. The reason follows.
-scan-main-error-save = تعذّر الحفظ: { $why }. الصفحات ما زالت هنا.
+scan-main-error-save = تعذّر على Trindle Scan حفظ الصفحات الممسوحة: { $why }. صفحاتك ما زالت هنا.
 
 # Red words when an automatic save did not work. The reason follows.
-scan-main-error-autosave = تعذّر الحفظ التلقائي: { $why }. الصفحات ما زالت هنا.
+scan-main-error-autosave = تعذّر على Trindle Scan حفظ الصفحات الممسوحة تلقائيًا: { $why }. صفحاتك ما زالت هنا.
 
-scan-main-error-crashed = حدث خطأ داخل البرنامج وتوقفت المهمة. صفحاتك ما زالت هنا.
+scan-main-error-crashed = حدث خطأ فتوقف Trindle Scan. صفحاتك ما زالت هنا.
 
 # Note under the bar after pictures were added from files.
 scan-main-note-added =
     تمت إضافة { $n ->
         [zero] { $n } صور
         [one] { $n } صورة
-        [two] { $n } صورتين
+        [two] صورتين
         [few] { $n } صور
         [many] { $n } صورة
        *[other] { $n } صورة
@@ -90,28 +90,28 @@ scan-main-note-added-failed =
     تمت إضافة { $n ->
         [zero] { $n } صور
         [one] { $n } صورة
-        [two] { $n } صورتين
+        [two] صورتين
         [few] { $n } صور
         [many] { $n } صورة
        *[other] { $n } صورة
     }. { $failed ->
-        [zero] لم يتعذّر قراءة أي ملف.
-        [one] تعذّرت قراءة ملف واحد.
-        [two] تعذّرت قراءة { $failed } ملفين.
-        [few] تعذّرت قراءة { $failed } ملفات.
-        [many] تعذّرت قراءة { $failed } ملفًا.
-       *[other] تعذّرت قراءة { $failed } ملف.
+        [zero] لم يتعذّر على Trindle Scan قراءة أي ملف.
+        [one] تعذّرت على Trindle Scan قراءة ملف واحد.
+        [two] تعذّر على Trindle Scan قراءة ملفين.
+        [few] تعذّر على Trindle Scan قراءة { $failed } ملفات.
+        [many] تعذّر على Trindle Scan قراءة { $failed } ملفًا.
+       *[other] تعذّر على Trindle Scan قراءة { $failed } ملف.
     }
 
 # Red words when the folder of saved files could not be opened.
-scan-main-error-open-folder = تعذّر فتح المجلد.
+scan-main-error-open-folder = تعذّر على Trindle Scan فتح المجلد.
 
 # Note under the bar after pages from last time were brought back.
 scan-main-note-recovered =
     تمت استعادة { $n ->
         [zero] { $n } صفحات
         [one] { $n } صفحة
-        [two] { $n } صفحتين
+        [two] صفحتين
         [few] { $n } صفحات
         [many] { $n } صفحة
        *[other] { $n } صفحة
@@ -121,24 +121,24 @@ scan-main-note-recovered =
 scan-main-note-turn-over = اقلب الرزمة ثم اضغط مسح لمسح الوجوه الخلفية.
 
 # Note and question on the bar after a glass scan, asking whether to scan another page.
-scan-main-note-another-page = صفحة أخرى؟
+scan-main-note-another-page = مسح صفحة أخرى؟
 
 # Note under the bar when one run of a batch has finished.
-scan-main-note-run-done = انتهت الدورة { $n }.
+scan-main-note-run-done = انتهت عملية المسح { $n }.
 
 # Summary when a batch has finished: how many runs and how many pages.
 scan-main-summary-batch =
     انتهت الدفعة: { $runs ->
-        [zero] { $runs } دورات
-        [one] { $runs } دورة
-        [two] { $runs } دورتان
-        [few] { $runs } دورات
-        [many] { $runs } دورة
-       *[other] { $runs } دورة
+        [zero] { $runs } عمليات مسح
+        [one] { $runs } عملية مسح
+        [two] عمليتا مسح
+        [few] { $runs } عمليات مسح
+        [many] { $runs } عملية مسح
+       *[other] { $runs } عملية مسح
     }، { $pages ->
         [zero] { $pages } صفحات
         [one] { $pages } صفحة
-        [two] { $pages } صفحتان
+        [two] صفحتان
         [few] { $pages } صفحات
         [many] { $pages } صفحة
        *[other] { $pages } صفحة
@@ -149,13 +149,13 @@ scan-main-error-busy-still = الماسح الضوئي ما زال مشغولً�
 
 # Red words while the program waits for a busy scanner, counting down.
 scan-main-error-busy-retry =
-    الماسح الضوئي مشغول. تتم إعادة المحاولة، المتبقي { $n ->
-        [zero] { $n } ثوانٍ
-        [one] { $n } ثانية
-        [two] { $n } ثانيتان
-        [few] { $n } ثوانٍ
-        [many] { $n } ثانية
-       *[other] { $n } ثانية
+    الماسح الضوئي مشغول. سيعيد Trindle Scan المحاولة لمدة { $n ->
+        [zero] { $n } ثوانٍ أخرى
+        [one] { $n } ثانية أخرى
+        [two] ثانيتين أخريين
+        [few] { $n } ثوانٍ أخرى
+        [many] { $n } ثانية أخرى
+       *[other] { $n } ثانية أخرى
     }.
 
 # Note under the bar when a scan has finished.
@@ -163,7 +163,7 @@ scan-main-note-scanned =
     تم مسح { $n ->
         [zero] { $n } صفحات
         [one] { $n } صفحة
-        [two] { $n } صفحتين
+        [two] صفحتين
         [few] { $n } صفحات
         [many] { $n } صفحة
        *[other] { $n } صفحة
@@ -174,14 +174,14 @@ scan-main-note-scanned-skipped =
     تم مسح { $n ->
         [zero] { $n } صفحات
         [one] { $n } صفحة
-        [two] { $n } صفحتين
+        [two] صفحتين
         [few] { $n } صفحات
         [many] { $n } صفحة
        *[other] { $n } صفحة
-    }، وتم تخطي { $blanks ->
+    } وتم تخطي { $blanks ->
         [zero] { $blanks } صفحات فارغة
         [one] { $blanks } صفحة فارغة
-        [two] { $blanks } صفحتين فارغتين
+        [two] صفحتين فارغتين
         [few] { $blanks } صفحات فارغة
         [many] { $blanks } صفحة فارغة
        *[other] { $blanks } صفحة فارغة
@@ -191,7 +191,7 @@ scan-main-note-scanned-skipped =
 scan-main-part-name = { $stem } الجزء { $n }
 
 # Red words when retrying was stopped because the scanner was busy.
-scan-main-error-stopped-busy = تم الإيقاف. كان الماسح الضوئي مشغولًا.
+scan-main-error-stopped-busy = توقف المسح لأن الماسح الضوئي كان مشغولًا.
 
 # Words while an address typed by hand is being checked.
 scan-main-note-checking-address = جارٍ التحقق من العنوان
@@ -200,17 +200,17 @@ scan-main-note-checking-address = جارٍ التحقق من العنوان
 scan-main-filter-pictures = الصور
 
 # Red words when something dropped on the window gave no files. The reason follows.
-scan-main-drop-nothing = لم تتم إضافة شيء: { $why }
+scan-main-drop-nothing = تعذّر على Trindle Scan إضافة الملفات: { $why }
 
 # Red words when text, not a file, is dropped on the window.
-scan-main-drop-text = يمكن إفلات ملفات الصور فقط هنا.
+scan-main-drop-text = يمكنك إفلات ملفات الصور فقط هنا.
 
 # Status line: how many pages are in the list.
 scan-status-pages =
     { $n ->
         [zero] { $n } صفحات
         [one] { $n } صفحة
-        [two] { $n } صفحتان
+        [two] صفحتان
         [few] { $n } صفحات
         [many] { $n } صفحة
        *[other] { $n } صفحة
@@ -221,7 +221,7 @@ scan-status-pages-selected =
     { $n ->
         [zero] { $n } صفحات
         [one] { $n } صفحة
-        [two] { $n } صفحتان
+        [two] صفحتان
         [few] { $n } صفحات
         [many] { $n } صفحة
        *[other] { $n } صفحة
@@ -237,7 +237,7 @@ scan-status-searching = جارٍ البحث عن ماسحات ضوئية
 scan-status-ready = { $name } جاهز
 
 # Status line while the chosen scanner is being asked what it can do.
-scan-status-asking = جارٍ سؤال { $name }
+scan-status-asking = جارٍ الاتصال بـ { $name }
 
 # Status line when no scanner is chosen.
 scan-status-none = لم يتم اختيار ماسح ضوئي
@@ -246,13 +246,13 @@ scan-status-none = لم يتم اختيار ماسح ضوئي
 scan-status-line = { $pages }      { $state }
 
 # Red words under the profile name box when it is empty.
-scan-profiles-error-name-empty = يحتاج ملف التعريف إلى اسم.
+scan-profiles-error-name-empty = أعطِ ملف التعريف اسمًا.
 
 # Red words under the profile name box when another profile has that name.
 scan-profiles-error-name-taken = يوجد ملف تعريف آخر بهذا الاسم.
 
 # Red words when a page cannot be opened in the large view.
-scan-view-error-unshown = تعذّر عرض هذه الصفحة.
+scan-view-error-unshown = لا يستطيع Trindle Scan عرض هذه الصفحة.
 
 # Title above the large view of a page, and its spoken name.
 scan-view-page-of = الصفحة { $i } من { $n }
@@ -261,7 +261,7 @@ scan-view-page-of = الصفحة { $i } من { $n }
 scan-view-crop-heading = القص
 
 # Note under the crop heading.
-scan-view-crop-note = اقطع الهوامش كنسبة من الصفحة. يُطبَّق على كل صفحة محددة.
+scan-view-crop-note = حدد مقدار ما يُقص من كل حافة. هذا يغيّر كل صفحة محددة.
 
 # Label of the crop slider for the left edge.
 scan-view-crop-left = اليسار
@@ -323,17 +323,17 @@ scan-common-choose = اختيار
 scan-common-use = استخدام
 
 # Note that changes are kept as they are made.
-scan-common-changes-save = تُحفظ التغييرات أثناء إجرائها.
+scan-common-changes-save = تُحفظ تغييراتك أولًا بأول.
 
 # Words on the bar between batch runs when the person must load the next stack.
 scan-bar-pause-empty = ضع الرزمة التالية ثم اضغط متابعة.
 
 # Words on the bar counting down to the next batch run.
 scan-bar-pause-wait =
-    الدورة التالية بعد { $n ->
+    المسح التالي بعد { $n ->
         [zero] { $n } ثوانٍ
         [one] { $n } ثانية
-        [two] { $n } ثانيتين
+        [two] ثانيتين
         [few] { $n } ثوانٍ
         [many] { $n } ثانية
        *[other] { $n } ثانية
@@ -415,20 +415,20 @@ scan-pages-caption-saved = الصفحة { $i }، محفوظة
 # Words on the bottom bar when pages were left from the last run.
 scan-pages-recover-left =
     { $n ->
-        [zero] لا توجد صفحات متبقية من المرة السابقة ({ $n }).
-        [one] بقيت { $n } صفحة من المرة السابقة.
-        [two] بقيت { $n } صفحتان من المرة السابقة.
+        [zero] لا توجد صفحات متبقية من المرة السابقة.
+        [one] بقيت صفحة واحدة من المرة السابقة.
+        [two] بقيت صفحتان من المرة السابقة.
         [few] بقيت { $n } صفحات من المرة السابقة.
         [many] بقيت { $n } صفحة من المرة السابقة.
        *[other] بقيت { $n } صفحة من المرة السابقة.
     }
 
 # Button that brings back the pages left from the last run.
-scan-pages-recover = استعادتها
+scan-pages-recover = استعادة الصفحات
 
 # Button that throws away the pages left from the last run.
 # SAFETY: needs a human review before it ships
-scan-pages-discard = تجاهلها وحذفها
+scan-pages-discard = تجاهل الصفحات وحذفها
 
 # Label of the thumbnail size slider on the bottom bar.
 scan-pages-thumbnails = الصور المصغّرة
@@ -450,13 +450,13 @@ scan-pages-open-folder = فتح المجلد
 
 # Bottom bar button that removes saved pages from the list.
 # SAFETY: needs a human review before it ships
-scan-pages-clear-saved = مسح المحفوظة من القائمة
+scan-pages-clear-saved = إزالة الصفحات المحفوظة
 
 # Title of the picker (and of the system file chooser) for saving a PDF.
 scan-browse-title-save-pdf = حفظ المسح
 
 # Title of the picker for choosing where pictures are saved.
-scan-browse-title-save-folder = اختر مجلدًا لحفظ الصور فيه
+scan-browse-title-save-folder = مجلد الصور
 
 # Title of the picker (and of the system file chooser) for adding pictures.
 scan-browse-title-pictures = إضافة صور
@@ -465,10 +465,10 @@ scan-browse-title-pictures = إضافة صور
 scan-browse-title-profile-folder = مجلد حفظ المسوحات
 
 # Title of the picker for the folder new profiles save into.
-scan-browse-title-settings-folder = المجلد الذي تحفظ فيه ملفات التعريف الجديدة
+scan-browse-title-settings-folder = المجلد الافتراضي لملفات التعريف الجديدة
 
 # Title of the picker for the folder pages are kept in while the program is open.
-scan-browse-title-temp-folder = مجلد إبقاء الصفحات فيه أثناء فتح البرنامج
+scan-browse-title-temp-folder = مجلد الصفحات المؤقتة
 
 # File name that scans start with, without the ending.
 scan-browse-default-name = مسح
@@ -477,19 +477,19 @@ scan-browse-default-name = مسح
 scan-browse-error-open-first-new = افتح أحد مجلداتك أولًا، ثم أنشئ المجلد الجديد بداخله.
 
 # Red words in the picker when a new folder name is not plain.
-scan-browse-error-folder-name = اختر اسمًا بسيطًا للمجلد، بلا شرطات مائلة ولا يبدأ بنقطة.
+scan-browse-error-folder-name = لا يجوز أن تحتوي أسماء المجلدات على شرطات مائلة أو أن تبدأ بنقطة.
 
 # Red words in the picker when a folder could not be made. The reason follows.
-scan-browse-error-make-folder = تعذّر إنشاء المجلد: { $why }
+scan-browse-error-make-folder = تعذّر على Trindle Scan إنشاء المجلد: { $why }
 
 # Red words in the picker when Add is pressed with no pictures chosen.
-scan-browse-error-no-pictures = اضغط على الصور التي تريدها ثم أضفها.
+scan-browse-error-no-pictures = حدد الصور التي تريدها ثم أضفها.
 
 # Red words in the picker when Save is pressed before a folder is open.
 scan-browse-error-open-first = افتح أحد مجلداتك أولًا.
 
 # Red words in the picker when the file name is not plain.
-scan-browse-error-file-name = اختر اسمًا بسيطًا للملف، بلا شرطات مائلة ولا يبدأ بنقطة.
+scan-browse-error-file-name = لا يجوز أن تحتوي أسماء الملفات على شرطات مائلة أو أن تبدأ بنقطة.
 
 # Red words in the picker when a file with that name already exists.
 scan-browse-error-name-taken = يوجد ملف بهذا الاسم. اختر اسمًا آخر.
@@ -504,7 +504,7 @@ scan-browse-up = للأعلى
 scan-browse-kind-folder = مجلد
 
 # Detail under a picture that has been chosen in the picker.
-scan-browse-kind-chosen = تم اختياره
+scan-browse-kind-chosen = محدد
 
 # Detail under a picture in the picker.
 scan-browse-kind-picture = صورة
@@ -516,7 +516,7 @@ scan-browse-empty-pictures = لا توجد مجلدات أو صور هنا.
 scan-browse-empty-folders = لا توجد مجلدات هنا بعد.
 
 # Label above the new folder box in the picker.
-scan-browse-new-folder = مجلد جديد هنا
+scan-browse-new-folder = مجلد جديد
 
 # Spoken name of the new folder box in the picker.
 scan-browse-new-folder-spoken = اسم المجلد الجديد
@@ -535,7 +535,7 @@ scan-browse-go-pictures =
     إضافة { $n ->
         [zero] { $n } صور
         [one] { $n } صورة
-        [two] { $n } صورتين
+        [two] صورتين
         [few] { $n } صور
         [many] { $n } صورة
        *[other] { $n } صورة
@@ -551,7 +551,7 @@ scan-shortcuts-title = اختصارات لوحة المفاتيح
 scan-shortcuts-profile-keys = من 1 إلى 9
 
 # What the profile keys do.
-scan-shortcuts-profile-what = المسح بملف التعريف من الأول إلى التاسع
+scan-shortcuts-profile-what = المسح بملف التعريف الذي في هذا الموضع من القائمة
 
 # Keys that select every page.
 scan-shortcuts-select-keys = Ctrl+A
@@ -600,22 +600,22 @@ scan-shortcuts-tab-what = التنقل بين الأزرار والصفحات
 scan-shortcuts-press-keys = Space أو Enter
 
 # What the space and enter keys do.
-scan-shortcuts-press-what = الضغط على الزر أو اختيار الصفحة التي عليها التركيز
+scan-shortcuts-press-what = الضغط على الزر المميّز أو اختيار الصفحة المميّزة
 
 # Note under the list of shortcuts.
-scan-shortcuts-note = مفاتيح المسح وتحرير الصفحات تعمل في شاشة قائمة الصفحات.
+scan-shortcuts-note = مفاتيح مسح الصفحات وتحريرها تعمل في شاشة قائمة الصفحات.
 
 # Title of the settings screen.
 scan-settings-title = الإعدادات
 
 # Label above the folder new profiles save into.
-scan-settings-folder = المجلد الذي تحفظ فيه ملفات التعريف الجديدة
+scan-settings-folder = المجلد الافتراضي لملفات التعريف الجديدة
 
 # Words when no folder has been chosen.
 scan-settings-no-folder = لم يتم اختيار مجلد
 
 # Label above the default file name box.
-scan-settings-pattern = اسم الملف الذي تبدأ به ملفات التعريف الجديدة
+scan-settings-pattern = اسم الملف الافتراضي لملفات التعريف الجديدة
 
 # Spoken name of the default file name box.
 scan-settings-pattern-spoken = نمط اسم الملف الافتراضي
@@ -623,11 +623,11 @@ scan-settings-pattern-spoken = نمط اسم الملف الافتراضي
 # Label above the thumbnail size slider.
 scan-settings-thumb =
     حجم الصورة المصغّرة: { $n ->
-        [zero] العرض { $n } بكسل
+        [zero] العرض { $n } بكسلات
         [one] العرض { $n } بكسل
-        [two] العرض { $n } بكسل
-        [few] العرض { $n } بكسل
-        [many] العرض { $n } بكسل
+        [two] العرض بكسلان
+        [few] العرض { $n } بكسلات
+        [many] العرض { $n } بكسلًا
        *[other] العرض { $n } بكسل
     }
 
@@ -648,11 +648,11 @@ scan-settings-example = مثال: { $size }
 
 # Label of the switch that takes saved pages out of the list.
 # SAFETY: needs a human review before it ships
-scan-settings-remove-saved = إزالة الصفحات المحفوظة من القائمة بعد الحفظ
+scan-settings-remove-saved = إزالة الصفحات من القائمة بعد حفظها
 
 # Spoken name of the remove saved pages switch.
 # SAFETY: needs a human review before it ships
-scan-settings-remove-saved-spoken = إزالة الصفحات المحفوظة بعد الحفظ
+scan-settings-remove-saved-spoken = إزالة الصفحات بعد الحفظ
 
 # Heading above the PDF details.
 scan-settings-pdf-heading = ملفات PDF المحفوظة
@@ -700,34 +700,34 @@ scan-settings-pdf-password-spoken = كلمة مرور PDF
 
 # Note under the PDF password box.
 # SAFETY: needs a human review before it ships
-scan-settings-pdf-password-note = اتركها فارغة لعدم استخدام كلمة مرور. تُحفظ في ملف إعداداتك كنص عادي، لذا استخدم كلمة المرور للخصوصية البسيطة فقط.
+scan-settings-pdf-password-note = اتركها فارغة لعدم استخدام كلمة مرور. يستطيع قراءة كلمة المرور كل من يفتح ملف إعداداتك، لأنها تُحفظ كنص عادي.
 
 # Title written in a saved PDF when the person has not typed one.
 scan-settings-pdf-default-title = مسح
 
 # Heading above the place pages are kept while open.
-scan-settings-progress-heading = الصفحات قيد العمل
+scan-settings-progress-heading = الصفحات المؤقتة
 
 # Label above the folder pages are kept in while the program is open.
-scan-settings-temp = مجلد إبقاء الصفحات فيه أثناء فتح البرنامج
+scan-settings-temp = مجلد الصفحات المؤقتة
 
 # Words when the default place is used to keep pages.
-scan-settings-temp-default = المكان الافتراضي
+scan-settings-temp-default = المجلد الافتراضي
 
 # Note under the folder for pages in progress.
-scan-settings-temp-note = سيُستخدم هذا المجلد عند تشغيل البرنامج في المرة القادمة.
+scan-settings-temp-note = يسري هذا التغيير عند فتح Trindle Scan في المرة القادمة.
 
 # A page size with its measurements in millimetres.
 scan-settings-size-mm = { $name }، { $w } × { $h } ملم
 
 # A page size with its measurements in inches.
-scan-settings-size-in = { $name }، { $w } × { $h } بوصة
+scan-settings-size-in = { $name }، { $w } × { $h } بالبوصة
 
 # Note when no scanner was found.
 scan-scanners-none = لم يتم العثور على ماسح ضوئي. تأكد من أنه على الشبكة نفسها التي يوجد عليها هذا الحاسوب، أو اكتب عنوانه أدناه.
 
 # Label above the box for a scanner address.
-scan-scanners-address = أدخل عنوانًا يدويًا
+scan-scanners-address = عنوان الماسح الضوئي
 
 # Spoken name of the scanner address box.
 scan-scanners-address-spoken = عنوان الماسح الضوئي، مثل 192.168.1.40
@@ -736,13 +736,13 @@ scan-scanners-address-spoken = عنوان الماسح الضوئي، مثل 192
 scan-scanners-add = إضافة
 
 # Note under the scanner address box.
-scan-scanners-address-note = لا يُعثر على ماسح ضوئي موجود على شبكة أخرى من تلقاء نفسه. عنوانه يحل هذه المشكلة.
+scan-scanners-address-note = لا يستطيع Trindle Scan العثور على ماسح ضوئي في شبكة أخرى من تلقاء نفسه. اكتب عنوانه لإضافته.
 
 # Title of the screen for making a profile.
 scan-presets-title = إنشاء ملف تعريف
 
 # Note on the screen for making a profile.
-scan-presets-note = يحفظ ملف التعريف إعدادات المسح لديك. اختر واحدًا لتبدأ منه؛ ويمكنك تغييره لاحقًا.
+scan-presets-note = يخزّن ملف التعريف إعدادات المسح لديك. اختر واحدًا لتبدأ به. ويمكنك تغييره لاحقًا.
 
 # Title of the profiles screen.
 scan-profiles-title = ملفات التعريف
@@ -809,7 +809,7 @@ scan-profile-size-letter = Letter
 scan-profile-size-legal = Legal
 
 # Page size choice: the biggest the scanner can do.
-scan-profile-size-largest = الأكبر الذي يستطيعه الماسح الضوئي
+scan-profile-size-largest = أكبر حجم مدعوم
 
 # File type PDF.
 scan-profile-format-pdf = PDF
@@ -824,19 +824,19 @@ scan-profile-format-png = PNG
 scan-profile-format-tiff = TIFF
 
 # Note when the scanner did not say how big its glass is.
-scan-profile-told-glass = لم يخبرنا الماسح الضوئي بحجم زجاجه، لذلك افترضنا A4.
+scan-profile-told-glass = لم يُبلغ الماسح الضوئي عن حجم زجاجه، لذلك استخدم Trindle Scan الحجم A4.
 
 # Note when the page size was cut down to what the scanner can do.
-scan-profile-told-size = كان حجم الصفحة أكبر مما يستطيعه الماسح الضوئي، لذلك استُخدم الأكبر المتاح.
+scan-profile-told-size = كان حجم الصفحة أكبر من أن يتحمله الماسح الضوئي، لذلك استخدم Trindle Scan أكبر حجم يدعمه.
 
 # Note when the resolution was changed to one the scanner offers.
-scan-profile-told-dpi = الدقة { $dpi } نقطة في البوصة غير متاحة، لذلك استُخدمت { $near }.
+scan-profile-told-dpi = لا يستطيع الماسح الضوئي استخدام { $dpi } نقطة في البوصة، لذلك استخدم Trindle Scan { $near } نقطة في البوصة.
 
 # Note when the scanner has no feeder and the glass was used.
-scan-profile-told-feeder = لا يملك الماسح الضوئي وحدة تغذية، لذلك استُخدم الزجاج.
+scan-profile-told-feeder = لا يملك الماسح الضوئي وحدة تغذية، لذلك استخدم Trindle Scan الزجاج.
 
 # Note when the scanner cannot scan both sides in one pass.
-scan-profile-told-duplex = لا يستطيع الماسح الضوئي مسح الوجهين في مرة واحدة.
+scan-profile-told-duplex = لا يستطيع الماسح الضوئي مسح الوجهين معًا.
 
 # Title of the profile editor.
 scan-editor-title = تحرير ملف التعريف
@@ -854,7 +854,7 @@ scan-editor-test-heading = مسح تجريبي
 scan-editor-test-busy = جارٍ مسح صفحة تجريبية
 
 # Note beside the Test scan button.
-scan-editor-test-note = يمسح صفحة واحدة بهذه الإعدادات. ولا تُضاف إلى صفحاتك.
+scan-editor-test-note = يمسح هذا صفحة واحدة بهذه الإعدادات. ولا تُضاف إلى صفحاتك.
 
 # Note under the test page picture.
 scan-editor-test-size = الصفحة التجريبية: { $w } × { $h } بكسل
@@ -881,13 +881,13 @@ scan-editor-source-manual = وحدة التغذية، اقلب الرزمة يد
 scan-editor-size = حجم الصفحة
 
 # Label above the resolution choice.
-scan-editor-dpi = الدقة، نقطة في البوصة
+scan-editor-dpi = الدقة (نقطة في البوصة)
 
 # Spoken name of the resolution choice.
 scan-editor-dpi-spoken = الدقة
 
 # Note under the resolution choice when it is high.
-scan-editor-dpi-note = الدقة العالية تعطي ملفات كبيرة ومسحًا بطيئًا.
+scan-editor-dpi-note = الدقة الأعلى تعطي ملفات أكبر ومسحًا أبطأ.
 
 # Label above the colour choice.
 scan-editor-colour = اللون
@@ -905,7 +905,7 @@ scan-editor-colour-grey = رمادي
 scan-editor-colour-bw = أبيض وأسود
 
 # Label above the black and white threshold slider.
-scan-editor-threshold = مدى الغمق الذي يُعدّ أسود: { $n }
+scan-editor-threshold = حد الأبيض والأسود: { $n }
 
 # Spoken name of the threshold slider.
 scan-editor-threshold-spoken = عتبة الأبيض والأسود
@@ -929,16 +929,16 @@ scan-editor-reset-tone = إعادة ضبط السطوع والتباين
 scan-editor-rotate = تدوير كل صفحة
 
 # Choice of turning: do not turn.
-scan-editor-rotate-none = لا
+scan-editor-rotate-none = بلا
 
 # Spoken name of the turn choice.
-scan-editor-rotate-spoken = تدوير ثابت بالدرجات
+scan-editor-rotate-spoken = تدوير الصفحات بالدرجات
 
 # Label and spoken name of the straighten switch.
 scan-editor-straighten = تقويم الصفحات
 
 # Label of the trim borders switch.
-scan-editor-trim = قص الحدود والهوامش الزائدة
+scan-editor-trim = قص الحدود والهوامش
 
 # Spoken name of the trim borders switch.
 scan-editor-trim-spoken = قص الحدود
@@ -959,7 +959,7 @@ scan-editor-batch-heading = الدفعة
 scan-editor-batch-one = مسح واحد
 
 # Choice of batch mode: a set number of runs.
-scan-editor-batch-several = عدة دورات
+scan-editor-batch-several = عدة عمليات مسح
 
 # Choice of batch mode: runs until the person stops.
 scan-editor-batch-until = حتى أوقفه
@@ -968,19 +968,19 @@ scan-editor-batch-until = حتى أوقفه
 scan-editor-batch-spoken = وضع الدفعة
 
 # Label and spoken name of the number of runs choice.
-scan-editor-runs = عدد الدورات
+scan-editor-runs = عدد عمليات المسح
 
 # Label above the pause between runs choice.
-scan-editor-pause = الانتظار بين الدورات، بالثواني
+scan-editor-pause = الانتظار بين عمليات المسح (بالثواني)
 
 # Spoken name of the pause between runs choice.
-scan-editor-pause-spoken = الانتظار بين الدورات
+scan-editor-pause-spoken = الانتظار بين عمليات المسح
 
 # Choice of pause: wait until the person presses Continue.
 scan-editor-pause-wait = انتظرني
 
 # Label and spoken name of the switch that puts all runs in one file.
-scan-editor-one-file = كل الدورات في ملف واحد
+scan-editor-one-file = كل عمليات المسح في ملف واحد
 
 # Heading above what happens after scanning.
 scan-editor-after-heading = بعد المسح
@@ -1001,18 +1001,18 @@ scan-editor-pattern-spoken = نمط اسم الملف
 scan-editor-next-file = الملف التالي: { $name }
 
 # Note listing the parts that can be used in a file name. The parts in curly brackets are typed as they are.
-scan-editor-parts = الأجزاء التي يمكنك استخدامها: { $parts }. الرمز / ينشئ مجلدًا.
+scan-editor-parts = يمكنك استخدام هذه الأجزاء في اسم الملف: { $parts }. أضف / لإنشاء مجلد.
 
 # Label of the switch that clears the pages from the list after saving.
 # SAFETY: needs a human review before it ships
-scan-editor-clear-after = مسح الصفحات من القائمة بعد ذلك
+scan-editor-clear-after = إزالة الصفحات من القائمة بعد الحفظ
 
 # Spoken name of the clear pages switch.
 # SAFETY: needs a human review before it ships
-scan-editor-clear-after-spoken = مسح الصفحات بعد الحفظ
+scan-editor-clear-after-spoken = إزالة الصفحات بعد الحفظ
 
 # Red words when the scanner did not answer. The reason follows.
-scan-escl-offline = لم يستجب الماسح الضوئي. { $detail }
+scan-escl-offline = الماسح الضوئي لا يستجيب. { $detail }
 
 # Red words when the scanner is busy.
 scan-escl-busy = الماسح الضوئي مشغول.
@@ -1021,77 +1021,77 @@ scan-escl-busy = الماسح الضوئي مشغول.
 scan-escl-no-paper = ضع ورقًا في وحدة التغذية.
 
 # Red words when paper is stuck.
-scan-escl-jam = انحشار الورق.
+scan-escl-jam = الورق محشور.
 
 # Red words when the address is not on the local network.
 scan-escl-not-private = هذا العنوان ليس على شبكتك المحلية.
 
 # Red words for any other scanner problem. The reason follows.
-scan-escl-other = مشكلة في الماسح الضوئي. { $detail }
+scan-escl-other = حدثت مشكلة في الماسح الضوئي. { $detail }
 
 # Red words when a scan was stopped by the person.
 scan-escl-stopped = تم إيقاف المسح.
 
 # Reason given when the scanner's address cannot be found.
-scan-escl-detail-no-address = لا يوجد عنوان.
+scan-escl-detail-no-address = لا يوجد عنوان للماسح الضوئي.
 
 # Reason given when the scanner answered with an error number.
-scan-escl-detail-answered = أجاب برقم الخطأ { $code }.
+scan-escl-detail-answered = ردّ برقم الخطأ { $code }.
 
 # Reason given when the scanner did not say what it can scan.
-scan-escl-detail-no-caps = لم يخبرنا بما يستطيع مسحه.
+scan-escl-detail-no-caps = لم يُبلغ عما يستطيع مسحه.
 
 # Reason given when the scanner refused a scan, with its error number.
-scan-escl-detail-refused = رفض المسح ({ $code }).
+scan-escl-detail-refused = تعذّر عليه بدء المسح (رقم الخطأ { $code }).
 
 # Reason given when the scanner did not say where the scan job is.
-scan-escl-detail-no-job = لم يعطِ عنوان المهمة.
+scan-escl-detail-no-job = لم يرسل الماسح الضوئي نتيجة المسح.
 
 # Reason given when the scanner stopped with an error number.
-scan-escl-detail-stopped = توقف مع الرقم { $code }.
+scan-escl-detail-stopped = توقف برقم الخطأ { $code }.
 
 # Reason given when the scanner's answer could not be read.
-scan-escl-detail-broken = إجابة تالفة.
+scan-escl-detail-broken = أرسل ردًا لم يستطع Trindle Scan قراءته.
 
 # Reason: the scanner gave an address with characters this program will not send.
-scan-escl-detail-unsafe = أعطى عنوانًا لن يستخدمه هذا البرنامج.
+scan-escl-detail-unsafe = أرسل عنوانًا لا يستطيع Trindle Scan استخدامه بأمان.
 
 # Reason: the scanner took far too long to send its answer.
-scan-escl-detail-too-slow = تأخر كثيرًا في الإجابة.
+scan-escl-detail-too-slow = تأخر كثيرًا في الرد.
 
 # Detail under a scanner in the list that is plugged into this computer.
 scan-scanners-usb = USB
 
 # Red words when a USB scanner is chosen but the computer lacks the scanner software.
-scan-sane-missing = تحتاج ماسحات USB الضوئية إلى برنامج الماسح (SANE) وهو غير موجود على هذا الحاسوب.
+scan-sane-missing = تحتاج ماسحات USB الضوئية إلى برنامج الماسح SANE، وهو غير مثبّت على هذا الحاسوب.
 
 # Red words when the system will not let the program use the USB scanner.
 # SAFETY: needs a human review before it ships
-scan-sane-denied = لا يملك هذا البرنامج إذنًا لاستخدام الماسح الضوئي USB. اسمح بـ Use scanners and USB devices لـ Trindle Scan في أذوناته، ثم افتحه مرة أخرى.
+scan-sane-denied = لا يُسمح لـ Trindle Scan باستخدام ماسحات USB الضوئية. فعّل «Use scanners and USB devices» في أذوناته، ثم افتحه مرة أخرى.
 
 # Red words when the scanner lid is open.
 scan-sane-cover = غطاء الماسح الضوئي مفتوح. أغلقه وحاول مرة أخرى.
 
 # Reason given when the USB scanner cannot be reached.
-scan-sane-io = تأكد من توصيل الماسح الضوئي وتشغيله. الماسح الذي يُوصَل بعد فتح البرنامج يُعثر عليه عند فتحه مرة أخرى.
+scan-sane-io = لا يستطيع Trindle Scan الوصول إلى الماسح الضوئي. تأكد من توصيله وتشغيله. إذا وصلته بعد فتح Trindle Scan فأغلق Trindle Scan وافتحه مرة أخرى.
 
 # Red words when the scanner would not take one setting. { $what } is the scanner's own name for it.
 scan-sane-refused = لم يقبل الماسح الضوئي إعداد { $what }، لذلك لم يتم مسح شيء.
 
 # Red words when a USB scanner's name cannot be used.
-scan-sane-bad-device = اسم جهاز الماسح الضوئي غير صالح للاستخدام.
+scan-sane-bad-device = لا يستطيع Trindle Scan استخدام هذا الماسح الضوئي.
 
 # Red words when the scanner sends the picture in a form the program cannot read.
-scan-sane-frame = أرسل الماسح الضوئي الصورة بصيغة لا يستطيع هذا البرنامج قراءتها.
+scan-sane-frame = أرسل الماسح الضوئي الصورة بصيغة لا يستطيع Trindle Scan قراءتها.
 
 # Reason given when the chosen language for reading text is not a plain language code.
-scan-ocr-bad-language = لغة قراءة النص هذه غير معروفة للبرنامج.
+scan-ocr-bad-language = لا يستطيع Trindle Scan قراءة النص بهذه اللغة.
 
 # Reason given when reading the text of one page took too long.
 scan-ocr-too-slow = استغرقت قراءة النص في هذه الصفحة وقتًا طويلًا جدًا.
 
 # Reason given when the text reader stopped with an error on a page.
-scan-ocr-failed = تعذّرت قراءة النص في هذه الصفحة.
+scan-ocr-failed = تعذّر على Trindle Scan قراءة النص في هذه الصفحة.
 
 # Words on the bar while the text of the pages is read for a searchable PDF.
 scan-ocr-reading = جارٍ قراءة النص في الصفحة { $i } من { $n }
@@ -1101,7 +1101,7 @@ scan-ocr-reading = جارٍ قراءة النص في الصفحة { $i } من { 
 scan-ocr-cancelled = تم إلغاء الحفظ. الصفحات ما زالت هنا.
 
 # Note under the bar when the program that reads text is not on this computer.
-scan-ocr-missing = قراءة النص تحتاج إلى برنامج Tesseract وهو غير موجود على هذا الحاسوب. تُحفظ الصفحات بلا نص قابل للبحث.
+scan-ocr-missing = لقراءة النص يحتاج Trindle Scan إلى برنامج Tesseract، وهو غير مثبّت على هذا الحاسوب. تُحفظ الصفحات بلا نص قابل للبحث.
 
 # Note under the bar when some pages could not be read for text. The page numbers follow.
 scan-ocr-unread =
@@ -1124,13 +1124,13 @@ scan-editor-searchable = جعل النص قابلًا للبحث
 scan-editor-ocr-language = لغة النص
 
 # Label above the choice of a second language to read.
-scan-editor-ocr-second = لغة ثانية، إن كانت الصفحات تستخدم لغتين
+scan-editor-ocr-second = لغة ثانية (اختياري)
 
 # Choice of second language: none.
 scan-editor-ocr-none = بلا
 
 # Note under the searchable text choice.
-scan-editor-ocr-note = تستغرق القراءة بضع ثوانٍ لكل صفحة. إذا تعذّرت قراءة صفحة فإنها تُحفظ بلا النص.
+scan-editor-ocr-note = تستغرق قراءة النص بضع ثوانٍ لكل صفحة. إذا تعذّرت على Trindle Scan قراءة النص في صفحة، فإنه يحفظها بلا نص قابل للبحث.
 
 # Heading above the zoom buttons in the page viewer.
 scan-view-zoom-heading = التكبير
@@ -1146,7 +1146,7 @@ scan-view-zoom-fit = الصفحة كاملة
 scan-view-zoom-actual = الحجم الفعلي
 
 # Note under the zoom buttons.
-scan-view-zoom-note = عجلة الفأرة تكبّر أيضًا. اسحب الصفحة لتحريكها. المفاتيح + و - و 0 تكبّر وتصغّر وتعرض الصفحة كاملة.
+scan-view-zoom-note = يمكنك التكبير أيضًا بعجلة الفأرة، واسحب الصفحة لتحريكها. المفتاحان + و - يكبّران ويصغّران، والمفتاح 0 يعرض الصفحة كاملة.
 
 # Label and spoken name of the choice of shape the crop box keeps.
 scan-view-crop-shape = شكل القص
@@ -1170,9 +1170,9 @@ scan-close-title = الإغلاق دون حفظ؟
 # SAFETY: needs a human review before it ships
 scan-close-pages =
     { $n ->
-        [zero] { $n } صفحات غير محفوظة.
-        [one] صفحة واحدة غير محفوظة ({ $n }).
-        [two] { $n } صفحتان غير محفوظتين.
+        [zero] لا توجد صفحات غير محفوظة.
+        [one] صفحة واحدة غير محفوظة.
+        [two] صفحتان غير محفوظتان.
         [few] { $n } صفحات غير محفوظة.
         [many] { $n } صفحة غير محفوظة.
        *[other] { $n } صفحة غير محفوظة.
@@ -1189,21 +1189,21 @@ scan-close-discard = تجاهل الصفحات وأغلق
 scan-close-keep = متابعة العمل
 
 # Printed in the terminal, not shown in a window, when the program is started without a desktop to draw on.
-scan-main-start-no-desktop = Trindle Scan: لا يوجد سطح مكتب لفتح نافذة عليه.
+scan-main-start-no-desktop = لا يستطيع Trindle Scan فتح نافذة لأنه لا يوجد سطح مكتب قيد التشغيل.
 
-scan-main-start-no-window = Trindle Scan: لم يفتح سطح المكتب نافذة.
+scan-main-start-no-window = تعذّر على Trindle Scan فتح نافذة على سطح المكتب.
 
 # Red words at start-up when the home folder is not set to a full path, so settings and profiles cannot be kept.
-scan-main-error-no-home = مجلد المنزل غير محدد، لذا لا يمكن حفظ إعداداتك وملفاتك الشخصية هذه المرة.
+scan-main-error-no-home = لم يجد Trindle Scan مجلد المنزل، لذلك لا يستطيع حفظ إعداداتك وملفات التعريف هذه المرة.
 
 # Red words when pages could not be copied to the recovery folder, so a crash would lose them.
 scan-main-error-not-kept =
     { $n ->
-        [zero] تعذّر نسخ أي صفحة إلى مجلد الاسترداد.
-        [one] تعذّر نسخ صفحة واحدة إلى مجلد الاسترداد، لذلك سيفقدها أي انهيار.
-        [two] تعذّر نسخ صفحتين إلى مجلد الاسترداد، لذلك سيفقدهما أي انهيار.
-        [few] تعذّر نسخ { $n } صفحات إلى مجلد الاسترداد، لذلك سيفقدها أي انهيار.
-        [many] تعذّر نسخ { $n } صفحة إلى مجلد الاسترداد، لذلك سيفقدها أي انهيار.
-       *[other] تعذّر نسخ { $n } صفحة إلى مجلد الاسترداد، لذلك سيفقدها أي انهيار.
+        [zero] تمكّن Trindle Scan من نسخ كل الصفحات إلى مجلد الاسترداد.
+        [one] تعذّر على Trindle Scan نسخ صفحة واحدة إلى مجلد الاسترداد. إذا انهار Trindle Scan فستفقدها.
+        [two] تعذّر على Trindle Scan نسخ صفحتين إلى مجلد الاسترداد. إذا انهار Trindle Scan فستفقدهما.
+        [few] تعذّر على Trindle Scan نسخ { $n } صفحات إلى مجلد الاسترداد. إذا انهار Trindle Scan فستفقدها.
+        [many] تعذّر على Trindle Scan نسخ { $n } صفحة إلى مجلد الاسترداد. إذا انهار Trindle Scan فستفقدها.
+       *[other] تعذّر على Trindle Scan نسخ { $n } صفحة إلى مجلد الاسترداد. إذا انهار Trindle Scan فستفقدها.
     }
 

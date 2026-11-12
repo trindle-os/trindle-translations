@@ -5,16 +5,16 @@
 scan-app-name = Trindle Scan
 
 # Red words when the program's own settings could not be saved. The reason from the computer follows.
-scan-main-error-keep-settings = Không lưu được các cài đặt của bạn: { $why }
+scan-main-error-keep-settings = Trindle Scan không lưu được cài đặt của bạn: { $why }
 
 # Red words when the profiles could not be saved. The reason from the computer follows.
-scan-main-error-keep-profiles = Không lưu được các hồ sơ của bạn: { $why }
+scan-main-error-keep-profiles = Trindle Scan không lưu được các hồ sơ của bạn: { $why }
 
 # Red words under the bar when Scan is pressed with no scanner chosen.
-scan-main-error-no-scanner = Chưa chọn máy quét.
+scan-main-error-no-scanner = Bạn chưa chọn máy quét.
 
 # Red words when Scan is pressed before the scanner has said what it can do.
-scan-main-error-wait-caps = Đang chờ máy quét cho biết nó làm được những gì.
+scan-main-error-wait-caps = Trindle Scan vẫn đang kiểm tra máy quét làm được những gì. Hãy thử lại sau giây lát.
 
 # Red words on the profile editor when Test scan is pressed with no scanner.
 scan-main-test-choose-scanner = Hãy chọn máy quét trước, rồi thử lại.
@@ -23,7 +23,7 @@ scan-main-test-choose-scanner = Hãy chọn máy quét trước, rồi thử l�
 scan-main-test-failed = Quét thử không thành công: { $why }
 
 # Red words on the profile editor when the scanner sent no page for the test scan.
-scan-main-test-no-page = Máy quét không gửi trang nào về. Hãy đặt một trang vào và thử lại.
+scan-main-test-no-page = Máy quét không gửi trang nào. Hãy đặt một trang vào và thử lại.
 
 # Spoken by the screen reader when the test scan has finished.
 scan-main-announce-test-done = Đã quét thử xong
@@ -32,16 +32,16 @@ scan-main-announce-test-done = Đã quét thử xong
 scan-main-announce-test-failed = Quét thử không thành công
 
 # Note under the bar when a page came back damaged and was left out.
-scan-main-note-damaged = Một trang bị hỏng và đã được bỏ qua.
+scan-main-note-damaged = Một trang bị hỏng, nên Trindle Scan đã bỏ qua trang đó.
 
-scan-save-page-unreadable = Không đọc được một trang đã quét, nên chưa lưu gì cả.
+scan-save-page-unreadable = Trindle Scan không đọc được một trang đã quét, nên chưa lưu gì cả.
 
-scan-save-page-encode = Không chuyển được một trang thành ảnh: { $why }
+scan-save-page-encode = Trindle Scan không chuyển được một trang thành ảnh: { $why }
 
 # Red words when a scan stopped part way. The first part says what went wrong, then how many pages were kept.
 scan-main-error-with-kept =
     { $words } { $n ->
-       *[other] Đã giữ lại { $n } trang.
+       *[other] { $n } trang đã nhận được vẫn còn ở đây.
     }
 
 # Note after saving a long scan as several PDF files: the folder and file name, then how many files.
@@ -57,12 +57,12 @@ scan-main-note-saved = Đã lưu vào { $path }
 scan-main-note-saved-summary = { $summary } Đã lưu vào { $path }
 
 # Red words when pages could not be saved. The reason follows.
-scan-main-error-save = Không lưu được: { $why }. Các trang vẫn còn ở đây.
+scan-main-error-save = Trindle Scan không lưu được các bản quét của bạn: { $why }. Các trang của bạn vẫn còn ở đây.
 
 # Red words when an automatic save did not work. The reason follows.
-scan-main-error-autosave = Không tự động lưu được: { $why }. Các trang vẫn còn ở đây.
+scan-main-error-autosave = Trindle Scan không tự động lưu được các bản quét của bạn: { $why }. Các trang của bạn vẫn còn ở đây.
 
-scan-main-error-crashed = Đã xảy ra lỗi bên trong chương trình và công việc bị dừng. Các trang của bạn vẫn còn ở đây.
+scan-main-error-crashed = Đã xảy ra lỗi nên Trindle Scan đã dừng. Các trang của bạn vẫn còn ở đây.
 
 # Note under the bar after pictures were added from files.
 scan-main-note-added =
@@ -75,11 +75,11 @@ scan-main-note-added-failed =
     Đã thêm { $n ->
        *[other] { $n } ảnh
     }. { $failed ->
-       *[other] Không đọc được { $failed } tệp.
+       *[other] Trindle Scan không đọc được { $failed } tệp.
     }
 
 # Red words when the folder of saved files could not be opened.
-scan-main-error-open-folder = Không mở được thư mục.
+scan-main-error-open-folder = Trindle Scan không mở được thư mục.
 
 # Note under the bar after pages from last time were brought back.
 scan-main-note-recovered =
@@ -88,18 +88,18 @@ scan-main-note-recovered =
     } từ lần trước.
 
 # Note when the front sides are done and the person must turn the stack over.
-scan-main-note-turn-over = Hãy lật chồng giấy lại và bấm Quét để quét mặt sau.
+scan-main-note-turn-over = Hãy lật chồng giấy lại, rồi bấm Quét để quét mặt sau.
 
 # Note and question on the bar after a glass scan, asking whether to scan another page.
 scan-main-note-another-page = Quét thêm trang nữa không?
 
 # Note under the bar when one run of a batch has finished.
-scan-main-note-run-done = Lượt { $n } đã xong.
+scan-main-note-run-done = Lần quét { $n } đã xong.
 
 # Summary when a batch has finished: how many runs and how many pages.
 scan-main-summary-batch =
     Đã xong cả loạt: { $runs ->
-       *[other] { $runs } lượt
+       *[other] { $runs } lần quét
     }, { $pages ->
        *[other] { $pages } trang
     }.
@@ -109,9 +109,9 @@ scan-main-error-busy-still = Máy quét vẫn đang bận. Hãy thử lại sau 
 
 # Red words while the program waits for a busy scanner, counting down.
 scan-main-error-busy-retry =
-    Máy quét đang bận. Sẽ thử lại, còn { $n ->
+    Máy quét đang bận. Trindle Scan sẽ thử lại trong { $n ->
        *[other] { $n } giây
-    }.
+    } nữa.
 
 # Note under the bar when a scan has finished.
 scan-main-note-scanned =
@@ -123,7 +123,7 @@ scan-main-note-scanned =
 scan-main-note-scanned-skipped =
     Đã quét { $n ->
        *[other] { $n } trang
-    }, bỏ qua { $blanks ->
+    } và bỏ qua { $blanks ->
        *[other] { $blanks } trang trắng
     }
 
@@ -131,7 +131,7 @@ scan-main-note-scanned-skipped =
 scan-main-part-name = { $stem } phần { $n }
 
 # Red words when retrying was stopped because the scanner was busy.
-scan-main-error-stopped-busy = Đã dừng. Máy quét đang bận.
+scan-main-error-stopped-busy = Đã dừng quét vì máy quét đang bận.
 
 # Words while an address typed by hand is being checked.
 scan-main-note-checking-address = Đang kiểm tra địa chỉ
@@ -140,10 +140,10 @@ scan-main-note-checking-address = Đang kiểm tra địa chỉ
 scan-main-filter-pictures = Ảnh
 
 # Red words when something dropped on the window gave no files. The reason follows.
-scan-main-drop-nothing = Chưa thêm gì cả: { $why }
+scan-main-drop-nothing = Trindle Scan không thêm được các tệp: { $why }
 
 # Red words when text, not a file, is dropped on the window.
-scan-main-drop-text = Ở đây chỉ thả được tệp ảnh.
+scan-main-drop-text = Ở đây bạn chỉ có thể thả tệp ảnh.
 
 # Status line: how many pages are in the list.
 scan-status-pages =
@@ -167,7 +167,7 @@ scan-status-searching = Đang tìm máy quét
 scan-status-ready = { $name } đã sẵn sàng
 
 # Status line while the chosen scanner is being asked what it can do.
-scan-status-asking = Đang hỏi { $name }
+scan-status-asking = Đang liên hệ với { $name }
 
 # Status line when no scanner is chosen.
 scan-status-none = Chưa chọn máy quét
@@ -176,13 +176,13 @@ scan-status-none = Chưa chọn máy quét
 scan-status-line = { $pages }      { $state }
 
 # Red words under the profile name box when it is empty.
-scan-profiles-error-name-empty = Hồ sơ cần có tên.
+scan-profiles-error-name-empty = Hãy đặt tên cho hồ sơ.
 
 # Red words under the profile name box when another profile has that name.
 scan-profiles-error-name-taken = Đã có hồ sơ khác dùng tên này.
 
 # Red words when a page cannot be opened in the large view.
-scan-view-error-unshown = Không hiển thị được trang đó.
+scan-view-error-unshown = Trindle Scan không hiển thị được trang đó.
 
 # Title above the large view of a page, and its spoken name.
 scan-view-page-of = Trang { $i } trên { $n }
@@ -191,7 +191,7 @@ scan-view-page-of = Trang { $i } trên { $n }
 scan-view-crop-heading = Cắt
 
 # Note under the crop heading.
-scan-view-crop-note = Cắt bớt lề theo tỷ lệ của trang. Áp dụng cho mọi trang đã chọn.
+scan-view-crop-note = Đặt mức cắt bớt ở mỗi cạnh. Thay đổi này áp dụng cho mọi trang đã chọn.
 
 # Label of the crop slider for the left edge.
 scan-view-crop-left = Trái
@@ -253,14 +253,14 @@ scan-common-choose = Chọn
 scan-common-use = Dùng
 
 # Note that changes are kept as they are made.
-scan-common-changes-save = Thay đổi được lưu ngay khi bạn thực hiện.
+scan-common-changes-save = Thay đổi của bạn được lưu ngay khi bạn làm.
 
 # Words on the bar between batch runs when the person must load the next stack.
 scan-bar-pause-empty = Hãy đặt chồng giấy tiếp theo vào, rồi bấm Tiếp tục.
 
 # Words on the bar counting down to the next batch run.
 scan-bar-pause-wait =
-    Lượt tiếp theo sau { $n ->
+    Lần quét tiếp theo sau { $n ->
        *[other] { $n } giây
     }
 
@@ -314,7 +314,7 @@ scan-bar-delete = Xóa các trang đã chọn
 scan-bar-try-again = Thử lại
 
 # Button that scans from the glass when the feeder failed.
-scan-bar-use-glass = Dùng mặt kính
+scan-bar-use-glass = Dùng mặt kính thay thế
 
 # Button that searches the network for scanners again.
 scan-bar-search-again = Tìm lại
@@ -344,11 +344,11 @@ scan-pages-recover-left =
     }
 
 # Button that brings back the pages left from the last run.
-scan-pages-recover = Khôi phục
+scan-pages-recover = Khôi phục các trang
 
 # Button that throws away the pages left from the last run.
 # SAFETY: needs a human review before it ships
-scan-pages-discard = Bỏ đi
+scan-pages-discard = Bỏ các trang đi
 
 # Label of the thumbnail size slider on the bottom bar.
 scan-pages-thumbnails = Ảnh thu nhỏ
@@ -370,13 +370,13 @@ scan-pages-open-folder = Mở thư mục
 
 # Bottom bar button that removes saved pages from the list.
 # SAFETY: needs a human review before it ships
-scan-pages-clear-saved = Xóa các trang đã lưu khỏi danh sách
+scan-pages-clear-saved = Xóa các trang đã lưu
 
 # Title of the picker (and of the system file chooser) for saving a PDF.
 scan-browse-title-save-pdf = Lưu bản quét
 
 # Title of the picker for choosing where pictures are saved.
-scan-browse-title-save-folder = Chọn thư mục để lưu ảnh
+scan-browse-title-save-folder = Thư mục lưu ảnh
 
 # Title of the picker (and of the system file chooser) for adding pictures.
 scan-browse-title-pictures = Thêm ảnh
@@ -385,10 +385,10 @@ scan-browse-title-pictures = Thêm ảnh
 scan-browse-title-profile-folder = Thư mục để lưu các bản quét
 
 # Title of the picker for the folder new profiles save into.
-scan-browse-title-settings-folder = Thư mục mà các hồ sơ mới lưu vào
+scan-browse-title-settings-folder = Thư mục mặc định cho hồ sơ mới
 
 # Title of the picker for the folder pages are kept in while the program is open.
-scan-browse-title-temp-folder = Thư mục giữ các trang khi chương trình đang mở
+scan-browse-title-temp-folder = Thư mục các trang tạm
 
 # File name that scans start with, without the ending.
 scan-browse-default-name = Scan
@@ -397,19 +397,19 @@ scan-browse-default-name = Scan
 scan-browse-error-open-first-new = Hãy mở một thư mục của bạn trước, rồi tạo thư mục mới bên trong đó.
 
 # Red words in the picker when a new folder name is not plain.
-scan-browse-error-folder-name = Hãy đặt tên thư mục đơn giản, không có dấu gạch chéo và không bắt đầu bằng dấu chấm.
+scan-browse-error-folder-name = Tên thư mục không được chứa dấu gạch chéo hoặc bắt đầu bằng dấu chấm.
 
 # Red words in the picker when a folder could not be made. The reason follows.
-scan-browse-error-make-folder = Không tạo được thư mục: { $why }
+scan-browse-error-make-folder = Trindle Scan không tạo được thư mục: { $why }
 
 # Red words in the picker when Add is pressed with no pictures chosen.
-scan-browse-error-no-pictures = Hãy bấm vào các ảnh bạn muốn, rồi thêm chúng.
+scan-browse-error-no-pictures = Hãy chọn các ảnh bạn muốn, rồi thêm chúng.
 
 # Red words in the picker when Save is pressed before a folder is open.
 scan-browse-error-open-first = Hãy mở một thư mục của bạn trước.
 
 # Red words in the picker when the file name is not plain.
-scan-browse-error-file-name = Hãy đặt tên tệp đơn giản, không có dấu gạch chéo và không bắt đầu bằng dấu chấm.
+scan-browse-error-file-name = Tên tệp không được chứa dấu gạch chéo hoặc bắt đầu bằng dấu chấm.
 
 # Red words in the picker when a file with that name already exists.
 scan-browse-error-name-taken = Đã có tệp tên này. Hãy chọn tên khác.
@@ -436,7 +436,7 @@ scan-browse-empty-pictures = Ở đây không có thư mục hay ảnh nào.
 scan-browse-empty-folders = Ở đây chưa có thư mục nào.
 
 # Label above the new folder box in the picker.
-scan-browse-new-folder = Thư mục mới tại đây
+scan-browse-new-folder = Thư mục mới
 
 # Spoken name of the new folder box in the picker.
 scan-browse-new-folder-spoken = Tên thư mục mới
@@ -463,10 +463,10 @@ scan-browse-go-folder = Dùng thư mục này
 scan-shortcuts-title = Phím tắt
 
 # Keys that scan with a profile.
-scan-shortcuts-profile-keys = 1 to 9
+scan-shortcuts-profile-keys = 1 đến 9
 
 # What the profile keys do.
-scan-shortcuts-profile-what = Quét bằng hồ sơ thứ nhất đến thứ chín
+scan-shortcuts-profile-what = Quét bằng hồ sơ ở vị trí đó trong danh sách
 
 # Keys that select every page.
 scan-shortcuts-select-keys = Ctrl+A
@@ -506,31 +506,31 @@ scan-shortcuts-later-keys = Alt+Right
 scan-shortcuts-later-what = Chuyển các trang đã chọn ra sau
 
 # Keys that move between buttons and pages.
-scan-shortcuts-tab-keys = Tab and Shift+Tab
+scan-shortcuts-tab-keys = Tab và Shift+Tab
 
 # What the tab keys do.
 scan-shortcuts-tab-what = Di chuyển giữa các nút và các trang
 
 # Keys that press the focused button or choose the focused page.
-scan-shortcuts-press-keys = Space or Enter
+scan-shortcuts-press-keys = Space hoặc Enter
 
 # What the space and enter keys do.
-scan-shortcuts-press-what = Bấm nút hoặc chọn trang đang được đặt tiêu điểm
+scan-shortcuts-press-what = Bấm nút đang được làm nổi bật hoặc chọn trang đang được làm nổi bật
 
 # Note under the list of shortcuts.
-scan-shortcuts-note = Các phím để quét và chỉnh sửa trang hoạt động trên màn hình danh sách trang.
+scan-shortcuts-note = Các phím để quét và chỉnh sửa trang dùng được trên màn hình danh sách trang.
 
 # Title of the settings screen.
 scan-settings-title = Cài đặt
 
 # Label above the folder new profiles save into.
-scan-settings-folder = Thư mục mà các hồ sơ mới lưu vào
+scan-settings-folder = Thư mục mặc định cho hồ sơ mới
 
 # Words when no folder has been chosen.
 scan-settings-no-folder = Chưa chọn thư mục
 
 # Label above the default file name box.
-scan-settings-pattern = Tên tệp mà các hồ sơ mới bắt đầu bằng
+scan-settings-pattern = Tên tệp mặc định cho hồ sơ mới
 
 # Spoken name of the default file name box.
 scan-settings-pattern-spoken = Mẫu tên tệp mặc định
@@ -554,15 +554,15 @@ scan-settings-units-mm = Milimét
 scan-settings-units-in = Inch
 
 # Note showing a page size written in the chosen units.
-scan-settings-example = Ví dụ { $size }
+scan-settings-example = Ví dụ, { $size }
 
 # Label of the switch that takes saved pages out of the list.
 # SAFETY: needs a human review before it ships
-scan-settings-remove-saved = Xóa các trang đã lưu khỏi danh sách sau khi lưu
+scan-settings-remove-saved = Xóa các trang khỏi danh sách sau khi đã lưu
 
 # Spoken name of the remove saved pages switch.
 # SAFETY: needs a human review before it ships
-scan-settings-remove-saved-spoken = Xóa các trang đã lưu sau khi lưu
+scan-settings-remove-saved-spoken = Xóa các trang sau khi lưu
 
 # Heading above the PDF details.
 scan-settings-pdf-heading = Các tệp PDF đã lưu
@@ -610,34 +610,34 @@ scan-settings-pdf-password-spoken = Mật khẩu PDF
 
 # Note under the PDF password box.
 # SAFETY: needs a human review before it ships
-scan-settings-pdf-password-note = Để trống nếu không cần mật khẩu. Mật khẩu được giữ trong tệp cài đặt của bạn dưới dạng văn bản thường, nên chỉ dùng để giữ riêng tư ở mức thông thường.
+scan-settings-pdf-password-note = Để trống nếu không cần mật khẩu. Ai mở được tệp cài đặt của bạn đều đọc được mật khẩu, vì nó được lưu dưới dạng văn bản thường.
 
 # Title written in a saved PDF when the person has not typed one.
 scan-settings-pdf-default-title = Scan
 
 # Heading above the place pages are kept while open.
-scan-settings-progress-heading = Các trang đang xử lý
+scan-settings-progress-heading = Các trang tạm
 
 # Label above the folder pages are kept in while the program is open.
-scan-settings-temp = Thư mục giữ các trang khi chương trình đang mở
+scan-settings-temp = Thư mục các trang tạm
 
 # Words when the default place is used to keep pages.
-scan-settings-temp-default = Nơi mặc định
+scan-settings-temp-default = Thư mục mặc định
 
 # Note under the folder for pages in progress.
-scan-settings-temp-note = Lần khởi động chương trình sau sẽ dùng thư mục này.
+scan-settings-temp-note = Thay đổi này có hiệu lực vào lần sau bạn mở Trindle Scan.
 
 # A page size with its measurements in millimetres.
 scan-settings-size-mm = { $name }, { $w } x { $h } mm
 
 # A page size with its measurements in inches.
-scan-settings-size-in = { $name }, { $w } x { $h } in
+scan-settings-size-in = { $name }, { $w } x { $h } inch
 
 # Note when no scanner was found.
 scan-scanners-none = Không tìm thấy máy quét. Hãy kiểm tra xem nó có cùng mạng với máy tính này không, hoặc nhập địa chỉ của nó ở bên dưới.
 
 # Label above the box for a scanner address.
-scan-scanners-address = Nhập địa chỉ bằng tay
+scan-scanners-address = Địa chỉ máy quét
 
 # Spoken name of the scanner address box.
 scan-scanners-address-spoken = Địa chỉ máy quét, ví dụ 192.168.1.40
@@ -646,13 +646,13 @@ scan-scanners-address-spoken = Địa chỉ máy quét, ví dụ 192.168.1.40
 scan-scanners-add = Thêm
 
 # Note under the scanner address box.
-scan-scanners-address-note = Máy quét ở mạng khác sẽ không tự được tìm thấy. Nhập địa chỉ của nó sẽ giải quyết việc đó.
+scan-scanners-address-note = Trindle Scan không tự tìm thấy máy quét ở mạng khác. Hãy nhập địa chỉ của nó để thêm vào.
 
 # Title of the screen for making a profile.
 scan-presets-title = Tạo hồ sơ
 
 # Note on the screen for making a profile.
-scan-presets-note = Hồ sơ giữ các cài đặt quét của bạn. Hãy chọn một mẫu để bắt đầu; bạn có thể đổi sau.
+scan-presets-note = Hồ sơ lưu các cài đặt quét của bạn. Hãy chọn một mẫu để bắt đầu. Bạn có thể đổi sau.
 
 # Title of the profiles screen.
 scan-profiles-title = Hồ sơ
@@ -719,7 +719,7 @@ scan-profile-size-letter = Letter
 scan-profile-size-legal = Legal
 
 # Page size choice: the biggest the scanner can do.
-scan-profile-size-largest = Lớn nhất mà máy quét làm được
+scan-profile-size-largest = Khổ lớn nhất được hỗ trợ
 
 # File type PDF.
 scan-profile-format-pdf = PDF
@@ -734,19 +734,19 @@ scan-profile-format-png = PNG
 scan-profile-format-tiff = TIFF
 
 # Note when the scanner did not say how big its glass is.
-scan-profile-told-glass = Máy quét không cho biết mặt kính của nó lớn cỡ nào, nên mặc định dùng A4.
+scan-profile-told-glass = Máy quét không báo kích thước mặt kính của nó, nên Trindle Scan đã dùng A4.
 
 # Note when the page size was cut down to what the scanner can do.
-scan-profile-told-size = Khổ giấy lớn hơn mức máy quét làm được, nên đã dùng khổ lớn nhất.
+scan-profile-told-size = Khổ giấy quá lớn so với máy quét, nên Trindle Scan đã dùng khổ lớn nhất được hỗ trợ.
 
 # Note when the resolution was changed to one the scanner offers.
-scan-profile-told-dpi = Máy quét không có { $dpi } điểm trên mỗi inch, nên đã dùng { $near }.
+scan-profile-told-dpi = Máy quét không làm được { $dpi } điểm trên mỗi inch, nên Trindle Scan đã dùng { $near }.
 
 # Note when the scanner has no feeder and the glass was used.
-scan-profile-told-feeder = Máy quét không có khay nạp giấy, nên đã dùng mặt kính.
+scan-profile-told-feeder = Máy quét không có khay nạp giấy, nên Trindle Scan đã dùng mặt kính.
 
 # Note when the scanner cannot scan both sides in one pass.
-scan-profile-told-duplex = Máy quét không quét được cả hai mặt trong một lượt.
+scan-profile-told-duplex = Máy quét không quét được cả hai mặt cùng một lúc.
 
 # Title of the profile editor.
 scan-editor-title = Sửa hồ sơ
@@ -764,7 +764,7 @@ scan-editor-test-heading = Quét thử
 scan-editor-test-busy = Đang quét một trang thử
 
 # Note beside the Test scan button.
-scan-editor-test-note = Quét một trang với các cài đặt này. Trang đó không được thêm vào các trang của bạn.
+scan-editor-test-note = Việc này quét một trang với các cài đặt này. Trang đó không được thêm vào các trang của bạn.
 
 # Note under the test page picture.
 scan-editor-test-size = Trang thử: { $w } x { $h } điểm ảnh
@@ -791,13 +791,13 @@ scan-editor-source-manual = Khay nạp giấy, tự lật chồng giấy
 scan-editor-size = Khổ giấy
 
 # Label above the resolution choice.
-scan-editor-dpi = Độ phân giải, điểm trên mỗi inch
+scan-editor-dpi = Độ phân giải (điểm trên mỗi inch)
 
 # Spoken name of the resolution choice.
 scan-editor-dpi-spoken = Độ phân giải
 
 # Note under the resolution choice when it is high.
-scan-editor-dpi-note = Độ phân giải cao làm tệp lớn và quét chậm.
+scan-editor-dpi-note = Độ phân giải càng cao thì tệp càng lớn và quét càng chậm.
 
 # Label above the colour choice.
 scan-editor-colour = Màu sắc
@@ -815,7 +815,7 @@ scan-editor-colour-grey = Xám
 scan-editor-colour-bw = Đen trắng
 
 # Label above the black and white threshold slider.
-scan-editor-threshold = Độ tối nào được tính là đen: { $n }
+scan-editor-threshold = Ngưỡng đen trắng: { $n }
 
 # Spoken name of the threshold slider.
 scan-editor-threshold-spoken = Ngưỡng đen trắng
@@ -842,13 +842,13 @@ scan-editor-rotate = Xoay mọi trang
 scan-editor-rotate-none = Không
 
 # Spoken name of the turn choice.
-scan-editor-rotate-spoken = Góc xoay cố định, tính bằng độ
+scan-editor-rotate-spoken = Góc xoay trang, tính bằng độ
 
 # Label and spoken name of the straighten switch.
 scan-editor-straighten = Làm thẳng các trang
 
 # Label of the trim borders switch.
-scan-editor-trim = Cắt viền và phần lề thừa
+scan-editor-trim = Cắt viền và lề
 
 # Spoken name of the trim borders switch.
 scan-editor-trim-spoken = Cắt viền
@@ -869,7 +869,7 @@ scan-editor-batch-heading = Quét loạt
 scan-editor-batch-one = Một lần quét
 
 # Choice of batch mode: a set number of runs.
-scan-editor-batch-several = Nhiều lượt
+scan-editor-batch-several = Nhiều lần quét
 
 # Choice of batch mode: runs until the person stops.
 scan-editor-batch-until = Đến khi tôi dừng
@@ -878,19 +878,19 @@ scan-editor-batch-until = Đến khi tôi dừng
 scan-editor-batch-spoken = Chế độ quét loạt
 
 # Label and spoken name of the number of runs choice.
-scan-editor-runs = Số lượt
+scan-editor-runs = Số lần quét
 
 # Label above the pause between runs choice.
-scan-editor-pause = Thời gian nghỉ giữa các lượt, tính bằng giây
+scan-editor-pause = Thời gian nghỉ giữa các lần quét (giây)
 
 # Spoken name of the pause between runs choice.
-scan-editor-pause-spoken = Thời gian nghỉ giữa các lượt
+scan-editor-pause-spoken = Thời gian nghỉ giữa các lần quét
 
 # Choice of pause: wait until the person presses Continue.
 scan-editor-pause-wait = Chờ tôi
 
 # Label and spoken name of the switch that puts all runs in one file.
-scan-editor-one-file = Mọi lượt trong một tệp
+scan-editor-one-file = Mọi lần quét trong một tệp
 
 # Heading above what happens after scanning.
 scan-editor-after-heading = Sau khi quét
@@ -911,18 +911,18 @@ scan-editor-pattern-spoken = Mẫu tên tệp
 scan-editor-next-file = Tệp tiếp theo: { $name }
 
 # Note listing the parts that can be used in a file name. The parts in curly brackets are typed as they are.
-scan-editor-parts = Các phần bạn có thể dùng: { $parts }. Dấu / tạo một thư mục.
+scan-editor-parts = Bạn có thể dùng các phần này trong tên tệp: { $parts }. Thêm dấu / để tạo một thư mục.
 
 # Label of the switch that clears the pages from the list after saving.
 # SAFETY: needs a human review before it ships
-scan-editor-clear-after = Xóa các trang khỏi danh sách sau đó
+scan-editor-clear-after = Xóa các trang khỏi danh sách sau khi lưu
 
 # Spoken name of the clear pages switch.
 # SAFETY: needs a human review before it ships
 scan-editor-clear-after-spoken = Xóa các trang sau khi lưu
 
 # Red words when the scanner did not answer. The reason follows.
-scan-escl-offline = Máy quét không trả lời. { $detail }
+scan-escl-offline = Máy quét không phản hồi. { $detail }
 
 # Red words when the scanner is busy.
 scan-escl-busy = Máy quét đang bận.
@@ -931,7 +931,7 @@ scan-escl-busy = Máy quét đang bận.
 scan-escl-no-paper = Hãy đặt giấy vào khay nạp.
 
 # Red words when paper is stuck.
-scan-escl-jam = Kẹt giấy.
+scan-escl-jam = Giấy bị kẹt.
 
 # Red words when the address is not on the local network.
 scan-escl-not-private = Địa chỉ đó không nằm trong mạng nội bộ của bạn.
@@ -943,65 +943,65 @@ scan-escl-other = Máy quét gặp sự cố. { $detail }
 scan-escl-stopped = Lần quét đã bị dừng.
 
 # Reason given when the scanner's address cannot be found.
-scan-escl-detail-no-address = Không có địa chỉ.
+scan-escl-detail-no-address = Không có địa chỉ máy quét.
 
 # Reason given when the scanner answered with an error number.
-scan-escl-detail-answered = Nó trả lời bằng { $code }.
+scan-escl-detail-answered = Nó phản hồi bằng lỗi { $code }.
 
 # Reason given when the scanner did not say what it can scan.
-scan-escl-detail-no-caps = Nó không cho biết nó quét được những gì.
+scan-escl-detail-no-caps = Nó không báo nó quét được những gì.
 
 # Reason given when the scanner refused a scan, with its error number.
-scan-escl-detail-refused = Nó từ chối lần quét ({ $code }).
+scan-escl-detail-refused = Nó không bắt đầu quét được (lỗi { $code }).
 
 # Reason given when the scanner did not say where the scan job is.
-scan-escl-detail-no-job = Nó không đưa địa chỉ của tác vụ quét.
+scan-escl-detail-no-job = Máy quét không gửi bản quét.
 
 # Reason given when the scanner stopped with an error number.
-scan-escl-detail-stopped = Nó dừng lại với { $code }.
+scan-escl-detail-stopped = Nó dừng lại với lỗi { $code }.
 
 # Reason given when the scanner's answer could not be read.
-scan-escl-detail-broken = Câu trả lời bị lỗi.
+scan-escl-detail-broken = Nó gửi một phản hồi mà Trindle Scan không đọc được.
 
 # Reason: the scanner gave an address with characters this program will not send.
-scan-escl-detail-unsafe = Nó đưa ra một địa chỉ mà chương trình này sẽ không dùng.
+scan-escl-detail-unsafe = Nó gửi một địa chỉ mà Trindle Scan không thể dùng một cách an toàn.
 
 # Reason: the scanner took far too long to send its answer.
-scan-escl-detail-too-slow = Nó trả lời quá lâu.
+scan-escl-detail-too-slow = Nó phản hồi quá lâu.
 
 # Detail under a scanner in the list that is plugged into this computer.
 scan-scanners-usb = USB
 
 # Red words when a USB scanner is chosen but the computer lacks the scanner software.
-scan-sane-missing = Máy quét USB cần phần mềm máy quét (SANE) nhưng máy tính này chưa có.
+scan-sane-missing = Máy quét USB cần phần mềm máy quét SANE, nhưng máy tính này chưa cài.
 
 # Red words when the system will not let the program use the USB scanner.
 # SAFETY: needs a human review before it ships
-scan-sane-denied = Chương trình này không được phép dùng máy quét USB. Hãy cho phép "Use scanners and USB devices" cho Trindle Scan trong phần quyền của nó, rồi mở lại.
+scan-sane-denied = Trindle Scan không được phép dùng máy quét USB. Hãy bật "Use scanners and USB devices" trong phần quyền của nó, rồi mở lại.
 
 # Red words when the scanner lid is open.
 scan-sane-cover = Nắp máy quét đang mở. Hãy đóng nắp lại và thử lại.
 
 # Reason given when the USB scanner cannot be reached.
-scan-sane-io = Hãy kiểm tra máy quét đã được cắm và bật chưa. Máy quét cắm sau khi chương trình đã mở sẽ được tìm thấy khi mở lại chương trình.
+scan-sane-io = Trindle Scan không kết nối được với máy quét. Hãy kiểm tra máy quét đã được cắm và bật chưa. Nếu bạn cắm máy quét sau khi đã mở Trindle Scan, hãy đóng Trindle Scan rồi mở lại.
 
 # Red words when the scanner would not take one setting. { $what } is the scanner's own name for it.
-scan-sane-refused = Máy quét không chấp nhận cài đặt { $what } của nó, nên chưa quét gì cả.
+scan-sane-refused = Máy quét không chấp nhận cài đặt { $what }, nên chưa quét gì cả.
 
 # Red words when a USB scanner's name cannot be used.
-scan-sane-bad-device = Tên thiết bị của máy quét không dùng được.
+scan-sane-bad-device = Trindle Scan không dùng được máy quét này.
 
 # Red words when the scanner sends the picture in a form the program cannot read.
-scan-sane-frame = Máy quét gửi ảnh theo dạng mà chương trình này không đọc được.
+scan-sane-frame = Máy quét gửi ảnh theo dạng mà Trindle Scan không đọc được.
 
 # Reason given when the chosen language for reading text is not a plain language code.
-scan-ocr-bad-language = Ngôn ngữ đọc chữ đó không phải là ngôn ngữ mà chương trình biết.
+scan-ocr-bad-language = Trindle Scan không đọc được chữ bằng ngôn ngữ đó.
 
 # Reason given when reading the text of one page took too long.
 scan-ocr-too-slow = Đọc chữ trên trang này mất quá lâu.
 
 # Reason given when the text reader stopped with an error on a page.
-scan-ocr-failed = Không đọc được chữ trên trang này.
+scan-ocr-failed = Trindle Scan không đọc được chữ trên trang này.
 
 # Words on the bar while the text of the pages is read for a searchable PDF.
 scan-ocr-reading = Đang đọc chữ trên trang { $i } trên { $n }
@@ -1011,7 +1011,7 @@ scan-ocr-reading = Đang đọc chữ trên trang { $i } trên { $n }
 scan-ocr-cancelled = Đã hủy việc lưu. Các trang vẫn còn ở đây.
 
 # Note under the bar when the program that reads text is not on this computer.
-scan-ocr-missing = Việc đọc chữ cần chương trình Tesseract, nhưng máy tính này chưa có. Các trang được lưu mà không có chữ để tìm kiếm.
+scan-ocr-missing = Để đọc chữ, Trindle Scan cần Tesseract, nhưng máy tính này chưa cài. Các trang được lưu mà không có chữ để tìm kiếm.
 
 # Note under the bar when some pages could not be read for text. The page numbers follow.
 scan-ocr-unread =
@@ -1029,13 +1029,13 @@ scan-editor-searchable = Làm cho chữ có thể tìm kiếm được
 scan-editor-ocr-language = Ngôn ngữ của chữ
 
 # Label above the choice of a second language to read.
-scan-editor-ocr-second = Ngôn ngữ thứ hai, nếu các trang dùng hai ngôn ngữ
+scan-editor-ocr-second = Ngôn ngữ thứ hai (không bắt buộc)
 
 # Choice of second language: none.
 scan-editor-ocr-none = Không có
 
 # Note under the searchable text choice.
-scan-editor-ocr-note = Việc đọc chữ mất vài giây mỗi trang. Nếu không đọc được một trang, trang đó được lưu mà không có chữ.
+scan-editor-ocr-note = Việc đọc chữ mất vài giây mỗi trang. Nếu Trindle Scan không đọc được chữ trên một trang, nó sẽ lưu trang đó mà không có chữ để tìm kiếm.
 
 # Heading above the zoom buttons in the page viewer.
 scan-view-zoom-heading = Thu phóng
@@ -1051,10 +1051,10 @@ scan-view-zoom-fit = Cả trang
 scan-view-zoom-actual = Cỡ thật
 
 # Note under the zoom buttons.
-scan-view-zoom-note = Con lăn chuột cũng thu phóng được. Kéo trang để di chuyển. Các phím cộng, trừ và 0 để phóng to, thu nhỏ và xem cả trang.
+scan-view-zoom-note = Bạn cũng có thể thu phóng bằng con lăn chuột và kéo trang để di chuyển. Phím cộng và trừ để phóng to và thu nhỏ, phím 0 để xem cả trang.
 
 # Label and spoken name of the choice of shape the crop box keeps.
-scan-view-crop-shape = Hình dạng vùng cắt
+scan-view-crop-shape = Hình dạng cắt
 
 # The shapes: free, square, and width to height as 4 to 3, 3 to 2 and 16 to 9.
 scan-view-crop-shape-free = Tự do
@@ -1088,17 +1088,17 @@ scan-close-discard = Bỏ đi và đóng
 scan-close-keep = Tiếp tục làm việc
 
 # Printed in the terminal, not shown in a window, when the program is started without a desktop to draw on.
-scan-main-start-no-desktop = Trindle Scan: không có màn hình nền nào để mở cửa sổ.
+scan-main-start-no-desktop = Trindle Scan không mở được cửa sổ vì không có màn hình nền nào đang chạy.
 
-scan-main-start-no-window = Trindle Scan: màn hình nền không mở cửa sổ.
+scan-main-start-no-window = Trindle Scan không mở được cửa sổ trên màn hình nền.
 
 # Red words at start-up when the home folder is not set to a full path, so settings and profiles cannot be kept.
-scan-main-error-no-home = Thư mục chính của bạn chưa được đặt, nên lần này không thể lưu cài đặt và hồ sơ của bạn.
+scan-main-error-no-home = Trindle Scan không tìm thấy thư mục chính của bạn, nên lần này không lưu được cài đặt và hồ sơ của bạn.
 
 
 # Red words when pages could not be copied to the recovery folder, so a crash would lose them.
 scan-main-error-not-kept =
     { $n ->
-       *[other] Có { $n } trang không thể sao chép vào thư mục khôi phục, nên sự cố sẽ làm mất chúng.
+       *[other] Trindle Scan không sao chép được { $n } trang vào thư mục khôi phục. Nếu Trindle Scan bị sự cố, bạn sẽ mất các trang đó.
     }
 
