@@ -313,7 +313,7 @@ kit-toolbar = Ferramentas
 kit-more-tools = Mais ferramentas
 
 # What a screen reader calls the line at a window's foot that says how things stand.
-kit-status = Estado
+kit-status = Status
 
 # What a screen reader calls a place's path, such as a folder's.
 kit-path = Caminho

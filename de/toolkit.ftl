@@ -334,7 +334,7 @@ kit-look-group = Aussehen
 
 kit-look-shade = Hell oder dunkel
 
-kit-look-shade-help = Der Arbeitsoberfläche folgen oder immer Hell oder Dunkel verwenden.
+kit-look-shade-help = Der Arbeitsoberfläche folgen oder immer hell oder dunkel verwenden.
 
 kit-look-desktop = Wie die Arbeitsoberfläche
 
@@ -360,9 +360,9 @@ kit-key-left = Links
 
 kit-key-right = Rechts
 
-kit-key-up = Hoch
+kit-key-up = Nach oben
 
-kit-key-down = Runter
+kit-key-down = Nach unten
 
 kit-key-page-up = Bild auf
 

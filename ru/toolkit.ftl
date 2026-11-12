@@ -380,7 +380,7 @@ kit-key-end = End
 
 kit-key-enter = Enter
 
-kit-key-escape = Escape
+kit-key-escape = Esc
 
 kit-key-tab = Tab
 
