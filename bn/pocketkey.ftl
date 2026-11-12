@@ -15,11 +15,11 @@ pk-title-pair = এই ফোন যোগ করবেন?
 pk-what-polkit = একটি প্রোগ্রাম সিস্টেমের একটি সেটিং বদলাতে চাইছে।
 # The question when a phone is being added. $name is the phone's name, $code the digits both screens show.
 # SAFETY: needs a human review before it ships
-pk-pair-detail = { $name }-এ কোডটি কি { $code }?
+pk-pair-detail = { $name }-এ কি { $code } কোডটি দেখাচ্ছে?
 
 # The small print under the question. $user is the person's login name.
 # SAFETY: needs a human review before it ships
-pk-note = { $user }-এর জন্য Pocketkey দিয়ে চাওয়া হয়েছে। আপনি এটি শুরু না করলে না বেছে নিন।
+pk-note = এই অনুরোধ { $user }-এর জন্য। আপনি এটি শুরু না করলে না বেছে নিন।
 
 # The name of the round button that refuses, and the word under it.
 # SAFETY: needs a human review before it ships
@@ -31,74 +31,74 @@ pk-yes = হ্যাঁ
 # The title of the window that pairs a phone.
 pk-pairing-title = আপনার ফোন জোড়া লাগান
 # Shown while the password box is open.
-pk-pairing-waiting-password = আপনার পাসওয়ার্ডের অপেক্ষায়…
+pk-pairing-waiting-password = আপনার পাসওয়ার্ড লিখুন…
 # Under the QR code.
-pk-pairing-scan = আপনার ফোনের Pocketkey দিয়ে এটি স্ক্যান করুন। এটি তিন মিনিট কাজ করে।
+pk-pairing-scan = আপনার ফোনের Pocketkey দিয়ে এই কোডটি স্ক্যান করুন। তিন মিনিট পরে এটি আর কাজ করবে না।
 # The picture description of the QR code.
 pk-pairing-qr = আপনার ফোন জোড়া লাগানোর জন্য QR কোড
 # The question under the six numbers. $name is the phone's name.
-pk-pairing-same-numbers = { $name } কি এই একই ছয়টি সংখ্যা দেখাচ্ছে?
+pk-pairing-same-numbers = { $name } কি একই ছয়টি সংখ্যা দেখাচ্ছে?
 # The button that stops pairing.
 pk-pairing-stop = জোড়া লাগানো থামান
 # The button that closes the window once pairing has ended.
 pk-pairing-close = বন্ধ করুন
 # Shown when the phone is paired.
-pk-pairing-paired = জোড়া লেগেছে। এখন আপনার ফোন পাসওয়ার্ডের বদলে উত্তর দিতে পারে।
+pk-pairing-paired = আপনার ফোন জোড়া লেগেছে। এখন পাসওয়ার্ড লেখার বদলে ফোন দিয়ে অনুরোধ অনুমোদন করতে পারবেন।
 # Shown when the pairing helper could not start.
-pk-pairing-not-start = জোড়া লাগানো শুরু করা যায়নি।
+pk-pairing-not-start = Pocketkey জোড়া লাগানো শুরু করতে পারেনি।
 # Shown when pairing was stopped.
 pk-pairing-stopped = জোড়া লাগানো থেমে গেছে।
 # The reasons the Pocketkey service gives for a pairing that did not finish.
-pk-pairing-why-ran-out-of-time = কোডের সময় শেষ হয়ে গেছে।
-pk-pairing-why-not-confirmed = কোডগুলো নিশ্চিত করা হয়নি।
-pk-pairing-why-not-saved = জোড়া লাগানো সংরক্ষণ করা যায়নি।
-pk-pairing-why-phone-left = ফোন চলে গেছে।
-pk-pairing-why-link-failed = ফোনের সংযোগ ব্যর্থ হয়েছে।
-pk-pairing-why-bad-keys = ফোন ব্যবহারের অযোগ্য কী পাঠিয়েছে।
-pk-pairing-why-paired-to-other = এই ফোন অন্য কারও সঙ্গে জোড়া লাগানো।
-pk-pairing-why-too-many-codes = অনেকগুলো ভুল কোড।
-pk-pairing-why-newer-started = নতুন একটি জোড়া লাগানো শুরু হয়েছে।
-pk-pairing-why-switched-off = Pocketkey বন্ধ আছে।
-pk-pairing-why-root = root ফোন জোড়া লাগাতে পারে না।
-pk-pairing-why-service-stopped = Pocketkey পরিষেবা থেমে গেছে।
-pk-pairing-why-service-odd = Pocketkey পরিষেবা অপ্রত্যাশিত কিছু বলেছে।
+pk-pairing-why-ran-out-of-time = কোডের মেয়াদ শেষ হয়ে গেছে। আবার জোড়া লাগানো শুরু করুন।
+pk-pairing-why-not-confirmed = কোডগুলো মিলেছে কি না Pocketkey নিশ্চিত করতে পারেনি। আবার জোড়া লাগানো শুরু করুন।
+pk-pairing-why-not-saved = Pocketkey জোড়া লাগানো সংরক্ষণ করতে পারেনি।
+pk-pairing-why-phone-left = আপনার ফোনের সঙ্গে সংযোগ ছিঁড়ে গেছে।
+pk-pairing-why-link-failed = Pocketkey আপনার ফোনের সঙ্গে সংযুক্ত হতে পারেনি।
+pk-pairing-why-bad-keys = আপনার ফোন এমন নিরাপত্তা তথ্য পাঠিয়েছে যা Pocketkey ব্যবহার করতে পারে না।
+pk-pairing-why-paired-to-other = এই ফোন আগে থেকেই অন্য কারও সঙ্গে জোড়া লাগানো।
+pk-pairing-why-too-many-codes = অনেকবার ভুল কোড দেওয়া হয়েছে। আবার জোড়া লাগানো শুরু করুন।
+pk-pairing-why-newer-started = আরেকটি জোড়া লাগানো শুরু হওয়ায় এটি থেমে গেছে।
+pk-pairing-why-switched-off = Pocketkey বন্ধ আছে। এটি চালু করে আবার চেষ্টা করুন।
+pk-pairing-why-root = অ্যাডমিনিস্ট্রেটর অ্যাকাউন্ট root হিসেবে লগ ইন থাকলে ফোন জোড়া লাগানো যায় না।
+pk-pairing-why-service-stopped = Pocketkey চলা বন্ধ হয়ে গেছে।
+pk-pairing-why-service-odd = Pocketkey একটি অপ্রত্যাশিত উত্তর পেয়েছে।
 pk-pairing-why-other = জোড়া লাগানো শেষ হয়নি।
 
 # The words of Pocketkey's page in Plugins (packaging/plugin/pocketkey.toml).
-pk-set-switched-off = Pocketkey বন্ধ আছে। নিচে থেকে চালু করুন।
-pk-set-no-phone = এখনও কোনো ফোন জোড়া লাগানো নেই। পাসওয়ার্ডের বদলে ব্যবহার করতে একটি জোড়া লাগান।
-pk-set-password-due = আপনার পাসওয়ার্ড আবার দরকার।
-pk-set-paired-near = { $name } এর সঙ্গে জোড়া লাগানো, যা এখন কাছে আছে।
-pk-set-paired-away = { $name } এর সঙ্গে জোড়া লাগানো, যা নাগালের বাইরে।
+pk-set-switched-off = Pocketkey বন্ধ আছে।
+pk-set-no-phone = আপনি এখনও কোনো ফোন জোড়া লাগাননি। পাসওয়ার্ডের বদলে ব্যবহার করতে একটি জোড়া লাগান।
+pk-set-password-due = আপনাকে আবার পাসওয়ার্ড লিখতে হবে।
+pk-set-paired-near = আপনার ফোন, { $name }, জোড়া লাগানো আছে এবং কাছে আছে।
+pk-set-paired-away = আপনার ফোন, { $name }, জোড়া লাগানো আছে কিন্তু নাগালের বাইরে।
 pk-set-on = পাসওয়ার্ডের বদলে আমার ফোন ব্যবহার করুন
 pk-set-pair = আপনার ফোন জোড়া লাগান
 pk-set-lock-after = এর পরে পর্দা তালাবদ্ধ করুন
-pk-set-lock-after-sub = আপনার ফোন নাগালের বাইরে যাওয়ার পর।
+pk-set-lock-after-sub = আপনার ফোন এত সময় নাগালের বাইরে থাকলে পর্দা তালাবদ্ধ হয়।
 pk-set-10-seconds = ১০ সেকেন্ড
 pk-set-30-seconds = ৩০ সেকেন্ড
 pk-set-1-minute = ১ মিনিট
 pk-set-2-minutes = ২ মিনিট
 pk-set-5-minutes = ৫ মিনিট
-pk-set-reauth = এর পরে আবার পাসওয়ার্ড চান
-pk-set-reauth-sub = এখানে শেষবার পাসওয়ার্ড লেখার সময় থেকে গোনা হয়।
+pk-set-reauth = এর পরে আমার পাসওয়ার্ড আবার চান
+pk-set-reauth-sub = এই কম্পিউটারে শেষবার পাসওয়ার্ড লেখার সময় থেকে সময় গোনা হয়।
 pk-set-never = কখনো না
 pk-set-30-minutes = ৩০ মিনিট
 pk-set-1-hour = ১ ঘণ্টা
 pk-set-6-hours = ৬ ঘণ্টা
 pk-set-1-day = ১ দিন
 pk-set-forget = এই ফোন ভুলে যান
-pk-set-forget-sub = এটি আর এখানে আপনার হয়ে উত্তর দিতে পারবে না।
+pk-set-forget-sub = এই ফোন আর এই কম্পিউটারে অনুরোধ অনুমোদন করতে পারবে না।
 
 
 # Under those numbers: where to answer.
-pk-pairing-answer-on-screen = পূর্ণ পর্দার প্রশ্নে উত্তর দিন।
+pk-pairing-answer-on-screen = পূর্ণ পর্দায় দেখানো প্রশ্নের উত্তর দিন।
 
-pk-pairing-why-needs-password = নতুন ফোন যোগ করতে আপনার পাসওয়ার্ড লাগে, আপনার আগের ফোন নয়। এই উইন্ডো বন্ধ করুন, আবার জোড়া লাগানো শুরু করুন এবং পাসওয়ার্ড লিখুন।
+pk-pairing-why-needs-password = আরেকটি ফোন যোগ করতে আপনাকে পাসওয়ার্ড লিখতে হবে। আপনার বর্তমান ফোন এটি অনুমোদন করতে পারে না। এই উইন্ডো বন্ধ করে আবার জোড়া লাগানো শুরু করুন।
 
-pk-set-sudo = Sudo ও সিস্টেম বদল
+pk-set-sudo = অ্যাডমিনিস্ট্রেটর কমান্ড ও সিস্টেম বদল
 
-pk-set-sudo-sub = উত্তর দেওয়ার আগে ফোনকে কী করতে হবে।
+pk-set-sudo-sub = ফোন আগে আপনার আঙুলের ছাপ বা পিন চাইবে কি না বেছে নিন।
 
-pk-set-sudo-unlocked = ফোন এইমাত্র আনলক হয়েছে
+pk-set-sudo-unlocked = ফোন এইমাত্র আনলক না হলে আঙুলের ছাপ বা পিন চান
 
-pk-set-sudo-any = ফোন তালাবদ্ধ থাকলেও
+pk-set-sudo-any = কখনো চাইবেন না, ফোন তালাবদ্ধ থাকলেও

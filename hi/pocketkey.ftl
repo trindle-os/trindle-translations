@@ -15,11 +15,11 @@ pk-title-pair = यह फ़ोन जोड़ें?
 pk-what-polkit = एक प्रोग्राम सिस्टम की सेटिंग बदलना चाहता है।
 # The question when a phone is being added. $name is the phone's name, $code the digits both screens show.
 # SAFETY: needs a human review before it ships
-pk-pair-detail = क्या { $name } पर कोड { $code } है?
+pk-pair-detail = क्या { $name } पर कोड { $code } दिख रहा है?
 
 # The small print under the question. $user is the person's login name.
 # SAFETY: needs a human review before it ships
-pk-note = { $user } के लिए Pocketkey से पूछा गया। अगर आपने यह शुरू नहीं किया, तो नहीं चुनें।
+pk-note = यह अनुरोध { $user } के लिए है। अगर आपने इसे शुरू नहीं किया, तो नहीं चुनें।
 
 # The name of the round button that refuses, and the word under it.
 # SAFETY: needs a human review before it ships
@@ -31,74 +31,74 @@ pk-yes = हाँ
 # The title of the window that pairs a phone.
 pk-pairing-title = अपना फ़ोन जोड़ें
 # Shown while the password box is open.
-pk-pairing-waiting-password = आपके पासवर्ड की प्रतीक्षा है…
+pk-pairing-waiting-password = अपना पासवर्ड लिखें…
 # Under the QR code.
-pk-pairing-scan = अपने फ़ोन पर Pocketkey से इसे स्कैन करें। यह तीन मिनट तक काम करता है।
+pk-pairing-scan = अपने फ़ोन पर Pocketkey से इस कोड को स्कैन करें। तीन मिनट बाद यह काम करना बंद कर देता है।
 # The picture description of the QR code.
 pk-pairing-qr = अपना फ़ोन जोड़ने के लिए QR कोड
 # The question under the six numbers. $name is the phone's name.
-pk-pairing-same-numbers = क्या { $name } पर यही छह अंक दिख रहे हैं?
+pk-pairing-same-numbers = क्या { $name } पर वही छह अंक दिख रहे हैं?
 # The button that stops pairing.
 pk-pairing-stop = जोड़ना रोकें
 # The button that closes the window once pairing has ended.
 pk-pairing-close = बंद करें
 # Shown when the phone is paired.
-pk-pairing-paired = जोड़ दिया गया। अब आपका फ़ोन आपके पासवर्ड की जगह जवाब दे सकता है।
+pk-pairing-paired = आपका फ़ोन जुड़ गया है। अब आप पासवर्ड लिखने की जगह इससे अनुरोध मंज़ूर कर सकते हैं।
 # Shown when the pairing helper could not start.
-pk-pairing-not-start = जोड़ना शुरू नहीं हो सका।
+pk-pairing-not-start = Pocketkey जोड़ना शुरू नहीं कर सका।
 # Shown when pairing was stopped.
 pk-pairing-stopped = जोड़ना रुक गया।
 # The reasons the Pocketkey service gives for a pairing that did not finish.
-pk-pairing-why-ran-out-of-time = कोड का समय समाप्त हो गया।
-pk-pairing-why-not-confirmed = कोड की पुष्टि नहीं हुई।
-pk-pairing-why-not-saved = पेयरिंग सहेजी नहीं जा सकी।
-pk-pairing-why-phone-left = फ़ोन चला गया।
-pk-pairing-why-link-failed = फ़ोन का लिंक विफल रहा।
-pk-pairing-why-bad-keys = फ़ोन ने बेकार कुंजियाँ भेजीं।
-pk-pairing-why-paired-to-other = यह फ़ोन किसी और से पेयर है।
-pk-pairing-why-too-many-codes = बहुत सारे गलत कोड।
-pk-pairing-why-newer-started = एक नई पेयरिंग शुरू हो गई।
-pk-pairing-why-switched-off = Pocketkey बंद है।
-pk-pairing-why-root = Root फ़ोन पेयर नहीं कर सकता।
-pk-pairing-why-service-stopped = Pocketkey सेवा रुक गई।
-pk-pairing-why-service-odd = Pocketkey सेवा ने कुछ अनपेक्षित कहा।
-pk-pairing-why-other = पेयरिंग पूरी नहीं हुई।
+pk-pairing-why-ran-out-of-time = कोड की समय-सीमा खत्म हो गई। जोड़ना फिर से शुरू करें।
+pk-pairing-why-not-confirmed = Pocketkey पुष्टि नहीं कर सका कि कोड मेल खाते हैं। जोड़ना फिर से शुरू करें।
+pk-pairing-why-not-saved = Pocketkey पेयरिंग सहेज नहीं सका।
+pk-pairing-why-phone-left = आपके फ़ोन से कनेक्शन टूट गया।
+pk-pairing-why-link-failed = Pocketkey आपके फ़ोन से जुड़ नहीं सका।
+pk-pairing-why-bad-keys = आपके फ़ोन ने सुरक्षा की ऐसी जानकारी भेजी जिसका Pocketkey इस्तेमाल नहीं कर सकता।
+pk-pairing-why-paired-to-other = यह फ़ोन पहले से किसी और के साथ जुड़ा है।
+pk-pairing-why-too-many-codes = बहुत सारे गलत कोड डाले गए। जोड़ना फिर से शुरू करें।
+pk-pairing-why-newer-started = यह जोड़ना इसलिए रुक गया क्योंकि दूसरा जोड़ना शुरू हो गया।
+pk-pairing-why-switched-off = Pocketkey बंद है। इसे चालू करें, फिर दोबारा कोशिश करें।
+pk-pairing-why-root = root, यानी एडमिनिस्ट्रेटर खाते से लॉग इन रहते हुए आप फ़ोन नहीं जोड़ सकते।
+pk-pairing-why-service-stopped = Pocketkey चलना बंद हो गया।
+pk-pairing-why-service-odd = Pocketkey को अनपेक्षित जवाब मिला।
+pk-pairing-why-other = जोड़ना पूरा नहीं हुआ।
 
 # The words of Pocketkey's page in Plugins (packaging/plugin/pocketkey.toml).
-pk-set-switched-off = Pocketkey बंद है। इसे नीचे चालू करें।
-pk-set-no-phone = अभी कोई फ़ोन नहीं जुड़ा है। पासवर्ड की जगह इस्तेमाल करने के लिए एक जोड़ें।
-pk-set-password-due = आपका पासवर्ड फिर से चाहिए।
-pk-set-paired-near = { $name } से जुड़ा है, जो अभी पास में है।
-pk-set-paired-away = { $name } से जुड़ा है, जो पहुँच से बाहर है।
+pk-set-switched-off = Pocketkey बंद है।
+pk-set-no-phone = आपने अभी कोई फ़ोन नहीं जोड़ा है। पासवर्ड की जगह इस्तेमाल करने के लिए एक जोड़ें।
+pk-set-password-due = आपको फिर से पासवर्ड लिखना होगा।
+pk-set-paired-near = आपका फ़ोन, { $name }, जुड़ा है और पास में है।
+pk-set-paired-away = आपका फ़ोन, { $name }, जुड़ा है पर पहुँच से बाहर है।
 pk-set-on = पासवर्ड की जगह मेरा फ़ोन इस्तेमाल करें
 pk-set-pair = अपना फ़ोन जोड़ें
 pk-set-lock-after = स्क्रीन लॉक करें इतने समय बाद
-pk-set-lock-after-sub = जब आपका फ़ोन पहुँच से बाहर चला जाए।
+pk-set-lock-after-sub = आपका फ़ोन इतनी देर पहुँच से बाहर रहे, तो स्क्रीन लॉक हो जाती है।
 pk-set-10-seconds = 10 सेकंड
 pk-set-30-seconds = 30 सेकंड
 pk-set-1-minute = 1 मिनट
 pk-set-2-minutes = 2 मिनट
 pk-set-5-minutes = 5 मिनट
-pk-set-reauth = इतने समय बाद पासवर्ड फिर से माँगें
-pk-set-reauth-sub = यहाँ आख़िरी बार पासवर्ड डालने के समय से गिना जाता है।
+pk-set-reauth = इतने समय बाद मुझसे पासवर्ड फिर से माँगें
+pk-set-reauth-sub = समय इस कंप्यूटर पर आख़िरी बार पासवर्ड लिखने के बाद से गिना जाता है।
 pk-set-never = कभी नहीं
 pk-set-30-minutes = 30 मिनट
 pk-set-1-hour = 1 घंटा
 pk-set-6-hours = 6 घंटे
 pk-set-1-day = 1 दिन
 pk-set-forget = इस फ़ोन को भुलाएँ
-pk-set-forget-sub = यह यहाँ आपकी ओर से जवाब नहीं दे पाएगा।
+pk-set-forget-sub = यह फ़ोन इस कंप्यूटर पर अब अनुरोध मंज़ूर नहीं कर पाएगा।
 
 # Under those numbers: where to answer.
-pk-pairing-answer-on-screen = पूरी स्क्रीन पर आए सवाल का जवाब दें।
+pk-pairing-answer-on-screen = पूरी स्क्रीन पर दिखे सवाल का जवाब दें।
 
-pk-pairing-why-needs-password = फ़ोन जोड़ने के लिए आपका पासवर्ड चाहिए, आपका मौजूदा फ़ोन नहीं। यह विंडो बंद करें, जोड़ना फिर से शुरू करें और अपना पासवर्ड लिखें।
+pk-pairing-why-needs-password = दूसरा फ़ोन जोड़ने के लिए आपको अपना पासवर्ड लिखना होगा। आपका मौजूदा फ़ोन इसे मंज़ूर नहीं कर सकता। यह विंडो बंद करें और जोड़ना फिर से शुरू करें।
 
-pk-set-sudo = Sudo और सिस्टम के बदलाव
+pk-set-sudo = एडमिनिस्ट्रेटर कमांड और सिस्टम के बदलाव
 
-pk-set-sudo-sub = इन्हें जवाब देने से पहले फ़ोन को क्या करना होगा।
+pk-set-sudo-sub = चुनें कि आपका फ़ोन पहले फ़िंगरप्रिंट या PIN माँगे या नहीं।
 
-pk-set-sudo-unlocked = फ़ोन अभी-अभी अनलॉक हुआ हो
+pk-set-sudo-unlocked = फ़िंगरप्रिंट या PIN माँगें, जब तक फ़ोन अभी-अभी अनलॉक न हुआ हो
 
-pk-set-sudo-any = फ़ोन, बंद होने पर भी
+pk-set-sudo-any = कभी न माँगें, फ़ोन लॉक हो तब भी
 
