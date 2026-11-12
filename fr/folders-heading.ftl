@@ -8,4 +8,4 @@ folders-heading-name = Nom
 folders-heading-spoken = En-têtes de colonnes : { $names }
 
 # Red words under the file lines when the widths of the columns could not be saved; the reason follows.
-folders-heading-widths-not-kept = La largeur des colonnes n’a pas pu être conservée pour la prochaine fois, car { $why }.
+folders-heading-widths-not-kept = Folders n’a pas pu enregistrer la largeur des colonnes pour la prochaine fois : { $why }.

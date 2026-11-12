@@ -7,10 +7,10 @@ folders-fonts-too-large = elle est trop grande pour être affichée
 folders-fonts-unreadable = ce n'est pas une police que Folders peut lire
 
 # Red note when the person installs a font they already have.
-folders-fonts-have-it = Vous l'avez déjà.
+folders-fonts-have-it = Cette police est déjà installée.
 
 # Red note when the fonts folder could not be made; the reason follows.
-folders-fonts-install-failed = Impossible d'installer la police : { $why }.
+folders-fonts-install-failed = Folders n'a pas pu installer la police : { $why }.
 
 # Name of the fonts being installed, in the progress and done words, when more than one font is installed.
 folders-fonts-many =
@@ -24,7 +24,7 @@ folders-fonts-many =
 folders-fonts-doing = Installation de { $what }
 
 # Note when fonts have been installed; the name or count of the fonts.
-folders-fonts-done = Installation de { $what } terminée. Les applications lancées à partir de maintenant pourront l'utiliser.
+folders-fonts-done = Installation de { $what } terminée pour les applications que vous ouvrirez à partir de maintenant.
 
 # Word for what happened to fonts that could not be done, in the list of failures.
 folders-fonts-verb = installée

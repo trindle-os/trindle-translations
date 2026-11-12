@@ -2,10 +2,10 @@
 # machine translated (Bengali), not yet reviewed by a person.
 
 # Under a card's name on the Storage page: the disk the system is on.
-folders-computer-kind-system = এই কম্পিউটারের ডিস্ক
+folders-computer-kind-system = সিস্টেম ডিস্ক
 
 # Under a card's name on the Storage page: another fixed disk inside the computer.
-folders-computer-kind-inside = এই কম্পিউটারের একটি ডিস্ক
+folders-computer-kind-inside = অভ্যন্তরীণ ডিস্ক
 
 # Under a card's name on the Storage page: a USB drive that is plugged in.
 folders-computer-kind-usb = USB ড্রাইভ
@@ -32,10 +32,10 @@ folders-computer-name-on = { $drive }-এর { $name }
 folders-computer-free-of = { $all }-এর মধ্যে { $free } খালি
 
 # Under a card's bar on the Storage page when the drive is almost full; the line that follows says how much is free.
-folders-computer-almost-full = প্রায় ভরে গেছে: { $said }
+folders-computer-almost-full = প্রায় পুরোপুরি ভরে গেছে: { $said }
 
 # Under a card's bar on the Storage page when the drive is nearly full; the line that follows says how much is free.
-folders-computer-nearly-full = প্রায় ভরা: { $said }
+folders-computer-nearly-full = ভরে আসছে: { $said }
 
 # Under a card's bar on the Storage page: a locked drive whose size is not known.
 folders-computer-locked = তালাবদ্ধ
@@ -44,13 +44,13 @@ folders-computer-locked = তালাবদ্ধ
 folders-computer-locked-size = তালাবদ্ধ, { $size }
 
 # Under a card's bar on the Storage page: what a phone or tablet card invites the person to do.
-folders-computer-phone-hint = কী আছে দেখতে খুলুন
+folders-computer-phone-hint = ফাইলগুলো দেখতে খুলুন
 
 # Under a card's bar on the Storage page: a drive that is not mounted and whose size is not known.
-folders-computer-not-mounted = মাউন্ট করা নেই
+folders-computer-not-mounted = এখনও খোলা হয়নি
 
 # Under a card's bar on the Storage page: a drive that is not mounted and its size.
-folders-computer-not-mounted-size = মাউন্ট করা নেই, { $size }
+folders-computer-not-mounted-size = এখনও খোলা হয়নি, { $size }
 
 # Line at the foot of the Storage page: how many drives it holds.
 folders-computer-drive-count =
@@ -67,7 +67,7 @@ folders-computer-open = { $name } খুলুন
 folders-computer-unlock = { $name } আনলক করে খুলুন
 
 # Tip and name of the round button on a Storage card that mounts a drive and opens it.
-folders-computer-mount = { $name } মাউন্ট করে খুলুন
+folders-computer-mount = { $name } খুলুন
 
 # Tip and name of the round button on a Storage card for a network share that closes the share.
 folders-computer-close = { $name } বন্ধ করুন

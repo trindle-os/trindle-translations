@@ -2,10 +2,10 @@
 # machine translated (Vietnamese), not yet reviewed by a person.
 
 # Under a card's name on the Storage page: the disk the system is on.
-folders-computer-kind-system = Ổ đĩa của máy tính này
+folders-computer-kind-system = Ổ đĩa hệ thống
 
 # Under a card's name on the Storage page: another fixed disk inside the computer.
-folders-computer-kind-inside = Một ổ đĩa trong máy tính này
+folders-computer-kind-inside = Ổ đĩa trong
 
 # Under a card's name on the Storage page: a USB drive that is plugged in.
 folders-computer-kind-usb = Ổ USB
@@ -32,10 +32,10 @@ folders-computer-name-on = { $name } trên { $drive }
 folders-computer-free-of = Còn trống { $free } trong tổng { $all }
 
 # Under a card's bar on the Storage page when the drive is almost full; the line that follows says how much is free.
-folders-computer-almost-full = Gần đầy: { $said }
+folders-computer-almost-full = Gần như đầy hẳn: { $said }
 
 # Under a card's bar on the Storage page when the drive is nearly full; the line that follows says how much is free.
-folders-computer-nearly-full = Sắp đầy: { $said }
+folders-computer-nearly-full = Đang đầy dần: { $said }
 
 # Under a card's bar on the Storage page: a locked drive whose size is not known.
 folders-computer-locked = Đã khóa
@@ -44,13 +44,13 @@ folders-computer-locked = Đã khóa
 folders-computer-locked-size = Đã khóa, { $size }
 
 # Under a card's bar on the Storage page: what a phone or tablet card invites the person to do.
-folders-computer-phone-hint = Mở ra để xem bên trong có gì
+folders-computer-phone-hint = Mở ra để xem các tệp của nó
 
 # Under a card's bar on the Storage page: a drive that is not mounted and whose size is not known.
-folders-computer-not-mounted = Chưa gắn kết
+folders-computer-not-mounted = Chưa mở
 
 # Under a card's bar on the Storage page: a drive that is not mounted and its size.
-folders-computer-not-mounted-size = Chưa gắn kết, { $size }
+folders-computer-not-mounted-size = Chưa mở, { $size }
 
 # Line at the foot of the Storage page: how many drives it holds.
 folders-computer-drive-count =
@@ -66,7 +66,7 @@ folders-computer-open = Mở { $name }
 folders-computer-unlock = Mở khóa { $name } và mở ra
 
 # Tip and name of the round button on a Storage card that mounts a drive and opens it.
-folders-computer-mount = Gắn kết { $name } và mở ra
+folders-computer-mount = Mở { $name }
 
 # Tip and name of the round button on a Storage card for a network share that closes the share.
 folders-computer-close = Đóng { $name }

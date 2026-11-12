@@ -17,7 +17,7 @@ folders-panel-home = Dossier personnel
 folders-panel-home-under = Dossier personnel/{ $rest }
 
 # Said at the window's foot in red when the preview panel's switch or width could not be saved.
-folders-panel-keep-failed = Le panneau d’aperçu n’a pas pu être conservé pour la prochaine fois.
+folders-panel-keep-failed = Folders n’a pas pu enregistrer les réglages du panneau d’aperçu pour la prochaine fois.
 
 # Name of a fact in the preview panel: how many things a folder, archive or place holds.
 folders-panel-fact-holds = Contient
@@ -75,13 +75,13 @@ folders-panel-in-all = { $items } au total
 folders-panel-by = { $w } sur { $h }
 
 # Quiet words under the icon in the preview panel for a file whose name says one kind but whose bytes are not; what is the kind, such as PDF document.
-folders-panel-broken = Son nom indique qu’il s’agit de : { $what }, mais ce n’est pas le cas à l’intérieur.
+folders-panel-broken = Son nom indique qu’il s’agit de { $what }, mais son contenu ne correspond pas.
 
 # Quiet words under the icon in the preview panel for a picture too large to show.
 folders-panel-too-large = Cette image est trop grande pour être affichée ici.
 
 # Quiet words under the icon in the preview panel for a file that could not be read; why is the reason.
-folders-panel-read-failed = Il n’a pas pu être lu : { $why }
+folders-panel-read-failed = Folders n’a pas pu le lire : { $why }
 
 # Name at the top of the preview panel when several things are picked; count is how many.
 folders-panel-selected =
@@ -92,10 +92,10 @@ folders-panel-selected =
     }
 
 # Name read out for the edge between the panes and the preview panel.
-folders-panel-edge = Faites glisser pour élargir ou rétrécir l’aperçu, ou appuyez pour changer sa largeur par étapes
+folders-panel-edge = Largeur du panneau d’aperçu
 
 # Name read out for the picture in the preview panel; name is the file's.
-folders-panel-picture-name = Une image de { $name }
+folders-panel-picture-name = Aperçu de { $name }
 
 # Name read out for the start of a text file in the preview panel; name is the file's.
-folders-panel-text-name = Le début de { $name }
+folders-panel-text-name = Début de { $name }

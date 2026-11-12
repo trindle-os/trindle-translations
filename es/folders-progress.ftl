@@ -19,7 +19,7 @@ folders-progress-pace-wait =
 folders-progress-line = { $doing }: { $how }
 
 # The same with the words about the disk added; { $line } is the line above, { $heavy } the words about the disk.
-folders-progress-line-heavy = { $line } { $heavy }
+folders-progress-line-heavy = { $line }. { $heavy }
 
 # A speed or size in bytes; { $n } is the figure.
 folders-progress-speed-bytes = { $n } bytes
@@ -67,7 +67,6 @@ folders-progress-left-hours =
 folders-progress-more =
     { $n ->
         [one] Hay 1 tarea más en marcha
-        [many] Hay { $n } tareas más en marcha
        *[other] Hay { $n } tareas más en marcha
     }
 
@@ -85,7 +84,7 @@ folders-progress-waiting = esperando una respuesta
 folders-progress-paused = en pausa
 
 # Tip of the button on a paused piece of work's row that sets it going again.
-folders-progress-carry-on = Continuar
+folders-progress-carry-on = Reanudar
 
 # Tip of the button on a piece of work's row that pauses it.
 folders-progress-pause = Pausar
@@ -95,7 +94,7 @@ folders-progress-pause = Pausar
 folders-progress-stop = Detener
 
 # Under a file or folder in the name taken question: it is newer than the other and larger.
-folders-progress-mark-newer-larger = más reciente, más grande
+folders-progress-mark-newer-larger = más reciente y más grande
 
 # Under a file or folder in the name taken question: it is newer than the other.
 folders-progress-mark-newer = más reciente
@@ -115,7 +114,7 @@ folders-progress-taken =
     }
 
 # Heading over the file or folder that is being brought, in the name taken question.
-folders-progress-coming = El que llega
+folders-progress-coming = El nuevo
 
 # Heading over the file or folder that is already there, in the name taken question.
 folders-progress-there = El que ya está
@@ -134,7 +133,7 @@ folders-progress-replace = Reemplazar
 
 # SAFETY: needs a human review before it ships
 # Screen reader name of the Replace button for a folder in the name taken question.
-folders-progress-replace-folder-spoken = Reemplazar: la carpeta que ya está pasa a la papelera
+folders-progress-replace-folder-spoken = Reemplazar y mover a la papelera la carpeta que ya está
 
 # SAFETY: needs a human review before it ships
 # Main button of the name taken question for a folder: join the two folders.
@@ -142,11 +141,11 @@ folders-progress-merge = Combinar
 
 # SAFETY: needs a human review before it ships
 # Line over the switch in the name taken question for folders.
-folders-progress-all-folders = La misma respuesta para todas las carpetas que ya existen.
+folders-progress-all-folders = Usar esta respuesta con todas las carpetas que ya existen.
 
 # SAFETY: needs a human review before it ships
 # Line over the switch in the name taken question for files.
-folders-progress-all-files = La misma respuesta para todos los archivos que ya existen.
+folders-progress-all-files = Usar esta respuesta con todos los archivos que ya existen.
 
 # SAFETY: needs a human review before it ships
 # Name and tip of the switch in the name taken question that uses the answer for the rest.

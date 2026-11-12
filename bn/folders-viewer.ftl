@@ -1,10 +1,10 @@
 # machine translated (Bengali), not yet reviewed by a person.
 
 # Said in the preview panel and viewer in place of a video or sound when the program that plays them is missing.
-folders-viewer-no-ffmpeg = এখানে ভিডিও ও শব্দ ffmpeg দিয়ে চালানো হয়, যা এই কম্পিউটারে ইনস্টল করা নেই।
+folders-viewer-no-ffmpeg = ভিডিও ও শব্দ চালাতে Folders-এর ffmpeg লাগে, কিন্তু সেটি ইনস্টল করা নেই।
 
 # Said in the preview panel and viewer in place of a video or sound that cannot be played.
-folders-viewer-unplayable = এটি চালানো যাচ্ছে না। এটি নষ্ট হতে পারে, অথবা এমন ধরনের যা ffmpeg চালাতে পারে না।
+folders-viewer-unplayable = Folders এটি চালাতে পারছে না। এটি নষ্ট হতে পারে, অথবা এমন ফরম্যাটের যা ffmpeg চালাতে পারে না।
 
 # What a file is called when its name says it is that kind but its bytes are not, such as a cut-short one; shown in the viewer and preview panel: PDF document.
 folders-viewer-kind-pdf = PDF নথি
@@ -70,7 +70,7 @@ folders-viewer-kind-wav = WAV শব্দের ফাইল
 folders-viewer-kind-mp3 = MP3 শব্দের ফাইল
 
 # Said in the viewer and preview panel in place of a picture that could not be read.
-folders-viewer-picture-unread = এই ছবিটি পড়া যায়নি।
+folders-viewer-picture-unread = Folders এই ছবিটি পড়তে পারেনি।
 
 # Said in the viewer and preview panel in place of a file that is no longer there.
 folders-viewer-gone = এই ফাইলটি আর এখানে নেই।
@@ -80,4 +80,4 @@ folders-viewer-gone = এই ফাইলটি আর এখানে নেই
 folders-viewer-denied = এই ফাইল পড়ার অনুমতি আপনার নেই।
 
 # Said in the viewer and preview panel in place of a file that could not be read; why is the system's own reason.
-folders-viewer-read-failed = এই ফাইলটি পড়া যায়নি: { $why }।
+folders-viewer-read-failed = Folders এই ফাইলটি পড়তে পারেনি: { $why }।

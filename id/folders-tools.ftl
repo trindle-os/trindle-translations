@@ -22,10 +22,10 @@ folders-tools-case-lower = Semua huruf kecil
 folders-tools-case-upper = Semua huruf kapital
 
 # Choice in the rename window, under Letters: start each word with a capital.
-folders-tools-case-words = Tiap kata
+folders-tools-case-words = Kapitalkan tiap kata
 
 # Choice in the rename window, under Letters: start only the first word with a capital.
-folders-tools-case-first = Kata pertama
+folders-tools-case-first = Kapitalkan kata pertama
 
 # Choice in the rename window, under Ending: leave the file ending as it is.
 folders-tools-ending-keep = Biarkan
@@ -55,21 +55,21 @@ folders-tools-clash-bad = itu tidak diizinkan sebagai nama
 folders-tools-clash-long = nama itu terlalu panjang
 
 # Beside a row of the rename list that cannot be done: two files would get the same new name.
-folders-tools-clash-twice = dua berkas akan mendapat nama ini
+folders-tools-clash-twice = dua item akan mendapat nama ini
 
 # Beside a row of the rename list that cannot be done: another file already has the new name.
 folders-tools-clash-taken = sudah ada yang memakai nama ini
 
 # Beside a row of the rename list that cannot be done: the old name is not plain text, so it cannot be changed.
-folders-tools-clash-not-text = nama lamanya bukan teks biasa
+folders-tools-clash-not-text = nama lamanya memuat karakter yang tidak dapat dibaca Folders
 
 # Warning in the Wipe window about a flash disk, where old copies may stay out of reach.
 # SAFETY: needs a human review before it ships
-folders-tools-caveat-flash = Disk ini berjenis flash, bukan piringan berputar, jadi salinan lama mungkin tetap ada di bagian yang tidak dapat dijangkau Trindle.
+folders-tools-caveat-flash = Ini flash disk atau SSD, jadi salinan lama mungkin tetap ada di bagian yang tidak dapat dijangkau Folders.
 
 # Warning in the Wipe window about a filesystem that writes changes elsewhere; { $fs } is the filesystem's name.
 # SAFETY: needs a human review before it ships
-folders-tools-caveat-copy-on-write = Sistem berkas { $fs } menulis perubahan ke tempat baru, jadi data lama mungkin tetap berada di tempatnya.
+folders-tools-caveat-copy-on-write = Sistem berkas { $fs } menyimpan perubahan di tempat baru, jadi data lama mungkin masih ada.
 
 # Warning in the Wipe window about a share on another computer; { $fs } is the kind of share.
 # SAFETY: needs a human review before it ships
@@ -108,7 +108,7 @@ folders-tools-place-here = Di sini
 folders-tools-only-files-wiped = Hanya berkas yang dapat dihapus bersih.
 
 # Red notice when comparing the two panes while one of them does not show a folder.
-folders-tools-compare-need-folders = Kedua panel harus menampilkan folder untuk dibandingkan.
+folders-tools-compare-need-folders = Buka folder di setiap panel untuk membandingkannya.
 
 # Undo entry after renaming many files; { $n } is how many were renamed.
 folders-tools-rename-undo =
@@ -123,10 +123,10 @@ folders-tools-rename-done =
     }
 
 # Red notice when renaming many files fails part way; { $error } says why.
-folders-tools-rename-stopped = Penggantian nama berhenti di tengah jalan: { $error }.
+folders-tools-rename-stopped = Penggantian nama berhenti di tengah proses: { $error }.
 
 # Red words under the archive name in the Compress window when the name is empty.
-folders-tools-name-empty = Nama tidak boleh kosong.
+folders-tools-name-empty = Ketik nama untuk arsip.
 
 # Beside the ring while a search is running and the end is not known; { $done } is how many have been looked at.
 folders-tools-looked-at = { $done } diperiksa
@@ -141,7 +141,7 @@ folders-tools-listing-files = Mendaftar berkas
 folders-tools-comparing = Membandingkan
 
 # Beside the ring while two folders are compared.
-folders-tools-looking = Memeriksa
+folders-tools-looking = Membandingkan folder
 
 # Title of the Compress window; { $name } is the one thing packed, { $n } how many.
 folders-tools-compress-title =
@@ -157,7 +157,7 @@ folders-tools-pack-name-tip = Nama arsip
 folders-tools-pack-kind-tip = Jenis arsip
 
 # Note in the Compress window saying where the archive is made; { $place } is the folder.
-folders-tools-pack-made-in = Dibuat di { $place }
+folders-tools-pack-made-in = Arsip akan disimpan di { $place }
 
 # Main button of the Compress window.
 folders-tools-compress = Kompres
@@ -166,7 +166,7 @@ folders-tools-compress = Kompres
 folders-tools-extract-to = Ekstrak { $name } ke
 
 # Note in the Extract to window; { $name } is the name of the folder that is made.
-folders-tools-extract-new-folder = Folder baru bernama { $name } dibuat di sana.
+folders-tools-extract-new-folder = Berkas akan ditaruh di folder baru bernama { $name }.
 
 # Title of the Resize window; { $name } is the one picture, { $n } how many.
 folders-tools-resize-title =
@@ -179,7 +179,7 @@ folders-tools-resize-title =
 folders-tools-resize-size-tip = Ukuran baru
 
 # Note in the Resize window explaining the sizes and that copies are made.
-folders-tools-resize-note = Persentase dari ukurannya, atau jumlah piksel di sisi terpanjangnya; gambar tidak pernah diperbesar. Salinan dibuat di samping masing-masing, dinamai dengan ukuran barunya; gambar aslinya tetap seperti semula.
+folders-tools-resize-note = Ukuran adalah panjang sisi terpanjang dalam piksel. Folders hanya memperkecil gambar. Folders menyimpan setiap salinan yang diubah ukurannya di samping aslinya, dengan ukuran baru pada namanya.
 
 # Main button of the Resize window.
 folders-tools-resize = Ubah ukuran
@@ -194,13 +194,13 @@ folders-tools-wipe-title =
 
 # Warning at the top of the Wipe window.
 # SAFETY: needs a human review before it ships
-folders-tools-wipe-warning = Setiap berkas ditimpa sebelum dihapus, sehingga tidak dapat dikembalikan. Ini tidak dapat dibatalkan.
+folders-tools-wipe-warning = Folders menimpa setiap berkas sebelum menghapusnya, jadi Anda tidak dapat mengembalikannya.
 
 # Name beside the choice of how many times to write over, in the Wipe window.
 folders-tools-wipe-write-over = Timpa
 
 # Choice tip in the Wipe window: how many times each file is written over.
-folders-tools-wipe-passes-tip = Berapa kali setiap berkas ditimpa
+folders-tools-wipe-passes-tip = Berapa kali menimpa setiap berkas
 
 # Red main button of the Wipe window.
 # SAFETY: needs a human review before it ships
@@ -222,13 +222,13 @@ folders-tools-rename-where-tip = Letak nomor
 folders-tools-rename-first-number-tip = Nomor pertama
 
 # Choice tip in the rename window: what happens to the file endings.
-folders-tools-rename-ending-tip = Perlakuan pada ekstensi
+folders-tools-rename-ending-tip = Apa yang dilakukan pada ekstensi
 
 # Typing box tip in the rename window: the new ending to give every file.
 folders-tools-rename-new-ending-tip = Ekstensi baru, misalnya txt
 
 # Detail of a row in the rename list that cannot be done; { $why } says why.
-folders-tools-rename-cannot = Tidak bisa: { $why }
+folders-tools-rename-cannot = Folders tidak dapat mengganti nama ini: { $why }
 
 # Detail of a row in the rename list whose name changes; { $old } is the old name.
 folders-tools-rename-was = sebelumnya { $old }
@@ -276,7 +276,7 @@ folders-tools-rename-after-tip = Sesudah nama
 folders-tools-rename-number = Nomor
 
 # Name over the capitals choice in the rename window.
-folders-tools-rename-letters = Huruf
+folders-tools-rename-letters = Huruf kapital
 
 # Choice tip in the rename window: what happens to the capitals in the names.
 folders-tools-rename-case-tip = Huruf kapital pada nama
@@ -287,12 +287,12 @@ folders-tools-rename-ending = Ekstensi
 # Note under the rename list; { $clash } is yes when some names cannot be used, otherwise no; { $changes } of { $total } names change; { $place } is the folder.
 folders-tools-rename-summary =
     { $clash ->
-        [yes] Beberapa nama tidak dapat dipakai; lihat baris yang bertanda. Di { $place }.
-       *[no] { $changes } dari { $total } nama berubah. Di { $place }.
+        [yes] Di { $place }, beberapa nama tidak dapat dipakai. Lihat baris yang bertanda.
+       *[no] Di { $place }, { $changes } dari { $total } nama akan berubah.
     }
 
 # Main button of the rename window.
-folders-tools-rename-button = Ganti nama semuanya
+folders-tools-rename-button = Ganti nama
 
 # Name of the folder searched for duplicates when it is the home folder.
 folders-tools-home = Beranda
@@ -320,7 +320,7 @@ folders-tools-dupes-unread =
 # SAFETY: needs a human review before it ships
 folders-tools-dupes-sets =
     { $n ->
-       *[other] { $n } kelompok salinan; memindahkan salinan tambahan ke Sampah membebaskan { $size }. Salinan tambahan sudah dipilih; Ctrl dan klik memilih atau melepas satu.
+       *[other] { $n } kelompok salinan. Salinan tambahan sudah dipilih, dan memindahkannya ke Sampah membebaskan { $size }.
     }
 
 # Detail of a row in the duplicates list; { $set } is the set's number, { $size } the file's size, { $at } the folder it is in.
@@ -334,7 +334,7 @@ folders-tools-dupes-unread-left-out =
 
 # Note in the duplicates window when every copy of a set is picked.
 # SAFETY: needs a human review before it ships
-folders-tools-dupes-keep-one = Semua salinan dalam satu kelompok terpilih; sisakan setidaknya satu.
+folders-tools-dupes-keep-one = Semua salinan dalam satu kelompok terpilih. Sisakan setidaknya satu yang tidak dipilih.
 
 # Tip of the button in the duplicates window that picks the extra copies.
 folders-tools-dupes-pick-extras = Pilih salinan tambahan
@@ -344,16 +344,16 @@ folders-tools-dupes-pick-extras = Pilih salinan tambahan
 folders-tools-dupes-trash = Pindahkan ke Sampah
 
 # Title of the window that compares two files.
-folders-tools-diff-title = Bandingkan keduanya
+folders-tools-diff-title = Bandingkan dua berkas
 
 # Red words in the file compare window when it fails; { $error } says why.
-folders-tools-diff-failed = Keduanya tidak dapat dibandingkan: { $error }.
+folders-tools-diff-failed = Folders tidak dapat membandingkannya: { $error }.
 
 # Line in the file compare window when two files are the same, byte for byte.
-folders-tools-diff-same-bytes = Keduanya sama, byte demi byte.
+folders-tools-diff-same-bytes = Kedua berkas persis sama.
 
 # Line in the file compare window when one file is the start of the other; { $one } and { $other } are their sizes.
-folders-tools-diff-same-as-shorter = Keduanya sama sejauh yang lebih pendek; satu berukuran { $one } dan yang lain { $other }.
+folders-tools-diff-same-as-shorter = Keduanya sama sampai akhir yang lebih pendek. Satu berukuran { $one } dan yang lain { $other }.
 
 # Line in the file compare window for the first byte that differs; { $n } is its number.
 folders-tools-diff-from-byte = Keduanya berbeda mulai dari byte { $n }.
@@ -361,27 +361,27 @@ folders-tools-diff-from-byte = Keduanya berbeda mulai dari byte { $n }.
 # Note in the file compare window; { $n } is how many lines differ.
 folders-tools-diff-lines =
     { $n ->
-        [0] Keduanya sama.
+        [0] Kedua berkas sama.
        *[other] { $n } baris berbeda.
     }
 
 # Note in the file compare window when the files are too different to match line by line.
-folders-tools-diff-too-different = Keduanya terlalu berbeda untuk dicocokkan baris demi baris, jadi setiap baris di antara perbedaan pertama dan terakhir tampil sebagai berubah.
+folders-tools-diff-too-different = Keduanya terlalu berbeda untuk dibandingkan baris demi baris. Semua yang ada di antara perbedaan pertama dan terakhir ditampilkan sebagai berubah.
 
 # Note in the file compare window when only the start of each file is compared.
-folders-tools-diff-cut = Hanya 4 MB pertama dari masing-masing yang dibandingkan.
+folders-tools-diff-cut = Hanya 4 MB pertama dari setiap berkas yang dibandingkan.
 
 # Title of the window that compares the two panes; { $left } and { $right } are the folders' names.
 folders-tools-compare-title = Bandingkan { $left } dengan { $right }
 
 # Label of the switch in the pane compare window that reads every byte.
-folders-tools-compare-bytes = Baca setiap byte (lebih lambat)
+folders-tools-compare-bytes = Bandingkan isi (lebih lambat)
 
 # Switch tip in the pane compare window: compare the contents of each file.
 folders-tools-compare-bytes-tip = Bandingkan isi setiap berkas
 
 # Label of the switch in the pane compare window that also lists names that are the same.
-folders-tools-compare-show-same = Tampilkan yang sama
+folders-tools-compare-show-same = Tampilkan nama yang sama
 
 # Switch tip in the pane compare window: list the names that are the same too.
 folders-tools-compare-show-same-tip = Tampilkan juga nama yang sama
@@ -393,19 +393,19 @@ folders-tools-compare-stopped = Perbandingan berhenti: { $error }.
 folders-tools-compare-counts = { $left } hanya di kiri, { $right } hanya di kanan, { $different } berbeda, { $same } sama.
 
 # Line in the pane compare window when nothing differs.
-folders-tools-compare-all-same = Kedua folder berisi hal yang sama.
+folders-tools-compare-all-same = Kedua folder memiliki isi yang sama.
 
 # Tip of the button in the pane compare window that compares again.
 folders-tools-compare-again = Bandingkan lagi
 
 # Button in the pane compare window; { $n } is how many names are copied to the left folder.
 # SAFETY: needs a human review before it ships
-folders-tools-compare-copy-left = Salin { $n } yang hilang atau lebih baru ke kiri
+folders-tools-compare-copy-left = Salin { $n } item yang hilang atau lebih baru ke kiri
 
 # Button in the pane compare window; { $n } is how many names are copied to the right folder.
 # SAFETY: needs a human review before it ships
-folders-tools-compare-copy-right = Salin { $n } yang hilang atau lebih baru ke kanan
+folders-tools-compare-copy-right = Salin { $n } item yang hilang atau lebih baru ke kanan
 
 # Line in the Wipe window naming the folders that were picked too, which are not wiped.
-folders-tools-wipe-left-out = Folder tidak dihapus bersih, jadi ini dibiarkan apa adanya: { $names }.
-
+# SAFETY: needs a human review before it ships
+folders-tools-wipe-left-out = Hanya berkas yang dihapus tuntas, jadi folder ini dibiarkan apa adanya: { $names }.

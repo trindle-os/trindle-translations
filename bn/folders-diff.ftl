@@ -12,6 +12,6 @@ folders-diff-copy-right = ডান দিকের লাইনটি কপি
 # Line in the comparison standing for a run of lines that are the same in both files.
 folders-diff-same-lines =
     { $n ->
-        [one] ১টি লাইন একই
-       *[other] { $n }টি লাইন একই
+        [one] ১টি মিলে যাওয়া লাইন
+       *[other] { $n }টি মিলে যাওয়া লাইন
     }

@@ -47,38 +47,34 @@ folders-details-song-track = Pista
 folders-details-song-genre = Género
 
 # Red words in Properties when a switch could not be changed; { $error } says why.
-folders-details-change-failed = No se pudo cambiar: { $error }.
+folders-details-change-failed = Folders no pudo cambiarlo: { $error }.
 
 # Red words in Properties when a date could not be set; { $error } says why.
-folders-details-date-failed = No se pudo poner la fecha: { $error }.
+folders-details-date-failed = Folders no pudo poner la fecha: { $error }.
 
 # Red words in Properties when a song's details could not be written; { $error } says why.
-folders-details-song-failed = No se pudieron escribir los datos de la canción: { $error }.
+folders-details-song-failed = Folders no pudo escribir los datos de la canción: { $error }.
 
 # Red words in Properties when the date taken is not written in the form EXIF keeps.
-folders-details-taken-bad = La fecha de la toma debe tener este aspecto: 2026-01-02 03:04:05.
+folders-details-taken-bad = Folders no pudo leer esa fecha. Escríbela así: 2026-01-02 03:04:05.
 
 # Red words in Properties when a photo's details could not be written; { $error } says why.
-folders-details-photo-failed = No se pudieron escribir los datos de la foto: { $error }.
+folders-details-photo-failed = Folders no pudo escribir los datos de la foto: { $error }.
 
 # Name of the switch for a file that nobody may change.
 folders-details-read-only = Solo lectura
 
 # SAFETY: needs a human review before it ships
-# One line under the read only switch.
-folders-details-read-only-sub = Nadie puede cambiarlo.
 
 # Tip of the read only switch.
-folders-details-read-only-tip = Nadie puede cambiarlo
+folders-details-read-only-tip = Impedir que se cambie
 
 # Name of the switch for a file that may be run as a program.
 folders-details-runnable = Se puede ejecutar
 
-# One line under the can be run switch.
-folders-details-runnable-sub = Se puede ejecutar como programa.
 
 # Tip of the can be run switch.
-folders-details-runnable-tip = Se puede ejecutar como programa
+folders-details-runnable-tip = Permitir que se ejecute como programa
 
 # Name beside the box for when a file was last changed.
 folders-details-modified = Modificado
@@ -88,37 +84,37 @@ folders-details-modified = Modificado
 folders-details-opened = Abierto
 
 # Tip of a date box; { $name } is Modified or Opened and { $example } is a date written as it is typed.
-folders-details-date-tip = { $name }, como { $example }
+folders-details-date-tip = { $name }, por ejemplo { $example }
 
 # Heading over a song's details in Properties.
 folders-details-song = Canción
 
 # Tip of the button that writes the song's details into the song.
-folders-details-write-song = Escribir esto en la canción
+folders-details-write-song = Guardar los datos de la canción
 
 # Heading over a photo's notes in Properties.
 folders-details-photo = Foto
 
 # Tip of the box for the date a photo was taken.
-folders-details-taken-tip = Tomada, como 2026-01-02 03:04:05
+folders-details-taken-tip = Fecha de la toma, por ejemplo 2026-01-02 03:04:05
 
 # Name beside the choice of which way up a photo is shown.
 folders-details-way-up = Orientación
 
 # Tip of the choice of which way up a photo is shown.
-folders-details-way-up-tip = Hacia dónde se muestra
+folders-details-way-up-tip = Hacia dónde se muestra la foto
 
 # Name of the switch that takes out where a photo was taken.
-folders-details-drop-place = Quitar su lugar
+folders-details-drop-place = Quitar la ubicación
 
 # One line under that switch.
-folders-details-drop-place-sub = El lugar donde se tomó se omite al escribir.
+folders-details-drop-place-sub = Folders quita la ubicación al guardar los datos.
 
 # Tip of that switch.
-folders-details-drop-place-tip = Quitar dónde se tomó
+folders-details-drop-place-tip = Quitar la ubicación de la foto
 
 # Tip of the button that writes the photo's notes into the photo.
-folders-details-write-photo = Escribir esto en la foto
+folders-details-write-photo = Guardar los datos de la foto
 
 # Heading over the list of a photo's camera notes.
 folders-details-camera-notes = Datos de la cámara

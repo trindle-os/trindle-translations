@@ -16,7 +16,7 @@ folders-found-shown = Hiện { $shown } trên { $all }
 folders-found-in-folder = Trong { $folder }
 
 # Status line when one search result is picked and it sits directly in the folder searched.
-folders-found-in-root = Trong thư mục đã tìm
+folders-found-in-root = Trong thư mục bạn đã tìm
 
 # Status line when one result found by words inside files is picked and it sits below the folder searched: the folder, the line number, the line, and how many more lines match (0 for none).
 folders-found-in-folder-line =
@@ -27,18 +27,16 @@ folders-found-in-folder-line =
 
 # Status line when one result found by words inside files is picked and it sits directly in the folder searched: the line number, the line, and how many more lines match (0 for none).
 folders-found-in-root-line =
-    Trong thư mục đã tìm. Dòng { $n }: { $line }{ $more ->
+    Trong thư mục bạn đã tìm. Dòng { $n }: { $line }{ $more ->
         [0]
        *[other] { " " }(và { $more } dòng khác)
     }
 
 # Status line while a search runs and after it ends: how many were found, and when a filter is on, out of how many; while looking it says so; at the limit it says how many are shown; then how many files could not be read and how many were passed over. The variables filtered, looking, full are yes or no, most is the limit as written, unread and skipped are counts (0 for none).
 folders-found-status =
-    { $n ->
+    { $filtered ->
+        [yes] Tìm thấy { $n } trên { $all }
        *[other] Tìm thấy { $n }
-    }{ $filtered ->
-        [yes] { " " }trên { $all }
-       *[other]
     }{ $looking ->
         [yes] , vẫn đang tìm…
        *[other]

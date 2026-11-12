@@ -59,7 +59,7 @@ folders-groups-date-earlier-this-month = في وقت سابق من هذا الش
 folders-groups-date-earlier-this-year = في وقت سابق من هذه السنة
 
 # Group heading for things changed in this period, when grouping by date: Long ago.
-folders-groups-date-long-ago = منذ زمن بعيد
+folders-groups-date-long-ago = أقدم
 
 # Group heading for folders, when grouping by size.
 folders-groups-size-folders = المجلدات

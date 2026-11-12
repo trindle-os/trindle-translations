@@ -59,7 +59,7 @@ folders-groups-date-earlier-this-month = اس مہینے کے شروع میں
 folders-groups-date-earlier-this-year = اس سال کے شروع میں
 
 # Group heading for things changed in this period, when grouping by date: Long ago.
-folders-groups-date-long-ago = بہت پہلے
+folders-groups-date-long-ago = پرانی
 
 # Group heading for folders, when grouping by size.
 folders-groups-size-folders = فولڈر

@@ -20,7 +20,7 @@ folders-places-trash = Thùng rác
 folders-places-network = Mạng
 
 # Name on a tab of a search that has no words typed, only the choices beside the box.
-folders-places-found = Kết quả tìm
+folders-places-found = Kết quả tìm kiếm
 
 # Name on a tab of a search for the words typed, which are in quotes.
 folders-places-found-text = “{ $text }”
@@ -29,10 +29,10 @@ folders-places-found-text = “{ $text }”
 folders-places-found-inside = “{ $text }” trong tệp
 
 # Red words when a folder cannot be opened because the person is not allowed to.
-folders-places-unread-denied = Bạn không được phép mở thư mục này.
+folders-places-unread-denied = Bạn không có quyền mở thư mục này.
 
 # Red words when a folder cannot be opened because it is gone.
 folders-places-unread-gone = Thư mục này không còn nữa.
 
 # Red words when a folder cannot be read for any other reason.
-folders-places-unread-other = Không đọc được thư mục này.
+folders-places-unread-other = Folders không đọc được thư mục này.

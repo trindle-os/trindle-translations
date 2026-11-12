@@ -17,10 +17,10 @@ folders-panel-home = Home
 folders-panel-home-under = Home/{ $rest }
 
 # Said at the window's foot in red when the preview panel's switch or width could not be saved.
-folders-panel-keep-failed = Panel pratinjau tidak dapat disimpan untuk lain kali.
+folders-panel-keep-failed = Folders tidak dapat menyimpan pengaturan panel pratinjau untuk lain kali.
 
 # Name of a fact in the preview panel: how many things a folder, archive or place holds.
-folders-panel-fact-holds = Isi
+folders-panel-fact-holds = Berisi
 
 # Name of a fact in the preview panel: how big the thing is.
 folders-panel-fact-size = Ukuran
@@ -75,22 +75,22 @@ folders-panel-in-all = { $items } secara keseluruhan
 folders-panel-by = { $w } kali { $h }
 
 # Quiet words under the icon in the preview panel for a file whose name says one kind but whose bytes are not; what is the kind, such as PDF document.
-folders-panel-broken = Namanya menyatakan ini { $what }, tetapi isinya bukan.
+folders-panel-broken = Namanya menyatakan ini { $what }, tetapi isinya tidak cocok.
 
 # Quiet words under the icon in the preview panel for a picture too large to show.
 folders-panel-too-large = Gambar ini terlalu besar untuk ditampilkan di sini.
 
 # Quiet words under the icon in the preview panel for a file that could not be read; why is the reason.
-folders-panel-read-failed = Tidak dapat dibaca: { $why }
+folders-panel-read-failed = Folders tidak dapat membacanya: { $why }
 
 # Name at the top of the preview panel when several things are picked; count is how many.
 folders-panel-selected = { $count } dipilih
 
 # Name read out for the edge between the panes and the preview panel.
-folders-panel-edge = Seret untuk melebarkan atau menyempitkan pratinjau, atau tekan untuk mengubah lebarnya bertahap
+folders-panel-edge = Lebar panel pratinjau
 
 # Name read out for the picture in the preview panel; name is the file's.
-folders-panel-picture-name = Gambar { $name }
+folders-panel-picture-name = Pratinjau { $name }
 
 # Name read out for the start of a text file in the preview panel; name is the file's.
 folders-panel-text-name = Awal { $name }

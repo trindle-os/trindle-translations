@@ -59,7 +59,7 @@ folders-groups-date-earlier-this-month = Bu ay daha önce
 folders-groups-date-earlier-this-year = Bu yıl daha önce
 
 # Group heading for things changed in this period, when grouping by date: Long ago.
-folders-groups-date-long-ago = Çok önce
+folders-groups-date-long-ago = Daha eski
 
 # Group heading for folders, when grouping by size.
 folders-groups-size-folders = Klasörler

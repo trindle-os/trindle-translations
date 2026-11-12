@@ -58,7 +58,7 @@ folders-groups-date-earlier-this-month = এই মাসের আগে
 folders-groups-date-earlier-this-year = এই বছরের আগে
 
 # Group heading for things changed in this period, when grouping by date: Long ago.
-folders-groups-date-long-ago = অনেক আগে
+folders-groups-date-long-ago = আরও আগের
 
 # Group heading for folders, when grouping by size.
 folders-groups-size-folders = ফোল্ডার

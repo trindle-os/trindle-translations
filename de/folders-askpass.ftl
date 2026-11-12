@@ -3,7 +3,7 @@
 
 # Question shown in the password window when the connection program gave none.
 # SAFETY: needs a human review before it ships
-folders-askpass-default-question = Der Server fragt nach einem Passwort.
+folders-askpass-default-question = Gib das Passwort für diesen Server ein.
 
 # Title of the password window when a key needs its passphrase.
 # SAFETY: needs a human review before it ships

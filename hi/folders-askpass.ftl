@@ -1,7 +1,7 @@
 # machine translated (Hindi), not yet reviewed by a person.
 
 # Question shown in the password window when the connection program gave none.
-folders-askpass-default-question = सर्वर पासवर्ड माँग रहा है।
+folders-askpass-default-question = इस सर्वर का पासवर्ड लिखें।
 
 # Title of the password window when a key needs its passphrase.
 folders-askpass-title-passphrase = की का पासफ़्रेज़

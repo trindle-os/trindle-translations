@@ -5,10 +5,10 @@
 folders-found-need-inside-words = Gib zuerst die Wörter ein, die in Dateien gesucht werden sollen.
 
 # Red words when the search button is pressed with nothing to look for and no kind, size or time chosen.
-folders-found-need-something = Gib ein, wonach gesucht werden soll, oder wähle eine Art, eine Größe oder eine Zeit.
+folders-found-need-something = Gib etwas zum Suchen ein oder wähle eine Art, eine Größe oder eine Zeit.
 
 # Red words when the search button is pressed in a place that is not a folder on this computer.
-folders-found-only-here = Es können nur Ordner auf diesem Computer durchsucht werden.
+folders-found-only-here = Du kannst nur Ordner auf diesem Computer durchsuchen.
 
 # Status line when a filter or choices narrow a folder and nothing is picked: how many of all the entries are shown.
 folders-found-shown = { $shown } von { $all } angezeigt
@@ -23,7 +23,6 @@ folders-found-in-root = Im durchsuchten Ordner
 folders-found-in-folder-line =
     In { $folder }. Zeile { $n }: { $line }{ $more ->
         [0]
-        [one] { " " }(und { $more } weitere)
        *[other] { " " }(und { $more } weitere)
     }
 
@@ -31,18 +30,17 @@ folders-found-in-folder-line =
 folders-found-in-root-line =
     Im durchsuchten Ordner. Zeile { $n }: { $line }{ $more ->
         [0]
-        [one] { " " }(und { $more } weitere)
        *[other] { " " }(und { $more } weitere)
     }
 
 # Status line while a search runs and after it ends: how many were found, and when a filter is on, out of how many; while looking it says so; at the limit it says how many are shown; then how many files could not be read and how many were passed over. The variables filtered, looking, full are yes or no, most is the limit as written, unread and skipped are counts (0 for none).
 folders-found-status =
-    { $n ->
-        [one] 1 gefunden
-       *[other] { $n } gefunden
-    }{ $filtered ->
-        [yes] { " " }von { $all }
-       *[other]
+    { $filtered ->
+        [yes] { $n } von { $all } gefunden
+       *[other] { $n ->
+            [one] 1 gefunden
+           *[other] { $n } gefunden
+        }
     }{ $looking ->
         [yes] , suche noch …
        *[other]
@@ -51,11 +49,9 @@ folders-found-status =
        *[other]
     }{ $unread ->
         [0]
-        [one] . { $unread } konnten nicht gelesen werden
        *[other] . { $unread } konnten nicht gelesen werden
     }{ $skipped ->
         [0]
-        [one] . { $skipped } übersprungen, weil zu groß oder kein Text
        *[other] . { $skipped } übersprungen, weil zu groß oder kein Text
     }
 

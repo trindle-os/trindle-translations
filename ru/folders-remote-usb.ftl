@@ -1,3 +1,4 @@
+
 # machine translated (Russian), not yet reviewed by a person.
 
 # Red words when the system refused access to the phone; the variable is the device file of its USB connection.
@@ -13,7 +14,7 @@ folders-remote-usb-busy = Телефон
 folders-remote-usb-stopped = Телефон перестал отвечать.
 
 # Red words when the phone refused a request.
-folders-remote-usb-refused = Телефон отказал.
+folders-remote-usb-refused = На телефоне это не получилось.
 
 # Red words when the phone took only part of what was sent.
 folders-remote-usb-part = Телефон принял только часть отправленного.

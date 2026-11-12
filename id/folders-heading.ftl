@@ -8,4 +8,4 @@ folders-heading-name = Nama
 folders-heading-spoken = Judul kolom: { $names }
 
 # Red words under the file lines when the widths of the columns could not be saved; the reason follows.
-folders-heading-widths-not-kept = Lebar kolom tidak dapat disimpan untuk lain kali, karena { $why }.
+folders-heading-widths-not-kept = Folders tidak dapat menyimpan lebar kolom untuk lain kali: { $why }.

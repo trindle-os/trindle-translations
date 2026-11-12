@@ -59,7 +59,7 @@ folders-groups-date-earlier-this-month = 本月早些时候
 folders-groups-date-earlier-this-year = 今年早些时候
 
 # Group heading for things changed in this period, when grouping by date: Long ago.
-folders-groups-date-long-ago = 很久以前
+folders-groups-date-long-ago = 更早
 
 # Group heading for folders, when grouping by size.
 folders-groups-size-folders = 文件夹

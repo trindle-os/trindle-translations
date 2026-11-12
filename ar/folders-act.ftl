@@ -2,19 +2,19 @@
 # machine translated (Arabic), not yet reviewed by a person.
 
 # Words under the file lines when copy, cut or paste is tried on a server's files.
-folders-act-far-clip = استخدم زرَّي النسخ والنقل بين اللوحين لملفات الخادم.
+folders-act-far-clip = لا يعمل القص والنسخ واللصق مع ملفات الخادم. استخدم زرَّي النسخ والنقل بين اللوحين بدلاً من ذلك.
 
 # Words under the file lines when something is tried that would change what is inside an archive.
-folders-act-shut = لا يتغير شيء داخل الأرشيف هنا. أخرج الأشياء منه أولاً.
+folders-act-shut = لا يمكنك تغيير أي شيء داخل الأرشيف. استخرج ما تحتاج إليه أولاً.
 
 # Words on a finished job when files that another program cut were pasted: they are copied.
-folders-act-cut-elsewhere = نُسخ: قُصَّ في تطبيق آخر.
+folders-act-cut-elsewhere = قُصَّت هذه العناصر في تطبيق آخر، لذلك نسخها Folders بدلاً من نقلها.
 
 # Words under the file lines when something is picked that is already being copied or moved.
-folders-act-being-moved = يجري نسخه أو نقله بالفعل.
+folders-act-being-moved = يجري نسخ هذا أو نقله بالفعل.
 
 # Words under the file lines when a copy that is not whole yet is picked.
-folders-act-arriving = لا يزال قيد الوصول.
+folders-act-arriving = لا يزال هذا قيد النسخ إلى هنا.
 
 # Part of the question about a name already taken: a folder that holds this many things or more.
 folders-act-holds-most = 10,000 عنصر أو أكثر
@@ -132,7 +132,7 @@ folders-act-undo-compressing = التراجع عن ضغط { $what }
 folders-act-extracting = استخراج { $what }
 
 # Words under the file lines when an archive was unpacked: what, and where.
-folders-act-extracted = استُخرج { $what } في { $place }.
+folders-act-extracted = استُخرج { $what } إلى { $place }.
 
 # The word for what was tried, put in 'could not be ...' when unpacking failed.
 folders-act-verb-extracted = الاستخراج
@@ -156,7 +156,7 @@ folders-act-verb-wiped = المسح الآمن
 folders-act-taking-out = إخراج { $what }
 
 # Words under the file lines when things were taken out of an archive: what, and where to.
-folders-act-took-out = أُخرج { $what } إلى { $place }.
+folders-act-took-out = أُخرج { $what } من الأرشيف إلى { $place }.
 
 # The word for what was tried, put in 'could not be ...' when taking things out of an archive failed.
 folders-act-verb-taken-out = الإخراج
@@ -192,22 +192,22 @@ folders-act-new-folder = مجلد جديد
 folders-act-new-document = مستند جديد
 
 # Red words when a new folder or document could not be made; its name, then the reason.
-folders-act-make-failed = تعذّر إنشاء { $base }: { $why }.
+folders-act-make-failed = تعذّر على Folders إنشاء { $base }: { $why }.
 
 # Red words under a name being typed when it is empty.
-folders-act-name-empty = لا يمكن أن يكون الاسم فارغاً.
+folders-act-name-empty = اكتب اسماً.
 
 # Red words under a name being typed when it has a slash.
 folders-act-name-slash = لا يمكن أن يحتوي الاسم على شرطة مائلة.
 
 # Red words under a name being typed when it is . or ..
-folders-act-name-kept = هذا الاسم محجوز للنظام.
+folders-act-name-kept = هذا الاسم يستخدمه النظام. اختر اسماً آخر.
 
 # Red words under a name being typed when it is too long.
 folders-act-name-long = هذا الاسم طويل جداً.
 
 # Red words under the file lines when a piece of work could not be started.
-folders-act-no-start = تعذّر بدء العمل.
+folders-act-no-start = تعذّر على Folders بدء هذا العمل.
 
 # Tip of the Redo button after a step was undone; what the step was. Every undo and redo tip begins the same way.
 folders-act-redo-label = إعادة { $what }
@@ -216,44 +216,51 @@ folders-act-redo-label = إعادة { $what }
 folders-act-undo-label = التراجع عن { $what }
 
 # Words under the file lines when work was stopped before it was done.
-folders-act-stopped = توقف العمل في منتصفه.
+folders-act-stopped = أُوقف العمل قبل أن ينتهي.
 
 # Words under the file lines when work finished but some things were skipped; what was done, then how many were skipped.
-folders-act-skipped = { $done } تم تخطي { $n }.
+folders-act-skipped = { $done } { $n ->
+        [zero] لم يتخطَّ Folders أي عنصر.
+        [one] تخطى Folders عنصراً واحداً.
+        [two] تخطى Folders عنصرين.
+        [few] تخطى Folders { $n } عناصر.
+        [many] تخطى Folders { $n } عنصراً.
+       *[other] تخطى Folders { $n } عنصر.
+    }
 
 # Words under the file lines when an action needs something picked and nothing is.
-folders-act-pick-first = اختر شيئاً أولاً.
+folders-act-pick-first = حدّد شيئاً أولاً.
 
 # Words under the file lines when something already in the Trash is put there again.
-folders-act-in-trash = هذا في سلة المحذوفات بالفعل.
+folders-act-in-trash = هذا موجود في سلة المحذوفات بالفعل.
 
 # Words under the file lines when a server's files are put in the Trash.
 # SAFETY: needs a human review before it ships
-folders-act-far-trash = لا يمكن وضع ملفات الخادم في سلة المحذوفات. استخدم الحذف النهائي بدلاً من ذلك.
+folders-act-far-trash = لا يمكن وضع الملفات الموجودة على خادم في سلة المحذوفات. استخدم الحذف النهائي بدلاً من ذلك.
 
 # Words under the file lines when the copy or move button is pressed with nothing picked.
-folders-act-pick-copy-move = اختر شيئاً لنسخه أو نقله أولاً.
+folders-act-pick-copy-move = حدّد شيئاً لنسخه أو نقله أولاً.
 
 # Words under the file lines when things from an archive are sent anywhere but a folder.
-folders-act-archive-out = لا يمكن إخراج الأشياء من الأرشيف إلا إلى مجلد.
+folders-act-archive-out = لا يمكنك إخراج الأشياء من الأرشيف إلا إلى مجلد.
 
 # Words under the file lines when a copy is sent to the Trash.
-folders-act-copy-trash = لا يمكن وضع النسخ في سلة المحذوفات.
+folders-act-copy-trash = لا يمكنك نسخ الأشياء إلى سلة المحذوفات.
 
 # Words under the file lines when the copy or move button finds the other pane showing no folder.
 folders-act-other-pane = اللوح الآخر لا يعرض مجلداً.
 
 # Words under the file lines when Copy is used with nothing picked.
-folders-act-pick-copy = اختر شيئاً لنسخه أولاً.
+folders-act-pick-copy = حدّد شيئاً لنسخه أولاً.
 
 # Words under the file lines after Cut: what was cut.
-folders-act-cut-said = قُصَّ { $what }. الصقه في مجلد.
+folders-act-cut-said = قُصَّ { $what }.
 
 # Words under the file lines after Copy: what was copied.
-folders-act-copied-said = نُسخ { $what }. الصقه في مجلد.
+folders-act-copied-said = نُسخ { $what }.
 
 # Words under the file lines when Paste is used where there is no folder.
-folders-act-paste-folder = لا يمكن لصق الأشياء إلا في مجلد.
+folders-act-paste-folder = لا يمكنك اللصق إلا في مجلد.
 
 # Words under the file lines when Paste finds no files on the clipboard.
 folders-act-no-clip = لا توجد ملفات في الحافظة.
@@ -263,28 +270,28 @@ folders-act-nothing-cut = لم يُقصّ أو يُنسخ شيء.
 
 # Words under the file lines when Delete is used on the Network list.
 # SAFETY: needs a human review before it ships
-folders-act-network-delete = لا يمكن حذف الأماكن الشبكية من هنا.
+folders-act-network-delete = لا يمكنك حذف الأماكن الشبكية من هنا.
 
 # Words under the file lines when Empty the Trash is used on an empty Trash.
 folders-act-trash-empty = سلة المحذوفات فارغة بالفعل.
 
 # Words under the file lines when Put back is used with nothing picked in the Trash.
-folders-act-pick-trash = اختر شيئاً في سلة المحذوفات أولاً.
+folders-act-pick-trash = حدّد شيئاً في سلة المحذوفات أولاً.
 
 # Name given to a second, third and later new folder or document on a server: the usual name, then a number.
 folders-act-new-numbered = { $base } { $n }
 
 # Words under the file lines while a new folder or document is made on a server.
-folders-act-making = إنشاء { $name }.
+folders-act-making = إنشاء { $name }
 
 # Words under the file lines when New folder or New document is used where there is no folder.
-folders-act-make-folder-only = لا يمكن إنشاء أشياء جديدة إلا داخل مجلد.
+folders-act-make-folder-only = لا يمكنك إنشاء مجلد أو مستند جديد إلا داخل مجلد.
 
 # Tip of the Undo button after a folder, document or link was made.
 folders-act-undo-making = التراجع عن إنشاء { $name }
 
-# Red words under the file lines when folder colours and emblems could not follow things that were moved.
-folders-act-colours-lost = تعذّر أن تتبع الألوان ما نُقل.
+# Red words under the file lines when folder colours could not follow things that were moved.
+folders-act-colours-lost = تعذّر على Folders الاحتفاظ بألوان المجلدات على العناصر التي نقلها.
 
 # Words under the file lines when Redo is used and there is nothing to redo.
 folders-act-nothing-redo = لا يوجد ما يمكن إعادته.
@@ -314,7 +321,7 @@ folders-act-place-home = المجلد الرئيسي
 folders-act-place-trash = سلة المحذوفات
 
 # Words under the file lines when things are dropped somewhere that takes nothing.
-folders-act-drop-only = لا يمكن إفلات الأشياء إلا على مجلد أو على سلة المحذوفات.
+folders-act-drop-only = لا يمكنك إفلات الأشياء إلا على مجلد أو على سلة المحذوفات.
 
 # Names how many links were made, inside the words about making them.
 folders-act-links =
@@ -342,8 +349,7 @@ folders-act-links-failed =
     }
 
 # Words under the file lines when the window is closed while work waits for an answer.
-folders-act-closing-waits = بعض الأعمال تنتظر جواباً. أجب عنها، أو أوقف العمل، قبل الإغلاق.
+folders-act-closing-waits = هناك سؤال ينتظر إجابتك. أجب عنه، أو أوقف العمل، قبل أن تغلق Folders.
 
 # Words under the file lines when the window is closed while work goes on.
-folders-act-closing-busy = لا يمكن إغلاق Folders قبل انتهاء النقل. انتظر انتهاءه أو أوقفه ثم أغلق.
-
+folders-act-closing-busy = لا يمكن لـ Folders أن يُغلق أثناء تشغيل عمل. انتظر حتى ينتهي أو أوقفه، ثم أغلق Folders.

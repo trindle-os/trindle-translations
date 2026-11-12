@@ -5,13 +5,13 @@
 folders-jobs-failed-why = { $name } ({ $why })
 
 # Why a wipe left a file alone, after its name in the failed list: it has other names (hard links).
-folders-jobs-refused-names = tệp có tên khác
+folders-jobs-refused-names = nó còn được lưu dưới tên khác
 
 # Why a wipe left something alone, after its name in the failed list: it is not a plain file.
 folders-jobs-refused-not-file = không phải tệp thường
 
 # Why a wipe left a file alone, after its name in the failed list: it changed while the wipe ran.
-folders-jobs-refused-changed = tệp đã thay đổi trong lúc xoá
+folders-jobs-refused-changed = nó đã thay đổi trong lúc xóa sạch
 
 # Why a wipe left a file alone, after its name in the failed list: the disk refused.
-folders-jobs-refused-disk = ổ đĩa từ chối
+folders-jobs-refused-disk = Folders không thể xóa sạch nó

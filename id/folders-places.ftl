@@ -20,7 +20,7 @@ folders-places-trash = Tempat sampah
 folders-places-network = Jaringan
 
 # Name on a tab of a search that has no words typed, only the choices beside the box.
-folders-places-found = Hasil
+folders-places-found = Hasil pencarian
 
 # Name on a tab of a search for the words typed, which are in quotes.
 folders-places-found-text = “{ $text }”
@@ -29,10 +29,10 @@ folders-places-found-text = “{ $text }”
 folders-places-found-inside = “{ $text }” di dalam file
 
 # Red words when a folder cannot be opened because the person is not allowed to.
-folders-places-unread-denied = Anda tidak diizinkan membuka folder ini.
+folders-places-unread-denied = Anda tidak punya izin untuk membuka folder ini.
 
 # Red words when a folder cannot be opened because it is gone.
 folders-places-unread-gone = Folder ini sudah tidak ada.
 
 # Red words when a folder cannot be read for any other reason.
-folders-places-unread-other = Folder ini tidak dapat dibaca.
+folders-places-unread-other = Folders tidak dapat membaca folder ini.

@@ -14,7 +14,7 @@ folders-remote-usb-busy = Simu
 folders-remote-usb-stopped = Simu imeacha kujibu.
 
 # Red words when the phone refused a request.
-folders-remote-usb-refused = Simu ilikataa hilo.
+folders-remote-usb-refused = Hilo halikufanya kazi kwenye simu.
 
 # Red words when the phone took only part of what was sent.
 folders-remote-usb-part = Simu ilipokea sehemu tu ya kilichotumwa.

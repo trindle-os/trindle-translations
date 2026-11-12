@@ -12,6 +12,6 @@ folders-diff-copy-right = दाईं पंक्ति कॉपी करे
 # Line in the comparison standing for a run of lines that are the same in both files.
 folders-diff-same-lines =
     { $n ->
-        [one] 1 पंक्ति समान
-       *[other] { $n } पंक्तियाँ समान
+        [one] 1 पंक्ति मेल खाती है
+       *[other] { $n } पंक्तियाँ मेल खाती हैं
     }

@@ -14,7 +14,7 @@ folders-remote-usb-busy = Ponsel
 folders-remote-usb-stopped = Ponsel berhenti menjawab.
 
 # Red words when the phone refused a request.
-folders-remote-usb-refused = Ponsel menolaknya.
+folders-remote-usb-refused = Itu tidak berhasil di ponsel.
 
 # Red words when the phone took only part of what was sent.
 folders-remote-usb-part = Ponsel hanya menerima sebagian dari yang dikirim.

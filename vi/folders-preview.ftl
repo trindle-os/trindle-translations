@@ -2,37 +2,37 @@
 # machine translated (Vietnamese), not yet reviewed by a person.
 
 # Words in the quick look when a page of a PDF could not be drawn; the page number.
-folders-preview-page-failed = Không thể vẽ trang { $page }.
+folders-preview-page-failed = Folders không thể hiển thị trang { $page }.
 
 # Red notice at the foot of Folders when the rest of a long text could not be read; the reason.
-folders-preview-rest-failed = Không đọc được phần còn lại: { $why }
+folders-preview-rest-failed = Folders không đọc được phần còn lại: { $why }
 
 # Words in the quick look when a file on a server could not be fetched; the reason.
-folders-preview-fetch-failed = Không thể lấy về: { $why }
+folders-preview-fetch-failed = Folders không thể tải xuống nó: { $why }
 
 # Words in the quick look when a file's name says it is one kind but inside it is not; the kind, such as PDF or picture.
-folders-preview-broken = Tên cho biết đây là { $what }, nhưng bên trong thì không phải. Tệp có thể bị hỏng hoặc bị cắt cụt.
+folders-preview-broken = Tên cho biết đây là { $what }, nhưng nội dung bên trong không khớp. Tệp có thể bị hỏng hoặc không đầy đủ.
 
 # Words in the quick look when a picture is too large to show; the size in millions of pixels, a number.
-folders-preview-too-large-pixels = Hình này quá lớn để hiện ở đây: { $millions } triệu điểm ảnh.
+folders-preview-too-large-pixels = Hình này quá lớn để hiện ở đây. Hình có { $millions } triệu điểm ảnh.
 
 # Words in the quick look when a picture is too large to show; its size in bytes, as words such as 12.0 MB.
-folders-preview-too-large-bytes = Hình này quá lớn để hiện ở đây: { $size }.
+folders-preview-too-large-bytes = Hình này quá lớn để hiện ở đây. Dung lượng là { $size }.
 
 # Words in the quick look for a kind of file that cannot be shown.
-folders-preview-other = Không thể hiện loại tệp này ở đây. Hãy mở bằng ứng dụng của nó để xem.
+folders-preview-other = Folders không thể hiện loại tệp này. Thay vào đó, hãy mở bằng ứng dụng của nó.
 
 # Words in the quick look when a file could not be read; the reason.
-folders-preview-unread = Không đọc được: { $why }
+folders-preview-unread = Folders không đọc được nó: { $why }
 
 # Tip of the round button under a long text in the quick look that reads the next part.
-folders-preview-read-more = Đọc phần tiếp theo
+folders-preview-read-more = Hiện thêm
 
 # Line under a text in the quick look, for a name with an ending: how it is encoded, such as UTF-8.
 folders-preview-text = { $encoding }
 
 # Line under a long text in the quick look when only the first part is read: the encoding, then how much is read, as words such as 64 KB.
-folders-preview-text-so-far = { $encoding }, mới đọc { $size } đầu
+folders-preview-text-so-far = { $encoding }, hiện { $size } đầu
 
 # Line under a picture in the quick look: its width and height in pixels.
 folders-preview-picture-size = { $w } x { $h } điểm ảnh
@@ -53,16 +53,16 @@ folders-preview-page-after = Trang sau (Page Down)
 folders-preview-pdf = Tài liệu PDF
 
 # Words in the quick look while a page of a PDF is being drawn.
-folders-preview-drawing = Đang vẽ trang…
+folders-preview-drawing = Đang tải trang…
 
 # Words under a font in the quick look once it is installed.
-folders-preview-font-installed = Đã cài cho bạn: các ứng dụng khởi động từ giờ trở đi có thể dùng nó.
+folders-preview-font-installed = Đã cài cho bạn. Các ứng dụng bạn mở từ bây giờ có thể dùng nó.
 
 # Button under a font in the quick look that installs it.
-folders-preview-font-install = Cài cho bạn
+folders-preview-font-install = Cài phông chữ
 
 # Words in the quick look when a sound or video cannot be played.
-folders-preview-unplayable = Không thể phát. Tệp có thể bị hỏng, hoặc thuộc loại mà ffmpeg không phát được.
+folders-preview-unplayable = Folders không thể phát tệp này. Tệp có thể bị hỏng, hoặc thuộc định dạng mà ffmpeg không phát được.
 
 # Line under a video in the quick look: width and height in pixels.
 folders-preview-video = { $w } x { $h }
@@ -95,7 +95,7 @@ folders-preview-picture = Hình ảnh
 folders-preview-video-name = Video
 
 # Screen reader name of the sound icon drawn in the quick look.
-folders-preview-sound-name = Một âm thanh
+folders-preview-sound-name = Âm thanh
 
 # Tip of the round button in the quick look that pauses a sound or video.
 folders-preview-pause = Tạm dừng (Space)
@@ -104,7 +104,7 @@ folders-preview-pause = Tạm dừng (Space)
 folders-preview-play = Phát (Space)
 
 # Screen reader name and tip of the slider that shows how far a sound or video has played and moves it.
-folders-preview-position = Đã phát đến đâu
+folders-preview-position = Vị trí
 
 # Tip of the round button in the quick look that turns the sound back on.
 folders-preview-unmute = Bật lại âm thanh
@@ -119,7 +119,7 @@ folders-preview-volume = Âm lượng
 folders-preview-kind-text = Văn bản, { $encoding }
 
 # The same, while only the first part is read.
-folders-preview-kind-text-so-far = Văn bản, { $encoding }, mới đọc { $size } đầu
+folders-preview-kind-text-so-far = Văn bản, { $encoding }, hiện { $size } đầu
 
 # Under a video's quick look, for a name with no ending.
 folders-preview-kind-video = Video, { $w } x { $h }

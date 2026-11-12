@@ -7,13 +7,13 @@ folders-drives-name-on = { $name } на { $drive }
 folders-drives-eject = Извлечь { $name }
 
 # Red words shown when a drive is asked for while it is being opened or put away.
-folders-drives-busy = Диск сейчас меняет состояние. Откройте его снова, когда это закончится.
+folders-drives-busy = Folders ещё открывает или извлекает этот диск. Повторите попытку через минуту.
 
 # Name used in the notice about a drive when the drive has no name.
-folders-drives-the-drive = Диск
+folders-drives-the-drive = диск
 
 # Notice that a drive was put away and can be unplugged.
-folders-drives-taken-out = { $name } теперь можно отключить
+folders-drives-taken-out = Теперь можно отключить { $name }
 
 # Red words shown when a drive could not be opened; the reason follows.
 folders-drives-open-failed = Не удалось открыть { $name }: { $why }.

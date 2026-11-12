@@ -3,7 +3,7 @@
 
 # Question shown in the password window when the connection program gave none.
 # SAFETY: needs a human review before it ships
-folders-askpass-default-question = Seva inaomba nenosiri.
+folders-askpass-default-question = Andika nenosiri la seva hii.
 
 # Title of the password window when a key needs its passphrase.
 # SAFETY: needs a human review before it ships

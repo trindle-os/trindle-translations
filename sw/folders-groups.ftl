@@ -58,7 +58,7 @@ folders-groups-date-earlier-this-month = Mapema mwezi huu
 folders-groups-date-earlier-this-year = Mapema mwaka huu
 
 # Group heading for things changed in this period, when grouping by date: Long ago.
-folders-groups-date-long-ago = Zamani
+folders-groups-date-long-ago = Zamani zaidi
 
 # Group heading for folders, when grouping by size.
 folders-groups-size-folders = Folda

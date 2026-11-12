@@ -38,7 +38,7 @@ folders-tools-ending-lower = 全部小写
 folders-tools-ending-upper = 全部大写
 
 # Choice in the rename window, under Ending: give every file a new ending of the person's choice.
-folders-tools-ending-new = 新的扩展名
+folders-tools-ending-new = 新扩展名
 
 # Choice in the rename window, under Ending: take the ending off.
 folders-tools-ending-none = 不要扩展名
@@ -56,25 +56,25 @@ folders-tools-clash-bad = 不允许使用这个名称
 folders-tools-clash-long = 这个名称太长
 
 # Beside a row of the rename list that cannot be done: two files would get the same new name.
-folders-tools-clash-twice = 有两个会得到这个名称
+folders-tools-clash-twice = 有两个项目会得到这个名称
 
 # Beside a row of the rename list that cannot be done: another file already has the new name.
 folders-tools-clash-taken = 已有其他项目使用这个名称
 
 # Beside a row of the rename list that cannot be done: the old name is not plain text, so it cannot be changed.
-folders-tools-clash-not-text = 旧名称不是纯文本
+folders-tools-clash-not-text = 旧名称里有 Folders 无法读取的字符
 
 # SAFETY: needs a human review before it ships
 # Warning in the Wipe window about a flash disk, where old copies may stay out of reach.
-folders-tools-caveat-flash = 这个磁盘是闪存，不是旋转磁盘，所以旧副本可能仍保留在 Trindle 无法触及的部分中。
+folders-tools-caveat-flash = 这是闪存盘或固态硬盘（SSD），所以旧副本可能仍留在 Folders 无法触及的部分中。
 
 # SAFETY: needs a human review before it ships
 # Warning in the Wipe window about a filesystem that writes changes elsewhere; { $fs } is the filesystem's name.
-folders-tools-caveat-copy-on-write = { $fs } 文件系统会把更改写到新的位置，所以旧数据可能仍留在原处。
+folders-tools-caveat-copy-on-write = { $fs } 文件系统会把更改保存到新的位置，所以旧数据可能仍然在那里。
 
 # SAFETY: needs a human review before it ships
 # Warning in the Wipe window about a share on another computer; { $fs } is the kind of share.
-folders-tools-caveat-network = 这是另一台电脑上的 { $fs } 共享，它可能自己保留着副本。
+folders-tools-caveat-network = 这是另一台电脑上的 { $fs } 共享，它可能保留着自己的副本。
 
 # Line in the compare list for a name that is only in the left folder.
 folders-tools-row-only-left = 仅在左边
@@ -109,7 +109,7 @@ folders-tools-place-here = 此处
 folders-tools-only-files-wiped = 只能擦除文件。
 
 # Red notice when comparing the two panes while one of them does not show a folder.
-folders-tools-compare-need-folders = 两个窗格都必须显示文件夹才能比较。
+folders-tools-compare-need-folders = 请在每个窗格中打开一个文件夹，再进行比较。
 
 # Undo entry after renaming many files; { $n } is how many were renamed.
 folders-tools-rename-undo =
@@ -127,10 +127,10 @@ folders-tools-rename-done =
 folders-tools-rename-stopped = 重命名中途停止：{ $error }。
 
 # Red words under the archive name in the Compress window when the name is empty.
-folders-tools-name-empty = 名称不能为空。
+folders-tools-name-empty = 请为压缩包输入名称。
 
 # Beside the ring while a search is running and the end is not known; { $done } is how many have been looked at.
-folders-tools-looked-at = 已查看 { $done }
+folders-tools-looked-at = 已检查 { $done }
 
 # Beside the ring while a search is running and the end is known; { $done } and { $total } are sizes such as 3 MB.
 folders-tools-read-of = 已读取 { $done }，共 { $total }
@@ -142,7 +142,7 @@ folders-tools-listing-files = 正在列出文件
 folders-tools-comparing = 正在比较
 
 # Beside the ring while two folders are compared.
-folders-tools-looking = 正在查看
+folders-tools-looking = 正在比较这些文件夹
 
 # Title of the Compress window; { $name } is the one thing packed, { $n } how many.
 folders-tools-compress-title =
@@ -158,7 +158,7 @@ folders-tools-pack-name-tip = 压缩包的名称
 folders-tools-pack-kind-tip = 压缩包的类型
 
 # Note in the Compress window saying where the archive is made; { $place } is the folder.
-folders-tools-pack-made-in = 创建在 { $place }
+folders-tools-pack-made-in = 压缩包将保存到 { $place }
 
 # Main button of the Compress window.
 folders-tools-compress = 压缩
@@ -167,7 +167,7 @@ folders-tools-compress = 压缩
 folders-tools-extract-to = 将 { $name } 提取到
 
 # Note in the Extract to window; { $name } is the name of the folder that is made.
-folders-tools-extract-new-folder = 会在那里创建一个名为 { $name } 的新文件夹。
+folders-tools-extract-new-folder = 文件会放进一个名为 { $name } 的新文件夹。
 
 # Title of the Resize window; { $name } is the one picture, { $n } how many.
 folders-tools-resize-title =
@@ -180,7 +180,7 @@ folders-tools-resize-title =
 folders-tools-resize-size-tip = 新尺寸
 
 # Note in the Resize window explaining the sizes and that copies are made.
-folders-tools-resize-note = 可以按原尺寸的比例，或按较长边的像素数；图片绝不会被放大。每张图片旁边会生成一个副本，名称中带有新尺寸；图片本身保持不变。
+folders-tools-resize-note = 尺寸是指较长边的像素长度。Folders 只会缩小图片。它会把每个调整后的副本保存在原图旁边，名称中带有新尺寸。
 
 # Main button of the Resize window.
 folders-tools-resize = 调整大小
@@ -195,7 +195,7 @@ folders-tools-wipe-title =
 
 # SAFETY: needs a human review before it ships
 # Warning at the top of the Wipe window.
-folders-tools-wipe-warning = 每个文件在删除前都会被覆盖写入，所以无法找回。此操作无法撤销。
+folders-tools-wipe-warning = Folders 会在删除每个文件前先将其覆盖写入，所以无法找回。
 
 # SAFETY: needs a human review before it ships
 # Name beside the choice of how many times to write over, in the Wipe window.
@@ -231,7 +231,7 @@ folders-tools-rename-ending-tip = 如何处理扩展名
 folders-tools-rename-new-ending-tip = 新扩展名，例如 txt
 
 # Detail of a row in the rename list that cannot be done; { $why } says why.
-folders-tools-rename-cannot = 无法重命名：{ $why }
+folders-tools-rename-cannot = Folders 无法重命名此项：{ $why }
 
 # Detail of a row in the rename list whose name changes; { $old } is the old name.
 folders-tools-rename-was = 原名 { $old }
@@ -279,7 +279,7 @@ folders-tools-rename-after-tip = 名称之后
 folders-tools-rename-number = 编号
 
 # Name over the capitals choice in the rename window.
-folders-tools-rename-letters = 字母
+folders-tools-rename-letters = 大小写
 
 # Choice tip in the rename window: what happens to the capitals in the names.
 folders-tools-rename-case-tip = 名称中的大小写
@@ -290,8 +290,8 @@ folders-tools-rename-ending = 扩展名
 # Note under the rename list; { $clash } is yes when some names cannot be used, otherwise no; { $changes } of { $total } names change; { $place } is the folder.
 folders-tools-rename-summary =
     { $clash ->
-        [yes] 有些名称无法使用；请看标记的行。位于 { $place }。
-       *[no] { $total } 个名称中有 { $changes } 个会改变。位于 { $place }。
+        [yes] 在 { $place } 中，有些名称无法使用。请看标记的行。
+       *[no] 在 { $place } 中，{ $total } 个名称中有 { $changes } 个会改变。
     }
 
 # Main button of the rename window.
@@ -323,7 +323,7 @@ folders-tools-dupes-unread =
 # Note above the duplicates list; { $n } is how many sets of copies, { $size } how much the extras take.
 folders-tools-dupes-sets =
     { $n ->
-       *[other] { $n } 组副本；把多余的副本移到回收站可释放 { $size }。多余的副本已被选中；按住 Ctrl 并点击可选中或取消选中其中一个。
+       *[other] { $n } 组副本。多余的副本已被选中，把它们移到回收站可释放 { $size }。
     }
 
 # Detail of a row in the duplicates list; { $set } is the set's number, { $size } the file's size, { $at } the folder it is in.
@@ -337,7 +337,7 @@ folders-tools-dupes-unread-left-out =
 
 # SAFETY: needs a human review before it ships
 # Note in the duplicates window when every copy of a set is picked.
-folders-tools-dupes-keep-one = 一组中的每个副本都被选中了；请至少保留一个。
+folders-tools-dupes-keep-one = 一组中的每个副本都被选中了。请至少保留一个不选。
 
 # Tip of the button in the duplicates window that picks the extra copies.
 folders-tools-dupes-pick-extras = 选中多余的副本
@@ -347,16 +347,16 @@ folders-tools-dupes-pick-extras = 选中多余的副本
 folders-tools-dupes-trash = 移到回收站
 
 # Title of the window that compares two files.
-folders-tools-diff-title = 比较这两个
+folders-tools-diff-title = 比较两个文件
 
 # Red words in the file compare window when it fails; { $error } says why.
-folders-tools-diff-failed = 无法比较：{ $error }。
+folders-tools-diff-failed = Folders 无法比较它们：{ $error }。
 
 # Line in the file compare window when two files are the same, byte for byte.
-folders-tools-diff-same-bytes = 两者逐字节完全相同。
+folders-tools-diff-same-bytes = 这两个文件完全相同。
 
 # Line in the file compare window when one file is the start of the other; { $one } and { $other } are their sizes.
-folders-tools-diff-same-as-shorter = 在较短的那个所及的范围内两者相同；一个是 { $one }，另一个是 { $other }。
+folders-tools-diff-same-as-shorter = 两者在较短的那个结束之前都是相同的。一个是 { $one }，另一个是 { $other }。
 
 # Line in the file compare window for the first byte that differs; { $n } is its number.
 folders-tools-diff-from-byte = 从第 { $n } 字节起不同。
@@ -364,12 +364,12 @@ folders-tools-diff-from-byte = 从第 { $n } 字节起不同。
 # Note in the file compare window; { $n } is how many lines differ.
 folders-tools-diff-lines =
     { $n ->
-        [0] 两者相同。
+        [0] 这两个文件相同。
        *[other] 有 { $n } 行不同。
     }
 
 # Note in the file compare window when the files are too different to match line by line.
-folders-tools-diff-too-different = 两者差异太大，无法逐行匹配，所以第一处和最后一处差异之间的每一行都显示为已更改。
+folders-tools-diff-too-different = 两者差异太大，无法逐行比较。第一处和最后一处差异之间的所有内容都显示为已更改。
 
 # Note in the file compare window when only the start of each file is compared.
 folders-tools-diff-cut = 每个文件只比较前 4 MB。
@@ -378,16 +378,16 @@ folders-tools-diff-cut = 每个文件只比较前 4 MB。
 folders-tools-compare-title = 比较 { $left } 与 { $right }
 
 # Label of the switch in the pane compare window that reads every byte.
-folders-tools-compare-bytes = 读取每个字节（较慢）
+folders-tools-compare-bytes = 比较内容（较慢）
 
 # Switch tip in the pane compare window: compare the contents of each file.
 folders-tools-compare-bytes-tip = 比较每个文件的内容
 
 # Label of the switch in the pane compare window that also lists names that are the same.
-folders-tools-compare-show-same = 显示相同的项目
+folders-tools-compare-show-same = 显示名称相同的项目
 
 # Switch tip in the pane compare window: list the names that are the same too.
-folders-tools-compare-show-same-tip = 同时显示相同的名称
+folders-tools-compare-show-same-tip = 同时列出名称相同的项目
 
 # Red words in the pane compare window when it fails; { $error } says why.
 folders-tools-compare-stopped = 比较已停止：{ $error }。
@@ -409,7 +409,6 @@ folders-tools-compare-copy-left = 把 { $n } 个缺少或较新的项目复制�
 # Button in the pane compare window; { $n } is how many names are copied to the right folder.
 folders-tools-compare-copy-right = 把 { $n } 个缺少或较新的项目复制到右边
 
-
 # Line in the Wipe window naming the folders that were picked too, which are not wiped.
-folders-tools-wipe-left-out = 文件夹不会被抹除，所以这些保持原样：{ $names }。
-
+# SAFETY: needs a human review before it ships
+folders-tools-wipe-left-out = 只会擦除文件，所以这些文件夹将保持原样：{ $names }。

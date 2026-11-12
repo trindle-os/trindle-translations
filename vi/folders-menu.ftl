@@ -8,10 +8,10 @@ folders-menu-rename = Đổi tên
 folders-menu-rename-them = Đổi tên các mục
 
 # Row of Folders' right-click menu (Install font), shown when one thing is picked.
-folders-menu-install-the-font-for-you = Cài phông chữ cho bạn
+folders-menu-install-the-font-for-you = Cài phông chữ chỉ cho bạn
 
 # Row of Folders' right-click menu (Install font), shown when several things are picked.
-folders-menu-install-the-fonts-for-you = Cài các phông chữ cho bạn
+folders-menu-install-the-fonts-for-you = Cài các phông chữ chỉ cho bạn
 
 # Row of Folders' right-click menu that does: Open.
 folders-menu-open = Mở
@@ -64,7 +64,7 @@ folders-menu-new-folder = Thư mục mới
 folders-menu-new-document = Tài liệu mới
 
 # Row of Folders' right-click menu that does: Extract here.
-folders-menu-take-out-next-to-the-archive = Giải nén cạnh kho nén
+folders-menu-take-out-next-to-the-archive = Giải nén cạnh tệp nén
 
 # Row of Folders' right-click menu that does: Empty trash.
 # SAFETY: needs a human review before it ships
@@ -146,6 +146,7 @@ folders-menu-resize = Đổi kích thước
 # Row of Folders' right-click menu that does: Compare files.
 folders-menu-compare-the-two = So sánh hai tệp
 
+
 # Row of Folders' right-click menu that does: Copy here.
 folders-menu-copy-here = Sao chép vào đây
 
@@ -175,7 +176,7 @@ folders-menu-pin-to-the-ring = Ghim vào vòng tròn
 folders-menu-sub-select = Chọn
 
 # Row of Folders' right-click menu that opens a sub-menu of pack rows; the sub-menu is named for what is in it.
-folders-menu-sub-pack = Đóng gói, gửi và chia sẻ
+folders-menu-sub-pack = Nén, gửi và chia sẻ
 
 # Row of Folders' right-click menu that opens a sub-menu of picture rows; the sub-menu is named for what is in it.
 folders-menu-sub-picture = Ảnh
@@ -184,10 +185,10 @@ folders-menu-sub-picture = Ảnh
 folders-menu-sub-tools = Công cụ
 
 # Red words under the file lines when showing or hiding a column could not be saved.
-folders-menu-columns-not-saved = Không thể lưu các cột.
+folders-menu-columns-not-saved = Folders không lưu được các cột.
 
 # Red words under the file lines when Open in a new window failed.
-folders-menu-no-new-window = Không thể mở cửa sổ mới.
+folders-menu-no-new-window = Folders không thể mở cửa sổ mới.
 
 # Words under the file lines after Copy location: one thing, or the number of things whose locations were copied.
 folders-menu-copied-location =
@@ -196,17 +197,18 @@ folders-menu-copied-location =
        *[other] Đã sao chép { $n } vị trí.
     }
 
+
 # Red words under the file lines when Open as administrator failed.
-folders-menu-no-admin-window = Không thể mở Thư mục với quyền quản trị viên.
+folders-menu-no-admin-window = Folders không thể mở cửa sổ với quyền quản trị viên.
 
 # Red words under the file lines when a picture cannot be the wallpaper; the name of the picture, then the reasons.
-folders-menu-wallpaper-refused = { $name } không thể làm hình nền: { $why }.
+folders-menu-wallpaper-refused = Không thể dùng { $name } làm hình nền: { $why }.
 
 # Words under the file lines after a picture was set as the wallpaper.
 folders-menu-wallpaper-set = Giờ { $name } là hình nền.
 
 # Red words under the file lines when setting the wallpaper failed.
-folders-menu-wallpaper-failed = Không thể đặt hình nền.
+folders-menu-wallpaper-failed = Folders không thể đặt hình nền.
 
 # Name of the undo step after a link was made; shown where undo is offered.
 folders-menu-undo-link = Hoàn tác việc tạo { $name }
@@ -215,29 +217,29 @@ folders-menu-undo-link = Hoàn tác việc tạo { $name }
 folders-menu-link-made = Đã tạo { $name }.
 
 # Red words under the file lines when a link could not be made; the reason follows.
-folders-menu-link-failed = Không thể tạo liên kết: { $why }.
+folders-menu-link-failed = Folders không thể tạo liên kết: { $why }.
 
 # Words under the file lines after a folder was shared with AI programs.
 # SAFETY: needs a human review before it ships
 folders-menu-ai-shared = { $name } đã được chia sẻ với các chương trình AI.
 
 # Words under the file lines after a folder or file was taken off the ring.
-folders-menu-ring-off = Đã bỏ { $name } khỏi vòng tròn.
+folders-menu-ring-off = Đã bỏ ghim { $name } khỏi vòng tròn.
 
 # Words under the file lines after a folder or file was pinned to the ring.
-folders-menu-ring-pinned = Đã ghim { $name } vào vòng tròn. Nó hiện cùng các ứng dụng yêu thích.
+folders-menu-ring-pinned = Đã ghim { $name } vào vòng tròn, cạnh các ứng dụng yêu thích của bạn.
 
 # Words under the file lines when the thing to pin is on the ring already.
 folders-menu-ring-already = { $name } đã có trên vòng tròn.
 
 # Red words under the file lines when the ring has no room for another pin; the number is how many it holds.
-folders-menu-ring-full = Phần giữa vòng tròn chứa được { $n } mục và đã đầy. Hãy bỏ bớt một mục để có chỗ.
+folders-menu-ring-full = Vòng tròn đã đầy. Nó chứa được { $n } mục đã ghim, nên hãy bỏ ghim một mục trước.
 
 # Red words under the file lines when a name cannot be written in the ring's list of favourites.
-folders-menu-ring-unkept = Không thể giữ { $name } trên vòng tròn: tên của nó có ký tự mà danh sách không lưu được.
+folders-menu-ring-unkept = Folders không thể ghim { $name } vào vòng tròn vì tên của nó có ký tự mà Folders không lưu được ở đó.
 
 # Red words under the file lines when the ring's favourites list could not be saved.
-folders-menu-ring-not-saved = Không thể lưu danh sách yêu thích của vòng tròn.
+folders-menu-ring-not-saved = Folders không lưu được danh sách yêu thích của vòng tròn.
 
 # Name given to a new link to a file or folder; the name of the thing linked to follows.
 folders-menu-link-name = Liên kết tới { $name }

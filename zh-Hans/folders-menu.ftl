@@ -8,10 +8,10 @@ folders-menu-rename = 重命名
 folders-menu-rename-them = 重命名
 
 # Row of Folders' right-click menu (Install font), shown when one thing is picked.
-folders-menu-install-the-font-for-you = 为你安装字体
+folders-menu-install-the-font-for-you = 只为你安装字体
 
 # Row of Folders' right-click menu (Install font), shown when several things are picked.
-folders-menu-install-the-fonts-for-you = 为你安装这些字体
+folders-menu-install-the-fonts-for-you = 只为你安装这些字体
 
 # Row of Folders' right-click menu that does: Open.
 folders-menu-open = 打开
@@ -132,10 +132,10 @@ folders-menu-share-with-ai-programs = 与 AI 程序共享
 folders-menu-set-as-wallpaper = 设为壁纸
 
 # Row of Folders' right-click menu that does: Turn left.
-folders-menu-turn-left = 向左转
+folders-menu-turn-left = 向左旋转
 
 # Row of Folders' right-click menu that does: Turn right.
-folders-menu-turn-right = 向右转
+folders-menu-turn-right = 向右旋转
 
 # Row of Folders' right-click menu that does: Turn over.
 folders-menu-turn-upside-down = 上下翻转
@@ -145,6 +145,7 @@ folders-menu-resize = 调整大小
 
 # Row of Folders' right-click menu that does: Compare files.
 folders-menu-compare-the-two = 比较这两个
+
 
 # Row of Folders' right-click menu that does: Copy here.
 folders-menu-copy-here = 复制到此处
@@ -175,7 +176,7 @@ folders-menu-pin-to-the-ring = 固定到环
 folders-menu-sub-select = 选择
 
 # Row of Folders' right-click menu that opens a sub-menu of pack rows; the sub-menu is named for what is in it.
-folders-menu-sub-pack = 打包、发送和分享
+folders-menu-sub-pack = 压缩、发送和分享
 
 # Row of Folders' right-click menu that opens a sub-menu of picture rows; the sub-menu is named for what is in it.
 folders-menu-sub-picture = 图片
@@ -184,10 +185,10 @@ folders-menu-sub-picture = 图片
 folders-menu-sub-tools = 工具
 
 # Red words under the file lines when showing or hiding a column could not be saved.
-folders-menu-columns-not-saved = 无法保存各列设置。
+folders-menu-columns-not-saved = Folders 无法保存各列设置。
 
 # Red words under the file lines when Open in a new window failed.
-folders-menu-no-new-window = 无法打开新窗口。
+folders-menu-no-new-window = Folders 无法打开新窗口。
 
 # Words under the file lines after Copy location: one thing, or the number of things whose locations were copied.
 folders-menu-copied-location =
@@ -195,9 +196,10 @@ folders-menu-copied-location =
        *[other] 已复制 { $n } 个位置。
     }
 
+
 # SAFETY: needs a human review before it ships
 # Red words under the file lines when Open as administrator failed.
-folders-menu-no-admin-window = 无法以管理员身份打开“文件夹”。
+folders-menu-no-admin-window = Folders 无法以管理员身份打开窗口。
 
 # Red words under the file lines when a picture cannot be the wallpaper; the name of the picture, then the reasons.
 folders-menu-wallpaper-refused = { $name } 不能用作壁纸：{ $why }。
@@ -206,7 +208,7 @@ folders-menu-wallpaper-refused = { $name } 不能用作壁纸：{ $why }。
 folders-menu-wallpaper-set = 现在 { $name } 是壁纸了。
 
 # Red words under the file lines when setting the wallpaper failed.
-folders-menu-wallpaper-failed = 无法设置壁纸。
+folders-menu-wallpaper-failed = Folders 无法设置壁纸。
 
 # Name of the undo step after a link was made; shown where undo is offered.
 folders-menu-undo-link = 撤销创建 { $name }
@@ -215,29 +217,29 @@ folders-menu-undo-link = 撤销创建 { $name }
 folders-menu-link-made = 已创建 { $name }。
 
 # Red words under the file lines when a link could not be made; the reason follows.
-folders-menu-link-failed = 无法创建链接：{ $why }。
+folders-menu-link-failed = Folders 无法创建链接：{ $why }。
 
 # SAFETY: needs a human review before it ships
 # Words under the file lines after a folder was shared with AI programs.
 folders-menu-ai-shared = { $name } 已与 AI 程序共享。
 
 # Words under the file lines after a folder or file was taken off the ring.
-folders-menu-ring-off = 已将 { $name } 从环中取下。
+folders-menu-ring-off = 已将 { $name } 从环中取消固定。
 
 # Words under the file lines after a folder or file was pinned to the ring.
-folders-menu-ring-pinned = 已将 { $name } 固定到环。它会与常用应用一起显示。
+folders-menu-ring-pinned = 已将 { $name } 固定到环，显示在常用应用旁边。
 
 # Words under the file lines when the thing to pin is on the ring already.
 folders-menu-ring-already = { $name } 已在环中。
 
 # Red words under the file lines when the ring has no room for another pin; the number is how many it holds.
-folders-menu-ring-full = 环的中间可放 { $n } 个，已满。请取下一个以腾出位置。
+folders-menu-ring-full = 环已满，最多可固定 { $n } 个，请先取消固定一个。
 
 # Red words under the file lines when a name cannot be written in the ring's list of favourites.
-folders-menu-ring-unkept = 无法将 { $name } 保留在环中：其名称含有列表无法存放的字符。
+folders-menu-ring-unkept = Folders 无法将 { $name } 固定到环，因为其名称含有 Folders 无法在那里保存的字符。
 
 # Red words under the file lines when the ring's favourites list could not be saved.
-folders-menu-ring-not-saved = 无法保存环的常用项。
+folders-menu-ring-not-saved = Folders 无法保存环的常用项。
 
 # Name given to a new link to a file or folder; the name of the thing linked to follows.
 folders-menu-link-name = 指向 { $name } 的链接

@@ -13,10 +13,10 @@ folders-locked-password = Senha
 
 # Line under the password box before anything has been tried: says the password is not saved.
 # SAFETY: needs a human review before it ships
-folders-locked-kept-note = Guardada só enquanto este arquivo compactado está aberto, nunca salva.
+folders-locked-kept-note = O Folders a esquece quando o arquivo compactado é fechado.
 
 # Words beside the spinning ring on the password card while a password is being tried.
-folders-locked-trying = Tentando
+folders-locked-trying = Testando a senha
 
 # Title of the password card; the variable is the archive's name.
 # SAFETY: needs a human review before it ships
@@ -34,5 +34,5 @@ folders-locked-is-locked = { $name } está protegido por senha.
 folders-locked-open-again = { $name } está protegido por senha. Abra de novo para digitá-la.
 
 # Notice shown when a locked archive cannot be read whatever the password; the variables are the archive's name and the reason.
-folders-locked-could-not-read = Não foi possível ler { $name }: { $why }.
+folders-locked-could-not-read = O Folders não conseguiu ler { $name }: { $why }.
 

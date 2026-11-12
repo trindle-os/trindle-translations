@@ -2,37 +2,37 @@
 # machine translated (Arabic), not yet reviewed by a person.
 
 # Words in the quick look when a page of a PDF could not be drawn; the page number.
-folders-preview-page-failed = تعذّر رسم الصفحة { $page }.
+folders-preview-page-failed = تعذّر على Folders عرض الصفحة { $page }.
 
 # Red notice at the foot of Folders when the rest of a long text could not be read; the reason.
-folders-preview-rest-failed = تعذّرت قراءة الباقي: { $why }
+folders-preview-rest-failed = تعذّر على Folders قراءة بقية الملف: { $why }
 
 # Words in the quick look when a file on a server could not be fetched; the reason.
-folders-preview-fetch-failed = تعذّر جلبه: { $why }
+folders-preview-fetch-failed = تعذّر على Folders تنزيله: { $why }
 
 # Words in the quick look when a file's name says it is one kind but inside it is not; the kind, such as PDF or picture.
-folders-preview-broken = اسمه يقول إنه { $what }، لكنه ليس كذلك في داخله. قد يكون تالفاً أو مقطوعاً.
+folders-preview-broken = اسمه يقول إنه { $what }، لكن محتوياته لا تتطابق. قد يكون تالفاً أو غير مكتمل.
 
 # Words in the quick look when a picture is too large to show; the size in millions of pixels, a number.
-folders-preview-too-large-pixels = هذه الصورة أكبر من أن تُعرض هنا: { $millions } مليون بكسل.
+folders-preview-too-large-pixels = هذه الصورة أكبر من أن تُعرض هنا. فيها { $millions } مليون بكسل.
 
 # Words in the quick look when a picture is too large to show; its size in bytes, as words such as 12.0 MB.
-folders-preview-too-large-bytes = هذه الصورة أكبر من أن تُعرض هنا: { $size }.
+folders-preview-too-large-bytes = هذه الصورة أكبر من أن تُعرض هنا. حجمها { $size }.
 
 # Words in the quick look for a kind of file that cannot be shown.
-folders-preview-other = لا يمكن عرض هذا النوع من الملفات هنا. افتحه في تطبيقه لتراه.
+folders-preview-other = لا يستطيع Folders عرض هذا النوع من الملفات. افتحه في تطبيقه بدلاً من ذلك.
 
 # Words in the quick look when a file could not be read; the reason.
-folders-preview-unread = تعذّرت قراءته: { $why }
+folders-preview-unread = تعذّر على Folders قراءته: { $why }
 
 # Tip of the round button under a long text in the quick look that reads the next part.
-folders-preview-read-more = اقرأ الجزء التالي
+folders-preview-read-more = اعرض المزيد
 
 # Line under a text in the quick look, for a name with an ending: how it is encoded, such as UTF-8.
 folders-preview-text = { $encoding }
 
 # Line under a long text in the quick look when only the first part is read: the encoding, then how much is read, as words such as 64 KB.
-folders-preview-text-so-far = { $encoding }، أول { $size } حتى الآن
+folders-preview-text-so-far = { $encoding }، أول { $size } معروضة
 
 # Line under a picture in the quick look: its width and height in pixels.
 folders-preview-picture-size = { $w } × { $h } بكسل
@@ -53,16 +53,16 @@ folders-preview-page-after = الصفحة التالية (Page Down)
 folders-preview-pdf = مستند PDF
 
 # Words in the quick look while a page of a PDF is being drawn.
-folders-preview-drawing = جارٍ رسم الصفحة…
+folders-preview-drawing = جارٍ تحميل الصفحة…
 
 # Words under a font in the quick look once it is installed.
-folders-preview-font-installed = ثُبّت لك: التطبيقات التي تبدأ من الآن يمكنها استخدامه.
+folders-preview-font-installed = ثُبّت لك. التطبيقات التي تفتحها من الآن يمكنها استخدامه.
 
 # Button under a font in the quick look that installs it.
-folders-preview-font-install = ثبّته لك
+folders-preview-font-install = ثبّت الخط
 
 # Words in the quick look when a sound or video cannot be played.
-folders-preview-unplayable = لا يمكن تشغيله. قد يكون تالفاً، أو من نوع لا يستطيع ffmpeg تشغيله.
+folders-preview-unplayable = لا يستطيع Folders تشغيل هذا. قد يكون تالفاً، أو بتنسيق لا يستطيع ffmpeg تشغيله.
 
 # Line under a video in the quick look: width and height in pixels.
 folders-preview-video = { $w } × { $h }
@@ -104,10 +104,10 @@ folders-preview-pause = إيقاف مؤقت (Space)
 folders-preview-play = تشغيل (Space)
 
 # Screen reader name and tip of the slider that shows how far a sound or video has played and moves it.
-folders-preview-position = أين وصل
+folders-preview-position = الموضع
 
 # Tip of the round button in the quick look that turns the sound back on.
-folders-preview-unmute = أعد تشغيل الصوت
+folders-preview-unmute = إلغاء كتم الصوت
 
 # Tip of the round button in the quick look that mutes the sound.
 folders-preview-mute = كتم الصوت
@@ -119,7 +119,7 @@ folders-preview-volume = مستوى الصوت
 folders-preview-kind-text = نص، { $encoding }
 
 # The same, while only the first part is read.
-folders-preview-kind-text-so-far = نص، { $encoding }، أول { $size } حتى الآن
+folders-preview-kind-text-so-far = نص، { $encoding }، أول { $size } معروضة
 
 # Under a video's quick look, for a name with no ending.
 folders-preview-kind-video = فيديو، { $w } × { $h }

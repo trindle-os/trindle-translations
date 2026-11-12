@@ -9,7 +9,7 @@ folders-view-empty-trash-title = Dọn sạch Thùng rác?
 # SAFETY: needs a human review before it ships
 folders-view-empty-trash-body =
     { $n ->
-       *[other] Tất cả { $n } mục trong đó sẽ bị xoá vĩnh viễn. Không thể hoàn tác.
+       *[other] Tất cả { $n } mục trong đó sẽ bị xoá vĩnh viễn. Bạn không thể hoàn tác việc này.
     }
 
 # Red button of the question asked before the Trash is emptied: empties it at once.
@@ -25,7 +25,7 @@ folders-view-delete-title =
 
 # Text of the question asked before items are deleted for good.
 # SAFETY: needs a human review before it ships
-folders-view-delete-body = Không thể hoàn tác.
+folders-view-delete-body = Bạn không thể hoàn tác việc này.
 
 # Red button of the question asked before items are deleted for good: deletes them at once.
 # SAFETY: needs a human review before it ships
@@ -40,6 +40,9 @@ folders-view-drop-title = Đưa chúng tới đâu?
 
 # Tip of the round close button of the window that asks where dropped items should go: leaves them where they are.
 folders-view-drop-leave = Để chúng nguyên chỗ cũ
+
+
+
 
 # Tip of the toolbar button that shows a folder as icons.
 folders-view-icons = Biểu tượng
@@ -62,6 +65,10 @@ folders-view-sort-by = Sắp xếp theo
 # Name read out for the toolbar's Group by strip.
 folders-view-group-by = Nhóm theo
 
+
+
+
+
 # Tip of the toolbar button that hides the preview panel.
 folders-view-panel-hide = Ẩn bảng xem trước (Alt+P)
 
@@ -75,16 +82,21 @@ folders-view-panel-spoken = Bảng xem trước
 folders-view-tabs = Thẻ
 
 # Name read out for the row of tabs above the left pane's list.
-folders-view-tabs-left = Thẻ của ngăn trái
+folders-view-tabs-left = Thẻ ngăn trái
 
 # Name read out for the row of tabs above the right pane's list.
-folders-view-tabs-right = Thẻ của ngăn phải
+folders-view-tabs-right = Thẻ ngăn phải
 
 # Tip of the button that opens a new tab.
 folders-view-tab-new = Thẻ mới (Ctrl+T)
 
 # Tip of the button that closes the tab showing.
-folders-view-tab-close = Đóng thẻ (Ctrl+W, hoặc bấm chuột giữa vào thẻ)
+folders-view-tab-close = Đóng thẻ (Ctrl+W)
+
+
+
+
+
 
 # Side bar row that opens the Home folder.
 folders-view-home = Thư mục chính
@@ -106,6 +118,8 @@ folders-view-shares = Thư mục chia sẻ
 
 # Tip of the side bar button that closes an open Windows share; name is the share.
 folders-view-share-close = Đóng { $name }
+
+
 
 # Tip of the button that opens the window to connect to a server, and the button of the empty Network page that does the same.
 folders-view-connect = Kết nối tới máy chủ
@@ -158,7 +172,7 @@ folders-view-compare =
 folders-view-locate-hint = Nhập thư mục, tệp hoặc địa chỉ máy chủ
 
 # Name read out for the path above a pane's list.
-folders-view-where = Vị trí của ngăn này
+folders-view-where = Vị trí
 
 # Tip of the pane's Back button.
 folders-view-back = Quay lại (Alt+Trái)
@@ -169,20 +183,23 @@ folders-view-forward = Tiến tới (Alt+Phải)
 # Tip of the pane's button that goes up one folder.
 folders-view-up = Lên một thư mục (Alt+Lên)
 
+
+
 # Placeholder of the filter box above a pane's list.
-folders-view-filter-hint = Lọc, hoặc nhấn Enter để tìm trong thư mục này và bên dưới
+folders-view-filter-hint = Lọc, hoặc nhấn Enter để tìm trong thư mục này và các thư mục con
 
 # Tip of the button beside the filter box that finds things by name here and below.
-folders-view-find-name = Tìm theo tên ở đây và bên dưới
+folders-view-find-name = Tìm theo tên, kể cả trong thư mục con
 
 # Tip of the button beside the filter box that finds words inside files here and below.
-folders-view-find-inside = Tìm chữ trong tệp ở đây và bên dưới
+folders-view-find-inside = Tìm trong nội dung tệp, kể cả trong thư mục con
+
 
 # Name read out for the list that picks which kind of thing to show.
-folders-view-find-kind = Loại mục cần hiện
+folders-view-find-kind = Loại
 
 # Name read out for the list that picks which size to show.
-folders-view-find-size = Kích cỡ cần hiện
+folders-view-find-size = Kích cỡ
 
 # Name read out for the list that picks when things were last changed.
 folders-view-find-changed = Lần sửa gần nhất
@@ -203,7 +220,7 @@ folders-view-status-selected = Đã chọn { $count }, { $size }
 folders-view-status-then = { $first }. { $then }
 
 # Tip of the small round i at a pane's foot that lists the files words there are about, each with its reason.
-folders-view-listed = Những tệp nào, và vì sao
+folders-view-listed = Hiện các tệp liên quan
 
 # Tip of the button on an empty or failed pane that reads the place again.
 folders-view-try-again = Thử lại
@@ -219,7 +236,7 @@ folders-view-none-matches = Không có gì khớp với bộ lọc
 folders-view-show-everything = Hiện tất cả
 
 # Line on the Recent page when nothing was opened lately.
-folders-view-none-recent = Gần đây chưa mở gì
+folders-view-none-recent = Bạn chưa mở gì gần đây
 
 # Button on the empty Recent page that goes to the Home folder.
 folders-view-go-home = Về thư mục chính
@@ -278,25 +295,23 @@ folders-view-shares-down =
 # Tip of the round button that lets a network share that is not connected go from the list; its name.
 folders-view-forget-share = Quên { $name }
 
-
-
 # Name read out for the top bar's button that shows two panes side by side, or one.
 folders-view-two-panes = Hai ngăn
 
 # Tip of the top bar's two panes button, while one pane shows.
-folders-view-panes-two = Hiện hai ngăn cạnh nhau (F3)
+folders-view-panes-two = Hiển thị hai ngăn cạnh nhau (F3)
 
 # Tip of the top bar's two panes button, while two panes show.
-folders-view-panes-one = Hiện một ngăn (F3)
+folders-view-panes-one = Hiển thị một ngăn (F3)
 
 # Tip and spoken name of the top bar's button that opens the View menu.
-folders-view-view = Xem: cách các mục được hiển thị, sắp xếp và nhóm
+folders-view-view = Xem
 
 # Words of the top bar's button that opens the New menu (New folder, New document).
 folders-view-new = Mới
 
 # Tip and spoken name of the top bar's button that opens the More menu (Undo, Redo, settings).
-folders-view-more = Thêm: hoàn tác, làm lại và cài đặt
+folders-view-more = Thêm tùy chọn
 
 # Row of the More menu that undoes the last change.
 folders-view-more-undo = Hoàn tác
@@ -305,27 +320,7 @@ folders-view-more-undo = Hoàn tác
 folders-view-more-redo = Làm lại
 
 # Row of the View menu that turns the sort round.
-folders-view-sort-other-way = Sắp xếp theo chiều ngược lại
-
-# Row under the Network heading of the side bar: the computers found nearby.
-folders-view-network-nearby = Máy tính gần đây
-
-# Choice at the start of the line under a pane's path: search or filter here (Ctrl+F).
-folders-view-search = Tìm kiếm
-
-# Placeholder of the box in which the name the side bar shows for a pinned folder is typed; was is the folder's own name.
-folders-view-pin-name-hint = Tên hiển thị cho { $was }
-
-
-# Tip of the Search button while the search box shows.
-folders-view-search-close = Hiện lại đường dẫn (Esc)
-
-# Tip of the Search button, greyed, on the page of every drive.
-folders-view-search-none = Không có gì để tìm trên trang này
-
-# Name read out for the Search button, which says whether it is pressed.
-folders-view-search-spoken = Tìm kiếm
-
+folders-view-sort-other-way = Sắp xếp ngược lại
 
 # Tip of the toolbar button that shows hidden files (Ctrl+H).
 folders-view-hidden-show = Hiện tệp ẩn (Ctrl+H)
@@ -336,3 +331,20 @@ folders-view-hidden-hide = Ẩn tệp ẩn (Ctrl+H)
 # Name read out for the toolbar button that shows or hides hidden files.
 folders-view-hidden-spoken = Tệp ẩn
 
+# Row under the Network heading of the side bar: the computers found nearby.
+folders-view-network-nearby = Máy tính gần đây
+
+# Tip of the Search button in the top row while the path shows.
+folders-view-search = Tìm kiếm (Ctrl+F)
+
+# Tip of the Search button while the search box shows.
+folders-view-search-close = Đóng tìm kiếm (Escape)
+
+# Tip of the Search button, greyed, on the page of every drive.
+folders-view-search-none = Bạn không thể tìm kiếm trên trang này
+
+# Name read out for the Search button, which says whether it is pressed.
+folders-view-search-spoken = Tìm kiếm
+
+# Placeholder of the box in which the name the side bar shows for a pinned folder is typed; was is the folder's own name.
+folders-view-pin-name-hint = Tên trên thanh bên cho { $was }

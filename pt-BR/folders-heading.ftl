@@ -8,5 +8,5 @@ folders-heading-name = Nome
 folders-heading-spoken = Títulos das colunas: { $names }
 
 # Red words under the file lines when the widths of the columns could not be saved; the reason follows.
-folders-heading-widths-not-kept = Não foi possível guardar a largura das colunas para a próxima vez, porque { $why }.
+folders-heading-widths-not-kept = O Folders não conseguiu salvar a largura das colunas para a próxima vez: { $why }.
 

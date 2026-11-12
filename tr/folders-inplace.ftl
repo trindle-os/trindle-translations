@@ -2,7 +2,7 @@
 # machine translated (Turkish), not yet reviewed by a person.
 
 # Red words under the name box, and at the foot of Folders, when a rename fails: the item's name, then the reason.
-folders-inplace-not-renamed = { $name } yeniden adlandırılamadı: { $why }.
+folders-inplace-not-renamed = Folders { $name } öğesini yeniden adlandıramadı: { $why }.
 
 # Red words under the name box, and at the foot of Folders, when a name is already used in that place; the kind is the word folder or file.
 folders-inplace-taken =
@@ -12,7 +12,7 @@ folders-inplace-taken =
     }
 
 # Red notice at the foot of Folders when Rename is asked for in a place where nothing can be renamed.
-folders-inplace-only-folder = Yalnızca bir klasörün içindeki öğeler yeniden adlandırılabilir.
+folders-inplace-only-folder = Burada hiçbir şeyi yeniden adlandıramazsınız.
 
 # Red notice at the foot of Folders when Rename is asked for and nothing is picked.
 folders-inplace-pick-first = Önce yeniden adlandırılacak bir öğe seçin.
@@ -27,4 +27,4 @@ folders-inplace-undo-renaming = { $old } adının { $name } olarak değiştirilm
 folders-inplace-renamed = { $old } adı { $name } olarak değiştirildi.
 
 # Notice at the foot of Folders while a rename on a server is under way: the old name, then the new one.
-folders-inplace-renaming = { $old } adı { $name } olarak değiştiriliyor.
+folders-inplace-renaming = { $old } adı { $name } olarak değiştiriliyor…

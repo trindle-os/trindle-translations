@@ -2,10 +2,10 @@
 # machine translated (Brazilian Portuguese), not yet reviewed by a person.
 
 # Under a card's name on the Storage page: the disk the system is on.
-folders-computer-kind-system = Disco deste computador
+folders-computer-kind-system = Disco do sistema
 
 # Under a card's name on the Storage page: another fixed disk inside the computer.
-folders-computer-kind-inside = Um disco neste computador
+folders-computer-kind-inside = Disco interno
 
 # Under a card's name on the Storage page: a USB drive that is plugged in.
 folders-computer-kind-usb = Unidade USB
@@ -32,10 +32,10 @@ folders-computer-name-on = { $name } em { $drive }
 folders-computer-free-of = { $free } livres de { $all }
 
 # Under a card's bar on the Storage page when the drive is almost full; the line that follows says how much is free.
-folders-computer-almost-full = Quase cheio: { $said }
+folders-computer-almost-full = Quase totalmente cheio: { $said }
 
 # Under a card's bar on the Storage page when the drive is nearly full; the line that follows says how much is free.
-folders-computer-nearly-full = Quase cheio: { $said }
+folders-computer-nearly-full = Ficando cheio: { $said }
 
 # Under a card's bar on the Storage page: a locked drive whose size is not known.
 folders-computer-locked = Bloqueado
@@ -44,13 +44,13 @@ folders-computer-locked = Bloqueado
 folders-computer-locked-size = Bloqueado, { $size }
 
 # Under a card's bar on the Storage page: what a phone or tablet card invites the person to do.
-folders-computer-phone-hint = Abra para ver o que ele contém
+folders-computer-phone-hint = Abra para ver os arquivos
 
 # Under a card's bar on the Storage page: a drive that is not mounted and whose size is not known.
-folders-computer-not-mounted = Não montado
+folders-computer-not-mounted = Ainda não aberto
 
 # Under a card's bar on the Storage page: a drive that is not mounted and its size.
-folders-computer-not-mounted-size = Não montado, { $size }
+folders-computer-not-mounted-size = Ainda não aberto, { $size }
 
 # Line at the foot of the Storage page: how many drives it holds.
 folders-computer-drive-count =
@@ -67,7 +67,7 @@ folders-computer-open = Abrir { $name }
 folders-computer-unlock = Desbloquear { $name } e abri-lo
 
 # Tip and name of the round button on a Storage card that mounts a drive and opens it.
-folders-computer-mount = Montar { $name } e abri-lo
+folders-computer-mount = Abrir { $name }
 
 # Tip and name of the round button on a Storage card for a network share that closes the share.
 folders-computer-close = Fechar { $name }

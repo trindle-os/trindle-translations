@@ -17,7 +17,7 @@ folders-found-shown = 显示 { $shown } 项，共 { $all } 项
 folders-found-in-folder = 位于 { $folder }
 
 # Status line when one search result is picked and it sits directly in the folder searched.
-folders-found-in-root = 位于所搜索的文件夹
+folders-found-in-root = 位于你搜索的文件夹
 
 # Status line when one result found by words inside files is picked and it sits below the folder searched: the folder, the line number, the line, and how many more lines match (0 for none).
 folders-found-in-folder-line =
@@ -28,16 +28,16 @@ folders-found-in-folder-line =
 
 # Status line when one result found by words inside files is picked and it sits directly in the folder searched: the line number, the line, and how many more lines match (0 for none).
 folders-found-in-root-line =
-    位于所搜索的文件夹。第 { $n } 行：{ $line }{ $more ->
+    位于你搜索的文件夹。第 { $n } 行：{ $line }{ $more ->
         [0]
        *[other] { " " }（另有 { $more } 行匹配）
     }
 
 # Status line while a search runs and after it ends: how many were found, and when a filter is on, out of how many; while looking it says so; at the limit it says how many are shown; then how many files could not be read and how many were passed over. The variables filtered, looking, full are yes or no, most is the limit as written, unread and skipped are counts (0 for none).
 folders-found-status =
-    找到 { $n } 项{ $filtered ->
-        [yes] ，共 { $all } 项
-       *[other]
+    { $filtered ->
+        [yes] 在 { $all } 项中找到 { $n } 项
+       *[other] 找到 { $n } 项
     }{ $looking ->
         [yes] ，仍在查找…
        *[other]
@@ -49,6 +49,6 @@ folders-found-status =
        *[other] 。{ $unread } 项无法读取
     }{ $skipped ->
         [0]
-       *[other] 。{ $skipped } 项因太大或不是文本而跳过
+       *[other] 。{ $skipped } 项因太大或不是文本而被跳过
     }
 

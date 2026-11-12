@@ -19,7 +19,7 @@ folders-progress-pace-wait =
 folders-progress-line = { $doing }: { $how }
 
 # The same with the words about the disk added; { $line } is the line above, { $heavy } the words about the disk.
-folders-progress-line-heavy = { $line } { $heavy }
+folders-progress-line-heavy = { $line }. { $heavy }
 
 # A speed or size in bytes; { $n } is the figure.
 folders-progress-speed-bytes = { $n } bayt
@@ -63,15 +63,15 @@ folders-progress-left-hours =
 # Line at the top of a foot standing for work that has no room of its own; { $n } is how many.
 folders-progress-more =
     { $n ->
-        [one] 1 iş daha sürüyor
-       *[other] { $n } iş daha sürüyor
+        [one] 1 iş daha çalışıyor
+       *[other] { $n } iş daha çalışıyor
     }
 
 # End of the line of a copy or move row; { $verb } is moving or copying.
 folders-progress-heavy =
     { $verb ->
-        [moving] Taşıma diski yoğun kullanır, bu yüzden bitene kadar diğer programlar yavaşlayabilir.
-       *[copying] Kopyalama diski yoğun kullanır, bu yüzden bitene kadar diğer programlar yavaşlayabilir.
+        [moving] Taşırken disk meşgul olur, bu yüzden işlem bitene kadar diğer programlar yavaşlayabilir.
+       *[copying] Kopyalarken disk meşgul olur, bu yüzden işlem bitene kadar diğer programlar yavaşlayabilir.
     }
 
 # End of a piece of work's line while it waits for the person's answer.
@@ -81,7 +81,7 @@ folders-progress-waiting = yanıt bekleniyor
 folders-progress-paused = duraklatıldı
 
 # Tip of the button on a paused piece of work's row that sets it going again.
-folders-progress-carry-on = Sürdür
+folders-progress-carry-on = Devam et
 
 # Tip of the button on a piece of work's row that pauses it.
 folders-progress-pause = Duraklat
@@ -90,7 +90,7 @@ folders-progress-pause = Duraklat
 folders-progress-stop = Durdur
 
 # Under a file or folder in the name taken question: it is newer than the other and larger.
-folders-progress-mark-newer-larger = daha yeni, daha büyük
+folders-progress-mark-newer-larger = daha yeni ve daha büyük
 
 # Under a file or folder in the name taken question: it is newer than the other.
 folders-progress-mark-newer = daha yeni
@@ -110,7 +110,7 @@ folders-progress-taken =
     }
 
 # Heading over the file or folder that is being brought, in the name taken question.
-folders-progress-coming = Getirilen
+folders-progress-coming = Yeni olan
 
 # Heading over the file or folder that is already there, in the name taken question.
 folders-progress-there = Zaten orada olan
@@ -127,16 +127,16 @@ folders-progress-replace = Değiştir
 
 # Screen reader name of the Replace button for a folder in the name taken question.
 # SAFETY: needs a human review before it ships
-folders-progress-replace-folder-spoken = Değiştir: zaten orada olan klasör Çöp kutusuna gider
+folders-progress-replace-folder-spoken = Değiştir ve zaten orada olan klasörü Çöp kutusuna taşı
 
 # Main button of the name taken question for a folder: join the two folders.
 folders-progress-merge = Birleştir
 
 # Line over the switch in the name taken question for folders.
-folders-progress-all-folders = Zaten orada olan her klasör için aynı yanıt.
+folders-progress-all-folders = Bu yanıtı zaten orada olan her klasör için kullan.
 
 # Line over the switch in the name taken question for files.
-folders-progress-all-files = Zaten orada olan her dosya için aynı yanıt.
+folders-progress-all-files = Bu yanıtı zaten orada olan her dosya için kullan.
 
 # Name and tip of the switch in the name taken question that uses the answer for the rest.
 folders-progress-same-for-rest = Kalanlar için de aynısını yap

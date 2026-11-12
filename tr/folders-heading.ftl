@@ -8,4 +8,4 @@ folders-heading-name = Ad
 folders-heading-spoken = Sütun başlıkları: { $names }
 
 # Red words under the file lines when the widths of the columns could not be saved; the reason follows.
-folders-heading-widths-not-kept = Sütun genişlikleri bir sonraki sefer için saklanamadı, çünkü { $why }.
+folders-heading-widths-not-kept = Folders sütun genişliklerini bir sonraki sefer için kaydedemedi: { $why }.

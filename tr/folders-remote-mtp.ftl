@@ -4,7 +4,7 @@
 folders-remote-mtp-phone = Telefon
 
 # Red words when the phone sent something Folders could not read.
-folders-remote-mtp-nonsense = Telefon anlamsız bir şey gönderdi.
+folders-remote-mtp-nonsense = Folders telefonun gönderdiğini anlayamadı.
 
 # Red words when the phone has no room left.
 folders-remote-mtp-full = Telefon dolu.
@@ -13,10 +13,10 @@ folders-remote-mtp-full = Telefon dolu.
 folders-remote-mtp-the-phone = Telefon
 
 # The thing asked of a phone that it cannot do, at the start of "... is not supported yet."
-folders-remote-mtp-that-here = Bu telefonda bu işlem
+folders-remote-mtp-that-here = Bunu bu telefonda yapmak
 
 # Red words when the phone refused something for a reason Folders has no words for; the variable is the phone's answer code in hexadecimal.
-folders-remote-mtp-refused = Telefon bunu reddetti (kod { $code }).
+folders-remote-mtp-refused = Bu işlem telefonda çalışmadı (kod { $code }).
 
 # Reason in red words ("Could not reach it: ...") when the phone is no longer plugged in.
 folders-remote-mtp-not-plugged = telefon takılı değil
@@ -28,7 +28,7 @@ folders-remote-mtp-what-phone = telefon
 folders-remote-mtp-what-storage = telefonun depolama alanı
 
 # Red words when a file from the phone was shorter than the phone said.
-folders-remote-mtp-shorter = Dosya, bildirilenden daha kısaydı.
+folders-remote-mtp-shorter = Dosya, bildirilen boyuttan küçüktü.
 
 # Red words when something is put on a phone outside its storages.
 folders-remote-mtp-only-storage = Dosya ve klasörler yalnızca telefonun depolama alanlarından birinin içine konabilir.
@@ -49,9 +49,7 @@ folders-remote-mtp-remove-storage = Bir depolama alanının tamamını kaldırma
 folders-remote-mtp-rename-storage = Bir depolama alanını yeniden adlandırma
 
 # Words shown when the phone is plugged in but shows no storage.
-folders-remote-mtp-no-storage = Telefon hiçbir depolama alanı göstermiyor. Kilidini açın, Dosya aktarımı'nı seçin ve yeniden deneyin.
-
+folders-remote-mtp-no-storage = Folders telefonda hiç depolama alanı göremiyor. Telefonun kilidini açın, Dosya aktarımı'nı seçin ve yeniden deneyin.
 
 # Name shown for a phone's storage that has no name of its own.
 folders-remote-mtp-storage-name = Depolama
-

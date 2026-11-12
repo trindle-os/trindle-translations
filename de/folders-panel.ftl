@@ -17,7 +17,7 @@ folders-panel-home = Home
 folders-panel-home-under = Home/{ $rest }
 
 # Said at the window's foot in red when the preview panel's switch or width could not be saved.
-folders-panel-keep-failed = Die Vorschau konnte nicht für das nächste Mal gespeichert werden.
+folders-panel-keep-failed = Folders konnte die Einstellungen der Vorschau nicht für das nächste Mal speichern.
 
 # Name of a fact in the preview panel: how many things a folder, archive or place holds.
 folders-panel-fact-holds = Enthält
@@ -32,7 +32,7 @@ folders-panel-fact-changed = Geändert
 folders-panel-fact-where = Ort
 
 # Name of a fact in the preview panel: what kind of file it is.
-folders-panel-fact-kind = Art
+folders-panel-fact-kind = Typ
 
 # Name of a fact in the preview panel: how big an archive's contents are unpacked.
 folders-panel-fact-unpacked = Entpackt
@@ -75,23 +75,23 @@ folders-panel-in-all = { $items } insgesamt
 folders-panel-by = { $w } mal { $h }
 
 # Quiet words under the icon in the preview panel for a file whose name says one kind but whose bytes are not; what is the kind, such as PDF document.
-folders-panel-broken = Der Name sagt, es sei ein(e) { $what }, aber innen ist es keins.
+folders-panel-broken = Der Name verweist auf diesen Typ: { $what }. Der Inhalt passt aber nicht dazu.
 
 # Quiet words under the icon in the preview panel for a picture too large to show.
 folders-panel-too-large = Dieses Bild ist zu groß, um es hier zu zeigen.
 
 # Quiet words under the icon in the preview panel for a file that could not be read; why is the reason.
-folders-panel-read-failed = Es konnte nicht gelesen werden: { $why }
+folders-panel-read-failed = Folders konnte es nicht lesen: { $why }
 
 # Name at the top of the preview panel when several things are picked; count is how many.
 folders-panel-selected = { $count } ausgewählt
 
 # Name read out for the edge between the panes and the preview panel.
-folders-panel-edge = Ziehen, um die Vorschau breiter oder schmaler zu machen, oder drücken, um die Breite schrittweise zu ändern
+folders-panel-edge = Breite der Vorschau
 
 # Name read out for the picture in the preview panel; name is the file's.
-folders-panel-picture-name = Ein Bild von { $name }
+folders-panel-picture-name = Vorschau von { $name }
 
 # Name read out for the start of a text file in the preview panel; name is the file's.
-folders-panel-text-name = Der Anfang von { $name }
+folders-panel-text-name = Anfang von { $name }
 

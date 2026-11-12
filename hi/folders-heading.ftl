@@ -7,4 +7,4 @@ folders-heading-name = नाम
 folders-heading-spoken = कॉलम के शीर्षक: { $names }
 
 # Red words under the file lines when the widths of the columns could not be saved; the reason follows.
-folders-heading-widths-not-kept = कॉलमों की चौड़ाई अगली बार के लिए सहेजी नहीं जा सकी, क्योंकि { $why }।
+folders-heading-widths-not-kept = Folders कॉलमों की चौड़ाई अगली बार के लिए सहेज नहीं सका: { $why }।

@@ -7,10 +7,10 @@ folders-menu-rename = नाम बदलें
 folders-menu-rename-them = इनके नाम बदलें
 
 # Row of Folders' right-click menu (Install font), shown when one thing is picked.
-folders-menu-install-the-font-for-you = आपके लिए फ़ॉन्ट इंस्टॉल करें
+folders-menu-install-the-font-for-you = सिर्फ़ आपके लिए फ़ॉन्ट इंस्टॉल करें
 
 # Row of Folders' right-click menu (Install font), shown when several things are picked.
-folders-menu-install-the-fonts-for-you = आपके लिए फ़ॉन्ट इंस्टॉल करें
+folders-menu-install-the-fonts-for-you = सिर्फ़ आपके लिए फ़ॉन्ट इंस्टॉल करें
 
 # Row of Folders' right-click menu that does: Open.
 folders-menu-open = खोलें
@@ -145,6 +145,7 @@ folders-menu-resize = आकार बदलें
 # Row of Folders' right-click menu that does: Compare files.
 folders-menu-compare-the-two = दोनों की तुलना करें
 
+
 # Row of Folders' right-click menu that does: Copy here.
 folders-menu-copy-here = यहाँ कॉपी करें
 
@@ -174,7 +175,7 @@ folders-menu-pin-to-the-ring = रिंग में पिन करें
 folders-menu-sub-select = चुनें
 
 # Row of Folders' right-click menu that opens a sub-menu of pack rows; the sub-menu is named for what is in it.
-folders-menu-sub-pack = बाँधें, भेजें और साझा करें
+folders-menu-sub-pack = संकुचित करें, भेजें और साझा करें
 
 # Row of Folders' right-click menu that opens a sub-menu of picture rows; the sub-menu is named for what is in it.
 folders-menu-sub-picture = चित्र
@@ -183,10 +184,10 @@ folders-menu-sub-picture = चित्र
 folders-menu-sub-tools = औज़ार
 
 # Red words under the file lines when showing or hiding a column could not be saved.
-folders-menu-columns-not-saved = कॉलम सहेजे नहीं जा सके।
+folders-menu-columns-not-saved = Folders कॉलम सहेज नहीं सका।
 
 # Red words under the file lines when Open in a new window failed.
-folders-menu-no-new-window = नई विंडो नहीं खोली जा सकी।
+folders-menu-no-new-window = Folders नई विंडो नहीं खोल सका।
 
 # Words under the file lines after Copy location: one thing, or the number of things whose locations were copied.
 folders-menu-copied-location =
@@ -195,18 +196,19 @@ folders-menu-copied-location =
        *[other] { $n } स्थान कॉपी किए गए।
     }
 
+
 # Red words under the file lines when Open as administrator failed.
 # SAFETY: needs a human review before it ships
-folders-menu-no-admin-window = फ़ोल्डर प्रशासक के रूप में नहीं खोले जा सके।
+folders-menu-no-admin-window = Folders एडमिनिस्ट्रेटर के रूप में विंडो नहीं खोल सका।
 
 # Red words under the file lines when a picture cannot be the wallpaper; the name of the picture, then the reasons.
-folders-menu-wallpaper-refused = { $name } वॉलपेपर नहीं बन सकता: { $why }।
+folders-menu-wallpaper-refused = { $name } को वॉलपेपर नहीं बनाया जा सकता: { $why }।
 
 # Words under the file lines after a picture was set as the wallpaper.
 folders-menu-wallpaper-set = { $name } अब वॉलपेपर है।
 
 # Red words under the file lines when setting the wallpaper failed.
-folders-menu-wallpaper-failed = वॉलपेपर नहीं लगाया जा सका।
+folders-menu-wallpaper-failed = Folders वॉलपेपर नहीं लगा सका।
 
 # Name of the undo step after a link was made; shown where undo is offered.
 folders-menu-undo-link = { $name } बनाना पूर्ववत करें
@@ -215,29 +217,29 @@ folders-menu-undo-link = { $name } बनाना पूर्ववत कर�
 folders-menu-link-made = { $name } बनाया गया।
 
 # Red words under the file lines when a link could not be made; the reason follows.
-folders-menu-link-failed = लिंक नहीं बनाया जा सका: { $why }।
+folders-menu-link-failed = Folders लिंक नहीं बना सका: { $why }।
 
 # Words under the file lines after a folder was shared with AI programs.
 # SAFETY: needs a human review before it ships
 folders-menu-ai-shared = { $name } AI प्रोग्रामों के साथ साझा है।
 
 # Words under the file lines after a folder or file was taken off the ring.
-folders-menu-ring-off = { $name } को रिंग से हटाया गया।
+folders-menu-ring-off = { $name } को रिंग से अनपिन किया गया।
 
 # Words under the file lines after a folder or file was pinned to the ring.
-folders-menu-ring-pinned = { $name } रिंग में पिन किया गया। यह पसंदीदा ऐप के साथ दिखता है।
+folders-menu-ring-pinned = { $name } को रिंग में पिन किया गया, आपके पसंदीदा ऐप के बगल में।
 
 # Words under the file lines when the thing to pin is on the ring already.
 folders-menu-ring-already = { $name } पहले से रिंग पर है।
 
 # Red words under the file lines when the ring has no room for another pin; the number is how many it holds.
-folders-menu-ring-full = रिंग के बीच में { $n } आ सकते हैं और वह भर चुका है। जगह बनाने के लिए एक हटाएँ।
+folders-menu-ring-full = रिंग भर चुकी है। इसमें { $n } पिन आ सकते हैं, इसलिए पहले एक को अनपिन करें।
 
 # Red words under the file lines when a name cannot be written in the ring's list of favourites.
-folders-menu-ring-unkept = { $name } रिंग पर नहीं रखा जा सकता: उसके नाम के कुछ अक्षर सूची में नहीं आ सकते।
+folders-menu-ring-unkept = Folders { $name } को रिंग में पिन नहीं कर सकता, क्योंकि उसके नाम में ऐसा अक्षर है जिसे Folders वहाँ सहेज नहीं सकता।
 
 # Red words under the file lines when the ring's favourites list could not be saved.
-folders-menu-ring-not-saved = रिंग के पसंदीदा सहेजे नहीं जा सके।
+folders-menu-ring-not-saved = Folders रिंग के पसंदीदा सहेज नहीं सका।
 
 # Name given to a new link to a file or folder; the name of the thing linked to follows.
 folders-menu-link-name = { $name } का लिंक

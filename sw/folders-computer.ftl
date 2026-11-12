@@ -2,10 +2,10 @@
 # machine translated (Swahili), not yet reviewed by a person.
 
 # Under a card's name on the Storage page: the disk the system is on.
-folders-computer-kind-system = Diski ya kompyuta hii
+folders-computer-kind-system = Diski ya mfumo
 
 # Under a card's name on the Storage page: another fixed disk inside the computer.
-folders-computer-kind-inside = Diski iliyo ndani ya kompyuta hii
+folders-computer-kind-inside = Diski ya ndani
 
 # Under a card's name on the Storage page: a USB drive that is plugged in.
 folders-computer-kind-usb = Kifaa cha USB
@@ -32,10 +32,10 @@ folders-computer-name-on = { $name } kwenye { $drive }
 folders-computer-free-of = { $free } zimebaki kati ya { $all }
 
 # Under a card's bar on the Storage page when the drive is almost full; the line that follows says how much is free.
-folders-computer-almost-full = Karibu imejaa: { $said }
+folders-computer-almost-full = Karibu sana kujaa: { $said }
 
 # Under a card's bar on the Storage page when the drive is nearly full; the line that follows says how much is free.
-folders-computer-nearly-full = Imekaribia kujaa: { $said }
+folders-computer-nearly-full = Inaanza kujaa: { $said }
 
 # Under a card's bar on the Storage page: a locked drive whose size is not known.
 folders-computer-locked = Imefungwa
@@ -44,13 +44,13 @@ folders-computer-locked = Imefungwa
 folders-computer-locked-size = Imefungwa, { $size }
 
 # Under a card's bar on the Storage page: what a phone or tablet card invites the person to do.
-folders-computer-phone-hint = Ifungue uone kilichomo
+folders-computer-phone-hint = Ifungue uone faili zake
 
 # Under a card's bar on the Storage page: a drive that is not mounted and whose size is not known.
-folders-computer-not-mounted = Haijaunganishwa
+folders-computer-not-mounted = Haijafunguliwa bado
 
 # Under a card's bar on the Storage page: a drive that is not mounted and its size.
-folders-computer-not-mounted-size = Haijaunganishwa, { $size }
+folders-computer-not-mounted-size = Haijafunguliwa bado, { $size }
 
 # Line at the foot of the Storage page: how many drives it holds.
 folders-computer-drive-count =
@@ -67,7 +67,7 @@ folders-computer-open = Fungua { $name }
 folders-computer-unlock = Fungua kufuli ya { $name } kisha uifungue
 
 # Tip and name of the round button on a Storage card that mounts a drive and opens it.
-folders-computer-mount = Unganisha { $name } kisha uifungue
+folders-computer-mount = Fungua { $name }
 
 # Tip and name of the round button on a Storage card for a network share that closes the share.
 folders-computer-close = Funga { $name }

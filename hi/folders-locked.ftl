@@ -11,10 +11,10 @@ folders-locked-open = खोलें
 folders-locked-password = पासवर्ड
 
 # Line under the password box before anything has been tried: says the password is not saved.
-folders-locked-kept-note = केवल तब तक रखा जाता है जब तक यह आर्काइव खुला है, कभी सहेजा नहीं जाता।
+folders-locked-kept-note = आर्काइव बंद होते ही Folders इसे भूल जाता है।
 
 # Words beside the spinning ring on the password card while a password is being tried.
-folders-locked-trying = आज़मा रहा है
+folders-locked-trying = पासवर्ड आज़माया जा रहा है
 
 # SAFETY: needs a human review before it ships
 # Title of the password card; the variable is the archive's name.
@@ -30,4 +30,4 @@ folders-locked-is-locked = { $name } पासवर्ड से बंद ह�
 folders-locked-open-again = { $name } पासवर्ड से बंद है। पासवर्ड लिखने के लिए इसे फिर खोलें।
 
 # Notice shown when a locked archive cannot be read whatever the password; the variables are the archive's name and the reason.
-folders-locked-could-not-read = { $name } पढ़ा नहीं जा सका: { $why }।
+folders-locked-could-not-read = Folders { $name } पढ़ नहीं सका: { $why }।

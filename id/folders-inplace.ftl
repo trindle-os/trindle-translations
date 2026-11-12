@@ -2,7 +2,7 @@
 # machine translated (Indonesian), not yet reviewed by a person.
 
 # Red words under the name box, and at the foot of Folders, when a rename fails: the item's name, then the reason.
-folders-inplace-not-renamed = Nama { $name } tidak dapat diganti: { $why }.
+folders-inplace-not-renamed = Folders tidak dapat mengganti nama { $name }: { $why }.
 
 # Red words under the name box, and at the foot of Folders, when a name is already used in that place; the kind is the word folder or file.
 folders-inplace-taken =
@@ -12,7 +12,7 @@ folders-inplace-taken =
     }
 
 # Red notice at the foot of Folders when Rename is asked for in a place where nothing can be renamed.
-folders-inplace-only-folder = Hanya isi sebuah folder yang dapat diganti namanya.
+folders-inplace-only-folder = Anda tidak dapat mengganti nama apa pun di sini.
 
 # Red notice at the foot of Folders when Rename is asked for and nothing is picked.
 folders-inplace-pick-first = Pilih sesuatu untuk diganti namanya terlebih dahulu.
@@ -27,4 +27,4 @@ folders-inplace-undo-renaming = Urungkan penggantian nama { $old } menjadi { $na
 folders-inplace-renamed = Nama { $old } diganti menjadi { $name }.
 
 # Notice at the foot of Folders while a rename on a server is under way: the old name, then the new one.
-folders-inplace-renaming = Mengganti nama { $old } menjadi { $name }.
+folders-inplace-renaming = Mengganti nama { $old } menjadi { $name }…

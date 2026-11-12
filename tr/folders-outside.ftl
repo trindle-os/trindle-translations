@@ -8,7 +8,7 @@ folders-outside-wary-hidden = gizli ya da gizli bir klasörün içinde
 folders-outside-wary-holds = içinde gizli öğeler var
 
 # Reason beside a dropped folder in the question card: it holds too much to look through beforehand.
-folders-outside-wary-deep = içinde önceden gözden geçirilemeyecek kadar çok şey var, bu yüzden gizli öğeleri getirilmiyor
+folders-outside-wary-deep = içinde denetlenemeyecek kadar çok öğe var, bu yüzden Folders gizli öğelerini dışarıda bırakır
 
 # Reason beside a dropped thing in the question card: it is outside the person's home folder and drives.
 folders-outside-wary-system = ev klasörünüzün ve sürücülerinizin dışında
@@ -47,24 +47,24 @@ folders-outside-title-copy =
 # SAFETY: needs a human review before it ships
 folders-outside-body-move =
     { $n ->
-        [one] Başka bir program bunu Klasörler'e bıraktı ve adını kendisi verdi. Her program herhangi bir dosyayı adlandırabilir ve burada adı geçenlerin hepsi sıradan dosyalarınız değildir, bu yüzden siz söyleyene kadar hiçbir şey taşınmaz.
-       *[other] Başka bir program bunları Klasörler'e bıraktı ve adlarını kendisi verdi. Her program herhangi bir dosyayı adlandırabilir ve burada adı geçenlerin hepsi sıradan dosyalarınız değildir, bu yüzden siz söyleyene kadar hiçbir şey taşınmaz.
+        [one] Başka bir program bunu Folders'a bıraktı. Her program herhangi bir dosyayı bırakabilir ve bu, sıradan dosyalarınızdan biri değil. Siz söyleyene kadar Folders bunu taşımaz.
+       *[other] Başka bir program bunları Folders'a bıraktı. Her program herhangi bir dosyayı bırakabilir ve bunların bazıları sıradan dosyalarınız değil. Siz söyleyene kadar Folders bunları taşımaz.
     }
 
 # Words on the question card when the drop would be brought: why it is asked.
 # SAFETY: needs a human review before it ships
 folders-outside-body-bring =
     { $n ->
-        [one] Başka bir program bunu Klasörler'e bıraktı ve adını kendisi verdi. Her program herhangi bir dosyayı adlandırabilir ve burada adı geçenlerin hepsi sıradan dosyalarınız değildir, bu yüzden siz söyleyene kadar hiçbir şey getirilmez.
-       *[other] Başka bir program bunları Klasörler'e bıraktı ve adlarını kendisi verdi. Her program herhangi bir dosyayı adlandırabilir ve burada adı geçenlerin hepsi sıradan dosyalarınız değildir, bu yüzden siz söyleyene kadar hiçbir şey getirilmez.
+        [one] Başka bir program bunu Folders'a bıraktı. Her program herhangi bir dosyayı bırakabilir ve bu, sıradan dosyalarınızdan biri değil. Siz söyleyene kadar Folders bunu getirmez.
+       *[other] Başka bir program bunları Folders'a bıraktı. Her program herhangi bir dosyayı bırakabilir ve bunların bazıları sıradan dosyalarınız değil. Siz söyleyene kadar Folders bunları getirmez.
     }
 
 # Words on the question card when the drop would be copied: why it is asked.
 # SAFETY: needs a human review before it ships
 folders-outside-body-copy =
     { $n ->
-        [one] Başka bir program bunu Klasörler'e bıraktı ve adını kendisi verdi. Her program herhangi bir dosyayı adlandırabilir ve burada adı geçenlerin hepsi sıradan dosyalarınız değildir, bu yüzden siz söyleyene kadar hiçbir şey kopyalanmaz.
-       *[other] Başka bir program bunları Klasörler'e bıraktı ve adlarını kendisi verdi. Her program herhangi bir dosyayı adlandırabilir ve burada adı geçenlerin hepsi sıradan dosyalarınız değildir, bu yüzden siz söyleyene kadar hiçbir şey kopyalanmaz.
+        [one] Başka bir program bunu Folders'a bıraktı. Her program herhangi bir dosyayı bırakabilir ve bu, sıradan dosyalarınızdan biri değil. Siz söyleyene kadar Folders bunu kopyalamaz.
+       *[other] Başka bir program bunları Folders'a bıraktı. Her program herhangi bir dosyayı bırakabilir ve bunların bazıları sıradan dosyalarınız değil. Siz söyleyene kadar Folders bunları kopyalamaz.
     }
 
 # Tip of the round close button, and name of the main button, on the question card: leave what was dropped alone.
@@ -112,10 +112,10 @@ folders-outside-more = Ve { $n } tane daha.
 folders-outside-into = Hedef: { $into }.
 
 # Red words when something is dropped while the question card is still up.
-folders-outside-answer-first = Önce bırakılanlarla ilgili soruyu yanıtlayın.
+folders-outside-answer-first = Önce bıraktığınız şeyle ilgili soruyu yanıtlayın.
 
 # Red words when something is dropped while the last drop is still being looked at.
-folders-outside-still-looking = En son bırakılan şey hâlâ inceleniyor.
+folders-outside-still-looking = Folders en son bıraktığınız şeyi hâlâ denetliyor.
 
 # Red words when text, not files, is dropped on Folders.
 folders-outside-only-files = Buraya yalnızca dosya ve klasör bırakılabilir.
@@ -124,22 +124,22 @@ folders-outside-only-files = Buraya yalnızca dosya ve klasör bırakılabilir.
 folders-outside-only-folders-pin = Kenar çubuğuna yalnızca klasörler sabitlenebilir.
 
 # Red words when something is dropped where it cannot go, such as on a list that is not a folder.
-folders-outside-only-on-folder = Bir şey yalnızca bir klasörün üzerine bırakılabilir.
+folders-outside-only-on-folder = Yalnızca bir klasörün üzerine bir şey bırakabilirsiniz.
 
 # Red words when a dropped thing is no longer there; its name.
-folders-outside-gone = { $name } artık yok, bu yüzden hiçbir şey getirilmedi.
+folders-outside-gone = { $name } artık orada değil, bu yüzden hiçbir şey kopyalanmadı veya taşınmadı.
 
 # Red words when a folder is dropped into itself.
-folders-outside-inside-itself = Bir klasör kendi içine konamaz.
+folders-outside-inside-itself = Bir klasörü kendi içine koyamazsınız.
 
 # Words when things are dragged into the folder they are already in.
 folders-outside-already-there = Zaten o klasörde.
 
 # Red words when the place a drop is in does not answer in time; the name of the dropped thing.
-folders-outside-not-answering = { $name } öğesinin bulunduğu yer yanıt vermiyor, bu yüzden hiçbir şey getirilmedi.
+folders-outside-not-answering = Folders { $name } öğesinin bulunduğu sürücüye zamanında ulaşamadı, bu yüzden hiçbir şey kopyalanmadı veya taşınmadı.
 
 # Words when the question card is answered with no.
-folders-outside-nothing-brought = Hiçbir şey getirilmedi.
+folders-outside-nothing-brought = Hiçbir şey kopyalanmadı veya taşınmadı.
 
 # Name on the picture dragged out of Folders when several items are dragged to another program.
 folders-outside-items-dragged =
@@ -157,15 +157,15 @@ folders-outside-stayed-one = { $name } { $why }.
 # Red words when several dragged things changed after they were picked up, so they stayed; the count and their names.
 folders-outside-stayed-changed =
     { $n ->
-        [one] { $n } öge alındıktan sonra değişti, bu yüzden hâlâ eski yerinde: { $names }.
-       *[other] { $n } öge alındıktan sonra değişti, bu yüzden hâlâ eski yerlerinde: { $names }.
+        [one] { $n } öğe sürüklemeye başladıktan sonra değişti, bu yüzden Folders onu olduğu yerde bıraktı: { $names }.
+       *[other] { $n } öğe sürüklemeye başladıktan sonra değişti, bu yüzden Folders onları olduğu yerlerde bıraktı: { $names }.
     }
 
 # Red words when several dragged things stayed for different reasons; the count and each name with its reason.
 folders-outside-stayed-many =
     { $n ->
-        [one] { $n } öge hâlâ eski yerinde: { $each }.
-       *[other] { $n } öge hâlâ eski yerlerinde: { $each }.
+        [one] { $n } öğe hâlâ eski yerinde: { $each }.
+       *[other] { $n } öğe hâlâ eski yerlerinde: { $each }.
     }
 
 # One dragged thing that stayed, in a list: its name and the reason in brackets.
@@ -175,10 +175,10 @@ folders-outside-stayed-each = { $name } ({ $why })
 folders-outside-both = { $first } { $second }
 
 # Red words when the other program took a move in a way that cannot show it read all of it.
-folders-outside-unshown = Diğer program sürüklenenleri, hepsini okuduğunu gösteremeyecek bir şekilde aldı, bu yüzden burada hiçbir şey taşınmadı: elindekiler bir kopya.
+folders-outside-unshown = Folders diğer programın sürüklediğiniz her şeyi alıp almadığını anlayamıyor, bu yüzden asılları burada bıraktı. Diğer programda bir kopya var.
 
 # Red words when the other program did not take all of a drag that was a move.
-folders-outside-short-move = Diğer program sürüklenenlerin hepsini almadı, bu yüzden burada hiçbir şey taşınmadı.
+folders-outside-short-move = Diğer program sürüklediğiniz her şeyi almadı, bu yüzden Folders hiçbir şeyi taşımadı.
 
 # Red words when the other program did not take all of a drag that was a copy.
-folders-outside-short-copy = Diğer program sürüklenenlerin hepsini almadı, bu yüzden hepsi onda olmayabilir.
+folders-outside-short-copy = Diğer program sürüklediğiniz her şeyi almadı, bu yüzden elindeki kopya eksik olabilir.

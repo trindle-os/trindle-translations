@@ -17,7 +17,7 @@ folders-panel-home = Início
 folders-panel-home-under = Início/{ $rest }
 
 # Said at the window's foot in red when the preview panel's switch or width could not be saved.
-folders-panel-keep-failed = Não foi possível guardar o painel de pré-visualização para a próxima vez.
+folders-panel-keep-failed = O Folders não conseguiu salvar as configurações do painel de pré-visualização para a próxima vez.
 
 # Name of a fact in the preview panel: how many things a folder, archive or place holds.
 folders-panel-fact-holds = Contém
@@ -75,23 +75,23 @@ folders-panel-in-all = { $items } no total
 folders-panel-by = { $w } por { $h }
 
 # Quiet words under the icon in the preview panel for a file whose name says one kind but whose bytes are not; what is the kind, such as PDF document.
-folders-panel-broken = O nome diz que é um(a) { $what }, mas por dentro não é.
+folders-panel-broken = O nome diz que é { $what }, mas o conteúdo não corresponde.
 
 # Quiet words under the icon in the preview panel for a picture too large to show.
 folders-panel-too-large = Esta imagem é grande demais para mostrar aqui.
 
 # Quiet words under the icon in the preview panel for a file that could not be read; why is the reason.
-folders-panel-read-failed = Não foi possível ler: { $why }
+folders-panel-read-failed = O Folders não conseguiu ler: { $why }
 
 # Name at the top of the preview panel when several things are picked; count is how many.
 folders-panel-selected = { $count } selecionados
 
 # Name read out for the edge between the panes and the preview panel.
-folders-panel-edge = Arraste para deixar a pré-visualização mais larga ou mais estreita, ou pressione para ajustar a largura
+folders-panel-edge = Largura do painel de pré-visualização
 
 # Name read out for the picture in the preview panel; name is the file's.
-folders-panel-picture-name = Uma imagem de { $name }
+folders-panel-picture-name = Pré-visualização de { $name }
 
 # Name read out for the start of a text file in the preview panel; name is the file's.
-folders-panel-text-name = O começo de { $name }
+folders-panel-text-name = Início de { $name }
 

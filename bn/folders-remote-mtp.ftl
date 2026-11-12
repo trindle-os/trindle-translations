@@ -4,7 +4,7 @@
 folders-remote-mtp-phone = ফোন
 
 # Red words when the phone sent something Folders could not read.
-folders-remote-mtp-nonsense = ফোন এমন কিছু পাঠিয়েছে যার কোনো অর্থ বোঝা যায়নি।
+folders-remote-mtp-nonsense = ফোন যা পাঠিয়েছে, Folders তা বুঝতে পারেনি।
 
 # Red words when the phone has no room left.
 folders-remote-mtp-full = ফোনে জায়গা নেই।
@@ -13,10 +13,10 @@ folders-remote-mtp-full = ফোনে জায়গা নেই।
 folders-remote-mtp-the-phone = ফোনটি
 
 # The thing asked of a phone that it cannot do, at the start of "... is not supported yet."
-folders-remote-mtp-that-here = এই ফোনে সেটি
+folders-remote-mtp-that-here = এই ফোনে সেটি করা
 
 # Red words when the phone refused something for a reason Folders has no words for; the variable is the phone's answer code in hexadecimal.
-folders-remote-mtp-refused = ফোন এটি মানেনি (কোড { $code })।
+folders-remote-mtp-refused = ফোনে এটি কাজ করেনি (কোড { $code })।
 
 # Reason in red words ("Could not reach it: ...") when the phone is no longer plugged in.
 folders-remote-mtp-not-plugged = ফোনটি লাগানো নেই
@@ -28,7 +28,7 @@ folders-remote-mtp-what-phone = ফোন
 folders-remote-mtp-what-storage = ফোনের স্টোরেজ
 
 # Red words when a file from the phone was shorter than the phone said.
-folders-remote-mtp-shorter = ফাইলটি যতটা বড় বলা হয়েছিল তার চেয়ে ছোট ছিল।
+folders-remote-mtp-shorter = ফাইলটি তালিকায় দেওয়া আকারের চেয়ে ছোট ছিল।
 
 # Red words when something is put on a phone outside its storages.
 folders-remote-mtp-only-storage = ফাইল ও ফোল্ডার শুধু ফোনের কোনো একটি স্টোরেজের ভিতরে রাখা যায়।
@@ -49,8 +49,7 @@ folders-remote-mtp-remove-storage = পুরো স্টোরেজ সরা
 folders-remote-mtp-rename-storage = স্টোরেজের নাম বদলানো
 
 # Words shown when the phone is plugged in but shows no storage.
-folders-remote-mtp-no-storage = ফোনে কোনো স্টোরেজ দেখা যাচ্ছে না। ফোন আনলক করে "ফাইল ট্রান্সফার" বেছে নিন, তারপর আবার চেষ্টা করুন।
-
+folders-remote-mtp-no-storage = Folders ফোনে কোনো স্টোরেজ দেখতে পাচ্ছে না। ফোন আনলক করে "ফাইল ট্রান্সফার" বেছে নিন, তারপর আবার চেষ্টা করুন।
 
 # Name shown for a phone's storage that has no name of its own.
 folders-remote-mtp-storage-name = স্টোরেজ

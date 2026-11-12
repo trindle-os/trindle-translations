@@ -1,6 +1,18 @@
 
 # machine translated (Brazilian Portuguese), not yet reviewed by a person.
 
+
+
+
+
+
+
+
+
+
+
+
+
 # Name of the Folders action that installs a font.
 folders-icons-action-font = Instalar a fonte
 
@@ -18,4 +30,5 @@ folders-icons-action-turn-over = Virar de cabeça para baixo
 
 # Name of the Folders action that makes a smaller copy of a picture.
 folders-icons-action-resize = Redimensionar
+
 

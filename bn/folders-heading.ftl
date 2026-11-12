@@ -8,4 +8,4 @@ folders-heading-name = নাম
 folders-heading-spoken = কলামের শিরোনাম: { $names }
 
 # Red words under the file lines when the widths of the columns could not be saved; the reason follows.
-folders-heading-widths-not-kept = কলামের প্রস্থ পরের বারের জন্য রাখা যায়নি, কারণ { $why }।
+folders-heading-widths-not-kept = Folders পরের বারের জন্য কলামের প্রস্থ সংরক্ষণ করতে পারেনি: { $why }।

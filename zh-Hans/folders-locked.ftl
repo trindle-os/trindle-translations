@@ -13,10 +13,10 @@ folders-locked-password = 密码
 
 # SAFETY: needs a human review before it ships
 # Line under the password box before anything has been tried: says the password is not saved.
-folders-locked-kept-note = 仅在此压缩包打开期间保留，绝不保存。
+folders-locked-kept-note = 压缩包关闭时，Folders 会忘记它。
 
 # Words beside the spinning ring on the password card while a password is being tried.
-folders-locked-trying = 正在尝试
+folders-locked-trying = 正在尝试密码
 
 # SAFETY: needs a human review before it ships
 # Title of the password card; the variable is the archive's name.
@@ -34,5 +34,5 @@ folders-locked-is-locked = { $name } 已用密码锁定。
 folders-locked-open-again = { $name } 已用密码锁定。请再次打开它并输入密码。
 
 # Notice shown when a locked archive cannot be read whatever the password; the variables are the archive's name and the reason.
-folders-locked-could-not-read = 无法读取 { $name }：{ $why }。
+folders-locked-could-not-read = Folders 无法读取 { $name }：{ $why }。
 

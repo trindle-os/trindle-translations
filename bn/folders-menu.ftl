@@ -7,10 +7,10 @@ folders-menu-rename = নাম বদলান
 folders-menu-rename-them = নাম বদলান
 
 # Row of Folders' right-click menu (Install font), shown when one thing is picked.
-folders-menu-install-the-font-for-you = ফন্টটি ইনস্টল করুন
+folders-menu-install-the-font-for-you = শুধু আপনার জন্য ফন্টটি ইনস্টল করুন
 
 # Row of Folders' right-click menu (Install font), shown when several things are picked.
-folders-menu-install-the-fonts-for-you = ফন্টগুলো ইনস্টল করুন
+folders-menu-install-the-fonts-for-you = শুধু আপনার জন্য ফন্টগুলো ইনস্টল করুন
 
 # Row of Folders' right-click menu that does: Open.
 folders-menu-open = খুলুন
@@ -144,6 +144,7 @@ folders-menu-resize = মাপ বদলান
 # Row of Folders' right-click menu that does: Compare files.
 folders-menu-compare-the-two = দুটি তুলনা করুন
 
+
 # Row of Folders' right-click menu that does: Copy here.
 folders-menu-copy-here = এখানে কপি করুন
 
@@ -173,7 +174,7 @@ folders-menu-pin-to-the-ring = রিংয়ে পিন করুন
 folders-menu-sub-select = বাছাই
 
 # Row of Folders' right-click menu that opens a sub-menu of pack rows; the sub-menu is named for what is in it.
-folders-menu-sub-pack = প্যাক, পাঠানো ও শেয়ার
+folders-menu-sub-pack = কম্প্রেস, পাঠানো ও শেয়ার
 
 # Row of Folders' right-click menu that opens a sub-menu of picture rows; the sub-menu is named for what is in it.
 folders-menu-sub-picture = ছবি
@@ -182,10 +183,10 @@ folders-menu-sub-picture = ছবি
 folders-menu-sub-tools = টুল
 
 # Red words under the file lines when showing or hiding a column could not be saved.
-folders-menu-columns-not-saved = কলামগুলো সংরক্ষণ করা যায়নি।
+folders-menu-columns-not-saved = Folders কলামগুলো সংরক্ষণ করতে পারেনি।
 
 # Red words under the file lines when Open in a new window failed.
-folders-menu-no-new-window = নতুন উইন্ডো খোলা যায়নি।
+folders-menu-no-new-window = Folders নতুন উইন্ডো খুলতে পারেনি।
 
 # Words under the file lines after Copy location: one thing, or the number of things whose locations were copied.
 folders-menu-copied-location =
@@ -194,18 +195,19 @@ folders-menu-copied-location =
        *[other] { $n }টির অবস্থান কপি করা হয়েছে।
     }
 
+
 # Red words under the file lines when Open as administrator failed.
 # SAFETY: needs a human review before it ships
-folders-menu-no-admin-window = Folders অ্যাডমিনিস্ট্রেটর হিসেবে খোলা যায়নি।
+folders-menu-no-admin-window = Folders অ্যাডমিনিস্ট্রেটর হিসেবে একটি উইন্ডো খুলতে পারেনি।
 
 # Red words under the file lines when a picture cannot be the wallpaper; the name of the picture, then the reasons.
-folders-menu-wallpaper-refused = { $name } ওয়ালপেপার হতে পারে না: { $why }।
+folders-menu-wallpaper-refused = { $name } ওয়ালপেপার হিসেবে ব্যবহার করা যাবে না: { $why }।
 
 # Words under the file lines after a picture was set as the wallpaper.
 folders-menu-wallpaper-set = { $name } এখন ওয়ালপেপার।
 
 # Red words under the file lines when setting the wallpaper failed.
-folders-menu-wallpaper-failed = ওয়ালপেপার বদলানো যায়নি।
+folders-menu-wallpaper-failed = Folders ওয়ালপেপার বদলাতে পারেনি।
 
 # Name of the undo step after a link was made; shown where undo is offered.
 folders-menu-undo-link = { $name } তৈরি ফিরিয়ে নিন
@@ -214,29 +216,29 @@ folders-menu-undo-link = { $name } তৈরি ফিরিয়ে নিন
 folders-menu-link-made = { $name } তৈরি হয়েছে।
 
 # Red words under the file lines when a link could not be made; the reason follows.
-folders-menu-link-failed = লিংক তৈরি করা যায়নি: { $why }।
+folders-menu-link-failed = Folders লিংক তৈরি করতে পারেনি: { $why }।
 
 # Words under the file lines after a folder was shared with AI programs.
 # SAFETY: needs a human review before it ships
 folders-menu-ai-shared = { $name } AI প্রোগ্রামের সাথে শেয়ার করা হয়েছে।
 
 # Words under the file lines after a folder or file was taken off the ring.
-folders-menu-ring-off = { $name } রিং থেকে সরানো হয়েছে।
+folders-menu-ring-off = রিং থেকে { $name } আনপিন করা হয়েছে।
 
 # Words under the file lines after a folder or file was pinned to the ring.
-folders-menu-ring-pinned = { $name } রিংয়ে পিন করা হয়েছে। এটি প্রিয় অ্যাপগুলোর সাথে দেখা যায়।
+folders-menu-ring-pinned = { $name } রিংয়ে পিন করা হয়েছে, আপনার প্রিয় অ্যাপগুলোর পাশে।
 
 # Words under the file lines when the thing to pin is on the ring already.
 folders-menu-ring-already = { $name } আগেই রিংয়ে আছে।
 
 # Red words under the file lines when the ring has no room for another pin; the number is how many it holds.
-folders-menu-ring-full = রিংয়ের মাঝখানে { $n }টি ধরে এবং তা ভরে গেছে। জায়গা করতে একটি সরান।
+folders-menu-ring-full = রিং ভরে গেছে। এতে { $n }টি পিনের জায়গা আছে, তাই আগে একটি আনপিন করুন।
 
 # Red words under the file lines when a name cannot be written in the ring's list of favourites.
-folders-menu-ring-unkept = { $name } রিংয়ে রাখা যায় না: এর নামে এমন অক্ষর আছে যা তালিকা ধরে রাখতে পারে না।
+folders-menu-ring-unkept = Folders { $name } রিংয়ে পিন করতে পারে না, কারণ এর নামে এমন একটি অক্ষর আছে যা Folders সেখানে সংরক্ষণ করতে পারে না।
 
 # Red words under the file lines when the ring's favourites list could not be saved.
-folders-menu-ring-not-saved = রিংয়ের প্রিয় তালিকা সংরক্ষণ করা যায়নি।
+folders-menu-ring-not-saved = Folders রিংয়ের প্রিয় তালিকা সংরক্ষণ করতে পারেনি।
 
 # Name given to a new link to a file or folder; the name of the thing linked to follows.
 folders-menu-link-name = { $name }-এর লিংক

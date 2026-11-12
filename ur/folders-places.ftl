@@ -20,7 +20,7 @@ folders-places-trash = ردی دان
 folders-places-network = نیٹ ورک
 
 # Name on a tab of a search that has no words typed, only the choices beside the box.
-folders-places-found = ملا
+folders-places-found = تلاش کے نتائج
 
 # Name on a tab of a search for the words typed, which are in quotes.
 folders-places-found-text = “{ $text }”
@@ -35,4 +35,4 @@ folders-places-unread-denied = آپ کو یہ فولڈر کھولنے کی اج�
 folders-places-unread-gone = یہ فولڈر اب موجود نہیں ہے۔
 
 # Red words when a folder cannot be read for any other reason.
-folders-places-unread-other = یہ فولڈر پڑھا نہیں جا سکا۔
+folders-places-unread-other = Folders یہ فولڈر پڑھ نہیں سکا۔

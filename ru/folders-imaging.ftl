@@ -1,3 +1,4 @@
+
 # machine translated (Russian), not yet reviewed by a person.
 
 # Reason shown when a picture of a kind that cannot be turned is turned.
@@ -10,8 +11,7 @@ folders-imaging-unreadable = не удалось прочитать изобра
 folders-imaging-no-write = Folders не записывает изображения такого вида
 
 # Why a link to a picture is not turned.
-folders-imaging-no-turn-link = ссылка не поворачивается; поверните картинку, на которую она указывает
+folders-imaging-no-turn-link = это ссылка, поэтому поверните картинку, на которую она указывает
 
 # Why a moving picture is not turned.
-folders-imaging-no-turn-moving = анимированная картинка не поворачивается, так как сохранился бы только её первый кадр
-
+folders-imaging-no-turn-moving = анимация не поворачивается, так как сохранился бы только первый кадр

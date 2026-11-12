@@ -2,19 +2,19 @@
 # machine translated (Turkish), not yet reviewed by a person.
 
 # Words under the file lines when copy, cut or paste is tried on a server's files.
-folders-act-far-clip = Sunucudaki dosyalar için bölmeler arasındaki kopyala ve taşı düğmelerini kullanın.
+folders-act-far-clip = Sunucudaki dosyalarda kes, kopyala ve yapıştır çalışmaz. Bunun yerine bölmeler arasındaki kopyala ve taşı düğmelerini kullanın.
 
 # Words under the file lines when something is tried that would change what is inside an archive.
-folders-act-shut = Bir arşivin içindeki hiçbir şey burada değiştirilmez. Önce öğeleri dışarı çıkarın.
+folders-act-shut = Bir arşivin içindeki hiçbir şeyi değiştiremezsiniz. Önce ihtiyacınız olanları çıkarın.
 
 # Words on a finished job when files that another program cut were pasted: they are copied.
-folders-act-cut-elsewhere = Kopyalandı: başka bir uygulamada kesilmişti.
+folders-act-cut-elsewhere = Bunlar başka bir uygulamada kesilmişti, bu yüzden Folders onları kopyaladı.
 
 # Words under the file lines when something is picked that is already being copied or moved.
-folders-act-being-moved = Zaten kopyalanıyor veya taşınıyor.
+folders-act-being-moved = Bu zaten kopyalanıyor veya taşınıyor.
 
 # Words under the file lines when a copy that is not whole yet is picked.
-folders-act-arriving = Hâlâ geliyor.
+folders-act-arriving = Bu hâlâ buraya kopyalanıyor.
 
 # Part of the question about a name already taken: a folder that holds this many things or more.
 folders-act-holds-most = 10.000 öğe veya daha fazlası
@@ -112,7 +112,7 @@ folders-act-compressing = { $what } sıkıştırılıyor
 folders-act-compressed = { $file } dosyası { $place } konumunda oluşturuldu.
 
 # The word for what was tried, put in 'could not be ...' when packing failed.
-folders-act-verb-packed = paketleme
+folders-act-verb-packed = sıkıştırma
 
 # Tip of the Undo button after things were packed into an archive.
 folders-act-undo-compressing = { $what } sıkıştırmayı geri al
@@ -145,7 +145,7 @@ folders-act-verb-wiped = güvenli silme
 folders-act-taking-out = { $what } arşivden alınıyor
 
 # Words under the file lines when things were taken out of an archive: what, and where to.
-folders-act-took-out = { $what } { $place } konumuna alındı.
+folders-act-took-out = { $what } arşivden { $place } konumuna alındı.
 
 # The word for what was tried, put in 'could not be ...' when taking things out of an archive failed.
 folders-act-verb-taken-out = arşivden alma
@@ -181,22 +181,22 @@ folders-act-new-folder = Yeni klasör
 folders-act-new-document = Yeni belge
 
 # Red words when a new folder or document could not be made; its name, then the reason.
-folders-act-make-failed = { $base } oluşturulamadı: { $why }.
+folders-act-make-failed = Folders { $base } öğesini oluşturamadı: { $why }.
 
 # Red words under a name being typed when it is empty.
-folders-act-name-empty = Ad boş olamaz.
+folders-act-name-empty = Bir ad yazın.
 
 # Red words under a name being typed when it has a slash.
-folders-act-name-slash = Ad eğik çizgi içeremez.
+folders-act-name-slash = Ad içinde eğik çizgi olamaz.
 
 # Red words under a name being typed when it is . or ..
-folders-act-name-kept = Bu ad sistem için ayrılmıştır.
+folders-act-name-kept = Bu adı sistem kullanıyor. Başka bir ad seçin.
 
 # Red words under a name being typed when it is too long.
 folders-act-name-long = Bu ad çok uzun.
 
 # Red words under the file lines when a piece of work could not be started.
-folders-act-no-start = İş başlatılamadı.
+folders-act-no-start = Folders bu işi başlatamadı.
 
 # Tip of the Redo button after a step was undone; what the step was. Every undo and redo tip begins the same way.
 folders-act-redo-label = Yinele: { $what }
@@ -205,10 +205,13 @@ folders-act-redo-label = Yinele: { $what }
 folders-act-undo-label = Geri al: { $what }
 
 # Words under the file lines when work was stopped before it was done.
-folders-act-stopped = Yarıda durduruldu.
+folders-act-stopped = İş bitmeden durduruldu.
 
 # Words under the file lines when work finished but some things were skipped; what was done, then how many were skipped.
-folders-act-skipped = { $done } { $n } atlandı.
+folders-act-skipped = { $done } { $n ->
+        [one] Folders bir öğeyi atladı.
+       *[other] Folders { $n } öğeyi atladı.
+    }
 
 # Words under the file lines when an action needs something picked and nothing is.
 folders-act-pick-first = Önce bir şey seçin.
@@ -224,10 +227,10 @@ folders-act-far-trash = Sunucudaki dosyalar Çöp Kutusuna konulamaz. Bunun yeri
 folders-act-pick-copy-move = Önce kopyalanacak veya taşınacak bir şey seçin.
 
 # Words under the file lines when things from an archive are sent anywhere but a folder.
-folders-act-archive-out = Öğeler bir arşivden yalnızca bir klasöre çıkarılabilir.
+folders-act-archive-out = Öğeleri bir arşivden yalnızca bir klasöre çıkarabilirsiniz.
 
 # Words under the file lines when a copy is sent to the Trash.
-folders-act-copy-trash = Kopyalar Çöp Kutusuna konulamaz.
+folders-act-copy-trash = Öğeleri Çöp Kutusuna kopyalayamazsınız.
 
 # Words under the file lines when the copy or move button finds the other pane showing no folder.
 folders-act-other-pane = Diğer bölme bir klasör göstermiyor.
@@ -236,13 +239,13 @@ folders-act-other-pane = Diğer bölme bir klasör göstermiyor.
 folders-act-pick-copy = Önce kopyalanacak bir şey seçin.
 
 # Words under the file lines after Cut: what was cut.
-folders-act-cut-said = { $what } kesildi. Bir klasöre yapıştırın.
+folders-act-cut-said = { $what } kesildi.
 
 # Words under the file lines after Copy: what was copied.
-folders-act-copied-said = { $what } kopyalandı. Bir klasöre yapıştırın.
+folders-act-copied-said = { $what } kopyalandı.
 
 # Words under the file lines when Paste is used where there is no folder.
-folders-act-paste-folder = Öğeler yalnızca bir klasöre yapıştırılabilir.
+folders-act-paste-folder = Yalnızca bir klasöre yapıştırabilirsiniz.
 
 # Words under the file lines when Paste finds no files on the clipboard.
 folders-act-no-clip = Panoda dosya yok.
@@ -252,7 +255,7 @@ folders-act-nothing-cut = Hiçbir şey kesilmedi veya kopyalanmadı.
 
 # SAFETY: needs a human review before it ships
 # Words under the file lines when Delete is used on the Network list.
-folders-act-network-delete = Ağ konumları buradan silinemez.
+folders-act-network-delete = Ağ konumlarını buradan silemezsiniz.
 
 # Words under the file lines when Empty the Trash is used on an empty Trash.
 folders-act-trash-empty = Çöp Kutusu zaten boş.
@@ -264,16 +267,16 @@ folders-act-pick-trash = Önce Çöp Kutusunda bir şey seçin.
 folders-act-new-numbered = { $base } { $n }
 
 # Words under the file lines while a new folder or document is made on a server.
-folders-act-making = { $name } oluşturuluyor.
+folders-act-making = { $name } oluşturuluyor
 
 # Words under the file lines when New folder or New document is used where there is no folder.
-folders-act-make-folder-only = Yeni öğeler yalnızca bir klasörde oluşturulabilir.
+folders-act-make-folder-only = Yeni bir klasörü ya da belgeyi yalnızca bir klasörün içinde oluşturabilirsiniz.
 
 # Tip of the Undo button after a folder, document or link was made.
 folders-act-undo-making = { $name } oluşturmayı geri al
 
-# Red words under the file lines when folder colours and emblems could not follow things that were moved.
-folders-act-colours-lost = Renkler taşınanlarla birlikte gidemedi.
+# Red words under the file lines when folder colours could not follow things that were moved.
+folders-act-colours-lost = Folders taşıdığı öğelerdeki klasör renklerini koruyamadı.
 
 # Words under the file lines when Redo is used and there is nothing to redo.
 folders-act-nothing-redo = Yinelenecek bir şey yok.
@@ -303,7 +306,7 @@ folders-act-place-home = Ev
 folders-act-place-trash = Çöp Kutusu
 
 # Words under the file lines when things are dropped somewhere that takes nothing.
-folders-act-drop-only = Öğeler yalnızca bir klasöre veya Çöp Kutusuna bırakılabilir.
+folders-act-drop-only = Öğeleri yalnızca bir klasörün ya da Çöp Kutusunun üzerine bırakabilirsiniz.
 
 # Names how many links were made, inside the words about making them.
 folders-act-links =
@@ -323,8 +326,7 @@ folders-act-links-failed =
     }
 
 # Words under the file lines when the window is closed while work waits for an answer.
-folders-act-closing-waits = Bazı işler bir yanıt bekliyor. Kapatmadan önce yanıtlayın ya da işi durdurun.
+folders-act-closing-waits = Yanıt bekleyen bir soru var. Folders'ı kapatmadan önce yanıtlayın ya da işi durdurun.
 
 # Words under the file lines when the window is closed while work goes on.
-folders-act-closing-busy = Aktarım bitmeden klasör penceresi kapatılamaz. Bitmesini bekleyin ya da durdurun, sonra kapatın.
-
+folders-act-closing-busy = Bir iş çalışırken Folders kapatılamaz. Bitmesini bekleyin ya da durdurun, sonra Folders'ı kapatın.

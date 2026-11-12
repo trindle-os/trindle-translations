@@ -10,19 +10,19 @@ folders-dialogs-home = होम
 folders-dialogs-open-with-title = { $name } को इससे खोलें
 
 # Small line beside the app that opens the file now, in the Open with list.
-folders-dialogs-opens-now = इसे अभी खोलता है
+folders-dialogs-opens-now = मौजूदा ऐप
 
 # Note in the Open with window when no app says it opens this kind of file.
-folders-dialogs-no-apps = इस कंप्यूटर पर कोई ऐप इस तरह की फ़ाइल खोलने का दावा नहीं करता।
+folders-dialogs-no-apps = इस कंप्यूटर पर कोई ऐप इस तरह की फ़ाइल खोलने के लिए सेट नहीं है।
 
 # Name of the switch in the Open with window that makes the chosen app the usual one for this kind of file.
-folders-dialogs-always-use = हमेशा यही इस्तेमाल करें
+folders-dialogs-always-use = हमेशा यही ऐप इस्तेमाल करें
 
 # Line under the Always use it switch; the kind of file, such as text/plain.
-folders-dialogs-always-sub = हर { $kind } फ़ाइल के लिए।
+folders-dialogs-always-sub = हर { $kind } फ़ाइल के लिए इसका इस्तेमाल करें।
 
 # Tip and spoken name of the Always use it switch.
-folders-dialogs-always-tip = इस तरह की फ़ाइलों के लिए इसे सामान्य ऐप बनाएँ
+folders-dialogs-always-tip = इसे डिफ़ॉल्ट ऐप बनाएँ
 
 # Tip of the round button in the Open with window that shows only the apps that suit the file.
 folders-dialogs-show-suggested = केवल सुझाए गए ऐप दिखाएँ
@@ -34,19 +34,19 @@ folders-dialogs-show-every = सभी ऐप दिखाएँ
 folders-dialogs-open = खोलें
 
 # Red words when Open is pressed in the Open with window and no app is chosen.
-folders-dialogs-choose-app = इसे खोलने के लिए कोई ऐप चुनें।
+folders-dialogs-choose-app = पहले कोई ऐप चुनें।
 
 # Red words when the chosen app could not be made the usual app; the app's name.
-folders-dialogs-usual-failed = { $name } को सामान्य ऐप नहीं बनाया जा सका।
+folders-dialogs-usual-failed = Folders { $name } को डिफ़ॉल्ट ऐप नहीं बना सका।
 
 # Red words when the chosen app could not be started; the app's name.
-folders-dialogs-start-failed = { $name } शुरू नहीं हो सका।
+folders-dialogs-start-failed = Folders { $name } शुरू नहीं कर सका।
 
 # Heading of the Properties window.
 folders-dialogs-properties = गुण
 
 # Spoken name of the choice of pages at the top of the Properties window.
-folders-dialogs-properties-pages = गुण का भाग
+folders-dialogs-properties-pages = गुण पृष्ठ
 
 # Name of the first page of Properties, with the name, kind, size and place.
 folders-dialogs-page-general = सामान्य
@@ -56,6 +56,8 @@ folders-dialogs-page-details = ब्योरा
 
 # Name of the page of Properties for sharing a folder on the home network.
 folders-dialogs-page-sharing = साझा करना
+
+
 
 # Label in Properties of the name of the file or folder.
 folders-dialogs-row-name = नाम
@@ -76,7 +78,7 @@ folders-dialogs-row-changed = बदला गया
 folders-dialogs-row-owner = स्वामी
 
 # Label in Properties of who may open and change the item.
-folders-dialogs-row-rights = अधिकार
+folders-dialogs-row-rights = अनुमतियाँ
 
 # Label in Properties of the size of the item.
 folders-dialogs-row-size = आकार
@@ -91,10 +93,10 @@ folders-dialogs-kind-with-name = { $words } ({ $kind })
 folders-dialogs-rights-open-change = { $letters }, आप इसे खोल और बदल सकते हैं
 
 # Rights shown in Properties: the letters such as r--r--r--, then what the person can do; when the person can open it but not change it.
-folders-dialogs-rights-open-only = { $letters }, आप इसे खोल सकते हैं, बदल नहीं सकते
+folders-dialogs-rights-open-only = { $letters }, आप इसे खोल सकते हैं पर बदल नहीं सकते
 
 # Rights shown in Properties: the letters, then what the person can do; when the person can change it but not open it.
-folders-dialogs-rights-change-only = { $letters }, आप इसे बदल सकते हैं, खोल नहीं सकते
+folders-dialogs-rights-change-only = { $letters }, आप इसे बदल सकते हैं पर खोल नहीं सकते
 
 # Rights shown in Properties: the letters such as rwx------, then what the person can do; when the person cannot open it.
 folders-dialogs-rights-none = { $letters }, आप इसे नहीं खोल सकते
@@ -113,7 +115,7 @@ folders-dialogs-size =
     }
 
 # Size shown in Properties before the first count comes in.
-folders-dialogs-size-adding = जोड़ा जा रहा है
+folders-dialogs-size-adding = आकार निकाला जा रहा है
 
 # Label in Properties of the row about checksums.
 folders-dialogs-checksums = चेकसम
@@ -122,13 +124,13 @@ folders-dialogs-checksums = चेकसम
 folders-dialogs-sums-work-out = चेकसम निकालें
 
 # Words beside the ring while a file's checksums are being worked out.
-folders-dialogs-sums-working = निकाले जा रहे हैं
+folders-dialogs-sums-working = चेकसम निकाले जा रहे हैं
 
 # Red words in Properties when a file's checksums could not be worked out.
-folders-dialogs-sums-failed = फ़ाइल पढ़ी नहीं जा सकी
+folders-dialogs-sums-failed = Folders फ़ाइल पढ़ नहीं सका।
 
 # Placeholder of the box in Properties where a checksum is pasted to check the file against.
-folders-dialogs-sums-paste = जाँचने के लिए चेकसम चिपकाएँ
+folders-dialogs-sums-paste = तुलना करने के लिए चेकसम चिपकाएँ
 
 # Words beside the checksum box when the pasted checksum matches; the name of the checksum such as SHA-256.
 folders-dialogs-sums-matches = { $kind } मेल खाता है
@@ -139,6 +141,7 @@ folders-dialogs-sums-no-match = मेल नहीं खाता
 # Label in Properties of the row with the box to check a checksum.
 folders-dialogs-sums-check = जाँचें
 
+
 # Heading of the Send to window: the name of the one item being sent, or how many items.
 folders-dialogs-send-title =
     { $n ->
@@ -147,7 +150,7 @@ folders-dialogs-send-title =
     }
 
 # Note in the Send to window saying what sending does.
-folders-dialogs-send-note = वहाँ एक प्रति बनती है; आइटम अपनी जगह पर ही रहते हैं।
+folders-dialogs-send-note = इससे वहाँ एक प्रति बनती है। मूल चीज़ें अपनी जगह पर ही रहती हैं।
 
 # Name of the place in the Send to list that is the folder open in the other pane; the folder's name.
 folders-dialogs-send-other = दूसरा पैन, { $name }
@@ -156,7 +159,7 @@ folders-dialogs-send-other = दूसरा पैन, { $name }
 folders-dialogs-columns-title = सूची दृश्य के कॉलम
 
 # Note in the Columns window.
-folders-dialogs-columns-note = नाम हमेशा दिखता है। जो कॉलम उसके साथ नहीं समाते, वे पैन चौड़ा होने तक छोड़ दिए जाते हैं।
+folders-dialogs-columns-note = नाम हमेशा दिखता है। जो कॉलम समा नहीं पाते, वे पैनल चौड़ा होने तक छिपे रहते हैं।
 
 # Heading over the columns that suit every file.
 folders-dialogs-columns-files = फ़ाइलें
@@ -168,7 +171,7 @@ folders-dialogs-columns-media = संगीत, फ़ोटो, PDF
 folders-dialogs-columns-show = { $name } दिखाएँ
 
 # Red words when the choice of columns could not be saved.
-folders-dialogs-columns-failed = कॉलम सहेजे नहीं जा सके।
+folders-dialogs-columns-failed = Folders कॉलम सहेज नहीं सका।
 
 # Heading of the Folder colour window: the name of the one folder, or how many folders.
 folders-dialogs-colour-title =
@@ -178,16 +181,19 @@ folders-dialogs-colour-title =
     }
 
 # Tip of the round button, and the note beside it, in the Folder colour window that takes the colour away.
-folders-dialogs-colour-none = अपना कोई रंग नहीं
+folders-dialogs-colour-none = कोई रंग नहीं
 
 # Red words when the folder colour could not be saved.
-folders-dialogs-colour-failed = फ़ोल्डर का रंग सहेजा नहीं जा सका।
+folders-dialogs-colour-failed = Folders फ़ोल्डर का रंग सहेज नहीं सका।
 
-folders-dialogs-no-match = किसी ऐप के नाम में ये शब्द नहीं हैं।
+
+folders-dialogs-no-match = इन शब्दों से कोई ऐप मेल नहीं खाता।
+
 
 folders-dialogs-find-app = ऐप खोजें
 
+
 folders-dialogs-find-place = जगह खोजें
 
-folders-dialogs-no-match-place = किसी जगह के नाम में ये शब्द नहीं हैं।
 
+folders-dialogs-no-match-place = इन शब्दों से कोई जगह मेल नहीं खाती।

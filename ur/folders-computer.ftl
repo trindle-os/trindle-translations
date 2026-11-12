@@ -2,10 +2,10 @@
 # machine translated (Urdu), not yet reviewed by a person.
 
 # Under a card's name on the Storage page: the disk the system is on.
-folders-computer-kind-system = اس کمپیوٹر کی ڈسک
+folders-computer-kind-system = سسٹم ڈسک
 
 # Under a card's name on the Storage page: another fixed disk inside the computer.
-folders-computer-kind-inside = اس کمپیوٹر میں ایک ڈسک
+folders-computer-kind-inside = اندرونی ڈسک
 
 # Under a card's name on the Storage page: a USB drive that is plugged in.
 folders-computer-kind-usb = USB ڈرائیو
@@ -32,10 +32,10 @@ folders-computer-name-on = { $name } بر { $drive }
 folders-computer-free-of = { $all } میں سے { $free } خالی
 
 # Under a card's bar on the Storage page when the drive is almost full; the line that follows says how much is free.
-folders-computer-almost-full = تقریباً بھری ہوئی: { $said }
+folders-computer-almost-full = بھرنے کے بالکل قریب: { $said }
 
 # Under a card's bar on the Storage page when the drive is nearly full; the line that follows says how much is free.
-folders-computer-nearly-full = تقریباً بھر چکی: { $said }
+folders-computer-nearly-full = بھرتی جا رہی ہے: { $said }
 
 # Under a card's bar on the Storage page: a locked drive whose size is not known.
 folders-computer-locked = مقفل
@@ -44,13 +44,13 @@ folders-computer-locked = مقفل
 folders-computer-locked-size = مقفل، { $size }
 
 # Under a card's bar on the Storage page: what a phone or tablet card invites the person to do.
-folders-computer-phone-hint = اس میں کیا ہے دیکھنے کے لیے کھولیں
+folders-computer-phone-hint = اس کی فائلیں دیکھنے کے لیے کھولیں
 
 # Under a card's bar on the Storage page: a drive that is not mounted and whose size is not known.
-folders-computer-not-mounted = ماؤنٹ نہیں ہے
+folders-computer-not-mounted = ابھی کھولی نہیں گئی
 
 # Under a card's bar on the Storage page: a drive that is not mounted and its size.
-folders-computer-not-mounted-size = ماؤنٹ نہیں ہے، { $size }
+folders-computer-not-mounted-size = ابھی کھولی نہیں گئی، { $size }
 
 # Line at the foot of the Storage page: how many drives it holds.
 folders-computer-drive-count =
@@ -67,7 +67,7 @@ folders-computer-open = { $name } کھولیں
 folders-computer-unlock = { $name } کو کھولیں (انلاک کریں) اور اسے کھولیں
 
 # Tip and name of the round button on a Storage card that mounts a drive and opens it.
-folders-computer-mount = { $name } کو ماؤنٹ کریں اور کھولیں
+folders-computer-mount = { $name } کھولیں
 
 # Tip and name of the round button on a Storage card for a network share that closes the share.
 folders-computer-close = { $name } بند کریں

@@ -19,7 +19,7 @@ folders-progress-pace-wait =
 folders-progress-line = { $doing }: { $how }
 
 # The same with the words about the disk added; { $line } is the line above, { $heavy } the words about the disk.
-folders-progress-line-heavy = { $line } { $heavy }
+folders-progress-line-heavy = { $line }. { $heavy }
 
 # A speed or size in bytes; { $n } is the figure.
 folders-progress-speed-bytes = { $n } byte
@@ -66,8 +66,8 @@ folders-progress-more =
 # End of the line of a copy or move row; { $verb } is moving or copying.
 folders-progress-heavy =
     { $verb ->
-        [moving] Memindahkan memakai disk dengan berat, jadi program lain mungkin terasa lebih lambat sampai selesai.
-       *[copying] Menyalin memakai disk dengan berat, jadi program lain mungkin terasa lebih lambat sampai selesai.
+        [moving] Memindahkan membuat disk sibuk, jadi program lain mungkin lebih lambat sampai selesai.
+       *[copying] Menyalin membuat disk sibuk, jadi program lain mungkin lebih lambat sampai selesai.
     }
 
 # End of a piece of work's line while it waits for the person's answer.
@@ -87,7 +87,7 @@ folders-progress-pause = Jeda
 folders-progress-stop = Hentikan
 
 # Under a file or folder in the name taken question: it is newer than the other and larger.
-folders-progress-mark-newer-larger = lebih baru, lebih besar
+folders-progress-mark-newer-larger = lebih baru dan lebih besar
 
 # Under a file or folder in the name taken question: it is newer than the other.
 folders-progress-mark-newer = lebih baru
@@ -107,7 +107,7 @@ folders-progress-taken =
     }
 
 # Heading over the file or folder that is being brought, in the name taken question.
-folders-progress-coming = Yang sedang dibawa
+folders-progress-coming = Yang baru
 
 # Heading over the file or folder that is already there, in the name taken question.
 folders-progress-there = Yang sudah ada di sana
@@ -124,17 +124,17 @@ folders-progress-replace = Ganti
 
 # Screen reader name of the Replace button for a folder in the name taken question.
 # SAFETY: needs a human review before it ships
-folders-progress-replace-folder-spoken = Ganti: folder yang sudah ada dipindahkan ke Tempat sampah
+folders-progress-replace-folder-spoken = Ganti, dan pindahkan folder yang sudah ada ke Tempat sampah
 
 # Main button of the name taken question for a folder: join the two folders.
 # SAFETY: needs a human review before it ships
 folders-progress-merge = Gabungkan
 
 # Line over the switch in the name taken question for folders.
-folders-progress-all-folders = Jawaban yang sama untuk setiap folder yang sudah ada.
+folders-progress-all-folders = Gunakan jawaban ini untuk setiap folder yang sudah ada.
 
 # Line over the switch in the name taken question for files.
-folders-progress-all-files = Jawaban yang sama untuk setiap file yang sudah ada.
+folders-progress-all-files = Gunakan jawaban ini untuk setiap file yang sudah ada.
 
 # Name and tip of the switch in the name taken question that uses the answer for the rest.
 folders-progress-same-for-rest = Lakukan hal yang sama untuk sisanya

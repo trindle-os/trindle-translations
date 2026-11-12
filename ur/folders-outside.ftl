@@ -8,7 +8,7 @@ folders-outside-wary-hidden = چھپا ہوا ہے، یا چھپے فولڈر م
 folders-outside-wary-holds = اس میں چھپی چیزیں ہیں
 
 # Reason beside a dropped folder in the question card: it holds too much to look through beforehand.
-folders-outside-wary-deep = اس میں اتنا کچھ ہے کہ دیکھا نہیں جا سکتا، اس لیے اس کی چھپی چیزیں نہیں لائی گئیں
+folders-outside-wary-deep = اس میں جانچنے کے لیے بہت زیادہ چیزیں ہیں، اس لیے Folders اس کی چھپی چیزیں چھوڑ دے گا
 
 # Reason beside a dropped thing in the question card: it is outside the person's home folder and drives.
 folders-outside-wary-system = آپ کے ہوم فولڈر اور ڈرائیوز سے باہر ہے
@@ -43,22 +43,22 @@ folders-outside-title-copy =
 # Words on the question card when the drop would be moved: why it is asked.
 folders-outside-body-move =
     { $n ->
-        [one] کسی اور پروگرام نے اسے فولڈرز پر گرایا اور اس کا نام خود رکھا۔ کوئی بھی پروگرام کسی بھی فائل کا نام رکھ سکتا ہے، اور یہاں جو نام آیا وہ ضروری نہیں آپ کی عام فائلیں ہوں، اس لیے آپ کے کہنے تک کچھ منتقل نہیں ہوتا۔
-       *[other] کسی اور پروگرام نے انہیں فولڈرز پر گرایا اور ان کے نام خود رکھے۔ کوئی بھی پروگرام کسی بھی فائل کا نام رکھ سکتا ہے، اور یہاں جو نام آئے وہ ضروری نہیں آپ کی عام فائلیں ہوں، اس لیے آپ کے کہنے تک کچھ منتقل نہیں ہوتا۔
+        [one] کسی اور پروگرام نے اسے Folders پر گرایا ہے۔ کوئی بھی پروگرام کوئی بھی فائل گرا سکتا ہے، اور یہ آپ کی عام فائلوں میں سے نہیں ہے۔ جب تک آپ نہ کہیں Folders اسے منتقل نہیں کرے گا۔
+       *[other] کسی اور پروگرام نے انہیں Folders پر گرایا ہے۔ کوئی بھی پروگرام کوئی بھی فائل گرا سکتا ہے، اور ان میں سے کچھ آپ کی عام فائلیں نہیں ہیں۔ جب تک آپ نہ کہیں Folders انہیں منتقل نہیں کرے گا۔
     }
 
 # Words on the question card when the drop would be brought: why it is asked.
 folders-outside-body-bring =
     { $n ->
-        [one] کسی اور پروگرام نے اسے فولڈرز پر گرایا اور اس کا نام خود رکھا۔ کوئی بھی پروگرام کسی بھی فائل کا نام رکھ سکتا ہے، اور یہاں جو نام آیا وہ ضروری نہیں آپ کی عام فائلیں ہوں، اس لیے آپ کے کہنے تک کچھ لایا نہیں جاتا۔
-       *[other] کسی اور پروگرام نے انہیں فولڈرز پر گرایا اور ان کے نام خود رکھے۔ کوئی بھی پروگرام کسی بھی فائل کا نام رکھ سکتا ہے، اور یہاں جو نام آئے وہ ضروری نہیں آپ کی عام فائلیں ہوں، اس لیے آپ کے کہنے تک کچھ لایا نہیں جاتا۔
+        [one] کسی اور پروگرام نے اسے Folders پر گرایا ہے۔ کوئی بھی پروگرام کوئی بھی فائل گرا سکتا ہے، اور یہ آپ کی عام فائلوں میں سے نہیں ہے۔ جب تک آپ نہ کہیں Folders اسے یہاں نہیں لائے گا۔
+       *[other] کسی اور پروگرام نے انہیں Folders پر گرایا ہے۔ کوئی بھی پروگرام کوئی بھی فائل گرا سکتا ہے، اور ان میں سے کچھ آپ کی عام فائلیں نہیں ہیں۔ جب تک آپ نہ کہیں Folders انہیں یہاں نہیں لائے گا۔
     }
 
 # Words on the question card when the drop would be copied: why it is asked.
 folders-outside-body-copy =
     { $n ->
-        [one] کسی اور پروگرام نے اسے فولڈرز پر گرایا اور اس کا نام خود رکھا۔ کوئی بھی پروگرام کسی بھی فائل کا نام رکھ سکتا ہے، اور یہاں جو نام آیا وہ ضروری نہیں آپ کی عام فائلیں ہوں، اس لیے آپ کے کہنے تک کچھ کاپی نہیں ہوتا۔
-       *[other] کسی اور پروگرام نے انہیں فولڈرز پر گرایا اور ان کے نام خود رکھے۔ کوئی بھی پروگرام کسی بھی فائل کا نام رکھ سکتا ہے، اور یہاں جو نام آئے وہ ضروری نہیں آپ کی عام فائلیں ہوں، اس لیے آپ کے کہنے تک کچھ کاپی نہیں ہوتا۔
+        [one] کسی اور پروگرام نے اسے Folders پر گرایا ہے۔ کوئی بھی پروگرام کوئی بھی فائل گرا سکتا ہے، اور یہ آپ کی عام فائلوں میں سے نہیں ہے۔ جب تک آپ نہ کہیں Folders اس کی نقل نہیں بنائے گا۔
+       *[other] کسی اور پروگرام نے انہیں Folders پر گرایا ہے۔ کوئی بھی پروگرام کوئی بھی فائل گرا سکتا ہے، اور ان میں سے کچھ آپ کی عام فائلیں نہیں ہیں۔ جب تک آپ نہ کہیں Folders ان کی نقل نہیں بنائے گا۔
     }
 
 # Tip of the round close button, and name of the main button, on the question card: leave what was dropped alone.
@@ -102,10 +102,10 @@ folders-outside-more = اور { $n } مزید۔
 folders-outside-into = { $into } میں۔
 
 # Red words when something is dropped while the question card is still up.
-folders-outside-answer-first = پہلے اس سوال کا جواب دیں جو گرائی گئی چیزوں کے بارے میں ہے۔
+folders-outside-answer-first = پہلے اس سوال کا جواب دیں جو آپ کی گرائی گئی چیزوں کے بارے میں ہے۔
 
 # Red words when something is dropped while the last drop is still being looked at.
-folders-outside-still-looking = آخری گرائی گئی چیز کو ابھی دیکھا جا رہا ہے۔
+folders-outside-still-looking = Folders ابھی آپ کی گرائی ہوئی آخری چیز کو جانچ رہا ہے۔
 
 # Red words when text, not files, is dropped on Folders.
 folders-outside-only-files = یہاں صرف فائلیں اور فولڈر گرائے جا سکتے ہیں۔
@@ -117,19 +117,19 @@ folders-outside-only-folders-pin = سائیڈ بار میں صرف فولڈر پ
 folders-outside-only-on-folder = چیزیں صرف فولڈر پر گرائی جا سکتی ہیں۔
 
 # Red words when a dropped thing is no longer there; its name.
-folders-outside-gone = { $name } وہاں نہیں ہے، اس لیے کچھ نہیں لایا گیا۔
+folders-outside-gone = { $name } اب وہاں نہیں ہے، اس لیے کچھ نقل یا منتقل نہیں ہوا۔
 
 # Red words when a folder is dropped into itself.
-folders-outside-inside-itself = فولڈر کو اسی کے اندر نہیں رکھا جا سکتا۔
+folders-outside-inside-itself = آپ فولڈر کو اسی کے اندر نہیں رکھ سکتے۔
 
 # Words when things are dragged into the folder they are already in.
 folders-outside-already-there = وہ پہلے سے اسی فولڈر میں ہیں۔
 
 # Red words when the place a drop is in does not answer in time; the name of the dropped thing.
-folders-outside-not-answering = جس جگہ { $name } ہے وہ جواب نہیں دے رہی، اس لیے کچھ نہیں لایا گیا۔
+folders-outside-not-answering = Folders وقت پر اس ڈرائیو تک نہیں پہنچ سکا جس پر { $name } ہے، اس لیے کچھ نقل یا منتقل نہیں ہوا۔
 
 # Words when the question card is answered with no.
-folders-outside-nothing-brought = کچھ نہیں لایا گیا۔
+folders-outside-nothing-brought = کچھ نقل یا منتقل نہیں ہوا۔
 
 # Name on the picture dragged out of Folders when several items are dragged to another program.
 folders-outside-items-dragged =
@@ -147,8 +147,8 @@ folders-outside-stayed-one = { $name } { $why }۔
 # Red words when several dragged things changed after they were picked up, so they stayed; the count and their names.
 folders-outside-stayed-changed =
     { $n ->
-        [one] { $n } چیز اٹھانے کے بعد بدل گئی، اس لیے وہ وہیں ہے جہاں تھی: { $names }۔
-       *[other] { $n } چیزیں اٹھانے کے بعد بدل گئیں، اس لیے وہ وہیں ہیں جہاں تھیں: { $names }۔
+        [one] { $n } چیز گھسیٹنا شروع کرنے کے بعد بدل گئی، اس لیے Folders نے اسے وہیں چھوڑ دیا جہاں وہ تھی: { $names }۔
+       *[other] { $n } چیزیں گھسیٹنا شروع کرنے کے بعد بدل گئیں، اس لیے Folders نے انہیں وہیں چھوڑ دیا جہاں وہ تھیں: { $names }۔
     }
 
 # Red words when several dragged things stayed for different reasons; the count and each name with its reason.
@@ -165,12 +165,12 @@ folders-outside-stayed-each = { $name } ({ $why })
 folders-outside-both = { $first } { $second }
 
 # Red words when the other program took a move in a way that cannot show it read all of it.
-folders-outside-unshown = دوسرے پروگرام نے گھسیٹی گئی چیزیں ایسے طریقے سے لیں جس سے ظاہر نہیں ہوتا کہ اس نے سب پڑھ لیں، اس لیے یہاں کچھ منتقل نہیں ہوا: اس کے پاس نقل ہے۔
+folders-outside-unshown = Folders نہیں جان سکتا کہ دوسرے پروگرام کو آپ کی گھسیٹی ہوئی سب چیزیں ملیں یا نہیں، اس لیے اس نے اصل چیزیں یہیں رہنے دیں۔ دوسرے پروگرام کے پاس نقل ہے۔
 
 # Red words when the other program did not take all of a drag that was a move.
-folders-outside-short-move = دوسرے پروگرام نے گھسیٹی گئی سب چیزیں نہیں لیں، اس لیے یہاں کچھ منتقل نہیں ہوا۔
+folders-outside-short-move = دوسرے پروگرام نے آپ کی گھسیٹی ہوئی سب چیزیں نہیں لیں، اس لیے Folders نے کچھ منتقل نہیں کیا۔
 
 # Red words when the other program did not take all of a drag that was a copy.
-folders-outside-short-copy = دوسرے پروگرام نے گھسیٹی گئی سب چیزیں نہیں لیں، اس لیے ہو سکتا ہے اس کے پاس سب نہ ہوں۔
+folders-outside-short-copy = دوسرے پروگرام نے آپ کی گھسیٹی ہوئی سب چیزیں نہیں لیں، اس لیے اس کی نقل ادھوری ہو سکتی ہے۔
 
 

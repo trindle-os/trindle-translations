@@ -11,7 +11,7 @@ folders-outside-wary-holds = contient des éléments cachés
 
 # SAFETY: needs a human review before it ships
 # Reason beside a dropped folder in the question card: it holds too much to look through beforehand.
-folders-outside-wary-deep = contient trop d’éléments pour être examiné, donc ses éléments cachés ne sont pas apportés
+folders-outside-wary-deep = contient trop d’éléments pour être vérifié, donc Folders laissera de côté ses éléments cachés
 
 # SAFETY: needs a human review before it ships
 # Reason beside a dropped thing in the question card: it is outside the person's home folder and drives.
@@ -56,27 +56,27 @@ folders-outside-title-copy =
 # Words on the question card when the drop would be moved: why it is asked.
 folders-outside-body-move =
     { $n ->
-        [one] Un autre programme l’a déposé sur Dossiers et l’a nommé lui-même. Tout programme peut nommer n’importe quel fichier, et ce qui est nommé ici n’est pas toujours un fichier ordinaire à vous, donc rien n’est déplacé sans votre accord.
-        [many] Un autre programme les a déposés sur Dossiers et les a nommés lui-même. Tout programme peut nommer n’importe quel fichier, et ce qui est nommé ici n’est pas toujours un fichier ordinaire à vous, donc rien n’est déplacé sans votre accord.
-       *[other] Un autre programme les a déposés sur Dossiers et les a nommés lui-même. Tout programme peut nommer n’importe quel fichier, et ce qui est nommé ici n’est pas toujours un fichier ordinaire à vous, donc rien n’est déplacé sans votre accord.
+        [one] Un autre programme a déposé cet élément sur Folders. N’importe quel programme peut déposer n’importe quel fichier, et ceci n’est pas l’un de vos fichiers ordinaires. Folders ne le déplacera pas tant que vous ne l’aurez pas demandé.
+        [many] Un autre programme a déposé ces éléments sur Folders. N’importe quel programme peut déposer n’importe quel fichier, et certains d’entre eux ne sont pas vos fichiers ordinaires. Folders ne les déplacera pas tant que vous ne l’aurez pas demandé.
+       *[other] Un autre programme a déposé ces éléments sur Folders. N’importe quel programme peut déposer n’importe quel fichier, et certains d’entre eux ne sont pas vos fichiers ordinaires. Folders ne les déplacera pas tant que vous ne l’aurez pas demandé.
     }
 
 # SAFETY: needs a human review before it ships
 # Words on the question card when the drop would be brought: why it is asked.
 folders-outside-body-bring =
     { $n ->
-        [one] Un autre programme l’a déposé sur Dossiers et l’a nommé lui-même. Tout programme peut nommer n’importe quel fichier, et ce qui est nommé ici n’est pas toujours un fichier ordinaire à vous, donc rien n’est apporté sans votre accord.
-        [many] Un autre programme les a déposés sur Dossiers et les a nommés lui-même. Tout programme peut nommer n’importe quel fichier, et ce qui est nommé ici n’est pas toujours un fichier ordinaire à vous, donc rien n’est apporté sans votre accord.
-       *[other] Un autre programme les a déposés sur Dossiers et les a nommés lui-même. Tout programme peut nommer n’importe quel fichier, et ce qui est nommé ici n’est pas toujours un fichier ordinaire à vous, donc rien n’est apporté sans votre accord.
+        [one] Un autre programme a déposé cet élément sur Folders. N’importe quel programme peut déposer n’importe quel fichier, et ceci n’est pas l’un de vos fichiers ordinaires. Folders ne l’apportera pas ici tant que vous ne l’aurez pas demandé.
+        [many] Un autre programme a déposé ces éléments sur Folders. N’importe quel programme peut déposer n’importe quel fichier, et certains d’entre eux ne sont pas vos fichiers ordinaires. Folders ne les apportera pas ici tant que vous ne l’aurez pas demandé.
+       *[other] Un autre programme a déposé ces éléments sur Folders. N’importe quel programme peut déposer n’importe quel fichier, et certains d’entre eux ne sont pas vos fichiers ordinaires. Folders ne les apportera pas ici tant que vous ne l’aurez pas demandé.
     }
 
 # SAFETY: needs a human review before it ships
 # Words on the question card when the drop would be copied: why it is asked.
 folders-outside-body-copy =
     { $n ->
-        [one] Un autre programme l’a déposé sur Dossiers et l’a nommé lui-même. Tout programme peut nommer n’importe quel fichier, et ce qui est nommé ici n’est pas toujours un fichier ordinaire à vous, donc rien n’est copié sans votre accord.
-        [many] Un autre programme les a déposés sur Dossiers et les a nommés lui-même. Tout programme peut nommer n’importe quel fichier, et ce qui est nommé ici n’est pas toujours un fichier ordinaire à vous, donc rien n’est copié sans votre accord.
-       *[other] Un autre programme les a déposés sur Dossiers et les a nommés lui-même. Tout programme peut nommer n’importe quel fichier, et ce qui est nommé ici n’est pas toujours un fichier ordinaire à vous, donc rien n’est copié sans votre accord.
+        [one] Un autre programme a déposé cet élément sur Folders. N’importe quel programme peut déposer n’importe quel fichier, et ceci n’est pas l’un de vos fichiers ordinaires. Folders ne le copiera pas tant que vous ne l’aurez pas demandé.
+        [many] Un autre programme a déposé ces éléments sur Folders. N’importe quel programme peut déposer n’importe quel fichier, et certains d’entre eux ne sont pas vos fichiers ordinaires. Folders ne les copiera pas tant que vous ne l’aurez pas demandé.
+       *[other] Un autre programme a déposé ces éléments sur Folders. N’importe quel programme peut déposer n’importe quel fichier, et certains d’entre eux ne sont pas vos fichiers ordinaires. Folders ne les copiera pas tant que vous ne l’aurez pas demandé.
     }
 
 # SAFETY: needs a human review before it ships
@@ -128,10 +128,10 @@ folders-outside-more = Et { $n } de plus.
 folders-outside-into = Dans { $into }.
 
 # Red words when something is dropped while the question card is still up.
-folders-outside-answer-first = Répondez d’abord à la question sur ce qui a été déposé.
+folders-outside-answer-first = Répondez d’abord à la question sur ce que vous avez déposé.
 
 # Red words when something is dropped while the last drop is still being looked at.
-folders-outside-still-looking = Le dernier élément déposé est encore en cours d’examen.
+folders-outside-still-looking = Folders est encore en train de vérifier le dernier élément que vous avez déposé.
 
 # Red words when text, not files, is dropped on Folders.
 folders-outside-only-files = Seuls des fichiers et des dossiers peuvent être déposés ici.
@@ -140,22 +140,22 @@ folders-outside-only-files = Seuls des fichiers et des dossiers peuvent être d�
 folders-outside-only-folders-pin = Seuls des dossiers peuvent être épinglés à la barre latérale.
 
 # Red words when something is dropped where it cannot go, such as on a list that is not a folder.
-folders-outside-only-on-folder = Les éléments ne peuvent être déposés que sur un dossier.
+folders-outside-only-on-folder = Vous ne pouvez déposer des éléments que sur un dossier.
 
 # Red words when a dropped thing is no longer there; its name.
-folders-outside-gone = { $name } n’est plus là, donc rien n’a été apporté.
+folders-outside-gone = { $name } n’existe plus, donc rien n’a été copié ni déplacé.
 
 # Red words when a folder is dropped into itself.
-folders-outside-inside-itself = Un dossier ne peut pas être placé dans lui-même.
+folders-outside-inside-itself = Vous ne pouvez pas placer un dossier dans lui-même.
 
 # Words when things are dragged into the folder they are already in.
 folders-outside-already-there = Ils sont déjà dans ce dossier.
 
 # Red words when the place a drop is in does not answer in time; the name of the dropped thing.
-folders-outside-not-answering = L’endroit où se trouve { $name } ne répond pas, donc rien n’a été apporté.
+folders-outside-not-answering = Folders n’a pas pu joindre à temps le disque où se trouve { $name }, donc rien n’a été copié ni déplacé.
 
 # Words when the question card is answered with no.
-folders-outside-nothing-brought = Rien n’a été apporté.
+folders-outside-nothing-brought = Rien n’a été copié ni déplacé.
 
 # Name on the picture dragged out of Folders when several items are dragged to another program.
 folders-outside-items-dragged =
@@ -174,9 +174,9 @@ folders-outside-stayed-one = { $name } { $why }.
 # Red words when several dragged things changed after they were picked up, so they stayed; the count and their names.
 folders-outside-stayed-changed =
     { $n ->
-        [one] { $n } élément a changé après avoir été saisi, il est donc resté où il était : { $names }.
-        [many] { $n } éléments ont changé après avoir été saisis, ils sont donc restés où ils étaient : { $names }.
-       *[other] { $n } éléments ont changé après avoir été saisis, ils sont donc restés où ils étaient : { $names }.
+        [one] { $n } élément a changé après que vous avez commencé à le faire glisser, donc Folders l’a laissé où il était : { $names }.
+        [many] { $n } d’éléments ont changé après que vous avez commencé à les faire glisser, donc Folders les a laissés où ils étaient : { $names }.
+       *[other] { $n } éléments ont changé après que vous avez commencé à les faire glisser, donc Folders les a laissés où ils étaient : { $names }.
     }
 
 # Red words when several dragged things stayed for different reasons; the count and each name with its reason.
@@ -194,10 +194,10 @@ folders-outside-stayed-each = { $name } ({ $why })
 folders-outside-both = { $first } { $second }
 
 # Red words when the other program took a move in a way that cannot show it read all of it.
-folders-outside-unshown = L’autre programme a pris ce qui était glissé d’une manière qui ne prouve pas qu’il l’a lu en entier, donc rien n’a été déplacé ici : ce qu’il a est une copie.
+folders-outside-unshown = Folders ne peut pas savoir si l’autre programme a tout reçu de ce que vous avez glissé, donc il a laissé les originaux ici. L’autre programme en a une copie.
 
 # Red words when the other program did not take all of a drag that was a move.
-folders-outside-short-move = L’autre programme n’a pas pris tout ce qui était glissé, donc rien n’a été déplacé ici.
+folders-outside-short-move = L’autre programme n’a pas pris tout ce que vous avez glissé, donc Folders n’a rien déplacé.
 
 # Red words when the other program did not take all of a drag that was a copy.
-folders-outside-short-copy = L’autre programme n’a pas pris tout ce qui était glissé, il n’a donc peut-être pas tout.
+folders-outside-short-copy = L’autre programme n’a pas pris tout ce que vous avez glissé, donc sa copie peut être incomplète.

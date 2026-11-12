@@ -1,16 +1,17 @@
+
 # machine translated (Russian), not yet reviewed by a person.
 
 # Choice for which way up a photo is shown: the usual way.
 folders-details-turn-upright = Прямо
 
 # Choice for which way up a photo is shown: turned to the right.
-folders-details-turn-right = Вправо
+folders-details-turn-right = Повёрнуто вправо
 
 # Choice for which way up a photo is shown: upside down.
 folders-details-turn-down = Вниз головой
 
 # Choice for which way up a photo is shown: turned to the left.
-folders-details-turn-left = Влево
+folders-details-turn-left = Повёрнуто влево
 
 # Choice for which way up a photo is shown when it is mirrored already.
 folders-details-turn-mirrored = Зеркально
@@ -55,7 +56,7 @@ folders-details-date-failed = Не удалось задать дату: { $erro
 folders-details-song-failed = Не удалось записать сведения о песне: { $error }.
 
 # Red words in Properties when the date taken is not written in the form EXIF keeps.
-folders-details-taken-bad = Дата съёмки должна выглядеть так: 2026-01-02 03:04:05.
+folders-details-taken-bad = Folders не удалось прочитать эту дату. Введите её так: 2026-01-02 03:04:05.
 
 # Red words in Properties when a photo's details could not be written; { $error } says why.
 folders-details-photo-failed = Не удалось записать сведения о фотографии: { $error }.
@@ -65,24 +66,20 @@ folders-details-photo-failed = Не удалось записать сведен
 folders-details-read-only = Только чтение
 
 # One line under the read only switch.
-# SAFETY: needs a human review before it ships
-folders-details-read-only-sub = Никто не может его изменить.
 
 # Tip of the read only switch.
 # SAFETY: needs a human review before it ships
-folders-details-read-only-tip = Никто не может его изменить
+folders-details-read-only-tip = Запретить изменения
 
 # Name of the switch for a file that may be run as a program.
 # SAFETY: needs a human review before it ships
 folders-details-runnable = Можно запускать
 
 # One line under the can be run switch.
-# SAFETY: needs a human review before it ships
-folders-details-runnable-sub = Его можно запускать как программу.
 
 # Tip of the can be run switch.
 # SAFETY: needs a human review before it ships
-folders-details-runnable-tip = Его можно запускать как программу
+folders-details-runnable-tip = Разрешить запуск как программы
 
 # Name beside the box for when a file was last changed.
 folders-details-modified = Изменён
@@ -91,19 +88,19 @@ folders-details-modified = Изменён
 folders-details-opened = Открыт
 
 # Tip of a date box; { $name } is Modified or Opened and { $example } is a date written as it is typed.
-folders-details-date-tip = { $name }, в виде { $example }
+folders-details-date-tip = { $name }, например { $example }
 
 # Heading over a song's details in Properties.
 folders-details-song = Песня
 
 # Tip of the button that writes the song's details into the song.
-folders-details-write-song = Записать это в песню
+folders-details-write-song = Сохранить сведения о песне
 
 # Heading over a photo's notes in Properties.
 folders-details-photo = Фотография
 
 # Tip of the box for the date a photo was taken.
-folders-details-taken-tip = Снято, в виде 2026-01-02 03:04:05
+folders-details-taken-tip = Дата съёмки, например 2026-01-02 03:04:05
 
 # Name beside the choice of which way up a photo is shown.
 folders-details-way-up = Положение
@@ -115,13 +112,13 @@ folders-details-way-up-tip = Как показывать фотографию
 folders-details-drop-place = Убрать место съёмки
 
 # One line under that switch.
-folders-details-drop-place-sub = При записи место съёмки не сохраняется.
+folders-details-drop-place-sub = Folders уберёт место съёмки при сохранении сведений.
 
 # Tip of that switch.
-folders-details-drop-place-tip = Убрать место съёмки
+folders-details-drop-place-tip = Убрать из фотографии место съёмки
 
 # Tip of the button that writes the photo's notes into the photo.
-folders-details-write-photo = Записать это в фотографию
+folders-details-write-photo = Сохранить сведения о фотографии
 
 # Heading over the list of a photo's camera notes.
 folders-details-camera-notes = Сведения о камере

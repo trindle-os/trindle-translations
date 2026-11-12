@@ -19,7 +19,7 @@ folders-progress-pace-wait =
 folders-progress-line = { $doing }: { $how }
 
 # The same with the words about the disk added; { $line } is the line above, { $heavy } the words about the disk.
-folders-progress-line-heavy = { $line } { $heavy }
+folders-progress-line-heavy = { $line }. { $heavy }
 
 # A speed or size in bytes; { $n } is the figure.
 folders-progress-speed-bytes = { $n } Bytes
@@ -70,8 +70,8 @@ folders-progress-more =
 # End of the line of a copy or move row; { $verb } is moving or copying.
 folders-progress-heavy =
     { $verb ->
-        [moving] Das Verschieben belastet den Datenträger stark, daher können andere Programme bis zum Ende langsamer wirken.
-       *[copying] Das Kopieren belastet den Datenträger stark, daher können andere Programme bis zum Ende langsamer wirken.
+        [moving] Beim Verschieben ist der Datenträger stark ausgelastet, daher können andere Programme langsamer sein, bis es fertig ist.
+       *[copying] Beim Kopieren ist der Datenträger stark ausgelastet, daher können andere Programme langsamer sein, bis es fertig ist.
     }
 
 # End of a piece of work's line while it waits for the person's answer.
@@ -90,7 +90,7 @@ folders-progress-pause = Anhalten
 folders-progress-stop = Stoppen
 
 # Under a file or folder in the name taken question: it is newer than the other and larger.
-folders-progress-mark-newer-larger = neuer, größer
+folders-progress-mark-newer-larger = neuer und größer
 
 # Under a file or folder in the name taken question: it is newer than the other.
 folders-progress-mark-newer = neuer
@@ -127,16 +127,16 @@ folders-progress-replace = Ersetzen
 
 # Screen reader name of the Replace button for a folder in the name taken question.
 # SAFETY: needs a human review before it ships
-folders-progress-replace-folder-spoken = Ersetzen: Der bereits vorhandene Ordner kommt in den Papierkorb
+folders-progress-replace-folder-spoken = Ersetzen und den bereits vorhandenen Ordner in den Papierkorb verschieben
 
 # Main button of the name taken question for a folder: join the two folders.
 folders-progress-merge = Zusammenführen
 
 # Line over the switch in the name taken question for folders.
-folders-progress-all-folders = Dieselbe Antwort für jeden bereits vorhandenen Ordner.
+folders-progress-all-folders = Diese Antwort für jeden bereits vorhandenen Ordner verwenden.
 
 # Line over the switch in the name taken question for files.
-folders-progress-all-files = Dieselbe Antwort für jede bereits vorhandene Datei.
+folders-progress-all-files = Diese Antwort für jede bereits vorhandene Datei verwenden.
 
 # Name and tip of the switch in the name taken question that uses the answer for the rest.
 # SAFETY: needs a human review before it ships

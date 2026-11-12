@@ -2,10 +2,10 @@
 # machine translated (Hindi), not yet reviewed by a person.
 
 # Said in the preview panel and viewer in place of a video or sound when the program that plays them is missing.
-folders-viewer-no-ffmpeg = वीडियो और ध्वनियाँ यहाँ ffmpeg से चलती हैं, जो इस कंप्यूटर पर इंस्टॉल नहीं है।
+folders-viewer-no-ffmpeg = वीडियो और ध्वनियाँ चलाने के लिए Folders को ffmpeg चाहिए, और वह इंस्टॉल नहीं है।
 
 # Said in the preview panel and viewer in place of a video or sound that cannot be played.
-folders-viewer-unplayable = यह चलाया नहीं जा सकता। हो सकता है यह ख़राब हो, या ऐसी किस्म का हो जिसे ffmpeg नहीं चला सकता।
+folders-viewer-unplayable = Folders इसे चला नहीं सकता। हो सकता है यह ख़राब हो, या ऐसे फ़ॉर्मैट में हो जिसे ffmpeg नहीं चला सकता।
 
 # What a file is called when its name says it is that kind but its bytes are not, such as a cut-short one; shown in the viewer and preview panel: PDF document.
 folders-viewer-kind-pdf = PDF दस्तावेज़
@@ -23,7 +23,7 @@ folders-viewer-kind-gif = GIF चित्र
 folders-viewer-kind-webp = WebP चित्र
 
 # What a file is called when its name says it is that kind but its bytes are not, such as a cut-short one; shown in the viewer and preview panel: zip file.
-folders-viewer-kind-zip = zip फ़ाइल
+folders-viewer-kind-zip = zip फ़ॉर्मैट की फ़ाइल
 
 # What a file is called when its name says it is that kind but its bytes are not, such as a cut-short one; shown in the viewer and preview panel: gzip file.
 folders-viewer-kind-gzip = gzip फ़ाइल
@@ -71,7 +71,7 @@ folders-viewer-kind-wav = WAV ध्वनि फ़ाइल
 folders-viewer-kind-mp3 = MP3 ध्वनि फ़ाइल
 
 # Said in the viewer and preview panel in place of a picture that could not be read.
-folders-viewer-picture-unread = यह चित्र पढ़ा नहीं जा सका।
+folders-viewer-picture-unread = Folders यह चित्र पढ़ नहीं सका।
 
 # Said in the viewer and preview panel in place of a file that is no longer there.
 folders-viewer-gone = यह फ़ाइल अब मौजूद नहीं है।
@@ -80,4 +80,4 @@ folders-viewer-gone = यह फ़ाइल अब मौजूद नहीं
 folders-viewer-denied = आपको यह फ़ाइल पढ़ने की अनुमति नहीं है।
 
 # Said in the viewer and preview panel in place of a file that could not be read; why is the system's own reason.
-folders-viewer-read-failed = यह फ़ाइल पढ़ी नहीं जा सकी: { $why }।
+folders-viewer-read-failed = Folders यह फ़ाइल पढ़ नहीं सका: { $why }।

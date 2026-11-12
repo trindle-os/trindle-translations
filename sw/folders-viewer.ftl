@@ -2,10 +2,10 @@
 # machine translated (Swahili), not yet reviewed by a person.
 
 # Said in the preview panel and viewer in place of a video or sound when the program that plays them is missing.
-folders-viewer-no-ffmpeg = Video na sauti huchezwa hapa na ffmpeg, ambayo haijasakinishwa kwenye kompyuta hii.
+folders-viewer-no-ffmpeg = Folders inahitaji ffmpeg kucheza video na sauti, na haijasakinishwa.
 
 # Said in the preview panel and viewer in place of a video or sound that cannot be played.
-folders-viewer-unplayable = Hii haiwezi kuchezwa. Huenda imeharibika, au ni aina ambayo ffmpeg haiwezi kucheza.
+folders-viewer-unplayable = Folders haiwezi kucheza hii. Huenda imeharibika, au iko katika muundo ambao ffmpeg haiwezi kucheza.
 
 # What a file is called when its name says it is that kind but its bytes are not, such as a cut-short one; shown in the viewer and preview panel: PDF document.
 folders-viewer-kind-pdf = hati ya PDF
@@ -71,7 +71,7 @@ folders-viewer-kind-wav = faili ya sauti ya WAV
 folders-viewer-kind-mp3 = faili ya sauti ya MP3
 
 # Said in the viewer and preview panel in place of a picture that could not be read.
-folders-viewer-picture-unread = Picha hii haikuweza kusomwa.
+folders-viewer-picture-unread = Folders haikuweza kusoma picha hii.
 
 # Said in the viewer and preview panel in place of a file that is no longer there.
 folders-viewer-gone = Faili hii haipo tena.
@@ -80,5 +80,5 @@ folders-viewer-gone = Faili hii haipo tena.
 folders-viewer-denied = Huna ruhusa ya kusoma faili hii.
 
 # Said in the viewer and preview panel in place of a file that could not be read; why is the system's own reason.
-folders-viewer-read-failed = Faili hii haikuweza kusomwa: { $why }.
+folders-viewer-read-failed = Folders haikuweza kusoma faili hii: { $why }.
 

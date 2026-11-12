@@ -8,10 +8,10 @@ folders-fonts-too-large = terlalu besar untuk ditampilkan
 folders-fonts-unreadable = bukan font yang bisa dibaca Folders
 
 # Red note when the person installs a font they already have.
-folders-fonts-have-it = Anda sudah memilikinya.
+folders-fonts-have-it = Font ini sudah terpasang.
 
 # Red note when the fonts folder could not be made; the reason follows.
-folders-fonts-install-failed = Font tidak dapat dipasang: { $why }.
+folders-fonts-install-failed = Folders tidak dapat memasang font: { $why }.
 
 # Name of the fonts being installed, in the progress and done words, when more than one font is installed.
 folders-fonts-many =
@@ -23,7 +23,7 @@ folders-fonts-many =
 folders-fonts-doing = Memasang { $what }
 
 # Note when fonts have been installed; the name or count of the fonts.
-folders-fonts-done = { $what } sudah dipasang untuk Anda. Aplikasi yang dimulai mulai sekarang dapat memakainya.
+folders-fonts-done = { $what } dipasang untuk aplikasi yang Anda buka mulai sekarang.
 
 # Word for what happened to fonts that could not be done, in the list of failures.
 folders-fonts-verb = dipasang

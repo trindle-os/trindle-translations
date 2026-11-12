@@ -14,7 +14,7 @@ folders-remote-usb-busy = Điện thoại
 folders-remote-usb-stopped = Điện thoại đã ngừng trả lời.
 
 # Red words when the phone refused a request.
-folders-remote-usb-refused = Điện thoại đã từ chối yêu cầu đó.
+folders-remote-usb-refused = Việc đó không thực hiện được trên điện thoại.
 
 # Red words when the phone took only part of what was sent.
 folders-remote-usb-part = Điện thoại chỉ nhận được một phần dữ liệu đã gửi.

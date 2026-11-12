@@ -19,7 +19,7 @@ folders-progress-pace-wait =
 folders-progress-line = { $doing }: { $how }
 
 # The same with the words about the disk added; { $line } is the line above, { $heavy } the words about the disk.
-folders-progress-line-heavy = { $line } { $heavy }
+folders-progress-line-heavy = { $line }। { $heavy }
 
 # A speed or size in bytes; { $n } is the figure.
 folders-progress-speed-bytes = { $n } बाइट
@@ -70,8 +70,8 @@ folders-progress-more =
 # End of the line of a copy or move row; { $verb } is moving or copying.
 folders-progress-heavy =
     { $verb ->
-        [moving] ले जाने में डिस्क पर बहुत ज़ोर पड़ता है, इसलिए खत्म होने तक दूसरे प्रोग्राम धीमे लग सकते हैं।
-       *[copying] कॉपी करने में डिस्क पर बहुत ज़ोर पड़ता है, इसलिए खत्म होने तक दूसरे प्रोग्राम धीमे लग सकते हैं।
+        [moving] ले जाने से डिस्क व्यस्त रहती है, इसलिए खत्म होने तक दूसरे प्रोग्राम धीमे चल सकते हैं।
+       *[copying] कॉपी करने से डिस्क व्यस्त रहती है, इसलिए खत्म होने तक दूसरे प्रोग्राम धीमे चल सकते हैं।
     }
 
 # End of a piece of work's line while it waits for the person's answer.
@@ -91,7 +91,7 @@ folders-progress-pause = रोकें
 folders-progress-stop = बंद करें
 
 # Under a file or folder in the name taken question: it is newer than the other and larger.
-folders-progress-mark-newer-larger = नया, बड़ा
+folders-progress-mark-newer-larger = नया और बड़ा
 
 # Under a file or folder in the name taken question: it is newer than the other.
 folders-progress-mark-newer = नया
@@ -111,7 +111,7 @@ folders-progress-taken =
     }
 
 # Heading over the file or folder that is being brought, in the name taken question.
-folders-progress-coming = जो लाई जा रही है
+folders-progress-coming = नई वाली
 
 # Heading over the file or folder that is already there, in the name taken question.
 folders-progress-there = जो पहले से वहाँ है
@@ -128,16 +128,16 @@ folders-progress-replace = बदलें
 
 # Screen reader name of the Replace button for a folder in the name taken question.
 # SAFETY: needs a human review before it ships
-folders-progress-replace-folder-spoken = बदलें: पहले से मौजूद फ़ोल्डर ट्रैश में चला जाएगा
+folders-progress-replace-folder-spoken = बदलें, और पहले से मौजूद फ़ोल्डर को ट्रैश में डालें
 
 # Main button of the name taken question for a folder: join the two folders.
 folders-progress-merge = मिलाएँ
 
 # Line over the switch in the name taken question for folders.
-folders-progress-all-folders = पहले से मौजूद हर फ़ोल्डर के लिए यही उत्तर।
+folders-progress-all-folders = पहले से मौजूद हर फ़ोल्डर के लिए यही उत्तर इस्तेमाल करें।
 
 # Line over the switch in the name taken question for files.
-folders-progress-all-files = पहले से मौजूद हर फ़ाइल के लिए यही उत्तर।
+folders-progress-all-files = पहले से मौजूद हर फ़ाइल के लिए यही उत्तर इस्तेमाल करें।
 
 # Name and tip of the switch in the name taken question that uses the answer for the rest.
 folders-progress-same-for-rest = बाकी के लिए भी यही करें

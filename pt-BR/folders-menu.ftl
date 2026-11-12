@@ -8,10 +8,10 @@ folders-menu-rename = Renomear
 folders-menu-rename-them = Renomear todos
 
 # Row of Folders' right-click menu (Install font), shown when one thing is picked.
-folders-menu-install-the-font-for-you = Instalar a fonte para você
+folders-menu-install-the-font-for-you = Instalar a fonte só para você
 
 # Row of Folders' right-click menu (Install font), shown when several things are picked.
-folders-menu-install-the-fonts-for-you = Instalar as fontes para você
+folders-menu-install-the-fonts-for-you = Instalar as fontes só para você
 
 # Row of Folders' right-click menu that does: Open.
 folders-menu-open = Abrir
@@ -64,7 +64,7 @@ folders-menu-new-folder = Nova pasta
 folders-menu-new-document = Novo documento
 
 # Row of Folders' right-click menu that does: Extract here.
-folders-menu-take-out-next-to-the-archive = Tirar ao lado do arquivo compactado
+folders-menu-take-out-next-to-the-archive = Extrair ao lado do arquivo compactado
 
 # Row of Folders' right-click menu that does: Empty trash.
 # SAFETY: needs a human review before it ships
@@ -145,6 +145,7 @@ folders-menu-resize = Redimensionar
 # Row of Folders' right-click menu that does: Compare files.
 folders-menu-compare-the-two = Comparar os dois
 
+
 # Row of Folders' right-click menu that does: Copy here.
 folders-menu-copy-here = Copiar aqui
 
@@ -183,10 +184,10 @@ folders-menu-sub-picture = Imagem
 folders-menu-sub-tools = Ferramentas
 
 # Red words under the file lines when showing or hiding a column could not be saved.
-folders-menu-columns-not-saved = Não foi possível salvar as colunas.
+folders-menu-columns-not-saved = O Folders não conseguiu salvar as colunas.
 
 # Red words under the file lines when Open in a new window failed.
-folders-menu-no-new-window = Não foi possível abrir uma nova janela.
+folders-menu-no-new-window = O Folders não conseguiu abrir uma nova janela.
 
 # Words under the file lines after Copy location: one thing, or the number of things whose locations were copied.
 folders-menu-copied-location =
@@ -196,18 +197,19 @@ folders-menu-copied-location =
         [many] { $n } locais copiados.
     }
 
+
 # Red words under the file lines when Open as administrator failed.
 # SAFETY: needs a human review before it ships
-folders-menu-no-admin-window = Não foi possível abrir as Pastas como administrador.
+folders-menu-no-admin-window = O Folders não conseguiu abrir uma janela como administrador.
 
 # Red words under the file lines when a picture cannot be the wallpaper; the name of the picture, then the reasons.
-folders-menu-wallpaper-refused = { $name } não pode ser o papel de parede: { $why }.
+folders-menu-wallpaper-refused = { $name } não pode ser usado como papel de parede: { $why }.
 
 # Words under the file lines after a picture was set as the wallpaper.
-folders-menu-wallpaper-set = { $name } é o papel de parede agora.
+folders-menu-wallpaper-set = { $name } agora é o papel de parede.
 
 # Red words under the file lines when setting the wallpaper failed.
-folders-menu-wallpaper-failed = Não foi possível definir o papel de parede.
+folders-menu-wallpaper-failed = O Folders não conseguiu definir o papel de parede.
 
 # Name of the undo step after a link was made; shown where undo is offered.
 folders-menu-undo-link = Desfazer a criação de { $name }
@@ -216,29 +218,29 @@ folders-menu-undo-link = Desfazer a criação de { $name }
 folders-menu-link-made = { $name } criado.
 
 # Red words under the file lines when a link could not be made; the reason follows.
-folders-menu-link-failed = Não foi possível criar o atalho: { $why }.
+folders-menu-link-failed = O Folders não conseguiu criar o atalho: { $why }.
 
 # Words under the file lines after a folder was shared with AI programs.
 # SAFETY: needs a human review before it ships
 folders-menu-ai-shared = { $name } está compartilhado com programas de IA.
 
 # Words under the file lines after a folder or file was taken off the ring.
-folders-menu-ring-off = { $name } foi tirado do anel.
+folders-menu-ring-off = { $name } foi desafixado do anel.
 
 # Words under the file lines after a folder or file was pinned to the ring.
-folders-menu-ring-pinned = { $name } foi fixado no anel. Aparece com os aplicativos favoritos.
+folders-menu-ring-pinned = { $name } foi fixado no anel, ao lado dos seus aplicativos favoritos.
 
 # Words under the file lines when the thing to pin is on the ring already.
 folders-menu-ring-already = { $name } já está no anel.
 
 # Red words under the file lines when the ring has no room for another pin; the number is how many it holds.
-folders-menu-ring-full = O centro do anel tem { $n } e está cheio. Tire um para abrir espaço.
+folders-menu-ring-full = O anel está cheio. Ele tem espaço para { $n } itens fixados, então desafixe um primeiro.
 
 # Red words under the file lines when a name cannot be written in the ring's list of favourites.
-folders-menu-ring-unkept = { $name } não pode ficar no anel: o nome tem letras que a lista não comporta.
+folders-menu-ring-unkept = O Folders não pode fixar { $name } no anel porque o nome tem um caractere que o Folders não consegue salvar ali.
 
 # Red words under the file lines when the ring's favourites list could not be saved.
-folders-menu-ring-not-saved = Não foi possível salvar os favoritos do anel.
+folders-menu-ring-not-saved = O Folders não conseguiu salvar os favoritos do anel.
 
 # Name given to a new link to a file or folder; the name of the thing linked to follows.
 folders-menu-link-name = Atalho para { $name }

@@ -19,7 +19,7 @@ folders-progress-pace-wait =
 folders-progress-line = { $doing } : { $how }
 
 # The same with the words about the disk added; { $line } is the line above, { $heavy } the words about the disk.
-folders-progress-line-heavy = { $line } { $heavy }
+folders-progress-line-heavy = { $line }. { $heavy }
 
 # A speed or size in bytes; { $n } is the figure.
 folders-progress-speed-bytes = { $n } octets
@@ -67,15 +67,14 @@ folders-progress-left-hours =
 folders-progress-more =
     { $n ->
         [one] 1 autre tâche est en cours
-        [many] { $n } autres tâches sont en cours
        *[other] { $n } autres tâches sont en cours
     }
 
 # End of the line of a copy or move row; { $verb } is moving or copying.
 folders-progress-heavy =
     { $verb ->
-        [moving] Le déplacement sollicite beaucoup le disque, donc les autres programmes peuvent sembler plus lents jusqu’à la fin.
-       *[copying] La copie sollicite beaucoup le disque, donc les autres programmes peuvent sembler plus lents jusqu’à la fin.
+        [moving] Le déplacement occupe le disque, donc les autres programmes peuvent être plus lents jusqu’à ce qu’il soit terminé.
+       *[copying] La copie occupe le disque, donc les autres programmes peuvent être plus lents jusqu’à ce qu’elle soit terminée.
     }
 
 # End of a piece of work's line while it waits for the person's answer.
@@ -95,7 +94,7 @@ folders-progress-pause = Pause
 folders-progress-stop = Arrêter
 
 # Under a file or folder in the name taken question: it is newer than the other and larger.
-folders-progress-mark-newer-larger = plus récent, plus gros
+folders-progress-mark-newer-larger = plus récent et plus gros
 
 # Under a file or folder in the name taken question: it is newer than the other.
 folders-progress-mark-newer = plus récent
@@ -115,7 +114,7 @@ folders-progress-taken =
     }
 
 # Heading over the file or folder that is being brought, in the name taken question.
-folders-progress-coming = Celui qui arrive
+folders-progress-coming = Le nouveau
 
 # Heading over the file or folder that is already there, in the name taken question.
 folders-progress-there = Celui qui est déjà là
@@ -134,17 +133,17 @@ folders-progress-replace = Remplacer
 
 # SAFETY: needs a human review before it ships
 # Screen reader name of the Replace button for a folder in the name taken question.
-folders-progress-replace-folder-spoken = Remplacer : le dossier déjà là va à la corbeille
+folders-progress-replace-folder-spoken = Remplacer, et déplacer à la corbeille le dossier déjà présent
 
 # SAFETY: needs a human review before it ships
 # Main button of the name taken question for a folder: join the two folders.
 folders-progress-merge = Fusionner
 
 # Line over the switch in the name taken question for folders.
-folders-progress-all-folders = La même réponse pour chaque dossier déjà présent.
+folders-progress-all-folders = Utiliser cette réponse pour chaque dossier déjà présent.
 
 # Line over the switch in the name taken question for files.
-folders-progress-all-files = La même réponse pour chaque fichier déjà présent.
+folders-progress-all-files = Utiliser cette réponse pour chaque fichier déjà présent.
 
 # SAFETY: needs a human review before it ships
 # Name and tip of the switch in the name taken question that uses the answer for the rest.

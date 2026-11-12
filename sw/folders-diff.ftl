@@ -13,6 +13,6 @@ folders-diff-copy-right = Nakili mstari wa kulia
 # Line in the comparison standing for a run of lines that are the same in both files.
 folders-diff-same-lines =
     { $n ->
-        [one] Mstari 1 unaofanana
-       *[other] Mistari { $n } inayofanana
+        [one] Mstari 1 unaolingana
+       *[other] Mistari { $n } inayolingana
     }

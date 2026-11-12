@@ -2,7 +2,7 @@
 
 # Question shown in the password window when the connection program gave none.
 # SAFETY: needs a human review before it ships
-folders-askpass-default-question = সার্ভার একটি পাসওয়ার্ড চাইছে।
+folders-askpass-default-question = এই সার্ভারের পাসওয়ার্ড লিখুন।
 
 # Title of the password window when a key needs its passphrase.
 # SAFETY: needs a human review before it ships

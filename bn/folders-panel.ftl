@@ -17,7 +17,7 @@ folders-panel-home = হোম
 folders-panel-home-under = হোম/{ $rest }
 
 # Said at the window's foot in red when the preview panel's switch or width could not be saved.
-folders-panel-keep-failed = প্রিভিউ প্যানেলের সেটিং পরের বারের জন্য রাখা যায়নি।
+folders-panel-keep-failed = Folders পরের বারের জন্য প্রিভিউ প্যানেলের সেটিং সংরক্ষণ করতে পারেনি।
 
 # Name of a fact in the preview panel: how many things a folder, archive or place holds.
 folders-panel-fact-holds = ভেতরে আছে
@@ -74,22 +74,22 @@ folders-panel-in-all = সব মিলিয়ে { $items }
 folders-panel-by = { $w } × { $h }
 
 # Quiet words under the icon in the preview panel for a file whose name says one kind but whose bytes are not; what is the kind, such as PDF document.
-folders-panel-broken = নাম অনুযায়ী এটি একটি { $what }, কিন্তু ভেতরে তা নয়।
+folders-panel-broken = নাম অনুযায়ী এটি { $what }, কিন্তু ভেতরের বিষয়বস্তু মেলে না।
 
 # Quiet words under the icon in the preview panel for a picture too large to show.
 folders-panel-too-large = এই ছবিটি এখানে দেখানোর জন্য খুব বড়।
 
 # Quiet words under the icon in the preview panel for a file that could not be read; why is the reason.
-folders-panel-read-failed = পড়া যায়নি: { $why }
+folders-panel-read-failed = Folders এটি পড়তে পারেনি: { $why }
 
 # Name at the top of the preview panel when several things are picked; count is how many.
 folders-panel-selected = { $count }টি বাছাই করা হয়েছে
 
 # Name read out for the edge between the panes and the preview panel.
-folders-panel-edge = প্রিভিউ চওড়া বা সরু করতে টানুন, অথবা চাপ দিয়ে ধাপে ধাপে চওড়া করুন
+folders-panel-edge = প্রিভিউ প্যানেলের প্রস্থ
 
 # Name read out for the picture in the preview panel; name is the file's.
-folders-panel-picture-name = { $name }-এর ছবি
+folders-panel-picture-name = { $name }-এর প্রিভিউ
 
 # Name read out for the start of a text file in the preview panel; name is the file's.
 folders-panel-text-name = { $name }-এর শুরু

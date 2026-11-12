@@ -13,7 +13,7 @@ folders-remote-usb-busy = ফোনটি
 folders-remote-usb-stopped = ফোনটি সাড়া দেওয়া বন্ধ করেছে।
 
 # Red words when the phone refused a request.
-folders-remote-usb-refused = ফোনটি তা মানেনি।
+folders-remote-usb-refused = ফোনে এটি কাজ করেনি।
 
 # Red words when the phone took only part of what was sent.
-folders-remote-usb-part = পাঠানোর শুধু একটি অংশ ফোন নিয়েছে।
+folders-remote-usb-part = পাঠানোর শুধু একটি অংশ ফোন পেয়েছে।

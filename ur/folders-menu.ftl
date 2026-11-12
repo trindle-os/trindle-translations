@@ -8,10 +8,10 @@ folders-menu-rename = نام بدلیں
 folders-menu-rename-them = ان کے نام بدلیں
 
 # Row of Folders' right-click menu (Install font), shown when one thing is picked.
-folders-menu-install-the-font-for-you = فونٹ انسٹال کریں
+folders-menu-install-the-font-for-you = صرف اپنے لیے فونٹ انسٹال کریں
 
 # Row of Folders' right-click menu (Install font), shown when several things are picked.
-folders-menu-install-the-fonts-for-you = فونٹس انسٹال کریں
+folders-menu-install-the-fonts-for-you = صرف اپنے لیے فونٹس انسٹال کریں
 
 # Row of Folders' right-click menu that does: Open.
 folders-menu-open = کھولیں
@@ -146,6 +146,7 @@ folders-menu-resize = سائز بدلیں
 # Row of Folders' right-click menu that does: Compare files.
 folders-menu-compare-the-two = دونوں کا موازنہ کریں
 
+
 # Row of Folders' right-click menu that does: Copy here.
 folders-menu-copy-here = یہاں کاپی کریں
 
@@ -175,7 +176,7 @@ folders-menu-pin-to-the-ring = حلقے میں پن کریں
 folders-menu-sub-select = منتخب کریں
 
 # Row of Folders' right-click menu that opens a sub-menu of pack rows; the sub-menu is named for what is in it.
-folders-menu-sub-pack = پیک کریں، بھیجیں اور شیئر کریں
+folders-menu-sub-pack = کمپریس کریں، بھیجیں اور شیئر کریں
 
 # Row of Folders' right-click menu that opens a sub-menu of picture rows; the sub-menu is named for what is in it.
 folders-menu-sub-picture = تصویر
@@ -184,10 +185,10 @@ folders-menu-sub-picture = تصویر
 folders-menu-sub-tools = ٹولز
 
 # Red words under the file lines when showing or hiding a column could not be saved.
-folders-menu-columns-not-saved = کالم محفوظ نہیں ہو سکے۔
+folders-menu-columns-not-saved = Folders کالم محفوظ نہیں کر سکا۔
 
 # Red words under the file lines when Open in a new window failed.
-folders-menu-no-new-window = نئی ونڈو کھولی نہیں جا سکی۔
+folders-menu-no-new-window = Folders نئی ونڈو نہیں کھول سکا۔
 
 # Words under the file lines after Copy location: one thing, or the number of things whose locations were copied.
 folders-menu-copied-location =
@@ -196,18 +197,19 @@ folders-menu-copied-location =
        *[other] { $n } مقامات کاپی ہو گئے۔
     }
 
+
 # Red words under the file lines when Open as administrator failed.
 # SAFETY: needs a human review before it ships
-folders-menu-no-admin-window = فولڈرز کو منتظم کے طور پر کھولا نہیں جا سکا۔
+folders-menu-no-admin-window = Folders منتظم کے طور پر ونڈو نہیں کھول سکا۔
 
 # Red words under the file lines when a picture cannot be the wallpaper; the name of the picture, then the reasons.
-folders-menu-wallpaper-refused = { $name } وال پیپر نہیں بن سکتی: { $why }۔
+folders-menu-wallpaper-refused = { $name } کو وال پیپر کے طور پر استعمال نہیں کیا جا سکتا: { $why }۔
 
 # Words under the file lines after a picture was set as the wallpaper.
 folders-menu-wallpaper-set = { $name } اب وال پیپر ہے۔
 
 # Red words under the file lines when setting the wallpaper failed.
-folders-menu-wallpaper-failed = وال پیپر سیٹ نہیں ہو سکا۔
+folders-menu-wallpaper-failed = Folders وال پیپر سیٹ نہیں کر سکا۔
 
 # Name of the undo step after a link was made; shown where undo is offered.
 # SAFETY: needs a human review before it ships
@@ -217,7 +219,7 @@ folders-menu-undo-link = { $name } بنانا واپس کریں
 folders-menu-link-made = { $name } بن گیا۔
 
 # Red words under the file lines when a link could not be made; the reason follows.
-folders-menu-link-failed = لنک بنایا نہیں جا سکا: { $why }۔
+folders-menu-link-failed = Folders لنک نہیں بنا سکا: { $why }۔
 
 # Words under the file lines after a folder was shared with AI programs.
 # SAFETY: needs a human review before it ships
@@ -227,19 +229,19 @@ folders-menu-ai-shared = { $name } AI پروگراموں کے ساتھ شیئر 
 folders-menu-ring-off = { $name } کو حلقے سے ہٹا دیا گیا۔
 
 # Words under the file lines after a folder or file was pinned to the ring.
-folders-menu-ring-pinned = { $name } حلقے میں پن ہو گیا۔ یہ پسندیدہ ایپس کے ساتھ نظر آتا ہے۔
+folders-menu-ring-pinned = { $name } حلقے میں پسندیدہ ایپس کے ساتھ پن ہو گیا۔
 
 # Words under the file lines when the thing to pin is on the ring already.
 folders-menu-ring-already = { $name } پہلے سے حلقے میں ہے۔
 
 # Red words under the file lines when the ring has no room for another pin; the number is how many it holds.
-folders-menu-ring-full = حلقے کے بیچ میں { $n } کی جگہ ہے اور وہ بھر چکی ہے۔ جگہ بنانے کے لیے ایک ہٹائیں۔
+folders-menu-ring-full = حلقہ بھر چکا ہے۔ اس میں { $n } پن کی جگہ ہے، اس لیے پہلے ایک ہٹائیں۔
 
 # Red words under the file lines when a name cannot be written in the ring's list of favourites.
-folders-menu-ring-unkept = { $name } حلقے پر نہیں رکھا جا سکتا: اس کے نام میں ایسے حروف ہیں جو فہرست میں نہیں آ سکتے۔
+folders-menu-ring-unkept = Folders { $name } کو حلقے میں پن نہیں کر سکتا کیونکہ اس کے نام میں ایک ایسا حرف ہے جو Folders وہاں محفوظ نہیں کر سکتا۔
 
 # Red words under the file lines when the ring's favourites list could not be saved.
-folders-menu-ring-not-saved = حلقے کی پسندیدہ فہرست محفوظ نہیں ہو سکی۔
+folders-menu-ring-not-saved = Folders حلقے کی پسندیدہ فہرست محفوظ نہیں کر سکا۔
 
 # Name given to a new link to a file or folder; the name of the thing linked to follows.
 folders-menu-link-name = { $name } کا لنک

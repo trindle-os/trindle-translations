@@ -1,10 +1,10 @@
 # machine translated (French), not yet reviewed by a person.
 
 # Under a card's name on the Storage page: the disk the system is on.
-folders-computer-kind-system = Disque de cet ordinateur
+folders-computer-kind-system = Disque système
 
 # Under a card's name on the Storage page: another fixed disk inside the computer.
-folders-computer-kind-inside = Un disque de cet ordinateur
+folders-computer-kind-inside = Disque interne
 
 # Under a card's name on the Storage page: a USB drive that is plugged in.
 folders-computer-kind-usb = Clé USB
@@ -34,7 +34,7 @@ folders-computer-free-of = { $free } libres sur { $all }
 folders-computer-almost-full = Presque plein : { $said }
 
 # Under a card's bar on the Storage page when the drive is nearly full; the line that follows says how much is free.
-folders-computer-nearly-full = Bientôt plein : { $said }
+folders-computer-nearly-full = Commence à se remplir : { $said }
 
 # Under a card's bar on the Storage page: a locked drive whose size is not known.
 folders-computer-locked = Verrouillé
@@ -43,13 +43,13 @@ folders-computer-locked = Verrouillé
 folders-computer-locked-size = Verrouillé, { $size }
 
 # Under a card's bar on the Storage page: what a phone or tablet card invites the person to do.
-folders-computer-phone-hint = Ouvrez-le pour voir son contenu
+folders-computer-phone-hint = Ouvrez-le pour voir ses fichiers
 
 # Under a card's bar on the Storage page: a drive that is not mounted and whose size is not known.
-folders-computer-not-mounted = Non monté
+folders-computer-not-mounted = Pas encore ouvert
 
 # Under a card's bar on the Storage page: a drive that is not mounted and its size.
-folders-computer-not-mounted-size = Non monté, { $size }
+folders-computer-not-mounted-size = Pas encore ouvert, { $size }
 
 # Line at the foot of the Storage page: how many drives it holds.
 folders-computer-drive-count =
@@ -67,7 +67,7 @@ folders-computer-open = Ouvrir { $name }
 folders-computer-unlock = Déverrouiller { $name } et l'ouvrir
 
 # Tip and name of the round button on a Storage card that mounts a drive and opens it.
-folders-computer-mount = Monter { $name } et l'ouvrir
+folders-computer-mount = Ouvrir { $name }
 
 # Tip and name of the round button on a Storage card for a network share that closes the share.
 folders-computer-close = Fermer { $name }

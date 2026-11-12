@@ -17,10 +17,10 @@ folders-panel-home = ہوم
 folders-panel-home-under = ہوم/{ $rest }
 
 # Said at the window's foot in red when the preview panel's switch or width could not be saved.
-folders-panel-keep-failed = پیش منظر کا پینل اگلی بار کے لیے محفوظ نہیں ہو سکا۔
+folders-panel-keep-failed = Folders اگلی بار کے لیے پیش منظر کے پینل کی ترتیبات محفوظ نہیں کر سکا۔
 
 # Name of a fact in the preview panel: how many things a folder, archive or place holds.
-folders-panel-fact-holds = میں ہے
+folders-panel-fact-holds = مواد
 
 # Name of a fact in the preview panel: how big the thing is.
 folders-panel-fact-size = سائز
@@ -74,22 +74,22 @@ folders-panel-in-all = کل { $items }
 folders-panel-by = { $w } ضرب { $h }
 
 # Quiet words under the icon in the preview panel for a file whose name says one kind but whose bytes are not; what is the kind, such as PDF document.
-folders-panel-broken = اس کا نام کہتا ہے کہ یہ { $what } ہے، مگر اندر سے یہ وہ نہیں ہے۔
+folders-panel-broken = اس کا نام کہتا ہے کہ یہ { $what } ہے، لیکن اس کا مواد میل نہیں کھاتا۔
 
 # Quiet words under the icon in the preview panel for a picture too large to show.
 folders-panel-too-large = یہ تصویر یہاں دکھانے کے لیے بہت بڑی ہے۔
 
 # Quiet words under the icon in the preview panel for a file that could not be read; why is the reason.
-folders-panel-read-failed = اسے پڑھا نہیں جا سکا: { $why }
+folders-panel-read-failed = Folders اسے پڑھ نہیں سکا: { $why }
 
 # Name at the top of the preview panel when several things are picked; count is how many.
 folders-panel-selected = { $count } منتخب
 
 # Name read out for the edge between the panes and the preview panel.
-folders-panel-edge = پیش منظر کو چوڑا یا تنگ کرنے کے لیے گھسیٹیں، یا اس کی چوڑائی بدلنے کے لیے دبائیں
+folders-panel-edge = پیش منظر پینل کی چوڑائی
 
 # Name read out for the picture in the preview panel; name is the file's.
-folders-panel-picture-name = { $name } کی تصویر
+folders-panel-picture-name = { $name } کا پیش منظر
 
 # Name read out for the start of a text file in the preview panel; name is the file's.
 folders-panel-text-name = { $name } کا آغاز

@@ -59,7 +59,7 @@ folders-groups-date-earlier-this-month = Antes este mes
 folders-groups-date-earlier-this-year = Antes este año
 
 # Group heading for things changed in this period, when grouping by date: Long ago.
-folders-groups-date-long-ago = Hace mucho
+folders-groups-date-long-ago = Más antiguos
 
 # Group heading for folders, when grouping by size.
 folders-groups-size-folders = Carpetas

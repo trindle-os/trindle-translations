@@ -1,5 +1,17 @@
 # machine translated (Hindi), not yet reviewed by a person.
 
+
+
+
+
+
+
+
+
+
+
+
+
 # Name of the Folders action that installs a font.
 folders-icons-action-font = फ़ॉन्ट इंस्टॉल करें
 

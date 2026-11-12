@@ -1,6 +1,18 @@
 
 # machine translated (Bengali), not yet reviewed by a person.
 
+
+
+
+
+
+
+
+
+
+
+
+
 # Name of the Folders action that installs a font.
 folders-icons-action-font = ফন্ট ইনস্টল করুন
 

@@ -5,10 +5,10 @@
 folders-outside-wary-hidden = مخفي، أو في مجلد مخفي
 
 # Reason beside a dropped folder in the question card: it holds hidden things.
-folders-outside-wary-holds = فيه أشياء مخفية
+folders-outside-wary-holds = فيه عناصر مخفية
 
 # Reason beside a dropped folder in the question card: it holds too much to look through beforehand.
-folders-outside-wary-deep = فيه أشياء أكثر من أن يُنظر فيها، لذلك لا تُجلب أشياؤه المخفية
+folders-outside-wary-deep = فيه عناصر كثيرة جداً لا يمكن فحصها، لذلك سيستثني Folders عناصره المخفية
 
 # Reason beside a dropped thing in the question card: it is outside the person's home folder and drives.
 folders-outside-wary-system = خارج مجلدك الرئيسي ومحركاتك
@@ -59,36 +59,24 @@ folders-outside-title-copy =
 # SAFETY: needs a human review before it ships
 folders-outside-body-move =
     { $n ->
-        [one] أفلته برنامج آخر على Folders وسمّاه بنفسه. يستطيع أي برنامج تسمية أي ملف، وما سُمّي هنا ليس كله ملفاتك العادية، لذلك لا يُنقل شيء حتى تأذن.
-        [few] أفلتها برنامج آخر على Folders وسمّاها بنفسه. يستطيع أي برنامج تسمية أي ملف، وما سُمّي هنا ليس كله ملفاتك العادية، لذلك لا يُنقل شيء حتى تأذن.
-        [many] أفلتها برنامج آخر على Folders وسمّاها بنفسه. يستطيع أي برنامج تسمية أي ملف، وما سُمّي هنا ليس كله ملفاتك العادية، لذلك لا يُنقل شيء حتى تأذن.
-        [two] أفلتها برنامج آخر على Folders وسمّاها بنفسه. يستطيع أي برنامج تسمية أي ملف، وما سُمّي هنا ليس كله ملفاتك العادية، لذلك لا يُنقل شيء حتى تأذن.
-        [zero] أفلتها برنامج آخر على Folders وسمّاها بنفسه. يستطيع أي برنامج تسمية أي ملف، وما سُمّي هنا ليس كله ملفاتك العادية، لذلك لا يُنقل شيء حتى تأذن.
-       *[other] أفلتها برنامج آخر على Folders وسمّاها بنفسه. يستطيع أي برنامج تسمية أي ملف، وما سُمّي هنا ليس كله ملفاتك العادية، لذلك لا يُنقل شيء حتى تأذن.
+        [one] أفلت برنامج آخر هذا على Folders. يستطيع أي برنامج إفلات أي ملف، وهذا ليس من ملفاتك العادية. لن ينقله Folders حتى تأذن.
+       *[other] أفلت برنامج آخر هذه على Folders. يستطيع أي برنامج إفلات أي ملف، وبعض هذه ليست من ملفاتك العادية. لن ينقلها Folders حتى تأذن.
     }
 
 # Words on the question card when the drop would be brought: why it is asked.
 # SAFETY: needs a human review before it ships
 folders-outside-body-bring =
     { $n ->
-        [one] أفلته برنامج آخر على Folders وسمّاه بنفسه. يستطيع أي برنامج تسمية أي ملف، وما سُمّي هنا ليس كله ملفاتك العادية، لذلك لا يُجلب شيء حتى تأذن.
-        [few] أفلتها برنامج آخر على Folders وسمّاها بنفسه. يستطيع أي برنامج تسمية أي ملف، وما سُمّي هنا ليس كله ملفاتك العادية، لذلك لا يُجلب شيء حتى تأذن.
-        [many] أفلتها برنامج آخر على Folders وسمّاها بنفسه. يستطيع أي برنامج تسمية أي ملف، وما سُمّي هنا ليس كله ملفاتك العادية، لذلك لا يُجلب شيء حتى تأذن.
-        [two] أفلتها برنامج آخر على Folders وسمّاها بنفسه. يستطيع أي برنامج تسمية أي ملف، وما سُمّي هنا ليس كله ملفاتك العادية، لذلك لا يُجلب شيء حتى تأذن.
-        [zero] أفلتها برنامج آخر على Folders وسمّاها بنفسه. يستطيع أي برنامج تسمية أي ملف، وما سُمّي هنا ليس كله ملفاتك العادية، لذلك لا يُجلب شيء حتى تأذن.
-       *[other] أفلتها برنامج آخر على Folders وسمّاها بنفسه. يستطيع أي برنامج تسمية أي ملف، وما سُمّي هنا ليس كله ملفاتك العادية، لذلك لا يُجلب شيء حتى تأذن.
+        [one] أفلت برنامج آخر هذا على Folders. يستطيع أي برنامج إفلات أي ملف، وهذا ليس من ملفاتك العادية. لن يجلبه Folders إلى هنا حتى تأذن.
+       *[other] أفلت برنامج آخر هذه على Folders. يستطيع أي برنامج إفلات أي ملف، وبعض هذه ليست من ملفاتك العادية. لن يجلبها Folders إلى هنا حتى تأذن.
     }
 
 # Words on the question card when the drop would be copied: why it is asked.
 # SAFETY: needs a human review before it ships
 folders-outside-body-copy =
     { $n ->
-        [one] أفلته برنامج آخر على Folders وسمّاه بنفسه. يستطيع أي برنامج تسمية أي ملف، وما سُمّي هنا ليس كله ملفاتك العادية، لذلك لا يُنسخ شيء حتى تأذن.
-        [few] أفلتها برنامج آخر على Folders وسمّاها بنفسه. يستطيع أي برنامج تسمية أي ملف، وما سُمّي هنا ليس كله ملفاتك العادية، لذلك لا يُنسخ شيء حتى تأذن.
-        [many] أفلتها برنامج آخر على Folders وسمّاها بنفسه. يستطيع أي برنامج تسمية أي ملف، وما سُمّي هنا ليس كله ملفاتك العادية، لذلك لا يُنسخ شيء حتى تأذن.
-        [two] أفلتها برنامج آخر على Folders وسمّاها بنفسه. يستطيع أي برنامج تسمية أي ملف، وما سُمّي هنا ليس كله ملفاتك العادية، لذلك لا يُنسخ شيء حتى تأذن.
-        [zero] أفلتها برنامج آخر على Folders وسمّاها بنفسه. يستطيع أي برنامج تسمية أي ملف، وما سُمّي هنا ليس كله ملفاتك العادية، لذلك لا يُنسخ شيء حتى تأذن.
-       *[other] أفلتها برنامج آخر على Folders وسمّاها بنفسه. يستطيع أي برنامج تسمية أي ملف، وما سُمّي هنا ليس كله ملفاتك العادية، لذلك لا يُنسخ شيء حتى تأذن.
+        [one] أفلت برنامج آخر هذا على Folders. يستطيع أي برنامج إفلات أي ملف، وهذا ليس من ملفاتك العادية. لن ينسخه Folders حتى تأذن.
+       *[other] أفلت برنامج آخر هذه على Folders. يستطيع أي برنامج إفلات أي ملف، وبعض هذه ليست من ملفاتك العادية. لن ينسخها Folders حتى تأذن.
     }
 
 # Tip of the round close button, and name of the main button, on the question card: leave what was dropped alone.
@@ -96,10 +84,6 @@ folders-outside-body-copy =
 folders-outside-leave =
     { $n ->
         [one] اتركه
-        [few] اتركها
-        [many] اتركها
-        [two] اتركها
-        [zero] اتركها
        *[other] اتركها
     }
 
@@ -108,10 +92,6 @@ folders-outside-leave =
 folders-outside-do-move =
     { $n ->
         [one] انقله
-        [few] انقلها
-        [many] انقلها
-        [two] انقلها
-        [zero] انقلها
        *[other] انقلها
     }
 
@@ -120,10 +100,6 @@ folders-outside-do-move =
 folders-outside-do-bring =
     { $n ->
         [one] اجلبه
-        [few] اجلبها
-        [many] اجلبها
-        [two] اجلبها
-        [zero] اجلبها
        *[other] اجلبها
     }
 
@@ -132,10 +108,6 @@ folders-outside-do-bring =
 folders-outside-do-copy =
     { $n ->
         [one] انسخه
-        [few] انسخها
-        [many] انسخها
-        [two] انسخها
-        [zero] انسخها
        *[other] انسخها
     }
 
@@ -152,10 +124,10 @@ folders-outside-more = و{ $n } أخرى.
 folders-outside-into = إلى { $into }.
 
 # Red words when something is dropped while the question card is still up.
-folders-outside-answer-first = أجب أولاً عن السؤال المتعلق بما أُفلت.
+folders-outside-answer-first = أجب أولاً عن السؤال المتعلق بما أفلتّه.
 
 # Red words when something is dropped while the last drop is still being looked at.
-folders-outside-still-looking = لا يزال آخر ما أُفلت قيد الفحص.
+folders-outside-still-looking = لا يزال Folders يفحص آخر ما أفلتّه.
 
 # Red words when text, not files, is dropped on Folders.
 folders-outside-only-files = لا يمكن إفلات إلا الملفات والمجلدات هنا.
@@ -164,22 +136,22 @@ folders-outside-only-files = لا يمكن إفلات إلا الملفات وا
 folders-outside-only-folders-pin = لا يمكن تثبيت إلا المجلدات في الشريط الجانبي.
 
 # Red words when something is dropped where it cannot go, such as on a list that is not a folder.
-folders-outside-only-on-folder = لا يمكن إفلات الأشياء إلا على مجلد.
+folders-outside-only-on-folder = لا يمكنك إفلات الأشياء إلا على مجلد.
 
 # Red words when a dropped thing is no longer there; its name.
-folders-outside-gone = { $name } غير موجود، لذلك لم يُجلب شيء.
+folders-outside-gone = { $name } لم يعد موجوداً، لذلك لم يُنسخ أو يُنقل شيء.
 
 # Red words when a folder is dropped into itself.
-folders-outside-inside-itself = لا يمكن وضع مجلد داخل نفسه.
+folders-outside-inside-itself = لا يمكنك وضع مجلد داخل نفسه.
 
 # Words when things are dragged into the folder they are already in.
 folders-outside-already-there = هي في ذلك المجلد بالفعل.
 
 # Red words when the place a drop is in does not answer in time; the name of the dropped thing.
-folders-outside-not-answering = المكان الذي فيه { $name } لا يستجيب، لذلك لم يُجلب شيء.
+folders-outside-not-answering = لم يستطع Folders الوصول إلى المحرك الذي يوجد عليه { $name } في الوقت المناسب، لذلك لم يُنسخ أو يُنقل شيء.
 
 # Words when the question card is answered with no.
-folders-outside-nothing-brought = لم يُجلب شيء.
+folders-outside-nothing-brought = لم يُنسخ أو يُنقل شيء.
 
 # Name on the picture dragged out of Folders when several items are dragged to another program.
 folders-outside-items-dragged =
@@ -201,23 +173,23 @@ folders-outside-stayed-one = { $name } { $why }.
 # Red words when several dragged things changed after they were picked up, so they stayed; the count and their names.
 folders-outside-stayed-changed =
     { $n ->
-        [one] تغيّر شيء واحد بعد التقاطه، لذلك لا يزال حيث كان: { $names }.
-        [few] تغيّرت { $n } أشياء بعد التقاطها، لذلك لا تزال حيث كانت: { $names }.
-        [many] تغيّرت { $n } أشياء بعد التقاطها، لذلك لا تزال حيث كانت: { $names }.
-        [two] تغيّرت { $n } أشياء بعد التقاطها، لذلك لا تزال حيث كانت: { $names }.
-        [zero] تغيّرت { $n } أشياء بعد التقاطها، لذلك لا تزال حيث كانت: { $names }.
-       *[other] تغيّرت { $n } أشياء بعد التقاطها، لذلك لا تزال حيث كانت: { $names }.
+        [zero] لم يتغيّر أي عنصر بعد أن بدأت سحبه.
+        [one] تغيّر عنصر واحد بعد أن بدأت سحبه، لذلك تركه Folders حيث كان: { $names }.
+        [two] تغيّر عنصران بعد أن بدأت سحبهما، لذلك تركهما Folders حيث كانا: { $names }.
+        [few] تغيّرت { $n } عناصر بعد أن بدأت سحبها، لذلك تركها Folders حيث كانت: { $names }.
+        [many] تغيّر { $n } عنصراً بعد أن بدأت سحبها، لذلك تركها Folders حيث كانت: { $names }.
+       *[other] تغيّر { $n } عنصر بعد أن بدأت سحبها، لذلك تركها Folders حيث كانت: { $names }.
     }
 
 # Red words when several dragged things stayed for different reasons; the count and each name with its reason.
 folders-outside-stayed-many =
     { $n ->
-        [one] شيء واحد لا يزال حيث كان: { $each }.
-        [few] { $n } أشياء لا تزال حيث كانت: { $each }.
-        [many] { $n } أشياء لا تزال حيث كانت: { $each }.
-        [two] { $n } أشياء لا تزال حيث كانت: { $each }.
-        [zero] { $n } أشياء لا تزال حيث كانت: { $each }.
-       *[other] { $n } أشياء لا تزال حيث كانت: { $each }.
+        [zero] لا يوجد أي عنصر باقٍ حيث كان.
+        [one] لا يزال عنصر واحد حيث كان: { $each }.
+        [two] لا يزال عنصران حيث كانا: { $each }.
+        [few] لا تزال { $n } عناصر حيث كانت: { $each }.
+        [many] لا يزال { $n } عنصراً حيث كانت: { $each }.
+       *[other] لا يزال { $n } عنصر حيث كانت: { $each }.
     }
 
 # One dragged thing that stayed, in a list: its name and the reason in brackets.
@@ -227,11 +199,11 @@ folders-outside-stayed-each = { $name } ({ $why })
 folders-outside-both = { $first } { $second }
 
 # Red words when the other program took a move in a way that cannot show it read all of it.
-folders-outside-unshown = أخذ البرنامج الآخر ما سُحب بطريقة لا تتيح التحقق من أنه قرأه كله، لذلك لم يُنقل شيء هنا: ما لديه نسخة.
+folders-outside-unshown = لا يستطيع Folders معرفة ما إذا كان البرنامج الآخر قد حصل على كل ما سحبته، لذلك ترك الأصول هنا. لدى البرنامج الآخر نسخة.
 
 # Red words when the other program did not take all of a drag that was a move.
-folders-outside-short-move = لم يأخذ البرنامج الآخر كل ما سُحب، لذلك لم يُنقل شيء هنا.
+folders-outside-short-move = لم يأخذ البرنامج الآخر كل ما سحبته، لذلك لم ينقل Folders شيئاً.
 
 # Red words when the other program did not take all of a drag that was a copy.
-folders-outside-short-copy = لم يأخذ البرنامج الآخر كل ما سُحب، فقد لا يكون لديه كله.
+folders-outside-short-copy = لم يأخذ البرنامج الآخر كل ما سحبته، فقد تكون نسخته غير مكتملة.
 

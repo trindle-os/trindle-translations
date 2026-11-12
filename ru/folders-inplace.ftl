@@ -1,3 +1,4 @@
+
 # machine translated (Russian), not yet reviewed by a person.
 
 # Red words under the name box, and at the foot of Folders, when a rename fails: the item's name, then the reason.
@@ -11,7 +12,7 @@ folders-inplace-taken =
     }
 
 # Red notice at the foot of Folders when Rename is asked for in a place where nothing can be renamed.
-folders-inplace-only-folder = Переименовать можно только то, что лежит в папке.
+folders-inplace-only-folder = Здесь ничего нельзя переименовать.
 
 # Red notice at the foot of Folders when Rename is asked for and nothing is picked.
 folders-inplace-pick-first = Сначала выберите, что переименовать.
@@ -26,4 +27,4 @@ folders-inplace-undo-renaming = Отменить переименование «
 folders-inplace-renamed = «{ $old }» переименовано в «{ $name }».
 
 # Notice at the foot of Folders while a rename on a server is under way: the old name, then the new one.
-folders-inplace-renaming = Переименование «{ $old }» в «{ $name }».
+folders-inplace-renaming = Переименование «{ $old }» в «{ $name }»…

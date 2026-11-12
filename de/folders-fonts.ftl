@@ -8,10 +8,10 @@ folders-fonts-too-large = sie ist zu groß für die Anzeige
 folders-fonts-unreadable = sie ist keine Schrift, die Folders lesen kann
 
 # Red note when the person installs a font they already have.
-folders-fonts-have-it = Du hast sie schon.
+folders-fonts-have-it = Diese Schrift ist schon installiert.
 
 # Red note when the fonts folder could not be made; the reason follows.
-folders-fonts-install-failed = Die Schrift konnte nicht installiert werden: { $why }.
+folders-fonts-install-failed = Folders konnte die Schrift nicht installieren: { $why }.
 
 # Name of the fonts being installed, in the progress and done words, when more than one font is installed.
 folders-fonts-many =
@@ -24,7 +24,7 @@ folders-fonts-many =
 folders-fonts-doing = { $what } wird installiert
 
 # Note when fonts have been installed; the name or count of the fonts.
-folders-fonts-done = { $what } für dich installiert. Ab jetzt gestartete Apps können sie nutzen.
+folders-fonts-done = { $what } für Apps installiert, die du ab jetzt öffnest.
 
 # Word for what happened to fonts that could not be done, in the list of failures.
 folders-fonts-verb = installiert

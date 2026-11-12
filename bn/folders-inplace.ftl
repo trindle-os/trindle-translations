@@ -1,7 +1,7 @@
 # machine translated (Bengali), not yet reviewed by a person.
 
 # Red words under the name box, and at the foot of Folders, when a rename fails: the item's name, then the reason.
-folders-inplace-not-renamed = { $name } এর নাম বদলানো যায়নি: { $why }।
+folders-inplace-not-renamed = Folders { $name }-এর নাম বদলাতে পারেনি: { $why }।
 
 # Red words under the name box, and at the foot of Folders, when a name is already used in that place; the kind is the word folder or file.
 folders-inplace-taken =
@@ -11,7 +11,7 @@ folders-inplace-taken =
     }
 
 # Red notice at the foot of Folders when Rename is asked for in a place where nothing can be renamed.
-folders-inplace-only-folder = শুধু ফোল্ডারের ভেতরের জিনিসের নাম বদলানো যায়।
+folders-inplace-only-folder = এখানে কিছুর নাম বদলানো যায় না।
 
 # Red notice at the foot of Folders when Rename is asked for and nothing is picked.
 folders-inplace-pick-first = আগে নাম বদলানোর জন্য কিছু বেছে নিন।
@@ -26,4 +26,4 @@ folders-inplace-undo-renaming = { $old } থেকে { $name } নাম বদ
 folders-inplace-renamed = { $old } এর নাম বদলে { $name } করা হয়েছে।
 
 # Notice at the foot of Folders while a rename on a server is under way: the old name, then the new one.
-folders-inplace-renaming = { $old } এর নাম বদলে { $name } করা হচ্ছে।
+folders-inplace-renaming = { $old }-এর নাম বদলে { $name } করা হচ্ছে…

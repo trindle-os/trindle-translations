@@ -1,19 +1,20 @@
+
 # machine translated (Russian), not yet reviewed by a person.
 
 # Words under the file lines when copy, cut or paste is tried on a server's files.
-folders-act-far-clip = Для файлов на сервере используйте кнопки копирования и перемещения между панелями.
+folders-act-far-clip = Вырезать, копировать и вставлять файлы на сервере нельзя. Вместо этого используйте кнопки копирования и перемещения между панелями.
 
 # Words under the file lines when something is tried that would change what is inside an archive.
-folders-act-shut = Содержимое архива здесь не меняется. Сначала извлеките из него нужное.
+folders-act-shut = Внутри архива ничего нельзя менять. Сначала извлеките нужное.
 
 # Words on a finished job when files that another program cut were pasted: they are copied.
-folders-act-cut-elsewhere = Скопировано: вырезано в другом приложении.
+folders-act-cut-elsewhere = Эти элементы вырезали в другом приложении, поэтому Folders их скопировал.
 
 # Words under the file lines when something is picked that is already being copied or moved.
 folders-act-being-moved = Уже копируется или перемещается.
 
 # Words under the file lines when a copy that is not whole yet is picked.
-folders-act-arriving = Ещё загружается.
+folders-act-arriving = Это ещё копируется сюда.
 
 # Part of the question about a name already taken: a folder that holds this many things or more.
 folders-act-holds-most = 10 000 элементов или больше
@@ -115,7 +116,7 @@ folders-act-compressing = Сжимаем { $what }
 folders-act-compressed = Создан файл { $file } в { $place }.
 
 # The word for what was tried, put in 'could not be ...' when packing failed.
-folders-act-verb-packed = упаковать
+folders-act-verb-packed = сжать
 
 # Tip of the Undo button after things were packed into an archive.
 folders-act-undo-compressing = Отменить сжатие: { $what }
@@ -148,7 +149,7 @@ folders-act-verb-wiped = стереть
 folders-act-taking-out = Извлекаем { $what }
 
 # Words under the file lines when things were taken out of an archive: what, and where to.
-folders-act-took-out = Извлечено: { $what } в { $place }.
+folders-act-took-out = Из архива извлечено: { $what } в { $place }.
 
 # The word for what was tried, put in 'could not be ...' when taking things out of an archive failed.
 folders-act-verb-taken-out = извлечь
@@ -187,13 +188,13 @@ folders-act-new-document = Новый документ
 folders-act-make-failed = Не удалось создать { $base }: { $why }.
 
 # Red words under a name being typed when it is empty.
-folders-act-name-empty = Имя не может быть пустым.
+folders-act-name-empty = Введите имя.
 
 # Red words under a name being typed when it has a slash.
 folders-act-name-slash = Имя не может содержать косую черту.
 
 # Red words under a name being typed when it is . or ..
-folders-act-name-kept = Это имя зарезервировано для системы.
+folders-act-name-kept = Это имя занято системой. Выберите другое.
 
 # Red words under a name being typed when it is too long.
 folders-act-name-long = Слишком длинное имя.
@@ -208,10 +209,16 @@ folders-act-redo-label = Повторить: { $what }
 folders-act-undo-label = Отменить: { $what }
 
 # Words under the file lines when work was stopped before it was done.
-folders-act-stopped = Остановлено на середине.
+folders-act-stopped = Работа остановлена до завершения.
 
 # Words under the file lines when work finished but some things were skipped; what was done, then how many were skipped.
-folders-act-skipped = { $done } Пропущено: { $n }.
+folders-act-skipped =
+    { $done } { $n ->
+        [one] Folders пропустил { $n } элемент.
+        [few] Folders пропустил { $n } элемента.
+        [many] Folders пропустил { $n } элементов.
+       *[other] Folders пропустил { $n } элемента.
+    }
 
 # Words under the file lines when an action needs something picked and nothing is.
 folders-act-pick-first = Сначала выберите что-нибудь.
@@ -267,16 +274,16 @@ folders-act-pick-trash = Сначала выберите что-нибудь в 
 folders-act-new-numbered = { $base } { $n }
 
 # Words under the file lines while a new folder or document is made on a server.
-folders-act-making = Создаём { $name }.
+folders-act-making = Создаём { $name }
 
 # Words under the file lines when New folder or New document is used where there is no folder.
-folders-act-make-folder-only = Новое можно создавать только в папке.
+folders-act-make-folder-only = Новую папку или документ можно создать только внутри папки.
 
 # Tip of the Undo button after a folder, document or link was made.
 folders-act-undo-making = Отменить создание: { $name }
 
-# Red words under the file lines when folder colours and emblems could not follow things that were moved.
-folders-act-colours-lost = Цвета не последовали за перемещёнными элементами.
+# Red words under the file lines when folder colours could not follow things that were moved.
+folders-act-colours-lost = Folders не удалось сохранить цвета папок у перемещённых элементов.
 
 # Words under the file lines when Redo is used and there is nothing to redo.
 folders-act-nothing-redo = Повторять нечего.
@@ -330,8 +337,7 @@ folders-act-links-failed =
     }
 
 # Words under the file lines when the window is closed while work waits for an answer.
-folders-act-closing-waits = Какая-то работа ждёт ответа. Ответьте или остановите её, прежде чем закрывать.
+folders-act-closing-waits = Ждёт ответа вопрос. Ответьте на него или остановите работу, прежде чем закрыть Folders.
 
 # Words under the file lines when the window is closed while work goes on.
-folders-act-closing-busy = Папки нельзя закрыть, пока не закончится передача. Дождитесь её или остановите, а затем закройте.
-
+folders-act-closing-busy = Folders не закроется, пока выполняется работа. Дождитесь её окончания или остановите её, затем закройте Folders.

@@ -19,7 +19,7 @@ folders-progress-pace-wait =
 folders-progress-line = { $doing }: { $how }
 
 # The same with the words about the disk added; { $line } is the line above, { $heavy } the words about the disk.
-folders-progress-line-heavy = { $line } { $heavy }
+folders-progress-line-heavy = { $line }। { $heavy }
 
 # A speed or size in bytes; { $n } is the figure.
 folders-progress-speed-bytes = { $n } বাইট
@@ -70,8 +70,8 @@ folders-progress-more =
 # End of the line of a copy or move row; { $verb } is moving or copying.
 folders-progress-heavy =
     { $verb ->
-        [moving] সরানোয় ডিস্কে অনেক চাপ পড়ে, তাই শেষ না হওয়া পর্যন্ত অন্য প্রোগ্রাম ধীর মনে হতে পারে।
-       *[copying] কপি করায় ডিস্কে অনেক চাপ পড়ে, তাই শেষ না হওয়া পর্যন্ত অন্য প্রোগ্রাম ধীর মনে হতে পারে।
+        [moving] সরানোর সময় ডিস্ক ব্যস্ত থাকে, তাই শেষ না হওয়া পর্যন্ত অন্য প্রোগ্রাম ধীর হতে পারে।
+       *[copying] কপি করার সময় ডিস্ক ব্যস্ত থাকে, তাই শেষ না হওয়া পর্যন্ত অন্য প্রোগ্রাম ধীর হতে পারে।
     }
 
 # End of a piece of work's line while it waits for the person's answer.
@@ -90,7 +90,7 @@ folders-progress-pause = থামান
 folders-progress-stop = বন্ধ করুন
 
 # Under a file or folder in the name taken question: it is newer than the other and larger.
-folders-progress-mark-newer-larger = নতুন, বড়
+folders-progress-mark-newer-larger = নতুন ও বড়
 
 # Under a file or folder in the name taken question: it is newer than the other.
 folders-progress-mark-newer = নতুন
@@ -110,7 +110,7 @@ folders-progress-taken =
     }
 
 # Heading over the file or folder that is being brought, in the name taken question.
-folders-progress-coming = যেটি আনা হচ্ছে
+folders-progress-coming = নতুনটি
 
 # Heading over the file or folder that is already there, in the name taken question.
 folders-progress-there = যেটি আগে থেকে আছে
@@ -127,16 +127,16 @@ folders-progress-replace = বদলে দিন
 
 # Screen reader name of the Replace button for a folder in the name taken question.
 # SAFETY: needs a human review before it ships
-folders-progress-replace-folder-spoken = বদলে দিন: আগে থেকে থাকা ফোল্ডারটি ট্র্যাশে যাবে
+folders-progress-replace-folder-spoken = বদলে দিন, আর আগে থেকে থাকা ফোল্ডারটি ট্র্যাশে সরিয়ে দিন
 
 # Main button of the name taken question for a folder: join the two folders.
 folders-progress-merge = মিলিয়ে দিন
 
 # Line over the switch in the name taken question for folders.
-folders-progress-all-folders = আগে থেকে থাকা প্রতিটি ফোল্ডারের জন্য একই উত্তর।
+folders-progress-all-folders = আগে থেকে থাকা প্রতিটি ফোল্ডারে এই উত্তরই ব্যবহার করুন।
 
 # Line over the switch in the name taken question for files.
-folders-progress-all-files = আগে থেকে থাকা প্রতিটি ফাইলের জন্য একই উত্তর।
+folders-progress-all-files = আগে থেকে থাকা প্রতিটি ফাইলে এই উত্তরই ব্যবহার করুন।
 
 # Name and tip of the switch in the name taken question that uses the answer for the rest.
 folders-progress-same-for-rest = বাকিগুলোর জন্য একই করুন

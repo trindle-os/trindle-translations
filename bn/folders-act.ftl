@@ -1,19 +1,19 @@
 # machine translated (Bengali), not yet reviewed by a person.
 
 # Words under the file lines when copy, cut or paste is tried on a server's files.
-folders-act-far-clip = সার্ভারের ফাইলের জন্য প্যানের মাঝের কপি ও সরানোর বোতাম ব্যবহার করুন।
+folders-act-far-clip = সার্ভারের ফাইলে কাট, কপি ও পেস্ট কাজ করে না। তার বদলে প্যানের মাঝের কপি ও সরানোর বোতাম ব্যবহার করুন।
 
 # Words under the file lines when something is tried that would change what is inside an archive.
-folders-act-shut = আর্কাইভের ভেতরের কিছু এখানে বদলানো যায় না। আগে জিনিসগুলো বের করে নিন।
+folders-act-shut = আর্কাইভের ভেতরে কিছু বদলানো যায় না। আগে যা দরকার তা বের করে নিন।
 
 # Words on a finished job when files that another program cut were pasted: they are copied.
-folders-act-cut-elsewhere = কপি করা হয়েছে: অন্য অ্যাপে কাটা হয়েছিল।
+folders-act-cut-elsewhere = এগুলো অন্য অ্যাপে কাটা হয়েছিল, তাই Folders সেগুলো কপি করেছে।
 
 # Words under the file lines when something is picked that is already being copied or moved.
-folders-act-being-moved = ইতিমধ্যে কপি বা সরানো হচ্ছে।
+folders-act-being-moved = এটি ইতিমধ্যে কপি বা সরানো হচ্ছে।
 
 # Words under the file lines when a copy that is not whole yet is picked.
-folders-act-arriving = এখনও আসছে।
+folders-act-arriving = এটি এখনও এখানে কপি হচ্ছে।
 
 # Part of the question about a name already taken: a folder that holds this many things or more.
 folders-act-holds-most = ১০,০০০ বা তার বেশি আইটেম
@@ -111,7 +111,7 @@ folders-act-compressing = { $what } সংকুচিত করা হচ্ছ
 folders-act-compressed = { $place }-এ { $file } তৈরি হয়েছে।
 
 # The word for what was tried, put in 'could not be ...' when packing failed.
-folders-act-verb-packed = আর্কাইভে ভরা
+folders-act-verb-packed = কম্প্রেস করা
 
 # Tip of the Undo button after things were packed into an archive.
 folders-act-undo-compressing = { $what } সংকুচিত করা ফিরিয়ে নিন
@@ -120,7 +120,7 @@ folders-act-undo-compressing = { $what } সংকুচিত করা ফি�
 folders-act-extracting = { $what } খোলা হচ্ছে
 
 # Words under the file lines when an archive was unpacked: what, and where.
-folders-act-extracted = { $what } খোলা হয়েছে { $place }-এ।
+folders-act-extracted = { $what } খুলে { $place }-এ রাখা হয়েছে।
 
 # The word for what was tried, put in 'could not be ...' when unpacking failed.
 folders-act-verb-extracted = খোলা
@@ -144,7 +144,7 @@ folders-act-verb-wiped = নিরাপদে মুছে ফেলা
 folders-act-taking-out = { $what } বের করা হচ্ছে
 
 # Words under the file lines when things were taken out of an archive: what, and where to.
-folders-act-took-out = { $what } বের করা হয়েছে { $place }-এ।
+folders-act-took-out = আর্কাইভ থেকে { $what } বের করে { $place }-এ রাখা হয়েছে।
 
 # The word for what was tried, put in 'could not be ...' when taking things out of an archive failed.
 folders-act-verb-taken-out = বের করা
@@ -180,22 +180,22 @@ folders-act-new-folder = নতুন ফোল্ডার
 folders-act-new-document = নতুন নথি
 
 # Red words when a new folder or document could not be made; its name, then the reason.
-folders-act-make-failed = { $base } তৈরি করা যায়নি: { $why }।
+folders-act-make-failed = Folders { $base } তৈরি করতে পারেনি: { $why }।
 
 # Red words under a name being typed when it is empty.
-folders-act-name-empty = নাম ফাঁকা রাখা যাবে না।
+folders-act-name-empty = একটি নাম লিখুন।
 
 # Red words under a name being typed when it has a slash.
 folders-act-name-slash = নামে স্ল্যাশ থাকতে পারবে না।
 
 # Red words under a name being typed when it is . or ..
-folders-act-name-kept = এই নামটি সিস্টেমের জন্য রাখা আছে।
+folders-act-name-kept = নামটি সিস্টেম ব্যবহার করে। অন্য একটি নাম দিন।
 
 # Red words under a name being typed when it is too long.
 folders-act-name-long = নামটি অনেক লম্বা।
 
 # Red words under the file lines when a piece of work could not be started.
-folders-act-no-start = কাজটি শুরু করা যায়নি।
+folders-act-no-start = Folders কাজটি শুরু করতে পারেনি।
 
 # Tip of the Redo button after a step was undone; what the step was. Every undo and redo tip begins the same way.
 folders-act-redo-label = { $what } আবার করুন
@@ -204,10 +204,13 @@ folders-act-redo-label = { $what } আবার করুন
 folders-act-undo-label = { $what } ফিরিয়ে নিন
 
 # Words under the file lines when work was stopped before it was done.
-folders-act-stopped = মাঝপথে থামানো হয়েছে।
+folders-act-stopped = কাজটি শেষ হওয়ার আগেই থামানো হয়েছে।
 
 # Words under the file lines when work finished but some things were skipped; what was done, then how many were skipped.
-folders-act-skipped = { $done } { $n }টি বাদ গেছে।
+folders-act-skipped = { $done } { $n ->
+        [one] Folders একটি আইটেম বাদ দিয়েছে।
+       *[other] Folders { $n }টি আইটেম বাদ দিয়েছে।
+    }
 
 # Words under the file lines when an action needs something picked and nothing is.
 folders-act-pick-first = আগে কিছু বেছে নিন।
@@ -263,16 +266,16 @@ folders-act-pick-trash = আগে ট্র্যাশে কিছু বে�
 folders-act-new-numbered = { $base } { $n }
 
 # Words under the file lines while a new folder or document is made on a server.
-folders-act-making = { $name } তৈরি হচ্ছে।
+folders-act-making = { $name } তৈরি হচ্ছে
 
 # Words under the file lines when New folder or New document is used where there is no folder.
-folders-act-make-folder-only = নতুন জিনিস শুধু ফোল্ডারে তৈরি করা যায়।
+folders-act-make-folder-only = নতুন ফোল্ডার বা নথি শুধু একটি ফোল্ডারের ভেতরে তৈরি করা যায়।
 
 # Tip of the Undo button after a folder, document or link was made.
 folders-act-undo-making = { $name } তৈরি করা ফিরিয়ে নিন
 
-# Red words under the file lines when folder colours and emblems could not follow things that were moved.
-folders-act-colours-lost = রং সরানো জিনিসের সঙ্গে যেতে পারেনি।
+# Red words under the file lines when folder colours could not follow things that were moved.
+folders-act-colours-lost = Folders সরানো আইটেমগুলোর ফোল্ডারের রং ধরে রাখতে পারেনি।
 
 # Words under the file lines when Redo is used and there is nothing to redo.
 folders-act-nothing-redo = আবার করার মতো কিছু নেই।
@@ -322,8 +325,7 @@ folders-act-links-failed =
     }
 
 # Words under the file lines when the window is closed while work waits for an answer.
-folders-act-closing-waits = কিছু কাজ উত্তরের অপেক্ষায় আছে। বন্ধ করার আগে উত্তর দিন, বা কাজটি থামান।
-
+folders-act-closing-waits = একটি প্রশ্ন আপনার উত্তরের অপেক্ষায় আছে। Folders বন্ধ করার আগে উত্তর দিন, বা কাজটি থামান।
 
 # Words under the file lines when the window is closed while work goes on.
-folders-act-closing-busy = স্থানান্তর শেষ না হওয়া পর্যন্ত Folders বন্ধ করা যায় না। শেষ হওয়ার অপেক্ষা করুন, অথবা থামান, তারপর বন্ধ করুন।
+folders-act-closing-busy = কোনো কাজ চলার সময় Folders বন্ধ করা যায় না। কাজটি শেষ হওয়া পর্যন্ত অপেক্ষা করুন, বা থামিয়ে দিন, তারপর Folders বন্ধ করুন।

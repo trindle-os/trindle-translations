@@ -16,22 +16,22 @@ folders-tools-pass-seven = ৭ বার
 folders-tools-case-keep = যেমন আছে
 
 # Choice in the rename window, under Letters: make every name small letters.
-folders-tools-case-lower = সব ছোট হাতের
+folders-tools-case-lower = সব ছোট হাতের অক্ষর
 
 # Choice in the rename window, under Letters: make every name capital letters.
 folders-tools-case-upper = সব বড় হাতের
 
 # Choice in the rename window, under Letters: start each word with a capital.
-folders-tools-case-words = প্রতিটি শব্দ
+folders-tools-case-words = প্রতিটি শব্দ বড় হাতের করুন
 
 # Choice in the rename window, under Letters: start only the first word with a capital.
-folders-tools-case-first = প্রথম শব্দ
+folders-tools-case-first = প্রথম শব্দ বড় হাতের করুন
 
 # Choice in the rename window, under Ending: leave the file ending as it is.
 folders-tools-ending-keep = যেমন আছে
 
 # Choice in the rename window, under Ending: make the ending small letters.
-folders-tools-ending-lower = সব ছোট হাতের
+folders-tools-ending-lower = সব ছোট হাতের অক্ষর
 
 # Choice in the rename window, under Ending: make the ending capital letters.
 folders-tools-ending-upper = সব বড় হাতের
@@ -55,25 +55,25 @@ folders-tools-clash-bad = এটি নাম হিসেবে চলে ন�
 folders-tools-clash-long = নামটি অনেক লম্বা
 
 # Beside a row of the rename list that cannot be done: two files would get the same new name.
-folders-tools-clash-twice = দুটি ফাইল এই নাম পাবে
+folders-tools-clash-twice = দুটি জিনিস এই নাম পাবে
 
 # Beside a row of the rename list that cannot be done: another file already has the new name.
-folders-tools-clash-taken = অন্য কিছুর এই নাম আছে
+folders-tools-clash-taken = অন্য কিছুর আগে থেকেই এই নাম আছে
 
 # Beside a row of the rename list that cannot be done: the old name is not plain text, so it cannot be changed.
-folders-tools-clash-not-text = পুরনো নামটি সাধারণ লেখা নয়
+folders-tools-clash-not-text = পুরনো নামে এমন অক্ষর আছে যা Folders পড়তে পারে না
 
 # Warning in the Wipe window about a flash disk, where old copies may stay out of reach.
 # SAFETY: needs a human review before it ships
-folders-tools-caveat-flash = এটি ফ্ল্যাশ ডিস্ক, ঘূর্ণায়মান ডিস্ক নয়, তাই পুরনো কপি এমন জায়গায় থেকে যেতে পারে যেখানে Trindle পৌঁছাতে পারে না।
+folders-tools-caveat-flash = এটি একটি ফ্ল্যাশ ড্রাইভ বা SSD, তাই পুরনো কপি এমন জায়গায় থেকে যেতে পারে যেখানে Folders পৌঁছাতে পারে না।
 
 # Warning in the Wipe window about a filesystem that writes changes elsewhere; { $fs } is the filesystem's name.
 # SAFETY: needs a human review before it ships
-folders-tools-caveat-copy-on-write = { $fs } ফাইলসিস্টেম বদলগুলো নতুন জায়গায় লেখে, তাই পুরনো তথ্য আগের জায়গাতেই থেকে যেতে পারে।
+folders-tools-caveat-copy-on-write = { $fs } ফাইল সিস্টেম বদলগুলো নতুন জায়গায় সংরক্ষণ করে, তাই পুরনো তথ্য এখনও থেকে যেতে পারে।
 
 # Warning in the Wipe window about a share on another computer; { $fs } is the kind of share.
 # SAFETY: needs a human review before it ships
-folders-tools-caveat-network = এটি অন্য কম্পিউটারের একটি { $fs } শেয়ার, যা নিজের মতো কপি রেখে দিতে পারে।
+folders-tools-caveat-network = এটি অন্য কম্পিউটারের একটি { $fs } শেয়ার, যা নিজের কপি রেখে দিতে পারে।
 
 # Line in the compare list for a name that is only in the left folder.
 folders-tools-row-only-left = শুধু বাঁয়ে
@@ -107,7 +107,7 @@ folders-tools-place-here = এখানে
 folders-tools-only-files-wiped = শুধু ফাইল মুছে ফেলা (ওয়াইপ) যায়।
 
 # Red notice when comparing the two panes while one of them does not show a folder.
-folders-tools-compare-need-folders = তুলনা করতে দুটি প্যানেই ফোল্ডার দেখাতে হবে।
+folders-tools-compare-need-folders = তুলনা করতে প্রতিটি প্যানে একটি ফোল্ডার খুলুন।
 
 # Undo entry after renaming many files; { $n } is how many were renamed.
 folders-tools-rename-undo =
@@ -127,10 +127,10 @@ folders-tools-rename-done =
 folders-tools-rename-stopped = নাম বদল মাঝপথে থেমে গেছে: { $error }।
 
 # Red words under the archive name in the Compress window when the name is empty.
-folders-tools-name-empty = নাম খালি রাখা যায় না।
+folders-tools-name-empty = আর্কাইভের একটি নাম লিখুন।
 
 # Beside the ring while a search is running and the end is not known; { $done } is how many have been looked at.
-folders-tools-looked-at = { $done }টি দেখা হয়েছে
+folders-tools-looked-at = { $done }টি যাচাই করা হয়েছে
 
 # Beside the ring while a search is running and the end is known; { $done } and { $total } are sizes such as 3 MB.
 folders-tools-read-of = { $total }-এর মধ্যে { $done } পড়া হয়েছে
@@ -142,7 +142,7 @@ folders-tools-listing-files = ফাইলের তালিকা করা �
 folders-tools-comparing = তুলনা করা হচ্ছে
 
 # Beside the ring while two folders are compared.
-folders-tools-looking = দেখা হচ্ছে
+folders-tools-looking = ফোল্ডার তুলনা করা হচ্ছে
 
 # Title of the Compress window; { $name } is the one thing packed, { $n } how many.
 folders-tools-compress-title =
@@ -158,7 +158,7 @@ folders-tools-pack-name-tip = আর্কাইভের নাম
 folders-tools-pack-kind-tip = আর্কাইভের ধরন
 
 # Note in the Compress window saying where the archive is made; { $place } is the folder.
-folders-tools-pack-made-in = { $place }-এ তৈরি হবে
+folders-tools-pack-made-in = আর্কাইভ { $place }-এ সংরক্ষণ করা হবে
 
 # Main button of the Compress window.
 folders-tools-compress = কম্প্রেস করুন
@@ -167,7 +167,7 @@ folders-tools-compress = কম্প্রেস করুন
 folders-tools-extract-to = { $name } এখানে খুলুন
 
 # Note in the Extract to window; { $name } is the name of the folder that is made.
-folders-tools-extract-new-folder = সেখানে { $name } নামে একটি নতুন ফোল্ডার তৈরি হবে।
+folders-tools-extract-new-folder = ফাইলগুলো { $name } নামের একটি নতুন ফোল্ডারে রাখা হবে।
 
 # Title of the Resize window; { $name } is the one picture, { $n } how many.
 folders-tools-resize-title =
@@ -180,7 +180,7 @@ folders-tools-resize-title =
 folders-tools-resize-size-tip = নতুন মাপ
 
 # Note in the Resize window explaining the sizes and that copies are made.
-folders-tools-resize-note = ছবির মাপের একটি অংশ, বা লম্বা দিকে কত পিক্সেল; ছবি কখনও বড় করা হয় না। প্রতিটির পাশে নতুন মাপসহ নামে একটি কপি তৈরি হয়; আসল ছবি যেমন আছে তেমনই থাকে।
+folders-tools-resize-note = মাপ বলতে পিক্সেলে লম্বা দিকের দৈর্ঘ্য বোঝায়। Folders শুধু ছবি ছোট করে। প্রতিটি মাপ বদলানো কপি মূল ছবির পাশে সংরক্ষিত হয়, নামে নতুন মাপ থাকে।
 
 # Main button of the Resize window.
 folders-tools-resize = মাপ বদলান
@@ -195,7 +195,7 @@ folders-tools-wipe-title =
 
 # Warning at the top of the Wipe window.
 # SAFETY: needs a human review before it ships
-folders-tools-wipe-warning = প্রতিটি ফাইল সরানোর আগে এর ওপর অন্য তথ্য লেখা হয়, তাই আর ফেরত আনা যায় না। এটি ফেরানো যাবে না।
+folders-tools-wipe-warning = Folders প্রতিটি ফাইল মুছে ফেলার আগে তার ওপর অন্য তথ্য লিখে দেয়, তাই আর ফেরত পাওয়া যাবে না।
 
 # Name beside the choice of how many times to write over, in the Wipe window.
 # SAFETY: needs a human review before it ships
@@ -203,7 +203,7 @@ folders-tools-wipe-write-over = ওপরে লিখুন
 
 # Choice tip in the Wipe window: how many times each file is written over.
 # SAFETY: needs a human review before it ships
-folders-tools-wipe-passes-tip = প্রতিটি ফাইলের ওপর কতবার লেখা হবে
+folders-tools-wipe-passes-tip = প্রতিটি ফাইলের ওপর কতবার লিখতে হবে
 
 # Red main button of the Wipe window.
 # SAFETY: needs a human review before it ships
@@ -225,13 +225,13 @@ folders-tools-rename-where-tip = নম্বর কোথায় বসবে
 folders-tools-rename-first-number-tip = প্রথম নম্বর
 
 # Choice tip in the rename window: what happens to the file endings.
-folders-tools-rename-ending-tip = শেষাংশের কী হবে
+folders-tools-rename-ending-tip = শেষাংশের সঙ্গে কী করবেন
 
 # Typing box tip in the rename window: the new ending to give every file.
 folders-tools-rename-new-ending-tip = নতুন শেষাংশ, যেমন txt
 
 # Detail of a row in the rename list that cannot be done; { $why } says why.
-folders-tools-rename-cannot = করা যাবে না: { $why }
+folders-tools-rename-cannot = Folders এটির নাম বদলাতে পারছে না: { $why }
 
 # Detail of a row in the rename list whose name changes; { $old } is the old name.
 folders-tools-rename-was = আগে ছিল { $old }
@@ -280,7 +280,7 @@ folders-tools-rename-after-tip = নামের পরে
 folders-tools-rename-number = নম্বর
 
 # Name over the capitals choice in the rename window.
-folders-tools-rename-letters = অক্ষর
+folders-tools-rename-letters = বড় হাতের অক্ষর
 
 # Choice tip in the rename window: what happens to the capitals in the names.
 folders-tools-rename-case-tip = নামের বড় হাতের অক্ষর
@@ -291,8 +291,8 @@ folders-tools-rename-ending = শেষাংশ
 # Note under the rename list; { $clash } is yes when some names cannot be used, otherwise no; { $changes } of { $total } names change; { $place } is the folder.
 folders-tools-rename-summary =
     { $clash ->
-        [yes] কিছু নাম ব্যবহার করা যাবে না; চিহ্নিত সারিগুলো দেখুন। { $place }-এ।
-       *[no] { $total }টির মধ্যে { $changes }টি নাম বদলাবে। { $place }-এ।
+        [yes] { $place }-এ কিছু নাম ব্যবহার করা যাবে না। চিহ্নিত সারিগুলো দেখুন।
+       *[no] { $place }-এ { $total }টির মধ্যে { $changes }টি নাম বদলাবে।
     }
 
 # Main button of the rename window.
@@ -324,8 +324,8 @@ folders-tools-dupes-unread =
 # Note above the duplicates list; { $n } is how many sets of copies, { $size } how much the extras take.
 folders-tools-dupes-sets =
     { $n ->
-        [one] ১ সেট কপি; বাড়তি কপিগুলো ট্র্যাশে দিলে { $size } খালি হবে। বাড়তি কপিগুলো বাছা আছে; Ctrl চেপে ক্লিক করলে একটি বাছা বা বাদ দেওয়া যায়।
-       *[other] { $n } সেট কপি; বাড়তি কপিগুলো ট্র্যাশে দিলে { $size } খালি হবে। বাড়তি কপিগুলো বাছা আছে; Ctrl চেপে ক্লিক করলে একটি বাছা বা বাদ দেওয়া যায়।
+        [one] ১ সেট কপি। বাড়তি কপিগুলো বাছা আছে, সেগুলো ট্র্যাশে সরালে { $size } খালি হবে।
+       *[other] { $n } সেট কপি। বাড়তি কপিগুলো বাছা আছে, সেগুলো ট্র্যাশে সরালে { $size } খালি হবে।
     }
 
 # Detail of a row in the duplicates list; { $set } is the set's number, { $size } the file's size, { $at } the folder it is in.
@@ -339,7 +339,7 @@ folders-tools-dupes-unread-left-out =
     }
 
 # Note in the duplicates window when every copy of a set is picked.
-folders-tools-dupes-keep-one = একটি সেটের সব কপি বাছা আছে; অন্তত একটি রাখুন।
+folders-tools-dupes-keep-one = একটি সেটের সব কপি বাছা আছে। অন্তত একটি বাছাই ছাড়া রাখুন।
 
 # Tip of the button in the duplicates window that picks the extra copies.
 folders-tools-dupes-pick-extras = বাড়তি কপিগুলো বাছুন
@@ -348,16 +348,16 @@ folders-tools-dupes-pick-extras = বাড়তি কপিগুলো ব�
 folders-tools-dupes-trash = ট্র্যাশে পাঠান
 
 # Title of the window that compares two files.
-folders-tools-diff-title = দুটি তুলনা করুন
+folders-tools-diff-title = দুটি ফাইল তুলনা করুন
 
 # Red words in the file compare window when it fails; { $error } says why.
-folders-tools-diff-failed = তুলনা করা যায়নি: { $error }।
+folders-tools-diff-failed = Folders তুলনা করতে পারেনি: { $error }।
 
 # Line in the file compare window when two files are the same, byte for byte.
-folders-tools-diff-same-bytes = দুটি বাইটে বাইটে একই।
+folders-tools-diff-same-bytes = দুটি ফাইল হুবহু একই।
 
 # Line in the file compare window when one file is the start of the other; { $one } and { $other } are their sizes.
-folders-tools-diff-same-as-shorter = ছোটটি যতদূর যায় ততদূর দুটি একই; একটি { $one } আর অন্যটি { $other }।
+folders-tools-diff-same-as-shorter = ছোটটির শেষ পর্যন্ত দুটি একই। একটি { $one } আর অন্যটি { $other }।
 
 # Line in the file compare window for the first byte that differs; { $n } is its number.
 folders-tools-diff-from-byte = বাইট { $n } থেকে দুটি আলাদা।
@@ -365,31 +365,31 @@ folders-tools-diff-from-byte = বাইট { $n } থেকে দুটি আ
 # Note in the file compare window; { $n } is how many lines differ.
 folders-tools-diff-lines =
     { $n ->
-        [0] দুটি একই।
+        [0] দুটি ফাইল একই।
         [one] ১টি লাইন আলাদা।
        *[other] { $n }টি লাইন আলাদা।
     }
 
 # Note in the file compare window when the files are too different to match line by line.
-folders-tools-diff-too-different = দুটি এত আলাদা যে লাইন ধরে মেলানো যায় না, তাই প্রথম ও শেষ পার্থক্যের মধ্যে সব লাইন বদলানো হিসেবে দেখায়।
+folders-tools-diff-too-different = দুটি এত আলাদা যে লাইন ধরে তুলনা করা যায় না। প্রথম ও শেষ পার্থক্যের মাঝের সবকিছু বদলানো হিসেবে দেখায়।
 
 # Note in the file compare window when only the start of each file is compared.
-folders-tools-diff-cut = প্রতিটির শুধু প্রথম ৪ MB তুলনা করা হয়।
+folders-tools-diff-cut = প্রতিটি ফাইলের শুধু প্রথম ৪ MB তুলনা করা হয়।
 
 # Title of the window that compares the two panes; { $left } and { $right } are the folders' names.
 folders-tools-compare-title = { $left } ও { $right } তুলনা করুন
 
 # Label of the switch in the pane compare window that reads every byte.
-folders-tools-compare-bytes = প্রতিটি বাইট পড়ুন (ধীর)
+folders-tools-compare-bytes = বিষয়বস্তু তুলনা করুন (ধীর)
 
 # Switch tip in the pane compare window: compare the contents of each file.
 folders-tools-compare-bytes-tip = প্রতিটি ফাইলের ভিতরে কী আছে তুলনা করুন
 
 # Label of the switch in the pane compare window that also lists names that are the same.
-folders-tools-compare-show-same = যেগুলো একই তাও দেখান
+folders-tools-compare-show-same = মিলে যাওয়া নাম দেখান
 
 # Switch tip in the pane compare window: list the names that are the same too.
-folders-tools-compare-show-same-tip = যে নামগুলো একই সেগুলোও দেখান
+folders-tools-compare-show-same-tip = মিলে যাওয়া নামগুলোও তালিকায় দেখান
 
 # Red words in the pane compare window when it fails; { $error } says why.
 folders-tools-compare-stopped = তুলনা থেমে গেছে: { $error }।
@@ -398,17 +398,17 @@ folders-tools-compare-stopped = তুলনা থেমে গেছে: { $er
 folders-tools-compare-counts = শুধু বাঁয়ে { $left }টি, শুধু ডানে { $right }টি, আলাদা { $different }টি, একই { $same }টি।
 
 # Line in the pane compare window when nothing differs.
-folders-tools-compare-all-same = দুটি ফোল্ডারে একই জিনিস আছে।
+folders-tools-compare-all-same = দুটি ফোল্ডারের বিষয়বস্তু একই।
 
 # Tip of the button in the pane compare window that compares again.
 folders-tools-compare-again = আবার তুলনা করুন
 
 # Button in the pane compare window; { $n } is how many names are copied to the left folder.
-folders-tools-compare-copy-left = নেই বা নতুন { $n }টি বাঁয়ে কপি করুন
+folders-tools-compare-copy-left = নেই বা নতুন { $n }টি জিনিস বাঁয়ে কপি করুন
 
 # Button in the pane compare window; { $n } is how many names are copied to the right folder.
-folders-tools-compare-copy-right = নেই বা নতুন { $n }টি ডানে কপি করুন
-
+folders-tools-compare-copy-right = নেই বা নতুন { $n }টি জিনিস ডানে কপি করুন
 
 # Line in the Wipe window naming the folders that were picked too, which are not wiped.
-folders-tools-wipe-left-out = ফোল্ডার ওয়াইপ করা হয় না, তাই এগুলো যেমন আছে তেমনই থাকবে: { $names }।
+# SAFETY: needs a human review before it ships
+folders-tools-wipe-left-out = শুধু ফাইল ওয়াইপ করা হয়, তাই এই ফোল্ডারগুলো যেমন আছে তেমনই থাকবে: { $names }।

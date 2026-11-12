@@ -7,10 +7,10 @@ folders-menu-rename = Ganti nama
 folders-menu-rename-them = Ganti nama semuanya
 
 # Row of Folders' right-click menu (Install font), shown when one thing is picked.
-folders-menu-install-the-font-for-you = Pasangkan fontnya untuk Anda
+folders-menu-install-the-font-for-you = Pasang font hanya untuk Anda
 
 # Row of Folders' right-click menu (Install font), shown when several things are picked.
-folders-menu-install-the-fonts-for-you = Pasangkan fontnya untuk Anda
+folders-menu-install-the-fonts-for-you = Pasang font hanya untuk Anda
 
 # Row of Folders' right-click menu that does: Open.
 folders-menu-open = Buka
@@ -145,6 +145,7 @@ folders-menu-resize = Ubah ukuran
 # Row of Folders' right-click menu that does: Compare files.
 folders-menu-compare-the-two = Bandingkan keduanya
 
+
 # Row of Folders' right-click menu that does: Copy here.
 folders-menu-copy-here = Salin ke sini
 
@@ -174,7 +175,7 @@ folders-menu-pin-to-the-ring = Sematkan di cincin
 folders-menu-sub-select = Pilih
 
 # Row of Folders' right-click menu that opens a sub-menu of pack rows; the sub-menu is named for what is in it.
-folders-menu-sub-pack = Kemas, kirim, dan bagikan
+folders-menu-sub-pack = Kompres, kirim, dan bagikan
 
 # Row of Folders' right-click menu that opens a sub-menu of picture rows; the sub-menu is named for what is in it.
 folders-menu-sub-picture = Gambar
@@ -183,22 +184,23 @@ folders-menu-sub-picture = Gambar
 folders-menu-sub-tools = Alat
 
 # Red words under the file lines when showing or hiding a column could not be saved.
-folders-menu-columns-not-saved = Kolom tidak dapat disimpan.
+folders-menu-columns-not-saved = Folders tidak dapat menyimpan kolom.
 
 # Red words under the file lines when Open in a new window failed.
-folders-menu-no-new-window = Jendela baru tidak dapat dibuka.
+folders-menu-no-new-window = Folders tidak dapat membuka jendela baru.
+
 
 # Red words under the file lines when Open as administrator failed.
-folders-menu-no-admin-window = Folders tidak dapat dibuka sebagai administrator.
+folders-menu-no-admin-window = Folders tidak dapat membuka jendela sebagai administrator.
 
 # Red words under the file lines when a picture cannot be the wallpaper; the name of the picture, then the reasons.
-folders-menu-wallpaper-refused = { $name } tidak dapat dijadikan gambar latar: { $why }.
+folders-menu-wallpaper-refused = { $name } tidak dapat dipakai sebagai gambar latar: { $why }.
 
 # Words under the file lines after a picture was set as the wallpaper.
 folders-menu-wallpaper-set = { $name } sekarang menjadi gambar latar.
 
 # Red words under the file lines when setting the wallpaper failed.
-folders-menu-wallpaper-failed = Gambar latar tidak dapat diatur.
+folders-menu-wallpaper-failed = Folders tidak dapat mengatur gambar latar.
 
 # Name of the undo step after a link was made; shown where undo is offered.
 folders-menu-undo-link = Batalkan pembuatan { $name }
@@ -207,28 +209,28 @@ folders-menu-undo-link = Batalkan pembuatan { $name }
 folders-menu-link-made = { $name } dibuat.
 
 # Red words under the file lines when a link could not be made; the reason follows.
-folders-menu-link-failed = Tautan tidak dapat dibuat: { $why }.
+folders-menu-link-failed = Folders tidak dapat membuat tautan: { $why }.
 
 # Words under the file lines after a folder was shared with AI programs.
 folders-menu-ai-shared = { $name } dibagikan dengan program AI.
 
 # Words under the file lines after a folder or file was taken off the ring.
-folders-menu-ring-off = { $name } dilepas dari cincin.
+folders-menu-ring-off = { $name } tidak lagi disematkan di cincin.
 
 # Words under the file lines after a folder or file was pinned to the ring.
-folders-menu-ring-pinned = { $name } disematkan di cincin. Muncul bersama aplikasi favorit.
+folders-menu-ring-pinned = { $name } disematkan di cincin, di samping aplikasi favorit Anda.
 
 # Words under the file lines when the thing to pin is on the ring already.
 folders-menu-ring-already = { $name } sudah ada di cincin.
 
 # Red words under the file lines when the ring has no room for another pin; the number is how many it holds.
-folders-menu-ring-full = Bagian tengah cincin menampung { $n } dan sudah penuh. Lepas satu untuk memberi ruang.
+folders-menu-ring-full = Cincin sudah penuh. Cincin hanya muat { $n } sematan, jadi lepaskan satu dulu.
 
 # Red words under the file lines when a name cannot be written in the ring's list of favourites.
-folders-menu-ring-unkept = { $name } tidak dapat disimpan di cincin: namanya memuat huruf yang tidak dapat ditampung daftar.
+folders-menu-ring-unkept = Folders tidak dapat menyematkan { $name } di cincin karena namanya memuat karakter yang tidak dapat disimpan Folders di sana.
 
 # Red words under the file lines when the ring's favourites list could not be saved.
-folders-menu-ring-not-saved = Favorit cincin tidak dapat disimpan.
+folders-menu-ring-not-saved = Folders tidak dapat menyimpan favorit cincin.
 
 # Name given to a new link to a file or folder; the name of the thing linked to follows.
 folders-menu-link-name = Tautan ke { $name }

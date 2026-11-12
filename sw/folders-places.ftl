@@ -19,7 +19,7 @@ folders-places-trash = Tupio
 folders-places-network = Mtandao
 
 # Name on a tab of a search that has no words typed, only the choices beside the box.
-folders-places-found = Vilivyopatikana
+folders-places-found = Matokeo ya utafutaji
 
 # Name on a tab of a search for the words typed, which are in quotes.
 folders-places-found-text = “{ $text }”
@@ -28,10 +28,10 @@ folders-places-found-text = “{ $text }”
 folders-places-found-inside = “{ $text }” ndani ya faili
 
 # Red words when a folder cannot be opened because the person is not allowed to.
-folders-places-unread-denied = Huruhusiwi kufungua folda hii.
+folders-places-unread-denied = Huna ruhusa ya kufungua folda hii.
 
 # Red words when a folder cannot be opened because it is gone.
 folders-places-unread-gone = Folda hii haipo tena.
 
 # Red words when a folder cannot be read for any other reason.
-folders-places-unread-other = Folda hii haikuweza kusomwa.
+folders-places-unread-other = Folders haikuweza kusoma folda hii.

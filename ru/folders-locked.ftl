@@ -1,3 +1,4 @@
+
 # machine translated (Russian), not yet reviewed by a person.
 
 # Name of the main button on the password card when the archive is being extracted.
@@ -10,10 +11,10 @@ folders-locked-open = Открыть
 folders-locked-password = Пароль
 
 # Line under the password box before anything has been tried: says the password is not saved.
-folders-locked-kept-note = Хранится, только пока архив открыт, и нигде не сохраняется.
+folders-locked-kept-note = Folders забудет его, когда архив закроется.
 
 # Words beside the spinning ring on the password card while a password is being tried.
-folders-locked-trying = Проверяем
+folders-locked-trying = Проверяем пароль
 
 # Title of the password card; the variable is the archive's name.
 folders-locked-title = Пароль для { $name }

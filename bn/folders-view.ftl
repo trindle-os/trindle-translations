@@ -9,8 +9,8 @@ folders-view-empty-trash-title = ট্র্যাশ খালি করবে
 # SAFETY: needs a human review before it ships
 folders-view-empty-trash-body =
     { $n ->
-        [one] এতে থাকা একমাত্র আইটেমটি চিরতরে মুছে যাবে। এটি ফেরানো যাবে না।
-       *[other] এতে থাকা সব { $n }টি আইটেম চিরতরে মুছে যাবে। এটি ফেরানো যাবে না।
+        [one] এতে থাকা আইটেমটি চিরতরে মুছে ফেলা হবে। এটি ফেরানো যাবে না।
+       *[other] এতে থাকা সব { $n }টি আইটেম চিরতরে মুছে ফেলা হবে। এটি ফেরানো যাবে না।
     }
 
 # Red button of the question asked before the Trash is emptied: empties it at once.
@@ -43,6 +43,9 @@ folders-view-drop-title = এগুলো কোথায় যাবে?
 # Tip of the round close button of the window that asks where dropped items should go: leaves them where they are.
 folders-view-drop-leave = যেখানে আছে সেখানেই থাকুক
 
+
+
+
 # Tip of the toolbar button that shows a folder as icons.
 folders-view-icons = আইকন
 
@@ -63,6 +66,10 @@ folders-view-sort-by = সাজানোর ধরন
 
 # Name read out for the toolbar's Group by strip.
 folders-view-group-by = ভাগ করার ধরন
+
+
+
+
 
 # Tip of the toolbar button that hides the preview panel.
 folders-view-panel-hide = প্রিভিউ প্যানেল লুকান (Alt+P)
@@ -86,7 +93,12 @@ folders-view-tabs-right = ডান প্যানের ট্যাব
 folders-view-tab-new = নতুন ট্যাব (Ctrl+T)
 
 # Tip of the button that closes the tab showing.
-folders-view-tab-close = ট্যাব বন্ধ করুন (Ctrl+W, বা এতে মাঝের ক্লিক)
+folders-view-tab-close = ট্যাব বন্ধ করুন (Ctrl+W)
+
+
+
+
+
 
 # Side bar row that opens the Home folder.
 folders-view-home = হোম
@@ -108,6 +120,8 @@ folders-view-shares = শেয়ার
 
 # Tip of the side bar button that closes an open Windows share; name is the share.
 folders-view-share-close = { $name } বন্ধ করুন
+
+
 
 # Tip of the button that opens the window to connect to a server, and the button of the empty Network page that does the same.
 folders-view-connect = সার্ভারে যুক্ত হন
@@ -160,7 +174,7 @@ folders-view-compare =
 folders-view-locate-hint = ফোল্ডার, ফাইল বা সার্ভারের ঠিকানা লিখুন
 
 # Name read out for the path above a pane's list.
-folders-view-where = এই প্যান কোথায়
+folders-view-where = অবস্থান
 
 # Tip of the pane's Back button.
 folders-view-back = পেছনে (Alt+Left)
@@ -171,23 +185,26 @@ folders-view-forward = সামনে (Alt+Right)
 # Tip of the pane's button that goes up one folder.
 folders-view-up = এক ফোল্ডার ওপরে (Alt+Up)
 
+
+
 # Placeholder of the filter box above a pane's list.
-folders-view-filter-hint = ছাঁকুন, বা এই ফোল্ডার ও এর নিচে খুঁজতে Enter চাপুন
+folders-view-filter-hint = ছাঁকুন, বা এই ফোল্ডার ও এর সাবফোল্ডারে খুঁজতে Enter চাপুন
 
 # Tip of the button beside the filter box that finds things by name here and below.
-folders-view-find-name = এখানে ও এর নিচে নাম ধরে খুঁজুন
+folders-view-find-name = সাবফোল্ডারসহ নাম খুঁজুন
 
 # Tip of the button beside the filter box that finds words inside files here and below.
-folders-view-find-inside = এখানে ও এর নিচে ফাইলের ভেতরের শব্দ খুঁজুন
+folders-view-find-inside = সাবফোল্ডারসহ ফাইলের ভেতরে খুঁজুন
+
 
 # Name read out for the list that picks which kind of thing to show.
-folders-view-find-kind = কোন ধরন দেখানো হবে
+folders-view-find-kind = ধরন
 
 # Name read out for the list that picks which size to show.
-folders-view-find-size = কোন আকার দেখানো হবে
+folders-view-find-size = আকার
 
 # Name read out for the list that picks when things were last changed.
-folders-view-find-changed = শেষ কখন বদলেছে
+folders-view-find-changed = শেষ বদল
 
 # Placeholder of the box in which an item is renamed; was is its present name.
 folders-view-rename-hint = { $was }-এর নতুন নাম
@@ -205,7 +222,7 @@ folders-view-status-selected = { $count }টি বাছা হয়েছে,
 folders-view-status-then = { $first }। { $then }
 
 # Tip of the small round i at a pane's foot that lists the files words there are about, each with its reason.
-folders-view-listed = কোন ফাইল, আর কেন
+folders-view-listed = এ সম্পর্কিত ফাইলগুলো দেখান
 
 # Tip of the button on an empty or failed pane that reads the place again.
 folders-view-try-again = আবার চেষ্টা করুন
@@ -221,7 +238,7 @@ folders-view-none-matches = ছাঁকনির সঙ্গে এখান�
 folders-view-show-everything = সব দেখান
 
 # Line on the Recent page when nothing was opened lately.
-folders-view-none-recent = সম্প্রতি কিছু খোলা হয়নি
+folders-view-none-recent = আপনি সম্প্রতি কিছু খোলেননি
 
 # Button on the empty Recent page that goes to the Home folder.
 folders-view-go-home = হোমে যান
@@ -285,61 +302,56 @@ folders-view-shares-down =
 # SAFETY: needs a human review before it ships
 folders-view-forget-share = { $name } ভুলে যান
 
-
-
 # Name read out for the top bar's button that shows two panes side by side, or one.
-folders-view-two-panes = দুটি প্যানে
+folders-view-two-panes = দুটি প্যান
 
 # Tip of the top bar's two panes button, while one pane shows.
-folders-view-panes-two = দুটি প্যানে পাশাপাশি দেখান (F3)
+folders-view-panes-two = দুটি প্যান পাশাপাশি দেখান (F3)
 
 # Tip of the top bar's two panes button, while two panes show.
-folders-view-panes-one = একটি প্যানে দেখান (F3)
+folders-view-panes-one = একটি প্যান দেখান (F3)
 
 # Tip and spoken name of the top bar's button that opens the View menu.
-folders-view-view = দেখা: আইটেম কীভাবে দেখানো, সাজানো ও ভাগ করা হবে
+folders-view-view = দেখা
 
 # Words of the top bar's button that opens the New menu (New folder, New document).
 folders-view-new = নতুন
 
 # Tip and spoken name of the top bar's button that opens the More menu (Undo, Redo, settings).
-folders-view-more = আরও: আগের অবস্থায় ফেরা, আবার করা ও সেটিংস
+folders-view-more = আরও বিকল্প
 
 # Row of the More menu that undoes the last change.
-folders-view-more-undo = আগের অবস্থায় ফিরুন
+folders-view-more-undo = আনডু
 
 # Row of the More menu that does again what was undone.
-folders-view-more-redo = আবার করুন
+folders-view-more-redo = রিডু
 
 # Row of the View menu that turns the sort round.
 folders-view-sort-other-way = উল্টো দিকে সাজান
-
-# Row under the Network heading of the side bar: the computers found nearby.
-folders-view-network-nearby = কাছের কম্পিউটার
-
-# Choice at the start of the line under a pane's path: search or filter here (Ctrl+F).
-folders-view-search = খুঁজুন
-
-# Placeholder of the box in which the name the side bar shows for a pinned folder is typed; was is the folder's own name.
-folders-view-pin-name-hint = { $was }-এর জন্য দেখানো নাম
-
-
-# Tip of the Search button while the search box shows.
-folders-view-search-close = পথ আবার দেখান (Esc)
-
-# Tip of the Search button, greyed, on the page of every drive.
-folders-view-search-none = এই পাতায় খোঁজার কিছু নেই
-
-# Name read out for the Search button, which says whether it is pressed.
-folders-view-search-spoken = খুঁজুন
-
 
 # Tip of the toolbar button that shows hidden files (Ctrl+H).
 folders-view-hidden-show = লুকানো ফাইল দেখান (Ctrl+H)
 
 # Tip of the toolbar button that hides hidden files again (Ctrl+H).
-folders-view-hidden-hide = লুকানো ফাইল লুকান (Ctrl+H)
+folders-view-hidden-hide = লুকানো ফাইল আবার লুকান (Ctrl+H)
 
 # Name read out for the toolbar button that shows or hides hidden files.
 folders-view-hidden-spoken = লুকানো ফাইল
 
+# Row under the Network heading of the side bar: the computers found nearby.
+folders-view-network-nearby = কাছের কম্পিউটার
+
+# Tip of the Search button in the top row while the path shows.
+folders-view-search = খুঁজুন (Ctrl+F)
+
+# Tip of the Search button while the search box shows.
+folders-view-search-close = খোঁজা বন্ধ করুন (Escape)
+
+# Tip of the Search button, greyed, on the page of every drive.
+folders-view-search-none = এই পাতায় খোঁজা যায় না
+
+# Name read out for the Search button, which says whether it is pressed.
+folders-view-search-spoken = খুঁজুন
+
+# Placeholder of the box in which the name the side bar shows for a pinned folder is typed; was is the folder's own name.
+folders-view-pin-name-hint = { $was }-এর সাইডবারের নাম

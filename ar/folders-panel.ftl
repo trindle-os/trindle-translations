@@ -17,7 +17,7 @@ folders-panel-home = المجلد الرئيسي
 folders-panel-home-under = المجلد الرئيسي/{ $rest }
 
 # Said at the window's foot in red when the preview panel's switch or width could not be saved.
-folders-panel-keep-failed = تعذّر حفظ لوحة المعاينة للمرة القادمة.
+folders-panel-keep-failed = تعذّر على Folders حفظ إعدادات لوحة المعاينة للمرة القادمة.
 
 # Name of a fact in the preview panel: how many things a folder, archive or place holds.
 folders-panel-fact-holds = يحتوي على
@@ -74,22 +74,22 @@ folders-panel-in-all = { $items } في المجموع
 folders-panel-by = { $w } × { $h }
 
 # Quiet words under the icon in the preview panel for a file whose name says one kind but whose bytes are not; what is the kind, such as PDF document.
-folders-panel-broken = اسمه يقول إنه { $what }، لكنه ليس كذلك في داخله.
+folders-panel-broken = اسمه يقول إنه { $what }، لكن محتوياته لا تتطابق.
 
 # Quiet words under the icon in the preview panel for a picture too large to show.
 folders-panel-too-large = هذه الصورة أكبر من أن تُعرض هنا.
 
 # Quiet words under the icon in the preview panel for a file that could not be read; why is the reason.
-folders-panel-read-failed = تعذّرت قراءته: { $why }
+folders-panel-read-failed = تعذّر على Folders قراءته: { $why }
 
 # Name at the top of the preview panel when several things are picked; count is how many.
 folders-panel-selected = { $count } محدد
 
 # Name read out for the edge between the panes and the preview panel.
-folders-panel-edge = اسحب لجعل المعاينة أعرض أو أضيق، أو اضغط لتغيير عرضها خطوة خطوة
+folders-panel-edge = عرض لوحة المعاينة
 
 # Name read out for the picture in the preview panel; name is the file's.
-folders-panel-picture-name = صورة { $name }
+folders-panel-picture-name = معاينة { $name }
 
 # Name read out for the start of a text file in the preview panel; name is the file's.
 folders-panel-text-name = بداية { $name }

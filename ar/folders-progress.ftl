@@ -19,7 +19,7 @@ folders-progress-pace-wait =
 folders-progress-line = { $doing }: { $how }
 
 # The same with the words about the disk added; { $line } is the line above, { $heavy } the words about the disk.
-folders-progress-line-heavy = { $line } { $heavy }
+folders-progress-line-heavy = { $line }. { $heavy }
 
 # A speed or size in bytes; { $n } is the figure.
 folders-progress-speed-bytes = { $n } بايت
@@ -87,8 +87,8 @@ folders-progress-more =
 # SAFETY: needs a human review before it ships
 folders-progress-heavy =
     { $verb ->
-        [moving] النقل يستخدم القرص بكثافة، لذلك قد تبدو البرامج الأخرى أبطأ حتى ينتهي.
-       *[copying] النسخ يستخدم القرص بكثافة، لذلك قد تبدو البرامج الأخرى أبطأ حتى ينتهي.
+        [moving] النقل يُبقي القرص مشغولاً، لذلك قد تكون البرامج الأخرى أبطأ حتى ينتهي.
+       *[copying] النسخ يُبقي القرص مشغولاً، لذلك قد تكون البرامج الأخرى أبطأ حتى ينتهي.
     }
 
 # End of a piece of work's line while it waits for the person's answer.
@@ -98,7 +98,7 @@ folders-progress-waiting = بانتظار جواب
 folders-progress-paused = متوقف مؤقتاً
 
 # Tip of the button on a paused piece of work's row that sets it going again.
-folders-progress-carry-on = متابعة
+folders-progress-carry-on = استئناف
 
 # Tip of the button on a piece of work's row that pauses it.
 folders-progress-pause = إيقاف مؤقت
@@ -108,7 +108,7 @@ folders-progress-pause = إيقاف مؤقت
 folders-progress-stop = إيقاف
 
 # Under a file or folder in the name taken question: it is newer than the other and larger.
-folders-progress-mark-newer-larger = أحدث، أكبر
+folders-progress-mark-newer-larger = أحدث وأكبر
 
 # Under a file or folder in the name taken question: it is newer than the other.
 folders-progress-mark-newer = أحدث
@@ -129,7 +129,7 @@ folders-progress-taken =
     }
 
 # Heading over the file or folder that is being brought, in the name taken question.
-folders-progress-coming = الذي يُجلب
+folders-progress-coming = الجديد
 
 # Heading over the file or folder that is already there, in the name taken question.
 folders-progress-there = الموجود بالفعل
@@ -148,7 +148,7 @@ folders-progress-replace = استبدال
 
 # Screen reader name of the Replace button for a folder in the name taken question.
 # SAFETY: needs a human review before it ships
-folders-progress-replace-folder-spoken = استبدال: المجلد الموجود بالفعل يذهب إلى سلة المحذوفات
+folders-progress-replace-folder-spoken = استبدال، ونقل المجلد الموجود بالفعل إلى سلة المحذوفات
 
 # Main button of the name taken question for a folder: join the two folders.
 # SAFETY: needs a human review before it ships
@@ -156,11 +156,11 @@ folders-progress-merge = دمج
 
 # Line over the switch in the name taken question for folders.
 # SAFETY: needs a human review before it ships
-folders-progress-all-folders = الجواب نفسه لكل مجلد موجود بالفعل.
+folders-progress-all-folders = استخدم هذا الجواب لكل مجلد موجود بالفعل.
 
 # Line over the switch in the name taken question for files.
 # SAFETY: needs a human review before it ships
-folders-progress-all-files = الجواب نفسه لكل ملف موجود بالفعل.
+folders-progress-all-files = استخدم هذا الجواب لكل ملف موجود بالفعل.
 
 # Name and tip of the switch in the name taken question that uses the answer for the rest.
 # SAFETY: needs a human review before it ships

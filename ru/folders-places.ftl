@@ -1,3 +1,4 @@
+
 # machine translated (Russian), not yet reviewed by a person.
 
 # Name of the top of the filesystem, "/", in the path bar, the sidebar and the Storage page: the disk the system is on.
@@ -19,7 +20,7 @@ folders-places-trash = Корзина
 folders-places-network = Сеть
 
 # Name on a tab of a search that has no words typed, only the choices beside the box.
-folders-places-found = Найдено
+folders-places-found = Результаты поиска
 
 # Name on a tab of a search for the words typed, which are in quotes.
 folders-places-found-text = «{ $text }»

@@ -36,5 +36,5 @@ folders-places-unread-denied = 你无权打开此文件夹。
 folders-places-unread-gone = 此文件夹已不存在。
 
 # Red words when a folder cannot be read for any other reason.
-folders-places-unread-other = 无法读取此文件夹。
+folders-places-unread-other = Folders 无法读取此文件夹。
 

@@ -18,7 +18,7 @@ folders-progress-pace-wait =
 folders-progress-line = { $doing }: { $how }
 
 # The same with the words about the disk added; { $line } is the line above, { $heavy } the words about the disk.
-folders-progress-line-heavy = { $line } { $heavy }
+folders-progress-line-heavy = { $line }. { $heavy }
 
 # A speed or size in bytes; { $n } is the figure.
 folders-progress-speed-bytes = baiti { $n }
@@ -69,8 +69,8 @@ folders-progress-more =
 # End of the line of a copy or move row; { $verb } is moving or copying.
 folders-progress-heavy =
     { $verb ->
-        [moving] Kuhamisha kunatumia diski sana, kwa hiyo programu nyingine zinaweza kuwa polepole hadi kuishe.
-       *[copying] Kunakili kunatumia diski sana, kwa hiyo programu nyingine zinaweza kuwa polepole hadi kuishe.
+        [moving] Kuhamisha kunaifanya diski iwe na shughuli nyingi, kwa hiyo programu nyingine zinaweza kuwa polepole hadi kazi iishe.
+       *[copying] Kunakili kunaifanya diski iwe na shughuli nyingi, kwa hiyo programu nyingine zinaweza kuwa polepole hadi kazi iishe.
     }
 
 # End of a piece of work's line while it waits for the person's answer.
@@ -89,7 +89,7 @@ folders-progress-pause = Simamisha kwa muda
 folders-progress-stop = Acha
 
 # Under a file or folder in the name taken question: it is newer than the other and larger.
-folders-progress-mark-newer-larger = mpya zaidi, kubwa zaidi
+folders-progress-mark-newer-larger = mpya zaidi na kubwa zaidi
 
 # Under a file or folder in the name taken question: it is newer than the other.
 folders-progress-mark-newer = mpya zaidi
@@ -109,7 +109,7 @@ folders-progress-taken =
     }
 
 # Heading over the file or folder that is being brought, in the name taken question.
-folders-progress-coming = Inayoletwa
+folders-progress-coming = Mpya
 
 # Heading over the file or folder that is already there, in the name taken question.
 folders-progress-there = Iliyopo tayari
@@ -126,16 +126,16 @@ folders-progress-replace = Badilisha
 
 # Screen reader name of the Replace button for a folder in the name taken question.
 # SAFETY: needs a human review before it ships
-folders-progress-replace-folder-spoken = Badilisha: folda iliyopo tayari huenda Tupioni
+folders-progress-replace-folder-spoken = Badilisha, na uhamishe folda iliyopo tayari hadi Tupioni
 
 # Main button of the name taken question for a folder: join the two folders.
 folders-progress-merge = Unganisha
 
 # Line over the switch in the name taken question for folders.
-folders-progress-all-folders = Jibu lilelile kwa kila folda iliyopo tayari.
+folders-progress-all-folders = Tumia jibu hili kwa kila folda iliyopo tayari.
 
 # Line over the switch in the name taken question for files.
-folders-progress-all-files = Jibu lilelile kwa kila faili iliyopo tayari.
+folders-progress-all-files = Tumia jibu hili kwa kila faili iliyopo tayari.
 
 # Name and tip of the switch in the name taken question that uses the answer for the rest.
 folders-progress-same-for-rest = Fanya vivyo hivyo kwa zilizobaki

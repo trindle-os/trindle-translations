@@ -14,7 +14,7 @@ folders-remote-usb-busy = فون
 folders-remote-usb-stopped = فون نے جواب دینا بند کر دیا۔
 
 # Red words when the phone refused a request.
-folders-remote-usb-refused = فون نے اس سے انکار کر دیا۔
+folders-remote-usb-refused = فون پر یہ کام نہیں ہوا۔
 
 # Red words when the phone took only part of what was sent.
-folders-remote-usb-part = فون نے بھیجی گئی چیز کا صرف کچھ حصہ لیا۔
+folders-remote-usb-part = فون کو بھیجی گئی چیز کا صرف کچھ حصہ ملا۔

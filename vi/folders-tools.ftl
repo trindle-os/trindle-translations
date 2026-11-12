@@ -20,10 +20,10 @@ folders-tools-case-lower = Toàn chữ thường
 folders-tools-case-upper = Toàn chữ hoa
 
 # Choice in the rename window, under Letters: start each word with a capital.
-folders-tools-case-words = Mỗi từ
+folders-tools-case-words = Viết hoa mỗi từ
 
 # Choice in the rename window, under Letters: start only the first word with a capital.
-folders-tools-case-first = Từ đầu tiên
+folders-tools-case-first = Viết hoa từ đầu tiên
 
 # Choice in the rename window, under Ending: leave the file ending as it is.
 folders-tools-ending-keep = Giữ nguyên
@@ -59,15 +59,15 @@ folders-tools-clash-twice = hai mục sẽ có cùng tên này
 folders-tools-clash-taken = đã có mục khác dùng tên này
 
 # Beside a row of the rename list that cannot be done: the old name is not plain text, so it cannot be changed.
-folders-tools-clash-not-text = tên cũ không phải văn bản thuần nên không đổi được
+folders-tools-clash-not-text = tên cũ có ký tự mà Folders không đọc được
 
 # Warning in the Wipe window about a flash disk, where old copies may stay out of reach.
 # SAFETY: needs a human review before it ships
-folders-tools-caveat-flash = Đây là ổ flash, không phải ổ quay, nên các bản cũ có thể vẫn còn ở những phần mà Trindle không với tới được.
+folders-tools-caveat-flash = Đây là ổ flash hoặc SSD, nên các bản cũ có thể vẫn còn ở những phần mà Folders không với tới được.
 
 # Warning in the Wipe window about a filesystem that writes changes elsewhere; { $fs } is the filesystem's name.
 # SAFETY: needs a human review before it ships
-folders-tools-caveat-copy-on-write = Hệ thống tệp { $fs } ghi thay đổi sang chỗ mới, nên dữ liệu cũ có thể vẫn còn ở chỗ cũ.
+folders-tools-caveat-copy-on-write = Hệ thống tệp { $fs } lưu thay đổi vào chỗ mới, nên dữ liệu cũ có thể vẫn còn ở đó.
 
 # Warning in the Wipe window about a share on another computer; { $fs } is the kind of share.
 # SAFETY: needs a human review before it ships
@@ -106,7 +106,7 @@ folders-tools-place-here = Tại đây
 folders-tools-only-files-wiped = Chỉ có thể xóa sạch tệp.
 
 # Red notice when comparing the two panes while one of them does not show a folder.
-folders-tools-compare-need-folders = Cả hai ngăn phải hiện một thư mục thì mới so sánh được.
+folders-tools-compare-need-folders = Hãy mở một thư mục trong mỗi ngăn để so sánh chúng.
 
 # Undo entry after renaming many files; { $n } is how many were renamed.
 folders-tools-rename-undo =
@@ -126,10 +126,10 @@ folders-tools-rename-done =
 folders-tools-rename-stopped = Việc đổi tên dừng giữa chừng: { $error }.
 
 # Red words under the archive name in the Compress window when the name is empty.
-folders-tools-name-empty = Tên không được để trống.
+folders-tools-name-empty = Hãy nhập tên cho tệp nén.
 
 # Beside the ring while a search is running and the end is not known; { $done } is how many have been looked at.
-folders-tools-looked-at = Đã xem { $done }
+folders-tools-looked-at = Đã kiểm tra { $done }
 
 # Beside the ring while a search is running and the end is known; { $done } and { $total } are sizes such as 3 MB.
 folders-tools-read-of = Đã đọc { $done } trên { $total }
@@ -141,7 +141,7 @@ folders-tools-listing-files = Đang liệt kê tệp
 folders-tools-comparing = Đang so sánh
 
 # Beside the ring while two folders are compared.
-folders-tools-looking = Đang xem
+folders-tools-looking = Đang so sánh các thư mục
 
 # Title of the Compress window; { $name } is the one thing packed, { $n } how many.
 folders-tools-compress-title =
@@ -157,7 +157,7 @@ folders-tools-pack-name-tip = Tên kho nén
 folders-tools-pack-kind-tip = Loại kho nén
 
 # Note in the Compress window saying where the archive is made; { $place } is the folder.
-folders-tools-pack-made-in = Tạo trong { $place }
+folders-tools-pack-made-in = Tệp nén sẽ được lưu trong { $place }
 
 # Main button of the Compress window.
 folders-tools-compress = Nén
@@ -166,7 +166,7 @@ folders-tools-compress = Nén
 folders-tools-extract-to = Giải nén { $name } vào
 
 # Note in the Extract to window; { $name } is the name of the folder that is made.
-folders-tools-extract-new-folder = Một thư mục mới tên { $name } được tạo ở đó.
+folders-tools-extract-new-folder = Các tệp sẽ được đặt trong một thư mục mới tên { $name }.
 
 # Title of the Resize window; { $name } is the one picture, { $n } how many.
 folders-tools-resize-title =
@@ -179,7 +179,7 @@ folders-tools-resize-title =
 folders-tools-resize-size-tip = Kích thước mới
 
 # Note in the Resize window explaining the sizes and that copies are made.
-folders-tools-resize-note = Một tỷ lệ của kích thước ban đầu, hoặc số điểm ảnh theo cạnh dài hơn; ảnh không bao giờ được phóng to. Một bản sao được tạo bên cạnh mỗi ảnh, đặt tên theo kích thước mới; ảnh gốc được giữ nguyên.
+folders-tools-resize-note = Kích thước là độ dài cạnh dài hơn, tính bằng điểm ảnh. Folders chỉ thu nhỏ ảnh. Mỗi bản đã đổi cỡ được lưu cạnh ảnh gốc, với kích thước mới trong tên.
 
 # Main button of the Resize window.
 folders-tools-resize = Đổi kích thước
@@ -194,7 +194,7 @@ folders-tools-wipe-title =
 
 # Warning at the top of the Wipe window.
 # SAFETY: needs a human review before it ships
-folders-tools-wipe-warning = Mỗi tệp được ghi đè trước khi bị xóa, nên không thể khôi phục. Không thể hoàn tác việc này.
+folders-tools-wipe-warning = Folders ghi đè lên mỗi tệp trước khi xoá, nên bạn không thể lấy lại nó.
 
 # Name beside the choice of how many times to write over, in the Wipe window.
 # SAFETY: needs a human review before it ships
@@ -202,7 +202,7 @@ folders-tools-wipe-write-over = Ghi đè
 
 # Choice tip in the Wipe window: how many times each file is written over.
 # SAFETY: needs a human review before it ships
-folders-tools-wipe-passes-tip = Mỗi tệp được ghi đè bao nhiêu lần
+folders-tools-wipe-passes-tip = Số lần ghi đè lên mỗi tệp
 
 # Red main button of the Wipe window.
 # SAFETY: needs a human review before it ships
@@ -224,13 +224,13 @@ folders-tools-rename-where-tip = Vị trí của số
 folders-tools-rename-first-number-tip = Số đầu tiên
 
 # Choice tip in the rename window: what happens to the file endings.
-folders-tools-rename-ending-tip = Việc làm với đuôi tệp
+folders-tools-rename-ending-tip = Cách xử lý đuôi tệp
 
 # Typing box tip in the rename window: the new ending to give every file.
 folders-tools-rename-new-ending-tip = Đuôi mới, ví dụ txt
 
 # Detail of a row in the rename list that cannot be done; { $why } says why.
-folders-tools-rename-cannot = Không thể: { $why }
+folders-tools-rename-cannot = Folders không đổi tên được mục này: { $why }
 
 # Detail of a row in the rename list whose name changes; { $old } is the old name.
 folders-tools-rename-was = trước là { $old }
@@ -279,7 +279,7 @@ folders-tools-rename-after-tip = Sau tên
 folders-tools-rename-number = Số
 
 # Name over the capitals choice in the rename window.
-folders-tools-rename-letters = Chữ cái
+folders-tools-rename-letters = Chữ hoa
 
 # Choice tip in the rename window: what happens to the capitals in the names.
 folders-tools-rename-case-tip = Chữ hoa trong tên
@@ -290,8 +290,8 @@ folders-tools-rename-ending = Đuôi tệp
 # Note under the rename list; { $clash } is yes when some names cannot be used, otherwise no; { $changes } of { $total } names change; { $place } is the folder.
 folders-tools-rename-summary =
     { $clash ->
-        [yes] Một số tên không dùng được; xem các hàng được đánh dấu. Trong { $place }.
-       *[no] { $changes } trên { $total } tên sẽ thay đổi. Trong { $place }.
+        [yes] Trong { $place }, một số tên không dùng được. Xem các hàng được đánh dấu.
+       *[no] Trong { $place }, { $changes } trên { $total } tên sẽ thay đổi.
     }
 
 # Main button of the rename window.
@@ -323,8 +323,8 @@ folders-tools-dupes-unread =
 # Note above the duplicates list; { $n } is how many sets of copies, { $size } how much the extras take.
 folders-tools-dupes-sets =
     { $n ->
-        [1] 1 nhóm bản sao; chuyển các bản thừa vào Thùng rác sẽ giải phóng { $size }. Các bản thừa đã được chọn sẵn; nhấn Ctrl và bấm để chọn hoặc bỏ chọn một bản.
-       *[other] { $n } nhóm bản sao; chuyển các bản thừa vào Thùng rác sẽ giải phóng { $size }. Các bản thừa đã được chọn sẵn; nhấn Ctrl và bấm để chọn hoặc bỏ chọn một bản.
+        [1] 1 nhóm bản sao. Các bản thừa đã được chọn, và chuyển chúng vào Thùng rác sẽ giải phóng { $size }.
+       *[other] { $n } nhóm bản sao. Các bản thừa đã được chọn, và chuyển chúng vào Thùng rác sẽ giải phóng { $size }.
     }
 
 # Detail of a row in the duplicates list; { $set } is the set's number, { $size } the file's size, { $at } the folder it is in.
@@ -339,7 +339,7 @@ folders-tools-dupes-unread-left-out =
 
 # Note in the duplicates window when every copy of a set is picked.
 # SAFETY: needs a human review before it ships
-folders-tools-dupes-keep-one = Mọi bản sao của một nhóm đều đang được chọn; hãy giữ lại ít nhất một bản.
+folders-tools-dupes-keep-one = Mọi bản sao trong một nhóm đều đang được chọn. Hãy bỏ chọn ít nhất một bản.
 
 # Tip of the button in the duplicates window that picks the extra copies.
 folders-tools-dupes-pick-extras = Chọn các bản thừa
@@ -352,13 +352,13 @@ folders-tools-dupes-trash = Chuyển vào Thùng rác
 folders-tools-diff-title = So sánh hai tệp
 
 # Red words in the file compare window when it fails; { $error } says why.
-folders-tools-diff-failed = Không thể so sánh: { $error }.
+folders-tools-diff-failed = Folders không so sánh được: { $error }.
 
 # Line in the file compare window when two files are the same, byte for byte.
-folders-tools-diff-same-bytes = Hai tệp giống nhau từng byte.
+folders-tools-diff-same-bytes = Hai tệp hoàn toàn giống nhau.
 
 # Line in the file compare window when one file is the start of the other; { $one } and { $other } are their sizes.
-folders-tools-diff-same-as-shorter = Hai tệp giống nhau đến hết phần ngắn hơn; một tệp là { $one } và tệp kia là { $other }.
+folders-tools-diff-same-as-shorter = Hai tệp giống nhau đến hết tệp ngắn hơn. Một tệp là { $one } và tệp kia là { $other }.
 
 # Line in the file compare window for the first byte that differs; { $n } is its number.
 folders-tools-diff-from-byte = Hai tệp khác nhau từ byte { $n } trở đi.
@@ -372,7 +372,7 @@ folders-tools-diff-lines =
     }
 
 # Note in the file compare window when the files are too different to match line by line.
-folders-tools-diff-too-different = Hai tệp khác nhau quá nhiều để so từng dòng, nên mọi dòng giữa điểm khác đầu tiên và điểm khác cuối cùng đều hiện là đã thay đổi.
+folders-tools-diff-too-different = Hai tệp khác nhau quá nhiều để so từng dòng. Mọi thứ giữa điểm khác đầu tiên và điểm khác cuối cùng đều hiện là đã thay đổi.
 
 # Note in the file compare window when only the start of each file is compared.
 folders-tools-diff-cut = Chỉ so sánh 4 MB đầu tiên của mỗi tệp.
@@ -381,13 +381,13 @@ folders-tools-diff-cut = Chỉ so sánh 4 MB đầu tiên của mỗi tệp.
 folders-tools-compare-title = So sánh { $left } với { $right }
 
 # Label of the switch in the pane compare window that reads every byte.
-folders-tools-compare-bytes = Đọc từng byte (chậm hơn)
+folders-tools-compare-bytes = So sánh nội dung (chậm hơn)
 
 # Switch tip in the pane compare window: compare the contents of each file.
 folders-tools-compare-bytes-tip = So sánh nội dung bên trong mỗi tệp
 
 # Label of the switch in the pane compare window that also lists names that are the same.
-folders-tools-compare-show-same = Hiện cả những mục giống nhau
+folders-tools-compare-show-same = Hiện các tên giống nhau
 
 # Switch tip in the pane compare window: list the names that are the same too.
 folders-tools-compare-show-same-tip = Hiện cả những tên giống nhau
@@ -413,5 +413,5 @@ folders-tools-compare-copy-left = Sao chép { $n } mục thiếu hoặc mới h�
 folders-tools-compare-copy-right = Sao chép { $n } mục thiếu hoặc mới hơn sang bên phải
 
 # Line in the Wipe window naming the folders that were picked too, which are not wiped.
-folders-tools-wipe-left-out = Thư mục không bị xóa sạch, nên những mục này được giữ nguyên: { $names }.
-
+# SAFETY: needs a human review before it ships
+folders-tools-wipe-left-out = Chỉ tệp mới bị xoá sạch, nên các thư mục này sẽ được để nguyên: { $names }.

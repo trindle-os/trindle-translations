@@ -19,7 +19,7 @@ folders-progress-pace-wait =
 folders-progress-line = { $doing }: { $how }
 
 # The same with the words about the disk added; { $line } is the line above, { $heavy } the words about the disk.
-folders-progress-line-heavy = { $line } { $heavy }
+folders-progress-line-heavy = { $line }۔ { $heavy }
 
 # A speed or size in bytes; { $n } is the figure.
 folders-progress-speed-bytes = { $n } بائٹ
@@ -70,8 +70,8 @@ folders-progress-more =
 # End of the line of a copy or move row; { $verb } is moving or copying.
 folders-progress-heavy =
     { $verb ->
-        [moving] منتقلی ڈسک کو بہت استعمال کرتی ہے، اس لیے ختم ہونے تک دوسرے پروگرام سست لگ سکتے ہیں۔
-       *[copying] نقل ڈسک کو بہت استعمال کرتی ہے، اس لیے ختم ہونے تک دوسرے پروگرام سست لگ سکتے ہیں۔
+        [moving] منتقلی کے دوران ڈسک مصروف رہتی ہے، اس لیے مکمل ہونے تک دوسرے پروگرام سست ہو سکتے ہیں۔
+       *[copying] نقل کے دوران ڈسک مصروف رہتی ہے، اس لیے مکمل ہونے تک دوسرے پروگرام سست ہو سکتے ہیں۔
     }
 
 # End of a piece of work's line while it waits for the person's answer.
@@ -90,7 +90,7 @@ folders-progress-pause = موقوف کریں
 folders-progress-stop = روکیں
 
 # Under a file or folder in the name taken question: it is newer than the other and larger.
-folders-progress-mark-newer-larger = نئی، بڑی
+folders-progress-mark-newer-larger = نئی اور بڑی
 
 # Under a file or folder in the name taken question: it is newer than the other.
 folders-progress-mark-newer = نئی
@@ -110,7 +110,7 @@ folders-progress-taken =
     }
 
 # Heading over the file or folder that is being brought, in the name taken question.
-folders-progress-coming = جو لائی جا رہی ہے
+folders-progress-coming = نئی والی
 
 # Heading over the file or folder that is already there, in the name taken question.
 folders-progress-there = جو پہلے سے موجود ہے
@@ -127,17 +127,17 @@ folders-progress-replace = بدل دیں
 
 # SAFETY: needs a human review before it ships
 # Screen reader name of the Replace button for a folder in the name taken question.
-folders-progress-replace-folder-spoken = بدل دیں: پہلے سے موجود فولڈر ردی دان میں چلا جائے گا
+folders-progress-replace-folder-spoken = بدل دیں، اور پہلے سے موجود فولڈر کو ردی دان میں منتقل کریں
 
 # SAFETY: needs a human review before it ships
 # Main button of the name taken question for a folder: join the two folders.
 folders-progress-merge = ضم کریں
 
 # Line over the switch in the name taken question for folders.
-folders-progress-all-folders = پہلے سے موجود ہر فولڈر کے لیے یہی جواب۔
+folders-progress-all-folders = پہلے سے موجود ہر فولڈر کے لیے یہی جواب استعمال کریں۔
 
 # Line over the switch in the name taken question for files.
-folders-progress-all-files = پہلے سے موجود ہر فائل کے لیے یہی جواب۔
+folders-progress-all-files = پہلے سے موجود ہر فائل کے لیے یہی جواب استعمال کریں۔
 
 # SAFETY: needs a human review before it ships
 # Name and tip of the switch in the name taken question that uses the answer for the rest.

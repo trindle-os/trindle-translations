@@ -9,8 +9,8 @@ folders-view-empty-trash-title = Çöp kutusu boşaltılsın mı?
 # SAFETY: needs a human review before it ships
 folders-view-empty-trash-body =
     { $n ->
-        [one] İçindeki tek öğe kalıcı olarak silinir. Bu geri alınamaz.
-       *[other] İçindeki { $n } öğenin tümü kalıcı olarak silinir. Bu geri alınamaz.
+        [one] İçindeki öğe kalıcı olarak silinecek. Bunu geri alamazsınız.
+       *[other] İçindeki { $n } öğenin tümü kalıcı olarak silinecek. Bunu geri alamazsınız.
     }
 
 # Red button of the question asked before the Trash is emptied: empties it at once.
@@ -27,7 +27,7 @@ folders-view-delete-title =
 
 # Text of the question asked before items are deleted for good.
 # SAFETY: needs a human review before it ships
-folders-view-delete-body = Bu geri alınamaz.
+folders-view-delete-body = Bunu geri alamazsınız.
 
 # Red button of the question asked before items are deleted for good: deletes them at once.
 # SAFETY: needs a human review before it ships
@@ -42,6 +42,9 @@ folders-view-drop-title = Nereye gitsinler?
 
 # Tip of the round close button of the window that asks where dropped items should go: leaves them where they are.
 folders-view-drop-leave = Bulundukları yerde kalsınlar
+
+
+
 
 # Tip of the toolbar button that shows a folder as icons.
 folders-view-icons = Simgeler
@@ -64,6 +67,10 @@ folders-view-sort-by = Sırala
 # Name read out for the toolbar's Group by strip.
 folders-view-group-by = Grupla
 
+
+
+
+
 # Tip of the toolbar button that hides the preview panel.
 folders-view-panel-hide = Önizleme panelini gizle (Alt+P)
 
@@ -77,16 +84,21 @@ folders-view-panel-spoken = Önizleme paneli
 folders-view-tabs = Sekmeler
 
 # Name read out for the row of tabs above the left pane's list.
-folders-view-tabs-left = Sol bölmenin sekmeleri
+folders-view-tabs-left = Sol bölme sekmeleri
 
 # Name read out for the row of tabs above the right pane's list.
-folders-view-tabs-right = Sağ bölmenin sekmeleri
+folders-view-tabs-right = Sağ bölme sekmeleri
 
 # Tip of the button that opens a new tab.
 folders-view-tab-new = Yeni sekme (Ctrl+T)
 
 # Tip of the button that closes the tab showing.
-folders-view-tab-close = Sekmeyi kapat (Ctrl+W veya üzerine orta tık)
+folders-view-tab-close = Sekmeyi kapat (Ctrl+W)
+
+
+
+
+
 
 # Side bar row that opens the Home folder.
 folders-view-home = Ev
@@ -108,6 +120,8 @@ folders-view-shares = Paylaşımlar
 
 # Tip of the side bar button that closes an open Windows share; name is the share.
 folders-view-share-close = { $name } öğesini kapat
+
+
 
 # Tip of the button that opens the window to connect to a server, and the button of the empty Network page that does the same.
 folders-view-connect = Bir sunucuya bağlan
@@ -160,7 +174,7 @@ folders-view-compare =
 folders-view-locate-hint = Bir klasör, dosya veya sunucu adresi yazın
 
 # Name read out for the path above a pane's list.
-folders-view-where = Bu bölmenin konumu
+folders-view-where = Konum
 
 # Tip of the pane's Back button.
 folders-view-back = Geri (Alt+Sol)
@@ -171,23 +185,26 @@ folders-view-forward = İleri (Alt+Sağ)
 # Tip of the pane's button that goes up one folder.
 folders-view-up = Bir klasör yukarı (Alt+Yukarı)
 
+
+
 # Placeholder of the filter box above a pane's list.
-folders-view-filter-hint = Süzün veya bu klasörde ve altında aramak için Enter'a basın
+folders-view-filter-hint = Süzün veya bu klasörde ve alt klasörlerinde aramak için Enter'a basın
 
 # Tip of the button beside the filter box that finds things by name here and below.
-folders-view-find-name = Burada ve altında ada göre bul
+folders-view-find-name = Adlarda ara, alt klasörler dahil
 
 # Tip of the button beside the filter box that finds words inside files here and below.
-folders-view-find-inside = Burada ve altında dosyaların içindeki sözcükleri bul
+folders-view-find-inside = Dosyaların içinde ara, alt klasörler dahil
+
 
 # Name read out for the list that picks which kind of thing to show.
-folders-view-find-kind = Gösterilecek tür
+folders-view-find-kind = Tür
 
 # Name read out for the list that picks which size to show.
-folders-view-find-size = Gösterilecek boyut
+folders-view-find-size = Boyut
 
 # Name read out for the list that picks when things were last changed.
-folders-view-find-changed = Son değiştirilme zamanı
+folders-view-find-changed = Son değiştirilme
 
 # Placeholder of the box in which an item is renamed; was is its present name.
 folders-view-rename-hint = { $was } için yeni ad
@@ -205,7 +222,7 @@ folders-view-status-selected = { $count } seçili, { $size }
 folders-view-status-then = { $first }. { $then }
 
 # Tip of the small round i at a pane's foot that lists the files words there are about, each with its reason.
-folders-view-listed = Hangi dosyalar ve neden
+folders-view-listed = Bu işlemle ilgili dosyaları göster
 
 # Tip of the button on an empty or failed pane that reads the place again.
 folders-view-try-again = Yeniden dene
@@ -221,7 +238,7 @@ folders-view-none-matches = Burada süzgece uyan bir şey yok
 folders-view-show-everything = Her şeyi göster
 
 # Line on the Recent page when nothing was opened lately.
-folders-view-none-recent = Son zamanlarda açılan yok
+folders-view-none-recent = Yakın zamanda hiçbir şey açmadınız
 
 # Button on the empty Recent page that goes to the Home folder.
 folders-view-go-home = Eve git
@@ -282,8 +299,6 @@ folders-view-shares-down =
 # Tip of the round button that lets a network share that is not connected go from the list; its name.
 folders-view-forget-share = { $name } paylaşımını listeden kaldır
 
-
-
 # Name read out for the top bar's button that shows two panes side by side, or one.
 folders-view-two-panes = İki bölme
 
@@ -294,13 +309,13 @@ folders-view-panes-two = İki bölmeyi yan yana göster (F3)
 folders-view-panes-one = Tek bölme göster (F3)
 
 # Tip and spoken name of the top bar's button that opens the View menu.
-folders-view-view = Görünüm: öğelerin nasıl gösterildiği, sıralandığı ve gruplandığı
+folders-view-view = Görünüm
 
 # Words of the top bar's button that opens the New menu (New folder, New document).
 folders-view-new = Yeni
 
 # Tip and spoken name of the top bar's button that opens the More menu (Undo, Redo, settings).
-folders-view-more = Daha fazla: geri al, yinele ve ayarlar
+folders-view-more = Daha fazla seçenek
 
 # Row of the More menu that undoes the last change.
 folders-view-more-undo = Geri al
@@ -311,26 +326,6 @@ folders-view-more-redo = Yinele
 # Row of the View menu that turns the sort round.
 folders-view-sort-other-way = Ters sırala
 
-# Row under the Network heading of the side bar: the computers found nearby.
-folders-view-network-nearby = Yakındaki bilgisayarlar
-
-# Choice at the start of the line under a pane's path: search or filter here (Ctrl+F).
-folders-view-search = Ara
-
-# Placeholder of the box in which the name the side bar shows for a pinned folder is typed; was is the folder's own name.
-folders-view-pin-name-hint = { $was } için gösterilen ad
-
-
-# Tip of the Search button while the search box shows.
-folders-view-search-close = Yolu yeniden göster (Esc)
-
-# Tip of the Search button, greyed, on the page of every drive.
-folders-view-search-none = Bu sayfada aranacak bir şey yok
-
-# Name read out for the Search button, which says whether it is pressed.
-folders-view-search-spoken = Ara
-
-
 # Tip of the toolbar button that shows hidden files (Ctrl+H).
 folders-view-hidden-show = Gizli dosyaları göster (Ctrl+H)
 
@@ -340,3 +335,20 @@ folders-view-hidden-hide = Gizli dosyaları gizle (Ctrl+H)
 # Name read out for the toolbar button that shows or hides hidden files.
 folders-view-hidden-spoken = Gizli dosyalar
 
+# Row under the Network heading of the side bar: the computers found nearby.
+folders-view-network-nearby = Yakındaki bilgisayarlar
+
+# Tip of the Search button in the top row while the path shows.
+folders-view-search = Ara (Ctrl+F)
+
+# Tip of the Search button while the search box shows.
+folders-view-search-close = Aramayı kapat (Escape)
+
+# Tip of the Search button, greyed, on the page of every drive.
+folders-view-search-none = Bu sayfada arama yapamazsınız
+
+# Name read out for the Search button, which says whether it is pressed.
+folders-view-search-spoken = Ara
+
+# Placeholder of the box in which the name the side bar shows for a pinned folder is typed; was is the folder's own name.
+folders-view-pin-name-hint = { $was } için kenar çubuğu adı

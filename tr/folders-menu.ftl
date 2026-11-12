@@ -7,10 +7,10 @@ folders-menu-rename = Yeniden adlandır
 folders-menu-rename-them = Hepsini yeniden adlandır
 
 # Row of Folders' right-click menu (Install font), shown when one thing is picked.
-folders-menu-install-the-font-for-you = Yazı tipini sizin için kur
+folders-menu-install-the-font-for-you = Yazı tipini yalnızca sizin için kur
 
 # Row of Folders' right-click menu (Install font), shown when several things are picked.
-folders-menu-install-the-fonts-for-you = Yazı tiplerini sizin için kur
+folders-menu-install-the-fonts-for-you = Yazı tiplerini yalnızca sizin için kur
 
 # Row of Folders' right-click menu that does: Open.
 folders-menu-open = Aç
@@ -145,6 +145,7 @@ folders-menu-resize = Yeniden boyutlandır
 # Row of Folders' right-click menu that does: Compare files.
 folders-menu-compare-the-two = İkisini karşılaştır
 
+
 # Row of Folders' right-click menu that does: Copy here.
 folders-menu-copy-here = Buraya kopyala
 
@@ -174,7 +175,7 @@ folders-menu-pin-to-the-ring = Halkaya sabitle
 folders-menu-sub-select = Seç
 
 # Row of Folders' right-click menu that opens a sub-menu of pack rows; the sub-menu is named for what is in it.
-folders-menu-sub-pack = Paketle, gönder ve paylaş
+folders-menu-sub-pack = Sıkıştır, gönder ve paylaş
 
 # Row of Folders' right-click menu that opens a sub-menu of picture rows; the sub-menu is named for what is in it.
 folders-menu-sub-picture = Resim
@@ -183,10 +184,10 @@ folders-menu-sub-picture = Resim
 folders-menu-sub-tools = Araçlar
 
 # Red words under the file lines when showing or hiding a column could not be saved.
-folders-menu-columns-not-saved = Sütunlar kaydedilemedi.
+folders-menu-columns-not-saved = Folders sütunları kaydedemedi.
 
 # Red words under the file lines when Open in a new window failed.
-folders-menu-no-new-window = Yeni pencere açılamadı.
+folders-menu-no-new-window = Folders yeni bir pencere açamadı.
 
 # Words under the file lines after Copy location: one thing, or the number of things whose locations were copied.
 folders-menu-copied-location =
@@ -195,17 +196,18 @@ folders-menu-copied-location =
        *[other] { $n } konum kopyalandı.
     }
 
+
 # Red words under the file lines when Open as administrator failed.
-folders-menu-no-admin-window = Klasörler yönetici olarak açılamadı.
+folders-menu-no-admin-window = Folders yönetici olarak bir pencere açamadı.
 
 # Red words under the file lines when a picture cannot be the wallpaper; the name of the picture, then the reasons.
-folders-menu-wallpaper-refused = { $name } duvar kâğıdı olamaz: { $why }.
+folders-menu-wallpaper-refused = { $name } duvar kâğıdı olarak kullanılamaz: { $why }.
 
 # Words under the file lines after a picture was set as the wallpaper.
 folders-menu-wallpaper-set = { $name } artık duvar kâğıdı.
 
 # Red words under the file lines when setting the wallpaper failed.
-folders-menu-wallpaper-failed = Duvar kâğıdı ayarlanamadı.
+folders-menu-wallpaper-failed = Folders duvar kâğıdını ayarlayamadı.
 
 # Name of the undo step after a link was made; shown where undo is offered.
 folders-menu-undo-link = { $name } oluşturmayı geri al
@@ -214,7 +216,7 @@ folders-menu-undo-link = { $name } oluşturmayı geri al
 folders-menu-link-made = { $name } oluşturuldu.
 
 # Red words under the file lines when a link could not be made; the reason follows.
-folders-menu-link-failed = Bağlantı oluşturulamadı: { $why }.
+folders-menu-link-failed = Folders bağlantıyı oluşturamadı: { $why }.
 
 # SAFETY: needs a human review before it ships
 # Words under the file lines after a folder was shared with AI programs.
@@ -224,19 +226,19 @@ folders-menu-ai-shared = { $name } yapay zekâ programlarıyla paylaşıldı.
 folders-menu-ring-off = { $name } halkadan çıkarıldı.
 
 # Words under the file lines after a folder or file was pinned to the ring.
-folders-menu-ring-pinned = { $name } halkaya sabitlendi. Sık kullanılan uygulamalarla birlikte görünür.
+folders-menu-ring-pinned = { $name } halkaya, sık kullanılan uygulamalarınızın yanına sabitlendi.
 
 # Words under the file lines when the thing to pin is on the ring already.
 folders-menu-ring-already = { $name } zaten halkada.
 
 # Red words under the file lines when the ring has no room for another pin; the number is how many it holds.
-folders-menu-ring-full = Halkanın ortası { $n } öğe alıyor ve dolu. Yer açmak için birini çıkarın.
+folders-menu-ring-full = Halka dolu. { $n } sabitlemeye yer var, önce birini çıkarın.
 
 # Red words under the file lines when a name cannot be written in the ring's list of favourites.
-folders-menu-ring-unkept = { $name } halkada tutulamaz: adında listenin tutamadığı harfler var.
+folders-menu-ring-unkept = Folders { $name } öğesini halkaya sabitleyemiyor, çünkü adında orada kaydedemediği bir karakter var.
 
 # Red words under the file lines when the ring's favourites list could not be saved.
-folders-menu-ring-not-saved = Halkanın sık kullanılanları kaydedilemedi.
+folders-menu-ring-not-saved = Folders halkanın sık kullanılanlarını kaydedemedi.
 
 # Name given to a new link to a file or folder; the name of the thing linked to follows.
 folders-menu-link-name = { $name } bağlantısı

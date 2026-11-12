@@ -5,13 +5,13 @@
 folders-details-turn-upright = Reto
 
 # Choice for which way up a photo is shown: turned to the right.
-folders-details-turn-right = Para a direita
+folders-details-turn-right = Virada para a direita
 
 # Choice for which way up a photo is shown: upside down.
 folders-details-turn-down = De cabeça para baixo
 
 # Choice for which way up a photo is shown: turned to the left.
-folders-details-turn-left = Para a esquerda
+folders-details-turn-left = Virada para a esquerda
 
 # Choice for which way up a photo is shown when it is mirrored already.
 folders-details-turn-mirrored = Espelhado
@@ -47,37 +47,33 @@ folders-details-song-track = Faixa
 folders-details-song-genre = Gênero
 
 # Red words in Properties when a switch could not be changed; { $error } says why.
-folders-details-change-failed = Não foi possível alterar isso: { $error }.
+folders-details-change-failed = O Folders não conseguiu alterar isso: { $error }.
 
 # Red words in Properties when a date could not be set; { $error } says why.
-folders-details-date-failed = Não foi possível definir a data: { $error }.
+folders-details-date-failed = O Folders não conseguiu definir a data: { $error }.
 
 # Red words in Properties when a song's details could not be written; { $error } says why.
-folders-details-song-failed = Não foi possível gravar os detalhes da música: { $error }.
+folders-details-song-failed = O Folders não conseguiu gravar os detalhes da música: { $error }.
 
 # Red words in Properties when the date taken is not written in the form EXIF keeps.
-folders-details-taken-bad = A data da foto deve ser parecida com 2026-01-02 03:04:05.
+folders-details-taken-bad = O Folders não conseguiu ler essa data. Digite assim: 2026-01-02 03:04:05.
 
 # Red words in Properties when a photo's details could not be written; { $error } says why.
-folders-details-photo-failed = Não foi possível gravar os detalhes da foto: { $error }.
+folders-details-photo-failed = O Folders não conseguiu gravar os detalhes da foto: { $error }.
 
 # Name of the switch for a file that nobody may change.
 folders-details-read-only = Somente leitura
 
-# One line under the read only switch.
-folders-details-read-only-sub = Ninguém pode alterá-lo.
 
 # Tip of the read only switch.
-folders-details-read-only-tip = Ninguém pode alterá-lo
+folders-details-read-only-tip = Impedir alterações nele
 
 # Name of the switch for a file that may be run as a program.
 folders-details-runnable = Pode ser executado
 
-# One line under the can be run switch.
-folders-details-runnable-sub = Pode ser executado como um programa.
 
 # Tip of the can be run switch.
-folders-details-runnable-tip = Pode ser executado como um programa
+folders-details-runnable-tip = Permitir executar como programa
 
 # Name beside the box for when a file was last changed.
 folders-details-modified = Modificado
@@ -86,38 +82,38 @@ folders-details-modified = Modificado
 folders-details-opened = Aberto
 
 # Tip of a date box; { $name } is Modified or Opened and { $example } is a date written as it is typed.
-folders-details-date-tip = { $name }, como { $example }
+folders-details-date-tip = { $name }, por exemplo { $example }
 
 # Heading over a song's details in Properties.
 folders-details-song = Música
 
 # Tip of the button that writes the song's details into the song.
-folders-details-write-song = Gravar estes dados na música
+folders-details-write-song = Salvar os detalhes da música
 
 # Heading over a photo's notes in Properties.
 folders-details-photo = Foto
 
 # Tip of the box for the date a photo was taken.
-folders-details-taken-tip = Tirada em, como 2026-01-02 03:04:05
+folders-details-taken-tip = Data da foto, por exemplo 2026-01-02 03:04:05
 
 # Name beside the choice of which way up a photo is shown.
-folders-details-way-up = Lado de cima
+folders-details-way-up = Qual lado fica para cima
 
 # Tip of the choice of which way up a photo is shown.
-folders-details-way-up-tip = Qual lado é mostrado para cima
+folders-details-way-up-tip = Qual lado da foto é mostrado para cima
 
 # Name of the switch that takes out where a photo was taken.
-folders-details-drop-place = Tirar o local
+folders-details-drop-place = Remover o local
 
 # One line under that switch.
-folders-details-drop-place-sub = O local onde foi tirada fica de fora ao gravar.
+folders-details-drop-place-sub = O Folders remove o local ao salvar os detalhes.
 
 # Tip of that switch.
-folders-details-drop-place-tip = Tirar o local onde foi tirada
+folders-details-drop-place-tip = Remover o local da foto
 
 # Tip of the button that writes the photo's notes into the photo.
-folders-details-write-photo = Gravar estes dados na foto
+folders-details-write-photo = Salvar os detalhes da foto
 
 # Heading over the list of a photo's camera notes.
-folders-details-camera-notes = Notas da câmera
+folders-details-camera-notes = Detalhes da câmera
 

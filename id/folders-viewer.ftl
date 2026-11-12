@@ -2,10 +2,10 @@
 # machine translated (Indonesian), not yet reviewed by a person.
 
 # Said in the preview panel and viewer in place of a video or sound when the program that plays them is missing.
-folders-viewer-no-ffmpeg = Video dan suara diputar di sini oleh ffmpeg, yang belum terpasang di komputer ini.
+folders-viewer-no-ffmpeg = Folders memerlukan ffmpeg untuk memutar video dan suara, dan ffmpeg belum terpasang.
 
 # Said in the preview panel and viewer in place of a video or sound that cannot be played.
-folders-viewer-unplayable = Ini tidak dapat diputar. Mungkin rusak, atau jenis yang tidak dapat diputar ffmpeg.
+folders-viewer-unplayable = Folders tidak dapat memutar ini. Mungkin rusak, atau dalam format yang tidak dapat diputar ffmpeg.
 
 # What a file is called when its name says it is that kind but its bytes are not, such as a cut-short one; shown in the viewer and preview panel: PDF document.
 folders-viewer-kind-pdf = dokumen PDF
@@ -71,7 +71,7 @@ folders-viewer-kind-wav = file suara WAV
 folders-viewer-kind-mp3 = file suara MP3
 
 # Said in the viewer and preview panel in place of a picture that could not be read.
-folders-viewer-picture-unread = Gambar ini tidak dapat dibaca.
+folders-viewer-picture-unread = Folders tidak dapat membaca gambar ini.
 
 # Said in the viewer and preview panel in place of a file that is no longer there.
 folders-viewer-gone = File ini sudah tidak ada.
@@ -80,4 +80,4 @@ folders-viewer-gone = File ini sudah tidak ada.
 folders-viewer-denied = Anda tidak punya izin untuk membaca file ini.
 
 # Said in the viewer and preview panel in place of a file that could not be read; why is the system's own reason.
-folders-viewer-read-failed = File ini tidak dapat dibaca: { $why }.
+folders-viewer-read-failed = Folders tidak dapat membaca file ini: { $why }.

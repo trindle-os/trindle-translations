@@ -12,6 +12,6 @@ folders-diff-copy-right = Salin baris kanan
 # Line in the comparison standing for a run of lines that are the same in both files.
 folders-diff-same-lines =
     { $n ->
-       *[other] { $n } baris sama
+       *[other] { $n } baris yang cocok
     }
 

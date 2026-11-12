@@ -2,19 +2,19 @@
 # machine translated (Indonesian), not yet reviewed by a person.
 
 # Words under the file lines when copy, cut or paste is tried on a server's files.
-folders-act-far-clip = Gunakan tombol salin dan pindah di antara kedua panel untuk berkas di server.
+folders-act-far-clip = Potong, salin, dan tempel tidak berfungsi untuk berkas di server. Sebagai gantinya, gunakan tombol salin dan pindah di antara kedua panel.
 
 # Words under the file lines when something is tried that would change what is inside an archive.
-folders-act-shut = Isi arsip tidak diubah di sini. Keluarkan dulu isinya.
+folders-act-shut = Anda tidak dapat mengubah apa pun di dalam arsip. Ekstrak dulu yang Anda perlukan.
 
 # Words on a finished job when files that another program cut were pasted: they are copied.
-folders-act-cut-elsewhere = Disalin: dipotong di aplikasi lain.
+folders-act-cut-elsewhere = Item ini dipotong di aplikasi lain, jadi Folders menyalinnya.
 
 # Words under the file lines when something is picked that is already being copied or moved.
-folders-act-being-moved = Sudah sedang disalin atau dipindahkan.
+folders-act-being-moved = Ini sudah sedang disalin atau dipindahkan.
 
 # Words under the file lines when a copy that is not whole yet is picked.
-folders-act-arriving = Masih berdatangan.
+folders-act-arriving = Ini masih sedang disalin ke sini.
 
 # Part of the question about a name already taken: a folder that holds this many things or more.
 folders-act-holds-most = 10.000 item atau lebih
@@ -119,7 +119,7 @@ folders-act-undo-compressing = Urungkan pemampatan { $what }
 folders-act-extracting = Mengekstrak { $what }
 
 # Words under the file lines when an archive was unpacked: what, and where.
-folders-act-extracted = { $what } diekstrak di { $place }.
+folders-act-extracted = { $what } diekstrak ke { $place }.
 
 # The word for what was tried, put in 'could not be ...' when unpacking failed.
 folders-act-verb-extracted = diekstrak
@@ -143,7 +143,7 @@ folders-act-verb-wiped = ditimpa dengan aman
 folders-act-taking-out = Mengeluarkan { $what }
 
 # Words under the file lines when things were taken out of an archive: what, and where to.
-folders-act-took-out = { $what } dikeluarkan ke { $place }.
+folders-act-took-out = { $what } dikeluarkan dari arsip ke { $place }.
 
 # The word for what was tried, put in 'could not be ...' when taking things out of an archive failed.
 folders-act-verb-taken-out = dikeluarkan
@@ -179,22 +179,22 @@ folders-act-new-folder = Folder baru
 folders-act-new-document = Dokumen baru
 
 # Red words when a new folder or document could not be made; its name, then the reason.
-folders-act-make-failed = { $base } tidak dapat dibuat: { $why }.
+folders-act-make-failed = Folders tidak dapat membuat { $base }: { $why }.
 
 # Red words under a name being typed when it is empty.
-folders-act-name-empty = Nama tidak boleh kosong.
+folders-act-name-empty = Ketik nama.
 
 # Red words under a name being typed when it has a slash.
-folders-act-name-slash = Nama tidak boleh berisi garis miring.
+folders-act-name-slash = Nama tidak boleh memuat garis miring.
 
 # Red words under a name being typed when it is . or ..
-folders-act-name-kept = Nama itu disediakan untuk sistem.
+folders-act-name-kept = Nama itu dipakai oleh sistem. Pilih nama lain.
 
 # Red words under a name being typed when it is too long.
 folders-act-name-long = Nama itu terlalu panjang.
 
 # Red words under the file lines when a piece of work could not be started.
-folders-act-no-start = Pekerjaan tidak dapat dimulai.
+folders-act-no-start = Folders tidak dapat memulai pekerjaan ini.
 
 # Tip of the Redo button after a step was undone; what the step was. Every undo and redo tip begins the same way.
 folders-act-redo-label = Ulangi { $what }
@@ -203,10 +203,13 @@ folders-act-redo-label = Ulangi { $what }
 folders-act-undo-label = Urungkan { $what }
 
 # Words under the file lines when work was stopped before it was done.
-folders-act-stopped = Dihentikan di tengah jalan.
+folders-act-stopped = Pekerjaan dihentikan sebelum selesai.
 
 # Words under the file lines when work finished but some things were skipped; what was done, then how many were skipped.
-folders-act-skipped = { $done } { $n } dilewati.
+folders-act-skipped =
+    { $done } { $n ->
+       *[other] Folders melewati { $n } item.
+    }
 
 # Words under the file lines when an action needs something picked and nothing is.
 folders-act-pick-first = Pilih sesuatu dulu.
@@ -225,7 +228,7 @@ folders-act-pick-copy-move = Pilih sesuatu untuk disalin atau dipindahkan dulu.
 folders-act-archive-out = Isi arsip hanya dapat dikeluarkan ke sebuah folder.
 
 # Words under the file lines when a copy is sent to the Trash.
-folders-act-copy-trash = Salinan tidak dapat dimasukkan ke Tempat Sampah.
+folders-act-copy-trash = Anda tidak dapat menyalin item ke Tempat Sampah.
 
 # Words under the file lines when the copy or move button finds the other pane showing no folder.
 folders-act-other-pane = Panel lain tidak menampilkan folder.
@@ -234,10 +237,10 @@ folders-act-other-pane = Panel lain tidak menampilkan folder.
 folders-act-pick-copy = Pilih sesuatu untuk disalin dulu.
 
 # Words under the file lines after Cut: what was cut.
-folders-act-cut-said = { $what } dipotong. Tempelkan ke sebuah folder.
+folders-act-cut-said = { $what } dipotong.
 
 # Words under the file lines after Copy: what was copied.
-folders-act-copied-said = { $what } disalin. Tempelkan ke sebuah folder.
+folders-act-copied-said = { $what } disalin.
 
 # Words under the file lines when Paste is used where there is no folder.
 folders-act-paste-folder = Item hanya dapat ditempelkan ke sebuah folder.
@@ -262,16 +265,16 @@ folders-act-pick-trash = Pilih sesuatu di Tempat Sampah dulu.
 folders-act-new-numbered = { $base } { $n }
 
 # Words under the file lines while a new folder or document is made on a server.
-folders-act-making = Membuat { $name }.
+folders-act-making = Membuat { $name }
 
 # Words under the file lines when New folder or New document is used where there is no folder.
-folders-act-make-folder-only = Item baru hanya dapat dibuat di dalam folder.
+folders-act-make-folder-only = Anda hanya dapat membuat folder atau dokumen baru di dalam sebuah folder.
 
 # Tip of the Undo button after a folder, document or link was made.
 folders-act-undo-making = Urungkan pembuatan { $name }
 
-# Red words under the file lines when folder colours and emblems could not follow things that were moved.
-folders-act-colours-lost = Warna tidak dapat mengikuti item yang dipindahkan.
+# Red words under the file lines when folder colours could not follow things that were moved.
+folders-act-colours-lost = Folders tidak dapat mempertahankan warna folder pada item yang dipindahkan.
 
 # Words under the file lines when Redo is used and there is nothing to redo.
 folders-act-nothing-redo = Tidak ada yang dapat diulangi.
@@ -286,7 +289,7 @@ folders-act-redoing = Mengulangi { $what }
 folders-act-redid = { $what } diulangi.
 
 # The word for what was tried, put in 'could not be ...' when redoing failed.
-folders-act-verb-done-again = diulangi
+folders-act-verb-done-again = dilakukan ulang
 
 # Words on a job card while a step is undone; what the step was.
 folders-act-undoing = Mengurungkan { $what }
@@ -319,9 +322,7 @@ folders-act-links-failed =
     }
 
 # Words under the file lines when the window is closed while work waits for an answer.
-folders-act-closing-waits = Ada pekerjaan yang menunggu jawaban. Jawab, atau hentikan pekerjaannya, sebelum menutup.
-
+folders-act-closing-waits = Ada pertanyaan yang menunggu jawaban Anda. Jawab, atau hentikan pekerjaannya, sebelum Anda menutup Folders.
 
 # Words under the file lines when the window is closed while work goes on.
-folders-act-closing-busy = Folder tidak dapat ditutup sebelum transfer selesai. Tunggu sampai selesai, atau hentikan, lalu tutup.
-
+folders-act-closing-busy = Folders tidak dapat ditutup selama ada pekerjaan yang berjalan. Tunggu sampai selesai, atau hentikan, lalu tutup Folders.

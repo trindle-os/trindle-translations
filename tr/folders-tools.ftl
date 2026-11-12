@@ -13,22 +13,22 @@ folders-tools-pass-seven = 7 kez
 folders-tools-case-keep = Olduğu gibi
 
 # Choice in the rename window, under Letters: make every name small letters.
-folders-tools-case-lower = Hepsi küçük
+folders-tools-case-lower = Hepsi küçük harf
 
 # Choice in the rename window, under Letters: make every name capital letters.
 folders-tools-case-upper = Hepsi büyük
 
 # Choice in the rename window, under Letters: start each word with a capital.
-folders-tools-case-words = Her sözcük
+folders-tools-case-words = Her sözcüğü büyük harfle başlat
 
 # Choice in the rename window, under Letters: start only the first word with a capital.
-folders-tools-case-first = İlk sözcük
+folders-tools-case-first = İlk sözcüğü büyük harfle başlat
 
 # Choice in the rename window, under Ending: leave the file ending as it is.
 folders-tools-ending-keep = Olduğu gibi
 
 # Choice in the rename window, under Ending: make the ending small letters.
-folders-tools-ending-lower = Hepsi küçük
+folders-tools-ending-lower = Hepsi küçük harf
 
 # Choice in the rename window, under Ending: make the ending capital letters.
 folders-tools-ending-upper = Hepsi büyük
@@ -52,19 +52,19 @@ folders-tools-clash-bad = bu ad kullanılamaz
 folders-tools-clash-long = bu ad çok uzun
 
 # Beside a row of the rename list that cannot be done: two files would get the same new name.
-folders-tools-clash-twice = ikisi aynı adı alırdı
+folders-tools-clash-twice = iki öğe bu adı alacak
 
 # Beside a row of the rename list that cannot be done: another file already has the new name.
-folders-tools-clash-taken = bu adı başka bir şey kullanıyor
+folders-tools-clash-taken = bu adı zaten başka bir şey kullanıyor
 
 # Beside a row of the rename list that cannot be done: the old name is not plain text, so it cannot be changed.
-folders-tools-clash-not-text = eski ad düz metin değil
+folders-tools-clash-not-text = eski adda Folders'ın okuyamadığı karakterler var
 
 # Warning in the Wipe window about a flash disk, where old copies may stay out of reach.
-folders-tools-caveat-flash = Bu disk flash türünde, dönen disk değil; bu yüzden eski kopyalar Trindle'ın erişemediği bölümlerinde kalabilir.
+folders-tools-caveat-flash = Bu bir flash bellek ya da SSD, bu yüzden eski kopyalar Folders'ın erişemediği bölümlerinde kalabilir.
 
 # Warning in the Wipe window about a filesystem that writes changes elsewhere; { $fs } is the filesystem's name.
-folders-tools-caveat-copy-on-write = { $fs } dosya sistemi değişiklikleri yeni bir yere yazar, bu yüzden eski veriler olduğu yerde kalabilir.
+folders-tools-caveat-copy-on-write = { $fs } dosya sistemi değişiklikleri yeni bir yere kaydeder, bu yüzden eski veriler hâlâ orada olabilir.
 
 # Warning in the Wipe window about a share on another computer; { $fs } is the kind of share.
 folders-tools-caveat-network = Bu, başka bir bilgisayardaki bir { $fs } paylaşımı ve kendi kopyalarını tutuyor olabilir.
@@ -102,7 +102,7 @@ folders-tools-place-here = Burası
 folders-tools-only-files-wiped = Yalnızca dosyalar güvenli biçimde silinebilir.
 
 # Red notice when comparing the two panes while one of them does not show a folder.
-folders-tools-compare-need-folders = Karşılaştırmak için iki bölmenin de bir klasör göstermesi gerekir.
+folders-tools-compare-need-folders = Karşılaştırmak için her bölmede bir klasör açın.
 
 # Undo entry after renaming many files; { $n } is how many were renamed.
 folders-tools-rename-undo =
@@ -122,10 +122,10 @@ folders-tools-rename-done =
 folders-tools-rename-stopped = Yeniden adlandırma yarıda durdu: { $error }.
 
 # Red words under the archive name in the Compress window when the name is empty.
-folders-tools-name-empty = Ad boş olamaz.
+folders-tools-name-empty = Arşiv için bir ad yazın.
 
 # Beside the ring while a search is running and the end is not known; { $done } is how many have been looked at.
-folders-tools-looked-at = { $done } incelendi
+folders-tools-looked-at = { $done } denetlendi
 
 # Beside the ring while a search is running and the end is known; { $done } and { $total } are sizes such as 3 MB.
 folders-tools-read-of = { $total } içinden { $done } okundu
@@ -137,7 +137,7 @@ folders-tools-listing-files = Dosyalar listeleniyor
 folders-tools-comparing = Karşılaştırılıyor
 
 # Beside the ring while two folders are compared.
-folders-tools-looking = Bakılıyor
+folders-tools-looking = Klasörler karşılaştırılıyor
 
 # Title of the Compress window; { $name } is the one thing packed, { $n } how many.
 folders-tools-compress-title =
@@ -153,7 +153,7 @@ folders-tools-pack-name-tip = Arşivin adı
 folders-tools-pack-kind-tip = Arşiv türü
 
 # Note in the Compress window saying where the archive is made; { $place } is the folder.
-folders-tools-pack-made-in = Şurada oluşturulur: { $place }
+folders-tools-pack-made-in = Arşiv şuraya kaydedilecek: { $place }
 
 # Main button of the Compress window.
 folders-tools-compress = Sıkıştır
@@ -162,7 +162,7 @@ folders-tools-compress = Sıkıştır
 folders-tools-extract-to = { $name } arşivini şuraya çıkar
 
 # Note in the Extract to window; { $name } is the name of the folder that is made.
-folders-tools-extract-new-folder = Orada { $name } adlı yeni bir klasör oluşturulur.
+folders-tools-extract-new-folder = Dosyalar { $name } adlı yeni bir klasöre konacak.
 
 # Title of the Resize window; { $name } is the one picture, { $n } how many.
 folders-tools-resize-title =
@@ -175,7 +175,7 @@ folders-tools-resize-title =
 folders-tools-resize-size-tip = Yeni boyut
 
 # Note in the Resize window explaining the sizes and that copies are made.
-folders-tools-resize-note = Boyutunun bir oranı ya da uzun kenarı boyunca kaç piksel olacağı; bir resim asla büyütülmez. Her birinin yanında, yeni boyutuyla adlandırılmış bir kopya oluşturulur; resimlerin kendisi olduğu gibi kalır.
+folders-tools-resize-note = Boyut, uzun kenarın piksel cinsinden uzunluğudur. Folders resimleri yalnızca küçültür. Yeniden boyutlandırılmış her kopyayı özgün resmin yanına, adında yeni boyutla birlikte kaydeder.
 
 # Main button of the Resize window.
 folders-tools-resize = Yeniden boyutlandır
@@ -190,7 +190,7 @@ folders-tools-wipe-title =
 
 # SAFETY: needs a human review before it ships
 # Warning at the top of the Wipe window.
-folders-tools-wipe-warning = Her dosya silinmeden önce üzerine yazılır, bu yüzden geri getirilemez. Bu işlem geri alınamaz.
+folders-tools-wipe-warning = Folders her dosyayı silmeden önce üzerine yazar, bu yüzden onu geri getiremezsiniz.
 
 # Name beside the choice of how many times to write over, in the Wipe window.
 folders-tools-wipe-write-over = Üzerine yaz
@@ -218,13 +218,13 @@ folders-tools-rename-where-tip = Numaranın yeri
 folders-tools-rename-first-number-tip = İlk numara
 
 # Choice tip in the rename window: what happens to the file endings.
-folders-tools-rename-ending-tip = Uzantıya ne olacağı
+folders-tools-rename-ending-tip = Uzantıyla ne yapılacağı
 
 # Typing box tip in the rename window: the new ending to give every file.
 folders-tools-rename-new-ending-tip = Yeni uzantı, örneğin txt
 
 # Detail of a row in the rename list that cannot be done; { $why } says why.
-folders-tools-rename-cannot = Yapılamaz: { $why }
+folders-tools-rename-cannot = Folders bunu yeniden adlandıramıyor: { $why }
 
 # Detail of a row in the rename list whose name changes; { $old } is the old name.
 folders-tools-rename-was = eski adı { $old }
@@ -273,7 +273,7 @@ folders-tools-rename-after-tip = Adın sonrasına
 folders-tools-rename-number = Numara
 
 # Name over the capitals choice in the rename window.
-folders-tools-rename-letters = Harfler
+folders-tools-rename-letters = Büyük harfler
 
 # Choice tip in the rename window: what happens to the capitals in the names.
 folders-tools-rename-case-tip = Adlardaki büyük harfler
@@ -284,8 +284,8 @@ folders-tools-rename-ending = Uzantı
 # Note under the rename list; { $clash } is yes when some names cannot be used, otherwise no; { $changes } of { $total } names change; { $place } is the folder.
 folders-tools-rename-summary =
     { $clash ->
-        [yes] Bazı adlar kullanılamıyor; işaretli satırlara bakın. Konum: { $place }.
-       *[no] { $total } adın { $changes } tanesi değişir. Konum: { $place }.
+        [yes] { $place } içinde bazı adlar kullanılamıyor. İşaretli satırlara bakın.
+       *[no] { $place } içinde { $total } adın { $changes } tanesi değişecek.
     }
 
 # Main button of the rename window.
@@ -317,8 +317,8 @@ folders-tools-dupes-unread =
 # Note above the duplicates list; { $n } is how many sets of copies, { $size } how much the extras take.
 folders-tools-dupes-sets =
     { $n ->
-        [one] 1 kopya kümesi; fazlalıkları Çöp kutusuna koymak { $size } yer açar. Fazla kopyalar seçili; Ctrl ve tıklama ile biri seçilir ya da bırakılır.
-       *[other] { $n } kopya kümesi; fazlalıkları Çöp kutusuna koymak { $size } yer açar. Fazla kopyalar seçili; Ctrl ve tıklama ile biri seçilir ya da bırakılır.
+        [one] 1 kopya kümesi. Fazla kopyalar seçili ve bunları Çöp kutusuna taşımak { $size } yer açar.
+       *[other] { $n } kopya kümesi. Fazla kopyalar seçili ve bunları Çöp kutusuna taşımak { $size } yer açar.
     }
 
 # Detail of a row in the duplicates list; { $set } is the set's number, { $size } the file's size, { $at } the folder it is in.
@@ -332,7 +332,7 @@ folders-tools-dupes-unread-left-out =
     }
 
 # Note in the duplicates window when every copy of a set is picked.
-folders-tools-dupes-keep-one = Bir kümenin tüm kopyaları seçili; en az birini saklayın.
+folders-tools-dupes-keep-one = Bir kümedeki her kopya seçili. En az birinin seçimini kaldırın.
 
 # Tip of the button in the duplicates window that picks the extra copies.
 folders-tools-dupes-pick-extras = Fazla kopyaları seç
@@ -342,16 +342,16 @@ folders-tools-dupes-pick-extras = Fazla kopyaları seç
 folders-tools-dupes-trash = Çöp kutusuna taşı
 
 # Title of the window that compares two files.
-folders-tools-diff-title = İkisini karşılaştır
+folders-tools-diff-title = İki dosyayı karşılaştır
 
 # Red words in the file compare window when it fails; { $error } says why.
-folders-tools-diff-failed = Karşılaştırılamadı: { $error }.
+folders-tools-diff-failed = Folders bunları karşılaştıramadı: { $error }.
 
 # Line in the file compare window when two files are the same, byte for byte.
-folders-tools-diff-same-bytes = İkisi bayt bayt aynı.
+folders-tools-diff-same-bytes = İki dosya bire bir aynı.
 
 # Line in the file compare window when one file is the start of the other; { $one } and { $other } are their sizes.
-folders-tools-diff-same-as-shorter = Kısa olanın bittiği yere kadar aynılar; biri { $one }, diğeri { $other }.
+folders-tools-diff-same-as-shorter = Kısa olanın sonuna kadar aynılar. Biri { $one }, diğeri { $other }.
 
 # Line in the file compare window for the first byte that differs; { $n } is its number.
 folders-tools-diff-from-byte = { $n }. bayttan itibaren farklılar.
@@ -359,31 +359,31 @@ folders-tools-diff-from-byte = { $n }. bayttan itibaren farklılar.
 # Note in the file compare window; { $n } is how many lines differ.
 folders-tools-diff-lines =
     { $n ->
-        [0] İkisi aynı.
+        [0] İki dosya aynı.
         [one] 1 satır farklı.
        *[other] { $n } satır farklı.
     }
 
 # Note in the file compare window when the files are too different to match line by line.
-folders-tools-diff-too-different = Satır satır eşleştirilemeyecek kadar farklılar, bu yüzden ilk ve son farkları arasındaki her satır değişmiş olarak görünür.
+folders-tools-diff-too-different = Satır satır karşılaştırılamayacak kadar farklılar. İlk ve son fark arasındaki her şey değişmiş olarak görünür.
 
 # Note in the file compare window when only the start of each file is compared.
-folders-tools-diff-cut = Her birinin yalnızca ilk 4 MB'ı karşılaştırılır.
+folders-tools-diff-cut = Her dosyanın yalnızca ilk 4 MB'ı karşılaştırılır.
 
 # Title of the window that compares the two panes; { $left } and { $right } are the folders' names.
 folders-tools-compare-title = { $left } ile { $right } karşılaştırması
 
 # Label of the switch in the pane compare window that reads every byte.
-folders-tools-compare-bytes = Her baytı oku (daha yavaş)
+folders-tools-compare-bytes = İçeriği karşılaştır (daha yavaş)
 
 # Switch tip in the pane compare window: compare the contents of each file.
 folders-tools-compare-bytes-tip = Her dosyanın içindekini karşılaştır
 
 # Label of the switch in the pane compare window that also lists names that are the same.
-folders-tools-compare-show-same = Aynı olanları göster
+folders-tools-compare-show-same = Eşleşen adları göster
 
 # Switch tip in the pane compare window: list the names that are the same too.
-folders-tools-compare-show-same-tip = Aynı olan adları da göster
+folders-tools-compare-show-same-tip = Eşleşen adları da listele
 
 # Red words in the pane compare window when it fails; { $error } says why.
 folders-tools-compare-stopped = Karşılaştırma durdu: { $error }.
@@ -392,7 +392,7 @@ folders-tools-compare-stopped = Karşılaştırma durdu: { $error }.
 folders-tools-compare-counts = Yalnızca solda { $left }, yalnızca sağda { $right }, farklı { $different }, aynı { $same }.
 
 # Line in the pane compare window when nothing differs.
-folders-tools-compare-all-same = İki klasör de aynı şeyleri içeriyor.
+folders-tools-compare-all-same = İki klasörün içeriği aynı.
 
 # Tip of the button in the pane compare window that compares again.
 folders-tools-compare-again = Yeniden karşılaştır
@@ -406,5 +406,5 @@ folders-tools-compare-copy-left = Eksik ya da daha yeni { $n } öğeyi sola kopy
 folders-tools-compare-copy-right = Eksik ya da daha yeni { $n } öğeyi sağa kopyala
 
 # Line in the Wipe window naming the folders that were picked too, which are not wiped.
-folders-tools-wipe-left-out = Klasörler güvenli biçimde silinmez, bu yüzden şunlar olduğu gibi bırakıldı: { $names }.
-
+# SAFETY: needs a human review before it ships
+folders-tools-wipe-left-out = Yalnızca dosyaların üzerine yazılarak silinir, bu yüzden bu klasörler olduğu gibi bırakılacak: { $names }.

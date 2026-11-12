@@ -11,7 +11,7 @@ folders-outside-wary-holds = 里面有隐藏的项目
 
 # SAFETY: needs a human review before it ships
 # Reason beside a dropped folder in the question card: it holds too much to look through beforehand.
-folders-outside-wary-deep = 里面内容太多，无法事先查看，所以不会带入其中的隐藏项目
+folders-outside-wary-deep = 里面的项目太多，无法检查，所以 Folders 会忽略其中的隐藏项目
 
 # SAFETY: needs a human review before it ships
 # Reason beside a dropped thing in the question card: it is outside the person's home folder and drives.
@@ -53,21 +53,21 @@ folders-outside-title-copy =
 # Words on the question card when the drop would be moved: why it is asked.
 folders-outside-body-move =
     { $n ->
-       *[other] 另一个程序把它们拖放到了“文件夹”上，并自行指定了名称。任何程序都可以指定任何文件，而这里指定的并不都是你的普通文件，所以在你同意之前不会移动任何东西。
+       *[other] 另一个程序把这些内容拖放到了 Folders 上。任何程序都可以拖放任何文件，而其中有些并不是你的普通文件。在你同意之前，Folders 不会移动它们。
     }
 
 # SAFETY: needs a human review before it ships
 # Words on the question card when the drop would be brought: why it is asked.
 folders-outside-body-bring =
     { $n ->
-       *[other] 另一个程序把它们拖放到了“文件夹”上，并自行指定了名称。任何程序都可以指定任何文件，而这里指定的并不都是你的普通文件，所以在你同意之前不会带入任何东西。
+       *[other] 另一个程序把这些内容拖放到了 Folders 上。任何程序都可以拖放任何文件，而其中有些并不是你的普通文件。在你同意之前，Folders 不会把它们放进这里。
     }
 
 # SAFETY: needs a human review before it ships
 # Words on the question card when the drop would be copied: why it is asked.
 folders-outside-body-copy =
     { $n ->
-       *[other] 另一个程序把它们拖放到了“文件夹”上，并自行指定了名称。任何程序都可以指定任何文件，而这里指定的并不都是你的普通文件，所以在你同意之前不会复制任何东西。
+       *[other] 另一个程序把这些内容拖放到了 Folders 上。任何程序都可以拖放任何文件，而其中有些并不是你的普通文件。在你同意之前，Folders 不会复制它们。
     }
 
 # SAFETY: needs a human review before it ships
@@ -111,10 +111,10 @@ folders-outside-more = 另有 { $n } 项。
 folders-outside-into = 放入 { $into }。
 
 # Red words when something is dropped while the question card is still up.
-folders-outside-answer-first = 请先回答关于所拖放内容的问题。
+folders-outside-answer-first = 请先回答关于你所拖放内容的问题。
 
 # Red words when something is dropped while the last drop is still being looked at.
-folders-outside-still-looking = 上一次拖放的内容仍在查看中。
+folders-outside-still-looking = Folders 仍在检查你上次拖放的内容。
 
 # Red words when text, not files, is dropped on Folders.
 folders-outside-only-files = 这里只能拖放文件和文件夹。
@@ -126,7 +126,7 @@ folders-outside-only-folders-pin = 只有文件夹才能固定到侧边栏。
 folders-outside-only-on-folder = 只能把项目拖放到文件夹上。
 
 # Red words when a dropped thing is no longer there; its name.
-folders-outside-gone = { $name } 已不在原处，所以没有带入任何东西。
+folders-outside-gone = { $name } 已不在原处，所以没有复制或移动任何东西。
 
 # Red words when a folder is dropped into itself.
 folders-outside-inside-itself = 文件夹不能放进它自己里面。
@@ -135,10 +135,10 @@ folders-outside-inside-itself = 文件夹不能放进它自己里面。
 folders-outside-already-there = 它们已经在那个文件夹里了。
 
 # Red words when the place a drop is in does not answer in time; the name of the dropped thing.
-folders-outside-not-answering = { $name } 所在的位置没有响应，所以没有带入任何东西。
+folders-outside-not-answering = Folders 没能及时连上 { $name } 所在的驱动器，所以没有复制或移动任何东西。
 
 # Words when the question card is answered with no.
-folders-outside-nothing-brought = 没有带入任何东西。
+folders-outside-nothing-brought = 没有复制或移动任何东西。
 
 # Name on the picture dragged out of Folders when several items are dragged to another program.
 folders-outside-items-dragged =
@@ -155,7 +155,7 @@ folders-outside-stayed-one = { $name }{ $why }。
 # Red words when several dragged things changed after they were picked up, so they stayed; the count and their names.
 folders-outside-stayed-changed =
     { $n ->
-       *[other] 有 { $n } 项在被拿起后发生了变化，所以仍留在原处：{ $names }。
+       *[other] 有 { $n } 个项目在你开始拖动后发生了变化，所以 Folders 把它们留在了原处：{ $names }。
     }
 
 # Red words when several dragged things stayed for different reasons; the count and each name with its reason.
@@ -171,11 +171,11 @@ folders-outside-stayed-each = { $name }（{ $why }）
 folders-outside-both = { $first } { $second }
 
 # Red words when the other program took a move in a way that cannot show it read all of it.
-folders-outside-unshown = 另一个程序接收所拖动内容的方式无法证明它已读取全部内容，所以这里没有移动任何东西：它拿到的是副本。
+folders-outside-unshown = Folders 无法确定另一个程序是否收到了你拖动的全部内容，所以把原件留在了这里。另一个程序拿到的是副本。
 
 # Red words when the other program did not take all of a drag that was a move.
-folders-outside-short-move = 另一个程序没有接收所拖动的全部内容，所以这里没有移动任何东西。
+folders-outside-short-move = 另一个程序没有接收你拖动的全部内容，所以 Folders 没有移动任何东西。
 
 # Red words when the other program did not take all of a drag that was a copy.
-folders-outside-short-copy = 另一个程序没有接收所拖动的全部内容，所以它可能没有全部内容。
+folders-outside-short-copy = 另一个程序没有接收你拖动的全部内容，所以它那里的副本可能不完整。
 

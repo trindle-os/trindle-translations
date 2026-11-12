@@ -16,7 +16,7 @@ folders-panel-home = होम
 folders-panel-home-under = Home/{ $rest }
 
 # Said at the window's foot in red when the preview panel's switch or width could not be saved.
-folders-panel-keep-failed = पूर्वावलोकन पैनल अगली बार के लिए सहेजा नहीं जा सका।
+folders-panel-keep-failed = Folders अगली बार के लिए पूर्वावलोकन पैनल की सेटिंग्स सहेज नहीं सका।
 
 # Name of a fact in the preview panel: how many things a folder, archive or place holds.
 folders-panel-fact-holds = इसमें है
@@ -73,22 +73,22 @@ folders-panel-in-all = कुल मिलाकर { $items }
 folders-panel-by = { $w } गुणा { $h }
 
 # Quiet words under the icon in the preview panel for a file whose name says one kind but whose bytes are not; what is the kind, such as PDF document.
-folders-panel-broken = इसका नाम कहता है कि यह { $what } है, पर अंदर से यह वैसा नहीं है।
+folders-panel-broken = इसका नाम कहता है कि यह { $what } है, पर इसकी सामग्री मेल नहीं खाती।
 
 # Quiet words under the icon in the preview panel for a picture too large to show.
 folders-panel-too-large = यह तस्वीर यहाँ दिखाने के लिए बहुत बड़ी है।
 
 # Quiet words under the icon in the preview panel for a file that could not be read; why is the reason.
-folders-panel-read-failed = इसे पढ़ा नहीं जा सका: { $why }
+folders-panel-read-failed = Folders इसे पढ़ नहीं सका: { $why }
 
 # Name at the top of the preview panel when several things are picked; count is how many.
 folders-panel-selected = { $count } चुने गए
 
 # Name read out for the edge between the panes and the preview panel.
-folders-panel-edge = पूर्वावलोकन को चौड़ा या संकरा करने के लिए खींचें, या उसकी चौड़ाई बदलने के लिए दबाएँ
+folders-panel-edge = पूर्वावलोकन पैनल की चौड़ाई
 
 # Name read out for the picture in the preview panel; name is the file's.
-folders-panel-picture-name = { $name } की एक तस्वीर
+folders-panel-picture-name = { $name } का पूर्वावलोकन
 
 # Name read out for the start of a text file in the preview panel; name is the file's.
 folders-panel-text-name = { $name } की शुरुआत

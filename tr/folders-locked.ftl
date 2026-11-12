@@ -13,10 +13,10 @@ folders-locked-password = Parola
 
 # SAFETY: needs a human review before it ships
 # Line under the password box before anything has been tried: says the password is not saved.
-folders-locked-kept-note = Yalnızca bu arşiv açıkken tutulur, hiçbir zaman kaydedilmez.
+folders-locked-kept-note = Arşiv kapandığında Folders bunu unutur.
 
 # Words beside the spinning ring on the password card while a password is being tried.
-folders-locked-trying = Deneniyor
+folders-locked-trying = Parola deneniyor
 
 # Title of the password card; the variable is the archive's name.
 folders-locked-title = { $name } için parola
@@ -31,4 +31,4 @@ folders-locked-is-locked = { $name } parola ile kilitli.
 folders-locked-open-again = { $name } parola ile kilitli. Parolayı yazmak için yeniden açın.
 
 # Notice shown when a locked archive cannot be read whatever the password; the variables are the archive's name and the reason.
-folders-locked-could-not-read = { $name } okunamadı: { $why }.
+folders-locked-could-not-read = Folders { $name } dosyasını okuyamadı: { $why }.

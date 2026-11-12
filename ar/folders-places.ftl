@@ -29,11 +29,11 @@ folders-places-found-text = «{ $text }»
 folders-places-found-inside = «{ $text }» داخل الملفات
 
 # Red words when a folder cannot be opened because the person is not allowed to.
-folders-places-unread-denied = غير مسموح لك بفتح هذا المجلد.
+folders-places-unread-denied = ليس لديك إذن لفتح هذا المجلد.
 
 # Red words when a folder cannot be opened because it is gone.
 folders-places-unread-gone = هذا المجلد لم يعد موجوداً.
 
 # Red words when a folder cannot be read for any other reason.
-folders-places-unread-other = تعذّرت قراءة هذا المجلد.
+folders-places-unread-other = تعذّر على Folders قراءة هذا المجلد.
 

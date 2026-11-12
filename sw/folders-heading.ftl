@@ -8,4 +8,4 @@ folders-heading-name = Jina
 folders-heading-spoken = Vichwa vya safu: { $names }
 
 # Red words under the file lines when the widths of the columns could not be saved; the reason follows.
-folders-heading-widths-not-kept = Upana wa safu haukuweza kuhifadhiwa kwa mara ijayo, kwa sababu { $why }.
+folders-heading-widths-not-kept = Folders haikuweza kuhifadhi upana wa safu kwa mara ijayo: { $why }.

@@ -7,10 +7,10 @@ folders-menu-rename = Badilisha jina
 folders-menu-rename-them = Badilisha majina yake
 
 # Row of Folders' right-click menu (Install font), shown when one thing is picked.
-folders-menu-install-the-font-for-you = Sakinisha fonti kwa ajili yako
+folders-menu-install-the-font-for-you = Sakinisha fonti kwa ajili yako tu
 
 # Row of Folders' right-click menu (Install font), shown when several things are picked.
-folders-menu-install-the-fonts-for-you = Sakinisha fonti kwa ajili yako
+folders-menu-install-the-fonts-for-you = Sakinisha fonti kwa ajili yako tu
 
 # Row of Folders' right-click menu that does: Open.
 folders-menu-open = Fungua
@@ -131,10 +131,10 @@ folders-menu-share-with-ai-programs = Shiriki na programu za AI
 folders-menu-set-as-wallpaper = Weka kama mandhari
 
 # Row of Folders' right-click menu that does: Turn left.
-folders-menu-turn-left = Geuza kushoto
+folders-menu-turn-left = Zungusha kushoto
 
 # Row of Folders' right-click menu that does: Turn right.
-folders-menu-turn-right = Geuza kulia
+folders-menu-turn-right = Zungusha kulia
 
 # Row of Folders' right-click menu that does: Turn over.
 folders-menu-turn-upside-down = Geuza juu chini
@@ -144,6 +144,7 @@ folders-menu-resize = Badilisha ukubwa
 
 # Row of Folders' right-click menu that does: Compare files.
 folders-menu-compare-the-two = Linganisha hizo mbili
+
 
 # Row of Folders' right-click menu that does: Copy here.
 folders-menu-copy-here = Nakili hapa
@@ -174,7 +175,7 @@ folders-menu-pin-to-the-ring = Bandika kwenye pete
 folders-menu-sub-select = Chagua
 
 # Row of Folders' right-click menu that opens a sub-menu of pack rows; the sub-menu is named for what is in it.
-folders-menu-sub-pack = Funga, tuma na shiriki
+folders-menu-sub-pack = Bana, tuma na shiriki
 
 # Row of Folders' right-click menu that opens a sub-menu of picture rows; the sub-menu is named for what is in it.
 folders-menu-sub-picture = Picha
@@ -183,10 +184,10 @@ folders-menu-sub-picture = Picha
 folders-menu-sub-tools = Zana
 
 # Red words under the file lines when showing or hiding a column could not be saved.
-folders-menu-columns-not-saved = Safu hazikuweza kuhifadhiwa.
+folders-menu-columns-not-saved = Folders haikuweza kuhifadhi safu.
 
 # Red words under the file lines when Open in a new window failed.
-folders-menu-no-new-window = Dirisha jipya halikuweza kufunguliwa.
+folders-menu-no-new-window = Folders haikuweza kufungua dirisha jipya.
 
 # Words under the file lines after Copy location: one thing, or the number of things whose locations were copied.
 folders-menu-copied-location =
@@ -195,18 +196,19 @@ folders-menu-copied-location =
        *[other] Mahali { $n } pamenakiliwa.
     }
 
+
 # Red words under the file lines when Open as administrator failed.
 # SAFETY: needs a human review before it ships
-folders-menu-no-admin-window = Folda haikuweza kufunguliwa kama msimamizi.
+folders-menu-no-admin-window = Folders haikuweza kufungua dirisha kama msimamizi.
 
 # Red words under the file lines when a picture cannot be the wallpaper; the name of the picture, then the reasons.
-folders-menu-wallpaper-refused = { $name } haiwezi kuwa mandhari: { $why }.
+folders-menu-wallpaper-refused = { $name } haiwezi kutumika kama mandhari: { $why }.
 
 # Words under the file lines after a picture was set as the wallpaper.
 folders-menu-wallpaper-set = { $name } sasa ni mandhari.
 
 # Red words under the file lines when setting the wallpaper failed.
-folders-menu-wallpaper-failed = Mandhari haikuweza kuwekwa.
+folders-menu-wallpaper-failed = Folders haikuweza kuweka mandhari.
 
 # Name of the undo step after a link was made; shown where undo is offered.
 folders-menu-undo-link = Tendua kutengeneza { $name }
@@ -215,7 +217,7 @@ folders-menu-undo-link = Tendua kutengeneza { $name }
 folders-menu-link-made = { $name } imetengenezwa.
 
 # Red words under the file lines when a link could not be made; the reason follows.
-folders-menu-link-failed = Kiungo hakikuweza kutengenezwa: { $why }.
+folders-menu-link-failed = Folders haikuweza kutengeneza kiungo: { $why }.
 
 # Words under the file lines after a folder was shared with AI programs.
 # SAFETY: needs a human review before it ships
@@ -225,19 +227,19 @@ folders-menu-ai-shared = { $name } imeshirikiwa na programu za AI.
 folders-menu-ring-off = { $name } imeondolewa kwenye pete.
 
 # Words under the file lines after a folder or file was pinned to the ring.
-folders-menu-ring-pinned = { $name } imebandikwa kwenye pete. Inaonekana pamoja na programu pendwa.
+folders-menu-ring-pinned = { $name } imebandikwa kwenye pete, kando ya programu zako pendwa.
 
 # Words under the file lines when the thing to pin is on the ring already.
 folders-menu-ring-already = { $name } tayari iko kwenye pete.
 
 # Red words under the file lines when the ring has no room for another pin; the number is how many it holds.
-folders-menu-ring-full = Katikati ya pete panashikilia { $n } na pamejaa. Ondoa kimoja ili kupata nafasi.
+folders-menu-ring-full = Pete imejaa. Inaweza kushika vilivyobandikwa { $n }, kwa hiyo ondoa kimoja kwanza.
 
 # Red words under the file lines when a name cannot be written in the ring's list of favourites.
-folders-menu-ring-unkept = { $name } haiwezi kutunzwa kwenye pete: jina lake lina herufi ambazo orodha haiwezi kuzishikilia.
+folders-menu-ring-unkept = Folders haiwezi kubandika { $name } kwenye pete kwa sababu jina lake lina herufi ambayo Folders haiwezi kuhifadhi hapo.
 
 # Red words under the file lines when the ring's favourites list could not be saved.
-folders-menu-ring-not-saved = Vipendwa vya pete havikuweza kuhifadhiwa.
+folders-menu-ring-not-saved = Folders haikuweza kuhifadhi vipendwa vya pete.
 
 # Name given to a new link to a file or folder; the name of the thing linked to follows.
 folders-menu-link-name = Kiungo cha { $name }

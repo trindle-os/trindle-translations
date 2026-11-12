@@ -2,19 +2,19 @@
 # machine translated (Vietnamese), not yet reviewed by a person.
 
 # Words under the file lines when copy, cut or paste is tried on a server's files.
-folders-act-far-clip = Hãy dùng các nút sao chép và di chuyển giữa hai ngăn cho tệp trên máy chủ.
+folders-act-far-clip = Không dùng được cắt, sao chép và dán với tệp trên máy chủ. Thay vào đó, hãy dùng các nút sao chép và di chuyển giữa hai ngăn.
 
 # Words under the file lines when something is tried that would change what is inside an archive.
-folders-act-shut = Không có gì trong tệp nén được thay đổi ở đây. Hãy lấy chúng ra trước.
+folders-act-shut = Bạn không thể thay đổi gì bên trong tệp nén. Hãy giải nén những gì bạn cần trước.
 
 # Words on a finished job when files that another program cut were pasted: they are copied.
-folders-act-cut-elsewhere = Đã sao chép: đã cắt trong ứng dụng khác.
+folders-act-cut-elsewhere = Những mục này được cắt trong ứng dụng khác, nên Folders đã sao chép chúng.
 
 # Words under the file lines when something is picked that is already being copied or moved.
-folders-act-being-moved = Đang được sao chép hoặc di chuyển.
+folders-act-being-moved = Mục này đang được sao chép hoặc di chuyển.
 
 # Words under the file lines when a copy that is not whole yet is picked.
-folders-act-arriving = Vẫn đang đến.
+folders-act-arriving = Mục này vẫn đang được sao chép vào đây.
 
 # Part of the question about a name already taken: a folder that holds this many things or more.
 folders-act-holds-most = 10.000 mục trở lên
@@ -123,7 +123,7 @@ folders-act-undo-compressing = Hoàn tác việc nén { $what }
 folders-act-extracting = Đang giải nén { $what }
 
 # Words under the file lines when an archive was unpacked: what, and where.
-folders-act-extracted = Đã giải nén { $what } trong { $place }.
+folders-act-extracted = Đã giải nén { $what } vào { $place }.
 
 # The word for what was tried, put in 'could not be ...' when unpacking failed.
 folders-act-verb-extracted = giải nén
@@ -147,7 +147,7 @@ folders-act-verb-wiped = xóa sạch
 folders-act-taking-out = Đang lấy { $what } ra
 
 # Words under the file lines when things were taken out of an archive: what, and where to.
-folders-act-took-out = Đã lấy { $what } ra { $place }.
+folders-act-took-out = Đã lấy { $what } ra khỏi tệp nén vào { $place }.
 
 # The word for what was tried, put in 'could not be ...' when taking things out of an archive failed.
 folders-act-verb-taken-out = lấy ra
@@ -183,22 +183,22 @@ folders-act-new-folder = Thư mục mới
 folders-act-new-document = Tài liệu mới
 
 # Red words when a new folder or document could not be made; its name, then the reason.
-folders-act-make-failed = Không thể tạo { $base }: { $why }.
+folders-act-make-failed = Folders không thể tạo { $base }: { $why }.
 
 # Red words under a name being typed when it is empty.
-folders-act-name-empty = Tên không được để trống.
+folders-act-name-empty = Hãy nhập tên.
 
 # Red words under a name being typed when it has a slash.
 folders-act-name-slash = Tên không được chứa dấu gạch chéo.
 
 # Red words under a name being typed when it is . or ..
-folders-act-name-kept = Tên đó được dành cho hệ thống.
+folders-act-name-kept = Hệ thống đang dùng tên đó. Hãy chọn tên khác.
 
 # Red words under a name being typed when it is too long.
 folders-act-name-long = Tên đó quá dài.
 
 # Red words under the file lines when a piece of work could not be started.
-folders-act-no-start = Không thể bắt đầu công việc.
+folders-act-no-start = Folders không thể bắt đầu công việc này.
 
 # Tip of the Redo button after a step was undone; what the step was. Every undo and redo tip begins the same way.
 folders-act-redo-label = Làm lại { $what }
@@ -207,10 +207,12 @@ folders-act-redo-label = Làm lại { $what }
 folders-act-undo-label = Hoàn tác { $what }
 
 # Words under the file lines when work was stopped before it was done.
-folders-act-stopped = Đã dừng giữa chừng.
+folders-act-stopped = Công việc đã bị dừng trước khi xong.
 
 # Words under the file lines when work finished but some things were skipped; what was done, then how many were skipped.
-folders-act-skipped = { $done } Đã bỏ qua { $n }.
+folders-act-skipped = { $done } { $n ->
+       *[other] Folders đã bỏ qua { $n } mục.
+    }
 
 # Words under the file lines when an action needs something picked and nothing is.
 folders-act-pick-first = Hãy chọn một mục trước.
@@ -240,10 +242,10 @@ folders-act-other-pane = Ngăn bên kia không hiển thị thư mục nào.
 folders-act-pick-copy = Hãy chọn thứ cần sao chép trước.
 
 # Words under the file lines after Cut: what was cut.
-folders-act-cut-said = Đã cắt { $what }. Hãy dán vào một thư mục.
+folders-act-cut-said = Đã cắt { $what }.
 
 # Words under the file lines after Copy: what was copied.
-folders-act-copied-said = Đã sao chép { $what }. Hãy dán vào một thư mục.
+folders-act-copied-said = Đã sao chép { $what }.
 
 # Words under the file lines when Paste is used where there is no folder.
 folders-act-paste-folder = Chỉ có thể dán vào một thư mục.
@@ -269,16 +271,16 @@ folders-act-pick-trash = Hãy chọn một mục trong thùng rác trước.
 folders-act-new-numbered = { $base } { $n }
 
 # Words under the file lines while a new folder or document is made on a server.
-folders-act-making = Đang tạo { $name }.
+folders-act-making = Đang tạo { $name }
 
 # Words under the file lines when New folder or New document is used where there is no folder.
-folders-act-make-folder-only = Chỉ có thể tạo mục mới trong một thư mục.
+folders-act-make-folder-only = Bạn chỉ có thể tạo thư mục hoặc tài liệu mới bên trong một thư mục.
 
 # Tip of the Undo button after a folder, document or link was made.
 folders-act-undo-making = Hoàn tác việc tạo { $name }
 
-# Red words under the file lines when folder colours and emblems could not follow things that were moved.
-folders-act-colours-lost = Màu không thể đi theo những gì đã di chuyển.
+# Red words under the file lines when folder colours could not follow things that were moved.
+folders-act-colours-lost = Folders không giữ được màu thư mục trên các mục đã di chuyển.
 
 # Words under the file lines when Redo is used and there is nothing to redo.
 folders-act-nothing-redo = Không có gì để làm lại.
@@ -326,9 +328,7 @@ folders-act-links-failed =
     }
 
 # Words under the file lines when the window is closed while work waits for an answer.
-folders-act-closing-waits = Một số công việc đang chờ câu trả lời. Hãy trả lời, hoặc dừng công việc, trước khi đóng.
-
+folders-act-closing-waits = Có một câu hỏi đang chờ bạn trả lời. Hãy trả lời, hoặc dừng công việc, trước khi đóng Folders.
 
 # Words under the file lines when the window is closed while work goes on.
-folders-act-closing-busy = Thư mục không thể đóng cho đến khi việc chuyển xong. Hãy đợi, hoặc dừng việc đó, rồi đóng.
-
+folders-act-closing-busy = Folders không thể đóng khi đang có công việc chạy. Hãy chờ cho xong, hoặc dừng lại, rồi đóng Folders.

@@ -7,10 +7,10 @@ folders-menu-rename = Переименовать
 folders-menu-rename-them = Переименовать их
 
 # Row of Folders' right-click menu (Install font), shown when one thing is picked.
-folders-menu-install-the-font-for-you = Установить шрифт для вас
+folders-menu-install-the-font-for-you = Установить шрифт только для вас
 
 # Row of Folders' right-click menu (Install font), shown when several things are picked.
-folders-menu-install-the-fonts-for-you = Установить шрифты для вас
+folders-menu-install-the-fonts-for-you = Установить шрифты только для вас
 
 # Row of Folders' right-click menu that does: Open.
 folders-menu-open = Открыть
@@ -145,6 +145,7 @@ folders-menu-resize = Изменить размер
 # Row of Folders' right-click menu that does: Compare files.
 folders-menu-compare-the-two = Сравнить эти два
 
+
 # Row of Folders' right-click menu that does: Copy here.
 folders-menu-copy-here = Копировать сюда
 
@@ -174,7 +175,7 @@ folders-menu-pin-to-the-ring = Закрепить в кольце
 folders-menu-sub-select = Выделение
 
 # Row of Folders' right-click menu that opens a sub-menu of pack rows; the sub-menu is named for what is in it.
-folders-menu-sub-pack = Упаковать, отправить и поделиться
+folders-menu-sub-pack = Сжать, отправить и поделиться
 
 # Row of Folders' right-click menu that opens a sub-menu of picture rows; the sub-menu is named for what is in it.
 folders-menu-sub-picture = Изображение
@@ -197,8 +198,9 @@ folders-menu-copied-location =
        *[other] Скопировано расположений: { $n }.
     }
 
+
 # Red words under the file lines when Open as administrator failed.
-folders-menu-no-admin-window = Не удалось открыть «Папки» от имени администратора.
+folders-menu-no-admin-window = Не удалось открыть окно от имени администратора.
 
 # Red words under the file lines when a picture cannot be the wallpaper; the name of the picture, then the reasons.
 folders-menu-wallpaper-refused = «{ $name }» нельзя сделать обоями: { $why }.
@@ -223,19 +225,19 @@ folders-menu-link-failed = Не удалось создать ссылку: { $w
 folders-menu-ai-shared = «{ $name }» теперь доступна программам ИИ.
 
 # Words under the file lines after a folder or file was taken off the ring.
-folders-menu-ring-off = «{ $name }» убрано из кольца.
+folders-menu-ring-off = «{ $name }» откреплено от кольца.
 
 # Words under the file lines after a folder or file was pinned to the ring.
-folders-menu-ring-pinned = «{ $name }» закреплено в кольце. Оно показывается вместе с избранными приложениями.
+folders-menu-ring-pinned = «{ $name }» закреплено в кольце рядом с избранными приложениями.
 
 # Words under the file lines when the thing to pin is on the ring already.
 folders-menu-ring-already = «{ $name }» уже в кольце.
 
 # Red words under the file lines when the ring has no room for another pin; the number is how many it holds.
-folders-menu-ring-full = В середине кольца помещается { $n }, и оно заполнено. Уберите один элемент, чтобы освободить место.
+folders-menu-ring-full = Кольцо заполнено. В нём помещается закреплённых элементов: { $n }, поэтому сначала открепите один.
 
 # Red words under the file lines when a name cannot be written in the ring's list of favourites.
-folders-menu-ring-unkept = «{ $name }» нельзя оставить в кольце: в имени есть символы, которые список не может хранить.
+folders-menu-ring-unkept = Folders не может закрепить «{ $name }» в кольце, потому что в имени есть символ, который Folders не может там сохранить.
 
 # Red words under the file lines when the ring's favourites list could not be saved.
 folders-menu-ring-not-saved = Не удалось сохранить избранное кольца.

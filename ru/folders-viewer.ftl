@@ -1,10 +1,11 @@
+
 # machine translated (Russian), not yet reviewed by a person.
 
 # Said in the preview panel and viewer in place of a video or sound when the program that plays them is missing.
-folders-viewer-no-ffmpeg = Видео и звук здесь воспроизводит ffmpeg, но он не установлен на этом компьютере.
+folders-viewer-no-ffmpeg = Для воспроизведения видео и звука Folders нужен ffmpeg, но он не установлен.
 
 # Said in the preview panel and viewer in place of a video or sound that cannot be played.
-folders-viewer-unplayable = Это не удаётся воспроизвести. Возможно, файл повреждён или ffmpeg не умеет его воспроизводить.
+folders-viewer-unplayable = Folders не может воспроизвести это. Возможно, файл повреждён или имеет формат, который ffmpeg не умеет воспроизводить.
 
 # What a file is called when its name says it is that kind but its bytes are not, such as a cut-short one; shown in the viewer and preview panel: PDF document.
 folders-viewer-kind-pdf = документ PDF
@@ -22,7 +23,7 @@ folders-viewer-kind-gif = изображение GIF
 folders-viewer-kind-webp = изображение WebP
 
 # What a file is called when its name says it is that kind but its bytes are not, such as a cut-short one; shown in the viewer and preview panel: zip file.
-folders-viewer-kind-zip = файл zip
+folders-viewer-kind-zip = файл в формате zip
 
 # What a file is called when its name says it is that kind but its bytes are not, such as a cut-short one; shown in the viewer and preview panel: gzip file.
 folders-viewer-kind-gzip = файл gzip
@@ -70,7 +71,7 @@ folders-viewer-kind-wav = звуковой файл WAV
 folders-viewer-kind-mp3 = звуковой файл MP3
 
 # Said in the viewer and preview panel in place of a picture that could not be read.
-folders-viewer-picture-unread = Не удалось прочитать это изображение.
+folders-viewer-picture-unread = Folders не удалось прочитать это изображение.
 
 # Said in the viewer and preview panel in place of a file that is no longer there.
 folders-viewer-gone = Этого файла больше нет.
@@ -79,4 +80,4 @@ folders-viewer-gone = Этого файла больше нет.
 folders-viewer-denied = У вас нет разрешения читать этот файл.
 
 # Said in the viewer and preview panel in place of a file that could not be read; why is the system's own reason.
-folders-viewer-read-failed = Не удалось прочитать этот файл: { $why }.
+folders-viewer-read-failed = Folders не удалось прочитать этот файл: { $why }.

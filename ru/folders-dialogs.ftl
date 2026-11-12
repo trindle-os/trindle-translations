@@ -1,3 +1,4 @@
+
 # machine translated (Russian), not yet reviewed by a person.
 
 # Tip and spoken name of the round button at the top right of a small window that shuts it.
@@ -10,19 +11,19 @@ folders-dialogs-home = Домашняя папка
 folders-dialogs-open-with-title = Открыть «{ $name }» в программе
 
 # Small line beside the app that opens the file now, in the Open with list.
-folders-dialogs-opens-now = Открывает сейчас
+folders-dialogs-opens-now = Текущее приложение
 
 # Note in the Open with window when no app says it opens this kind of file.
-folders-dialogs-no-apps = На этом компьютере нет приложений для файлов такого типа.
+folders-dialogs-no-apps = На этом компьютере нет приложений, настроенных для открытия файлов такого типа.
 
 # Name of the switch in the Open with window that makes the chosen app the usual one for this kind of file.
-folders-dialogs-always-use = Всегда использовать
+folders-dialogs-always-use = Всегда использовать это приложение
 
 # Line under the Always use it switch; the kind of file, such as text/plain.
-folders-dialogs-always-sub = Для всех файлов типа { $kind }.
+folders-dialogs-always-sub = Использовать для всех файлов типа { $kind }.
 
 # Tip and spoken name of the Always use it switch.
-folders-dialogs-always-tip = Сделать её основной программой для этого типа
+folders-dialogs-always-tip = Сделать основным приложением
 
 # Tip of the round button in the Open with window that shows only the apps that suit the file.
 folders-dialogs-show-suggested = Показать только рекомендуемые приложения
@@ -34,7 +35,7 @@ folders-dialogs-show-every = Показать все приложения
 folders-dialogs-open = Открыть
 
 # Red words when Open is pressed in the Open with window and no app is chosen.
-folders-dialogs-choose-app = Выберите приложение, чтобы открыть файл.
+folders-dialogs-choose-app = Сначала выберите приложение.
 
 # Red words when the chosen app could not be made the usual app; the app's name.
 folders-dialogs-usual-failed = Не удалось сделать «{ $name }» основным приложением.
@@ -57,6 +58,8 @@ folders-dialogs-page-details = Подробности
 # Name of the page of Properties for sharing a folder on the home network.
 folders-dialogs-page-sharing = Общий доступ
 
+
+
 # Label in Properties of the name of the file or folder.
 folders-dialogs-row-name = Имя
 
@@ -76,7 +79,7 @@ folders-dialogs-row-changed = Изменено
 folders-dialogs-row-owner = Владелец
 
 # Label in Properties of who may open and change the item.
-folders-dialogs-row-rights = Права
+folders-dialogs-row-rights = Права доступа
 
 # Label in Properties of the size of the item.
 folders-dialogs-row-size = Размер
@@ -113,7 +116,7 @@ folders-dialogs-size =
     }
 
 # Size shown in Properties before the first count comes in.
-folders-dialogs-size-adding = Подсчёт
+folders-dialogs-size-adding = Вычисляем размер
 
 # Label in Properties of the row about checksums.
 folders-dialogs-checksums = Контрольные суммы
@@ -122,13 +125,13 @@ folders-dialogs-checksums = Контрольные суммы
 folders-dialogs-sums-work-out = Вычислить контрольные суммы
 
 # Words beside the ring while a file's checksums are being worked out.
-folders-dialogs-sums-working = Вычисляем
+folders-dialogs-sums-working = Вычисляем контрольные суммы
 
 # Red words in Properties when a file's checksums could not be worked out.
-folders-dialogs-sums-failed = Не удалось прочитать файл
+folders-dialogs-sums-failed = Folders не удалось прочитать файл.
 
 # Placeholder of the box in Properties where a checksum is pasted to check the file against.
-folders-dialogs-sums-paste = Вставьте контрольную сумму для проверки
+folders-dialogs-sums-paste = Вставьте контрольную сумму для сравнения
 
 # Words beside the checksum box when the pasted checksum matches; the name of the checksum such as SHA-256.
 folders-dialogs-sums-matches = { $kind } совпадает
@@ -139,18 +142,18 @@ folders-dialogs-sums-no-match = Не совпадает
 # Label in Properties of the row with the box to check a checksum.
 folders-dialogs-sums-check = Проверка
 
+
 # Heading of the Send to window: the name of the one item being sent, or how many items.
 folders-dialogs-send-title =
     { $n ->
         [1] Отправить «{ $name }» в
         [few] Отправить { $n } элемента в
         [many] Отправить { $n } элементов в
-        [one] Отправить { $n } элемента в
        *[other] Отправить { $n } элемента в
     }
 
 # Note in the Send to window saying what sending does.
-folders-dialogs-send-note = Там создаётся копия; сами элементы остаются на месте.
+folders-dialogs-send-note = Здесь создаётся копия. Оригиналы остаются на месте.
 
 # Name of the place in the Send to list that is the folder open in the other pane; the folder's name.
 folders-dialogs-send-other = Другая панель, { $name }
@@ -159,7 +162,7 @@ folders-dialogs-send-other = Другая панель, { $name }
 folders-dialogs-columns-title = Столбцы в виде списка
 
 # Note in the Columns window.
-folders-dialogs-columns-note = Имя показывается всегда. Столбцы, которые не помещаются рядом с ним, скрываются, пока панель не станет шире.
+folders-dialogs-columns-note = Имя показывается всегда. Столбцы, которые не помещаются, скрываются, пока панель не станет шире.
 
 # Heading over the columns that suit every file.
 folders-dialogs-columns-files = Файлы
@@ -179,21 +182,23 @@ folders-dialogs-colour-title =
         [1] Цвет для «{ $name }»
         [few] Цвет для { $n } папок
         [many] Цвет для { $n } папок
-        [one] Цвет для { $n } папок
        *[other] Цвет для { $n } папок
     }
 
 # Tip of the round button, and the note beside it, in the Folder colour window that takes the colour away.
-folders-dialogs-colour-none = Без своего цвета
+folders-dialogs-colour-none = Без цвета
 
 # Red words when the folder colour could not be saved.
 folders-dialogs-colour-failed = Не удалось сохранить цвет папки.
 
-folders-dialogs-no-match = Нет приложения с такими словами в названии.
+
+folders-dialogs-no-match = Нет приложений, подходящих под эти слова.
+
 
 folders-dialogs-find-app = Найти приложение
 
+
 folders-dialogs-find-place = Найти место
 
-folders-dialogs-no-match-place = Нет места с такими словами в названии.
 
+folders-dialogs-no-match-place = Нет мест, подходящих под эти слова.

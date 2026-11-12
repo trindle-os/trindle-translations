@@ -8,8 +8,8 @@ folders-view-empty-trash-title = Kumwaga Tupio?
 # SAFETY: needs a human review before it ships
 folders-view-empty-trash-body =
     { $n ->
-        [one] Kitu kimoja kilichomo kitafutwa kabisa. Hili haliwezi kutenguliwa.
-       *[other] Vitu vyote { $n } vilivyomo vitafutwa kabisa. Hili haliwezi kutenguliwa.
+        [one] Kitu kimoja kilichomo kitafutwa kabisa. Huwezi kutendua hili.
+       *[other] Vitu vyote { $n } vilivyomo vitafutwa kabisa. Huwezi kutendua hili.
     }
 
 # Red button of the question asked before the Trash is emptied: empties it at once.
@@ -26,7 +26,7 @@ folders-view-delete-title =
 
 # Text of the question asked before items are deleted for good.
 # SAFETY: needs a human review before it ships
-folders-view-delete-body = Hili haliwezi kutenguliwa.
+folders-view-delete-body = Huwezi kutendua hili.
 
 # Red button of the question asked before items are deleted for good: deletes them at once.
 # SAFETY: needs a human review before it ships
@@ -41,6 +41,9 @@ folders-view-drop-title = Vipelekwe wapi?
 
 # Tip of the round close button of the window that asks where dropped items should go: leaves them where they are.
 folders-view-drop-leave = Viache vilipo
+
+
+
 
 # Tip of the toolbar button that shows a folder as icons.
 folders-view-icons = Aikoni
@@ -62,6 +65,10 @@ folders-view-sort-by = Panga kwa
 
 # Name read out for the toolbar's Group by strip.
 folders-view-group-by = Kusanya kwa
+
+
+
+
 
 # Tip of the toolbar button that hides the preview panel.
 folders-view-panel-hide = Ficha paneli ya hakiki (Alt+P)
@@ -85,7 +92,12 @@ folders-view-tabs-right = Vichupo vya kidirisha cha kulia
 folders-view-tab-new = Kichupo kipya (Ctrl+T)
 
 # Tip of the button that closes the tab showing.
-folders-view-tab-close = Funga kichupo (Ctrl+W, au bofya kwa kati juu yake)
+folders-view-tab-close = Funga kichupo (Ctrl+W)
+
+
+
+
+
 
 # Side bar row that opens the Home folder.
 folders-view-home = Nyumbani
@@ -107,6 +119,8 @@ folders-view-shares = Zilizoshirikiwa
 
 # Tip of the side bar button that closes an open Windows share; name is the share.
 folders-view-share-close = Funga { $name }
+
+
 
 # Tip of the button that opens the window to connect to a server, and the button of the empty Network page that does the same.
 folders-view-connect = Unganisha kwenye seva
@@ -159,7 +173,7 @@ folders-view-compare =
 folders-view-locate-hint = Andika folda, faili au anwani ya seva
 
 # Name read out for the path above a pane's list.
-folders-view-where = Kidirisha hiki kiko wapi
+folders-view-where = Mahali
 
 # Tip of the pane's Back button.
 folders-view-back = Nyuma (Alt+Left)
@@ -170,20 +184,23 @@ folders-view-forward = Mbele (Alt+Right)
 # Tip of the pane's button that goes up one folder.
 folders-view-up = Juu folda moja (Alt+Up)
 
+
+
 # Placeholder of the filter box above a pane's list.
-folders-view-filter-hint = Chuja, au bonyeza Enter kutafuta kwenye folda hii na chini yake
+folders-view-filter-hint = Chuja, au bonyeza Enter kutafuta kwenye folda hii na folda zake ndogo
 
 # Tip of the button beside the filter box that finds things by name here and below.
-folders-view-find-name = Tafuta kwa jina hapa na chini yake
+folders-view-find-name = Tafuta majina, pamoja na folda ndogo
 
 # Tip of the button beside the filter box that finds words inside files here and below.
-folders-view-find-inside = Tafuta maneno ndani ya faili hapa na chini yake
+folders-view-find-inside = Tafuta ndani ya faili, pamoja na folda ndogo
+
 
 # Name read out for the list that picks which kind of thing to show.
-folders-view-find-kind = Aina ya kuonyesha
+folders-view-find-kind = Aina
 
 # Name read out for the list that picks which size to show.
-folders-view-find-size = Ukubwa wa kuonyesha
+folders-view-find-size = Ukubwa
 
 # Name read out for the list that picks when things were last changed.
 folders-view-find-changed = Ilipobadilishwa mara ya mwisho
@@ -204,7 +221,7 @@ folders-view-status-selected = { $count } vimechaguliwa, { $size }
 folders-view-status-then = { $first }. { $then }
 
 # Tip of the small round i at a pane's foot that lists the files words there are about, each with its reason.
-folders-view-listed = Faili zipi, na kwa nini
+folders-view-listed = Onyesha faili zinazohusika
 
 # Tip of the button on an empty or failed pane that reads the place again.
 folders-view-try-again = Jaribu tena
@@ -220,7 +237,7 @@ folders-view-none-matches = Hakuna kinacholingana na kichujio
 folders-view-show-everything = Onyesha vyote
 
 # Line on the Recent page when nothing was opened lately.
-folders-view-none-recent = Hakuna kilichofunguliwa hivi karibuni
+folders-view-none-recent = Hujafungua chochote hivi karibuni
 
 # Button on the empty Recent page that goes to the Home folder.
 folders-view-go-home = Nenda Nyumbani
@@ -281,25 +298,23 @@ folders-view-shares-down =
 # Tip of the round button that lets a network share that is not connected go from the list; its name.
 folders-view-forget-share = Sahau { $name }
 
-
-
 # Name read out for the top bar's button that shows two panes side by side, or one.
-folders-view-two-panes = Paneli mbili
+folders-view-two-panes = Vidirisha viwili
 
 # Tip of the top bar's two panes button, while one pane shows.
-folders-view-panes-two = Onyesha paneli mbili kando kwa kando (F3)
+folders-view-panes-two = Onyesha vidirisha viwili kando kwa kando (F3)
 
 # Tip of the top bar's two panes button, while two panes show.
-folders-view-panes-one = Onyesha paneli moja (F3)
+folders-view-panes-one = Onyesha kidirisha kimoja (F3)
 
 # Tip and spoken name of the top bar's button that opens the View menu.
-folders-view-view = Mwonekano: jinsi vitu vinavyoonyeshwa, kupangwa na kukusanywa
+folders-view-view = Mwonekano
 
 # Words of the top bar's button that opens the New menu (New folder, New document).
 folders-view-new = Mpya
 
 # Tip and spoken name of the top bar's button that opens the More menu (Undo, Redo, settings).
-folders-view-more = Zaidi: tendua, rudia na mipangilio
+folders-view-more = Chaguo zaidi
 
 # Row of the More menu that undoes the last change.
 folders-view-more-undo = Tendua
@@ -308,27 +323,7 @@ folders-view-more-undo = Tendua
 folders-view-more-redo = Rudia
 
 # Row of the View menu that turns the sort round.
-folders-view-sort-other-way = Panga kwa upande mwingine
-
-# Row under the Network heading of the side bar: the computers found nearby.
-folders-view-network-nearby = Kompyuta zilizo karibu
-
-# Choice at the start of the line under a pane's path: search or filter here (Ctrl+F).
-folders-view-search = Tafuta
-
-# Placeholder of the box in which the name the side bar shows for a pinned folder is typed; was is the folder's own name.
-folders-view-pin-name-hint = Jina linaloonyeshwa kwa { $was }
-
-
-# Tip of the Search button while the search box shows.
-folders-view-search-close = Onyesha njia tena (Esc)
-
-# Tip of the Search button, greyed, on the page of every drive.
-folders-view-search-none = Hakuna cha kutafuta kwenye ukurasa huu
-
-# Name read out for the Search button, which says whether it is pressed.
-folders-view-search-spoken = Tafuta
-
+folders-view-sort-other-way = Panga upande mwingine
 
 # Tip of the toolbar button that shows hidden files (Ctrl+H).
 folders-view-hidden-show = Onyesha faili zilizofichwa (Ctrl+H)
@@ -339,3 +334,20 @@ folders-view-hidden-hide = Ficha faili zilizofichwa (Ctrl+H)
 # Name read out for the toolbar button that shows or hides hidden files.
 folders-view-hidden-spoken = Faili zilizofichwa
 
+# Row under the Network heading of the side bar: the computers found nearby.
+folders-view-network-nearby = Kompyuta za karibu
+
+# Tip of the Search button in the top row while the path shows.
+folders-view-search = Tafuta (Ctrl+F)
+
+# Tip of the Search button while the search box shows.
+folders-view-search-close = Funga utafutaji (Escape)
+
+# Tip of the Search button, greyed, on the page of every drive.
+folders-view-search-none = Huwezi kutafuta kwenye ukurasa huu
+
+# Name read out for the Search button, which says whether it is pressed.
+folders-view-search-spoken = Tafuta
+
+# Placeholder of the box in which the name the side bar shows for a pinned folder is typed; was is the folder's own name.
+folders-view-pin-name-hint = Jina la utepe wa pembeni kwa { $was }

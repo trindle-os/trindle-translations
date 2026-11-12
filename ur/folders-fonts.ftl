@@ -8,10 +8,10 @@ folders-fonts-too-large = یہ دکھانے کے لیے بہت بڑا ہے
 folders-fonts-unreadable = یہ ایسا فونٹ نہیں جسے Folders پڑھ سکے
 
 # Red note when the person installs a font they already have.
-folders-fonts-have-it = یہ آپ کے پاس پہلے سے موجود ہے۔
+folders-fonts-have-it = یہ فونٹ پہلے سے انسٹال ہے۔
 
 # Red note when the fonts folder could not be made; the reason follows.
-folders-fonts-install-failed = فونٹ انسٹال نہیں ہو سکا: { $why }۔
+folders-fonts-install-failed = Folders فونٹ انسٹال نہیں کر سکا: { $why }۔
 
 # Name of the fonts being installed, in the progress and done words, when more than one font is installed.
 folders-fonts-many =
@@ -24,7 +24,7 @@ folders-fonts-many =
 folders-fonts-doing = { $what } انسٹال ہو رہا ہے
 
 # Note when fonts have been installed; the name or count of the fonts.
-folders-fonts-done = { $what } آپ کے لیے انسٹال ہو گیا۔ اب سے شروع ہونے والی ایپس اسے استعمال کر سکتی ہیں۔
+folders-fonts-done = { $what } ان ایپس کے لیے انسٹال ہو گیا جو آپ اب سے کھولیں گے۔
 
 # Word for what happened to fonts that could not be done, in the list of failures.
 folders-fonts-verb = انسٹال

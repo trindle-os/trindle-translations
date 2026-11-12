@@ -1,19 +1,19 @@
 # machine translated (Swahili), not yet reviewed by a person.
 
 # Words under the file lines when copy, cut or paste is tried on a server's files.
-folders-act-far-clip = Tumia vitufe vya kunakili na kuhamisha kati ya vidirisha kwa faili za seva.
+folders-act-far-clip = Kukata, kunakili na kubandika hakufanyi kazi na faili zilizo kwenye seva. Tumia vitufe vya kunakili na kuhamisha kati ya vidirisha badala yake.
 
 # Words under the file lines when something is tried that would change what is inside an archive.
-folders-act-shut = Hakuna kitu kwenye kumbukumbu kinachobadilishwa hapa. Kitoe kwanza.
+folders-act-shut = Huwezi kubadilisha chochote ndani ya jalada. Toa unachohitaji kwanza.
 
 # Words on a finished job when files that another program cut were pasted: they are copied.
-folders-act-cut-elsewhere = Vimenakiliwa: vilikatwa kwenye programu nyingine.
+folders-act-cut-elsewhere = Hivi vilikatwa kwenye programu nyingine, kwa hiyo Folders imevinakili badala yake.
 
 # Words under the file lines when something is picked that is already being copied or moved.
 folders-act-being-moved = Tayari inanakiliwa au kuhamishwa.
 
 # Words under the file lines when a copy that is not whole yet is picked.
-folders-act-arriving = Bado inafika.
+folders-act-arriving = Hii bado inanakiliwa hapa.
 
 # Part of the question about a name already taken: a folder that holds this many things or more.
 folders-act-holds-most = vitu 10,000 au zaidi
@@ -120,7 +120,7 @@ folders-act-undo-compressing = Tendua kubana { $what }
 folders-act-extracting = Inatoa { $what }
 
 # Words under the file lines when an archive was unpacked: what, and where.
-folders-act-extracted = Imetoa { $what } katika { $place }.
+folders-act-extracted = Imetoa { $what } kwenye { $place }.
 
 # The word for what was tried, put in 'could not be ...' when unpacking failed.
 folders-act-verb-extracted = kutolewa
@@ -144,7 +144,7 @@ folders-act-verb-wiped = kufutwa kabisa
 folders-act-taking-out = Inatoa { $what }
 
 # Words under the file lines when things were taken out of an archive: what, and where to.
-folders-act-took-out = Imetoa { $what } hadi { $place }.
+folders-act-took-out = Imetoa { $what } kutoka kwenye jalada hadi kwenye { $place }.
 
 # The word for what was tried, put in 'could not be ...' when taking things out of an archive failed.
 folders-act-verb-taken-out = kutolewa
@@ -180,22 +180,22 @@ folders-act-new-folder = Folda mpya
 folders-act-new-document = Hati mpya
 
 # Red words when a new folder or document could not be made; its name, then the reason.
-folders-act-make-failed = { $base } haikuweza kutengenezwa: { $why }.
+folders-act-make-failed = Folders haikuweza kutengeneza { $base }: { $why }.
 
 # Red words under a name being typed when it is empty.
-folders-act-name-empty = Jina haliwezi kuwa tupu.
+folders-act-name-empty = Andika jina.
 
 # Red words under a name being typed when it has a slash.
 folders-act-name-slash = Jina haliwezi kuwa na mkwaju.
 
 # Red words under a name being typed when it is . or ..
-folders-act-name-kept = Jina hilo limehifadhiwa kwa ajili ya mfumo.
+folders-act-name-kept = Mfumo unatumia jina hilo. Chagua jingine.
 
 # Red words under a name being typed when it is too long.
 folders-act-name-long = Jina hilo ni refu mno.
 
 # Red words under the file lines when a piece of work could not be started.
-folders-act-no-start = Kazi haikuweza kuanzishwa.
+folders-act-no-start = Folders haikuweza kuanza kazi hii.
 
 # Tip of the Redo button after a step was undone; what the step was. Every undo and redo tip begins the same way.
 folders-act-redo-label = Fanya tena { $what }
@@ -204,10 +204,13 @@ folders-act-redo-label = Fanya tena { $what }
 folders-act-undo-label = Tendua { $what }
 
 # Words under the file lines when work was stopped before it was done.
-folders-act-stopped = Imesimamishwa katikati.
+folders-act-stopped = Kazi ilisimamishwa kabla ya kukamilika.
 
 # Words under the file lines when work finished but some things were skipped; what was done, then how many were skipped.
-folders-act-skipped = { $done } { $n } vimerukwa.
+folders-act-skipped = { $done } { $n ->
+        [one] Folders imeruka kitu kimoja.
+       *[other] Folders imeruka vitu { $n }.
+    }
 
 # Words under the file lines when an action needs something picked and nothing is.
 folders-act-pick-first = Chagua kitu kwanza.
@@ -223,10 +226,10 @@ folders-act-far-trash = Faili za seva haziwezi kuwekwa kwenye Tupio. Tumia Futa 
 folders-act-pick-copy-move = Chagua kitu cha kunakili au kuhamisha kwanza.
 
 # Words under the file lines when things from an archive are sent anywhere but a folder.
-folders-act-archive-out = Vitu vinaweza kutolewa kwenye kumbukumbu hadi kwenye folda tu.
+folders-act-archive-out = Unaweza kutoa vitu kutoka kwenye jalada hadi kwenye folda tu.
 
 # Words under the file lines when a copy is sent to the Trash.
-folders-act-copy-trash = Nakala haziwezi kuwekwa kwenye Tupio.
+folders-act-copy-trash = Huwezi kunakili vitu kwenye Tupio.
 
 # Words under the file lines when the copy or move button finds the other pane showing no folder.
 folders-act-other-pane = Kidirisha kingine hakionyeshi folda.
@@ -235,13 +238,13 @@ folders-act-other-pane = Kidirisha kingine hakionyeshi folda.
 folders-act-pick-copy = Chagua kitu cha kunakili kwanza.
 
 # Words under the file lines after Cut: what was cut.
-folders-act-cut-said = Imekata { $what }. Bandika kwenye folda.
+folders-act-cut-said = Imekata { $what }.
 
 # Words under the file lines after Copy: what was copied.
-folders-act-copied-said = Imenakili { $what }. Bandika kwenye folda.
+folders-act-copied-said = Imenakili { $what }.
 
 # Words under the file lines when Paste is used where there is no folder.
-folders-act-paste-folder = Vitu vinaweza kubandikwa kwenye folda tu.
+folders-act-paste-folder = Unaweza kubandika kwenye folda tu.
 
 # Words under the file lines when Paste finds no files on the clipboard.
 folders-act-no-clip = Hakuna faili kwenye ubao wa kunakili.
@@ -251,7 +254,7 @@ folders-act-nothing-cut = Hakuna kilichokatwa wala kunakiliwa.
 
 # Words under the file lines when Delete is used on the Network list.
 # SAFETY: needs a human review before it ships
-folders-act-network-delete = Maeneo ya mtandao hayawezi kufutwa kutoka hapa.
+folders-act-network-delete = Huwezi kufuta maeneo ya mtandao kutoka hapa.
 
 # Words under the file lines when Empty the Trash is used on an empty Trash.
 folders-act-trash-empty = Tupio liko tupu tayari.
@@ -263,16 +266,16 @@ folders-act-pick-trash = Chagua kitu kwenye Tupio kwanza.
 folders-act-new-numbered = { $base } { $n }
 
 # Words under the file lines while a new folder or document is made on a server.
-folders-act-making = Inatengeneza { $name }.
+folders-act-making = Inatengeneza { $name }
 
 # Words under the file lines when New folder or New document is used where there is no folder.
-folders-act-make-folder-only = Vitu vipya vinaweza kutengenezwa kwenye folda tu.
+folders-act-make-folder-only = Unaweza kutengeneza folda au hati mpya ndani ya folda tu.
 
 # Tip of the Undo button after a folder, document or link was made.
 folders-act-undo-making = Tendua kutengeneza { $name }
 
-# Red words under the file lines when folder colours and emblems could not follow things that were moved.
-folders-act-colours-lost = Rangi hazikuweza kufuata vilivyohamishwa.
+# Red words under the file lines when folder colours could not follow things that were moved.
+folders-act-colours-lost = Folders haikuweza kuhifadhi rangi za folda kwenye vitu ilivyohamisha.
 
 # Words under the file lines when Redo is used and there is nothing to redo.
 folders-act-nothing-redo = Hakuna cha kufanya tena.
@@ -302,7 +305,7 @@ folders-act-place-home = Nyumbani
 folders-act-place-trash = Tupio
 
 # Words under the file lines when things are dropped somewhere that takes nothing.
-folders-act-drop-only = Vitu vinaweza kudondoshwa kwenye folda au Tupio tu.
+folders-act-drop-only = Unaweza kudondosha vitu kwenye folda au Tupio tu.
 
 # Names how many links were made, inside the words about making them.
 folders-act-links =
@@ -322,9 +325,7 @@ folders-act-links-failed =
     }
 
 # Words under the file lines when the window is closed while work waits for an answer.
-folders-act-closing-waits = Kazi fulani inasubiri jibu. Ijibu, au simamisha kazi, kabla ya kufunga.
-
-
+folders-act-closing-waits = Kuna swali linalosubiri jibu lako. Lijibu, au simamisha kazi, kabla ya kufunga Folders.
 
 # Words under the file lines when the window is closed while work goes on.
-folders-act-closing-busy = Folders haiwezi kufungwa hadi uhamishaji ukamilike. Subiri ukamilike, au usimamishe, kisha ufunge.
+folders-act-closing-busy = Folders haiwezi kufungwa wakati kazi inaendelea. Subiri ikamilike, au isimamishe, kisha ufunge Folders.

@@ -19,7 +19,7 @@ folders-progress-pace-wait =
 folders-progress-line = { $doing }: { $how }
 
 # The same with the words about the disk added; { $line } is the line above, { $heavy } the words about the disk.
-folders-progress-line-heavy = { $line } { $heavy }
+folders-progress-line-heavy = { $line }. { $heavy }
 
 # A speed or size in bytes; { $n } is the figure.
 folders-progress-speed-bytes = { $n } bytes
@@ -66,16 +66,15 @@ folders-progress-left-hours =
 # Line at the top of a foot standing for work that has no room of its own; { $n } is how many.
 folders-progress-more =
     { $n ->
-        [one] mais 1 trabalho está em andamento
-       *[other] mais { $n } trabalhos estão em andamento
-        [many] mais { $n } trabalhos estão em andamento
+        [one] mais 1 trabalho em andamento
+       *[other] mais { $n } trabalhos em andamento
     }
 
 # End of the line of a copy or move row; { $verb } is moving or copying.
 folders-progress-heavy =
     { $verb ->
-        [moving] Mover usa muito o disco, então outros programas podem ficar mais lentos até terminar.
-       *[copying] Copiar usa muito o disco, então outros programas podem ficar mais lentos até terminar.
+        [moving] Mover mantém o disco ocupado, então outros programas podem ficar mais lentos até terminar.
+       *[copying] Copiar mantém o disco ocupado, então outros programas podem ficar mais lentos até terminar.
     }
 
 # End of a piece of work's line while it waits for the person's answer.
@@ -85,7 +84,7 @@ folders-progress-waiting = esperando uma resposta
 folders-progress-paused = pausado
 
 # Tip of the button on a paused piece of work's row that sets it going again.
-folders-progress-carry-on = Continuar
+folders-progress-carry-on = Retomar
 
 # Tip of the button on a piece of work's row that pauses it.
 folders-progress-pause = Pausar
@@ -94,7 +93,7 @@ folders-progress-pause = Pausar
 folders-progress-stop = Parar
 
 # Under a file or folder in the name taken question: it is newer than the other and larger.
-folders-progress-mark-newer-larger = mais novo, maior
+folders-progress-mark-newer-larger = mais novo e maior
 
 # Under a file or folder in the name taken question: it is newer than the other.
 folders-progress-mark-newer = mais novo
@@ -114,7 +113,7 @@ folders-progress-taken =
     }
 
 # Heading over the file or folder that is being brought, in the name taken question.
-folders-progress-coming = O que está sendo trazido
+folders-progress-coming = O novo
 
 # Heading over the file or folder that is already there, in the name taken question.
 folders-progress-there = O que já está lá
@@ -131,17 +130,17 @@ folders-progress-replace = Substituir
 
 # Screen reader name of the Replace button for a folder in the name taken question.
 # SAFETY: needs a human review before it ships
-folders-progress-replace-folder-spoken = Substituir: a pasta que já está lá vai para a Lixeira
+folders-progress-replace-folder-spoken = Substituir e mover a pasta que já está lá para a Lixeira
 
 # Main button of the name taken question for a folder: join the two folders.
 # SAFETY: needs a human review before it ships
 folders-progress-merge = Mesclar
 
 # Line over the switch in the name taken question for folders.
-folders-progress-all-folders = A mesma resposta para toda pasta que já estiver lá.
+folders-progress-all-folders = Usar esta resposta para todas as pastas que já estiverem lá.
 
 # Line over the switch in the name taken question for files.
-folders-progress-all-files = A mesma resposta para todo arquivo que já estiver lá.
+folders-progress-all-files = Usar esta resposta para todos os arquivos que já estiverem lá.
 
 # Name and tip of the switch in the name taken question that uses the answer for the rest.
 folders-progress-same-for-rest = Fazer o mesmo com o resto

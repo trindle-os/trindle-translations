@@ -12,10 +12,10 @@ folders-locked-password = Nenosiri
 
 # Line under the password box before anything has been tried: says the password is not saved.
 # SAFETY: needs a human review before it ships
-folders-locked-kept-note = Linakaa tu wakati kumbukumbu hii imefunguliwa, halihifadhiwi kamwe.
+folders-locked-kept-note = Folders inalisahau nenosiri jalada linapofungwa.
 
 # Words beside the spinning ring on the password card while a password is being tried.
-folders-locked-trying = Inajaribu
+folders-locked-trying = Inajaribu nenosiri
 
 # Title of the password card; the variable is the archive's name.
 folders-locked-title = Nenosiri la { $name }
@@ -27,8 +27,8 @@ folders-locked-close = Funga
 folders-locked-is-locked = { $name } imefungwa kwa nenosiri.
 
 # Notice shown when another card is already open and an archive needs its password; the variable is the archive's name.
-folders-locked-open-again = { $name } imefungwa kwa nenosiri. Ifungue tena ili kuliandika.
+folders-locked-open-again = { $name } imefungwa kwa nenosiri. Ifungue tena ili kuandika nenosiri.
 
 # Notice shown when a locked archive cannot be read whatever the password; the variables are the archive's name and the reason.
-folders-locked-could-not-read = { $name } haikuweza kusomwa: { $why }.
+folders-locked-could-not-read = Folders haikuweza kusoma { $name }: { $why }.
 

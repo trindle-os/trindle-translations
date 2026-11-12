@@ -4,7 +4,7 @@
 folders-found-need-inside-words = पहले वे शब्द लिखें जो फ़ाइलों के अंदर खोजने हैं।
 
 # Red words when the search button is pressed with nothing to look for and no kind, size or time chosen.
-folders-found-need-something = जो खोजना है वह लिखें, या कोई प्रकार, आकार या समय चुनें।
+folders-found-need-something = खोजने के लिए कुछ लिखें, या कोई प्रकार, आकार या समय चुनें।
 
 # Red words when the search button is pressed in a place that is not a folder on this computer.
 folders-found-only-here = केवल इस कंप्यूटर के फ़ोल्डरों में खोजा जा सकता है।
@@ -16,32 +16,30 @@ folders-found-shown = { $all } में से { $shown } दिखाए ग�
 folders-found-in-folder = { $folder } में
 
 # Status line when one search result is picked and it sits directly in the folder searched.
-folders-found-in-root = खोजे गए फ़ोल्डर में
+folders-found-in-root = आपके खोजे गए फ़ोल्डर में
 
 # Status line when one result found by words inside files is picked and it sits below the folder searched: the folder, the line number, the line, and how many more lines match (0 for none).
 folders-found-in-folder-line =
     { $folder } में। पंक्ति { $n }: { $line }{ $more ->
         [0]
-        [one] { " " }(और { $more } और)
        *[other] { " " }(और { $more } और)
     }
 
 # Status line when one result found by words inside files is picked and it sits directly in the folder searched: the line number, the line, and how many more lines match (0 for none).
 folders-found-in-root-line =
-    खोजे गए फ़ोल्डर में। पंक्ति { $n }: { $line }{ $more ->
+    आपके खोजे गए फ़ोल्डर में। पंक्ति { $n }: { $line }{ $more ->
         [0]
-        [one] { " " }(और { $more } और)
-       *[other] { " " }(और { $more } और)
+       *[other] { " " }(साथ में { $more } और)
     }
 
 # Status line while a search runs and after it ends: how many were found, and when a filter is on, out of how many; while looking it says so; at the limit it says how many are shown; then how many files could not be read and how many were passed over. The variables filtered, looking, full are yes or no, most is the limit as written, unread and skipped are counts (0 for none).
 folders-found-status =
-    { $n ->
-        [one] 1 मिला
-       *[other] { $n } मिले
-    }{ $filtered ->
-        [yes] { " " }(कुल { $all } में से)
-       *[other]
+    { $filtered ->
+        [yes] { $all } में से { $n } मिले
+       *[other] { $n ->
+            [one] 1 मिला
+           *[other] { $n } मिले
+        }
     }{ $looking ->
         [yes] , अभी खोज जारी है…
        *[other]
@@ -50,10 +48,8 @@ folders-found-status =
        *[other]
     }{ $unread ->
         [0]
-        [one] । { $unread } पढ़े नहीं जा सके
        *[other] । { $unread } पढ़े नहीं जा सके
     }{ $skipped ->
         [0]
-        [one] । { $skipped } बहुत बड़े होने या टेक्स्ट न होने से छोड़े गए
        *[other] । { $skipped } बहुत बड़े होने या टेक्स्ट न होने से छोड़े गए
     }

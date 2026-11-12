@@ -2,10 +2,10 @@
 # machine translated (Simplified Chinese), not yet reviewed by a person.
 
 # Said in the preview panel and viewer in place of a video or sound when the program that plays them is missing.
-folders-viewer-no-ffmpeg = 这里用 ffmpeg 播放视频和声音，但这台电脑上没有安装它。
+folders-viewer-no-ffmpeg = Folders 需要 ffmpeg 才能播放视频和声音，但它尚未安装。
 
 # Said in the preview panel and viewer in place of a video or sound that cannot be played.
-folders-viewer-unplayable = 无法播放。它可能已损坏，或是 ffmpeg 无法播放的类型。
+folders-viewer-unplayable = Folders 无法播放此文件。它可能已损坏，或是 ffmpeg 无法播放的格式。
 
 # What a file is called when its name says it is that kind but its bytes are not, such as a cut-short one; shown in the viewer and preview panel: PDF document.
 folders-viewer-kind-pdf = PDF 文档
@@ -71,7 +71,7 @@ folders-viewer-kind-wav = WAV 声音文件
 folders-viewer-kind-mp3 = MP3 声音文件
 
 # Said in the viewer and preview panel in place of a picture that could not be read.
-folders-viewer-picture-unread = 无法读取这张图片。
+folders-viewer-picture-unread = Folders 无法读取这张图片。
 
 # Said in the viewer and preview panel in place of a file that is no longer there.
 folders-viewer-gone = 此文件已不存在。
@@ -81,5 +81,5 @@ folders-viewer-gone = 此文件已不存在。
 folders-viewer-denied = 你没有读取此文件的权限。
 
 # Said in the viewer and preview panel in place of a file that could not be read; why is the system's own reason.
-folders-viewer-read-failed = 无法读取此文件：{ $why }。
+folders-viewer-read-failed = Folders 无法读取此文件：{ $why }。
 

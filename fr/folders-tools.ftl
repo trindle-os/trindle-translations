@@ -23,10 +23,10 @@ folders-tools-case-lower = Tout en minuscules
 folders-tools-case-upper = Tout en majuscules
 
 # Choice in the rename window, under Letters: start each word with a capital.
-folders-tools-case-words = Chaque mot
+folders-tools-case-words = Mettre une majuscule à chaque mot
 
 # Choice in the rename window, under Letters: start only the first word with a capital.
-folders-tools-case-first = Premier mot
+folders-tools-case-first = Mettre une majuscule au premier mot
 
 # Choice in the rename window, under Ending: leave the file ending as it is.
 folders-tools-ending-keep = Inchangée
@@ -38,7 +38,7 @@ folders-tools-ending-lower = Tout en minuscules
 folders-tools-ending-upper = Tout en majuscules
 
 # Choice in the rename window, under Ending: give every file a new ending of the person's choice.
-folders-tools-ending-new = Une nouvelle extension
+folders-tools-ending-new = Nouvelle extension
 
 # Choice in the rename window, under Ending: take the ending off.
 folders-tools-ending-none = Aucune extension
@@ -56,21 +56,21 @@ folders-tools-clash-bad = ce n’est pas permis comme nom
 folders-tools-clash-long = ce nom est trop long
 
 # Beside a row of the rename list that cannot be done: two files would get the same new name.
-folders-tools-clash-twice = deux recevraient ce nom
+folders-tools-clash-twice = deux éléments recevraient ce nom
 
 # Beside a row of the rename list that cannot be done: another file already has the new name.
-folders-tools-clash-taken = autre chose porte ce nom
+folders-tools-clash-taken = autre chose porte déjà ce nom
 
 # Beside a row of the rename list that cannot be done: the old name is not plain text, so it cannot be changed.
-folders-tools-clash-not-text = l’ancien nom n’est pas du texte simple
+folders-tools-clash-not-text = l’ancien nom contient des caractères que Folders ne peut pas lire
 
 # SAFETY: needs a human review before it ships
 # Warning in the Wipe window about a flash disk, where old copies may stay out of reach.
-folders-tools-caveat-flash = Ce disque est de type flash, pas à plateaux tournants, donc d’anciennes copies peuvent subsister dans des parties que Trindle ne peut pas atteindre.
+folders-tools-caveat-flash = Il s’agit d’une clé USB ou d’un SSD, donc d’anciennes copies peuvent subsister dans des parties que Folders ne peut pas atteindre.
 
 # SAFETY: needs a human review before it ships
 # Warning in the Wipe window about a filesystem that writes changes elsewhere; { $fs } is the filesystem's name.
-folders-tools-caveat-copy-on-write = Le système de fichiers { $fs } écrit les changements à un nouvel endroit, donc les anciennes données peuvent rester où elles étaient.
+folders-tools-caveat-copy-on-write = Le système de fichiers { $fs } enregistre les changements à un nouvel endroit, donc les anciennes données peuvent encore être là.
 
 # SAFETY: needs a human review before it ships
 # Warning in the Wipe window about a share on another computer; { $fs } is the kind of share.
@@ -109,7 +109,7 @@ folders-tools-place-here = Ici
 folders-tools-only-files-wiped = Seuls des fichiers peuvent être effacés.
 
 # Red notice when comparing the two panes while one of them does not show a folder.
-folders-tools-compare-need-folders = Les deux panneaux doivent afficher un dossier pour les comparer.
+folders-tools-compare-need-folders = Ouvrez un dossier dans chaque panneau pour les comparer.
 
 # Undo entry after renaming many files; { $n } is how many were renamed.
 folders-tools-rename-undo =
@@ -131,10 +131,10 @@ folders-tools-rename-done =
 folders-tools-rename-stopped = Le renommage s’est arrêté en cours de route : { $error }.
 
 # Red words under the archive name in the Compress window when the name is empty.
-folders-tools-name-empty = Un nom ne peut pas être vide.
+folders-tools-name-empty = Saisissez un nom pour l’archive.
 
 # Beside the ring while a search is running and the end is not known; { $done } is how many have been looked at.
-folders-tools-looked-at = { $done } examinés
+folders-tools-looked-at = { $done } vérifiés
 
 # Beside the ring while a search is running and the end is known; { $done } and { $total } are sizes such as 3 MB.
 folders-tools-read-of = { $done } lus sur { $total }
@@ -146,7 +146,7 @@ folders-tools-listing-files = Liste des fichiers
 folders-tools-comparing = Comparaison
 
 # Beside the ring while two folders are compared.
-folders-tools-looking = Examen
+folders-tools-looking = Comparaison des dossiers
 
 # Title of the Compress window; { $name } is the one thing packed, { $n } how many.
 folders-tools-compress-title =
@@ -163,7 +163,7 @@ folders-tools-pack-name-tip = Nom de l’archive
 folders-tools-pack-kind-tip = Type d’archive
 
 # Note in the Compress window saying where the archive is made; { $place } is the folder.
-folders-tools-pack-made-in = Créée dans { $place }
+folders-tools-pack-made-in = L’archive sera enregistrée dans { $place }
 
 # Main button of the Compress window.
 folders-tools-compress = Compresser
@@ -172,7 +172,7 @@ folders-tools-compress = Compresser
 folders-tools-extract-to = Extraire { $name } vers
 
 # Note in the Extract to window; { $name } is the name of the folder that is made.
-folders-tools-extract-new-folder = Un nouveau dossier nommé { $name } y est créé.
+folders-tools-extract-new-folder = Les fichiers seront placés dans un nouveau dossier nommé { $name }.
 
 # Title of the Resize window; { $name } is the one picture, { $n } how many.
 folders-tools-resize-title =
@@ -186,7 +186,7 @@ folders-tools-resize-title =
 folders-tools-resize-size-tip = Nouvelle taille
 
 # Note in the Resize window explaining the sizes and that copies are made.
-folders-tools-resize-note = Une part de sa taille, ou un nombre de pixels le long de son plus grand côté ; une image n’est jamais agrandie. Une copie est créée à côté de chacune, nommée avec sa nouvelle taille ; les images elles-mêmes restent telles quelles.
+folders-tools-resize-note = La taille est la longueur du plus grand côté, en pixels. Folders ne fait que réduire les images. Il enregistre chaque copie redimensionnée à côté de l’original, avec la nouvelle taille dans son nom.
 
 # Main button of the Resize window.
 folders-tools-resize = Redimensionner
@@ -202,7 +202,7 @@ folders-tools-wipe-title =
 
 # SAFETY: needs a human review before it ships
 # Warning at the top of the Wipe window.
-folders-tools-wipe-warning = Chaque fichier est écrasé avant de disparaître, il ne pourra donc pas être récupéré. Cette action est irréversible.
+folders-tools-wipe-warning = Folders écrase chaque fichier avant de le supprimer, vous ne pourrez donc pas le récupérer.
 
 # SAFETY: needs a human review before it ships
 # Name beside the choice of how many times to write over, in the Wipe window.
@@ -210,7 +210,7 @@ folders-tools-wipe-write-over = Écraser
 
 # SAFETY: needs a human review before it ships
 # Choice tip in the Wipe window: how many times each file is written over.
-folders-tools-wipe-passes-tip = Combien de fois chaque fichier est écrasé
+folders-tools-wipe-passes-tip = Combien de fois écraser chaque fichier
 
 # SAFETY: needs a human review before it ships
 # Red main button of the Wipe window.
@@ -232,13 +232,13 @@ folders-tools-rename-where-tip = Où va le numéro
 folders-tools-rename-first-number-tip = Premier numéro
 
 # Choice tip in the rename window: what happens to the file endings.
-folders-tools-rename-ending-tip = Ce qui arrive à l’extension
+folders-tools-rename-ending-tip = Que faire de l’extension
 
 # Typing box tip in the rename window: the new ending to give every file.
 folders-tools-rename-new-ending-tip = Nouvelle extension, comme txt
 
 # Detail of a row in the rename list that cannot be done; { $why } says why.
-folders-tools-rename-cannot = Impossible : { $why }
+folders-tools-rename-cannot = Folders ne peut pas renommer ceci : { $why }
 
 # Detail of a row in the rename list whose name changes; { $old } is the old name.
 folders-tools-rename-was = était { $old }
@@ -288,7 +288,7 @@ folders-tools-rename-after-tip = Après le nom
 folders-tools-rename-number = Numéro
 
 # Name over the capitals choice in the rename window.
-folders-tools-rename-letters = Lettres
+folders-tools-rename-letters = Majuscules
 
 # Choice tip in the rename window: what happens to the capitals in the names.
 folders-tools-rename-case-tip = Majuscules dans les noms
@@ -299,12 +299,12 @@ folders-tools-rename-ending = Extension
 # Note under the rename list; { $clash } is yes when some names cannot be used, otherwise no; { $changes } of { $total } names change; { $place } is the folder.
 folders-tools-rename-summary =
     { $clash ->
-        [yes] Certains noms ne peuvent pas être utilisés ; voir les lignes marquées. Dans { $place }.
-       *[no] { $changes } noms sur { $total } changent. Dans { $place }.
+        [yes] Dans { $place }, certains noms ne peuvent pas être utilisés. Voir les lignes marquées.
+       *[no] Dans { $place }, { $changes } noms sur { $total } vont changer.
     }
 
 # Main button of the rename window.
-folders-tools-rename-button = Les renommer
+folders-tools-rename-button = Renommer
 
 # Name of the folder searched for duplicates when it is the home folder.
 folders-tools-home = Dossier personnel
@@ -335,9 +335,8 @@ folders-tools-dupes-unread =
 # Note above the duplicates list; { $n } is how many sets of copies, { $size } how much the extras take.
 folders-tools-dupes-sets =
     { $n ->
-        [one] 1 série de copies ; mettre les copies en trop à la corbeille libère { $size }. Les copies en trop sont sélectionnées ; Ctrl et un clic en sélectionne ou en désélectionne une.
-        [many] { $n } séries de copies ; mettre les copies en trop à la corbeille libère { $size }. Les copies en trop sont sélectionnées ; Ctrl et un clic en sélectionne ou en désélectionne une.
-       *[other] { $n } séries de copies ; mettre les copies en trop à la corbeille libère { $size }. Les copies en trop sont sélectionnées ; Ctrl et un clic en sélectionne ou en désélectionne une.
+        [one] 1 série de copies. Les copies en trop sont sélectionnées, et les mettre à la corbeille libère { $size }.
+       *[other] { $n } séries de copies. Les copies en trop sont sélectionnées, et les mettre à la corbeille libère { $size }.
     }
 
 # Detail of a row in the duplicates list; { $set } is the set's number, { $size } the file's size, { $at } the folder it is in.
@@ -353,7 +352,7 @@ folders-tools-dupes-unread-left-out =
 
 # SAFETY: needs a human review before it ships
 # Note in the duplicates window when every copy of a set is picked.
-folders-tools-dupes-keep-one = Toutes les copies d’une série sont sélectionnées ; gardez-en au moins une.
+folders-tools-dupes-keep-one = Toutes les copies d’une série sont sélectionnées. Laissez-en au moins une non sélectionnée.
 
 # SAFETY: needs a human review before it ships
 # Tip of the button in the duplicates window that picks the extra copies.
@@ -364,16 +363,16 @@ folders-tools-dupes-pick-extras = Sélectionner les copies en trop
 folders-tools-dupes-trash = Mettre à la corbeille
 
 # Title of the window that compares two files.
-folders-tools-diff-title = Comparer les deux
+folders-tools-diff-title = Comparer deux fichiers
 
 # Red words in the file compare window when it fails; { $error } says why.
-folders-tools-diff-failed = Ils n’ont pas pu être comparés : { $error }.
+folders-tools-diff-failed = Folders n’a pas pu les comparer : { $error }.
 
 # Line in the file compare window when two files are the same, byte for byte.
-folders-tools-diff-same-bytes = Les deux sont identiques, octet pour octet.
+folders-tools-diff-same-bytes = Les deux fichiers sont exactement identiques.
 
 # Line in the file compare window when one file is the start of the other; { $one } and { $other } are their sizes.
-folders-tools-diff-same-as-shorter = Ils sont identiques jusqu’où va le plus court ; l’un fait { $one } et l’autre { $other }.
+folders-tools-diff-same-as-shorter = Ils sont identiques jusqu’à la fin du plus court. L’un fait { $one } et l’autre { $other }.
 
 # Line in the file compare window for the first byte that differs; { $n } is its number.
 folders-tools-diff-from-byte = Ils diffèrent à partir de l’octet { $n }.
@@ -381,29 +380,28 @@ folders-tools-diff-from-byte = Ils diffèrent à partir de l’octet { $n }.
 # Note in the file compare window; { $n } is how many lines differ.
 folders-tools-diff-lines =
     { $n ->
-        [0] Les deux sont identiques.
+        [0] Les deux fichiers sont identiques.
         [one] 1 ligne diffère.
-        [many] { $n } lignes diffèrent.
        *[other] { $n } lignes diffèrent.
     }
 
 # Note in the file compare window when the files are too different to match line by line.
-folders-tools-diff-too-different = Ils sont trop différents pour être comparés ligne par ligne, donc chaque ligne entre leur première et leur dernière différence apparaît comme modifiée.
+folders-tools-diff-too-different = Ils sont trop différents pour être comparés ligne par ligne. Tout ce qui se trouve entre la première et la dernière différence apparaît comme modifié.
 
 # Note in the file compare window when only the start of each file is compared.
-folders-tools-diff-cut = Seuls les 4 premiers Mo de chacun sont comparés.
+folders-tools-diff-cut = Seuls les 4 premiers Mo de chaque fichier sont comparés.
 
 # Title of the window that compares the two panes; { $left } and { $right } are the folders' names.
 folders-tools-compare-title = Comparer { $left } avec { $right }
 
 # Label of the switch in the pane compare window that reads every byte.
-folders-tools-compare-bytes = Lire chaque octet (plus lent)
+folders-tools-compare-bytes = Comparer le contenu (plus lent)
 
 # Switch tip in the pane compare window: compare the contents of each file.
 folders-tools-compare-bytes-tip = Comparer le contenu de chaque fichier
 
 # Label of the switch in the pane compare window that also lists names that are the same.
-folders-tools-compare-show-same = Afficher ce qui est identique
+folders-tools-compare-show-same = Afficher les noms identiques
 
 # Switch tip in the pane compare window: list the names that are the same too.
 folders-tools-compare-show-same-tip = Afficher aussi les noms identiques
@@ -415,19 +413,19 @@ folders-tools-compare-stopped = La comparaison s’est arrêtée : { $error }.
 folders-tools-compare-counts = { $left } seulement à gauche, { $right } seulement à droite, { $different } différents, { $same } identiques.
 
 # Line in the pane compare window when nothing differs.
-folders-tools-compare-all-same = Les deux dossiers contiennent la même chose.
+folders-tools-compare-all-same = Les deux dossiers ont le même contenu.
 
 # Tip of the button in the pane compare window that compares again.
 folders-tools-compare-again = Comparer de nouveau
 
 # SAFETY: needs a human review before it ships
 # Button in the pane compare window; { $n } is how many names are copied to the left folder.
-folders-tools-compare-copy-left = Copier { $n } manquants ou plus récents vers la gauche
+folders-tools-compare-copy-left = Copier { $n } éléments manquants ou plus récents vers la gauche
 
 # SAFETY: needs a human review before it ships
 # Button in the pane compare window; { $n } is how many names are copied to the right folder.
-folders-tools-compare-copy-right = Copier { $n } manquants ou plus récents vers la droite
+folders-tools-compare-copy-right = Copier { $n } éléments manquants ou plus récents vers la droite
 
 # Line in the Wipe window naming the folders that were picked too, which are not wiped.
-folders-tools-wipe-left-out = Les dossiers ne sont pas effacés, ceux-ci sont donc laissés tels quels : { $names }.
-
+# SAFETY: needs a human review before it ships
+folders-tools-wipe-left-out = Seuls les fichiers sont écrasés, donc ces dossiers seront laissés tels quels : { $names }.

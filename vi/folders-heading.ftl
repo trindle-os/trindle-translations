@@ -8,4 +8,4 @@ folders-heading-name = Tên
 folders-heading-spoken = Tiêu đề các cột: { $names }
 
 # Red words under the file lines when the widths of the columns could not be saved; the reason follows.
-folders-heading-widths-not-kept = Không lưu được độ rộng các cột cho lần sau, vì { $why }.
+folders-heading-widths-not-kept = Folders không lưu được độ rộng các cột cho lần sau: { $why }.

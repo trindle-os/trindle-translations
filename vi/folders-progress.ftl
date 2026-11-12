@@ -19,7 +19,7 @@ folders-progress-pace-wait =
 folders-progress-line = { $doing }: { $how }
 
 # The same with the words about the disk added; { $line } is the line above, { $heavy } the words about the disk.
-folders-progress-line-heavy = { $line } { $heavy }
+folders-progress-line-heavy = { $line }. { $heavy }
 
 # A speed or size in bytes; { $n } is the figure.
 folders-progress-speed-bytes = { $n } byte
@@ -66,8 +66,8 @@ folders-progress-more =
 # End of the line of a copy or move row; { $verb } is moving or copying.
 folders-progress-heavy =
     { $verb ->
-        [moving] Di chuyển dùng ổ đĩa nhiều, nên các chương trình khác có thể chậm hơn cho đến khi xong.
-       *[copying] Sao chép dùng ổ đĩa nhiều, nên các chương trình khác có thể chậm hơn cho đến khi xong.
+        [moving] Di chuyển khiến ổ đĩa luôn bận, nên các chương trình khác có thể chậm hơn cho đến khi xong.
+       *[copying] Sao chép khiến ổ đĩa luôn bận, nên các chương trình khác có thể chậm hơn cho đến khi xong.
     }
 
 # End of a piece of work's line while it waits for the person's answer.
@@ -86,7 +86,7 @@ folders-progress-pause = Tạm dừng
 folders-progress-stop = Dừng
 
 # Under a file or folder in the name taken question: it is newer than the other and larger.
-folders-progress-mark-newer-larger = mới hơn, lớn hơn
+folders-progress-mark-newer-larger = mới hơn và lớn hơn
 
 # Under a file or folder in the name taken question: it is newer than the other.
 folders-progress-mark-newer = mới hơn
@@ -106,7 +106,7 @@ folders-progress-taken =
     }
 
 # Heading over the file or folder that is being brought, in the name taken question.
-folders-progress-coming = Mục đang được đưa vào
+folders-progress-coming = Mục mới
 
 # Heading over the file or folder that is already there, in the name taken question.
 folders-progress-there = Mục đã có sẵn
@@ -123,16 +123,16 @@ folders-progress-replace = Thay thế
 
 # Screen reader name of the Replace button for a folder in the name taken question.
 # SAFETY: needs a human review before it ships
-folders-progress-replace-folder-spoken = Thay thế: thư mục đã có sẵn sẽ được chuyển vào Thùng rác
+folders-progress-replace-folder-spoken = Thay thế, và chuyển thư mục đã có sẵn vào Thùng rác
 
 # Main button of the name taken question for a folder: join the two folders.
 folders-progress-merge = Gộp
 
 # Line over the switch in the name taken question for folders.
-folders-progress-all-folders = Cùng một câu trả lời cho mọi thư mục đã có sẵn.
+folders-progress-all-folders = Dùng câu trả lời này cho mọi thư mục đã có sẵn.
 
 # Line over the switch in the name taken question for files.
-folders-progress-all-files = Cùng một câu trả lời cho mọi tệp đã có sẵn.
+folders-progress-all-files = Dùng câu trả lời này cho mọi tệp đã có sẵn.
 
 # Name and tip of the switch in the name taken question that uses the answer for the rest.
 folders-progress-same-for-rest = Làm tương tự cho phần còn lại

@@ -19,7 +19,7 @@ folders-progress-pace-wait =
 folders-progress-line = { $doing }：{ $how }
 
 # The same with the words about the disk added; { $line } is the line above, { $heavy } the words about the disk.
-folders-progress-line-heavy = { $line } { $heavy }
+folders-progress-line-heavy = { $line }。{ $heavy }
 
 # A speed or size in bytes; { $n } is the figure.
 folders-progress-speed-bytes = { $n } 字节
@@ -66,8 +66,8 @@ folders-progress-more =
 # End of the line of a copy or move row; { $verb } is moving or copying.
 folders-progress-heavy =
     { $verb ->
-        [moving] 移动会大量占用磁盘，所以在结束之前，其他程序可能会变慢。
-       *[copying] 复制会大量占用磁盘，所以在结束之前，其他程序可能会变慢。
+        [moving] 移动时磁盘会一直很忙，所以在完成之前，其他程序可能会变慢。
+       *[copying] 复制时磁盘会一直很忙，所以在完成之前，其他程序可能会变慢。
     }
 
 # End of a piece of work's line while it waits for the person's answer.
@@ -87,7 +87,7 @@ folders-progress-pause = 暂停
 folders-progress-stop = 停止
 
 # Under a file or folder in the name taken question: it is newer than the other and larger.
-folders-progress-mark-newer-larger = 更新，更大
+folders-progress-mark-newer-larger = 更新且更大
 
 # Under a file or folder in the name taken question: it is newer than the other.
 folders-progress-mark-newer = 更新
@@ -108,7 +108,7 @@ folders-progress-taken =
     }
 
 # Heading over the file or folder that is being brought, in the name taken question.
-folders-progress-coming = 要带入的这个
+folders-progress-coming = 新的这个
 
 # Heading over the file or folder that is already there, in the name taken question.
 folders-progress-there = 已在那里的这个
@@ -127,7 +127,7 @@ folders-progress-replace = 替换
 
 # SAFETY: needs a human review before it ships
 # Screen reader name of the Replace button for a folder in the name taken question.
-folders-progress-replace-folder-spoken = 替换：已在那里的文件夹会被移到回收站
+folders-progress-replace-folder-spoken = 替换，并把原有的文件夹移到回收站
 
 # SAFETY: needs a human review before it ships
 # Main button of the name taken question for a folder: join the two folders.
@@ -135,11 +135,11 @@ folders-progress-merge = 合并
 
 # SAFETY: needs a human review before it ships
 # Line over the switch in the name taken question for folders.
-folders-progress-all-folders = 对每个已在那里的文件夹都给出相同的回答。
+folders-progress-all-folders = 对每个已存在的文件夹都用这个回答。
 
 # SAFETY: needs a human review before it ships
 # Line over the switch in the name taken question for files.
-folders-progress-all-files = 对每个已在那里的文件都给出相同的回答。
+folders-progress-all-files = 对每个已存在的文件都用这个回答。
 
 # SAFETY: needs a human review before it ships
 # Name and tip of the switch in the name taken question that uses the answer for the rest.

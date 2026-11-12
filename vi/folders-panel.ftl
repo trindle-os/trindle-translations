@@ -17,7 +17,7 @@ folders-panel-home = Nhà
 folders-panel-home-under = Nhà/{ $rest }
 
 # Said at the window's foot in red when the preview panel's switch or width could not be saved.
-folders-panel-keep-failed = Không thể lưu bảng xem trước cho lần sau.
+folders-panel-keep-failed = Folders không lưu được thiết lập bảng xem trước cho lần sau.
 
 # Name of a fact in the preview panel: how many things a folder, archive or place holds.
 folders-panel-fact-holds = Chứa
@@ -74,22 +74,22 @@ folders-panel-in-all = { $items } tính cả bên trong
 folders-panel-by = { $w } x { $h }
 
 # Quiet words under the icon in the preview panel for a file whose name says one kind but whose bytes are not; what is the kind, such as PDF document.
-folders-panel-broken = Tên cho biết đây là { $what }, nhưng bên trong thì không phải.
+folders-panel-broken = Tên cho biết đây là { $what }, nhưng nội dung bên trong không khớp.
 
 # Quiet words under the icon in the preview panel for a picture too large to show.
 folders-panel-too-large = Hình này quá lớn để hiện ở đây.
 
 # Quiet words under the icon in the preview panel for a file that could not be read; why is the reason.
-folders-panel-read-failed = Không đọc được: { $why }
+folders-panel-read-failed = Folders không đọc được nó: { $why }
 
 # Name at the top of the preview panel when several things are picked; count is how many.
 folders-panel-selected = Đã chọn { $count }
 
 # Name read out for the edge between the panes and the preview panel.
-folders-panel-edge = Kéo để mở rộng hoặc thu hẹp bảng xem trước, hoặc bấm để đổi từng bước
+folders-panel-edge = Độ rộng bảng xem trước
 
 # Name read out for the picture in the preview panel; name is the file's.
-folders-panel-picture-name = Hình của { $name }
+folders-panel-picture-name = Xem trước { $name }
 
 # Name read out for the start of a text file in the preview panel; name is the file's.
 folders-panel-text-name = Phần đầu của { $name }

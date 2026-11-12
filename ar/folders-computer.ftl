@@ -2,10 +2,10 @@
 # machine translated (Arabic), not yet reviewed by a person.
 
 # Under a card's name on the Storage page: the disk the system is on.
-folders-computer-kind-system = قرص هذا الحاسوب
+folders-computer-kind-system = قرص النظام
 
 # Under a card's name on the Storage page: another fixed disk inside the computer.
-folders-computer-kind-inside = قرص داخل هذا الحاسوب
+folders-computer-kind-inside = قرص داخلي
 
 # Under a card's name on the Storage page: a USB drive that is plugged in.
 folders-computer-kind-usb = محرك USB
@@ -32,10 +32,10 @@ folders-computer-name-on = { $name } على { $drive }
 folders-computer-free-of = { $free } فارغة من { $all }
 
 # Under a card's bar on the Storage page when the drive is almost full; the line that follows says how much is free.
-folders-computer-almost-full = شبه ممتلئ: { $said }
+folders-computer-almost-full = على وشك الامتلاء: { $said }
 
 # Under a card's bar on the Storage page when the drive is nearly full; the line that follows says how much is free.
-folders-computer-nearly-full = على وشك الامتلاء: { $said }
+folders-computer-nearly-full = بدأ يمتلئ: { $said }
 
 # Under a card's bar on the Storage page: a locked drive whose size is not known.
 folders-computer-locked = مقفل
@@ -44,13 +44,13 @@ folders-computer-locked = مقفل
 folders-computer-locked-size = مقفل، { $size }
 
 # Under a card's bar on the Storage page: what a phone or tablet card invites the person to do.
-folders-computer-phone-hint = افتحه لترى ما يحويه
+folders-computer-phone-hint = افتحه لترى ملفاته
 
 # Under a card's bar on the Storage page: a drive that is not mounted and whose size is not known.
-folders-computer-not-mounted = غير مركّب
+folders-computer-not-mounted = لم يُفتح بعد
 
 # Under a card's bar on the Storage page: a drive that is not mounted and its size.
-folders-computer-not-mounted-size = غير مركّب، { $size }
+folders-computer-not-mounted-size = لم يُفتح بعد، { $size }
 
 # Line at the foot of the Storage page: how many drives it holds.
 folders-computer-drive-count =
@@ -70,7 +70,7 @@ folders-computer-open = فتح { $name }
 folders-computer-unlock = فتح قفل { $name } ثم فتحه
 
 # Tip and name of the round button on a Storage card that mounts a drive and opens it.
-folders-computer-mount = تركيب { $name } ثم فتحه
+folders-computer-mount = افتح { $name }
 
 # Tip and name of the round button on a Storage card for a network share that closes the share.
 folders-computer-close = إغلاق { $name }

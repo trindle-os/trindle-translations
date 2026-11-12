@@ -11,19 +11,19 @@ folders-dialogs-home = المجلد الرئيسي
 folders-dialogs-open-with-title = فتح { $name } باستخدام
 
 # Small line beside the app that opens the file now, in the Open with list.
-folders-dialogs-opens-now = يفتحه الآن
+folders-dialogs-opens-now = التطبيق الحالي
 
 # Note in the Open with window when no app says it opens this kind of file.
-folders-dialogs-no-apps = لا يوجد تطبيق على هذا الحاسوب يذكر أنه يفتح هذا النوع من الملفات.
+folders-dialogs-no-apps = لا يوجد تطبيق على هذا الحاسوب مُعدّ لفتح هذا النوع من الملفات.
 
 # Name of the switch in the Open with window that makes the chosen app the usual one for this kind of file.
-folders-dialogs-always-use = استخدمه دائماً
+folders-dialogs-always-use = استخدم هذا التطبيق دائماً
 
 # Line under the Always use it switch; the kind of file, such as text/plain.
-folders-dialogs-always-sub = لكل ملف من نوع { $kind }.
+folders-dialogs-always-sub = استخدمه لكل ملف من نوع { $kind }.
 
 # Tip and spoken name of the Always use it switch.
-folders-dialogs-always-tip = اجعله التطبيق المعتاد لهذا النوع
+folders-dialogs-always-tip = اجعله التطبيق الافتراضي
 
 # Tip of the round button in the Open with window that shows only the apps that suit the file.
 folders-dialogs-show-suggested = أظهر التطبيقات المقترحة فقط
@@ -35,19 +35,19 @@ folders-dialogs-show-every = أظهر كل التطبيقات
 folders-dialogs-open = فتح
 
 # Red words when Open is pressed in the Open with window and no app is chosen.
-folders-dialogs-choose-app = اختر تطبيقاً لفتحه به.
+folders-dialogs-choose-app = اختر تطبيقاً أولاً.
 
 # Red words when the chosen app could not be made the usual app; the app's name.
-folders-dialogs-usual-failed = تعذّر جعل { $name } التطبيق المعتاد.
+folders-dialogs-usual-failed = تعذّر على Folders جعل { $name } التطبيق الافتراضي.
 
 # Red words when the chosen app could not be started; the app's name.
-folders-dialogs-start-failed = تعذّر تشغيل { $name }.
+folders-dialogs-start-failed = تعذّر على Folders تشغيل { $name }.
 
 # Heading of the Properties window.
 folders-dialogs-properties = الخصائص
 
 # Spoken name of the choice of pages at the top of the Properties window.
-folders-dialogs-properties-pages = جزء من الخصائص
+folders-dialogs-properties-pages = صفحات الخصائص
 
 # Name of the first page of Properties, with the name, kind, size and place.
 folders-dialogs-page-general = عام
@@ -57,6 +57,8 @@ folders-dialogs-page-details = التفاصيل
 
 # Name of the page of Properties for sharing a folder on the home network.
 folders-dialogs-page-sharing = المشاركة
+
+
 
 # Label in Properties of the name of the file or folder.
 folders-dialogs-row-name = الاسم
@@ -95,11 +97,11 @@ folders-dialogs-rights-open-change = { $letters }، يمكنك فتحه وتغي
 
 # Rights shown in Properties: the letters such as r--r--r--, then what the person can do; when the person can open it but not change it.
 # SAFETY: needs a human review before it ships
-folders-dialogs-rights-open-only = { $letters }، يمكنك فتحه لا تغييره
+folders-dialogs-rights-open-only = { $letters }، يمكنك فتحه لكن لا يمكنك تغييره
 
 # Rights shown in Properties: the letters, then what the person can do; when the person can change it but not open it.
 # SAFETY: needs a human review before it ships
-folders-dialogs-rights-change-only = { $letters }، يمكنك تغييره لا فتحه
+folders-dialogs-rights-change-only = { $letters }، يمكنك تغييره لكن لا يمكنك فتحه
 
 # Rights shown in Properties: the letters such as rwx------, then what the person can do; when the person cannot open it.
 # SAFETY: needs a human review before it ships
@@ -119,7 +121,7 @@ folders-dialogs-size =
     }
 
 # Size shown in Properties before the first count comes in.
-folders-dialogs-size-adding = جارٍ الجمع
+folders-dialogs-size-adding = جارٍ حساب الحجم
 
 # Label in Properties of the row about checksums.
 folders-dialogs-checksums = المجاميع الاختبارية
@@ -128,13 +130,13 @@ folders-dialogs-checksums = المجاميع الاختبارية
 folders-dialogs-sums-work-out = احسب المجاميع الاختبارية
 
 # Words beside the ring while a file's checksums are being worked out.
-folders-dialogs-sums-working = جارٍ حسابها
+folders-dialogs-sums-working = جارٍ حساب المجاميع الاختبارية
 
 # Red words in Properties when a file's checksums could not be worked out.
-folders-dialogs-sums-failed = تعذّرت قراءة الملف
+folders-dialogs-sums-failed = تعذّر على Folders قراءة الملف.
 
 # Placeholder of the box in Properties where a checksum is pasted to check the file against.
-folders-dialogs-sums-paste = الصق مجموعاً اختبارياً للتحقق منه
+folders-dialogs-sums-paste = الصق مجموعاً اختبارياً للمقارنة
 
 # Words beside the checksum box when the pasted checksum matches; the name of the checksum such as SHA-256.
 folders-dialogs-sums-matches = { $kind } مطابق
@@ -144,6 +146,7 @@ folders-dialogs-sums-no-match = غير مطابق
 
 # Label in Properties of the row with the box to check a checksum.
 folders-dialogs-sums-check = تحقق
+
 
 # Heading of the Send to window: the name of the one item being sent, or how many items.
 folders-dialogs-send-title =
@@ -157,16 +160,16 @@ folders-dialogs-send-title =
     }
 
 # Note in the Send to window saying what sending does.
-folders-dialogs-send-note = تُصنع نسخة هناك؛ وتبقى العناصر حيث هي.
+folders-dialogs-send-note = ينشئ هذا نسخة هناك. وتبقى الأصول حيث هي.
 
 # Name of the place in the Send to list that is the folder open in the other pane; the folder's name.
 folders-dialogs-send-other = اللوح الآخر، { $name }
 
 # Heading of the window that chooses the columns of the List view.
-folders-dialogs-columns-title = الأعمدة في عرض القائمة
+folders-dialogs-columns-title = أعمدة عرض القائمة
 
 # Note in the Columns window.
-folders-dialogs-columns-note = الاسم يظهر دائماً. الأعمدة التي لا تتسع بجانبه تُترك حتى يصبح اللوح أعرض.
+folders-dialogs-columns-note = الاسم يظهر دائماً. الأعمدة التي لا تتسع تُخفى حتى يصبح اللوح أعرض.
 
 # Heading over the columns that suit every file.
 folders-dialogs-columns-files = الملفات
@@ -178,7 +181,7 @@ folders-dialogs-columns-media = الموسيقى والصور وملفات PDF
 folders-dialogs-columns-show = أظهر { $name }
 
 # Red words when the choice of columns could not be saved.
-folders-dialogs-columns-failed = تعذّر حفظ الأعمدة.
+folders-dialogs-columns-failed = تعذّر على Folders حفظ الأعمدة.
 
 # Heading of the Folder colour window: the name of the one folder, or how many folders.
 folders-dialogs-colour-title =
@@ -192,16 +195,19 @@ folders-dialogs-colour-title =
     }
 
 # Tip of the round button, and the note beside it, in the Folder colour window that takes the colour away.
-folders-dialogs-colour-none = بلا لون خاص
+folders-dialogs-colour-none = بلا لون
 
 # Red words when the folder colour could not be saved.
-folders-dialogs-colour-failed = تعذّر حفظ لون المجلد.
+folders-dialogs-colour-failed = تعذّر على Folders حفظ لون المجلد.
 
-folders-dialogs-no-match = لا يوجد تطبيق يحتوي اسمه على هذه الكلمات.
+
+folders-dialogs-no-match = لا يوجد تطبيق يطابق هذه الكلمات.
+
 
 folders-dialogs-find-app = ابحث عن تطبيق
 
+
 folders-dialogs-find-place = ابحث عن مكان
 
-folders-dialogs-no-match-place = لا يوجد مكان يحتوي اسمه على هذه الكلمات.
 
+folders-dialogs-no-match-place = لا يوجد مكان يطابق هذه الكلمات.

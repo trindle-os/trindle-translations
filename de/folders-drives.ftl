@@ -8,25 +8,25 @@ folders-drives-name-on = { $name } auf { $drive }
 folders-drives-eject = { $name } auswerfen
 
 # Red words shown when a drive is asked for while it is being opened or put away.
-folders-drives-busy = Dieses Laufwerk wird gerade geändert. Öffne es erneut, wenn es fertig ist.
+folders-drives-busy = Folders öffnet oder wirft dieses Laufwerk gerade aus. Versuche es gleich noch einmal.
 
 # Name used in the notice about a drive when the drive has no name.
-folders-drives-the-drive = Das Laufwerk
+folders-drives-the-drive = das Laufwerk
 
 # Notice that a drive was put away and can be unplugged.
-folders-drives-taken-out = { $name } kann jetzt entfernt werden
+folders-drives-taken-out = Du kannst { $name } jetzt abziehen
 
 # Red words shown when a drive could not be opened; the reason follows.
-folders-drives-open-failed = { $name } konnte nicht geöffnet werden: { $why }.
+folders-drives-open-failed = Folders konnte { $name } nicht öffnen: { $why }.
 
 # Red words shown when a drive could not be put away; the reason follows.
-folders-drives-away-failed = { $name } konnte nicht sicher entfernt werden: { $why }.
+folders-drives-away-failed = Folders konnte { $name } nicht auswerfen: { $why }.
 
 # Red words shown when the drive service (UDisks) cannot be reached.
-folders-drives-unreachable = Die Laufwerke sind gerade nicht erreichbar.
+folders-drives-unreachable = Folders kann deine Laufwerke gerade nicht erreichen.
 
 # Words shown while a drive is being opened.
 folders-drives-opening = { $name } wird geöffnet…
 
 # Words shown while a drive is being put away.
-folders-drives-putting-away = { $name } wird sicher entfernt…
+folders-drives-putting-away = { $name } wird ausgeworfen…

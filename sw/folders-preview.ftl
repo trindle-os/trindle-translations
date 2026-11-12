@@ -1,37 +1,37 @@
 # machine translated (Swahili), not yet reviewed by a person.
 
 # Words in the quick look when a page of a PDF could not be drawn; the page number.
-folders-preview-page-failed = Ukurasa wa { $page } haukuweza kuchorwa.
+folders-preview-page-failed = Folders haikuweza kuonyesha ukurasa wa { $page }.
 
 # Red notice at the foot of Folders when the rest of a long text could not be read; the reason.
-folders-preview-rest-failed = Sehemu iliyobaki haikuweza kusomwa: { $why }
+folders-preview-rest-failed = Folders haikuweza kusoma sehemu iliyobaki: { $why }
 
 # Words in the quick look when a file on a server could not be fetched; the reason.
-folders-preview-fetch-failed = Haikuweza kuletwa: { $why }
+folders-preview-fetch-failed = Folders haikuweza kuipakua: { $why }
 
 # Words in the quick look when a file's name says it is one kind but inside it is not; the kind, such as PDF or picture.
-folders-preview-broken = Jina lake linasema ni { $what }, lakini ndani si hivyo. Huenda imeharibika au imekatwa.
+folders-preview-broken = Jina lake linasema ni { $what }, lakini yaliyomo hayalingani. Huenda imeharibika au haijakamilika.
 
 # Words in the quick look when a picture is too large to show; the size in millions of pixels, a number.
-folders-preview-too-large-pixels = Picha hii ni kubwa mno kuonyeshwa hapa: pikseli milioni { $millions }.
+folders-preview-too-large-pixels = Picha hii ni kubwa mno kuonyeshwa hapa. Ina pikseli milioni { $millions }.
 
 # Words in the quick look when a picture is too large to show; its size in bytes, as words such as 12.0 MB.
-folders-preview-too-large-bytes = Picha hii ni kubwa mno kuonyeshwa hapa: { $size }.
+folders-preview-too-large-bytes = Picha hii ni kubwa mno kuonyeshwa hapa. Ni { $size }.
 
 # Words in the quick look for a kind of file that cannot be shown.
-folders-preview-other = Aina hii ya faili haiwezi kuonyeshwa hapa. Ifungue kwenye programu yake ili kuiona.
+folders-preview-other = Folders haiwezi kuonyesha aina hii ya faili. Ifungue kwenye programu yake badala yake.
 
 # Words in the quick look when a file could not be read; the reason.
-folders-preview-unread = Haikuweza kusomwa: { $why }
+folders-preview-unread = Folders haikuweza kuisoma: { $why }
 
 # Tip of the round button under a long text in the quick look that reads the next part.
-folders-preview-read-more = Soma sehemu inayofuata
+folders-preview-read-more = Onyesha zaidi
 
 # Line under a text in the quick look, for a name with an ending: how it is encoded, such as UTF-8.
 folders-preview-text = { $encoding }
 
 # Line under a long text in the quick look when only the first part is read: the encoding, then how much is read, as words such as 64 KB.
-folders-preview-text-so-far = { $encoding }, { $size } za kwanza hadi sasa
+folders-preview-text-so-far = { $encoding }, { $size } za kwanza zimeonyeshwa
 
 # Line under a picture in the quick look: its width and height in pixels.
 folders-preview-picture-size = pikseli { $w } kwa { $h }
@@ -52,16 +52,16 @@ folders-preview-page-after = Ukurasa unaofuata (Page Down)
 folders-preview-pdf = Hati ya PDF
 
 # Words in the quick look while a page of a PDF is being drawn.
-folders-preview-drawing = Inachora ukurasa…
+folders-preview-drawing = Inapakia ukurasa…
 
 # Words under a font in the quick look once it is installed.
-folders-preview-font-installed = Imesakinishwa kwa ajili yako: programu zitakazoanzishwa kuanzia sasa zinaweza kuitumia.
+folders-preview-font-installed = Imesakinishwa kwa ajili yako. Programu utakazofungua kuanzia sasa zinaweza kuitumia.
 
 # Button under a font in the quick look that installs it.
-folders-preview-font-install = Isakinishe kwa ajili yako
+folders-preview-font-install = Sakinisha fonti
 
 # Words in the quick look when a sound or video cannot be played.
-folders-preview-unplayable = Hii haiwezi kuchezwa. Huenda imeharibika, au ni ya aina ambayo ffmpeg haiwezi kucheza.
+folders-preview-unplayable = Folders haiwezi kucheza hii. Huenda imeharibika, au iko katika muundo ambao ffmpeg haiwezi kucheza.
 
 # Line under a video in the quick look: width and height in pixels.
 folders-preview-video = { $w } kwa { $h }
@@ -103,7 +103,7 @@ folders-preview-pause = Simamisha (Space)
 folders-preview-play = Cheza (Space)
 
 # Screen reader name and tip of the slider that shows how far a sound or video has played and moves it.
-folders-preview-position = Imefikia wapi
+folders-preview-position = Mahali pa kucheza
 
 # Tip of the round button in the quick look that turns the sound back on.
 folders-preview-unmute = Rudisha sauti
@@ -118,7 +118,7 @@ folders-preview-volume = Sauti kubwa au ndogo
 folders-preview-kind-text = Maandishi, { $encoding }
 
 # The same, while only the first part is read.
-folders-preview-kind-text-so-far = Maandishi, { $encoding }, { $size } za kwanza hadi sasa
+folders-preview-kind-text-so-far = Maandishi, { $encoding }, { $size } za kwanza zimeonyeshwa
 
 # Under a video's quick look, for a name with no ending.
 folders-preview-kind-video = Video, { $w } kwa { $h }

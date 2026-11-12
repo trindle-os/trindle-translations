@@ -42,6 +42,9 @@ folders-view-drop-title = یہ کہاں جائیں؟
 # Tip of the round close button of the window that asks where dropped items should go: leaves them where they are.
 folders-view-drop-leave = جہاں ہیں وہیں رہنے دیں
 
+
+
+
 # Tip of the toolbar button that shows a folder as icons.
 folders-view-icons = آئیکن
 
@@ -62,6 +65,10 @@ folders-view-sort-by = ترتیب بلحاظ
 
 # Name read out for the toolbar's Group by strip.
 folders-view-group-by = گروپ بلحاظ
+
+
+
+
 
 # Tip of the toolbar button that hides the preview panel.
 folders-view-panel-hide = پیش منظر کا پینل چھپائیں (Alt+P)
@@ -85,7 +92,12 @@ folders-view-tabs-right = دائیں پین کے ٹیبز
 folders-view-tab-new = نیا ٹیب (Ctrl+T)
 
 # Tip of the button that closes the tab showing.
-folders-view-tab-close = ٹیب بند کریں (Ctrl+W، یا اس پر درمیانا کلک)
+folders-view-tab-close = ٹیب بند کریں (Ctrl+W)
+
+
+
+
+
 
 # Side bar row that opens the Home folder.
 folders-view-home = ہوم
@@ -107,6 +119,8 @@ folders-view-shares = شیئرز
 
 # Tip of the side bar button that closes an open Windows share; name is the share.
 folders-view-share-close = { $name } بند کریں
+
+
 
 # Tip of the button that opens the window to connect to a server, and the button of the empty Network page that does the same.
 folders-view-connect = سرور سے جڑیں
@@ -144,8 +158,8 @@ folders-view-swap = پین آپس میں بدلیں
 # Tip of the strip button that picks what differs from the other pane; way is left or right.
 folders-view-pick-differing =
     { $way ->
-        [left] جو بائیں پین سے مختلف ہے اسے چنیں
-       *[other] جو دائیں پین سے مختلف ہے اسے چنیں
+        [left] جو بائیں پین سے مختلف ہے اسے منتخب کریں
+       *[other] جو دائیں پین سے مختلف ہے اسے منتخب کریں
     }
 
 # Tip of the strip button that compares the two panes side by side; way is left or right.
@@ -159,7 +173,7 @@ folders-view-compare =
 folders-view-locate-hint = فولڈر، فائل یا سرور کا پتہ لکھیں
 
 # Name read out for the path above a pane's list.
-folders-view-where = یہ پین کہاں ہے
+folders-view-where = جگہ
 
 # Tip of the pane's Back button.
 folders-view-back = پیچھے (Alt+Left)
@@ -170,23 +184,26 @@ folders-view-forward = آگے (Alt+Right)
 # Tip of the pane's button that goes up one folder.
 folders-view-up = ایک فولڈر اوپر (Alt+Up)
 
+
+
 # Placeholder of the filter box above a pane's list.
-folders-view-filter-hint = فلٹر کریں، یا اس فولڈر اور اس کے نیچے تلاش کے لیے Enter دبائیں
+folders-view-filter-hint = فلٹر کریں، یا اس فولڈر اور اس کے ذیلی فولڈرز میں تلاش کے لیے Enter دبائیں
 
 # Tip of the button beside the filter box that finds things by name here and below.
-folders-view-find-name = یہاں اور اس کے نیچے نام سے تلاش کریں
+folders-view-find-name = نام تلاش کریں، ذیلی فولڈرز سمیت
 
 # Tip of the button beside the filter box that finds words inside files here and below.
-folders-view-find-inside = یہاں اور اس کے نیچے فائلوں کے اندر الفاظ تلاش کریں
+folders-view-find-inside = فائلوں کے اندر تلاش کریں، ذیلی فولڈرز سمیت
+
 
 # Name read out for the list that picks which kind of thing to show.
-folders-view-find-kind = دکھانے کی چیز کی قسم
+folders-view-find-kind = قسم
 
 # Name read out for the list that picks which size to show.
-folders-view-find-size = دکھانے کا سائز
+folders-view-find-size = سائز
 
 # Name read out for the list that picks when things were last changed.
-folders-view-find-changed = آخری بار کب بدلی
+folders-view-find-changed = آخری تبدیلی
 
 # Placeholder of the box in which an item is renamed; was is its present name.
 folders-view-rename-hint = { $was } کا نیا نام
@@ -204,7 +221,7 @@ folders-view-status-selected = { $count } منتخب، { $size }
 folders-view-status-then = { $first }۔ { $then }
 
 # Tip of the small round i at a pane's foot that lists the files words there are about, each with its reason.
-folders-view-listed = کون سی فائلیں، اور کیوں
+folders-view-listed = اس سے متعلق فائلیں دکھائیں
 
 # Tip of the button on an empty or failed pane that reads the place again.
 folders-view-try-again = دوبارہ کوشش کریں
@@ -220,7 +237,7 @@ folders-view-none-matches = یہاں کچھ بھی فلٹر سے میل نہیں
 folders-view-show-everything = سب کچھ دکھائیں
 
 # Line on the Recent page when nothing was opened lately.
-folders-view-none-recent = حال ہی میں کچھ نہیں کھولا گیا
+folders-view-none-recent = آپ نے حال ہی میں کچھ نہیں کھولا
 
 # Button on the empty Recent page that goes to the Home folder.
 folders-view-go-home = ہوم پر جائیں
@@ -281,8 +298,6 @@ folders-view-shares-down =
 # Tip of the round button that lets a network share that is not connected go from the list; its name.
 folders-view-forget-share = { $name } کو بھول جائیں
 
-
-
 # Name read out for the top bar's button that shows two panes side by side, or one.
 folders-view-two-panes = دو حصے
 
@@ -293,13 +308,13 @@ folders-view-panes-two = دو حصے ساتھ ساتھ دکھائیں (F3)
 folders-view-panes-one = ایک حصہ دکھائیں (F3)
 
 # Tip and spoken name of the top bar's button that opens the View menu.
-folders-view-view = منظر: چیزیں کیسے دکھائی، ترتیب دی اور گروپ کی جائیں
+folders-view-view = منظر
 
 # Words of the top bar's button that opens the New menu (New folder, New document).
 folders-view-new = نیا
 
 # Tip and spoken name of the top bar's button that opens the More menu (Undo, Redo, settings).
-folders-view-more = مزید: کالعدم، دوبارہ کریں اور سیٹنگز
+folders-view-more = مزید اختیارات
 
 # Row of the More menu that undoes the last change.
 folders-view-more-undo = کالعدم کریں
@@ -308,34 +323,31 @@ folders-view-more-undo = کالعدم کریں
 folders-view-more-redo = دوبارہ کریں
 
 # Row of the View menu that turns the sort round.
-folders-view-sort-other-way = الٹی ترتیب
-
-# Row under the Network heading of the side bar: the computers found nearby.
-folders-view-network-nearby = قریبی کمپیوٹر
-
-# Choice at the start of the line under a pane's path: search or filter here (Ctrl+F).
-folders-view-search = تلاش
-
-# Placeholder of the box in which the name the side bar shows for a pinned folder is typed; was is the folder's own name.
-folders-view-pin-name-hint = { $was } کے لیے دکھایا جانے والا نام
-
-
-# Tip of the Search button while the search box shows.
-folders-view-search-close = راستہ دوبارہ دکھائیں (Esc)
-
-# Tip of the Search button, greyed, on the page of every drive.
-folders-view-search-none = اس صفحے پر تلاش کرنے کے لیے کچھ نہیں ہے
-
-# Name read out for the Search button, which says whether it is pressed.
-folders-view-search-spoken = تلاش
-
+folders-view-sort-other-way = الٹی ترتیب دیں
 
 # Tip of the toolbar button that shows hidden files (Ctrl+H).
 folders-view-hidden-show = چھپی ہوئی فائلیں دکھائیں (Ctrl+H)
 
 # Tip of the toolbar button that hides hidden files again (Ctrl+H).
-folders-view-hidden-hide = چھپی ہوئی فائلیں چھپائیں (Ctrl+H)
+folders-view-hidden-hide = چھپی ہوئی فائلیں پھر چھپائیں (Ctrl+H)
 
 # Name read out for the toolbar button that shows or hides hidden files.
 folders-view-hidden-spoken = چھپی ہوئی فائلیں
 
+# Row under the Network heading of the side bar: the computers found nearby.
+folders-view-network-nearby = قریبی کمپیوٹر
+
+# Tip of the Search button in the top row while the path shows.
+folders-view-search = تلاش (Ctrl+F)
+
+# Tip of the Search button while the search box shows.
+folders-view-search-close = تلاش بند کریں (Escape)
+
+# Tip of the Search button, greyed, on the page of every drive.
+folders-view-search-none = اس صفحے پر تلاش نہیں کی جا سکتی
+
+# Name read out for the Search button, which says whether it is pressed.
+folders-view-search-spoken = تلاش
+
+# Placeholder of the box in which the name the side bar shows for a pinned folder is typed; was is the folder's own name.
+folders-view-pin-name-hint = { $was } کے لیے سائیڈ بار کا نام

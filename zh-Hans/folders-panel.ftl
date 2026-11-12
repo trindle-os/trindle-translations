@@ -17,7 +17,7 @@ folders-panel-home = 主文件夹
 folders-panel-home-under = 主文件夹/{ $rest }
 
 # Said at the window's foot in red when the preview panel's switch or width could not be saved.
-folders-panel-keep-failed = 无法保存预览面板的设置供下次使用。
+folders-panel-keep-failed = Folders 无法保存预览面板的设置供下次使用。
 
 # Name of a fact in the preview panel: how many things a folder, archive or place holds.
 folders-panel-fact-holds = 包含
@@ -75,22 +75,22 @@ folders-panel-in-all = 共 { $items }
 folders-panel-by = { $w } × { $h }
 
 # Quiet words under the icon in the preview panel for a file whose name says one kind but whose bytes are not; what is the kind, such as PDF document.
-folders-panel-broken = 它的名称说它是{ $what }，但内容并不是。
+folders-panel-broken = 它的名称表明它是{ $what }，但内容不符。
 
 # Quiet words under the icon in the preview panel for a picture too large to show.
 folders-panel-too-large = 这张图片太大，无法在此显示。
 
 # Quiet words under the icon in the preview panel for a file that could not be read; why is the reason.
-folders-panel-read-failed = 无法读取：{ $why }
+folders-panel-read-failed = Folders 无法读取它：{ $why }
 
 # Name at the top of the preview panel when several things are picked; count is how many.
 folders-panel-selected = 已选择 { $count } 项
 
 # Name read out for the edge between the panes and the preview panel.
-folders-panel-edge = 拖动可调整预览的宽窄，或按下以逐步调整宽度
+folders-panel-edge = 预览面板宽度
 
 # Name read out for the picture in the preview panel; name is the file's.
-folders-panel-picture-name = { $name } 的图片
+folders-panel-picture-name = { $name } 的预览
 
 # Name read out for the start of a text file in the preview panel; name is the file's.
 folders-panel-text-name = { $name } 的开头

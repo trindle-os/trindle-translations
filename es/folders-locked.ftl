@@ -10,10 +10,10 @@ folders-locked-open = Abrir
 folders-locked-password = Contraseña
 
 # Line under the password box before anything has been tried: says the password is not saved.
-folders-locked-kept-note = Se guarda solo mientras este archivo comprimido esté abierto, nunca se almacena.
+folders-locked-kept-note = Folders la olvida cuando se cierra el archivo comprimido.
 
 # Words beside the spinning ring on the password card while a password is being tried.
-folders-locked-trying = Probándola
+folders-locked-trying = Probando la contraseña
 
 # Title of the password card; the variable is the archive's name.
 folders-locked-title = Contraseña de { $name }
@@ -25,8 +25,8 @@ folders-locked-close = Cerrar
 folders-locked-is-locked = { $name } está protegido con una contraseña.
 
 # Notice shown when another card is already open and an archive needs its password; the variable is the archive's name.
-folders-locked-open-again = { $name } está protegido con una contraseña. Ábrelo de nuevo para escribirla.
+folders-locked-open-again = { $name } está protegido con una contraseña. Ábrelo de nuevo para escribir la contraseña.
 
 # Notice shown when a locked archive cannot be read whatever the password; the variables are the archive's name and the reason.
-folders-locked-could-not-read = No se pudo leer { $name }: { $why }.
+folders-locked-could-not-read = Folders no pudo leer { $name }: { $why }.
 

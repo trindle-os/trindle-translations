@@ -20,7 +20,7 @@ folders-places-trash = Papierkorb
 folders-places-network = Netzwerk
 
 # Name on a tab of a search that has no words typed, only the choices beside the box.
-folders-places-found = Gefunden
+folders-places-found = Suchergebnisse
 
 # Name on a tab of a search for the words typed, which are in quotes.
 folders-places-found-text = „{ $text }“
@@ -29,10 +29,10 @@ folders-places-found-text = „{ $text }“
 folders-places-found-inside = „{ $text }“ in Dateien
 
 # Red words when a folder cannot be opened because the person is not allowed to.
-folders-places-unread-denied = Du darfst diesen Ordner nicht öffnen.
+folders-places-unread-denied = Du hast keine Berechtigung, diesen Ordner zu öffnen.
 
 # Red words when a folder cannot be opened because it is gone.
 folders-places-unread-gone = Dieser Ordner ist nicht mehr da.
 
 # Red words when a folder cannot be read for any other reason.
-folders-places-unread-other = Dieser Ordner konnte nicht gelesen werden.
+folders-places-unread-other = Folders konnte diesen Ordner nicht lesen.

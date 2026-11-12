@@ -7,7 +7,7 @@ folders-outside-wary-hidden = imefichwa, au iko kwenye folda iliyofichwa
 folders-outside-wary-holds = ina vitu vilivyofichwa ndani yake
 
 # Reason beside a dropped folder in the question card: it holds too much to look through beforehand.
-folders-outside-wary-deep = ina vitu vingi mno kuvikagua, kwa hiyo vitu vyake vilivyofichwa havitaletwa
+folders-outside-wary-deep = ina vitu vingi mno kuvikagua, kwa hiyo Folders itaacha vitu vyake vilivyofichwa
 
 # Reason beside a dropped thing in the question card: it is outside the person's home folder and drives.
 folders-outside-wary-system = iko nje ya folda yako ya nyumbani na diski zako
@@ -42,22 +42,22 @@ folders-outside-title-copy =
 # Words on the question card when the drop would be moved: why it is asked.
 folders-outside-body-move =
     { $n ->
-        [one] Programu nyingine imekiangusha kwenye Folda na kukipa jina yenyewe. Programu yoyote inaweza kupa faili yoyote jina, na kinachotajwa hapa si faili zako za kawaida tu, kwa hiyo hakuna kinachohamishwa hadi useme.
-       *[other] Programu nyingine imeviangusha kwenye Folda na kuvipa majina yenyewe. Programu yoyote inaweza kupa faili yoyote jina, na vinavyotajwa hapa si faili zako za kawaida tu, kwa hiyo hakuna kinachohamishwa hadi useme.
+        [one] Programu nyingine imekiangusha kwenye Folders. Programu yoyote inaweza kuangusha faili yoyote, na hiki si mojawapo ya faili zako za kawaida. Folders haitakihamisha hadi useme.
+       *[other] Programu nyingine imeviangusha kwenye Folders. Programu yoyote inaweza kuangusha faili yoyote, na baadhi ya hivi si faili zako za kawaida. Folders haitavihamisha hadi useme.
     }
 
 # Words on the question card when the drop would be brought: why it is asked.
 folders-outside-body-bring =
     { $n ->
-        [one] Programu nyingine imekiangusha kwenye Folda na kukipa jina yenyewe. Programu yoyote inaweza kupa faili yoyote jina, na kinachotajwa hapa si faili zako za kawaida tu, kwa hiyo hakuna kinacholetwa hadi useme.
-       *[other] Programu nyingine imeviangusha kwenye Folda na kuvipa majina yenyewe. Programu yoyote inaweza kupa faili yoyote jina, na vinavyotajwa hapa si faili zako za kawaida tu, kwa hiyo hakuna kinacholetwa hadi useme.
+        [one] Programu nyingine imekiangusha kwenye Folders. Programu yoyote inaweza kuangusha faili yoyote, na hiki si mojawapo ya faili zako za kawaida. Folders haitakileta hadi useme.
+       *[other] Programu nyingine imeviangusha kwenye Folders. Programu yoyote inaweza kuangusha faili yoyote, na baadhi ya hivi si faili zako za kawaida. Folders haitavileta hadi useme.
     }
 
 # Words on the question card when the drop would be copied: why it is asked.
 folders-outside-body-copy =
     { $n ->
-        [one] Programu nyingine imekiangusha kwenye Folda na kukipa jina yenyewe. Programu yoyote inaweza kupa faili yoyote jina, na kinachotajwa hapa si faili zako za kawaida tu, kwa hiyo hakuna kinachonakiliwa hadi useme.
-       *[other] Programu nyingine imeviangusha kwenye Folda na kuvipa majina yenyewe. Programu yoyote inaweza kupa faili yoyote jina, na vinavyotajwa hapa si faili zako za kawaida tu, kwa hiyo hakuna kinachonakiliwa hadi useme.
+        [one] Programu nyingine imekiangusha kwenye Folders. Programu yoyote inaweza kuangusha faili yoyote, na hiki si mojawapo ya faili zako za kawaida. Folders haitakinakili hadi useme.
+       *[other] Programu nyingine imeviangusha kwenye Folders. Programu yoyote inaweza kuangusha faili yoyote, na baadhi ya hivi si faili zako za kawaida. Folders haitavinakili hadi useme.
     }
 
 # Tip of the round close button, and name of the main button, on the question card: leave what was dropped alone.
@@ -101,10 +101,10 @@ folders-outside-more = Na { $n } zaidi.
 folders-outside-into = Ndani ya { $into }.
 
 # Red words when something is dropped while the question card is still up.
-folders-outside-answer-first = Jibu swali kuhusu kilichoangushwa kwanza.
+folders-outside-answer-first = Jibu swali kuhusu ulichoangusha kwanza.
 
 # Red words when something is dropped while the last drop is still being looked at.
-folders-outside-still-looking = Kitu kilichoangushwa mwisho bado kinakaguliwa.
+folders-outside-still-looking = Folders bado inakagua kitu ulichoangusha mwisho.
 
 # Red words when text, not files, is dropped on Folders.
 folders-outside-only-files = Faili na folda pekee ndizo zinazoweza kuangushwa hapa.
@@ -116,19 +116,19 @@ folders-outside-only-folders-pin = Folda pekee ndizo zinazoweza kubandikwa kweny
 folders-outside-only-on-folder = Vitu vinaweza kuangushwa kwenye folda tu.
 
 # Red words when a dropped thing is no longer there; its name.
-folders-outside-gone = { $name } haipo, kwa hiyo hakuna kilicholetwa.
+folders-outside-gone = { $name } haipo tena, kwa hiyo hakuna kilichonakiliwa au kuhamishwa.
 
 # Red words when a folder is dropped into itself.
-folders-outside-inside-itself = Folda haiwezi kuwekwa ndani yake yenyewe.
+folders-outside-inside-itself = Huwezi kuweka folda ndani yake yenyewe.
 
 # Words when things are dragged into the folder they are already in.
 folders-outside-already-there = Tayari viko kwenye folda hiyo.
 
 # Red words when the place a drop is in does not answer in time; the name of the dropped thing.
-folders-outside-not-answering = Mahali alipo { $name } hapajibu, kwa hiyo hakuna kilicholetwa.
+folders-outside-not-answering = Folders haikuweza kufikia diski ambayo { $name } iko kwa wakati, kwa hiyo hakuna kilichonakiliwa au kuhamishwa.
 
 # Words when the question card is answered with no.
-folders-outside-nothing-brought = Hakuna kilicholetwa.
+folders-outside-nothing-brought = Hakuna kilichonakiliwa au kuhamishwa.
 
 # Name on the picture dragged out of Folders when several items are dragged to another program.
 folders-outside-items-dragged =
@@ -146,8 +146,8 @@ folders-outside-stayed-one = { $name } { $why }.
 # Red words when several dragged things changed after they were picked up, so they stayed; the count and their names.
 folders-outside-stayed-changed =
     { $n ->
-        [one] Kitu { $n } kilibadilika baada ya kuchukuliwa, kwa hiyo bado kiko mahali pake: { $names }.
-       *[other] Vitu { $n } vilibadilika baada ya kuchukuliwa, kwa hiyo bado viko mahali pake: { $names }.
+        [one] Kitu { $n } kilibadilika baada ya kuanza kukiburuta, kwa hiyo Folders ilikiacha mahali kilipokuwa: { $names }.
+       *[other] Vitu { $n } vilibadilika baada ya kuanza kuviburuta, kwa hiyo Folders iliviacha mahali vilipokuwa: { $names }.
     }
 
 # Red words when several dragged things stayed for different reasons; the count and each name with its reason.
@@ -164,11 +164,11 @@ folders-outside-stayed-each = { $name } ({ $why })
 folders-outside-both = { $first } { $second }
 
 # Red words when the other program took a move in a way that cannot show it read all of it.
-folders-outside-unshown = Programu nyingine ilichukua kilichoburutwa kwa njia isiyoweza kuonyesha kuwa imekisoma chote, kwa hiyo hakuna kilichohamishwa hapa: ilicho nacho ni nakala.
+folders-outside-unshown = Folders haiwezi kujua kama programu nyingine ilipata kila kitu ulichoburuta, kwa hiyo iliacha vya asili hapa. Programu nyingine ina nakala.
 
 # Red words when the other program did not take all of a drag that was a move.
-folders-outside-short-move = Programu nyingine haikuchukua chote kilichoburutwa, kwa hiyo hakuna kilichohamishwa hapa.
+folders-outside-short-move = Programu nyingine haikuchukua kila kitu ulichoburuta, kwa hiyo Folders haikuhamisha chochote.
 
 # Red words when the other program did not take all of a drag that was a copy.
-folders-outside-short-copy = Programu nyingine haikuchukua chote kilichoburutwa, kwa hiyo huenda haina vyote.
+folders-outside-short-copy = Programu nyingine haikuchukua kila kitu ulichoburuta, kwa hiyo nakala yake huenda haijakamilika.
 

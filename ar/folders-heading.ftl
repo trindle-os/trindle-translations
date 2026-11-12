@@ -8,5 +8,5 @@ folders-heading-name = الاسم
 folders-heading-spoken = عناوين الأعمدة: { $names }
 
 # Red words under the file lines when the widths of the columns could not be saved; the reason follows.
-folders-heading-widths-not-kept = تعذّر حفظ عرض الأعمدة للمرة القادمة، لأن { $why }.
+folders-heading-widths-not-kept = تعذّر على Folders حفظ عرض الأعمدة للمرة القادمة: { $why }.
 

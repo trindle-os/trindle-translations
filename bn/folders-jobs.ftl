@@ -5,14 +5,14 @@
 folders-jobs-failed-why = { $name } ({ $why })
 
 # Why a wipe left a file alone, after its name in the failed list: it has other names (hard links).
-folders-jobs-refused-names = এর আরও নাম আছে
+folders-jobs-refused-names = এটি অন্য নামেও সংরক্ষিত আছে
 
 # Why a wipe left something alone, after its name in the failed list: it is not a plain file.
-folders-jobs-refused-not-file = সাধারণ ফাইল নয়
+folders-jobs-refused-not-file = এটি সাধারণ ফাইল নয়
 
 # Why a wipe left a file alone, after its name in the failed list: it changed while the wipe ran.
-folders-jobs-refused-changed = ইতিমধ্যে বদলে গেছে
+folders-jobs-refused-changed = নিরাপদে মুছে ফেলার সময় এটি বদলে গেছে
 
 # Why a wipe left a file alone, after its name in the failed list: the disk refused.
-folders-jobs-refused-disk = ডিস্ক রাজি হয়নি
+folders-jobs-refused-disk = Folders এটি নিরাপদে মুছে ফেলতে পারেনি
 

@@ -12,10 +12,10 @@ folders-locked-open = Buka
 folders-locked-password = Kata sandi
 
 # Line under the password box before anything has been tried: says the password is not saved.
-folders-locked-kept-note = Hanya disimpan selama arsip ini terbuka, tidak pernah disimpan permanen.
+folders-locked-kept-note = Folders melupakannya saat arsip ditutup.
 
 # Words beside the spinning ring on the password card while a password is being tried.
-folders-locked-trying = Sedang dicoba
+folders-locked-trying = Mencoba kata sandi
 
 # Title of the password card; the variable is the archive's name.
 # SAFETY: needs a human review before it ships
@@ -30,8 +30,8 @@ folders-locked-is-locked = { $name } dikunci dengan kata sandi.
 
 # Notice shown when another card is already open and an archive needs its password; the variable is the archive's name.
 # SAFETY: needs a human review before it ships
-folders-locked-open-again = { $name } dikunci dengan kata sandi. Buka lagi untuk mengetikkannya.
+folders-locked-open-again = { $name } dikunci dengan kata sandi. Buka lagi untuk mengetikkan kata sandinya.
 
 # Notice shown when a locked archive cannot be read whatever the password; the variables are the archive's name and the reason.
-folders-locked-could-not-read = { $name } tidak dapat dibaca: { $why }.
+folders-locked-could-not-read = Folders tidak dapat membaca { $name }: { $why }.
 

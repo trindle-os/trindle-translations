@@ -58,7 +58,7 @@ folders-groups-date-earlier-this-month = Đầu tháng này
 folders-groups-date-earlier-this-year = Đầu năm nay
 
 # Group heading for things changed in this period, when grouping by date: Long ago.
-folders-groups-date-long-ago = Từ lâu
+folders-groups-date-long-ago = Cũ hơn
 
 # Group heading for folders, when grouping by size.
 folders-groups-size-folders = Thư mục

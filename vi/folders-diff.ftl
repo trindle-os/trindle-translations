@@ -13,6 +13,5 @@ folders-diff-copy-right = Sao chép dòng bên phải
 # Line in the comparison standing for a run of lines that are the same in both files.
 folders-diff-same-lines =
     { $n ->
-        [1] 1 dòng giống nhau
-       *[other] { $n } dòng giống nhau
+       *[other] { $n } dòng khớp nhau
     }

@@ -17,7 +17,7 @@ folders-panel-home = Ev
 folders-panel-home-under = Ev/{ $rest }
 
 # Said at the window's foot in red when the preview panel's switch or width could not be saved.
-folders-panel-keep-failed = Önizleme paneli bir sonraki sefer için kaydedilemedi.
+folders-panel-keep-failed = Folders önizleme panelinin ayarlarını bir sonraki sefer için kaydedemedi.
 
 # Name of a fact in the preview panel: how many things a folder, archive or place holds.
 folders-panel-fact-holds = İçerik
@@ -75,22 +75,22 @@ folders-panel-in-all = toplam { $items }
 folders-panel-by = { $w } x { $h }
 
 # Quiet words under the icon in the preview panel for a file whose name says one kind but whose bytes are not; what is the kind, such as PDF document.
-folders-panel-broken = Adı { $what } olduğunu söylüyor, ama içi öyle değil.
+folders-panel-broken = Adı { $what } olduğunu söylüyor, ama içeriği uyuşmuyor.
 
 # Quiet words under the icon in the preview panel for a picture too large to show.
 folders-panel-too-large = Bu resim burada gösterilemeyecek kadar büyük.
 
 # Quiet words under the icon in the preview panel for a file that could not be read; why is the reason.
-folders-panel-read-failed = Okunamadı: { $why }
+folders-panel-read-failed = Folders bunu okuyamadı: { $why }
 
 # Name at the top of the preview panel when several things are picked; count is how many.
 folders-panel-selected = { $count } seçili
 
 # Name read out for the edge between the panes and the preview panel.
-folders-panel-edge = Önizlemeyi genişletmek ya da daraltmak için sürükleyin ya da genişliğini adım adım değiştirmek için basın
+folders-panel-edge = Önizleme paneli genişliği
 
 # Name read out for the picture in the preview panel; name is the file's.
-folders-panel-picture-name = { $name } resmi
+folders-panel-picture-name = { $name } önizlemesi
 
 # Name read out for the start of a text file in the preview panel; name is the file's.
 folders-panel-text-name = { $name } dosyasının başı

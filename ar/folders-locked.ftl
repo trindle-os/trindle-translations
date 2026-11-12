@@ -13,11 +13,11 @@ folders-locked-password = كلمة المرور
 
 # Line under the password box before anything has been tried: says the password is not saved.
 # SAFETY: needs a human review before it ships
-folders-locked-kept-note = تُحفظ فقط ما دام هذا الأرشيف مفتوحاً، ولا تُحفظ أبداً على القرص.
+folders-locked-kept-note = ينساها Folders عند إغلاق الأرشيف.
 
 # Words beside the spinning ring on the password card while a password is being tried.
 # SAFETY: needs a human review before it ships
-folders-locked-trying = جارٍ تجربتها
+folders-locked-trying = جارٍ تجربة كلمة المرور
 
 # Title of the password card; the variable is the archive's name.
 # SAFETY: needs a human review before it ships
@@ -32,8 +32,8 @@ folders-locked-is-locked = { $name } مقفل بكلمة مرور.
 
 # Notice shown when another card is already open and an archive needs its password; the variable is the archive's name.
 # SAFETY: needs a human review before it ships
-folders-locked-open-again = { $name } مقفل بكلمة مرور. افتحه من جديد لكتابتها.
+folders-locked-open-again = { $name } مقفل بكلمة مرور. افتحه من جديد لكتابة كلمة المرور.
 
 # Notice shown when a locked archive cannot be read whatever the password; the variables are the archive's name and the reason.
-folders-locked-could-not-read = تعذّرت قراءة { $name }: { $why }.
+folders-locked-could-not-read = تعذّر على Folders قراءة { $name }: { $why }.
 

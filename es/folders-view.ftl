@@ -9,8 +9,7 @@ folders-view-empty-trash-title = ¿Vaciar la papelera?
 # Text of the question asked before the Trash is emptied; n is how many items the Trash holds.
 folders-view-empty-trash-body =
     { $n ->
-        [one] El único elemento que contiene se eliminará para siempre. Esto no se puede deshacer.
-        [many] Los { $n } elementos que contiene se eliminarán para siempre. Esto no se puede deshacer.
+        [one] El elemento que contiene se eliminará para siempre. Esto no se puede deshacer.
        *[other] Los { $n } elementos que contiene se eliminarán para siempre. Esto no se puede deshacer.
     }
 
@@ -45,6 +44,9 @@ folders-view-drop-title = ¿Adónde deben ir?
 # Tip of the round close button of the window that asks where dropped items should go: leaves them where they are.
 folders-view-drop-leave = Dejarlos donde están
 
+
+
+
 # Tip of the toolbar button that shows a folder as icons.
 folders-view-icons = Iconos
 
@@ -65,6 +67,10 @@ folders-view-sort-by = Ordenar por
 
 # Name read out for the toolbar's Group by strip.
 folders-view-group-by = Agrupar por
+
+
+
+
 
 # Tip of the toolbar button that hides the preview panel.
 folders-view-panel-hide = Ocultar el panel de vista previa (Alt+P)
@@ -88,7 +94,12 @@ folders-view-tabs-right = Pestañas del panel derecho
 folders-view-tab-new = Pestaña nueva (Ctrl+T)
 
 # Tip of the button that closes the tab showing.
-folders-view-tab-close = Cerrar pestaña (Ctrl+W, o clic con el botón central en ella)
+folders-view-tab-close = Cerrar pestaña (Ctrl+W)
+
+
+
+
+
 
 # Side bar row that opens the Home folder.
 folders-view-home = Inicio
@@ -110,6 +121,8 @@ folders-view-shares = Recursos compartidos
 
 # Tip of the side bar button that closes an open Windows share; name is the share.
 folders-view-share-close = Cerrar { $name }
+
+
 
 # Tip of the button that opens the window to connect to a server, and the button of the empty Network page that does the same.
 folders-view-connect = Conectar con un servidor
@@ -147,8 +160,8 @@ folders-view-swap = Intercambiar los paneles
 # Tip of the strip button that picks what differs from the other pane; way is left or right.
 folders-view-pick-differing =
     { $way ->
-        [left] Elegir lo que se diferencia del panel izquierdo
-       *[other] Elegir lo que se diferencia del panel derecho
+        [left] Seleccionar lo que se diferencia del panel izquierdo
+       *[other] Seleccionar lo que se diferencia del panel derecho
     }
 
 # Tip of the strip button that compares the two panes side by side; way is left or right.
@@ -162,7 +175,7 @@ folders-view-compare =
 folders-view-locate-hint = Escribe una carpeta, un archivo o la dirección de un servidor
 
 # Name read out for the path above a pane's list.
-folders-view-where = Dónde está este panel
+folders-view-where = Ubicación
 
 # Tip of the pane's Back button.
 folders-view-back = Atrás (Alt+Izquierda)
@@ -173,23 +186,26 @@ folders-view-forward = Adelante (Alt+Derecha)
 # Tip of the pane's button that goes up one folder.
 folders-view-up = Subir una carpeta (Alt+Arriba)
 
+
+
 # Placeholder of the filter box above a pane's list.
-folders-view-filter-hint = Filtra, o pulsa Intro para buscar en esta carpeta y las de dentro
+folders-view-filter-hint = Filtra, o pulsa Intro para buscar en esta carpeta y sus subcarpetas
 
 # Tip of the button beside the filter box that finds things by name here and below.
-folders-view-find-name = Buscar por nombre aquí y dentro
+folders-view-find-name = Buscar nombres, incluidas las subcarpetas
 
 # Tip of the button beside the filter box that finds words inside files here and below.
-folders-view-find-inside = Buscar palabras dentro de los archivos de aquí y de dentro
+folders-view-find-inside = Buscar dentro de los archivos, incluidas las subcarpetas
+
 
 # Name read out for the list that picks which kind of thing to show.
-folders-view-find-kind = Tipo de elemento que mostrar
+folders-view-find-kind = Tipo
 
 # Name read out for the list that picks which size to show.
-folders-view-find-size = Tamaño que mostrar
+folders-view-find-size = Tamaño
 
 # Name read out for the list that picks when things were last changed.
-folders-view-find-changed = Cuándo se modificó por última vez
+folders-view-find-changed = Última modificación
 
 # Placeholder of the box in which an item is renamed; was is its present name.
 folders-view-rename-hint = Nombre nuevo para { $was }
@@ -207,7 +223,7 @@ folders-view-status-selected = { $count } seleccionados, { $size }
 folders-view-status-then = { $first }. { $then }
 
 # Tip of the small round i at a pane's foot that lists the files words there are about, each with its reason.
-folders-view-listed = Qué archivos y por qué
+folders-view-listed = Mostrar los archivos de los que trata esto
 
 # Tip of the button on an empty or failed pane that reads the place again.
 folders-view-try-again = Intentar de nuevo
@@ -223,7 +239,7 @@ folders-view-none-matches = Nada de aquí coincide con el filtro
 folders-view-show-everything = Mostrar todo
 
 # Line on the Recent page when nothing was opened lately.
-folders-view-none-recent = Nada abierto últimamente
+folders-view-none-recent = No has abierto nada recientemente
 
 # Button on the empty Recent page that goes to the Home folder.
 folders-view-go-home = Ir a Inicio
@@ -286,25 +302,23 @@ folders-view-shares-down =
 # Tip of the round button that lets a network share that is not connected go from the list; its name.
 folders-view-forget-share = Olvidar { $name }
 
-
-
 # Name read out for the top bar's button that shows two panes side by side, or one.
 folders-view-two-panes = Dos paneles
 
 # Tip of the top bar's two panes button, while one pane shows.
-folders-view-panes-two = Mostrar dos paneles uno al lado del otro (F3)
+folders-view-panes-two = Mostrar dos paneles lado a lado (F3)
 
 # Tip of the top bar's two panes button, while two panes show.
 folders-view-panes-one = Mostrar un panel (F3)
 
 # Tip and spoken name of the top bar's button that opens the View menu.
-folders-view-view = Vista: cómo se muestran, ordenan y agrupan los elementos
+folders-view-view = Ver
 
 # Words of the top bar's button that opens the New menu (New folder, New document).
 folders-view-new = Nuevo
 
 # Tip and spoken name of the top bar's button that opens the More menu (Undo, Redo, settings).
-folders-view-more = Más: deshacer, rehacer y ajustes
+folders-view-more = Más opciones
 
 # Row of the More menu that undoes the last change.
 folders-view-more-undo = Deshacer
@@ -315,26 +329,6 @@ folders-view-more-redo = Rehacer
 # Row of the View menu that turns the sort round.
 folders-view-sort-other-way = Ordenar al revés
 
-# Row under the Network heading of the side bar: the computers found nearby.
-folders-view-network-nearby = Equipos cercanos
-
-# Choice at the start of the line under a pane's path: search or filter here (Ctrl+F).
-folders-view-search = Buscar
-
-# Placeholder of the box in which the name the side bar shows for a pinned folder is typed; was is the folder's own name.
-folders-view-pin-name-hint = Nombre que se muestra para { $was }
-
-
-# Tip of the Search button while the search box shows.
-folders-view-search-close = Mostrar de nuevo la ruta (Esc)
-
-# Tip of the Search button, greyed, on the page of every drive.
-folders-view-search-none = No hay nada que buscar en esta página
-
-# Name read out for the Search button, which says whether it is pressed.
-folders-view-search-spoken = Buscar
-
-
 # Tip of the toolbar button that shows hidden files (Ctrl+H).
 folders-view-hidden-show = Mostrar archivos ocultos (Ctrl+H)
 
@@ -344,3 +338,20 @@ folders-view-hidden-hide = Ocultar archivos ocultos (Ctrl+H)
 # Name read out for the toolbar button that shows or hides hidden files.
 folders-view-hidden-spoken = Archivos ocultos
 
+# Row under the Network heading of the side bar: the computers found nearby.
+folders-view-network-nearby = Equipos cercanos
+
+# Tip of the Search button in the top row while the path shows.
+folders-view-search = Buscar (Ctrl+F)
+
+# Tip of the Search button while the search box shows.
+folders-view-search-close = Cerrar la búsqueda (Escape)
+
+# Tip of the Search button, greyed, on the page of every drive.
+folders-view-search-none = No se puede buscar en esta página
+
+# Name read out for the Search button, which says whether it is pressed.
+folders-view-search-spoken = Buscar
+
+# Placeholder of the box in which the name the side bar shows for a pinned folder is typed; was is the folder's own name.
+folders-view-pin-name-hint = Nombre en la barra lateral para { $was }

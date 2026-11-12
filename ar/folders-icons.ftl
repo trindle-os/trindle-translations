@@ -1,6 +1,18 @@
 
 # machine translated (Arabic), not yet reviewed by a person.
 
+
+
+
+
+
+
+
+
+
+
+
+
 # Name of the Folders action that installs a font.
 folders-icons-action-font = ثبّت الخط
 
@@ -18,4 +30,5 @@ folders-icons-action-turn-over = اقلبها رأساً على عقب
 
 # Name of the Folders action that makes a smaller copy of a picture.
 folders-icons-action-resize = تغيير الحجم
+
 

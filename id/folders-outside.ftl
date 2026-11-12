@@ -8,7 +8,7 @@ folders-outside-wary-hidden = tersembunyi, atau berada di folder tersembunyi
 folders-outside-wary-holds = berisi item tersembunyi
 
 # Reason beside a dropped folder in the question card: it holds too much to look through beforehand.
-folders-outside-wary-deep = isinya terlalu banyak untuk diperiksa, jadi item tersembunyinya tidak dibawa
+folders-outside-wary-deep = memiliki terlalu banyak item untuk diperiksa, jadi Folders akan melewatkan item tersembunyinya
 
 # Reason beside a dropped thing in the question card: it is outside the person's home folder and drives.
 folders-outside-wary-system = berada di luar folder Home dan drive Anda
@@ -47,21 +47,21 @@ folders-outside-title-copy =
 # Words on the question card when the drop would be moved: why it is asked.
 folders-outside-body-move =
     { $n ->
-       *[other] Program lain menjatuhkannya ke Folders dan menamainya sendiri. Program mana pun dapat menamai file apa pun, dan yang dinamai di sini belum tentu semuanya file biasa milik Anda, jadi tidak ada yang dipindahkan sebelum Anda mengizinkan.
+       *[other] Program lain menjatuhkannya ke Folders. Program mana pun dapat menjatuhkan file apa pun, dan yang dijatuhkan di sini belum tentu file biasa milik Anda. Folders tidak akan memindahkannya sampai Anda mengizinkan.
     }
 
 # SAFETY: needs a human review before it ships
 # Words on the question card when the drop would be brought: why it is asked.
 folders-outside-body-bring =
     { $n ->
-       *[other] Program lain menjatuhkannya ke Folders dan menamainya sendiri. Program mana pun dapat menamai file apa pun, dan yang dinamai di sini belum tentu semuanya file biasa milik Anda, jadi tidak ada yang dibawa sebelum Anda mengizinkan.
+       *[other] Program lain menjatuhkannya ke Folders. Program mana pun dapat menjatuhkan file apa pun, dan yang dijatuhkan di sini belum tentu file biasa milik Anda. Folders tidak akan membawanya ke sini sampai Anda mengizinkan.
     }
 
 # SAFETY: needs a human review before it ships
 # Words on the question card when the drop would be copied: why it is asked.
 folders-outside-body-copy =
     { $n ->
-       *[other] Program lain menjatuhkannya ke Folders dan menamainya sendiri. Program mana pun dapat menamai file apa pun, dan yang dinamai di sini belum tentu semuanya file biasa milik Anda, jadi tidak ada yang disalin sebelum Anda mengizinkan.
+       *[other] Program lain menjatuhkannya ke Folders. Program mana pun dapat menjatuhkan file apa pun, dan yang dijatuhkan di sini belum tentu file biasa milik Anda. Folders tidak akan menyalinnya sampai Anda mengizinkan.
     }
 
 # SAFETY: needs a human review before it ships
@@ -105,10 +105,10 @@ folders-outside-more = Dan { $n } lagi.
 folders-outside-into = Ke { $into }.
 
 # Red words when something is dropped while the question card is still up.
-folders-outside-answer-first = Jawab dulu pertanyaan tentang yang dijatuhkan sebelumnya.
+folders-outside-answer-first = Jawab dulu pertanyaan tentang yang Anda jatuhkan.
 
 # Red words when something is dropped while the last drop is still being looked at.
-folders-outside-still-looking = Yang terakhir dijatuhkan masih diperiksa.
+folders-outside-still-looking = Folders masih memeriksa yang terakhir Anda jatuhkan.
 
 # Red words when text, not files, is dropped on Folders.
 folders-outside-only-files = Hanya file dan folder yang dapat dijatuhkan di sini.
@@ -120,7 +120,7 @@ folders-outside-only-folders-pin = Hanya folder yang dapat disematkan ke bilah s
 folders-outside-only-on-folder = Item hanya dapat dijatuhkan pada folder.
 
 # Red words when a dropped thing is no longer there; its name.
-folders-outside-gone = { $name } tidak ada lagi, jadi tidak ada yang dibawa.
+folders-outside-gone = { $name } sudah tidak ada, jadi tidak ada yang disalin atau dipindahkan.
 
 # Red words when a folder is dropped into itself.
 folders-outside-inside-itself = Folder tidak dapat dimasukkan ke dalam dirinya sendiri.
@@ -129,10 +129,10 @@ folders-outside-inside-itself = Folder tidak dapat dimasukkan ke dalam dirinya s
 folders-outside-already-there = Item itu sudah ada di folder tersebut.
 
 # Red words when the place a drop is in does not answer in time; the name of the dropped thing.
-folders-outside-not-answering = Tempat { $name } berada tidak menjawab, jadi tidak ada yang dibawa.
+folders-outside-not-answering = Folders tidak dapat menjangkau drive tempat { $name } berada tepat waktu, jadi tidak ada yang disalin atau dipindahkan.
 
 # Words when the question card is answered with no.
-folders-outside-nothing-brought = Tidak ada yang dibawa.
+folders-outside-nothing-brought = Tidak ada yang disalin atau dipindahkan.
 
 # Name on the picture dragged out of Folders when several items are dragged to another program.
 folders-outside-items-dragged =
@@ -150,7 +150,7 @@ folders-outside-stayed-one = { $name } { $why }.
 # Red words when several dragged things changed after they were picked up, so they stayed; the count and their names.
 folders-outside-stayed-changed =
     { $n ->
-       *[other] { $n } item berubah setelah diambil, jadi masih berada di tempat semula: { $names }.
+       *[other] { $n } item berubah setelah Anda mulai menyeretnya, jadi Folders membiarkannya di tempat semula: { $names }.
     }
 
 # Red words when several dragged things stayed for different reasons; the count and each name with its reason.
@@ -166,10 +166,10 @@ folders-outside-stayed-each = { $name } ({ $why })
 folders-outside-both = { $first } { $second }
 
 # Red words when the other program took a move in a way that cannot show it read all of it.
-folders-outside-unshown = Program lain mengambil yang diseret dengan cara yang tidak dapat memastikan bahwa semuanya terbaca, jadi tidak ada yang dipindahkan di sini: yang dimilikinya adalah salinan.
+folders-outside-unshown = Folders tidak dapat memastikan apakah program lain menerima semua yang Anda seret, jadi aslinya dibiarkan di sini. Program lain memiliki salinannya.
 
 # Red words when the other program did not take all of a drag that was a move.
-folders-outside-short-move = Program lain tidak mengambil semua yang diseret, jadi tidak ada yang dipindahkan di sini.
+folders-outside-short-move = Program lain tidak mengambil semua yang Anda seret, jadi Folders tidak memindahkan apa pun.
 
 # Red words when the other program did not take all of a drag that was a copy.
-folders-outside-short-copy = Program lain tidak mengambil semua yang diseret, jadi mungkin tidak menerima semuanya.
+folders-outside-short-copy = Program lain tidak mengambil semua yang Anda seret, jadi salinannya mungkin tidak lengkap.

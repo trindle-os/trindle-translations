@@ -59,7 +59,7 @@ folders-groups-date-earlier-this-month = Früher in diesem Monat
 folders-groups-date-earlier-this-year = Früher in diesem Jahr
 
 # Group heading for things changed in this period, when grouping by date: Long ago.
-folders-groups-date-long-ago = Lange her
+folders-groups-date-long-ago = Älter
 
 # Group heading for folders, when grouping by size.
 folders-groups-size-folders = Ordner

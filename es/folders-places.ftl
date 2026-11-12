@@ -20,7 +20,7 @@ folders-places-trash = Papelera
 folders-places-network = Red
 
 # Name on a tab of a search that has no words typed, only the choices beside the box.
-folders-places-found = Encontrados
+folders-places-found = Resultados de la búsqueda
 
 # Name on a tab of a search for the words typed, which are in quotes.
 folders-places-found-text = “{ $text }”
@@ -36,5 +36,5 @@ folders-places-unread-denied = No tienes permiso para abrir esta carpeta.
 folders-places-unread-gone = Esta carpeta ya no está.
 
 # Red words when a folder cannot be read for any other reason.
-folders-places-unread-other = No se pudo leer esta carpeta.
+folders-places-unread-other = Folders no pudo leer esta carpeta.
 

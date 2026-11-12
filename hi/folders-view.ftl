@@ -9,8 +9,8 @@ folders-view-empty-trash-title = ट्रैश खाली करें?
 # SAFETY: needs a human review before it ships
 folders-view-empty-trash-body =
     { $n ->
-        [one] इसमें जो एक चीज़ है वह हमेशा के लिए मिट जाती है। इसे वापस नहीं लिया जा सकता।
-       *[other] इसमें सभी { $n } चीज़ें हमेशा के लिए मिट जाती हैं। इसे वापस नहीं लिया जा सकता।
+        [one] इसमें जो चीज़ है वह हमेशा के लिए मिटा दी जाएगी। इसे वापस नहीं लिया जा सकता।
+       *[other] इसमें सभी { $n } चीज़ें हमेशा के लिए मिटा दी जाएँगी। इसे वापस नहीं लिया जा सकता।
     }
 
 # Red button of the question asked before the Trash is emptied: empties it at once.
@@ -43,6 +43,9 @@ folders-view-drop-title = इन्हें कहाँ जाना चाह
 # Tip of the round close button of the window that asks where dropped items should go: leaves them where they are.
 folders-view-drop-leave = इन्हें जहाँ हैं वहीं रहने दें
 
+
+
+
 # Tip of the toolbar button that shows a folder as icons.
 folders-view-icons = आइकन
 
@@ -63,6 +66,10 @@ folders-view-sort-by = इसके अनुसार क्रम दें
 
 # Name read out for the toolbar's Group by strip.
 folders-view-group-by = इसके अनुसार समूह बनाएँ
+
+
+
+
 
 # Tip of the toolbar button that hides the preview panel.
 folders-view-panel-hide = पूर्वावलोकन पैनल छिपाएँ (Alt+P)
@@ -86,7 +93,12 @@ folders-view-tabs-right = दाएँ पैन के टैब
 folders-view-tab-new = नया टैब (Ctrl+T)
 
 # Tip of the button that closes the tab showing.
-folders-view-tab-close = टैब बंद करें (Ctrl+W, या उस पर बीच का क्लिक)
+folders-view-tab-close = टैब बंद करें (Ctrl+W)
+
+
+
+
+
 
 # Side bar row that opens the Home folder.
 folders-view-home = होम
@@ -108,6 +120,8 @@ folders-view-shares = शेयर
 
 # Tip of the side bar button that closes an open Windows share; name is the share.
 folders-view-share-close = { $name } बंद करें
+
+
 
 # Tip of the button that opens the window to connect to a server, and the button of the empty Network page that does the same.
 folders-view-connect = सर्वर से जुड़ें
@@ -160,7 +174,7 @@ folders-view-compare =
 folders-view-locate-hint = फ़ोल्डर, फ़ाइल या सर्वर का पता लिखें
 
 # Name read out for the path above a pane's list.
-folders-view-where = यह पैन कहाँ है
+folders-view-where = जगह
 
 # Tip of the pane's Back button.
 folders-view-back = पीछे (Alt+बायाँ)
@@ -171,23 +185,26 @@ folders-view-forward = आगे (Alt+दायाँ)
 # Tip of the pane's button that goes up one folder.
 folders-view-up = एक फ़ोल्डर ऊपर (Alt+ऊपर)
 
+
+
 # Placeholder of the filter box above a pane's list.
-folders-view-filter-hint = छानें, या इस फ़ोल्डर और उसके नीचे खोजने के लिए Enter दबाएँ
+folders-view-filter-hint = छानें, या इस फ़ोल्डर और इसके उप-फ़ोल्डरों में खोजने के लिए Enter दबाएँ
 
 # Tip of the button beside the filter box that finds things by name here and below.
-folders-view-find-name = यहाँ और इसके नीचे नाम से खोजें
+folders-view-find-name = उप-फ़ोल्डरों समेत नाम खोजें
 
 # Tip of the button beside the filter box that finds words inside files here and below.
-folders-view-find-inside = यहाँ और इसके नीचे फ़ाइलों के अंदर शब्द खोजें
+folders-view-find-inside = उप-फ़ोल्डरों समेत फ़ाइलों के अंदर खोजें
+
 
 # Name read out for the list that picks which kind of thing to show.
-folders-view-find-kind = दिखाई जाने वाली चीज़ का प्रकार
+folders-view-find-kind = प्रकार
 
 # Name read out for the list that picks which size to show.
-folders-view-find-size = दिखाया जाने वाला आकार
+folders-view-find-size = आकार
 
 # Name read out for the list that picks when things were last changed.
-folders-view-find-changed = आखिरी बार कब बदली गई
+folders-view-find-changed = आखिरी बार बदला गया
 
 # Placeholder of the box in which an item is renamed; was is its present name.
 folders-view-rename-hint = { $was } का नया नाम
@@ -205,7 +222,7 @@ folders-view-status-selected = { $count } चुने गए, { $size }
 folders-view-status-then = { $first }। { $then }
 
 # Tip of the small round i at a pane's foot that lists the files words there are about, each with its reason.
-folders-view-listed = कौन सी फ़ाइलें, और क्यों
+folders-view-listed = इससे जुड़ी फ़ाइलें दिखाएँ
 
 # Tip of the button on an empty or failed pane that reads the place again.
 folders-view-try-again = फिर कोशिश करें
@@ -221,7 +238,7 @@ folders-view-none-matches = यहाँ कुछ भी छन्ने से
 folders-view-show-everything = सब दिखाएँ
 
 # Line on the Recent page when nothing was opened lately.
-folders-view-none-recent = हाल में कुछ नहीं खोला गया
+folders-view-none-recent = आपने हाल में कुछ नहीं खोला
 
 # Button on the empty Recent page that goes to the Home folder.
 folders-view-go-home = होम पर जाएँ
@@ -261,6 +278,7 @@ folders-view-items =
     }
 
 
+
 # Quiet words at the end of a pinned row whose network share is not connected.
 folders-view-not-connected = जुड़ा नहीं है
 
@@ -284,24 +302,23 @@ folders-view-shares-down =
 # Tip of the round button that lets a network share that is not connected go from the list; its name.
 folders-view-forget-share = { $name } को भूल जाएँ
 
-
 # Name read out for the top bar's button that shows two panes side by side, or one.
-folders-view-two-panes = दो पैनल
+folders-view-two-panes = दो पैन
 
 # Tip of the top bar's two panes button, while one pane shows.
-folders-view-panes-two = दो पैनल साथ-साथ दिखाएँ (F3)
+folders-view-panes-two = दो पैन साथ-साथ दिखाएँ (F3)
 
 # Tip of the top bar's two panes button, while two panes show.
-folders-view-panes-one = एक पैनल दिखाएँ (F3)
+folders-view-panes-one = एक पैन दिखाएँ (F3)
 
 # Tip and spoken name of the top bar's button that opens the View menu.
-folders-view-view = दृश्य: चीज़ें कैसे दिखें, किस क्रम में और किस समूह में
+folders-view-view = दृश्य
 
 # Words of the top bar's button that opens the New menu (New folder, New document).
 folders-view-new = नया
 
 # Tip and spoken name of the top bar's button that opens the More menu (Undo, Redo, settings).
-folders-view-more = और: पूर्ववत करें, फिर से करें और सेटिंग्स
+folders-view-more = और विकल्प
 
 # Row of the More menu that undoes the last change.
 folders-view-more-undo = पूर्ववत करें
@@ -310,34 +327,31 @@ folders-view-more-undo = पूर्ववत करें
 folders-view-more-redo = फिर से करें
 
 # Row of the View menu that turns the sort round.
-folders-view-sort-other-way = उलटे क्रम में लगाएँ
+folders-view-sort-other-way = उल्टे क्रम में छाँटें
+
+# Tip of the toolbar button that shows hidden files (Ctrl+H).
+folders-view-hidden-show = छिपी फ़ाइलें दिखाएँ (Ctrl+H)
+
+# Tip of the toolbar button that hides hidden files again (Ctrl+H).
+folders-view-hidden-hide = छिपी फ़ाइलें फिर छिपाएँ (Ctrl+H)
+
+# Name read out for the toolbar button that shows or hides hidden files.
+folders-view-hidden-spoken = छिपी फ़ाइलें
 
 # Row under the Network heading of the side bar: the computers found nearby.
-folders-view-network-nearby = पास के कंप्यूटर
+folders-view-network-nearby = आस-पास के कंप्यूटर
 
-# Choice at the start of the line under a pane's path: search or filter here (Ctrl+F).
-folders-view-search = खोजें
-
-# Placeholder of the box in which the name the side bar shows for a pinned folder is typed; was is the folder's own name.
-folders-view-pin-name-hint = { $was } के लिए दिखाया जाने वाला नाम
-
+# Tip of the Search button in the top row while the path shows.
+folders-view-search = खोजें (Ctrl+F)
 
 # Tip of the Search button while the search box shows.
-folders-view-search-close = पथ फिर से दिखाएँ (Esc)
+folders-view-search-close = खोज बंद करें (Escape)
 
 # Tip of the Search button, greyed, on the page of every drive.
-folders-view-search-none = इस पृष्ठ पर खोजने के लिए कुछ नहीं है
+folders-view-search-none = इस पेज पर खोज नहीं की जा सकती
 
 # Name read out for the Search button, which says whether it is pressed.
 folders-view-search-spoken = खोजें
 
-
-# Tip of the toolbar button that shows hidden files (Ctrl+H).
-folders-view-hidden-show = छिपी हुई फ़ाइलें दिखाएँ (Ctrl+H)
-
-# Tip of the toolbar button that hides hidden files again (Ctrl+H).
-folders-view-hidden-hide = छिपी हुई फ़ाइलें छिपाएँ (Ctrl+H)
-
-# Name read out for the toolbar button that shows or hides hidden files.
-folders-view-hidden-spoken = छिपी हुई फ़ाइलें
-
+# Placeholder of the box in which the name the side bar shows for a pinned folder is typed; was is the folder's own name.
+folders-view-pin-name-hint = { $was } के लिए साइडबार में नाम

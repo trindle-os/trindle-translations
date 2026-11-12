@@ -59,7 +59,7 @@ folders-groups-date-earlier-this-month = Awal bulan ini
 folders-groups-date-earlier-this-year = Awal tahun ini
 
 # Group heading for things changed in this period, when grouping by date: Long ago.
-folders-groups-date-long-ago = Sudah lama
+folders-groups-date-long-ago = Lebih lama
 
 # Group heading for folders, when grouping by size.
 folders-groups-size-folders = Folder

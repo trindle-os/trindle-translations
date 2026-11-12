@@ -2,19 +2,19 @@
 # machine translated (Hindi), not yet reviewed by a person.
 
 # Words under the file lines when copy, cut or paste is tried on a server's files.
-folders-act-far-clip = सर्वर की फ़ाइलों के लिए पैनों के बीच कॉपी और ले जाने वाले बटन इस्तेमाल करें।
+folders-act-far-clip = सर्वर की फ़ाइलों के साथ काटना, कॉपी करना और चिपकाना काम नहीं करता। इसके बजाय पैनलों के बीच कॉपी और ले जाने वाले बटन इस्तेमाल करें।
 
 # Words under the file lines when something is tried that would change what is inside an archive.
-folders-act-shut = संग्रह में यहाँ कुछ नहीं बदला जाता। पहले चीज़ें उसमें से बाहर निकालें।
+folders-act-shut = संग्रह के अंदर कुछ भी बदला नहीं जा सकता। पहले जो चाहिए उसे निकाल लें।
 
 # Words on a finished job when files that another program cut were pasted: they are copied.
-folders-act-cut-elsewhere = कॉपी हुआ: दूसरे ऐप में काटा गया था।
+folders-act-cut-elsewhere = इन्हें दूसरे ऐप में काटा गया था, इसलिए Folders ने इन्हें कॉपी कर लिया।
 
 # Words under the file lines when something is picked that is already being copied or moved.
-folders-act-being-moved = पहले से कॉपी या स्थानांतरित हो रहा है।
+folders-act-being-moved = यह पहले से कॉपी या ले जाया जा रहा है।
 
 # Words under the file lines when a copy that is not whole yet is picked.
-folders-act-arriving = अभी आ रहा है।
+folders-act-arriving = यह अभी यहाँ कॉपी हो रहा है।
 
 # Part of the question about a name already taken: a folder that holds this many things or more.
 folders-act-holds-most = 10,000 या अधिक चीज़ें
@@ -145,7 +145,7 @@ folders-act-verb-wiped = पूरी तरह मिटाना
 folders-act-taking-out = { $what } को बाहर निकाला जा रहा है
 
 # Words under the file lines when things were taken out of an archive: what, and where to.
-folders-act-took-out = { $what } को { $place } में बाहर निकाला गया।
+folders-act-took-out = { $what } को संग्रह से निकालकर { $place } में रखा गया।
 
 # The word for what was tried, put in 'could not be ...' when taking things out of an archive failed.
 folders-act-verb-taken-out = बाहर निकालना
@@ -181,22 +181,22 @@ folders-act-new-folder = नया फ़ोल्डर
 folders-act-new-document = नया दस्तावेज़
 
 # Red words when a new folder or document could not be made; its name, then the reason.
-folders-act-make-failed = { $base } नहीं बनाया जा सका: { $why }।
+folders-act-make-failed = Folders { $base } नहीं बना सका: { $why }।
 
 # Red words under a name being typed when it is empty.
-folders-act-name-empty = नाम खाली नहीं हो सकता।
+folders-act-name-empty = कोई नाम लिखें।
 
 # Red words under a name being typed when it has a slash.
 folders-act-name-slash = नाम में स्लैश नहीं हो सकता।
 
 # Red words under a name being typed when it is . or ..
-folders-act-name-kept = यह नाम सिस्टम के लिए सुरक्षित है।
+folders-act-name-kept = यह नाम सिस्टम इस्तेमाल करता है। कोई दूसरा नाम चुनें।
 
 # Red words under a name being typed when it is too long.
 folders-act-name-long = यह नाम बहुत लंबा है।
 
 # Red words under the file lines when a piece of work could not be started.
-folders-act-no-start = काम शुरू नहीं किया जा सका।
+folders-act-no-start = Folders यह काम शुरू नहीं कर सका।
 
 # Tip of the Redo button after a step was undone; what the step was. Every undo and redo tip begins the same way.
 folders-act-redo-label = { $what } फिर से करें
@@ -205,10 +205,13 @@ folders-act-redo-label = { $what } फिर से करें
 folders-act-undo-label = { $what } वापस लें
 
 # Words under the file lines when work was stopped before it was done.
-folders-act-stopped = बीच में रुक गया।
+folders-act-stopped = काम पूरा होने से पहले रोक दिया गया।
 
 # Words under the file lines when work finished but some things were skipped; what was done, then how many were skipped.
-folders-act-skipped = { $done } { $n } छोड़े गए।
+folders-act-skipped = { $done } { $n ->
+        [one] Folders ने एक चीज़ छोड़ दी।
+       *[other] Folders ने { $n } चीज़ें छोड़ दीं।
+    }
 
 # Words under the file lines when an action needs something picked and nothing is.
 folders-act-pick-first = पहले कुछ चुनें।
@@ -227,7 +230,7 @@ folders-act-pick-copy-move = पहले कॉपी या ले जान�
 folders-act-archive-out = चीज़ें संग्रह से सिर्फ़ किसी फ़ोल्डर में निकाली जा सकती हैं।
 
 # Words under the file lines when a copy is sent to the Trash.
-folders-act-copy-trash = कॉपी ट्रैश में नहीं जा सकती।
+folders-act-copy-trash = चीज़ों को ट्रैश में कॉपी नहीं किया जा सकता।
 
 # Words under the file lines when the copy or move button finds the other pane showing no folder.
 folders-act-other-pane = दूसरा पैन कोई फ़ोल्डर नहीं दिखा रहा।
@@ -236,10 +239,10 @@ folders-act-other-pane = दूसरा पैन कोई फ़ोल्ड�
 folders-act-pick-copy = पहले कॉपी करने के लिए कुछ चुनें।
 
 # Words under the file lines after Cut: what was cut.
-folders-act-cut-said = { $what } काटा गया। इसे किसी फ़ोल्डर में चिपकाएँ।
+folders-act-cut-said = { $what } काटा गया।
 
 # Words under the file lines after Copy: what was copied.
-folders-act-copied-said = { $what } कॉपी किया गया। इसे किसी फ़ोल्डर में चिपकाएँ।
+folders-act-copied-said = { $what } कॉपी किया गया।
 
 # Words under the file lines when Paste is used where there is no folder.
 folders-act-paste-folder = चीज़ें सिर्फ़ किसी फ़ोल्डर में चिपकाई जा सकती हैं।
@@ -264,16 +267,16 @@ folders-act-pick-trash = पहले ट्रैश में कुछ चु
 folders-act-new-numbered = { $base } { $n }
 
 # Words under the file lines while a new folder or document is made on a server.
-folders-act-making = { $name } बनाया जा रहा है।
+folders-act-making = { $name } बनाया जा रहा है
 
 # Words under the file lines when New folder or New document is used where there is no folder.
-folders-act-make-folder-only = नई चीज़ें सिर्फ़ किसी फ़ोल्डर में बनाई जा सकती हैं।
+folders-act-make-folder-only = नया फ़ोल्डर या दस्तावेज़ सिर्फ़ किसी फ़ोल्डर के अंदर बनाया जा सकता है।
 
 # Tip of the Undo button after a folder, document or link was made.
 folders-act-undo-making = { $name } बनाना वापस लें
 
-# Red words under the file lines when folder colours and emblems could not follow things that were moved.
-folders-act-colours-lost = रंग हटाई गई चीज़ों के साथ नहीं जा सके।
+# Red words under the file lines when folder colours could not follow things that were moved.
+folders-act-colours-lost = Folders ले जाई गई चीज़ों के फ़ोल्डर रंग बरकरार नहीं रख सका।
 
 # Words under the file lines when Redo is used and there is nothing to redo.
 folders-act-nothing-redo = फिर से करने के लिए कुछ नहीं है।
@@ -323,9 +326,7 @@ folders-act-links-failed =
     }
 
 # Words under the file lines when the window is closed while work waits for an answer.
-folders-act-closing-waits = कुछ काम जवाब का इंतज़ार कर रहा है। बंद करने से पहले जवाब दें, या काम रोकें।
-
+folders-act-closing-waits = एक सवाल आपके जवाब का इंतज़ार कर रहा है। Folders बंद करने से पहले जवाब दें, या काम रोकें।
 
 # Words under the file lines when the window is closed while work goes on.
-folders-act-closing-busy = स्थानांतरण पूरा होने तक फ़ोल्डर बंद नहीं हो सकते। उसके पूरा होने का इंतज़ार करें, या उसे रोकें, फिर बंद करें।
-
+folders-act-closing-busy = कोई काम चल रहा हो तो Folders बंद नहीं हो सकता। उसके पूरा होने का इंतज़ार करें, या उसे रोकें, फिर Folders बंद करें।

@@ -1,6 +1,18 @@
 
 # machine translated (German), not yet reviewed by a person.
 
+
+
+
+
+
+
+
+
+
+
+
+
 # Name of the Folders action that installs a font.
 folders-icons-action-font = Schrift installieren
 

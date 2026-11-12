@@ -16,22 +16,22 @@ folders-tools-pass-seven = 7 раз
 folders-tools-case-keep = Как есть
 
 # Choice in the rename window, under Letters: make every name small letters.
-folders-tools-case-lower = Все строчные
+folders-tools-case-lower = Все строчные буквы
 
 # Choice in the rename window, under Letters: make every name capital letters.
 folders-tools-case-upper = Все прописные
 
 # Choice in the rename window, under Letters: start each word with a capital.
-folders-tools-case-words = Каждое слово
+folders-tools-case-words = Каждое слово с заглавной буквы
 
 # Choice in the rename window, under Letters: start only the first word with a capital.
-folders-tools-case-first = Первое слово
+folders-tools-case-first = Первое слово с заглавной буквы
 
 # Choice in the rename window, under Ending: leave the file ending as it is.
 folders-tools-ending-keep = Как есть
 
 # Choice in the rename window, under Ending: make the ending small letters.
-folders-tools-ending-lower = Все строчные
+folders-tools-ending-lower = Все строчные буквы
 
 # Choice in the rename window, under Ending: make the ending capital letters.
 folders-tools-ending-upper = Все прописные
@@ -55,21 +55,21 @@ folders-tools-clash-bad = такое имя недопустимо
 folders-tools-clash-long = это имя слишком длинное
 
 # Beside a row of the rename list that cannot be done: two files would get the same new name.
-folders-tools-clash-twice = два файла получили бы это имя
+folders-tools-clash-twice = два элемента получили бы это имя
 
 # Beside a row of the rename list that cannot be done: another file already has the new name.
-folders-tools-clash-taken = это имя уже занято другим файлом
+folders-tools-clash-taken = это имя уже занято другим элементом
 
 # Beside a row of the rename list that cannot be done: the old name is not plain text, so it cannot be changed.
-folders-tools-clash-not-text = старое имя не является обычным текстом
+folders-tools-clash-not-text = в старом имени есть символы, которые Folders не может прочитать
 
 # Warning in the Wipe window about a flash disk, where old copies may stay out of reach.
 # SAFETY: needs a human review before it ships
-folders-tools-caveat-flash = Это флеш-диск, а не вращающийся, поэтому старые копии могут сохраниться в тех частях диска, до которых Trindle не достаёт.
+folders-tools-caveat-flash = Это флеш-накопитель или SSD, поэтому старые копии могут остаться в тех частях диска, до которых Folders не достаёт.
 
 # Warning in the Wipe window about a filesystem that writes changes elsewhere; { $fs } is the filesystem's name.
 # SAFETY: needs a human review before it ships
-folders-tools-caveat-copy-on-write = Файловая система { $fs } записывает изменения в новое место, поэтому старые данные могут остаться на прежнем.
+folders-tools-caveat-copy-on-write = Файловая система { $fs } сохраняет изменения в новом месте, поэтому старые данные могут остаться на прежнем.
 
 # Warning in the Wipe window about a share on another computer; { $fs } is the kind of share.
 # SAFETY: needs a human review before it ships
@@ -107,7 +107,7 @@ folders-tools-place-here = Здесь
 folders-tools-only-files-wiped = Стереть можно только файлы.
 
 # Red notice when comparing the two panes while one of them does not show a folder.
-folders-tools-compare-need-folders = Для сравнения в обеих панелях должна быть открыта папка.
+folders-tools-compare-need-folders = Откройте папку в каждой панели, чтобы сравнить их.
 
 # Undo entry after renaming many files; { $n } is how many were renamed.
 folders-tools-rename-undo =
@@ -128,13 +128,13 @@ folders-tools-rename-done =
     }
 
 # Red notice when renaming many files fails part way; { $error } says why.
-folders-tools-rename-stopped = Переименование прервалось на середине: { $error }.
+folders-tools-rename-stopped = Переименование прервалось на полпути: { $error }.
 
 # Red words under the archive name in the Compress window when the name is empty.
-folders-tools-name-empty = Имя не может быть пустым.
+folders-tools-name-empty = Введите имя архива.
 
 # Beside the ring while a search is running and the end is not known; { $done } is how many have been looked at.
-folders-tools-looked-at = Просмотрено: { $done }
+folders-tools-looked-at = Проверено: { $done }
 
 # Beside the ring while a search is running and the end is known; { $done } and { $total } are sizes such as 3 MB.
 folders-tools-read-of = Прочитано { $done } из { $total }
@@ -146,7 +146,7 @@ folders-tools-listing-files = Составляется список файлов
 folders-tools-comparing = Сравнение
 
 # Beside the ring while two folders are compared.
-folders-tools-looking = Просмотр
+folders-tools-looking = Сравнение папок
 
 # Title of the Compress window; { $name } is the one thing packed, { $n } how many.
 folders-tools-compress-title =
@@ -154,7 +154,6 @@ folders-tools-compress-title =
         [1] Сжать «{ $name }»
         [few] Сжать { $n } элемента
         [many] Сжать { $n } элементов
-        [one] Сжать { $n } элемента
        *[other] Сжать { $n } элемента
     }
 
@@ -165,7 +164,7 @@ folders-tools-pack-name-tip = Имя архива
 folders-tools-pack-kind-tip = Вид архива
 
 # Note in the Compress window saying where the archive is made; { $place } is the folder.
-folders-tools-pack-made-in = Будет создан в папке { $place }
+folders-tools-pack-made-in = Архив будет сохранён в папке { $place }
 
 # Main button of the Compress window.
 folders-tools-compress = Сжать
@@ -174,7 +173,7 @@ folders-tools-compress = Сжать
 folders-tools-extract-to = Извлечь «{ $name }» в
 
 # Note in the Extract to window; { $name } is the name of the folder that is made.
-folders-tools-extract-new-folder = Там будет создана новая папка «{ $name }».
+folders-tools-extract-new-folder = Файлы будут помещены в новую папку «{ $name }».
 
 # Title of the Resize window; { $name } is the one picture, { $n } how many.
 folders-tools-resize-title =
@@ -182,7 +181,6 @@ folders-tools-resize-title =
         [1] Изменить размер «{ $name }»
         [few] Изменить размер { $n } изображений
         [many] Изменить размер { $n } изображений
-        [one] Изменить размер { $n } изображения
        *[other] Изменить размер { $n } изображения
     }
 
@@ -190,7 +188,7 @@ folders-tools-resize-title =
 folders-tools-resize-size-tip = Новый размер
 
 # Note in the Resize window explaining the sizes and that copies are made.
-folders-tools-resize-note = Доля от исходного размера или число пикселей по длинной стороне; изображение никогда не увеличивается. Рядом с каждым создаётся копия, в имени которой указан новый размер; сами изображения не меняются.
+folders-tools-resize-note = Размер задаётся числом пикселей по длинной стороне. Folders только уменьшает изображения. Копия каждого изображения с новым размером в имени сохраняется рядом с оригиналом.
 
 # Main button of the Resize window.
 folders-tools-resize = Изменить размер
@@ -202,13 +200,12 @@ folders-tools-wipe-title =
         [1] Стереть «{ $name }»?
         [few] Стереть { $n } файла?
         [many] Стереть { $n } файлов?
-        [one] Стереть { $n } файла?
        *[other] Стереть { $n } файла?
     }
 
 # Warning at the top of the Wipe window.
 # SAFETY: needs a human review before it ships
-folders-tools-wipe-warning = Каждый файл перезаписывается перед удалением, поэтому восстановить его будет нельзя. Отменить это нельзя.
+folders-tools-wipe-warning = Folders перезаписывает каждый файл перед удалением, поэтому восстановить его будет нельзя.
 
 # Name beside the choice of how many times to write over, in the Wipe window.
 # SAFETY: needs a human review before it ships
@@ -244,7 +241,7 @@ folders-tools-rename-ending-tip = Что делать с расширением
 folders-tools-rename-new-ending-tip = Новое расширение, например txt
 
 # Detail of a row in the rename list that cannot be done; { $why } says why.
-folders-tools-rename-cannot = Невозможно: { $why }
+folders-tools-rename-cannot = Folders не может переименовать это: { $why }
 
 # Detail of a row in the rename list whose name changes; { $old } is the old name.
 folders-tools-rename-was = было { $old }
@@ -295,7 +292,7 @@ folders-tools-rename-after-tip = После имени
 folders-tools-rename-number = Номер
 
 # Name over the capitals choice in the rename window.
-folders-tools-rename-letters = Буквы
+folders-tools-rename-letters = Заглавные
 
 # Choice tip in the rename window: what happens to the capitals in the names.
 folders-tools-rename-case-tip = Заглавные буквы в именах
@@ -306,8 +303,8 @@ folders-tools-rename-ending = Расширение
 # Note under the rename list; { $clash } is yes when some names cannot be used, otherwise no; { $changes } of { $total } names change; { $place } is the folder.
 folders-tools-rename-summary =
     { $clash ->
-        [yes] Некоторые имена использовать нельзя; см. отмеченные строки. В папке { $place }.
-       *[no] Изменится имён: { $changes } из { $total }. В папке { $place }.
+        [yes] В папке { $place } некоторые имена использовать нельзя. См. отмеченные строки.
+       *[no] В папке { $place } изменится имён: { $changes } из { $total }.
     }
 
 # Main button of the rename window.
@@ -322,7 +319,6 @@ folders-tools-dupes-title =
         [1] Дубликаты в «{ $folder }»
         [few] Дубликаты в { $n } папках
         [many] Дубликаты в { $n } папках
-        [one] Дубликаты в { $n } папках
        *[other] Дубликаты в { $n } папках
     }
 
@@ -345,10 +341,10 @@ folders-tools-dupes-unread =
 # SAFETY: needs a human review before it ships
 folders-tools-dupes-sets =
     { $n ->
-        [one] { $n } набор копий; если убрать лишние в корзину, освободится { $size }. Лишние копии выделены; Ctrl и щелчок выделяет или снимает выделение.
-        [few] { $n } набора копий; если убрать лишние в корзину, освободится { $size }. Лишние копии выделены; Ctrl и щелчок выделяет или снимает выделение.
-        [many] { $n } наборов копий; если убрать лишние в корзину, освободится { $size }. Лишние копии выделены; Ctrl и щелчок выделяет или снимает выделение.
-       *[other] { $n } набора копий; если убрать лишние в корзину, освободится { $size }. Лишние копии выделены; Ctrl и щелчок выделяет или снимает выделение.
+        [one] { $n } набор копий. Лишние копии выделены, и если переместить их в Корзину, освободится { $size }.
+        [few] { $n } набора копий. Лишние копии выделены, и если переместить их в Корзину, освободится { $size }.
+        [many] { $n } наборов копий. Лишние копии выделены, и если переместить их в Корзину, освободится { $size }.
+       *[other] { $n } набора копий. Лишние копии выделены, и если переместить их в Корзину, освободится { $size }.
     }
 
 # Detail of a row in the duplicates list; { $set } is the set's number, { $size } the file's size, { $at } the folder it is in.
@@ -365,7 +361,7 @@ folders-tools-dupes-unread-left-out =
 
 # Note in the duplicates window when every copy of a set is picked.
 # SAFETY: needs a human review before it ships
-folders-tools-dupes-keep-one = Выделены все копии набора; оставьте хотя бы одну.
+folders-tools-dupes-keep-one = Выделены все копии набора. Оставьте хотя бы одну без выделения.
 
 # Tip of the button in the duplicates window that picks the extra copies.
 folders-tools-dupes-pick-extras = Выделить лишние копии
@@ -375,16 +371,16 @@ folders-tools-dupes-pick-extras = Выделить лишние копии
 folders-tools-dupes-trash = Переместить в корзину
 
 # Title of the window that compares two files.
-folders-tools-diff-title = Сравнить эти два
+folders-tools-diff-title = Сравнить два файла
 
 # Red words in the file compare window when it fails; { $error } says why.
-folders-tools-diff-failed = Не удалось сравнить: { $error }.
+folders-tools-diff-failed = Folders не удалось сравнить их: { $error }.
 
 # Line in the file compare window when two files are the same, byte for byte.
-folders-tools-diff-same-bytes = Эти два файла одинаковы байт в байт.
+folders-tools-diff-same-bytes = Эти два файла полностью одинаковы.
 
 # Line in the file compare window when one file is the start of the other; { $one } and { $other } are their sizes.
-folders-tools-diff-same-as-shorter = Они совпадают на длину более короткого; один размером { $one }, другой { $other }.
+folders-tools-diff-same-as-shorter = Они совпадают до конца более короткого. Один размером { $one }, другой { $other }.
 
 # Line in the file compare window for the first byte that differs; { $n } is its number.
 folders-tools-diff-from-byte = Они различаются начиная с байта { $n }.
@@ -400,25 +396,25 @@ folders-tools-diff-lines =
     }
 
 # Note in the file compare window when the files are too different to match line by line.
-folders-tools-diff-too-different = Они слишком различаются, чтобы сравнивать построчно, поэтому все строки между первым и последним отличием показаны как изменённые.
+folders-tools-diff-too-different = Они слишком сильно различаются для построчного сравнения. Всё между первым и последним отличием показано как изменённое.
 
 # Note in the file compare window when only the start of each file is compared.
-folders-tools-diff-cut = Сравниваются только первые 4 МБ каждого.
+folders-tools-diff-cut = Сравниваются только первые 4 МБ каждого файла.
 
 # Title of the window that compares the two panes; { $left } and { $right } are the folders' names.
 folders-tools-compare-title = Сравнить «{ $left }» с «{ $right }»
 
 # Label of the switch in the pane compare window that reads every byte.
-folders-tools-compare-bytes = Читать каждый байт (медленнее)
+folders-tools-compare-bytes = Сравнивать содержимое (медленнее)
 
 # Switch tip in the pane compare window: compare the contents of each file.
 folders-tools-compare-bytes-tip = Сравнивать содержимое каждого файла
 
 # Label of the switch in the pane compare window that also lists names that are the same.
-folders-tools-compare-show-same = Показывать одинаковое
+folders-tools-compare-show-same = Показывать совпадающие имена
 
 # Switch tip in the pane compare window: list the names that are the same too.
-folders-tools-compare-show-same-tip = Показывать и одинаковые имена
+folders-tools-compare-show-same-tip = Показывать и совпадающие имена
 
 # Red words in the pane compare window when it fails; { $error } says why.
 folders-tools-compare-stopped = Сравнение прервалось: { $error }.
@@ -427,17 +423,17 @@ folders-tools-compare-stopped = Сравнение прервалось: { $erro
 folders-tools-compare-counts = Только слева: { $left }, только справа: { $right }, различаются: { $different }, одинаковы: { $same }.
 
 # Line in the pane compare window when nothing differs.
-folders-tools-compare-all-same = В обеих папках одно и то же.
+folders-tools-compare-all-same = В обеих папках одинаковое содержимое.
 
 # Tip of the button in the pane compare window that compares again.
 folders-tools-compare-again = Сравнить снова
 
 # Button in the pane compare window; { $n } is how many names are copied to the left folder.
-folders-tools-compare-copy-left = Копировать влево отсутствующие или более новые: { $n }
+folders-tools-compare-copy-left = Копировать влево отсутствующие или более новые элементы: { $n }
 
 # Button in the pane compare window; { $n } is how many names are copied to the right folder.
-folders-tools-compare-copy-right = Копировать вправо отсутствующие или более новые: { $n }
+folders-tools-compare-copy-right = Копировать вправо отсутствующие или более новые элементы: { $n }
 
 # Line in the Wipe window naming the folders that were picked too, which are not wiped.
-folders-tools-wipe-left-out = Папки не стираются, поэтому эти остаются как есть: { $names }.
-
+# SAFETY: needs a human review before it ships
+folders-tools-wipe-left-out = Стираются только файлы, поэтому эти папки останутся как есть: { $names }.

@@ -73,7 +73,7 @@ folders-panel-in-all = всего: { $items }
 folders-panel-by = { $w } на { $h }
 
 # Quiet words under the icon in the preview panel for a file whose name says one kind but whose bytes are not; what is the kind, such as PDF document.
-folders-panel-broken = По имени это { $what }, но внутри это не так.
+folders-panel-broken = По имени это { $what }, но содержимое не соответствует.
 
 # Quiet words under the icon in the preview panel for a picture too large to show.
 folders-panel-too-large = Это изображение слишком велико, чтобы показать его здесь.
@@ -85,10 +85,10 @@ folders-panel-read-failed = Не удалось прочитать: { $why }
 folders-panel-selected = Выбрано: { $count }
 
 # Name read out for the edge between the panes and the preview panel.
-folders-panel-edge = Перетащите, чтобы изменить ширину просмотра, или нажмите, чтобы менять ширину по шагам
+folders-panel-edge = Ширина панели просмотра
 
 # Name read out for the picture in the preview panel; name is the file's.
-folders-panel-picture-name = Изображение { $name }
+folders-panel-picture-name = Просмотр файла { $name }
 
 # Name read out for the start of a text file in the preview panel; name is the file's.
 folders-panel-text-name = Начало файла { $name }

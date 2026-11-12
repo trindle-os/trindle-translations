@@ -1,3 +1,4 @@
+
 # machine translated (Russian), not yet reviewed by a person.
 
 # Reason shown in the viewer in place of a font sample when the font file is too large to read.
@@ -7,7 +8,7 @@ folders-fonts-too-large = он слишком большой, чтобы его 
 folders-fonts-unreadable = это не шрифт, который Folders может прочитать
 
 # Red note when the person installs a font they already have.
-folders-fonts-have-it = Он у вас уже есть.
+folders-fonts-have-it = Этот шрифт уже установлен.
 
 # Red note when the fonts folder could not be made; the reason follows.
 folders-fonts-install-failed = Не удалось установить шрифт: { $why }.
@@ -25,7 +26,7 @@ folders-fonts-many =
 folders-fonts-doing = Установка: { $what }
 
 # Note when fonts have been installed; the name or count of the fonts.
-folders-fonts-done = Установлено: { $what }. Приложения, запущенные с этого момента, смогут его использовать.
+folders-fonts-done = Установлено: { $what } для приложений, которые вы откроете с этого момента.
 
 # Word for what happened to fonts that could not be done, in the list of failures.
 folders-fonts-verb = установить

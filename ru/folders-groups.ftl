@@ -1,3 +1,4 @@
+
 # machine translated (Russian), not yet reviewed by a person.
 
 # Strip choice in the top bar: show things without groups.
@@ -58,7 +59,7 @@ folders-groups-date-earlier-this-month = Раньше в этом месяце
 folders-groups-date-earlier-this-year = Раньше в этом году
 
 # Group heading for things changed in this period, when grouping by date: Long ago.
-folders-groups-date-long-ago = Давно
+folders-groups-date-long-ago = Ранее
 
 # Group heading for folders, when grouping by size.
 folders-groups-size-folders = Папки

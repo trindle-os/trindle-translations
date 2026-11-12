@@ -13,11 +13,11 @@ folders-locked-password = Mật khẩu
 
 # Line under the password box before anything has been tried: says the password is not saved.
 # SAFETY: needs a human review before it ships
-folders-locked-kept-note = Chỉ giữ khi tệp nén này đang mở, không bao giờ được lưu.
+folders-locked-kept-note = Folders sẽ quên nó khi tệp nén đóng lại.
 
 # Words beside the spinning ring on the password card while a password is being tried.
 # SAFETY: needs a human review before it ships
-folders-locked-trying = Đang thử
+folders-locked-trying = Đang thử mật khẩu
 
 # Title of the password card; the variable is the archive's name.
 # SAFETY: needs a human review before it ships
@@ -35,5 +35,5 @@ folders-locked-is-locked = { $name } được khóa bằng mật khẩu.
 folders-locked-open-again = { $name } được khóa bằng mật khẩu. Hãy mở lại để nhập mật khẩu.
 
 # Notice shown when a locked archive cannot be read whatever the password; the variables are the archive's name and the reason.
-folders-locked-could-not-read = Không thể đọc { $name }: { $why }.
+folders-locked-could-not-read = Folders không thể đọc { $name }: { $why }.
 

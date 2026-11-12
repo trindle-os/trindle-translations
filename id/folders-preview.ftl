@@ -2,37 +2,37 @@
 # machine translated (Indonesian), not yet reviewed by a person.
 
 # Words in the quick look when a page of a PDF could not be drawn; the page number.
-folders-preview-page-failed = Halaman { $page } tidak dapat digambar.
+folders-preview-page-failed = Folders tidak dapat menampilkan halaman { $page }.
 
 # Red notice at the foot of Folders when the rest of a long text could not be read; the reason.
-folders-preview-rest-failed = Sisanya tidak dapat dibaca: { $why }
+folders-preview-rest-failed = Folders tidak dapat membaca sisanya: { $why }
 
 # Words in the quick look when a file on a server could not be fetched; the reason.
-folders-preview-fetch-failed = Tidak dapat diambil: { $why }
+folders-preview-fetch-failed = Folders tidak dapat mengunduhnya: { $why }
 
 # Words in the quick look when a file's name says it is one kind but inside it is not; the kind, such as PDF or picture.
-folders-preview-broken = Namanya menyatakan ini { $what }, tetapi isinya bukan. File mungkin rusak atau terpotong.
+folders-preview-broken = Namanya menyatakan ini { $what }, tetapi isinya tidak cocok. File mungkin rusak atau tidak lengkap.
 
 # Words in the quick look when a picture is too large to show; the size in millions of pixels, a number.
-folders-preview-too-large-pixels = Gambar ini terlalu besar untuk ditampilkan di sini: { $millions } juta piksel.
+folders-preview-too-large-pixels = Gambar ini terlalu besar untuk ditampilkan di sini. Gambar ini berisi { $millions } juta piksel.
 
 # Words in the quick look when a picture is too large to show; its size in bytes, as words such as 12.0 MB.
-folders-preview-too-large-bytes = Gambar ini terlalu besar untuk ditampilkan di sini: { $size }.
+folders-preview-too-large-bytes = Gambar ini terlalu besar untuk ditampilkan di sini. Ukurannya { $size }.
 
 # Words in the quick look for a kind of file that cannot be shown.
-folders-preview-other = Jenis file ini tidak dapat ditampilkan di sini. Buka di aplikasinya untuk melihatnya.
+folders-preview-other = Folders tidak dapat menampilkan jenis file ini. Buka di aplikasinya.
 
 # Words in the quick look when a file could not be read; the reason.
-folders-preview-unread = Tidak dapat dibaca: { $why }
+folders-preview-unread = Folders tidak dapat membacanya: { $why }
 
 # Tip of the round button under a long text in the quick look that reads the next part.
-folders-preview-read-more = Baca bagian berikutnya
+folders-preview-read-more = Tampilkan lebih banyak
 
 # Line under a text in the quick look, for a name with an ending: how it is encoded, such as UTF-8.
 folders-preview-text = { $encoding }
 
 # Line under a long text in the quick look when only the first part is read: the encoding, then how much is read, as words such as 64 KB.
-folders-preview-text-so-far = { $encoding }, { $size } pertama sejauh ini
+folders-preview-text-so-far = { $encoding }, { $size } pertama ditampilkan
 
 # Line under a picture in the quick look: its width and height in pixels.
 folders-preview-picture-size = { $w } kali { $h } piksel
@@ -53,16 +53,16 @@ folders-preview-page-after = Halaman berikutnya (Page Down)
 folders-preview-pdf = Dokumen PDF
 
 # Words in the quick look while a page of a PDF is being drawn.
-folders-preview-drawing = Menggambar halaman…
+folders-preview-drawing = Memuat halaman…
 
 # Words under a font in the quick look once it is installed.
-folders-preview-font-installed = Terpasang untuk Anda: aplikasi yang dibuka mulai sekarang dapat menggunakannya.
+folders-preview-font-installed = Terpasang untuk Anda. Aplikasi yang Anda buka mulai sekarang dapat memakainya.
 
 # Button under a font in the quick look that installs it.
-folders-preview-font-install = Pasang untuk Anda
+folders-preview-font-install = Pasang font
 
 # Words in the quick look when a sound or video cannot be played.
-folders-preview-unplayable = Ini tidak dapat diputar. File mungkin rusak, atau berjenis yang tidak dapat diputar ffmpeg.
+folders-preview-unplayable = Folders tidak dapat memutar ini. File mungkin rusak, atau dalam format yang tidak dapat diputar ffmpeg.
 
 # Line under a video in the quick look: width and height in pixels.
 folders-preview-video = { $w } kali { $h }
@@ -119,7 +119,7 @@ folders-preview-volume = Volume
 folders-preview-kind-text = Teks, { $encoding }
 
 # The same, while only the first part is read.
-folders-preview-kind-text-so-far = Teks, { $encoding }, { $size } pertama sejauh ini
+folders-preview-kind-text-so-far = Teks, { $encoding }, { $size } pertama ditampilkan
 
 # Under a video's quick look, for a name with no ending.
 folders-preview-kind-video = Video, { $w } kali { $h }

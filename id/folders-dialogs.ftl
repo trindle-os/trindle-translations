@@ -11,19 +11,19 @@ folders-dialogs-home = Beranda
 folders-dialogs-open-with-title = Buka { $name } dengan
 
 # Small line beside the app that opens the file now, in the Open with list.
-folders-dialogs-opens-now = Membukanya sekarang
+folders-dialogs-opens-now = Aplikasi saat ini
 
 # Note in the Open with window when no app says it opens this kind of file.
-folders-dialogs-no-apps = Tidak ada aplikasi di komputer ini yang menyatakan dapat membuka jenis file ini.
+folders-dialogs-no-apps = Tidak ada aplikasi di komputer ini yang diatur untuk membuka jenis file ini.
 
 # Name of the switch in the Open with window that makes the chosen app the usual one for this kind of file.
-folders-dialogs-always-use = Selalu gunakan
+folders-dialogs-always-use = Selalu gunakan aplikasi ini
 
 # Line under the Always use it switch; the kind of file, such as text/plain.
-folders-dialogs-always-sub = Untuk setiap file { $kind }.
+folders-dialogs-always-sub = Gunakan untuk setiap file { $kind }.
 
 # Tip and spoken name of the Always use it switch.
-folders-dialogs-always-tip = Jadikan aplikasi biasa untuk jenis ini
+folders-dialogs-always-tip = Jadikan aplikasi default
 
 # Tip of the round button in the Open with window that shows only the apps that suit the file.
 folders-dialogs-show-suggested = Tampilkan hanya aplikasi yang disarankan
@@ -35,19 +35,19 @@ folders-dialogs-show-every = Tampilkan semua aplikasi
 folders-dialogs-open = Buka
 
 # Red words when Open is pressed in the Open with window and no app is chosen.
-folders-dialogs-choose-app = Pilih aplikasi untuk membukanya.
+folders-dialogs-choose-app = Pilih aplikasi dulu.
 
 # Red words when the chosen app could not be made the usual app; the app's name.
-folders-dialogs-usual-failed = { $name } tidak dapat dijadikan aplikasi biasa.
+folders-dialogs-usual-failed = Folders tidak dapat menjadikan { $name } aplikasi default.
 
 # Red words when the chosen app could not be started; the app's name.
-folders-dialogs-start-failed = { $name } tidak dapat dimulai.
+folders-dialogs-start-failed = Folders tidak dapat menjalankan { $name }.
 
 # Heading of the Properties window.
 folders-dialogs-properties = Properti
 
 # Spoken name of the choice of pages at the top of the Properties window.
-folders-dialogs-properties-pages = Bagian Properti
+folders-dialogs-properties-pages = Halaman Properti
 
 # Name of the first page of Properties, with the name, kind, size and place.
 folders-dialogs-page-general = Umum
@@ -57,6 +57,8 @@ folders-dialogs-page-details = Detail
 
 # Name of the page of Properties for sharing a folder on the home network.
 folders-dialogs-page-sharing = Berbagi
+
+
 
 # Label in Properties of the name of the file or folder.
 folders-dialogs-row-name = Nama
@@ -114,7 +116,7 @@ folders-dialogs-size =
     }
 
 # Size shown in Properties before the first count comes in.
-folders-dialogs-size-adding = Menghitung
+folders-dialogs-size-adding = Menghitung ukuran
 
 # Label in Properties of the row about checksums.
 folders-dialogs-checksums = Checksum
@@ -123,13 +125,13 @@ folders-dialogs-checksums = Checksum
 folders-dialogs-sums-work-out = Hitung checksum
 
 # Words beside the ring while a file's checksums are being worked out.
-folders-dialogs-sums-working = Sedang dihitung
+folders-dialogs-sums-working = Sedang menghitung checksum
 
 # Red words in Properties when a file's checksums could not be worked out.
-folders-dialogs-sums-failed = File tidak dapat dibaca
+folders-dialogs-sums-failed = Folders tidak dapat membaca file.
 
 # Placeholder of the box in Properties where a checksum is pasted to check the file against.
-folders-dialogs-sums-paste = Tempel checksum untuk diperiksa
+folders-dialogs-sums-paste = Tempel checksum untuk dibandingkan
 
 # Words beside the checksum box when the pasted checksum matches; the name of the checksum such as SHA-256.
 folders-dialogs-sums-matches = { $kind } cocok
@@ -140,6 +142,7 @@ folders-dialogs-sums-no-match = Tidak cocok
 # Label in Properties of the row with the box to check a checksum.
 folders-dialogs-sums-check = Periksa
 
+
 # Heading of the Send to window: the name of the one item being sent, or how many items.
 folders-dialogs-send-title =
     { $n ->
@@ -148,16 +151,16 @@ folders-dialogs-send-title =
     }
 
 # Note in the Send to window saying what sending does.
-folders-dialogs-send-note = Salinan dibuat di sana; item tetap di tempat asalnya.
+folders-dialogs-send-note = Ini membuat salinan di sana. Aslinya tetap di tempatnya.
 
 # Name of the place in the Send to list that is the folder open in the other pane; the folder's name.
 folders-dialogs-send-other = Panel lain, { $name }
 
 # Heading of the window that chooses the columns of the List view.
-folders-dialogs-columns-title = Kolom di tampilan Daftar
+folders-dialogs-columns-title = Kolom tampilan Daftar
 
 # Note in the Columns window.
-folders-dialogs-columns-note = Nama selalu ditampilkan. Kolom yang tidak muat di sampingnya disembunyikan sampai panel lebih lebar.
+folders-dialogs-columns-note = Nama selalu ditampilkan. Kolom yang tidak muat disembunyikan sampai panel lebih lebar.
 
 # Heading over the columns that suit every file.
 folders-dialogs-columns-files = File
@@ -169,7 +172,7 @@ folders-dialogs-columns-media = Musik, foto, PDF
 folders-dialogs-columns-show = Tampilkan { $name }
 
 # Red words when the choice of columns could not be saved.
-folders-dialogs-columns-failed = Kolom tidak dapat disimpan.
+folders-dialogs-columns-failed = Folders tidak dapat menyimpan kolom.
 
 # Heading of the Folder colour window: the name of the one folder, or how many folders.
 folders-dialogs-colour-title =
@@ -179,16 +182,19 @@ folders-dialogs-colour-title =
     }
 
 # Tip of the round button, and the note beside it, in the Folder colour window that takes the colour away.
-folders-dialogs-colour-none = Tanpa warna khusus
+folders-dialogs-colour-none = Tanpa warna
 
 # Red words when the folder colour could not be saved.
-folders-dialogs-colour-failed = Warna folder tidak dapat disimpan.
+folders-dialogs-colour-failed = Folders tidak dapat menyimpan warna folder.
 
-folders-dialogs-no-match = Tidak ada aplikasi yang namanya memuat kata-kata itu.
+
+folders-dialogs-no-match = Tidak ada aplikasi yang cocok dengan kata-kata itu.
+
 
 folders-dialogs-find-app = Cari aplikasi
 
+
 folders-dialogs-find-place = Cari tempat
 
-folders-dialogs-no-match-place = Tidak ada tempat yang namanya memuat kata-kata itu.
 
+folders-dialogs-no-match-place = Tidak ada tempat yang cocok dengan kata-kata itu.

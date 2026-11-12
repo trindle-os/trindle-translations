@@ -8,5 +8,5 @@ folders-heading-name = 名称
 folders-heading-spoken = 列标题：{ $names }
 
 # Red words under the file lines when the widths of the columns could not be saved; the reason follows.
-folders-heading-widths-not-kept = 无法保存各列的宽度供下次使用，原因：{ $why }。
+folders-heading-widths-not-kept = Folders 无法保存各列的宽度供下次使用：{ $why }。
 

@@ -1,3 +1,4 @@
+
 # machine translated (Russian), not yet reviewed by a person.
 
 # End of a piece of work's line when speed and time left are known; { $files } is yes when the files are counted ({ $done } of { $of }), { $rate } is the speed such as 24 MB, { $left } is the time left.
@@ -18,7 +19,7 @@ folders-progress-pace-wait =
 folders-progress-line = { $doing }: { $how }
 
 # The same with the words about the disk added; { $line } is the line above, { $heavy } the words about the disk.
-folders-progress-line-heavy = { $line } { $heavy }
+folders-progress-line-heavy = { $line }. { $heavy }
 
 # A speed or size in bytes; { $n } is the figure.
 folders-progress-speed-bytes = { $n } байт
@@ -88,7 +89,7 @@ folders-progress-waiting = ждёт ответа
 folders-progress-paused = приостановлено
 
 # Tip of the button on a paused piece of work's row that sets it going again.
-folders-progress-carry-on = Продолжить
+folders-progress-carry-on = Возобновить
 
 # Tip of the button on a piece of work's row that pauses it.
 folders-progress-pause = Приостановить
@@ -97,7 +98,7 @@ folders-progress-pause = Приостановить
 folders-progress-stop = Остановить
 
 # Under a file or folder in the name taken question: it is newer than the other and larger.
-folders-progress-mark-newer-larger = новее, больше
+folders-progress-mark-newer-larger = новее и больше
 
 # Under a file or folder in the name taken question: it is newer than the other.
 folders-progress-mark-newer = новее
@@ -117,7 +118,7 @@ folders-progress-taken =
     }
 
 # Heading over the file or folder that is being brought, in the name taken question.
-folders-progress-coming = Тот, который переносится
+folders-progress-coming = Новый
 
 # Heading over the file or folder that is already there, in the name taken question.
 folders-progress-there = Тот, который уже есть
@@ -134,7 +135,7 @@ folders-progress-replace = Заменить
 
 # Screen reader name of the Replace button for a folder in the name taken question.
 # SAFETY: needs a human review before it ships
-folders-progress-replace-folder-spoken = Заменить: папка, которая уже есть, будет перемещена в Корзину
+folders-progress-replace-folder-spoken = Заменить и переместить уже имеющуюся папку в Корзину
 
 # Main button of the name taken question for a folder: join the two folders.
 # SAFETY: needs a human review before it ships
@@ -142,11 +143,11 @@ folders-progress-merge = Объединить
 
 # Line over the switch in the name taken question for folders.
 # SAFETY: needs a human review before it ships
-folders-progress-all-folders = Один и тот же ответ для всех папок, которые уже есть.
+folders-progress-all-folders = Использовать этот ответ для всех папок, которые уже есть.
 
 # Line over the switch in the name taken question for files.
 # SAFETY: needs a human review before it ships
-folders-progress-all-files = Один и тот же ответ для всех файлов, которые уже есть.
+folders-progress-all-files = Использовать этот ответ для всех файлов, которые уже есть.
 
 # Name and tip of the switch in the name taken question that uses the answer for the rest.
 # SAFETY: needs a human review before it ships

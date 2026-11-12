@@ -1,37 +1,37 @@
 # machine translated (Russian), not yet reviewed by a person.
 
 # Words in the quick look when a page of a PDF could not be drawn; the page number.
-folders-preview-page-failed = Не удалось отрисовать страницу { $page }.
+folders-preview-page-failed = Не удалось показать страницу { $page }.
 
 # Red notice at the foot of Folders when the rest of a long text could not be read; the reason.
 folders-preview-rest-failed = Не удалось прочитать остальное: { $why }
 
 # Words in the quick look when a file on a server could not be fetched; the reason.
-folders-preview-fetch-failed = Не удалось получить файл: { $why }
+folders-preview-fetch-failed = Не удалось загрузить файл: { $why }
 
 # Words in the quick look when a file's name says it is one kind but inside it is not; the kind, such as PDF or picture.
-folders-preview-broken = По имени это { $what }, но внутри это не так. Файл может быть повреждён или обрезан.
+folders-preview-broken = По имени это { $what }, но содержимое не соответствует. Файл может быть повреждён или неполон.
 
 # Words in the quick look when a picture is too large to show; the size in millions of pixels, a number.
-folders-preview-too-large-pixels = Это изображение слишком велико, чтобы показать его здесь: { $millions } млн пикселей.
+folders-preview-too-large-pixels = Это изображение слишком велико, чтобы показать его здесь. В нём { $millions } млн пикселей.
 
 # Words in the quick look when a picture is too large to show; its size in bytes, as words such as 12.0 MB.
-folders-preview-too-large-bytes = Это изображение слишком велико, чтобы показать его здесь: { $size }.
+folders-preview-too-large-bytes = Это изображение слишком велико, чтобы показать его здесь. Его размер: { $size }.
 
 # Words in the quick look for a kind of file that cannot be shown.
-folders-preview-other = Файл такого типа нельзя показать здесь. Откройте его в своей программе.
+folders-preview-other = Folders не может показать файл такого типа. Откройте его в своей программе.
 
 # Words in the quick look when a file could not be read; the reason.
 folders-preview-unread = Не удалось прочитать: { $why }
 
 # Tip of the round button under a long text in the quick look that reads the next part.
-folders-preview-read-more = Прочитать следующую часть
+folders-preview-read-more = Показать ещё
 
 # Line under a text in the quick look, for a name with an ending: how it is encoded, such as UTF-8.
 folders-preview-text = { $encoding }
 
 # Line under a long text in the quick look when only the first part is read: the encoding, then how much is read, as words such as 64 KB.
-folders-preview-text-so-far = { $encoding }, пока прочитано: { $size }
+folders-preview-text-so-far = { $encoding }, показаны первые { $size }
 
 # Line under a picture in the quick look: its width and height in pixels.
 folders-preview-picture-size = { $w } на { $h } пикселей
@@ -52,16 +52,16 @@ folders-preview-page-after = Следующая страница (Page Down)
 folders-preview-pdf = Документ PDF
 
 # Words in the quick look while a page of a PDF is being drawn.
-folders-preview-drawing = Отрисовка страницы…
+folders-preview-drawing = Загрузка страницы…
 
 # Words under a font in the quick look once it is installed.
-folders-preview-font-installed = Установлен для вас: приложения, запущенные теперь, смогут его использовать.
+folders-preview-font-installed = Установлен для вас. Приложения, которые вы откроете с этого момента, смогут его использовать.
 
 # Button under a font in the quick look that installs it.
-folders-preview-font-install = Установить для себя
+folders-preview-font-install = Установить шрифт
 
 # Words in the quick look when a sound or video cannot be played.
-folders-preview-unplayable = Это нельзя воспроизвести. Файл может быть повреждён или иметь тип, который ffmpeg не воспроизводит.
+folders-preview-unplayable = Folders не может это воспроизвести. Файл может быть повреждён или иметь формат, который ffmpeg не воспроизводит.
 
 # Line under a video in the quick look: width and height in pixels.
 folders-preview-video = { $w } на { $h }
@@ -118,7 +118,7 @@ folders-preview-volume = Громкость
 folders-preview-kind-text = Текст, { $encoding }
 
 # The same, while only the first part is read.
-folders-preview-kind-text-so-far = Текст, { $encoding }, пока прочитано: { $size }
+folders-preview-kind-text-so-far = Текст, { $encoding }, показаны первые { $size }
 
 # Under a video's quick look, for a name with no ending.
 folders-preview-kind-video = Видео, { $w } на { $h }

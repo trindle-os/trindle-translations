@@ -11,19 +11,19 @@ folders-dialogs-home = Persönlicher Ordner
 folders-dialogs-open-with-title = { $name } öffnen mit
 
 # Small line beside the app that opens the file now, in the Open with list.
-folders-dialogs-opens-now = Öffnet es jetzt
+folders-dialogs-opens-now = Aktuelle App
 
 # Note in the Open with window when no app says it opens this kind of file.
-folders-dialogs-no-apps = Keine App auf diesem Computer gibt an, diese Art von Datei öffnen zu können.
+folders-dialogs-no-apps = Keine App auf diesem Computer ist dafür eingerichtet, diese Art von Datei zu öffnen.
 
 # Name of the switch in the Open with window that makes the chosen app the usual one for this kind of file.
-folders-dialogs-always-use = Immer verwenden
+folders-dialogs-always-use = Diese App immer verwenden
 
 # Line under the Always use it switch; the kind of file, such as text/plain.
 folders-dialogs-always-sub = Für jede Datei vom Typ { $kind }.
 
 # Tip and spoken name of the Always use it switch.
-folders-dialogs-always-tip = Zur Standard-App für diesen Typ machen
+folders-dialogs-always-tip = Als Standard-App festlegen
 
 # Tip of the round button in the Open with window that shows only the apps that suit the file.
 folders-dialogs-show-suggested = Nur die vorgeschlagenen Apps zeigen
@@ -35,19 +35,19 @@ folders-dialogs-show-every = Alle Apps zeigen
 folders-dialogs-open = Öffnen
 
 # Red words when Open is pressed in the Open with window and no app is chosen.
-folders-dialogs-choose-app = Wähle eine App zum Öffnen aus.
+folders-dialogs-choose-app = Wähle zuerst eine App aus.
 
 # Red words when the chosen app could not be made the usual app; the app's name.
-folders-dialogs-usual-failed = { $name } konnte nicht zur Standard-App gemacht werden.
+folders-dialogs-usual-failed = Folders konnte { $name } nicht zur Standard-App machen.
 
 # Red words when the chosen app could not be started; the app's name.
-folders-dialogs-start-failed = { $name } konnte nicht gestartet werden.
+folders-dialogs-start-failed = Folders konnte { $name } nicht starten.
 
 # Heading of the Properties window.
 folders-dialogs-properties = Eigenschaften
 
 # Spoken name of the choice of pages at the top of the Properties window.
-folders-dialogs-properties-pages = Bereich der Eigenschaften
+folders-dialogs-properties-pages = Seiten der Eigenschaften
 
 # Name of the first page of Properties, with the name, kind, size and place.
 folders-dialogs-page-general = Allgemein
@@ -57,6 +57,8 @@ folders-dialogs-page-details = Details
 
 # Name of the page of Properties for sharing a folder on the home network.
 folders-dialogs-page-sharing = Freigabe
+
+
 
 # Label in Properties of the name of the file or folder.
 folders-dialogs-row-name = Name
@@ -114,7 +116,7 @@ folders-dialogs-size =
     }
 
 # Size shown in Properties before the first count comes in.
-folders-dialogs-size-adding = Wird zusammengezählt
+folders-dialogs-size-adding = Größe wird berechnet
 
 # Label in Properties of the row about checksums.
 folders-dialogs-checksums = Prüfsummen
@@ -123,10 +125,10 @@ folders-dialogs-checksums = Prüfsummen
 folders-dialogs-sums-work-out = Prüfsummen berechnen
 
 # Words beside the ring while a file's checksums are being worked out.
-folders-dialogs-sums-working = Wird berechnet
+folders-dialogs-sums-working = Prüfsummen werden berechnet
 
 # Red words in Properties when a file's checksums could not be worked out.
-folders-dialogs-sums-failed = Die Datei konnte nicht gelesen werden
+folders-dialogs-sums-failed = Folders konnte die Datei nicht lesen.
 
 # Placeholder of the box in Properties where a checksum is pasted to check the file against.
 folders-dialogs-sums-paste = Prüfsumme zum Vergleichen einfügen
@@ -140,6 +142,7 @@ folders-dialogs-sums-no-match = Keine Übereinstimmung
 # Label in Properties of the row with the box to check a checksum.
 folders-dialogs-sums-check = Prüfen
 
+
 # Heading of the Send to window: the name of the one item being sent, or how many items.
 folders-dialogs-send-title =
     { $n ->
@@ -148,7 +151,7 @@ folders-dialogs-send-title =
     }
 
 # Note in the Send to window saying what sending does.
-folders-dialogs-send-note = Dort wird eine Kopie angelegt; die Objekte bleiben, wo sie sind.
+folders-dialogs-send-note = Dadurch entsteht dort eine Kopie. Die Originale bleiben, wo sie sind.
 
 # Name of the place in the Send to list that is the folder open in the other pane; the folder's name.
 folders-dialogs-send-other = Der andere Bereich, { $name }
@@ -157,7 +160,7 @@ folders-dialogs-send-other = Der andere Bereich, { $name }
 folders-dialogs-columns-title = Spalten der Listenansicht
 
 # Note in the Columns window.
-folders-dialogs-columns-note = Name wird immer angezeigt. Spalten, die daneben nicht passen, entfallen, bis der Bereich breiter ist.
+folders-dialogs-columns-note = Name wird immer angezeigt. Spalten, die nicht passen, werden ausgeblendet, bis der Bereich breiter ist.
 
 # Heading over the columns that suit every file.
 folders-dialogs-columns-files = Dateien
@@ -169,7 +172,7 @@ folders-dialogs-columns-media = Musik, Fotos, PDFs
 folders-dialogs-columns-show = { $name } anzeigen
 
 # Red words when the choice of columns could not be saved.
-folders-dialogs-columns-failed = Die Spalten konnten nicht gespeichert werden.
+folders-dialogs-columns-failed = Folders konnte die Spalten nicht speichern.
 
 # Heading of the Folder colour window: the name of the one folder, or how many folders.
 folders-dialogs-colour-title =
@@ -179,16 +182,19 @@ folders-dialogs-colour-title =
     }
 
 # Tip of the round button, and the note beside it, in the Folder colour window that takes the colour away.
-folders-dialogs-colour-none = Keine eigene Farbe
+folders-dialogs-colour-none = Keine Farbe
 
 # Red words when the folder colour could not be saved.
-folders-dialogs-colour-failed = Die Ordnerfarbe konnte nicht gespeichert werden.
+folders-dialogs-colour-failed = Folders konnte die Ordnerfarbe nicht speichern.
 
-folders-dialogs-no-match = Keine App hat diese Wörter im Namen.
+
+folders-dialogs-no-match = Keine App passt zu diesen Wörtern.
+
 
 folders-dialogs-find-app = App suchen
 
+
 folders-dialogs-find-place = Ort suchen
 
-folders-dialogs-no-match-place = Kein Ort hat diese Wörter im Namen.
 
+folders-dialogs-no-match-place = Kein Ort passt zu diesen Wörtern.

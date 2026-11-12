@@ -8,7 +8,7 @@ folders-outside-wary-hidden = đã ẩn, hoặc nằm trong thư mục ẩn
 folders-outside-wary-holds = có các mục ẩn bên trong
 
 # Reason beside a dropped folder in the question card: it holds too much to look through beforehand.
-folders-outside-wary-deep = chứa quá nhiều để xem trước, nên các mục ẩn của nó không được mang vào
+folders-outside-wary-deep = có quá nhiều mục để kiểm tra, nên Folders sẽ bỏ qua các mục ẩn của nó
 
 # Reason beside a dropped thing in the question card: it is outside the person's home folder and drives.
 folders-outside-wary-system = nằm ngoài thư mục nhà và các ổ đĩa của bạn
@@ -47,21 +47,21 @@ folders-outside-title-copy =
 # SAFETY: needs a human review before it ships
 folders-outside-body-move =
     { $n ->
-       *[other] Một chương trình khác đã thả nó vào Thư mục và tự đặt tên. Chương trình nào cũng có thể đặt tên cho bất kỳ tệp nào, và những gì được nêu ở đây không phải toàn là tệp thông thường của bạn, nên sẽ không chuyển gì cho đến khi bạn đồng ý.
+       *[other] Một chương trình khác đã thả các mục này vào Folders. Chương trình nào cũng có thể thả bất kỳ tệp nào, và có thể có mục không phải tệp thông thường của bạn. Folders sẽ không di chuyển chúng cho đến khi bạn đồng ý.
     }
 
 # Words on the question card when the drop would be brought: why it is asked.
 # SAFETY: needs a human review before it ships
 folders-outside-body-bring =
     { $n ->
-       *[other] Một chương trình khác đã thả nó vào Thư mục và tự đặt tên. Chương trình nào cũng có thể đặt tên cho bất kỳ tệp nào, và những gì được nêu ở đây không phải toàn là tệp thông thường của bạn, nên sẽ không đưa gì vào cho đến khi bạn đồng ý.
+       *[other] Một chương trình khác đã thả các mục này vào Folders. Chương trình nào cũng có thể thả bất kỳ tệp nào, và có thể có mục không phải tệp thông thường của bạn. Folders sẽ không đưa chúng vào cho đến khi bạn đồng ý.
     }
 
 # Words on the question card when the drop would be copied: why it is asked.
 # SAFETY: needs a human review before it ships
 folders-outside-body-copy =
     { $n ->
-       *[other] Một chương trình khác đã thả nó vào Thư mục và tự đặt tên. Chương trình nào cũng có thể đặt tên cho bất kỳ tệp nào, và những gì được nêu ở đây không phải toàn là tệp thông thường của bạn, nên sẽ không sao chép gì cho đến khi bạn đồng ý.
+       *[other] Một chương trình khác đã thả các mục này vào Folders. Chương trình nào cũng có thể thả bất kỳ tệp nào, và có thể có mục không phải tệp thông thường của bạn. Folders sẽ không sao chép chúng cho đến khi bạn đồng ý.
     }
 
 # Tip of the round close button, and name of the main button, on the question card: leave what was dropped alone.
@@ -105,10 +105,10 @@ folders-outside-more = Và { $n } mục nữa.
 folders-outside-into = Vào { $into }.
 
 # Red words when something is dropped while the question card is still up.
-folders-outside-answer-first = Hãy trả lời câu hỏi về những gì đã thả vào trước.
+folders-outside-answer-first = Hãy trả lời câu hỏi về những gì bạn đã thả vào trước.
 
 # Red words when something is dropped while the last drop is still being looked at.
-folders-outside-still-looking = Mục thả vào gần nhất vẫn đang được xem xét.
+folders-outside-still-looking = Folders vẫn đang kiểm tra mục bạn thả vào gần nhất.
 
 # Red words when text, not files, is dropped on Folders.
 folders-outside-only-files = Ở đây chỉ có thể thả tệp và thư mục.
@@ -120,7 +120,7 @@ folders-outside-only-folders-pin = Chỉ có thể ghim thư mục vào thanh b�
 folders-outside-only-on-folder = Chỉ có thể thả vào một thư mục.
 
 # Red words when a dropped thing is no longer there; its name.
-folders-outside-gone = Không còn { $name } ở đó, nên không có gì được đưa vào.
+folders-outside-gone = { $name } không còn ở đó nữa, nên không có gì được sao chép hoặc di chuyển.
 
 # Red words when a folder is dropped into itself.
 folders-outside-inside-itself = Không thể đặt một thư mục vào chính nó.
@@ -129,10 +129,10 @@ folders-outside-inside-itself = Không thể đặt một thư mục vào chính
 folders-outside-already-there = Chúng đã ở trong thư mục đó rồi.
 
 # Red words when the place a drop is in does not answer in time; the name of the dropped thing.
-folders-outside-not-answering = Nơi chứa { $name } không phản hồi, nên không có gì được đưa vào.
+folders-outside-not-answering = Folders không kết nối được kịp với ổ đĩa chứa { $name }, nên không có gì được sao chép hoặc di chuyển.
 
 # Words when the question card is answered with no.
-folders-outside-nothing-brought = Không có gì được đưa vào.
+folders-outside-nothing-brought = Không có gì được sao chép hoặc di chuyển.
 
 # Name on the picture dragged out of Folders when several items are dragged to another program.
 folders-outside-items-dragged =
@@ -149,7 +149,7 @@ folders-outside-stayed-one = { $name } { $why }.
 # Red words when several dragged things changed after they were picked up, so they stayed; the count and their names.
 folders-outside-stayed-changed =
     { $n ->
-       *[other] { $n } mục đã thay đổi sau khi được nhấc lên, nên vẫn ở chỗ cũ: { $names }.
+       *[other] { $n } mục đã thay đổi sau khi bạn bắt đầu kéo, nên Folders để chúng ở chỗ cũ: { $names }.
     }
 
 # Red words when several dragged things stayed for different reasons; the count and each name with its reason.
@@ -165,10 +165,10 @@ folders-outside-stayed-each = { $name } ({ $why })
 folders-outside-both = { $first } { $second }
 
 # Red words when the other program took a move in a way that cannot show it read all of it.
-folders-outside-unshown = Chương trình kia đã nhận những gì được kéo theo cách không cho thấy là nó đã đọc hết, nên không có gì ở đây được chuyển đi: những gì nó có là bản sao.
+folders-outside-unshown = Folders không biết chương trình kia đã nhận đủ mọi thứ bạn kéo hay chưa, nên đã để các bản gốc ở đây. Chương trình kia có một bản sao.
 
 # Red words when the other program did not take all of a drag that was a move.
-folders-outside-short-move = Chương trình kia không nhận hết những gì được kéo, nên không có gì ở đây được chuyển đi.
+folders-outside-short-move = Chương trình kia không nhận hết những gì bạn kéo, nên Folders không di chuyển gì cả.
 
 # Red words when the other program did not take all of a drag that was a copy.
-folders-outside-short-copy = Chương trình kia không nhận hết những gì được kéo, nên có thể nó không có đủ tất cả.
+folders-outside-short-copy = Chương trình kia không nhận hết những gì bạn kéo, nên bản sao của nó có thể chưa đầy đủ.

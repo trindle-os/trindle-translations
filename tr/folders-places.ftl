@@ -20,7 +20,7 @@ folders-places-trash = Çöp kutusu
 folders-places-network = Ağ
 
 # Name on a tab of a search that has no words typed, only the choices beside the box.
-folders-places-found = Bulunanlar
+folders-places-found = Arama sonuçları
 
 # Name on a tab of a search for the words typed, which are in quotes.
 folders-places-found-text = “{ $text }”
@@ -35,5 +35,5 @@ folders-places-unread-denied = Bu klasörü açma izniniz yok.
 folders-places-unread-gone = Bu klasör artık yok.
 
 # Red words when a folder cannot be read for any other reason.
-folders-places-unread-other = Bu klasör okunamadı.
+folders-places-unread-other = Folders bu klasörü okuyamadı.
 

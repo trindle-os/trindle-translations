@@ -20,10 +20,10 @@ folders-earlier-day-line =
     }
 
 # Line over the list of an earlier copy, saying what it is and when it was made.
-folders-earlier-note-dated = एक पुरानी प्रति, जैसा यह { $when } था। इसमें कुछ भी बदला नहीं जा सकता: रखने के लिए चीज़ें इसमें से बाहर कॉपी करें।
+folders-earlier-note-dated = यह { $when } की एक पुरानी प्रति है। आप इसे बदल नहीं सकते, पर इसमें से चीज़ें कॉपी कर सकते हैं।
 
 # Line over the list of an earlier copy when its time is not known.
-folders-earlier-note = एक पुरानी प्रति। इसमें कुछ भी बदला नहीं जा सकता: रखने के लिए चीज़ें इसमें से बाहर कॉपी करें।
+folders-earlier-note = यह एक पुरानी प्रति है। आप इसे बदल नहीं सकते, पर इसमें से चीज़ें कॉपी कर सकते हैं।
 
 # Name on the tab of a folder shown as it was in an earlier copy.
 folders-earlier-tab-name = पुरानी: { $name }
@@ -33,19 +33,19 @@ folders-earlier-undo-put-back = { $name } को वापस रखना प�
 
 # Said under a version's row after it is put back and the file that was there is kept beside it.
 # SAFETY: needs a human review before it ships
-folders-earlier-put-back-kept = वापस रख दिया गया। जो वहाँ था, वह उसके बगल में सुरक्षित है।
+folders-earlier-put-back-kept = Folders ने इसे वापस रख दिया। मौजूदा वाली प्रति नए नाम से उसके बगल में है।
 
 # Said under a version's row after it is put back where it was.
-folders-earlier-put-back = उसी जगह वापस रख दिया गया।
+folders-earlier-put-back = Folders ने इसे उसी जगह वापस रख दिया।
 
 # Said under a version's row after comparing it with the one there now, when they hold the same.
-folders-earlier-same = इसमें वही है जो अभी वहाँ मौजूद प्रति में है।
+folders-earlier-same = यह मौजूदा प्रति जैसी ही है।
 
 # Said under a version's row after comparing it with the one there now, when they differ.
-folders-earlier-differs = यह अभी वहाँ मौजूद प्रति से अलग है।
+folders-earlier-differs = यह मौजूदा प्रति से अलग है।
 
 # Red words under a version's row when the two could not be compared; the reason follows.
-folders-earlier-compare-failed = उनकी तुलना नहीं की जा सकी: { $why }
+folders-earlier-compare-failed = Folders उनकी तुलना नहीं कर सका: { $why }
 
 # Menu row on a file's menu that shows its earlier versions.
 folders-earlier-menu-versions = पुराने संस्करण
@@ -57,70 +57,72 @@ folders-earlier-menu-deleted = यहाँ से हटाई गई चीज
 folders-earlier-versions-title = { $name } के पुराने संस्करण
 
 # Empty-state line on the earlier versions card when no copy differs from the current one.
-folders-earlier-versions-none = इसकी कोई भी पुरानी प्रति अभी वहाँ मौजूद प्रति से अलग नहीं है।
+folders-earlier-versions-none = कोई भी पुरानी प्रति मौजूदा प्रति से अलग नहीं है।
 
 # Note at the foot of the earlier versions card about what putting one back does.
 # SAFETY: needs a human review before it ships
-folders-earlier-versions-foot = किसी को वापस रखने पर अभी वाली प्रति उसके बगल में सुरक्षित रहती है, और पूर्ववत करने से यह कदम वापस हो जाता है।
+folders-earlier-versions-foot = किसी को वापस रखने पर मौजूदा प्रति उसके बगल में रहती है। आप इसे पूर्ववत कर सकते हैं।
 
 # Title of the card that lists what was deleted from a folder.
 folders-earlier-deleted-title = { $name } से हटाई गई चीज़ें
 
 # Empty-state line on the deleted things card when nothing is missing from the folder.
-folders-earlier-deleted-none = पुरानी प्रति में इस फ़ोल्डर में जो कुछ था, उसमें से अब कुछ भी गायब नहीं है।
+folders-earlier-deleted-none = पुरानी प्रतियों में से कुछ भी इस फ़ोल्डर से मिटाया नहीं गया है।
 
 # Note at the foot of the deleted things card about what putting one back does.
 # SAFETY: needs a human review before it ships
-folders-earlier-deleted-foot = किसी को वापस रखने पर वह इस फ़ोल्डर में लौट आता है, और पूर्ववत करने से यह कदम वापस हो जाता है।
+folders-earlier-deleted-foot = किसी को वापस रखने पर वह इस फ़ोल्डर में लौट आता है। आप इसे पूर्ववत कर सकते हैं।
 
 # Second line of a row for a folder on the earlier versions card.
 folders-earlier-folder-then = फ़ोल्डर जैसा वह तब था
 
 # Second line of a row for a file version: its size and the date of the copy it comes from.
-folders-earlier-version-line = { $size }, { $date } की प्रति से
+folders-earlier-version-line = { $size }, { $date } को बनाई गई प्रति से
 
 # Second line of a row for a deleted folder: when it was last kept.
-folders-earlier-deleted-folder-line = एक फ़ोल्डर, आखिरी बार { $when } सहेजा गया
+folders-earlier-deleted-folder-line = एक फ़ोल्डर, आखिरी बार { $when } देखा गया
 
 # Second line of a row for a deleted file: its size and when it was last kept.
-folders-earlier-deleted-line = { $size }, आखिरी बार { $when } सहेजा गया
+folders-earlier-deleted-line = { $size }, आखिरी बार { $when } देखा गया
 
 # Second line of a version's row while it is being put back or compared.
 folders-earlier-working = काम जारी है…
 
 # Tip and name of the round button on an earlier folder's row that opens that day's folder in a new tab.
-folders-earlier-open-folder-tip = उस दिन का फ़ोल्डर नए टैब में देखने के लिए खोलें
+folders-earlier-open-folder-tip = उस दिन का फ़ोल्डर नए टैब में खोलें
 
 # Tip and name of the round button on an earlier file's row that opens it to look at.
-folders-earlier-open-tip = देखने के लिए खोलें
+folders-earlier-open-tip = खोलें
 
 # Tip and name of the round button on a row of the earlier versions card that puts it back.
 folders-earlier-put-back-tip = वापस रखें
 
 # Tip and name of the round button on an earlier version's row that compares it with the one there now.
-folders-earlier-compare-tip = दोनों को पढ़ें और बताएँ कि उनमें वही है या नहीं
+folders-earlier-compare-tip = मौजूदा प्रति से तुलना करें
 
 # Red words when what is given to put back is not one of the earlier versions.
-folders-earlier-put-back-not-version = यह कोई पुराना संस्करण नहीं है।
+folders-earlier-put-back-not-version = यह पहले का संस्करण नहीं है।
 
 # Red words when an earlier version is asked to be put back outside the home folder.
-folders-earlier-put-back-home-only = पुराना संस्करण सिर्फ़ होम फ़ोल्डर के अंदर वापस रखा जा सकता है।
+folders-earlier-put-back-home-only = आप पहले का संस्करण केवल अपने होम फ़ोल्डर के भीतर वापस रख सकते हैं।
 
 # Red words when the place to put an earlier version back has no usable name.
-folders-earlier-put-back-no-place = फ़ाइल यहाँ नहीं रखी जा सकती।
+folders-earlier-put-back-no-place = Folders फ़ाइल को वहाँ वापस नहीं रख सकता।
 
 # Red words when the folder an earlier version was in cannot be made again; why it failed.
-folders-earlier-put-back-folder-lost = जिस फ़ोल्डर में वह था, उसे दोबारा नहीं बनाया जा सका: { $why }
+folders-earlier-put-back-folder-lost = Folders वह फ़ोल्डर दोबारा नहीं बना सका जिसमें वह था: { $why }
 
 # Red words when copying an earlier version back fails; why it failed.
-folders-earlier-put-back-copy-failed = पुराना संस्करण कॉपी नहीं हो सका: { $why }
+folders-earlier-put-back-copy-failed = Folders पहले का संस्करण कॉपी नहीं कर सका: { $why }
 
 # Red words when what is there now cannot be set aside before putting an earlier version back; why it failed.
-folders-earlier-put-back-aside-failed = जो अभी वहाँ है उसे एक तरफ़ नहीं रखा जा सका: { $why }
+# SAFETY: needs a human review before it ships
+folders-earlier-put-back-aside-failed = Folders मौजूदा प्रति को अलग नहीं रख सका: { $why }
 
 # Red words when the earlier version could not be put in place and what was there has been left under another name; why it failed, then that name.
-folders-earlier-put-back-in-place-named = पुराना संस्करण अपनी जगह पर नहीं रखा जा सका: { $why }। जो वहाँ था, उसका नाम अब { $name } है।
+# SAFETY: needs a human review before it ships
+folders-earlier-put-back-in-place-named = Folders पहले का संस्करण वापस नहीं रख सका: { $why }। मौजूदा प्रति का नाम अब { $name } है।
 
 # Red words when the earlier version could not be put in place; why it failed.
-folders-earlier-put-back-in-place = पुराना संस्करण अपनी जगह पर नहीं रखा जा सका: { $why }
-
+# SAFETY: needs a human review before it ships
+folders-earlier-put-back-in-place = Folders पहले का संस्करण वापस नहीं रख सका: { $why }

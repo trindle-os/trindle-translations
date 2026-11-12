@@ -2,19 +2,19 @@
 # machine translated (Spanish), not yet reviewed by a person.
 
 # Words under the file lines when copy, cut or paste is tried on a server's files.
-folders-act-far-clip = Usa los botones de copiar y mover entre los paneles para los archivos de un servidor.
+folders-act-far-clip = Cortar, copiar y pegar no funcionan con archivos de un servidor. Usa en su lugar los botones de copiar y mover entre los paneles.
 
 # Words under the file lines when something is tried that would change what is inside an archive.
-folders-act-shut = Aquí no se cambia nada dentro de un archivo comprimido. Extrae primero lo que necesites.
+folders-act-shut = No se puede cambiar nada dentro de un archivo comprimido. Extrae primero lo que necesites.
 
 # Words on a finished job when files that another program cut were pasted: they are copied.
-folders-act-cut-elsewhere = Copiado: cortado en otra aplicación.
+folders-act-cut-elsewhere = Esto se cortó en otra aplicación, así que Folders lo copió en su lugar.
 
 # Words under the file lines when something is picked that is already being copied or moved.
-folders-act-being-moved = Ya se está copiando o moviendo.
+folders-act-being-moved = Esto ya se está copiando o moviendo.
 
 # Words under the file lines when a copy that is not whole yet is picked.
-folders-act-arriving = Aún está llegando.
+folders-act-arriving = Esto aún se está copiando aquí.
 
 # Part of the question about a name already taken: a folder that holds this many things or more.
 folders-act-holds-most = 10 000 elementos o más
@@ -140,7 +140,7 @@ folders-act-verb-wiped = borrar de forma segura
 folders-act-taking-out = Sacando { $what }
 
 # Words under the file lines when things were taken out of an archive: what, and where to.
-folders-act-took-out = Se sacó { $what } a { $place }.
+folders-act-took-out = Se sacó { $what } del archivo comprimido a { $place }.
 
 # The word for what was tried, put in 'could not be ...' when taking things out of an archive failed.
 folders-act-verb-taken-out = sacar
@@ -176,22 +176,22 @@ folders-act-new-folder = Carpeta nueva
 folders-act-new-document = Documento nuevo
 
 # Red words when a new folder or document could not be made; its name, then the reason.
-folders-act-make-failed = No se pudo crear { $base }: { $why }.
+folders-act-make-failed = Folders no pudo crear { $base }: { $why }.
 
 # Red words under a name being typed when it is empty.
-folders-act-name-empty = El nombre no puede estar vacío.
+folders-act-name-empty = Escribe un nombre.
 
 # Red words under a name being typed when it has a slash.
 folders-act-name-slash = El nombre no puede contener una barra.
 
 # Red words under a name being typed when it is . or ..
-folders-act-name-kept = Ese nombre está reservado para el sistema.
+folders-act-name-kept = El sistema usa ese nombre. Elige otro.
 
 # Red words under a name being typed when it is too long.
 folders-act-name-long = Ese nombre es demasiado largo.
 
 # Red words under the file lines when a piece of work could not be started.
-folders-act-no-start = No se pudo iniciar el trabajo.
+folders-act-no-start = Folders no pudo iniciar este trabajo.
 
 # Tip of the Redo button after a step was undone; what the step was. Every undo and redo tip begins the same way.
 folders-act-redo-label = Rehacer { $what }
@@ -200,13 +200,16 @@ folders-act-redo-label = Rehacer { $what }
 folders-act-undo-label = Deshacer { $what }
 
 # Words under the file lines when work was stopped before it was done.
-folders-act-stopped = Se detuvo a medias.
+folders-act-stopped = El trabajo se detuvo antes de terminar.
 
 # Words under the file lines when work finished but some things were skipped; what was done, then how many were skipped.
-folders-act-skipped = { $done } { $n } omitidos.
+folders-act-skipped = { $done } { $n ->
+        [one] Folders omitió un elemento.
+       *[other] Folders omitió { $n } elementos.
+    }
 
 # Words under the file lines when an action needs something picked and nothing is.
-folders-act-pick-first = Elige algo primero.
+folders-act-pick-first = Selecciona algo primero.
 
 # Words under the file lines when something already in the Trash is put there again.
 folders-act-in-trash = Eso ya está en la Papelera.
@@ -215,25 +218,25 @@ folders-act-in-trash = Eso ya está en la Papelera.
 folders-act-far-trash = Los archivos de un servidor no pueden ir a la Papelera. Usa Eliminar permanentemente.
 
 # Words under the file lines when the copy or move button is pressed with nothing picked.
-folders-act-pick-copy-move = Elige primero algo que copiar o mover.
+folders-act-pick-copy-move = Selecciona primero algo que copiar o mover.
 
 # Words under the file lines when things from an archive are sent anywhere but a folder.
 folders-act-archive-out = Solo se puede extraer de un archivo comprimido hacia una carpeta.
 
 # Words under the file lines when a copy is sent to the Trash.
-folders-act-copy-trash = Las copias no pueden ir a la Papelera.
+folders-act-copy-trash = No puedes copiar cosas a la Papelera.
 
 # Words under the file lines when the copy or move button finds the other pane showing no folder.
 folders-act-other-pane = El otro panel no muestra una carpeta.
 
 # Words under the file lines when Copy is used with nothing picked.
-folders-act-pick-copy = Elige primero algo que copiar.
+folders-act-pick-copy = Selecciona primero algo que copiar.
 
 # Words under the file lines after Cut: what was cut.
-folders-act-cut-said = Se cortó { $what }. Pégalo en una carpeta.
+folders-act-cut-said = Se cortó { $what }.
 
 # Words under the file lines after Copy: what was copied.
-folders-act-copied-said = Se copió { $what }. Pégalo en una carpeta.
+folders-act-copied-said = Se copió { $what }.
 
 # Words under the file lines when Paste is used where there is no folder.
 folders-act-paste-folder = Solo se puede pegar en una carpeta.
@@ -251,22 +254,22 @@ folders-act-network-delete = Los lugares de red no se pueden eliminar desde aqu�
 folders-act-trash-empty = La Papelera ya está vacía.
 
 # Words under the file lines when Put back is used with nothing picked in the Trash.
-folders-act-pick-trash = Elige primero algo en la Papelera.
+folders-act-pick-trash = Selecciona primero algo en la Papelera.
 
 # Name given to a second, third and later new folder or document on a server: the usual name, then a number.
 folders-act-new-numbered = { $base } { $n }
 
 # Words under the file lines while a new folder or document is made on a server.
-folders-act-making = Creando { $name }.
+folders-act-making = Creando { $name }
 
 # Words under the file lines when New folder or New document is used where there is no folder.
-folders-act-make-folder-only = Solo se pueden crear cosas nuevas dentro de una carpeta.
+folders-act-make-folder-only = Solo puedes crear una carpeta nueva o un documento nuevo dentro de una carpeta.
 
 # Tip of the Undo button after a folder, document or link was made.
 folders-act-undo-making = Deshacer la creación de { $name }
 
-# Red words under the file lines when folder colours and emblems could not follow things that were moved.
-folders-act-colours-lost = Los colores no pudieron seguir a lo que se movió.
+# Red words under the file lines when folder colours could not follow things that were moved.
+folders-act-colours-lost = Folders no pudo mantener los colores de carpeta en los elementos que movió.
 
 # Words under the file lines when Redo is used and there is nothing to redo.
 folders-act-nothing-redo = No hay nada que rehacer.
@@ -316,9 +319,7 @@ folders-act-links-failed =
     }
 
 # Words under the file lines when the window is closed while work waits for an answer.
-folders-act-closing-waits = Hay trabajo esperando una respuesta. Respóndela o detén el trabajo antes de cerrar.
-
+folders-act-closing-waits = Hay una pregunta esperando tu respuesta. Respóndela o detén el trabajo antes de cerrar Folders.
 
 # Words under the file lines when the window is closed while work goes on.
-folders-act-closing-busy = Folders no se puede cerrar hasta que termine la transferencia. Espera a que acabe, o detenla, y luego cierra.
-
+folders-act-closing-busy = Folders no se puede cerrar mientras haya un trabajo en curso. Espera a que termine, o deténlo, y luego cierra Folders.

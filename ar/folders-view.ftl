@@ -8,12 +8,11 @@ folders-view-empty-trash-title = إفراغ سلة المهملات؟
 # SAFETY: needs a human review before it ships
 folders-view-empty-trash-body =
     { $n ->
-        [one] سيُحذف العنصر الوحيد فيها نهائيًا. لا يمكن التراجع عن ذلك.
-        [two] سيُحذف العنصران فيها نهائيًا. لا يمكن التراجع عن ذلك.
-        [few] ستُحذف جميع العناصر الـ{ $n } فيها نهائيًا. لا يمكن التراجع عن ذلك.
-        [many] ستُحذف جميع العناصر الـ{ $n } فيها نهائيًا. لا يمكن التراجع عن ذلك.
-        [zero] ستُحذف جميع العناصر الـ{ $n } فيها نهائيًا. لا يمكن التراجع عن ذلك.
-       *[other] ستُحذف جميع العناصر الـ{ $n } فيها نهائيًا. لا يمكن التراجع عن ذلك.
+        [one] سيُحذف العنصر الموجود فيها نهائيًا. لا يمكنك التراجع عن هذا.
+        [two] سيُحذف العنصران فيها نهائيًا. لا يمكنك التراجع عن هذا.
+        [few] ستُحذف جميع العناصر الـ{ $n } فيها نهائيًا. لا يمكنك التراجع عن هذا.
+        [many] ستُحذف جميع العناصر الـ{ $n } فيها نهائيًا. لا يمكنك التراجع عن هذا.
+       *[other] ستُحذف جميع العناصر الـ{ $n } فيها نهائيًا. لا يمكنك التراجع عن هذا.
     }
 
 # Red button of the question asked before the Trash is emptied: empties it at once.
@@ -28,13 +27,12 @@ folders-view-delete-title =
         [two] حذف هذين العنصرين نهائيًا؟
         [few] حذف هذه العناصر الـ{ $n } نهائيًا؟
         [many] حذف هذه العناصر الـ{ $n } نهائيًا؟
-        [zero] حذف هذه العناصر الـ{ $n } نهائيًا؟
        *[other] حذف هذه العناصر الـ{ $n } نهائيًا؟
     }
 
 # Text of the question asked before items are deleted for good.
 # SAFETY: needs a human review before it ships
-folders-view-delete-body = لا يمكن التراجع عن ذلك.
+folders-view-delete-body = لا يمكنك التراجع عن هذا.
 
 # Red button of the question asked before items are deleted for good: deletes them at once.
 # SAFETY: needs a human review before it ships
@@ -49,6 +47,9 @@ folders-view-drop-title = إلى أين تذهب؟
 
 # Tip of the round close button of the window that asks where dropped items should go: leaves them where they are.
 folders-view-drop-leave = اتركها حيث هي
+
+
+
 
 # Tip of the toolbar button that shows a folder as icons.
 folders-view-icons = أيقونات
@@ -70,6 +71,10 @@ folders-view-sort-by = رتّب حسب
 
 # Name read out for the toolbar's Group by strip.
 folders-view-group-by = جمّع حسب
+
+
+
+
 
 # Tip of the toolbar button that hides the preview panel.
 folders-view-panel-hide = أخفِ لوحة المعاينة (Alt+P)
@@ -93,7 +98,12 @@ folders-view-tabs-right = ألسنة اللوحة اليمنى
 folders-view-tab-new = لسان جديد (Ctrl+T)
 
 # Tip of the button that closes the tab showing.
-folders-view-tab-close = أغلق اللسان (Ctrl+W، أو نقرة بالزر الأوسط عليه)
+folders-view-tab-close = أغلق اللسان (Ctrl+W)
+
+
+
+
+
 
 # Side bar row that opens the Home folder.
 folders-view-home = الرئيسي
@@ -115,6 +125,8 @@ folders-view-shares = المشاركات
 
 # Tip of the side bar button that closes an open Windows share; name is the share.
 folders-view-share-close = أغلق { $name }
+
+
 
 # Tip of the button that opens the window to connect to a server, and the button of the empty Network page that does the same.
 folders-view-connect = اتصل بخادم
@@ -167,7 +179,7 @@ folders-view-compare =
 folders-view-locate-hint = اكتب مجلدًا أو ملفًا أو عنوان خادم
 
 # Name read out for the path above a pane's list.
-folders-view-where = مكان هذه اللوحة
+folders-view-where = الموقع
 
 # Tip of the pane's Back button.
 folders-view-back = رجوع (Alt+Left)
@@ -178,23 +190,26 @@ folders-view-forward = تقدّم (Alt+Right)
 # Tip of the pane's button that goes up one folder.
 folders-view-up = مجلد أعلى (Alt+Up)
 
+
+
 # Placeholder of the filter box above a pane's list.
-folders-view-filter-hint = رشّح، أو اضغط Enter للبحث في هذا المجلد وما تحته
+folders-view-filter-hint = رشّح، أو اضغط Enter للبحث في هذا المجلد ومجلداته الفرعية
 
 # Tip of the button beside the filter box that finds things by name here and below.
-folders-view-find-name = ابحث بالاسم هنا وفيما تحته
+folders-view-find-name = ابحث في الأسماء، بما فيها المجلدات الفرعية
 
 # Tip of the button beside the filter box that finds words inside files here and below.
-folders-view-find-inside = ابحث عن كلمات داخل الملفات هنا وفيما تحته
+folders-view-find-inside = ابحث داخل الملفات، بما فيها المجلدات الفرعية
+
 
 # Name read out for the list that picks which kind of thing to show.
-folders-view-find-kind = نوع ما يُعرض
+folders-view-find-kind = النوع
 
 # Name read out for the list that picks which size to show.
-folders-view-find-size = الحجم المعروض
+folders-view-find-size = الحجم
 
 # Name read out for the list that picks when things were last changed.
-folders-view-find-changed = وقت آخر تغيير
+folders-view-find-changed = آخر تغيير
 
 # Placeholder of the box in which an item is renamed; was is its present name.
 folders-view-rename-hint = اسم جديد لـ{ $was }
@@ -212,7 +227,7 @@ folders-view-status-selected = { $count } محدد، { $size }
 folders-view-status-then = { $first }. { $then }
 
 # Tip of the small round i at a pane's foot that lists the files words there are about, each with its reason.
-folders-view-listed = أي ملفات، ولماذا
+folders-view-listed = اعرض الملفات المعنية بهذا
 
 # Tip of the button on an empty or failed pane that reads the place again.
 folders-view-try-again = حاول مرة أخرى
@@ -228,7 +243,7 @@ folders-view-none-matches = لا شيء هنا يطابق المرشّح
 folders-view-show-everything = أظهر كل شيء
 
 # Line on the Recent page when nothing was opened lately.
-folders-view-none-recent = لم يُفتح شيء مؤخرًا
+folders-view-none-recent = لم تفتح شيئًا مؤخرًا
 
 # Button on the empty Recent page that goes to the Home folder.
 folders-view-go-home = اذهب إلى الرئيسي
@@ -267,7 +282,6 @@ folders-view-items =
         [two] عنصران
         [few] { $n } عناصر
         [many] { $n } عنصرًا
-        [zero] { $n } عنصر
        *[other] { $n } عنصر
     }
 
@@ -297,25 +311,23 @@ folders-view-shares-down =
 # Tip of the round button that lets a network share that is not connected go from the list; its name.
 folders-view-forget-share = نسيان { $name }
 
-
-
 # Name read out for the top bar's button that shows two panes side by side, or one.
-folders-view-two-panes = لوحان
+folders-view-two-panes = لوحتان
 
 # Tip of the top bar's two panes button, while one pane shows.
-folders-view-panes-two = عرض لوحين جنبًا إلى جنب (F3)
+folders-view-panes-two = أظهر لوحتين جنبًا إلى جنب (F3)
 
 # Tip of the top bar's two panes button, while two panes show.
-folders-view-panes-one = عرض لوح واحد (F3)
+folders-view-panes-one = أظهر لوحة واحدة (F3)
 
 # Tip and spoken name of the top bar's button that opens the View menu.
-folders-view-view = العرض: كيفية عرض العناصر وترتيبها وتجميعها
+folders-view-view = عرض
 
 # Words of the top bar's button that opens the New menu (New folder, New document).
 folders-view-new = جديد
 
 # Tip and spoken name of the top bar's button that opens the More menu (Undo, Redo, settings).
-folders-view-more = المزيد: تراجع وإعادة وإعدادات
+folders-view-more = المزيد من الخيارات
 
 # Row of the More menu that undoes the last change.
 folders-view-more-undo = تراجع
@@ -324,34 +336,31 @@ folders-view-more-undo = تراجع
 folders-view-more-redo = إعادة
 
 # Row of the View menu that turns the sort round.
-folders-view-sort-other-way = الترتيب بالعكس
-
-# Row under the Network heading of the side bar: the computers found nearby.
-folders-view-network-nearby = حواسيب قريبة
-
-# Choice at the start of the line under a pane's path: search or filter here (Ctrl+F).
-folders-view-search = بحث
-
-# Placeholder of the box in which the name the side bar shows for a pinned folder is typed; was is the folder's own name.
-folders-view-pin-name-hint = الاسم المعروض لـ{ $was }
-
-
-# Tip of the Search button while the search box shows.
-folders-view-search-close = إظهار المسار مرة أخرى (Esc)
-
-# Tip of the Search button, greyed, on the page of every drive.
-folders-view-search-none = لا يوجد ما يمكن البحث عنه في هذه الصفحة
-
-# Name read out for the Search button, which says whether it is pressed.
-folders-view-search-spoken = بحث
-
+folders-view-sort-other-way = رتّب بالاتجاه المعاكس
 
 # Tip of the toolbar button that shows hidden files (Ctrl+H).
-folders-view-hidden-show = إظهار الملفات المخفية (Ctrl+H)
+folders-view-hidden-show = أظهر الملفات المخفية (Ctrl+H)
 
 # Tip of the toolbar button that hides hidden files again (Ctrl+H).
-folders-view-hidden-hide = إخفاء الملفات المخفية (Ctrl+H)
+folders-view-hidden-hide = أخفِ الملفات المخفية (Ctrl+H)
 
 # Name read out for the toolbar button that shows or hides hidden files.
 folders-view-hidden-spoken = الملفات المخفية
 
+# Row under the Network heading of the side bar: the computers found nearby.
+folders-view-network-nearby = حواسيب قريبة
+
+# Tip of the Search button in the top row while the path shows.
+folders-view-search = بحث (Ctrl+F)
+
+# Tip of the Search button while the search box shows.
+folders-view-search-close = إغلاق البحث (Escape)
+
+# Tip of the Search button, greyed, on the page of every drive.
+folders-view-search-none = لا يمكنك البحث في هذه الصفحة
+
+# Name read out for the Search button, which says whether it is pressed.
+folders-view-search-spoken = بحث
+
+# Placeholder of the box in which the name the side bar shows for a pinned folder is typed; was is the folder's own name.
+folders-view-pin-name-hint = الاسم في الشريط الجانبي لـ { $was }

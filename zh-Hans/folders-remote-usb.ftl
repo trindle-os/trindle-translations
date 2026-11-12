@@ -15,7 +15,7 @@ folders-remote-usb-busy = 手机
 folders-remote-usb-stopped = 手机不再响应了。
 
 # Red words when the phone refused a request.
-folders-remote-usb-refused = 手机拒绝了该操作。
+folders-remote-usb-refused = 手机上没能完成该操作。
 
 # Red words when the phone took only part of what was sent.
 folders-remote-usb-part = 手机只接收了所发送内容的一部分。

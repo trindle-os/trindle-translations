@@ -8,10 +8,13 @@ folders-inside-pick-first = Hãy chọn một mục trong tệp nén trước.
 folders-inside-only-here = Chỉ có thể giải nén vào một thư mục trên máy tính này.
 
 # Red notice at the foot of Folders when an archive cannot be read: its name, then the reason (a short phrase).
-folders-inside-unread = Không thể đọc { $name }: { $why }.
+folders-inside-unread = Folders không thể đọc { $name }: { $why }.
 
 # Red notice at the foot of Folders when some things taken out of an archive were refused because their names reach outside the folder; the number refused.
-folders-inside-refused = Không thể giải nén { $n } mục, vì tên của chúng trỏ ra ngoài thư mục hoặc có thứ gì đó đang cản trở.
+folders-inside-refused =
+    { $n ->
+       *[other] Folders không thể giải nén { $n } mục, vì tên của chúng trỏ ra ngoài thư mục hoặc có thứ gì đó đang cản trở.
+    }
 
 # Red notice at the foot of Folders when taking something out of an archive failed; the reason.
-folders-inside-failed = Không thể giải nén khỏi tệp nén: { $why }.
+folders-inside-failed = Folders không thể giải nén nó khỏi tệp nén: { $why }.

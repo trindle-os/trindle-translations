@@ -12,10 +12,10 @@ folders-locked-password = Passwort
 
 # Line under the password box before anything has been tried: says the password is not saved.
 # SAFETY: needs a human review before it ships
-folders-locked-kept-note = Wird nur gemerkt, solange dieses Archiv geöffnet ist, und nie gespeichert.
+folders-locked-kept-note = Folders vergisst es, wenn das Archiv geschlossen wird.
 
 # Words beside the spinning ring on the password card while a password is being tried.
-folders-locked-trying = Wird ausprobiert
+folders-locked-trying = Das Passwort wird ausprobiert
 
 # Title of the password card; the variable is the archive's name.
 # SAFETY: needs a human review before it ships
@@ -30,7 +30,7 @@ folders-locked-is-locked = { $name } ist mit einem Passwort gesperrt.
 
 # Notice shown when another card is already open and an archive needs its password; the variable is the archive's name.
 # SAFETY: needs a human review before it ships
-folders-locked-open-again = { $name } ist mit einem Passwort gesperrt. Öffne es noch einmal, um es einzugeben.
+folders-locked-open-again = { $name } ist mit einem Passwort gesperrt. Öffne es noch einmal, um das Passwort einzugeben.
 
 # Notice shown when a locked archive cannot be read whatever the password; the variables are the archive's name and the reason.
-folders-locked-could-not-read = { $name } konnte nicht gelesen werden: { $why }.
+folders-locked-could-not-read = Folders konnte { $name } nicht lesen: { $why }.

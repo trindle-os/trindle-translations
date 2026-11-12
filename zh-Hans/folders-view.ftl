@@ -42,6 +42,9 @@ folders-view-drop-title = 它们应该放到哪里？
 # Tip of the round close button of the window that asks where dropped items should go: leaves them where they are.
 folders-view-drop-leave = 让它们留在原处
 
+
+
+
 # Tip of the toolbar button that shows a folder as icons.
 folders-view-icons = 图标
 
@@ -63,6 +66,10 @@ folders-view-sort-by = 排序方式
 # Name read out for the toolbar's Group by strip.
 folders-view-group-by = 分组方式
 
+
+
+
+
 # Tip of the toolbar button that hides the preview panel.
 folders-view-panel-hide = 隐藏预览面板（Alt+P）
 
@@ -76,16 +83,21 @@ folders-view-panel-spoken = 预览面板
 folders-view-tabs = 标签页
 
 # Name read out for the row of tabs above the left pane's list.
-folders-view-tabs-left = 左窗格的标签页
+folders-view-tabs-left = 左窗格标签页
 
 # Name read out for the row of tabs above the right pane's list.
-folders-view-tabs-right = 右窗格的标签页
+folders-view-tabs-right = 右窗格标签页
 
 # Tip of the button that opens a new tab.
 folders-view-tab-new = 新建标签页（Ctrl+T）
 
 # Tip of the button that closes the tab showing.
-folders-view-tab-close = 关闭标签页（Ctrl+W，或在其上点击鼠标中键）
+folders-view-tab-close = 关闭标签页（Ctrl+W）
+
+
+
+
+
 
 # Side bar row that opens the Home folder.
 folders-view-home = 主文件夹
@@ -107,6 +119,8 @@ folders-view-shares = 共享
 
 # Tip of the side bar button that closes an open Windows share; name is the share.
 folders-view-share-close = 关闭 { $name }
+
+
 
 # Tip of the button that opens the window to connect to a server, and the button of the empty Network page that does the same.
 folders-view-connect = 连接到服务器
@@ -161,7 +175,7 @@ folders-view-compare =
 folders-view-locate-hint = 输入文件夹、文件或服务器地址
 
 # Name read out for the path above a pane's list.
-folders-view-where = 此窗格所在位置
+folders-view-where = 位置
 
 # Tip of the pane's Back button.
 folders-view-back = 后退（Alt+向左键）
@@ -172,20 +186,23 @@ folders-view-forward = 前进（Alt+向右键）
 # Tip of the pane's button that goes up one folder.
 folders-view-up = 上一级文件夹（Alt+向上键）
 
+
+
 # Placeholder of the filter box above a pane's list.
-folders-view-filter-hint = 筛选，或按 Enter 搜索此文件夹及其下级
+folders-view-filter-hint = 筛选，或按 Enter 搜索此文件夹及其子文件夹
 
 # Tip of the button beside the filter box that finds things by name here and below.
-folders-view-find-name = 按名称查找此处及其下级
+folders-view-find-name = 按名称搜索，包括子文件夹
 
 # Tip of the button beside the filter box that finds words inside files here and below.
-folders-view-find-inside = 查找此处及其下级文件内容中的字词
+folders-view-find-inside = 搜索文件内容，包括子文件夹
+
 
 # Name read out for the list that picks which kind of thing to show.
-folders-view-find-kind = 要显示的类型
+folders-view-find-kind = 类型
 
 # Name read out for the list that picks which size to show.
-folders-view-find-size = 要显示的大小
+folders-view-find-size = 大小
 
 # Name read out for the list that picks when things were last changed.
 folders-view-find-changed = 最后修改时间
@@ -206,7 +223,7 @@ folders-view-status-selected = 已选择 { $count } 项，{ $size }
 folders-view-status-then = { $first }。{ $then }
 
 # Tip of the small round i at a pane's foot that lists the files words there are about, each with its reason.
-folders-view-listed = 哪些文件，以及原因
+folders-view-listed = 显示与此相关的文件
 
 # Tip of the button on an empty or failed pane that reads the place again.
 folders-view-try-again = 重试
@@ -222,7 +239,7 @@ folders-view-none-matches = 这里没有与筛选条件匹配的内容
 folders-view-show-everything = 显示全部
 
 # Line on the Recent page when nothing was opened lately.
-folders-view-none-recent = 最近没有打开过任何内容
+folders-view-none-recent = 你最近没有打开过任何内容
 
 # Button on the empty Recent page that goes to the Home folder.
 folders-view-go-home = 前往主文件夹
@@ -283,24 +300,23 @@ folders-view-shares-down =
 # Tip of the round button that lets a network share that is not connected go from the list; its name.
 folders-view-forget-share = 忘记 { $name }
 
-
 # Name read out for the top bar's button that shows two panes side by side, or one.
 folders-view-two-panes = 双窗格
 
 # Tip of the top bar's two panes button, while one pane shows.
-folders-view-panes-two = 并排显示两个窗格 (F3)
+folders-view-panes-two = 并排显示两个窗格（F3）
 
 # Tip of the top bar's two panes button, while two panes show.
-folders-view-panes-one = 显示一个窗格 (F3)
+folders-view-panes-one = 显示一个窗格（F3）
 
 # Tip and spoken name of the top bar's button that opens the View menu.
-folders-view-view = 查看：项目的显示、排序和分组方式
+folders-view-view = 查看
 
 # Words of the top bar's button that opens the New menu (New folder, New document).
 folders-view-new = 新建
 
 # Tip and spoken name of the top bar's button that opens the More menu (Undo, Redo, settings).
-folders-view-more = 更多：撤销、重做和设置
+folders-view-more = 更多选项
 
 # Row of the More menu that undoes the last change.
 folders-view-more-undo = 撤销
@@ -311,32 +327,29 @@ folders-view-more-redo = 重做
 # Row of the View menu that turns the sort round.
 folders-view-sort-other-way = 反向排序
 
-# Row under the Network heading of the side bar: the computers found nearby.
-folders-view-network-nearby = 附近的电脑
-
-# Choice at the start of the line under a pane's path: search or filter here (Ctrl+F).
-folders-view-search = 搜索
-
-# Placeholder of the box in which the name the side bar shows for a pinned folder is typed; was is the folder's own name.
-folders-view-pin-name-hint = 为 { $was } 显示的名称
-
-
-# Tip of the Search button while the search box shows.
-folders-view-search-close = 再次显示路径(Esc)
-
-# Tip of the Search button, greyed, on the page of every drive.
-folders-view-search-none = 此页面上没有可搜索的内容
-
-# Name read out for the Search button, which says whether it is pressed.
-folders-view-search-spoken = 搜索
-
-
 # Tip of the toolbar button that shows hidden files (Ctrl+H).
-folders-view-hidden-show = 显示隐藏文件 (Ctrl+H)
+folders-view-hidden-show = 显示隐藏文件（Ctrl+H）
 
 # Tip of the toolbar button that hides hidden files again (Ctrl+H).
-folders-view-hidden-hide = 隐藏隐藏文件 (Ctrl+H)
+folders-view-hidden-hide = 隐藏隐藏文件（Ctrl+H）
 
 # Name read out for the toolbar button that shows or hides hidden files.
 folders-view-hidden-spoken = 隐藏文件
 
+# Row under the Network heading of the side bar: the computers found nearby.
+folders-view-network-nearby = 附近的电脑
+
+# Tip of the Search button in the top row while the path shows.
+folders-view-search = 搜索（Ctrl+F）
+
+# Tip of the Search button while the search box shows.
+folders-view-search-close = 关闭搜索（Escape）
+
+# Tip of the Search button, greyed, on the page of every drive.
+folders-view-search-none = 无法在此页面上搜索
+
+# Name read out for the Search button, which says whether it is pressed.
+folders-view-search-spoken = 搜索
+
+# Placeholder of the box in which the name the side bar shows for a pinned folder is typed; was is the folder's own name.
+folders-view-pin-name-hint = { $was } 的侧边栏名称

@@ -2,10 +2,10 @@
 # machine translated (Turkish), not yet reviewed by a person.
 
 # Under a card's name on the Storage page: the disk the system is on.
-folders-computer-kind-system = Bu bilgisayarın diski
+folders-computer-kind-system = Sistem diski
 
 # Under a card's name on the Storage page: another fixed disk inside the computer.
-folders-computer-kind-inside = Bu bilgisayardaki bir disk
+folders-computer-kind-inside = Dahili disk
 
 # Under a card's name on the Storage page: a USB drive that is plugged in.
 folders-computer-kind-usb = USB bellek
@@ -32,10 +32,10 @@ folders-computer-name-on = { $drive } üzerindeki { $name }
 folders-computer-free-of = { $all } içinde { $free } boş
 
 # Under a card's bar on the Storage page when the drive is almost full; the line that follows says how much is free.
-folders-computer-almost-full = Neredeyse dolu: { $said }
+folders-computer-almost-full = Neredeyse tamamen dolu: { $said }
 
 # Under a card's bar on the Storage page when the drive is nearly full; the line that follows says how much is free.
-folders-computer-nearly-full = Hemen hemen dolu: { $said }
+folders-computer-nearly-full = Doluyor: { $said }
 
 # Under a card's bar on the Storage page: a locked drive whose size is not known.
 folders-computer-locked = Kilitli
@@ -44,13 +44,13 @@ folders-computer-locked = Kilitli
 folders-computer-locked-size = Kilitli, { $size }
 
 # Under a card's bar on the Storage page: what a phone or tablet card invites the person to do.
-folders-computer-phone-hint = İçindekileri görmek için açın
+folders-computer-phone-hint = Dosyalarını görmek için açın
 
 # Under a card's bar on the Storage page: a drive that is not mounted and whose size is not known.
-folders-computer-not-mounted = Bağlı değil
+folders-computer-not-mounted = Henüz açılmadı
 
 # Under a card's bar on the Storage page: a drive that is not mounted and its size.
-folders-computer-not-mounted-size = Bağlı değil, { $size }
+folders-computer-not-mounted-size = Henüz açılmadı, { $size }
 
 # Line at the foot of the Storage page: how many drives it holds.
 folders-computer-drive-count =
@@ -67,7 +67,7 @@ folders-computer-open = { $name } sürücüsünü aç
 folders-computer-unlock = { $name } kilidini aç ve sürücüyü aç
 
 # Tip and name of the round button on a Storage card that mounts a drive and opens it.
-folders-computer-mount = { $name } sürücüsünü bağla ve aç
+folders-computer-mount = { $name } sürücüsünü aç
 
 # Tip and name of the round button on a Storage card for a network share that closes the share.
 folders-computer-close = { $name } paylaşımını kapat

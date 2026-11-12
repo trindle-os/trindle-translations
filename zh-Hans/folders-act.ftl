@@ -2,19 +2,19 @@
 # machine translated (Simplified Chinese), not yet reviewed by a person.
 
 # Words under the file lines when copy, cut or paste is tried on a server's files.
-folders-act-far-clip = 服务器上的文件请使用窗格之间的复制和移动按钮。
+folders-act-far-clip = 服务器上的文件不能使用剪切、复制和粘贴。请改用窗格之间的复制和移动按钮。
 
 # Words under the file lines when something is tried that would change what is inside an archive.
-folders-act-shut = 这里不会更改压缩包里的任何内容。请先把内容取出来。
+folders-act-shut = 压缩包里的内容无法更改。请先把需要的内容解压出来。
 
 # Words on a finished job when files that another program cut were pasted: they are copied.
-folders-act-cut-elsewhere = 已复制：在另一个应用中剪切。
+folders-act-cut-elsewhere = 这些内容是在另一个应用中剪切的，所以 Folders 改为复制了它们。
 
 # Words under the file lines when something is picked that is already being copied or moved.
-folders-act-being-moved = 已在复制或移动中。
+folders-act-being-moved = 所选内容已在复制或移动中。
 
 # Words under the file lines when a copy that is not whole yet is picked.
-folders-act-arriving = 仍在传入中。
+folders-act-arriving = 所选内容仍在复制到这里。
 
 # Part of the question about a name already taken: a folder that holds this many things or more.
 folders-act-holds-most = 10,000 个项目或更多
@@ -147,7 +147,7 @@ folders-act-verb-wiped = 彻底擦除
 folders-act-taking-out = 正在取出 { $what }
 
 # Words under the file lines when things were taken out of an archive: what, and where to.
-folders-act-took-out = 已将 { $what } 取出到 { $place }。
+folders-act-took-out = 已将 { $what } 从压缩包取出到 { $place }。
 
 # The word for what was tried, put in 'could not be ...' when taking things out of an archive failed.
 folders-act-verb-taken-out = 取出
@@ -183,22 +183,22 @@ folders-act-new-folder = 新建文件夹
 folders-act-new-document = 新建文档
 
 # Red words when a new folder or document could not be made; its name, then the reason.
-folders-act-make-failed = 无法创建 { $base }：{ $why }。
+folders-act-make-failed = Folders 无法创建 { $base }：{ $why }。
 
 # Red words under a name being typed when it is empty.
-folders-act-name-empty = 名称不能为空。
+folders-act-name-empty = 请输入名称。
 
 # Red words under a name being typed when it has a slash.
 folders-act-name-slash = 名称中不能包含斜杠。
 
 # Red words under a name being typed when it is . or ..
-folders-act-name-kept = 这个名称是系统保留的。
+folders-act-name-kept = 系统已使用这个名称。请换一个。
 
 # Red words under a name being typed when it is too long.
 folders-act-name-long = 这个名称太长了。
 
 # Red words under the file lines when a piece of work could not be started.
-folders-act-no-start = 无法开始这项工作。
+folders-act-no-start = Folders 无法开始这项任务。
 
 # Tip of the Redo button after a step was undone; what the step was. Every undo and redo tip begins the same way.
 folders-act-redo-label = 重做{ $what }
@@ -208,10 +208,10 @@ folders-act-undo-label = 撤销{ $what }
 
 # SAFETY: needs a human review before it ships
 # Words under the file lines when work was stopped before it was done.
-folders-act-stopped = 中途已停止。
+folders-act-stopped = 任务在完成前已停止。
 
 # Words under the file lines when work finished but some things were skipped; what was done, then how many were skipped.
-folders-act-skipped = { $done }跳过了 { $n } 项。
+folders-act-skipped = { $done }Folders 跳过了 { $n } 项。
 
 # Words under the file lines when an action needs something picked and nothing is.
 folders-act-pick-first = 请先选择一些内容。
@@ -230,7 +230,7 @@ folders-act-pick-copy-move = 请先选择要复制或移动的内容。
 folders-act-archive-out = 压缩包里的内容只能取出到文件夹中。
 
 # Words under the file lines when a copy is sent to the Trash.
-folders-act-copy-trash = 副本不能放进回收站。
+folders-act-copy-trash = 不能把内容复制到回收站。
 
 # Words under the file lines when the copy or move button finds the other pane showing no folder.
 folders-act-other-pane = 另一个窗格没有显示文件夹。
@@ -239,10 +239,10 @@ folders-act-other-pane = 另一个窗格没有显示文件夹。
 folders-act-pick-copy = 请先选择要复制的内容。
 
 # Words under the file lines after Cut: what was cut.
-folders-act-cut-said = 已剪切 { $what }。请把它粘贴到文件夹中。
+folders-act-cut-said = 已剪切 { $what }。
 
 # Words under the file lines after Copy: what was copied.
-folders-act-copied-said = 已复制 { $what }。请把它粘贴到文件夹中。
+folders-act-copied-said = 已复制 { $what }。
 
 # Words under the file lines when Paste is used where there is no folder.
 folders-act-paste-folder = 内容只能粘贴到文件夹中。
@@ -268,16 +268,16 @@ folders-act-pick-trash = 请先在回收站中选择一些内容。
 folders-act-new-numbered = { $base } { $n }
 
 # Words under the file lines while a new folder or document is made on a server.
-folders-act-making = 正在创建 { $name }。
+folders-act-making = 正在创建 { $name }
 
 # Words under the file lines when New folder or New document is used where there is no folder.
-folders-act-make-folder-only = 只能在文件夹中新建内容。
+folders-act-make-folder-only = 只能在文件夹中新建文件夹或文档。
 
 # Tip of the Undo button after a folder, document or link was made.
 folders-act-undo-making = 撤销创建 { $name }
 
-# Red words under the file lines when folder colours and emblems could not follow things that were moved.
-folders-act-colours-lost = 颜色无法跟随已移动的内容。
+# Red words under the file lines when folder colours could not follow things that were moved.
+folders-act-colours-lost = Folders 无法为已移动的项目保留文件夹颜色。
 
 # Words under the file lines when Redo is used and there is nothing to redo.
 folders-act-nothing-redo = 没有可重做的内容。
@@ -326,8 +326,7 @@ folders-act-links-failed =
 
 # SAFETY: needs a human review before it ships
 # Words under the file lines when the window is closed while work waits for an answer.
-folders-act-closing-waits = 有些工作正在等待回答。请先回答，或停止这些工作，再关闭。
+folders-act-closing-waits = 有个问题正在等你回答。请先回答，或停止该任务，再关闭 Folders。
 
 # Words under the file lines when the window is closed while work goes on.
-folders-act-closing-busy = 传输完成前，“文件夹”无法关闭。请等它完成，或先停止，再关闭。
-
+folders-act-closing-busy = 任务运行期间，Folders 无法关闭。请等它完成，或先停止它，然后再关闭 Folders。

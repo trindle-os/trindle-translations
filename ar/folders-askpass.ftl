@@ -3,7 +3,7 @@
 
 # Question shown in the password window when the connection program gave none.
 # SAFETY: needs a human review before it ships
-folders-askpass-default-question = يطلب الخادم كلمة مرور.
+folders-askpass-default-question = اكتب كلمة المرور لهذا الخادم.
 
 # Title of the password window when a key needs its passphrase.
 # SAFETY: needs a human review before it ships

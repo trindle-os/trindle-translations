@@ -8,10 +8,10 @@ folders-menu-rename = إعادة تسمية
 folders-menu-rename-them = إعادة تسميتها
 
 # Row of Folders' right-click menu (Install font), shown when one thing is picked.
-folders-menu-install-the-font-for-you = ثبّت الخط لك
+folders-menu-install-the-font-for-you = ثبّت الخط لحسابك فقط
 
 # Row of Folders' right-click menu (Install font), shown when several things are picked.
-folders-menu-install-the-fonts-for-you = ثبّت الخطوط لك
+folders-menu-install-the-fonts-for-you = ثبّت الخطوط لحسابك فقط
 
 # Row of Folders' right-click menu that does: Open.
 folders-menu-open = فتح
@@ -64,7 +64,7 @@ folders-menu-new-folder = مجلد جديد
 folders-menu-new-document = مستند جديد
 
 # Row of Folders' right-click menu that does: Extract here.
-folders-menu-take-out-next-to-the-archive = إخراج بجانب الأرشيف
+folders-menu-take-out-next-to-the-archive = استخراج بجانب الأرشيف
 
 # Row of Folders' right-click menu that does: Empty trash.
 # SAFETY: needs a human review before it ships
@@ -146,6 +146,7 @@ folders-menu-resize = تغيير الحجم
 # Row of Folders' right-click menu that does: Compare files.
 folders-menu-compare-the-two = قارن بين الاثنين
 
+
 # Row of Folders' right-click menu that does: Copy here.
 folders-menu-copy-here = نسخ إلى هنا
 
@@ -184,10 +185,10 @@ folders-menu-sub-picture = صورة
 folders-menu-sub-tools = أدوات
 
 # Red words under the file lines when showing or hiding a column could not be saved.
-folders-menu-columns-not-saved = تعذّر حفظ الأعمدة.
+folders-menu-columns-not-saved = تعذّر على Folders حفظ الأعمدة.
 
 # Red words under the file lines when Open in a new window failed.
-folders-menu-no-new-window = تعذّر فتح نافذة جديدة.
+folders-menu-no-new-window = تعذّر على Folders فتح نافذة جديدة.
 
 # Words under the file lines after Copy location: one thing, or the number of things whose locations were copied.
 folders-menu-copied-location =
@@ -200,18 +201,19 @@ folders-menu-copied-location =
        *[other] نُسخ { $n } موقع.
     }
 
+
 # Red words under the file lines when Open as administrator failed.
 # SAFETY: needs a human review before it ships
-folders-menu-no-admin-window = تعذّر فتح Folders بصفة مسؤول.
+folders-menu-no-admin-window = تعذّر على Folders فتح نافذة بصفة مسؤول.
 
 # Red words under the file lines when a picture cannot be the wallpaper; the name of the picture, then the reasons.
-folders-menu-wallpaper-refused = لا يمكن أن يكون { $name } خلفية للشاشة: { $why }.
+folders-menu-wallpaper-refused = لا يمكن استخدام { $name } كخلفية للشاشة: { $why }.
 
 # Words under the file lines after a picture was set as the wallpaper.
-folders-menu-wallpaper-set = { $name } هو خلفية الشاشة الآن.
+folders-menu-wallpaper-set = { $name } هو الآن خلفية الشاشة.
 
 # Red words under the file lines when setting the wallpaper failed.
-folders-menu-wallpaper-failed = تعذّر تعيين خلفية الشاشة.
+folders-menu-wallpaper-failed = تعذّر على Folders تعيين خلفية الشاشة.
 
 # Name of the undo step after a link was made; shown where undo is offered.
 folders-menu-undo-link = التراجع عن إنشاء { $name }
@@ -220,29 +222,29 @@ folders-menu-undo-link = التراجع عن إنشاء { $name }
 folders-menu-link-made = أُنشئ { $name }.
 
 # Red words under the file lines when a link could not be made; the reason follows.
-folders-menu-link-failed = تعذّر إنشاء الرابط: { $why }.
+folders-menu-link-failed = تعذّر على Folders إنشاء الرابط: { $why }.
 
 # Words under the file lines after a folder was shared with AI programs.
 # SAFETY: needs a human review before it ships
 folders-menu-ai-shared = { $name } مشارَك مع برامج الذكاء الاصطناعي.
 
 # Words under the file lines after a folder or file was taken off the ring.
-folders-menu-ring-off = أُزيل { $name } من الحلقة.
+folders-menu-ring-off = أُلغي تثبيت { $name } من الحلقة.
 
 # Words under the file lines after a folder or file was pinned to the ring.
-folders-menu-ring-pinned = ثُبّت { $name } في الحلقة. ويظهر مع التطبيقات المفضلة.
+folders-menu-ring-pinned = ثُبّت { $name } في الحلقة، بجانب تطبيقاتك المفضلة.
 
 # Words under the file lines when the thing to pin is on the ring already.
 folders-menu-ring-already = { $name } على الحلقة بالفعل.
 
 # Red words under the file lines when the ring has no room for another pin; the number is how many it holds.
-folders-menu-ring-full = وسط الحلقة يحمل { $n } وهو ممتلئ. أزل واحداً لتفسح المجال.
+folders-menu-ring-full = الحلقة ممتلئة. تتسع لـ { $n } من العناصر المثبّتة، لذلك ألغِ تثبيت أحدها أولاً.
 
 # Red words under the file lines when a name cannot be written in the ring's list of favourites.
-folders-menu-ring-unkept = لا يمكن إبقاء { $name } على الحلقة: اسمه فيه حروف لا تتسع لها القائمة.
+folders-menu-ring-unkept = لا يستطيع Folders تثبيت { $name } في الحلقة لأن اسمه فيه حرف لا يستطيع Folders حفظه هناك.
 
 # Red words under the file lines when the ring's favourites list could not be saved.
-folders-menu-ring-not-saved = تعذّر حفظ مفضلات الحلقة.
+folders-menu-ring-not-saved = تعذّر على Folders حفظ مفضلات الحلقة.
 
 # Name given to a new link to a file or folder; the name of the thing linked to follows.
 folders-menu-link-name = رابط إلى { $name }
