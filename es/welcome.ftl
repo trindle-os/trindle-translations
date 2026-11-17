@@ -32,7 +32,7 @@ welcome-sentence-apps = Casi nada está instalado todavía, así que elige las a
 welcome-sentence-more-apps = Elige más y luego instala todo lo elegido con un solo clic.
 
 # Sentence under the title of the fifth page.
-welcome-sentence-plugins = Los complementos son pequeños extras de Aplicaciones, y cada uno hace solo lo que le permitas.
+welcome-sentence-plugins = Los complementos son extras que consigues en Aplicaciones, y solo pueden hacer lo que tú permitas.
 
 # Sentence under the title of the last page.
 welcome-sentence-know = Algunas cosas que hacen distinto a Trindle.
@@ -44,7 +44,7 @@ welcome-step = Paso { $n } de { $total }
 welcome-page-spoken = { $title }. Paso { $n } de { $total }. { $sentence }
 
 # Note written in the file that marks the tour as seen (welcome-done in the settings folder).
-welcome-done-file-note = Ya se ha visto la bienvenida. Está en Todas las aplicaciones como Bienvenida; borra este archivo para verla otra vez en el próximo inicio de sesión.
+welcome-done-file-note = Ya has visto la guía de Bienvenida. Puedes abrirla desde Todas las aplicaciones. Para verla otra vez en tu próximo inicio de sesión, borra este archivo.
 
 # Name of the round button at the foot that closes the tour.
 welcome-close = Cerrar
@@ -81,13 +81,13 @@ welcome-installed =
     }
 
 # Red line at the foot when the apps could not be installed, with what Flatpak said.
-welcome-failed = No se pudieron instalar las aplicaciones. { $why }
+welcome-failed = Trindle no pudo instalar las aplicaciones. { $why }
 
 # Said when Flatpak gave no reason for the apps not going in.
-welcome-flatpak-refused = Flatpak lo rechazó.
+welcome-flatpak-refused = Flatpak no quiso instalarlas.
 
 # Foot of the apps pages: the apps picked so far.
-welcome-chosen = Elegidas: { $names }.
+welcome-chosen = Has elegido { $names }.
 
 # Names of apps when there are more than three: the first two, then how many others.
 welcome-named-more = { $first }, { $second } y { $more } más
@@ -138,14 +138,14 @@ welcome-plugins-card = Los complementos
 welcome-plugins-open = Abrir los complementos en Aplicaciones
 
 # Said in the plugins card while there are none to show.
-welcome-plugins-none = Los complementos disponibles aparecen en Aplicaciones.
+welcome-plugins-none = Puedes ver los complementos disponibles en Aplicaciones.
 
 # The one question about crash reports.
 # SAFETY: needs a human review before it ships
-welcome-reports-question = ¿Quieres ayudar a mejorar Trindle enviando un informe cuando algo salga mal? Siempre lo ves antes.
+welcome-reports-question = ¿Enviar un informe cuando algo salga mal, para ayudar a arreglar Trindle? Siempre lo ves antes.
 
 # Second note under the question about crash reports.
-welcome-reports-settings = Puedes cambiarlo cuando quieras en Ajustes, Informes de fallos.
+welcome-reports-settings = Puedes cambiarlo en Ajustes, en Informes de fallos.
 
 # The answer that turns crash reports off.
 # SAFETY: needs a human review before it ships
@@ -159,48 +159,48 @@ welcome-reports-yes = Sí, pregúntame
 welcome-reports-choice = Enviar un informe cuando algo salga mal
 
 # Head of a card on the last page.
-welcome-know-boxes = Las aplicaciones viven en sus propias cajas
+welcome-know-boxes = Las aplicaciones se ejecutan en sus propias cajas
 
 # Line in that card.
 # SAFETY: needs a human review before it ships
-welcome-know-boxes-line = Una aplicación pide permiso antes de acceder a tus archivos, tu cámara o tu micrófono.
+welcome-know-boxes-line = Una aplicación tiene que pedir permiso antes de poder usar tus archivos, tu cámara o tu micrófono.
 
 # Head of a card on the last page.
 welcome-know-updates = Las actualizaciones de seguridad se instalan solas
 
 # Line in that card.
-welcome-know-updates-line = Cada día, sin preguntar. Las demás actualizaciones esperan a que tú decidas.
+welcome-know-updates-line = Se instalan cada día sin preguntar. Las demás actualizaciones esperan a que las instales tú.
 
 # Head of a card on the last page.
 welcome-know-ring = Ajustes y Aplicaciones están en el anillo
 
 # Line in that card.
-welcome-know-ring-line = En su centro, encima de la hora.
+welcome-know-ring-line = Están en el centro del anillo, encima de la hora.
 
 # Head of a card on the last page.
 welcome-know-help = La ayuda está en Ajustes
 
 # Line in that card.
-welcome-know-help-line = Esta guía está en Todas las aplicaciones como Bienvenida, para cuando quieras verla otra vez.
+welcome-know-help-line = Puedes abrir esta guía otra vez desde Todas las aplicaciones. Se llama Bienvenida.
 
 
 # Title of the first page, which asks how much the person knows.
 welcome-page-level = ¿Cuánto sabes?
 
 # Sentence under that title.
-welcome-sentence-level = Elige lo más parecido y la visita omitirá lo que ya sabes.
+welcome-sentence-level = Elige la que más se parezca a ti y la visita omitirá lo que ya sabes.
 
 # Name of the answer for someone who has not used Linux.
 welcome-level-new = Nuevo en Linux
 
 # Line in that answer's card.
-welcome-level-new-line = Todas las páginas, incluido lo que hace cualquier escritorio Linux.
+welcome-level-new-line = Todas las páginas, incluido cómo funciona cualquier escritorio Linux.
 
 # Name of the answer for someone who has used Linux.
 welcome-level-linux = He usado Linux
 
 # Line in that answer's card.
-welcome-level-linux-line = Solo lo propio de Trindle. Se omiten los conceptos básicos de Linux.
+welcome-level-linux-line = Solo lo que es especial de Trindle. Se omiten los conceptos básicos de Linux.
 
 # Name of the answer for someone who has used Trindle.
 welcome-level-trindle = He usado Trindle
@@ -212,13 +212,13 @@ welcome-level-trindle-line = Cierra la visita ahora y no vuelve a mostrarla.
 welcome-page-files = Tus archivos
 
 # Sentence under that title.
-welcome-sentence-files = Todo lo tuyo está en tu carpeta personal.
+welcome-sentence-files = Todos tus archivos están en tu carpeta personal.
 
 # Title of the page about getting software.
 welcome-page-software = Conseguir programas
 
 # Sentence under that title.
-welcome-sentence-software = Las aplicaciones vienen de Aplicaciones, no de instaladores que descargas.
+welcome-sentence-software = Las aplicaciones se consiguen en Aplicaciones, no con instaladores que descargas.
 
 # Title of the page about the administrator password.
 # SAFETY: needs a human review before it ships
@@ -226,43 +226,43 @@ welcome-page-admin = La contraseña de administrador
 
 # Sentence under that title.
 # SAFETY: needs a human review before it ships
-welcome-sentence-admin = Los cambios en todo el equipo piden antes una contraseña.
+welcome-sentence-admin = Antes de un cambio que afecte a todo el equipo, escribes una contraseña.
 
 # Title of the page about snapshots.
 welcome-page-snapshots = Instantáneas
 
 # Sentence under that title.
-welcome-sentence-snapshots = Trindle guarda copias del sistema, así que una actualización se puede deshacer.
+welcome-sentence-snapshots = Trindle guarda copias del sistema, así que puedes deshacer una actualización.
 
 # Title of the page about the person's own words.
 welcome-page-words = Tus propias palabras
 
 # Sentence under that title.
-welcome-sentence-words = Cambia cualquier palabra que muestre Trindle o añade un idioma propio.
+welcome-sentence-words = Puedes cambiar cualquier palabra que muestre Trindle o añadir un idioma propio.
 
 # Head of a card on the files page.
 welcome-files-home = Una carpeta personal
 
 # Line in that card.
-welcome-files-home-line = Documentos, Descargas e Imágenes están dentro. Carpetas se abre ahí.
+welcome-files-home-line = Documentos, Descargas e Imágenes están dentro. Folders se abre ahí.
 
 # Head of a card on the files page.
 welcome-files-drives = Sin letras de unidad
 
 # Line in that card.
-welcome-files-drives-line = Una memoria USB u otro disco aparece en Carpetas al conectarlo.
+welcome-files-drives-line = Una memoria USB u otro disco aparece en Folders al conectarlo.
 
 # Head of a card on the files page.
-welcome-files-hidden = Nombres ocultos
+welcome-files-hidden = Archivos ocultos
 
 # Line in that card.
-welcome-files-hidden-line = Un nombre que empieza por un punto, como .config, está oculto. Guarda los ajustes de una aplicación.
+welcome-files-hidden-line = Los archivos y carpetas cuyo nombre empieza por un punto, como .config, están ocultos. Guardan los ajustes de una aplicación.
 
 # Head of a card on the software page.
 welcome-software-exe = Sin instaladores
 
 # Line in that card.
-welcome-software-exe-line = Un instalador de Windows, que acaba en .exe, no se ejecuta aquí. Busca la aplicación en Aplicaciones.
+welcome-software-exe-line = Los instaladores de Windows, que acaban en .exe, no se ejecutan aquí. Busca la aplicación en Aplicaciones.
 
 # Head of a card on the software page.
 welcome-software-updates = Actualizaciones en un solo lugar
@@ -276,7 +276,7 @@ welcome-admin-why = Por qué la pide
 
 # Line in that card.
 # SAFETY: needs a human review before it ships
-welcome-admin-why-line = Instalar para todos o cambiar un disco afecta a todos los usuarios, así que el equipo pregunta primero.
+welcome-admin-why-line = Instalar algo para todos o cambiar un disco afecta a todos los usuarios. Por eso el equipo pide primero una contraseña.
 
 # Head of a card on the administrator password page.
 # SAFETY: needs a human review before it ships
@@ -284,7 +284,7 @@ welcome-admin-who = De quién es la contraseña
 
 # Line in that card.
 # SAFETY: needs a human review before it ships
-welcome-admin-who-line = La de un administrador, normalmente con quien inicias sesión.
+welcome-admin-who-line = La contraseña de un administrador. Suele ser la que usas para iniciar sesión.
 
 # Head of a card on the administrator password page.
 # SAFETY: needs a human review before it ships
@@ -292,40 +292,40 @@ welcome-admin-not = Cuándo no la pide
 
 # Line in that card.
 # SAFETY: needs a human review before it ships
-welcome-admin-not-line = Las aplicaciones que instalas solo para ti y tus propios archivos nunca la necesitan.
+welcome-admin-not-line = No la necesitas para las aplicaciones que instalas solo para ti ni para tus propios archivos.
 
 # Head of a card on the snapshots page.
 welcome-snap-taken = Hechas por ti
 
 # Line in that card.
-welcome-snap-taken-line = En un sistema Btrfs se hace una antes y otra después de cada cambio de programas.
+welcome-snap-taken-line = En un sistema Btrfs, Trindle hace una instantánea antes y otra después de cada cambio de programas.
 
 # Head of a card on the snapshots page.
-welcome-snap-boot = Útil si no arranca
+welcome-snap-boot = Si no arranca
 
 # Line in that card.
-welcome-snap-boot-line = Elige Trindle snapshots en el menú de arranque y luego una instantánea.
+welcome-snap-boot-line = En el menú de arranque, elige Trindle snapshots y luego una instantánea.
 
 # Head of a card on the your own words page.
 welcome-words-change = Cambiar una palabra
 
 # Line in that card.
-welcome-words-change-line = Busca cualquier palabra que muestre Trindle y escribe la tuya. «Ábrelo, brew» puede sustituir a «Haz clic aquí para abrir el archivo».
+welcome-words-change-line = Busca cualquier palabra que muestre Trindle y escribe la tuya. Por ejemplo, puedes sustituir «Haz clic aquí para abrir el archivo» por «Ábrelo, brew».
 
 # Head of a card on the your own words page.
 welcome-words-share = Compartir una hoja
 
 # Line in that card.
-welcome-words-share-line = Exporta tus palabras como un archivo o importa uno que te envió un amigo. Se comprueba antes de usarlo.
+welcome-words-share-line = Exporta tus palabras a un archivo o importa uno que te haya enviado un amigo. Trindle lo comprueba antes de usarlo.
 
 # Head of a card on the your own words page.
 welcome-words-all = Todos los programas a la vez
 
 # Line in that card.
-welcome-words-all-line = Todo Trindle lee sus palabras de un solo lugar, así que un cambio se ve en todas partes.
+welcome-words-all-line = Todo Trindle toma sus palabras de un solo lugar, así que un cambio se ve en todas partes.
 
 # Line under the cards on the your own words page, saying where it is done.
-welcome-words-where = Está en Ajustes, Región e idioma. La Ayuda lo explica paso a paso.
+welcome-words-where = Está en Ajustes, en Región e idioma. La Ayuda lo explica paso a paso.
 
 # Name of the round button that opens that Settings page.
 welcome-words-open = Abrir Región e idioma
@@ -360,19 +360,19 @@ welcome-level-closes = Cierra la visita
 welcome-hello-apps = Tus aplicaciones
 
 # Line under it.
-welcome-hello-apps-line = Por fuera. Haz clic derecho en una para dejarla ahí.
+welcome-hello-apps-line = Están por fuera. Haz clic derecho en una para dejarla ahí.
 
 # Second point: the round buttons in the middle.
 welcome-hello-switches = Interruptores rápidos
 
 # Line under it.
-welcome-hello-switches-line = Sonido, Wi-Fi, Bluetooth y más, con un clic cada uno.
+welcome-hello-switches-line = Sonido, Wi-Fi, Bluetooth y más. Cada uno con un solo clic.
 
 # Third point: the clock.
 welcome-hello-time = La hora y la fecha
 
 # Line under it.
-welcome-hello-time-line = Siempre en el centro.
+welcome-hello-time-line = Siempre está en el centro.
 
 # Fourth point: the button at the bottom of the middle that lists every app.
 welcome-hello-all = Todas las aplicaciones
@@ -423,13 +423,13 @@ welcome-software-search-line = Escribe un nombre, o explora por tipo a la izquie
 welcome-software-install = Un clic la instala
 
 # Line under it.
-welcome-software-install-line = Solo para ti, sin contraseña, y al quitarla después no queda nada.
+welcome-software-install-line = Se instala solo para ti, sin contraseña. Si la quitas después, no queda nada.
 
 # Fourth point on the administrator password page.
 welcome-admin-care = Solo para lo que tú iniciaste
 
 # Line under it.
-welcome-admin-care-line = Escríbela cuando hayas pedido tú el cambio, nunca porque lo diga una web o un mensaje.
+welcome-admin-care-line = Escríbela solo para un cambio que hayas pedido tú, nunca porque una web o un mensaje te lo diga.
 
 # Head of the made-up password window in the picture on that page.
 welcome-admin-sample-title = Contraseña de administrador
@@ -447,19 +447,19 @@ welcome-admin-sample-allow = Permitir
 welcome-reports-anon = Anónimo
 
 # Line under it.
-welcome-reports-anon-line = Un informe nunca incluye tu nombre, tu dirección de correo ni el nombre del ordenador.
+welcome-reports-anon-line = Un informe nunca contiene tu nombre, tu dirección de correo ni el nombre del ordenador.
 
 # Second point.
 welcome-reports-private = Nada privado
 
 # Line under it.
-welcome-reports-private-line = Ni archivos, ni contraseñas, ni nombres de Wi-Fi. Las carpetas, los nombres y las direcciones de correo se borran.
+welcome-reports-private-line = Sin archivos, contraseñas ni nombres de Wi-Fi. Los nombres de carpetas, otros nombres y las direcciones de correo se borran.
 
 # Point on the marks page, marked on the top edge of the picture.
 welcome-marks-where = Arriba, en el centro de la pantalla
 
 # Line under it.
-welcome-marks-where-line = Siempre a la vista, sobre todas las ventanas, mientras un programa usa algo tuyo.
+welcome-marks-where-line = Se queda encima de todas las ventanas mientras un programa usa algo tuyo.
 
 # Head of the key of colours on the marks page.
 welcome-marks-key = Qué significa cada color
@@ -474,7 +474,7 @@ welcome-snap-back-line = Deja el sistema como estaba en ese momento.
 welcome-snap-take = Haz una tú
 
 # Line under it.
-welcome-snap-take-line = Cuando quieras, antes de probar algo nuevo.
+welcome-snap-take-line = Hazlo cuando quieras, antes de probar algo nuevo.
 
 # Head of the column of the made-up word sheet that holds what Trindle says.
 welcome-words-sheet-said = Trindle dice
@@ -492,34 +492,34 @@ welcome-words-sheet-install = Consíguelas todas
 welcome-words-sheet-close = Por ahora basta
 
 # What the screen reader says for the screenshot of the ring.
-welcome-picture-ring-shot = El anillo, abierto: aplicaciones por fuera, interruptores rápidos y la hora en el centro, y el botón de todas las aplicaciones abajo. Unos números marcan cada parte.
+welcome-picture-ring-shot = El anillo abierto. Las aplicaciones están por fuera, los interruptores rápidos y la hora en el centro, y el botón de todas las aplicaciones abajo. Unos números marcan cada parte.
 
 # What the screen reader says for the moving picture of opening the ring.
-welcome-picture-ring-open = Una pantalla. El puntero va al borde superior y hace clic, y el anillo se abre en el centro. Luego se pulsa la tecla Super y se abre otra vez.
+welcome-picture-ring-open = Una pantalla. El puntero va al borde superior y hace clic, y el anillo se abre en el centro. Luego se pulsa la tecla Super y el anillo se abre otra vez.
 
 # What the screen reader says for the screenshot of Folders.
-welcome-picture-folders = Carpetas mostrando la carpeta personal, con Documentos, Descargas, Música e Imágenes dentro. Unos números marcan cada parte.
+welcome-picture-folders = Folders mostrando la carpeta personal, con Documentos, Descargas, Música e Imágenes dentro. Unos números marcan cada parte.
 
 # What the screen reader says for the screenshot of Apps.
-welcome-picture-apps = Aplicaciones, abierta en Descubrir, con un cuadro de búsqueda y aplicaciones populares, cada una con un botón de instalar. Unos números marcan cada parte.
+welcome-picture-apps = Aplicaciones, abierta en Descubrir. Hay un cuadro de búsqueda y una lista de aplicaciones populares, cada una con un botón de instalar. Unos números marcan cada parte.
 
 # What the screen reader says for the screenshot of the Plugins page in Apps.
-welcome-picture-plugins-shot = Aplicaciones, abierta en Complementos: cada complemento con lo que pide y un botón de instalar.
+welcome-picture-plugins-shot = Aplicaciones, abierta en Complementos. Cada complemento muestra lo que pide y tiene un botón de instalar.
 
 # What the screen reader says for the screenshot of the report window.
-welcome-picture-report = La ventana Informar de un problema: un cuadro para lo que falló y una línea que dice qué incluye el informe.
+welcome-picture-report = La ventana Informar de un problema. Tiene un cuadro para describir lo que falló y una línea que dice qué incluye el informe.
 
 # What the screen reader says for the screenshot of Settings, Snapshots.
-welcome-picture-snapshots = Ajustes, Instantáneas: la lista de instantáneas, cada una con un botón para volver a ella, y un botón para hacer una ahora. Unos números marcan cada parte.
+welcome-picture-snapshots = Ajustes, Instantáneas. Muestra una lista de instantáneas, cada una con un botón para volver a ella, y un botón para hacer una nueva. Unos números marcan cada parte.
 
 # What the screen reader says for the picture of the password window.
-welcome-picture-admin = La ventana de la contraseña de administrador sobre una pantalla atenuada, pidiendo la contraseña para instalar un programa para todos los usuarios.
+welcome-picture-admin = La ventana de la contraseña de administrador sobre una pantalla atenuada. Pide la contraseña para instalar un programa para todos los usuarios.
 
 # What the screen reader says for the picture of the marks at the top of the screen.
 welcome-picture-marks = La parte superior de una pantalla con tres semicírculos colgando del centro del borde superior, cada uno de su propio color.
 
 # What the screen reader says for the picture of a word sheet.
-welcome-picture-sheet = Una hoja de palabras: lo que dice Trindle a la izquierda y las palabras de cada persona a la derecha.
+welcome-picture-sheet = Una hoja de palabras. Las palabras de Trindle están a la izquierda y las palabras de cada persona a la derecha.
 
 # First point on the plugins page.
 welcome-plugins-in-apps = En Aplicaciones, en Complementos
@@ -531,7 +531,7 @@ welcome-plugins-in-apps-line = Cada complemento se prueba antes de aparecer en l
 welcome-plugins-allowed = Solo lo que permitas
 
 # Line under it.
-welcome-plugins-allowed-line = Cada uno dice lo que pide y vive en su propia caja.
+welcome-plugins-allowed-line = Cada complemento dice lo que necesita y se ejecuta en su propia caja.
 
 # Head of the list of plugins on offer now, read from the catalogue.
 welcome-plugins-now = Disponibles ahora
@@ -540,7 +540,7 @@ welcome-plugins-now = Disponibles ahora
 welcome-level-adds = Añade lo básico:
 
 # Above the list for someone who has used Linux.
-welcome-level-shows = Muestra lo propio de Trindle:
+welcome-level-shows = Muestra las partes propias de Trindle:
 
 # In the card for someone who has used Trindle: where the tour is found again.
 welcome-level-again = Bienvenida está en Todas las aplicaciones cuando quieras verla otra vez.
@@ -596,3 +596,16 @@ welcome-firewall-not-changed = No se cambió.
 # What the firewall page's picture shows, for the screen reader.
 welcome-picture-firewall = Ajustes, Cortafuegos y bloqueo: el interruptor del cortafuegos y un puerto abierto.
 
+
+
+# Title of the closing step shown when the computer has no internet connection.
+welcome-connect-title = Conectarse a internet
+
+# The one line under that title.
+welcome-connect-line = Necesitas conexión para las actualizaciones y las apps nuevas.
+
+# Button of that step that opens the network settings.
+welcome-connect-choose = Elegir una red
+
+# Main button of that step, that ends the tour without a connection.
+welcome-connect-skip = Omitir

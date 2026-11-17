@@ -79,8 +79,8 @@ common-keyring-late-never =
 # Red words when the keyring answered late and would not do it. { $what } is what is kept, such as "login"; { $action } is "removing" or "keeping"; { $why } is the reason, as a sentence.
 common-keyring-late-refused =
     { $action ->
-        [removing] { $what } anahtar halkasından kaldırılamadı. { $why }
-       *[other] { $what } anahtar halkasına kaydedilemedi. { $why }
+        [removing] Folders için { $what } anahtar halkasından kaldırılamadı. { $why }
+       *[other] Folders için { $what } anahtar halkasına kaydedilemedi. { $why }
     }
 # The small round button beside a failure message that opens Help at the page
 # about it. Its tip, and the name a screen reader says.

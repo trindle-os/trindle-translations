@@ -81,6 +81,8 @@ crash-result-not-taking = Buildmorphic no acepta informes ahora. El informe se c
 
 crash-result-failed = No enviado: Buildmorphic respondió { $answer }. El informe se conserva.
 
+crash-result-bad-project = No enviado: Buildmorphic no sabe para qué proyecto es el informe. El informe se conserva.
+
 crash-result-unreachable = No enviado: no se pudo contactar con Buildmorphic. El informe se conserva.
 
 # Red words when one was sent but this computer could not take it off the list.

@@ -41,13 +41,13 @@ store-tabs-show = Mostrar
 store-origin-credit = Verificado na lista Threat Intelligence do HaGeZi
 
 # Where a download came from: the site and the page that led to it.
-store-origin-both = Baixado de { $site }, a partir de { $referrer }.
+store-origin-both = Você baixou isto de { $site }, vindo de { $referrer }.
 
 # Where a download came from: the site.
 store-origin-site = Baixado de { $site }.
 
 # Where a download came from: the page that led to it.
-store-origin-referrer = Acessado a partir de { $referrer }.
+store-origin-referrer = Aberto por um link em { $referrer }.
 
 # Said when nothing tells where a download came from.
 store-origin-unknown = O Trindle não consegue saber de onde isto veio.
@@ -58,17 +58,17 @@ store-origin-listed = { $from } { $name } está na lista Threat Intelligence do 
 
 # Said when the site is not on the list; the first part says where the download came from.
 # SAFETY: needs a human review before it ships
-store-origin-clear = { $from } O site não está na lista Threat Intelligence do HaGeZi, mas a lista não é completa, então isso não prova que seja seguro.
+store-origin-clear = { $from } O site não está na lista Threat Intelligence do HaGeZi. Essa lista não é completa, então isso não prova que ele seja seguro.
 
 # Said when the list could not be fetched; the first part says where the download came from.
 # SAFETY: needs a human review before it ships
-store-origin-not-checked = { $from } Não foi possível verificar o site, pois a lista Threat Intelligence do HaGeZi não pôde ser obtida.
+store-origin-not-checked = { $from } O Trindle não conseguiu verificar o site, porque não conseguiu obter a lista Threat Intelligence do HaGeZi.
 
 # Name shown for a review whose writer gave none.
 store-review-someone = Alguém
 
 # Red words when the keyring could not be reached.
-store-key-unreached = Não foi possível acessar o chaveiro: { $why }.
+store-key-unreached = O Trindle não conseguiu acessar o chaveiro: { $why }.
 
 # Red words when the key kept in the keyring is not text.
 store-key-not-text = A chave guardada não é texto.

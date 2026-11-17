@@ -80,6 +80,8 @@ crash-result-not-taking = Buildmorphic لا يستقبل التقارير الآ
 
 crash-result-failed = لم يُرسل: ردّ Buildmorphic بـ { $answer }. التقرير محفوظ.
 
+crash-result-bad-project = لم يُرسل: Buildmorphic لا يعرف لأي مشروع هذا التقرير. التقرير محفوظ.
+
 crash-result-unreachable = لم يُرسل: تعذّر الوصول إلى Buildmorphic. التقرير محفوظ.
 
 # Red words when one was sent but this computer could not take it off the list.

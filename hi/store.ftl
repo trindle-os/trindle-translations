@@ -22,7 +22,7 @@ store-nav-updates-waiting = अपडेट ({ $n })
 store-nav-plugins = प्लगइन
 
 # Side bar place: apps from GitHub.
-store-nav-github = GitHub से
+store-nav-github = खोजें
 
 # Side bar place: where software comes from.
 store-nav-sources = सॉफ़्टवेयर स्रोत
@@ -85,19 +85,19 @@ store-cat-utility = उपयोगी टूल
 store-cat-system = सिस्टम
 
 # Red words when the list of apps could not be read.
-store-catalogue-unreadable = सूची पढ़ी नहीं जा सकी: { $why }
+store-catalogue-unreadable = Trindle सूची पढ़ नहीं सका: { $why }
 
 # Red words when Flathub's list of apps could not be fetched. { $why } is what Flatpak said.
-store-catalogue-not-fetched = ऐप्स की सूची Flathub से लाई नहीं जा सकी। इंटरनेट कनेक्शन जाँचें। { $why }
+store-catalogue-not-fetched = Trindle Flathub से ऐप्स की सूची नहीं ला सका। अपना इंटरनेट कनेक्शन जाँचें। { $why }
 
 # Red words under the search box when nothing that was dropped on the window is a kind Apps takes.
-store-dropped-only = यहाँ केवल .deb, .AppImage और .flatpakref फ़ाइलें छोड़ी जा सकती हैं।
+store-dropped-only = यहाँ आप केवल .deb, .AppImage और .flatpakref फ़ाइलें छोड़ सकते हैं।
 
 # Red words under an app that Flatpak did not update; what Flatpak said follows.
-store-not-updated-said = अपडेट नहीं हुआ। Flatpak ने कहा: { $why }
+store-not-updated-said = Flatpak ने इसे अपडेट नहीं किया: { $why }
 
 # Red words under an app that Flatpak did not update and gave no reason for.
-store-not-updated-none = अपडेट नहीं हुआ, और Flatpak ने कोई कारण नहीं बताया।
+store-not-updated-none = यह अपडेट नहीं हुआ। कोई कारण नहीं बताया गया।
 
 # Side bar place and title: the AppImages AppImageHub lists.
 store-nav-browse = AppImage ब्राउज़ करें

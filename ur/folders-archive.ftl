@@ -70,7 +70,7 @@ folders-archive-inside-missing = آرکائیو میں نہیں ہے
 folders-archive-7z-memory = اس 7z آرکائیو کو کھولنے کے لیے Folders کی اجازت سے زیادہ میموری چاہیے
 
 # Reason making an archive failed: a file grew while it was being packed.
-folders-archive-pack-grew = پیک کرتے وقت ایک فائل بہت بڑی ہو گئی
+folders-archive-pack-grew = Folders کے پیک کرنے کے دوران ایک فائل بہت بڑی ہو گئی
 
 # Reason making an archive failed: something with the archive's name is already there.
 folders-archive-pack-exists = اس نام کی کوئی چیز پہلے سے موجود ہے

@@ -81,6 +81,8 @@ crash-result-not-taking = Buildmorphic n'accepte pas de rapports pour le moment.
 
 crash-result-failed = Non envoyé : Buildmorphic a répondu { $answer }. Le rapport est conservé.
 
+crash-result-bad-project = Non envoyé : Buildmorphic ne sait pas pour quel projet est ce rapport. Le rapport est conservé.
+
 crash-result-unreachable = Non envoyé : Buildmorphic est injoignable. Le rapport est conservé.
 
 # Red words when one was sent but this computer could not take it off the list.

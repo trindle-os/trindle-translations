@@ -120,7 +120,7 @@ folders-prompt-checking = 正在检查…
 # A reason a wallpaper was left out: the picture is larger than 4K.
 folders-wallpaper-larger-4k = 大于 4K
 # A reason a wallpaper was left out: the film is bigger than the screen.
-folders-wallpaper-larger-screen = 大于您的屏幕
+folders-wallpaper-larger-screen = 大于你的屏幕
 # A reason a wallpaper was left out: its file is over 20 MB, or over 200 MB if it moves.
 folders-wallpaper-over-20-or-200 = 超过 20 MB（动态的超过 200 MB）
 # A reason a wallpaper was left out: its file is over 20 MB.

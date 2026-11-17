@@ -32,7 +32,7 @@ welcome-sentence-apps = 目前几乎什么都没有安装，请选择你想要�
 welcome-sentence-more-apps = 多选几个，然后一键安装你选的所有应用。
 
 # Sentence under the title of the fifth page.
-welcome-sentence-plugins = 插件是来自“应用”的小型扩展，每个插件只做你允许的事。
+welcome-sentence-plugins = 插件是来自“应用”的附加功能，只能做你允许的事。
 
 # Sentence under the title of the last page.
 welcome-sentence-know = 让 Trindle 与众不同的几点。
@@ -44,7 +44,7 @@ welcome-step = 第 { $n } 步，共 { $total } 步
 welcome-page-spoken = { $title }。第 { $n } 步，共 { $total } 步。{ $sentence }
 
 # Note written in the file that marks the tour as seen (welcome-done in the settings folder).
-welcome-done-file-note = 欢迎页面已看过。它在“所有应用”中，名为“欢迎”；删除此文件后，下次登录时会再次显示。
+welcome-done-file-note = 你已看过欢迎导览。可以在“所有应用”中打开它。如果想在下次登录时再次看到，请删除此文件。
 
 # Name of the round button at the foot that closes the tour.
 welcome-close = 关闭
@@ -80,10 +80,10 @@ welcome-installed =
     }
 
 # Red line at the foot when the apps could not be installed, with what Flatpak said.
-welcome-failed = 无法安装这些应用。{ $why }
+welcome-failed = Trindle 无法安装这些应用。{ $why }
 
 # Said when Flatpak gave no reason for the apps not going in.
-welcome-flatpak-refused = Flatpak 拒绝了请求。
+welcome-flatpak-refused = Flatpak 没有安装它们。
 
 # Foot of the apps pages: the apps picked so far.
 welcome-chosen = 已选择：{ $names }。
@@ -137,7 +137,7 @@ welcome-plugins-card = 插件
 welcome-plugins-open = 在“应用”中打开插件
 
 # Said in the plugins card while there are none to show.
-welcome-plugins-none = 可用的插件列在“应用”中。
+welcome-plugins-none = 你可以在“应用”中查看可用的插件。
 
 # The one question about crash reports.
 welcome-reports-question = 出问题时发送报告，帮助改进 Trindle？你总会先看到报告内容。
@@ -155,66 +155,66 @@ welcome-reports-yes = 是，先询问我
 welcome-reports-choice = 出问题时发送报告
 
 # Head of a card on the last page.
-welcome-know-boxes = 应用住在各自的隔离环境中
+welcome-know-boxes = 应用在各自的隔离环境中运行
 
 # Line in that card.
 # SAFETY: needs a human review before it ships
-welcome-know-boxes-line = 应用在访问你的文件、摄像头或麦克风之前会先询问。
+welcome-know-boxes-line = 应用必须先询问，才能使用你的文件、摄像头或麦克风。
 
 # Head of a card on the last page.
 welcome-know-updates = 安全更新会自动安装
 
 # Line in that card.
-welcome-know-updates-line = 每天自动安装，无需询问。其他更新会等你决定。
+welcome-know-updates-line = 它们每天自动安装，无需询问。其他更新会等你来安装。
 
 # Head of a card on the last page.
 welcome-know-ring = “设置”和“应用”在圆环中
 
 # Line in that card.
-welcome-know-ring-line = 在圆环中间，时间的上方。
+welcome-know-ring-line = 它们在圆环中间，时间的上方。
 
 # Head of a card on the last page.
 welcome-know-help = 帮助在“设置”中
 
 # Line in that card.
-welcome-know-help-line = 这个导览在“所有应用”中，名为“欢迎”，需要时可随时再看。
+welcome-know-help-line = 你可以在“所有应用”中再次打开这个导览，名称是“欢迎”。
 
 
 # Title of the first page, which asks how much the person knows.
-welcome-page-level = 您了解多少？
+welcome-page-level = 你了解多少？
 
 # Sentence under that title.
-welcome-sentence-level = 请选最接近的一项，导览会略过您已经知道的内容。
+welcome-sentence-level = 请选最接近你的一项，导览会略过你已经知道的内容。
 
 # Name of the answer for someone who has not used Linux.
 welcome-level-new = 没用过 Linux
 
 # Line in that answer's card.
-welcome-level-new-line = 每一页都看，包括所有 Linux 桌面都有的功能。
+welcome-level-new-line = 每一页都看，包括所有 Linux 桌面的工作方式。
 
 # Name of the answer for someone who has used Linux.
 welcome-level-linux = 用过 Linux
 
 # Line in that answer's card.
-welcome-level-linux-line = 只看 Trindle 独有的内容，跳过 Linux 基础知识。
+welcome-level-linux-line = 只看 Trindle 特有的内容，跳过 Linux 基础知识。
 
 # Name of the answer for someone who has used Trindle.
 welcome-level-trindle = 用过 Trindle
 
 # Line in that answer's card.
-welcome-level-trindle-line = 立即关闭导览，不再显示。
+welcome-level-trindle-line = 立即关闭导览，且不再显示。
 
 # Title of the page about files and folders.
-welcome-page-files = 您的文件
+welcome-page-files = 你的文件
 
 # Sentence under that title.
-welcome-sentence-files = 您的所有内容都放在主文件夹里。
+welcome-sentence-files = 你的所有文件都在主文件夹里。
 
 # Title of the page about getting software.
 welcome-page-software = 获取软件
 
 # Sentence under that title.
-welcome-sentence-software = 应用来自“应用”，而不是您下载的安装文件。
+welcome-sentence-software = 你从“应用”获取应用，而不是下载安装文件。
 
 # Title of the page about the administrator password.
 # SAFETY: needs a human review before it ships
@@ -222,37 +222,37 @@ welcome-page-admin = 管理员密码
 
 # Sentence under that title.
 # SAFETY: needs a human review before it ships
-welcome-sentence-admin = 对整台电脑的更改会先要求输入密码。
+welcome-sentence-admin = 更改会影响整台电脑之前，你需要输入密码。
 
 # Title of the page about snapshots.
 welcome-page-snapshots = 快照
 
 # Sentence under that title.
-welcome-sentence-snapshots = Trindle 会保留系统副本，因此更新可以撤销。
+welcome-sentence-snapshots = Trindle 会保存系统副本，因此你可以撤销更新。
 
 # Title of the page about the person's own words.
-welcome-page-words = 您自己的用词
+welcome-page-words = 你自己的用词
 
 # Sentence under that title.
-welcome-sentence-words = 可以修改 Trindle 显示的任何词语，或添加您自己的语言。
+welcome-sentence-words = 你可以修改 Trindle 显示的任何词语，或添加你自己的语言。
 
 # Head of a card on the files page.
 welcome-files-home = 主文件夹
 
 # Line in that card.
-welcome-files-home-line = 文档、下载和图片都在其中。“文件夹”会从这里打开。
+welcome-files-home-line = 文档、下载和图片都在其中。Folders 会从这里打开。
 
 # Head of a card on the files page.
 welcome-files-drives = 没有盘符
 
 # Line in that card.
-welcome-files-drives-line = U 盘或其他磁盘插入后会出现在“文件夹”中。
+welcome-files-drives-line = U 盘或其他磁盘插入后会出现在 Folders 中。
 
 # Head of a card on the files page.
-welcome-files-hidden = 隐藏的名称
+welcome-files-hidden = 隐藏的文件
 
 # Line in that card.
-welcome-files-hidden-line = 以点开头的名称（例如 .config）是隐藏的，里面保存着应用的设置。
+welcome-files-hidden-line = 名称以点开头的文件和文件夹（例如 .config）是隐藏的，里面保存着应用的设置。
 
 # Head of a card on the software page.
 welcome-software-exe = 没有安装文件
@@ -272,7 +272,7 @@ welcome-admin-why = 为什么会询问
 
 # Line in that card.
 # SAFETY: needs a human review before it ships
-welcome-admin-why-line = 为所有人安装软件或更改磁盘会影响每位用户，所以电脑会先询问。
+welcome-admin-why-line = 为所有人安装软件或更改磁盘会影响每位用户，所以电脑会先要求输入密码。
 
 # Head of a card on the administrator password page.
 # SAFETY: needs a human review before it ships
@@ -280,7 +280,7 @@ welcome-admin-who = 谁的密码
 
 # Line in that card.
 # SAFETY: needs a human review before it ships
-welcome-admin-who-line = 管理员的密码，通常就是您登录时用的那个。
+welcome-admin-who-line = 管理员的密码，通常就是你登录时用的那个。
 
 # Head of a card on the administrator password page.
 # SAFETY: needs a human review before it ships
@@ -288,16 +288,16 @@ welcome-admin-not = 什么时候不会询问
 
 # Line in that card.
 # SAFETY: needs a human review before it ships
-welcome-admin-not-line = 只为您自己安装的应用和您自己的文件从不需要密码。
+welcome-admin-not-line = 只为你自己安装的应用和你自己的文件从不需要密码。
 
 # Head of a card on the snapshots page.
-welcome-snap-taken = 自动为您创建
+welcome-snap-taken = 自动为你创建
 
 # Line in that card.
-welcome-snap-taken-line = 在 Btrfs 系统上，每次软件更改前后都会创建一个快照。
+welcome-snap-taken-line = 在 Btrfs 系统上，每次软件更改前后，Trindle 都会创建一个快照。
 
 # Head of a card on the snapshots page.
-welcome-snap-boot = 无法启动时使用
+welcome-snap-boot = 如果无法启动
 
 # Line in that card.
 welcome-snap-boot-line = 在启动菜单中选择 Trindle 快照，再选择一个快照。
@@ -306,13 +306,13 @@ welcome-snap-boot-line = 在启动菜单中选择 Trindle 快照，再选择一�
 welcome-words-change = 修改词语
 
 # Line in that card.
-welcome-words-change-line = 找到 Trindle 显示的任何词语，输入您自己的说法。例如可以用“打开它，brew”代替“点击此处打开文件”。
+welcome-words-change-line = 找到 Trindle 显示的任何词语，输入你自己的说法。例如，可以把“点击此处打开文件”换成“打开它，brew”。
 
 # Head of a card on the your own words page.
 welcome-words-share = 分享词语表
 
 # Line in that card.
-welcome-words-share-line = 把您的用词导出为文件，或导入朋友发来的文件。使用前会先检查。
+welcome-words-share-line = 把你的用词导出为文件，或导入朋友发给你的文件。Trindle 使用前会先检查。
 
 # Head of a card on the your own words page.
 welcome-words-all = 所有程序一次生效
@@ -339,7 +339,7 @@ welcome-sentence-reports-plain = 报告是匿名的，每一份都有助于修�
 welcome-page-marks = 顶部的标记
 
 # Sentence under that title.
-welcome-sentence-marks = 顶部出现半圆，表示有程序正在使用您的某样东西。
+welcome-sentence-marks = 顶部出现半圆，表示有程序正在使用你的某样东西。
 
 # Under each answer on the first page: how many pages that answer shows.
 welcome-level-pages =
@@ -351,10 +351,10 @@ welcome-level-pages =
 welcome-level-closes = 关闭导览
 
 # First point on the ring page, marked on the picture: the apps round the outside.
-welcome-hello-apps = 您的应用
+welcome-hello-apps = 你的应用
 
 # Line under it.
-welcome-hello-apps-line = 排在圆环外圈。右键点击某个应用，可让它固定在那里。
+welcome-hello-apps-line = 它们排在圆环外圈。右键点击某个应用，可让它固定在那里。
 
 # Second point: the round buttons in the middle.
 welcome-hello-switches = 快捷开关
@@ -372,7 +372,7 @@ welcome-hello-time-line = 始终在中间。
 welcome-hello-all = 所有应用
 
 # Line under it.
-welcome-hello-all-line = 底部的按钮会列出全部应用。
+welcome-hello-all-line = 底部的按钮会显示全部应用。
 
 # First point on the open-the-ring page.
 welcome-ring-edge = 推向屏幕边缘
@@ -405,7 +405,7 @@ welcome-ring-close-line = 点击圆环外的任意位置，或按 Escape。
 welcome-files-trash = 回收站
 
 # Line under it.
-welcome-files-trash-line = 删除的文件会在那里等着，直到您清空回收站。
+welcome-files-trash-line = 删除的文件会在那里等着，直到你清空回收站。
 
 # Point on the software page, marked on the search box in the picture of Apps.
 welcome-software-search = 搜索任何应用
@@ -417,13 +417,13 @@ welcome-software-search-line = 输入名称，或在左侧按类别浏览。
 welcome-software-install = 点一下就能安装
 
 # Line under it.
-welcome-software-install-line = 只为您自己安装，不需要密码，日后删除也不会留下任何东西。
+welcome-software-install-line = 只为你自己安装，不需要密码，日后删除也不会留下任何东西。
 
 # Fourth point on the administrator password page.
-welcome-admin-care = 只在您自己发起时才输入
+welcome-admin-care = 只在你自己发起时才输入
 
 # Line under it.
-welcome-admin-care-line = 只有在您自己要求做这项更改时才输入，绝不要因为某个网站或消息这样说就输入。
+welcome-admin-care-line = 只有在你自己要求做这项更改时才输入，绝不要因为某个网站或消息这样说就输入。
 
 # Head of the made-up password window in the picture on that page.
 welcome-admin-sample-title = 管理员密码
@@ -432,7 +432,7 @@ welcome-admin-sample-title = 管理员密码
 welcome-admin-sample-message = “应用”想为这台电脑上的所有人安装一个程序。
 
 # The line under it in the made-up window.
-welcome-admin-sample-note = 输入您的密码以允许。
+welcome-admin-sample-note = 输入你的密码以允许。
 
 # The main button of the made-up window.
 welcome-admin-sample-allow = 允许
@@ -441,19 +441,19 @@ welcome-admin-sample-allow = 允许
 welcome-reports-anon = 匿名
 
 # Line under it.
-welcome-reports-anon-line = 报告中绝不包含您的姓名、电子邮件地址或电脑的名称。
+welcome-reports-anon-line = 报告中绝不包含你的姓名、电子邮件地址或电脑的名称。
 
 # Second point.
 welcome-reports-private = 没有隐私内容
 
 # Line under it.
-welcome-reports-private-line = 没有文件、没有密码、没有 Wi-Fi 名称。文件夹、姓名和电子邮件地址都会被抹去。
+welcome-reports-private-line = 报告中没有文件、密码或 Wi-Fi 名称。文件夹名、其他名称和电子邮件地址都会被抹去。
 
 # Point on the marks page, marked on the top edge of the picture.
 welcome-marks-where = 屏幕顶部中间
 
 # Line under it.
-welcome-marks-where-line = 只要有程序在使用您的某样东西，它就始终显示在所有窗口之上。
+welcome-marks-where-line = 只要有程序在使用你的某样东西，它就会显示在所有窗口之上。
 
 # Head of the key of colours on the marks page.
 welcome-marks-key = 每种颜色的含义
@@ -474,7 +474,7 @@ welcome-snap-take-line = 在尝试新东西之前，随时都可以。
 welcome-words-sheet-said = Trindle 的说法
 
 # Head of the column that holds the person's own words.
-welcome-words-sheet-yours = 您的说法
+welcome-words-sheet-yours = 你的说法
 
 # Made-up own words in the sheet, in place of "Start using Trindle".
 welcome-words-sheet-start = 出发
@@ -492,13 +492,13 @@ welcome-picture-ring-shot = 打开的圆环：应用排在外圈，快捷开关�
 welcome-picture-ring-open = 一个屏幕。指针移到最顶端的边缘并点击，圆环在中间打开。然后按下 Super 键，它又打开了一次。
 
 # What the screen reader says for the screenshot of Folders.
-welcome-picture-folders = “文件夹”显示主文件夹，里面有文档、下载、音乐和图片。数字标出每个部分。
+welcome-picture-folders = Folders 显示主文件夹，里面有文档、下载、音乐和图片。数字标出每个部分。
 
 # What the screen reader says for the screenshot of Apps.
 welcome-picture-apps = “应用”停在“发现”页，有一个搜索框和热门应用，每个应用都有安装按钮。数字标出每个部分。
 
 # What the screen reader says for the screenshot of the Plugins page in Apps.
-welcome-picture-plugins-shot = “应用”停在“插件”页：每个插件都写明它要求什么，并有一个安装按钮。
+welcome-picture-plugins-shot = “应用”停在“插件”页：每个插件都写明它请求什么，并有一个安装按钮。
 
 # What the screen reader says for the screenshot of the report window.
 welcome-picture-report = “报告问题”窗口：一个填写出了什么问题的框，以及一行说明报告包含什么的文字。
@@ -522,25 +522,25 @@ welcome-plugins-in-apps = 在“应用”的“插件”中
 welcome-plugins-in-apps-line = 每个插件在列出之前都经过测试，点一下就能安装。
 
 # Second point on the plugins page.
-welcome-plugins-allowed = 只做您允许的事
+welcome-plugins-allowed = 只做你允许的事
 
 # Line under it.
-welcome-plugins-allowed-line = 每个插件都会说明它要求什么，并且运行在它自己的隔离环境中。
+welcome-plugins-allowed-line = 每个插件都会说明它需要什么，并且运行在自己的隔离环境中。
 
 # Head of the list of plugins on offer now, read from the catalogue.
-welcome-plugins-now = 目前提供
+welcome-plugins-now = 目前可用
 
 # Above the list of what an answer on the first page adds, for someone new to Linux.
 welcome-level-adds = 加入基础内容：
 
 # Above the list for someone who has used Linux.
-welcome-level-shows = 展示 Trindle 独有的内容：
+welcome-level-shows = 展示 Trindle 特有的部分：
 
 # In the card for someone who has used Trindle: where the tour is found again.
-welcome-level-again = 需要时，可在“所有应用”中找到“欢迎”。
+welcome-level-again = 你可以在“所有应用”中再次打开“欢迎”。
 
 # What the screen reader says for the picture on the Good to know card about boxes.
-welcome-picture-know-boxes = “应用”中的“权限”：当程序访问网络或打开您的文件时通知您的开关。
+welcome-picture-know-boxes = “应用”中的“权限”：当程序访问网络或打开你的文件时通知你的开关。
 
 # What the screen reader says for the picture on the Good to know card about updates.
 welcome-picture-know-updates = “应用”中的“更新”：“安全更新”开关已打开，每天自动更新。
@@ -555,7 +555,7 @@ welcome-picture-know-help = “设置”中的列表，“帮助”在最底部�
 welcome-page-firewall = 防火墙
 
 # The one sentence under the firewall page's title.
-welcome-sentence-firewall = 把其他电脑挡在外面，或者放它们进来。
+welcome-sentence-firewall = 选择其他电脑能否连接到这台电脑。
 
 # Heading of the first point on the firewall page.
 welcome-firewall-on = 把陌生人挡在外面
@@ -582,11 +582,24 @@ welcome-firewall-no = 保持关闭
 welcome-firewall-choice = 防火墙
 
 # Small note under the answers.
-welcome-firewall-settings = 您可以稍后在“设置”的“防火墙和拦截”中更改。
+welcome-firewall-settings = 你可以稍后在“设置”的“防火墙和拦截”中更改。
 
 # Red words when the firewall could not be switched and no reason was given.
-welcome-firewall-not-changed = 没有更改。
+welcome-firewall-not-changed = Trindle 无法更改防火墙。
 
 # What the firewall page's picture shows, for the screen reader.
 welcome-picture-firewall = “设置”中的“防火墙和拦截”：防火墙开关和一个开放的端口。
 
+
+
+# Title of the closing step shown when the computer has no internet connection.
+welcome-connect-title = 连接到互联网
+
+# The one line under that title.
+welcome-connect-line = 更新和安装新应用需要网络连接。
+
+# Button of that step that opens the network settings.
+welcome-connect-choose = 选择网络
+
+# Main button of that step, that ends the tour without a connection.
+welcome-connect-skip = 跳过

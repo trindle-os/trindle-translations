@@ -23,7 +23,7 @@ welcome-page-reports = Saidia kurekebisha Trindle
 welcome-page-know = Vizuri kujua
 
 # Sentence under the title of the first page.
-welcome-sentence-hello = Kila unachohitaji kiko katika duara moja, duara.
+welcome-sentence-hello = Kila unachohitaji kiko katika duara moja linaloitwa duara.
 
 # Sentence under the title of the third page.
 welcome-sentence-apps = Karibu hakuna kitu kilichosakinishwa bado, kwa hiyo chagua programu unazotaka.
@@ -33,7 +33,7 @@ welcome-sentence-more-apps = Chagua zaidi, kisha sakinisha zote ulizochagua kwa 
 
 # Sentence under the title of the fifth page.
 # SAFETY: needs a human review before it ships
-welcome-sentence-plugins = Programu jalizi ni nyongeza ndogo kutoka Programu, na kila moja hufanya tu unachoruhusu.
+welcome-sentence-plugins = Programu jalizi ni nyongeza kutoka Programu, na zinaweza kufanya tu unachoruhusu.
 
 # Sentence under the title of the last page.
 welcome-sentence-know = Mambo machache yanayofanya Trindle kuwa tofauti.
@@ -45,7 +45,7 @@ welcome-step = Hatua { $n } kati ya { $total }
 welcome-page-spoken = { $title }. Hatua { $n } kati ya { $total }. { $sentence }
 
 # Note written in the file that marks the tour as seen (welcome-done in the settings folder).
-welcome-done-file-note = Karibu imeonekana. Iko kwenye Programu zote kama Welcome; futa faili hii ili kuiona tena utakapoingia wakati ujao.
+welcome-done-file-note = Umeona ziara ya Karibu. Unaweza kuifungua kutoka Programu zote. Ili kuiona tena utakapoingia wakati ujao, futa faili hii.
 
 # Name of the round button at the foot that closes the tour.
 welcome-close = Funga
@@ -82,13 +82,13 @@ welcome-installed =
     }
 
 # Red line at the foot when the apps could not be installed, with what Flatpak said.
-welcome-failed = Programu hazikuweza kusakinishwa. { $why }
+welcome-failed = Trindle haikuweza kusakinisha programu. { $why }
 
 # Said when Flatpak gave no reason for the apps not going in.
-welcome-flatpak-refused = Flatpak ilikataa.
+welcome-flatpak-refused = Flatpak haikukubali kuzisakinisha.
 
 # Foot of the apps pages: the apps picked so far.
-welcome-chosen = Zilizochaguliwa: { $names }.
+welcome-chosen = Ulichagua { $names }.
 
 # Names of apps when there are more than three: the first two, then how many others.
 welcome-named-more = { $first }, { $second } na { $more } zaidi
@@ -139,14 +139,14 @@ welcome-plugins-card = Programu jalizi
 welcome-plugins-open = Fungua programu jalizi kwenye Programu
 
 # Said in the plugins card while there are none to show.
-welcome-plugins-none = Programu jalizi zinazotolewa zimeorodheshwa kwenye Programu.
+welcome-plugins-none = Unaweza kuona programu jalizi zilizopo kwenye Programu.
 
 # The one question about crash reports.
 # SAFETY: needs a human review before it ships
-welcome-reports-question = Saidia kurekebisha Trindle kwa kutuma ripoti kitu kinapoharibika? Unaiona kwanza kila wakati.
+welcome-reports-question = Utume ripoti kitu kinapoharibika, ili kusaidia kurekebisha Trindle? Daima unaiona kwanza.
 
 # Second note under the question about crash reports.
-welcome-reports-settings = Unaweza kubadilisha hili wakati wowote kwenye Mipangilio, Ripoti za hitilafu.
+welcome-reports-settings = Unaweza kubadilisha hili kwenye Mipangilio, chini ya Ripoti za hitilafu.
 
 # The answer that turns crash reports off.
 welcome-reports-no = Hapana
@@ -158,41 +158,41 @@ welcome-reports-yes = Ndiyo, niulize
 welcome-reports-choice = Tuma ripoti kitu kinapoharibika
 
 # Head of a card on the last page.
-welcome-know-boxes = Programu huishi kwenye masanduku yake
+welcome-know-boxes = Programu hufanya kazi kwenye masanduku yake
 
 # Line in that card.
 # SAFETY: needs a human review before it ships
-welcome-know-boxes-line = Programu huuliza kabla ya kufikia faili, kamera au kipaza sauti chako.
+welcome-know-boxes-line = Programu lazima iombe kabla ya kutumia faili, kamera au kipaza sauti chako.
 
 # Head of a card on the last page.
 welcome-know-updates = Masasisho ya usalama hujisakinisha yenyewe
 
 # Line in that card.
-welcome-know-updates-line = Kila siku, bila kuuliza. Masasisho mengine yanakusubiri.
+welcome-know-updates-line = Husakinishwa kila siku bila kuuliza. Masasisho mengine yanasubiri uyasakinishe.
 
 # Head of a card on the last page.
 welcome-know-ring = Mipangilio na Programu ziko kwenye duara
 
 # Line in that card.
-welcome-know-ring-line = Katikati yake, juu ya saa.
+welcome-know-ring-line = Ziko katikati ya duara, juu ya saa.
 
 # Head of a card on the last page.
 welcome-know-help = Msaada uko kwenye Mipangilio
 
 # Line in that card.
-welcome-know-help-line = Ziara hii iko kwenye Programu zote kama Welcome, wakati wowote ukiitaka tena.
+welcome-know-help-line = Unaweza kufungua ziara hii tena kutoka Programu zote. Inaitwa Karibu.
 
 # Title of the first page, which asks how much the person knows.
 welcome-page-level = Unajua kiasi gani?
 
 # Sentence under that title.
-welcome-sentence-level = Chagua kilicho karibu zaidi, na ziara itaacha unachokijua.
+welcome-sentence-level = Chagua kinachokufaa zaidi, na ziara itaruka unachokijua.
 
 # Name of the answer for someone who has not used Linux.
 welcome-level-new = Mgeni wa Linux
 
 # Line in that answer's card.
-welcome-level-new-line = Kila ukurasa, pamoja na kile ambacho kila kompyuta ya Linux hufanya.
+welcome-level-new-line = Kila ukurasa, pamoja na jinsi kompyuta yoyote ya Linux inavyofanya kazi.
 
 # Name of the answer for someone who has used Linux.
 welcome-level-linux = Nimewahi kutumia Linux
@@ -204,19 +204,19 @@ welcome-level-linux-line = Ni vya Trindle tu. Misingi ya Linux inarukwa.
 welcome-level-trindle = Nimewahi kutumia Trindle
 
 # Line in that answer's card.
-welcome-level-trindle-line = Inafunga ziara sasa na haionyeshi tena.
+welcome-level-trindle-line = Inafunga ziara sasa na haitaionyesha tena.
 
 # Title of the page about files and folders.
 welcome-page-files = Faili zako
 
 # Sentence under that title.
-welcome-sentence-files = Kila kitu chako kiko kwenye folda yako ya nyumbani.
+welcome-sentence-files = Faili zako zote ziko kwenye folda yako ya nyumbani.
 
 # Title of the page about getting software.
 welcome-page-software = Kupata programu
 
 # Sentence under that title.
-welcome-sentence-software = Programu hutoka kwenye Programu, si kwenye faili za usanidi unazopakua.
+welcome-sentence-software = Unapata programu kutoka Programu, si kutoka kwenye faili za usanidi unazopakua.
 
 # Title of the page about the administrator password.
 # SAFETY: needs a human review before it ships
@@ -224,7 +224,7 @@ welcome-page-admin = Nenosiri la msimamizi
 
 # Sentence under that title.
 # SAFETY: needs a human review before it ships
-welcome-sentence-admin = Mabadiliko kwa kompyuta nzima huomba nenosiri kwanza.
+welcome-sentence-admin = Kabla ya mabadiliko kuathiri kompyuta nzima, unaandika nenosiri.
 
 # Title of the page about snapshots.
 welcome-page-snapshots = Picha za mfumo
@@ -236,31 +236,31 @@ welcome-sentence-snapshots = Trindle huweka nakala za mfumo, hivyo sasisho linaw
 welcome-page-words = Maneno yako mwenyewe
 
 # Sentence under that title.
-welcome-sentence-words = Badilisha neno lolote Trindle inaloonyesha, au ongeza lugha yako mwenyewe.
+welcome-sentence-words = Unaweza kubadilisha neno lolote ambalo Trindle inaonyesha, au kuongeza lugha yako mwenyewe.
 
 # Head of a card on the files page.
 welcome-files-home = Folda ya nyumbani
 
 # Line in that card.
-welcome-files-home-line = Nyaraka, Vipakuliwa na Picha viko ndani yake. Folda hufunguka hapo.
+welcome-files-home-line = Nyaraka, Vipakuliwa na Picha viko ndani yake. Folders hufunguka hapo.
 
 # Head of a card on the files page.
 welcome-files-drives = Hakuna herufi za diski
 
 # Line in that card.
-welcome-files-drives-line = Kijiti cha USB au diski nyingine huonekana kwenye Folda unapokichomeka.
+welcome-files-drives-line = Kijiti cha USB au diski nyingine huonekana kwenye Folders unapokichomeka.
 
 # Head of a card on the files page.
-welcome-files-hidden = Majina yaliyofichwa
+welcome-files-hidden = Faili zilizofichwa
 
 # Line in that card.
-welcome-files-hidden-line = Jina linaloanza na nukta, kama .config, limefichwa. Linashikilia mipangilio ya programu.
+welcome-files-hidden-line = Faili na folda zenye jina linaloanza na nukta, kama .config, zimefichwa. Hushikilia mipangilio ya programu.
 
 # Head of a card on the software page.
 welcome-software-exe = Hakuna faili za usanidi
 
 # Line in that card.
-welcome-software-exe-line = Faili ya usanidi ya Windows, inayoishia .exe, haiendeshwi hapa. Tafuta programu kwenye Programu.
+welcome-software-exe-line = Faili za usanidi za Windows, zinazoishia .exe, hazifanyi kazi hapa. Tafuta programu kwenye Programu badala yake.
 
 # Head of a card on the software page.
 welcome-software-updates = Masasisho mahali pamoja
@@ -274,7 +274,7 @@ welcome-admin-why = Kwa nini huuliza
 
 # Line in that card.
 # SAFETY: needs a human review before it ships
-welcome-admin-why-line = Kusakinisha kwa kila mtu au kubadilisha diski huathiri kila mtumiaji, kwa hiyo kompyuta huuliza kwanza.
+welcome-admin-why-line = Kusakinisha kitu kwa kila mtu, au kubadilisha diski, huathiri kila mtumiaji. Kwa hiyo kompyuta huuliza nenosiri kwanza.
 
 # Head of a card on the administrator password page.
 # SAFETY: needs a human review before it ships
@@ -282,7 +282,7 @@ welcome-admin-who = Nenosiri la nani
 
 # Line in that card.
 # SAFETY: needs a human review before it ships
-welcome-admin-who-line = La msimamizi, kwa kawaida yule unayeingia naye.
+welcome-admin-who-line = Nenosiri la msimamizi. Kwa kawaida ndilo unalotumia kuingia.
 
 # Head of a card on the administrator password page.
 # SAFETY: needs a human review before it ships
@@ -290,16 +290,16 @@ welcome-admin-not = Wakati haliulizi
 
 # Line in that card.
 # SAFETY: needs a human review before it ships
-welcome-admin-not-line = Programu unazosakinisha kwa ajili yako mwenyewe na faili zako hazihitaji kamwe.
+welcome-admin-not-line = Huhitaji kwa programu unazosakinisha kwa ajili yako mwenyewe, wala kwa faili zako mwenyewe.
 
 # Head of a card on the snapshots page.
 welcome-snap-taken = Huchukuliwa kwa ajili yako
 
 # Line in that card.
-welcome-snap-taken-line = Kwenye mfumo wa Btrfs, moja huchukuliwa kabla na baada ya kila mabadiliko ya programu.
+welcome-snap-taken-line = Kwenye mfumo wa Btrfs, Trindle huchukua picha ya mfumo kabla na baada ya kila mabadiliko ya programu.
 
 # Head of a card on the snapshots page.
-welcome-snap-boot = Hutumika ikishindwa kuanza
+welcome-snap-boot = Ikishindwa kuanza
 
 # Line in that card.
 welcome-snap-boot-line = Chagua picha za mfumo za Trindle kwenye menyu ya kuwasha, kisha picha ya mfumo.
@@ -308,13 +308,13 @@ welcome-snap-boot-line = Chagua picha za mfumo za Trindle kwenye menyu ya kuwash
 welcome-words-change = Badilisha neno
 
 # Line in that card.
-welcome-words-change-line = Tafuta neno lolote Trindle inaloonyesha na uandike lako. "Ifungue, brew" inaweza kuchukua nafasi ya "Bofya hapa kufungua faili".
+welcome-words-change-line = Tafuta neno lolote Trindle inaloonyesha na uandike lako mwenyewe. Kwa mfano, unaweza kubadilisha "Bofya hapa kufungua faili" kuwa "Ifungue, brew".
 
 # Head of a card on the your own words page.
 welcome-words-share = Shiriki karatasi
 
 # Line in that card.
-welcome-words-share-line = Hamisha maneno yako kama faili, au leta ile aliyokutumia rafiki. Hukaguliwa kabla ya kutumika.
+welcome-words-share-line = Hamisha maneno yako kwenye faili, au leta faili ambayo rafiki alikutumia. Trindle huikagua kabla ya kuitumia.
 
 # Head of a card on the your own words page.
 welcome-words-all = Kila programu kwa wakati mmoja
@@ -323,7 +323,7 @@ welcome-words-all = Kila programu kwa wakati mmoja
 welcome-words-all-line = Trindle yote husoma maneno yake kutoka mahali pamoja, kwa hiyo badiliko moja huonekana kila mahali.
 
 # Line under the cards on the your own words page, saying where it is done.
-welcome-words-where = Iko kwenye Mipangilio, Eneo na lugha. Msaada unaieleza hatua kwa hatua.
+welcome-words-where = Utaipata kwenye Mipangilio, chini ya Eneo na lugha. Msaada unaieleza hatua kwa hatua.
 
 # Name of the round button that opens that Settings page.
 welcome-words-open = Fungua Eneo na lugha
@@ -357,25 +357,25 @@ welcome-level-closes = Hufunga ziara
 welcome-hello-apps = Programu zako
 
 # Line under it.
-welcome-hello-apps-line = Pembeni kuzunguka. Bofya kulia kwenye moja ili iendelee kukaa hapo.
+welcome-hello-apps-line = Ziko kuzunguka nje. Bofya kulia kwenye moja ili iendelee kukaa hapo.
 
 # Second point: the round buttons in the middle.
 welcome-hello-switches = Swichi za haraka
 
 # Line under it.
-welcome-hello-switches-line = Sauti, Wi-Fi, Bluetooth na zaidi, kwa kubofya mara moja kila moja.
+welcome-hello-switches-line = Sauti, Wi-Fi, Bluetooth na zaidi. Kila moja inahitaji kubofya mara moja.
 
 # Third point: the clock.
 welcome-hello-time = Saa na tarehe
 
 # Line under it.
-welcome-hello-time-line = Kila wakati katikati.
+welcome-hello-time-line = Iko katikati kila wakati.
 
 # Fourth point: the button at the bottom of the middle that lists every app.
 welcome-hello-all = Kila programu
 
 # Line under it.
-welcome-hello-all-line = Kitufe cha chini huorodhesha zote.
+welcome-hello-all-line = Kitufe cha chini huonyesha zote.
 
 # First point on the open-the-ring page.
 welcome-ring-edge = Sukuma kwenye ukingo
@@ -420,13 +420,13 @@ welcome-software-search-line = Andika jina, au vinjari kwa aina upande wa kushot
 welcome-software-install = Kubofya mara moja kunaisakinisha
 
 # Line under it.
-welcome-software-install-line = Kwa ajili yako tu, bila nenosiri, na kuiondoa baadaye hakuachi kitu nyuma.
+welcome-software-install-line = Husakinishwa kwa ajili yako tu, bila nenosiri. Ukiiondoa baadaye, hakuna kinachobaki nyuma.
 
 # Fourth point on the administrator password page.
 welcome-admin-care = Kwa ulichoanzisha tu
 
 # Line under it.
-welcome-admin-care-line = Liandike unapokuwa umeomba mabadiliko mwenyewe, kamwe si kwa sababu tovuti au ujumbe unasema hivyo.
+welcome-admin-care-line = Liandike tu kwa mabadiliko uliyoomba mwenyewe, kamwe si kwa sababu tovuti au ujumbe unakuambia.
 
 # Head of the made-up password window in the picture on that page.
 welcome-admin-sample-title = Nenosiri la msimamizi
@@ -450,13 +450,13 @@ welcome-reports-anon-line = Ripoti haina kamwe jina lako, anwani yako ya barua p
 welcome-reports-private = Hakuna cha faragha
 
 # Line under it.
-welcome-reports-private-line = Hakuna faili, hakuna nywila, hakuna majina ya Wi-Fi. Folda, majina na anwani za barua pepe hufutwa.
+welcome-reports-private-line = Hakuna faili, nywila wala majina ya Wi-Fi. Majina ya folda, majina mengine na anwani za barua pepe huondolewa.
 
 # Point on the marks page, marked on the top edge of the picture.
 welcome-marks-where = Juu katikati ya skrini
 
 # Line under it.
-welcome-marks-where-line = Huonekana kila wakati, juu ya kila dirisha, programu inapotumia kitu chako.
+welcome-marks-where-line = Hukaa juu ya kila dirisha programu inapotumia kitu chako.
 
 # Head of the key of colours on the marks page.
 welcome-marks-key = Maana ya kila rangi
@@ -471,7 +471,7 @@ welcome-snap-back-line = Hurudisha mfumo kama ulivyokuwa wakati huo.
 welcome-snap-take = Chukua mwenyewe
 
 # Line under it.
-welcome-snap-take-line = Wakati wowote, kabla ya kujaribu kitu kipya.
+welcome-snap-take-line = Fanya hivyo wakati wowote, kabla ya kujaribu kitu kipya.
 
 # Head of the column of the made-up word sheet that holds what Trindle says.
 welcome-words-sheet-said = Trindle inasema
@@ -489,25 +489,25 @@ welcome-words-sheet-install = Zipate zote
 welcome-words-sheet-close = Basi kwa sasa
 
 # What the screen reader says for the screenshot of the ring.
-welcome-picture-ring-shot = Duara likiwa wazi: programu pembeni kuzunguka, swichi za haraka na saa katikati, na kitufe cha kila programu chini. Nambari zinaonyesha kila sehemu.
+welcome-picture-ring-shot = Duara likiwa wazi. Programu ziko kuzunguka nje, swichi za haraka na saa ziko katikati, na kitufe cha programu zote kiko chini. Nambari zinaonyesha kila sehemu.
 
 # What the screen reader says for the moving picture of opening the ring.
-welcome-picture-ring-open = Skrini. Kielekezi kinaenda kwenye ukingo wa juu kabisa na kubofya, na duara hufunguka katikati. Kisha kitufe cha Super kinabonyezwa na linafunguka tena.
+welcome-picture-ring-open = Skrini. Kielekezi kinaenda kwenye ukingo wa juu kabisa na kubofya, na duara hufunguka katikati. Kisha kitufe cha Super kinabonyezwa, na duara hufunguka tena.
 
 # What the screen reader says for the screenshot of Folders.
 welcome-picture-folders = Folda zikionyesha folda ya nyumbani, yenye Nyaraka, Vipakuliwa, Muziki na Picha ndani yake. Nambari zinaonyesha kila sehemu.
 
 # What the screen reader says for the screenshot of Apps.
-welcome-picture-apps = Programu, zikiwa wazi kwenye Gundua, zenye kisanduku cha kutafuta na programu maarufu, kila moja ikiwa na kitufe cha kusakinisha. Nambari zinaonyesha kila sehemu.
+welcome-picture-apps = Programu, zikiwa wazi kwenye Gundua. Kuna kisanduku cha kutafuta na orodha ya programu maarufu, kila moja ikiwa na kitufe cha kusakinisha. Nambari zinaonyesha kila sehemu.
 
 # What the screen reader says for the screenshot of the Plugins page in Apps.
-welcome-picture-plugins-shot = Programu, zikiwa wazi kwenye Programu jalizi: kila programu jalizi na kinachoomba, na kitufe cha kusakinisha.
+welcome-picture-plugins-shot = Programu, zikiwa wazi kwenye Programu jalizi. Kila programu jalizi inaonyesha inachoomba, na ina kitufe cha kusakinisha.
 
 # What the screen reader says for the screenshot of the report window.
-welcome-picture-report = Dirisha la Ripoti tatizo: kisanduku cha kilichoharibika, na mstari unaosema ripoti ina nini.
+welcome-picture-report = Dirisha la Ripoti tatizo. Lina kisanduku cha kueleza kilichoharibika, na mstari unaosema ripoti ina nini.
 
 # What the screen reader says for the screenshot of Settings, Snapshots.
-welcome-picture-snapshots = Mipangilio, Picha za mfumo: orodha ya picha za mfumo, kila moja ikiwa na kitufe cha kurudi kwake, na kitufe cha kuchukua moja sasa. Nambari zinaonyesha kila sehemu.
+welcome-picture-snapshots = Mipangilio, Picha za mfumo. Inaonyesha orodha ya picha za mfumo, kila moja ikiwa na kitufe cha kurudi kwake, na kitufe cha kuchukua mpya. Nambari zinaonyesha kila sehemu.
 
 # What the screen reader says for the picture of the password window.
 welcome-picture-admin = Dirisha la nenosiri la msimamizi juu ya skrini iliyofifishwa, likiomba nenosiri ili kusakinisha programu kwa kila mtu.
@@ -516,7 +516,7 @@ welcome-picture-admin = Dirisha la nenosiri la msimamizi juu ya skrini iliyofifi
 welcome-picture-marks = Sehemu ya juu ya skrini ikiwa na nusu duara tatu zinazoning'inia kutoka katikati ya ukingo wa juu, kila moja kwa rangi yake.
 
 # What the screen reader says for the picture of a word sheet.
-welcome-picture-sheet = Karatasi ya maneno: kile Trindle inachosema upande wa kushoto, na maneno ya mtu mwenyewe upande wa kulia.
+welcome-picture-sheet = Karatasi ya maneno. Maneno ya Trindle yako upande wa kushoto, na maneno ya mtu mwenyewe yako upande wa kulia.
 
 # First point on the plugins page.
 welcome-plugins-in-apps = Kwenye Programu, chini ya Programu jalizi
@@ -528,28 +528,28 @@ welcome-plugins-in-apps-line = Kila programu jalizi hujaribiwa kabla ya kuorodhe
 welcome-plugins-allowed = Unachoruhusu tu
 
 # Line under it.
-welcome-plugins-allowed-line = Kila moja inasema inachoomba, na huishi kwenye sanduku lake yenyewe.
+welcome-plugins-allowed-line = Kila programu jalizi inasema inachohitaji, na hufanya kazi kwenye sanduku lake.
 
 # Head of the list of plugins on offer now, read from the catalogue.
-welcome-plugins-now = Zinazotolewa sasa
+welcome-plugins-now = Zinazopatikana sasa
 
 # Above the list of what an answer on the first page adds, for someone new to Linux.
 welcome-level-adds = Huongeza misingi:
 
 # Above the list for someone who has used Linux.
-welcome-level-shows = Huonyesha vilivyo vya Trindle yenyewe:
+welcome-level-shows = Huonyesha sehemu za Trindle yenyewe:
 
 # In the card for someone who has used Trindle: where the tour is found again.
-welcome-level-again = Karibu iko kwenye Programu zote ukiitaka tena.
+welcome-level-again = Unaweza kufungua Karibu tena kutoka Programu zote.
 
 # What the screen reader says for the picture on the Good to know card about boxes.
-welcome-picture-know-boxes = Programu, Ruhusa: swichi za kukujulisha programu inapofikia mtandao au kufungua faili zako.
+welcome-picture-know-boxes = Programu, Ruhusa. Swichi zinazokujulisha programu inapotumia mtandao au kufungua faili zako.
 
 # What the screen reader says for the picture on the Good to know card about updates.
-welcome-picture-know-updates = Programu, Masasisho: swichi ya Masasisho ya usalama, imewashwa, kila siku.
+welcome-picture-know-updates = Programu, Masasisho. Swichi ya Masasisho ya usalama imewashwa, ikiwekwa kila siku.
 
 # What the screen reader says for the picture on the Good to know card about the ring.
-welcome-picture-know-ring = Katikati ya duara: vitufe vya mviringo vya Mipangilio, Programu na zaidi juu ya saa.
+welcome-picture-know-ring = Katikati ya duara. Vitufe vya mviringo vya Mipangilio, Programu na zaidi viko juu ya saa.
 
 # What the screen reader says for the picture on the Good to know card about Help.
 welcome-picture-know-help = Orodha kwenye Mipangilio, ikiwa na Msaada chini.
@@ -558,19 +558,19 @@ welcome-picture-know-help = Orodha kwenye Mipangilio, ikiwa na Msaada chini.
 welcome-page-firewall = Ngome ya moto
 
 # The one sentence under the firewall page's title.
-welcome-sentence-firewall = Zuia kompyuta nyingine, au ziruhusu ziingie.
+welcome-sentence-firewall = Chagua kama kompyuta nyingine zinaweza kuunganishwa na hii.
 
 # Heading of the first point on the firewall page.
 welcome-firewall-on = Huwazuia wageni
 
 # Line under it.
-welcome-firewall-on-line = Hakuna kitu kwenye mtandao kinachoweza kufikia kompyuta hii isipokuwa kiliombwa kwanza. Kuvinjari, masasisho na vichapishi bado hufanya kazi.
+welcome-firewall-on-line = Vifaa vingine kwenye mtandao haviwezi kufikia kompyuta hii isipokuwa yenyewe iliwasiliana navyo kwanza. Kuvinjari, masasisho na vichapishi bado hufanya kazi.
 
 # Heading of the second point on the firewall page.
 welcome-firewall-ports = Milango imefungwa
 
 # Line under it.
-welcome-firewall-ports-line = Programu ambayo wengine huiunganisha, kama seva ya mchezo, inahitaji mlango wake ufunguliwe kwenye Mipangilio, Ngome ya moto na kuzuia.
+welcome-firewall-ports-line = Ikiwa watu wengine wanaunganisha kwenye programu iliyo kwenye kompyuta yako, kama seva ya mchezo, unahitaji kufungua mlango wake kwenye Mipangilio, chini ya Ngome ya moto na kuzuia.
 
 # The question on the firewall page.
 welcome-firewall-question = Uwashe ngome ya moto?
@@ -588,7 +588,20 @@ welcome-firewall-choice = Ngome ya moto
 welcome-firewall-settings = Unaweza kubadilisha hili baadaye kwenye Mipangilio, Ngome ya moto na kuzuia.
 
 # Red words when the firewall could not be switched and no reason was given.
-welcome-firewall-not-changed = Haikubadilishwa.
+welcome-firewall-not-changed = Trindle haikuweza kubadilisha ngome ya moto.
 
 # What the firewall page's picture shows, for the screen reader.
-welcome-picture-firewall = Mipangilio, Ngome ya moto na kuzuia: swichi ya ngome ya moto na mlango ulio wazi.
+welcome-picture-firewall = Mipangilio, Ngome ya moto na kuzuia. Inaonyesha swichi ya ngome ya moto na mlango ulio wazi.
+
+
+# Title of the closing step shown when the computer has no internet connection.
+welcome-connect-title = Unganisha na intaneti
+
+# The one line under that title.
+welcome-connect-line = Unahitaji muunganisho ili kupata masasisho na programu mpya.
+
+# Button of that step that opens the network settings.
+welcome-connect-choose = Chagua mtandao
+
+# Main button of that step, that ends the tour without a connection.
+welcome-connect-skip = Ruka

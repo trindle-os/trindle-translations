@@ -80,6 +80,8 @@ crash-result-not-taking = Buildmorphic ابھی رپورٹس نہیں لے رہ�
 
 crash-result-failed = نہیں بھیجی گئی: Buildmorphic نے { $answer } جواب دیا۔ رپورٹ محفوظ ہے۔
 
+crash-result-bad-project = نہیں بھیجی گئی: Buildmorphic کو نہیں معلوم کہ رپورٹ کس منصوبے کی ہے۔ رپورٹ محفوظ ہے۔
+
 crash-result-unreachable = نہیں بھیجی گئی: Buildmorphic تک رسائی نہیں ہو سکی۔ رپورٹ محفوظ ہے۔
 
 # Red words when one was sent but this computer could not take it off the list.

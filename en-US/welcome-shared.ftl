@@ -2,5 +2,5 @@
 # Everything else falls back to English.
 
 # Spoken name of the picture of the ring opening on a small screen.
-store-catalogue-unreadable = The catalog could not be read: { $why }
+welcome-store-catalogue-unreadable = The catalog could not be read: { $why }
 

@@ -998,7 +998,7 @@ scan-sane-missing = Les scanners USB ont besoin du logiciel de scanner SANE, qui
 
 # Red words when the system will not let the program use the USB scanner.
 # SAFETY: needs a human review before it ships
-scan-sane-denied = Trindle Scan n’est pas autorisé à utiliser les scanners USB. Activez « Use scanners and USB devices » dans ses permissions, puis rouvrez-le.
+scan-sane-denied = Trindle Scan n’est pas autorisé à utiliser les scanners USB. Activez « Use scanners and USB devices » dans ses autorisations, puis rouvrez-le.
 
 # Red words when the scanner lid is open.
 scan-sane-cover = Le capot du scanner est ouvert. Fermez-le et réessayez.

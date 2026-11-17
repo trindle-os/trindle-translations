@@ -23,7 +23,7 @@ store-nav-updates-waiting = Cập nhật ({ $n })
 store-nav-plugins = Plugin
 
 # Side bar place: apps from GitHub.
-store-nav-github = Từ GitHub
+store-nav-github = Tìm kiếm
 
 # Side bar place: where software comes from.
 store-nav-sources = Nguồn phần mềm
@@ -86,19 +86,19 @@ store-cat-utility = Tiện ích
 store-cat-system = Hệ thống
 
 # Red words when the list of apps could not be read.
-store-catalogue-unreadable = Không thể đọc danh mục: { $why }
+store-catalogue-unreadable = Trindle không đọc được danh mục: { $why }
 
 # Red words when Flathub's list of apps could not be fetched. { $why } is what Flatpak said.
-store-catalogue-not-fetched = Không thể tải danh sách ứng dụng từ Flathub. Hãy kiểm tra kết nối internet. { $why }
+store-catalogue-not-fetched = Trindle không tải được danh sách ứng dụng từ Flathub. Hãy kiểm tra kết nối internet của bạn. { $why }
 
 # Red words under the search box when nothing that was dropped on the window is a kind Apps takes.
-store-dropped-only = Chỉ có thể thả các tệp .deb, .AppImage và .flatpakref vào đây.
+store-dropped-only = Bạn chỉ có thể thả các tệp .deb, .AppImage và .flatpakref vào đây.
 
 # Red words under an app that Flatpak did not update; what Flatpak said follows.
-store-not-updated-said = Chưa cập nhật. Flatpak báo: { $why }
+store-not-updated-said = Flatpak không cập nhật được: { $why }
 
 # Red words under an app that Flatpak did not update and gave no reason for.
-store-not-updated-none = Chưa cập nhật, và Flatpak không nêu lý do.
+store-not-updated-none = Chưa được cập nhật. Không có lý do nào được nêu.
 
 # Side bar place and title: the AppImages AppImageHub lists.
 store-nav-browse = Duyệt AppImage

@@ -80,6 +80,8 @@ crash-result-not-taking = Buildmorphic sedang tidak menerima laporan. Laporan te
 
 crash-result-failed = Tidak terkirim: Buildmorphic menjawab { $answer }. Laporan tetap disimpan.
 
+crash-result-bad-project = Tidak terkirim: Buildmorphic tidak tahu laporan ini untuk proyek yang mana. Laporan tetap disimpan.
+
 crash-result-unreachable = Tidak terkirim: Buildmorphic tidak dapat dihubungi. Laporan tetap disimpan.
 
 # Red words when one was sent but this computer could not take it off the list.

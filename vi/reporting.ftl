@@ -80,6 +80,8 @@ crash-result-not-taking = Buildmorphic hiện không nhận báo cáo. Báo cáo
 
 crash-result-failed = Chưa gửi: Buildmorphic trả lời { $answer }. Báo cáo vẫn được giữ.
 
+crash-result-bad-project = Chưa gửi: Buildmorphic không biết báo cáo này thuộc dự án nào. Báo cáo vẫn được giữ.
+
 crash-result-unreachable = Chưa gửi: không thể kết nối với Buildmorphic. Báo cáo vẫn được giữ.
 
 # Red words when one was sent but this computer could not take it off the list.

@@ -81,6 +81,8 @@ crash-result-not-taking = Buildmorphic haipokei ripoti sasa. Ripoti imehifadhiwa
 
 crash-result-failed = Haikutumwa: Buildmorphic ilijibu { $answer }. Ripoti imehifadhiwa.
 
+crash-result-bad-project = Haikutumwa: Buildmorphic haijui ripoti hii ni ya mradi gani. Ripoti imehifadhiwa.
+
 crash-result-unreachable = Haikutumwa: Buildmorphic haikufikiwa. Ripoti imehifadhiwa.
 
 # Red words when one was sent but this computer could not take it off the list.

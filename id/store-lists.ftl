@@ -41,13 +41,13 @@ store-tabs-show = Tampilkan
 store-origin-credit = Diperiksa terhadap daftar Threat Intelligence HaGeZi
 
 # Where a download came from: the site and the page that led to it.
-store-origin-both = Diunduh dari { $site }, dicapai dari { $referrer }.
+store-origin-both = Anda mengunduh ini dari { $site }, setelah datang dari { $referrer }.
 
 # Where a download came from: the site.
 store-origin-site = Diunduh dari { $site }.
 
 # Where a download came from: the page that led to it.
-store-origin-referrer = Dicapai dari { $referrer }.
+store-origin-referrer = Tautan dari { $referrer }.
 
 # Said when nothing tells where a download came from.
 store-origin-unknown = Trindle tidak dapat mengetahui dari mana ini berasal.
@@ -58,18 +58,18 @@ store-origin-listed = { $from } { $name } ada di daftar Threat Intelligence HaGe
 
 # Said when the site is not on the list; the first part says where the download came from.
 # SAFETY: needs a human review before it ships
-store-origin-clear = { $from } Situs ini tidak ada di daftar Threat Intelligence HaGeZi, tetapi daftar itu tidak lengkap, jadi ini tidak membuktikan situs itu aman.
+store-origin-clear = { $from } Situs ini tidak ada di daftar Threat Intelligence HaGeZi. Daftar itu tidak lengkap, jadi ini tidak membuktikan situs itu aman.
 
 # Said when the list could not be fetched; the first part says where the download came from.
 # SAFETY: needs a human review before it ships
-store-origin-not-checked = { $from } Situs ini tidak dapat diperiksa, karena daftar Threat Intelligence HaGeZi tidak dapat diambil.
+store-origin-not-checked = { $from } Trindle tidak dapat memeriksa situs ini, karena tidak dapat mengambil daftar Threat Intelligence HaGeZi.
 
 # Name shown for a review whose writer gave none.
 store-review-someone = Seseorang
 
 # Red words when the keyring could not be reached.
 # SAFETY: needs a human review before it ships
-store-key-unreached = Gantungan kunci tidak dapat dijangkau: { $why }.
+store-key-unreached = Trindle tidak dapat menjangkau keyring: { $why }.
 
 # Red words when the key kept in the keyring is not text.
 # SAFETY: needs a human review before it ships

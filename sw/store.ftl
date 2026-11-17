@@ -23,7 +23,7 @@ store-nav-updates-waiting = Masasisho ({ $n })
 store-nav-plugins = Programu jalizi
 
 # Side bar place: apps from GitHub.
-store-nav-github = Kutoka GitHub
+store-nav-github = Tafuta
 
 # Side bar place: where software comes from.
 store-nav-sources = Vyanzo vya programu
@@ -86,19 +86,19 @@ store-cat-utility = Zana
 store-cat-system = Mfumo
 
 # Red words when the list of apps could not be read.
-store-catalogue-unreadable = Orodha haikuweza kusomwa: { $why }
+store-catalogue-unreadable = Trindle haikuweza kusoma orodha: { $why }
 
 # Red words when Flathub's list of apps could not be fetched. { $why } is what Flatpak said.
-store-catalogue-not-fetched = Orodha ya programu haikuweza kupakuliwa kutoka Flathub. Angalia muunganisho wa intaneti. { $why }
+store-catalogue-not-fetched = Trindle haikuweza kupata orodha ya programu kutoka Flathub. Angalia muunganisho wako wa intaneti. { $why }
 
 # Red words under the search box when nothing that was dropped on the window is a kind Apps takes.
-store-dropped-only = Ni faili za .deb, .AppImage na .flatpakref tu zinazoweza kuachwa hapa.
+store-dropped-only = Unaweza kuachia hapa faili za .deb, .AppImage na .flatpakref tu.
 
 # Red words under an app that Flatpak did not update; what Flatpak said follows.
-store-not-updated-said = Haikusasishwa. Flatpak ilisema: { $why }
+store-not-updated-said = Flatpak haikuisasisha: { $why }
 
 # Red words under an app that Flatpak did not update and gave no reason for.
-store-not-updated-none = Haikusasishwa, na Flatpak haikutoa sababu.
+store-not-updated-none = Haikusasishwa. Hakuna sababu iliyotolewa.
 
 # Side bar place and title: the AppImages AppImageHub lists.
 store-nav-browse = Vinjari AppImage

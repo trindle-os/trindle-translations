@@ -91,4 +91,4 @@ folders-remote-screen-no-name = algo sin nombre
 folders-remote-mod-too-much = La respuesta era demasiado grande, así que Folders la detuvo.
 
 # Why a thing on a WebDAV server was not removed as a file: it is a folder now.
-folders-remote-dav-not-a-file = { $name } ahora es una carpeta, así que no se eliminó.
+folders-remote-dav-not-a-file = { $name } ahora es una carpeta, así que Folders no lo eliminó.
