@@ -80,6 +80,8 @@ crash-result-not-taking = Buildmorphic şu anda rapor almıyor. Rapor saklandı.
 
 crash-result-failed = Gönderilmedi: Buildmorphic şu yanıtı verdi: { $answer }. Rapor saklandı.
 
+crash-result-bad-project = Gönderilmedi: Buildmorphic raporun hangi proje için olduğunu bilmiyor. Rapor saklandı.
+
 crash-result-unreachable = Gönderilmedi: Buildmorphic'e ulaşılamadı. Rapor saklandı.
 
 # Red words when one was sent but this computer could not take it off the list.

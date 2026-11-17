@@ -5,13 +5,13 @@
 scan-app-name = Trindle Scan
 
 # Red words when the program's own settings could not be saved. The reason from the computer follows.
-scan-main-error-keep-settings = Trindle Scan 无法保存您的设置：{ $why }
+scan-main-error-keep-settings = Trindle Scan 无法保存你的设置：{ $why }
 
 # Red words when the profiles could not be saved. The reason from the computer follows.
-scan-main-error-keep-profiles = Trindle Scan 无法保存您的配置文件：{ $why }
+scan-main-error-keep-profiles = Trindle Scan 无法保存你的配置文件：{ $why }
 
 # Red words under the bar when Scan is pressed with no scanner chosen.
-scan-main-error-no-scanner = 您还没有选择扫描仪。
+scan-main-error-no-scanner = 你还没有选择扫描仪。
 
 # Red words when Scan is pressed before the scanner has said what it can do.
 scan-main-error-wait-caps = Trindle Scan 还在检查扫描仪的功能。请稍后再试。
@@ -59,12 +59,12 @@ scan-main-note-saved = 已保存到 { $path }
 scan-main-note-saved-summary = { $summary } 已保存到 { $path }
 
 # Red words when pages could not be saved. The reason follows.
-scan-main-error-save = Trindle Scan 无法保存您的扫描：{ $why }。您的页面仍在这里。
+scan-main-error-save = Trindle Scan 无法保存你的扫描：{ $why }。你的页面仍在这里。
 
 # Red words when an automatic save did not work. The reason follows.
-scan-main-error-autosave = Trindle Scan 无法自动保存您的扫描：{ $why }。您的页面仍在这里。
+scan-main-error-autosave = Trindle Scan 无法自动保存你的扫描：{ $why }。你的页面仍在这里。
 
-scan-main-error-crashed = 出了问题，因此 Trindle Scan 已停止。您的页面仍在这里。
+scan-main-error-crashed = 出了问题，因此 Trindle Scan 已停止。你的页面仍在这里。
 
 # Note under the bar after pictures were added from files.
 scan-main-note-added =
@@ -267,7 +267,7 @@ scan-common-choose = 选择
 scan-common-use = 使用
 
 # Note that changes are kept as they are made.
-scan-common-changes-save = 您的更改会随时自动保存。
+scan-common-changes-save = 你的更改会随时自动保存。
 
 # Words on the bar between batch runs when the person must load the next stack.
 scan-bar-pause-empty = 请放入下一叠纸，然后按“继续”。
@@ -410,7 +410,7 @@ scan-browse-title-temp-folder = 临时页面文件夹
 scan-browse-default-name = 扫描件
 
 # Red words in the picker when a new folder is asked for before a folder is open.
-scan-browse-error-open-first-new = 请先打开您的某个文件夹，再在其中新建文件夹。
+scan-browse-error-open-first-new = 请先打开你的某个文件夹，再在其中新建文件夹。
 
 # Red words in the picker when a new folder name is not plain.
 scan-browse-error-folder-name = 文件夹名称不能包含斜杠，也不能以点开头。
@@ -419,10 +419,10 @@ scan-browse-error-folder-name = 文件夹名称不能包含斜杠，也不能以
 scan-browse-error-make-folder = Trindle Scan 无法新建文件夹：{ $why }
 
 # Red words in the picker when Add is pressed with no pictures chosen.
-scan-browse-error-no-pictures = 请选择您要的图片，然后再添加。
+scan-browse-error-no-pictures = 请选择你要的图片，然后再添加。
 
 # Red words in the picker when Save is pressed before a folder is open.
-scan-browse-error-open-first = 请先打开您的某个文件夹。
+scan-browse-error-open-first = 请先打开你的某个文件夹。
 
 # Red words in the picker when the file name is not plain.
 scan-browse-error-file-name = 文件名不能包含斜杠，也不能以点开头。
@@ -431,7 +431,7 @@ scan-browse-error-file-name = 文件名不能包含斜杠，也不能以点开�
 scan-browse-error-name-taken = 已有同名文件。请换一个名称。
 
 # Words above the list in the picker when no folder is open yet.
-scan-browse-top = 请选择您的一个文件夹
+scan-browse-top = 请选择你的一个文件夹
 
 # Button in the picker that goes up one folder.
 scan-browse-up = 上一级
@@ -628,7 +628,7 @@ scan-settings-pdf-password-spoken = PDF 密码
 
 # Note under the PDF password box.
 # SAFETY: needs a human review before it ships
-scan-settings-pdf-password-note = 留空表示不设密码。密码以纯文本形式保存，任何能打开您设置文件的人都能读到它。
+scan-settings-pdf-password-note = 留空表示不设密码。密码以纯文本形式保存，任何能打开你设置文件的人都能读到它。
 
 # Title written in a saved PDF when the person has not typed one.
 scan-settings-pdf-default-title = 扫描件
@@ -643,7 +643,7 @@ scan-settings-temp = 临时页面文件夹
 scan-settings-temp-default = 默认文件夹
 
 # Note under the folder for pages in progress.
-scan-settings-temp-note = 此更改会在您下次打开 Trindle Scan 时生效。
+scan-settings-temp-note = 此更改会在你下次打开 Trindle Scan 时生效。
 
 # A page size with its measurements in millimetres.
 scan-settings-size-mm = { $name }，{ $w } × { $h } 毫米
@@ -670,7 +670,7 @@ scan-scanners-address-note = Trindle Scan 无法自动找到其他网络中的�
 scan-presets-title = 新建配置文件
 
 # Note on the screen for making a profile.
-scan-presets-note = 配置文件会保存您的扫描设置。请选一个作为起点，以后还可以修改。
+scan-presets-note = 配置文件会保存你的扫描设置。请选一个作为起点，以后还可以修改。
 
 # Title of the profiles screen.
 scan-profiles-title = 配置文件
@@ -782,7 +782,7 @@ scan-editor-test-heading = 测试扫描
 scan-editor-test-busy = 正在扫描测试页
 
 # Note beside the Test scan button.
-scan-editor-test-note = 这会用当前设置扫描一页。它不会加入您的页面。
+scan-editor-test-note = 这会用当前设置扫描一页。它不会加入你的页面。
 
 # Note under the test page picture.
 scan-editor-test-size = 测试页：{ $w } × { $h } 像素
@@ -952,7 +952,7 @@ scan-escl-no-paper = 请在进纸器里放入纸张。
 scan-escl-jam = 纸张卡住了。
 
 # Red words when the address is not on the local network.
-scan-escl-not-private = 该地址不在您的本地网络中。
+scan-escl-not-private = 该地址不在你的本地网络中。
 
 # Red words for any other scanner problem. The reason follows.
 scan-escl-other = 扫描仪出现了问题。{ $detail }
@@ -1001,7 +1001,7 @@ scan-sane-denied = Trindle Scan 没有权限使用 USB 扫描仪。请在它的�
 scan-sane-cover = 扫描仪盖子是打开的。请合上后重试。
 
 # Reason given when the USB scanner cannot be reached.
-scan-sane-io = Trindle Scan 连不上扫描仪。请检查扫描仪是否已接好并已开机。如果您是在打开 Trindle Scan 之后才接上它，请关闭 Trindle Scan，再重新打开。
+scan-sane-io = Trindle Scan 连不上扫描仪。请检查扫描仪是否已接好并已开机。如果你是在打开 Trindle Scan 之后才接上它，请关闭 Trindle Scan，再重新打开。
 
 # Red words when the scanner would not take one setting. { $what } is the scanner's own name for it.
 scan-sane-refused = 扫描仪没有接受“{ $what }”设置，因此没有扫描任何内容。
@@ -1070,7 +1070,7 @@ scan-view-zoom-fit = 整页
 scan-view-zoom-actual = 实际大小
 
 # Note under the zoom buttons.
-scan-view-zoom-note = 您也可以用鼠标滚轮缩放，并拖动页面来移动它。按 + 和 - 放大和缩小，按 0 显示整页。
+scan-view-zoom-note = 你也可以用鼠标滚轮缩放，并拖动页面来移动它。按 + 和 - 放大和缩小，按 0 显示整页。
 
 # Label and spoken name of the choice of shape the crop box keeps.
 scan-view-crop-shape = 裁剪形状
@@ -1113,7 +1113,7 @@ scan-main-start-no-desktop = Trindle Scan 无法打开窗口，因为没有运�
 scan-main-start-no-window = Trindle Scan 无法在桌面上打开窗口。
 
 # Red words at start-up when the home folder is not set to a full path, so settings and profiles cannot be kept.
-scan-main-error-no-home = Trindle Scan 找不到您的主文件夹，因此这次无法保存您的设置和配置文件。
+scan-main-error-no-home = Trindle Scan 找不到你的主文件夹，因此这次无法保存你的设置和配置文件。
 
 
 # Red words when pages could not be copied to the recovery folder, so a crash would lose them.

@@ -47,7 +47,7 @@ folders-remote-mod-exists = { $what } ist schon da.
 
 # Red words when a server or phone refused permission; the variable is what it was refused for.
 # SAFETY: needs a human review before it ships
-folders-remote-mod-denied = Für { $what } fehlt dir die Erlaubnis.
+folders-remote-mod-denied = Für { $what } fehlt dir die Berechtigung.
 
 # Red words when a phone is open in another program; the variable is what is in use ("The phone").
 folders-remote-mod-busy = { $what } wird von einem anderen Programm benutzt.

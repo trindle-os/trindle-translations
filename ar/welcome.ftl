@@ -23,7 +23,7 @@ welcome-page-reports = ساعد في إصلاح Trindle
 welcome-page-know = من الجيد أن تعرف
 
 # Sentence under the title of the first page.
-welcome-sentence-hello = كل ما تحتاجه موجود في دائرة واحدة، هي الحلقة.
+welcome-sentence-hello = كل ما تحتاجه في دائرة واحدة تسمى الحلقة.
 
 # Sentence under the title of the third page.
 welcome-sentence-apps = لا يكاد يوجد شيء مثبّت بعد، فاختر التطبيقات التي تريدها.
@@ -33,7 +33,7 @@ welcome-sentence-more-apps = اختر المزيد، ثم ثبّت كل ما ا�
 
 # SAFETY: needs a human review before it ships
 # Sentence under the title of the fifth page.
-welcome-sentence-plugins = الإضافات ملحقات صغيرة من التطبيقات، وكل منها يفعل فقط ما تسمح به.
+welcome-sentence-plugins = الإضافات أدوات إضافية تأتي من Apps، وكل منها يفعل فقط ما تسمح به.
 
 # Sentence under the title of the last page.
 welcome-sentence-know = بضعة أشياء تميّز Trindle.
@@ -45,7 +45,7 @@ welcome-step = الخطوة { $n } من { $total }
 welcome-page-spoken = { $title }. الخطوة { $n } من { $total }. { $sentence }
 
 # Note written in the file that marks the tour as seen (welcome-done in the settings folder).
-welcome-done-file-note = تمت رؤية الترحيب. وهو في كل التطبيقات باسم الترحيب؛ احذف هذا الملف لرؤيته مرة أخرى عند تسجيل الدخول التالي.
+welcome-done-file-note = لقد شاهدت جولة الترحيب. يمكنك فتحها من كل التطبيقات. لرؤيتها مرة أخرى عند تسجيل الدخول التالي، احذف هذا الملف.
 
 # Name of the round button at the foot that closes the tour.
 welcome-close = إغلاق
@@ -87,13 +87,13 @@ welcome-installed =
     }
 
 # Red line at the foot when the apps could not be installed, with what Flatpak said.
-welcome-failed = تعذّر تثبيت التطبيقات. { $why }
+welcome-failed = تعذّر على Trindle تثبيت التطبيقات. { $why }
 
 # Said when Flatpak gave no reason for the apps not going in.
-welcome-flatpak-refused = رفض Flatpak ذلك.
+welcome-flatpak-refused = لم يقبل Flatpak تثبيتها.
 
 # Foot of the apps pages: the apps picked so far.
-welcome-chosen = المختار: { $names }.
+welcome-chosen = اخترت { $names }.
 
 # Names of apps when there are more than three: the first two, then how many others.
 welcome-named-more = { $first } و{ $second } و{ $more } آخرين
@@ -144,14 +144,14 @@ welcome-plugins-card = الإضافات
 welcome-plugins-open = فتح الإضافات في التطبيقات
 
 # Said in the plugins card while there are none to show.
-welcome-plugins-none = الإضافات المتاحة مدرجة في التطبيقات.
+welcome-plugins-none = يمكنك رؤية الإضافات المتاحة في التطبيقات.
 
 # SAFETY: needs a human review before it ships
 # The one question about crash reports.
-welcome-reports-question = هل تريد المساعدة في إصلاح Trindle بإرسال تقرير عند حدوث خطأ؟ سترى التقرير دائمًا أولًا.
+welcome-reports-question = هل تريد إرسال تقرير عند حدوث خطأ، للمساعدة في إصلاح Trindle؟ سترى التقرير دائمًا أولًا.
 
 # Second note under the question about crash reports.
-welcome-reports-settings = يمكنك تغيير هذا في أي وقت من الإعدادات، تقارير الأعطال.
+welcome-reports-settings = يمكنك تغيير هذا من الإعدادات، ضمن تقارير الأعطال.
 
 # SAFETY: needs a human review before it ships
 # The answer that turns crash reports off.
@@ -166,85 +166,85 @@ welcome-reports-yes = نعم، اسألني
 welcome-reports-choice = إرسال تقرير عند حدوث خطأ
 
 # Head of a card on the last page.
-welcome-know-boxes = التطبيقات تعيش في صناديقها الخاصة
+welcome-know-boxes = التطبيقات تعمل في صناديقها الخاصة
 
 # SAFETY: needs a human review before it ships
 # Line in that card.
-welcome-know-boxes-line = يسألك التطبيق قبل أن يصل إلى ملفاتك أو الكاميرا أو الميكروفون.
+welcome-know-boxes-line = على التطبيق أن يسألك قبل أن يستخدم ملفاتك أو الكاميرا أو الميكروفون.
 
 # Head of a card on the last page.
-welcome-know-updates = تحديثات الأمان تُثبَّت من تلقائها
+welcome-know-updates = تحديثات الأمان تُثبَّت تلقائيًا
 
 # Line in that card.
-welcome-know-updates-line = كل يوم، دون سؤال. أما التحديثات الأخرى فتنتظرك.
+welcome-know-updates-line = تُثبَّت كل يوم دون سؤال. أما التحديثات الأخرى فتنتظرك لتثبّتها.
 
 # Head of a card on the last page.
 welcome-know-ring = الإعدادات والتطبيقات في الحلقة
 
 # Line in that card.
-welcome-know-ring-line = في وسطها، فوق الوقت.
+welcome-know-ring-line = هي في وسط الحلقة، فوق الوقت.
 
 # Head of a card on the last page.
 welcome-know-help = المساعدة في الإعدادات
 
 # Line in that card.
-welcome-know-help-line = هذه الجولة في كل التطبيقات باسم الترحيب، متى أردتها مرة أخرى.
+welcome-know-help-line = يمكنك فتح هذه الجولة مرة أخرى من كل التطبيقات. اسمها الترحيب.
 
 # Title of the first page, which asks how much the person knows.
 welcome-page-level = كم تعرف؟
 
 # Sentence under that title.
-welcome-sentence-level = اختر الأقرب، وستتخطى الجولة ما تعرفه.
+welcome-sentence-level = اختر الأقرب إليك، وستتخطى الجولة ما تعرفه.
 
 # Name of the answer for someone who has not used Linux.
 welcome-level-new = جديد على Linux
 
 # Line in that answer's card.
-welcome-level-new-line = كل صفحة، بما في ذلك ما يفعله أي سطح مكتب Linux.
+welcome-level-new-line = كل صفحة، بما في ذلك طريقة عمل أي سطح مكتب Linux.
 
 # Name of the answer for someone who has used Linux.
 welcome-level-linux = استخدمت Linux من قبل
 
 # Line in that answer's card.
-welcome-level-linux-line = ما يخص Trindle وحده فقط. تُتخطى أساسيات Linux.
+welcome-level-linux-line = ما يميّز Trindle فقط. تُتخطى أساسيات Linux.
 
 # Name of the answer for someone who has used Trindle.
 welcome-level-trindle = استخدمت Trindle من قبل
 
 # Line in that answer's card.
-welcome-level-trindle-line = تُغلق الجولة الآن ولا تظهر مرة أخرى.
+welcome-level-trindle-line = تُغلق الجولة الآن ولن تظهر مرة أخرى.
 
 # Title of the page about files and folders.
 welcome-page-files = ملفاتك
 
 # Sentence under that title.
-welcome-sentence-files = كل ما يخصك موجود في مجلدك الرئيسي.
+welcome-sentence-files = كل ملفاتك في مجلدك الرئيسي.
 
 # Title of the page about getting software.
 welcome-page-software = الحصول على البرامج
 
 # Sentence under that title.
-welcome-sentence-software = تأتي التطبيقات من Apps، لا من ملفات إعداد تنزلها.
+welcome-sentence-software = تحصل على التطبيقات من Apps، لا من ملفات إعداد تنزّلها.
 
 # Title of the page about the administrator password.
 # SAFETY: needs a human review before it ships
 welcome-page-admin = كلمة مرور المسؤول
 
-# Sentence under that title.
 # SAFETY: needs a human review before it ships
-welcome-sentence-admin = التغييرات على الحاسوب كله تطلب كلمة مرور أولاً.
+# Sentence under that title.
+welcome-sentence-admin = قبل أي تغيير يشمل الحاسوب كله، تكتب كلمة مرور.
 
 # Title of the page about snapshots.
 welcome-page-snapshots = اللقطات
 
 # Sentence under that title.
-welcome-sentence-snapshots = يحتفظ Trindle بنسخ من النظام، فيمكن التراجع عن أي تحديث.
+welcome-sentence-snapshots = يحفظ Trindle نسخًا من النظام، فيمكنك التراجع عن أي تحديث.
 
 # Title of the page about the person's own words.
 welcome-page-words = كلماتك الخاصة
 
 # Sentence under that title.
-welcome-sentence-words = غيّر أي كلمة يعرضها Trindle، أو أضف لغتك الخاصة.
+welcome-sentence-words = يمكنك تغيير أي كلمة يعرضها Trindle، أو إضافة لغتك الخاصة.
 
 # Head of a card on the files page.
 welcome-files-home = مجلد رئيسي
@@ -259,16 +259,16 @@ welcome-files-drives = بلا حروف أقراص
 welcome-files-drives-line = تظهر ذاكرة USB أو قرص آخر في Folders عند توصيلها.
 
 # Head of a card on the files page.
-welcome-files-hidden = أسماء مخفية
+welcome-files-hidden = ملفات مخفية
 
 # Line in that card.
-welcome-files-hidden-line = الاسم الذي يبدأ بنقطة، مثل .config، مخفي. يحمل إعدادات تطبيق.
+welcome-files-hidden-line = الملفات والمجلدات التي يبدأ اسمها بنقطة، مثل .config، تكون مخفية. وهي تحمل إعدادات تطبيق.
 
 # Head of a card on the software page.
 welcome-software-exe = بلا ملفات إعداد
 
 # Line in that card.
-welcome-software-exe-line = ملف إعداد Windows المنتهي بـ .exe لا يعمل هنا. ابحث عن التطبيق في Apps.
+welcome-software-exe-line = ملفات إعداد Windows، التي تنتهي بـ .exe، لا تعمل هنا. ابحث عن التطبيق في Apps بدلًا من ذلك.
 
 # Head of a card on the software page.
 welcome-software-updates = التحديثات في مكان واحد
@@ -281,7 +281,7 @@ welcome-admin-why = لماذا يسأل
 
 # Line in that card.
 # SAFETY: needs a human review before it ships
-welcome-admin-why-line = التثبيت للجميع أو تغيير قرص يؤثر في كل المستخدمين، لذلك يسأل الحاسوب أولاً.
+welcome-admin-why-line = التثبيت للجميع أو تغيير قرص يؤثر في كل المستخدمين. لذلك يطلب الحاسوب كلمة مرور أولًا.
 
 # Head of a card on the administrator password page.
 welcome-admin-who = كلمة مرور من
@@ -301,34 +301,34 @@ welcome-admin-not-line = التطبيقات التي تثبتها لنفسك و�
 welcome-snap-taken = تؤخذ لك
 
 # Line in that card.
-welcome-snap-taken-line = في نظام Btrfs تؤخذ لقطة قبل كل تغيير في البرامج وبعده.
+welcome-snap-taken-line = في نظام Btrfs يأخذ Trindle لقطة قبل كل تغيير في البرامج وبعده.
 
 # Head of a card on the snapshots page.
-welcome-snap-boot = تُستخدم إن لم يبدأ التشغيل
+welcome-snap-boot = إن لم يبدأ التشغيل
 
 # Line in that card.
-welcome-snap-boot-line = اختر Trindle snapshots في قائمة الإقلاع، ثم اختر لقطة.
+welcome-snap-boot-line = في قائمة الإقلاع، اختر Trindle snapshots، ثم اختر لقطة.
 
 # Head of a card on the your own words page.
 welcome-words-change = غيّر كلمة
 
 # Line in that card.
-welcome-words-change-line = ابحث عن أي كلمة يعرضها Trindle واكتب كلمتك. يمكن أن تحل "Open it, brew" محل "Click here to open the file".
+welcome-words-change-line = ابحث عن أي كلمة يعرضها Trindle واكتب كلمتك. مثلًا، يمكنك استبدال "Click here to open the file" بـ "Open it, brew".
 
 # Head of a card on the your own words page.
 welcome-words-share = شارك ورقة
 
 # Line in that card.
-welcome-words-share-line = صدّر كلماتك كملف، أو استورد ملفاً أرسله صديق. يُفحص قبل استخدامه.
+welcome-words-share-line = صدّر كلماتك إلى ملف، أو استورد ملفًا أرسله إليك صديق. يفحصه Trindle قبل أن يستخدمه.
 
 # Head of a card on the your own words page.
 welcome-words-all = كل البرامج دفعة واحدة
 
 # Line in that card.
-welcome-words-all-line = يقرأ Trindle كله كلماته من مكان واحد، فيظهر تغيير واحد في كل مكان.
+welcome-words-all-line = يحصل Trindle كله على كلماته من مكان واحد، فيظهر أي تغيير في كل مكان.
 
 # Line under the cards on the your own words page, saying where it is done.
-welcome-words-where = إنها في Settings، ثم Region and language. تشرحها Help خطوة بخطوة.
+welcome-words-where = ستجدها في Settings، ضمن Region and language. تشرحها Help خطوة بخطوة.
 
 # Name of the round button that opens that Settings page.
 welcome-words-open = افتح Region and language
@@ -366,13 +366,13 @@ welcome-level-closes = تُغلق الجولة
 welcome-hello-apps = تطبيقاتك
 
 # Line under it.
-welcome-hello-apps-line = حول الحلقة من الخارج. انقر بزر الفأرة الأيمن على أحدها لإبقائه هناك.
+welcome-hello-apps-line = هي حول الحلقة من الخارج. انقر بزر الفأرة الأيمن على أحدها لإبقائه هناك.
 
 # Second point: the round buttons in the middle.
 welcome-hello-switches = مفاتيح سريعة
 
 # Line under it.
-welcome-hello-switches-line = الصوت وWi-Fi وBluetooth وغيرها، بنقرة واحدة لكل منها.
+welcome-hello-switches-line = الصوت وWi-Fi وBluetooth وغيرها. كل منها بنقرة واحدة.
 
 # Third point: the clock.
 welcome-hello-time = الوقت والتاريخ
@@ -429,13 +429,13 @@ welcome-software-search-line = اكتب اسمًا، أو تصفّح حسب ال
 welcome-software-install = نقرة واحدة تثبّته
 
 # Line under it.
-welcome-software-install-line = لك وحدك، بلا كلمة مرور، وعند إزالته لاحقًا لا يبقى منه شيء.
+welcome-software-install-line = يُثبَّت لك وحدك، بلا كلمة مرور. وإذا أزلته لاحقًا فلن يبقى منه شيء.
 
 # Fourth point on the administrator password page.
 welcome-admin-care = لما بدأته أنت فقط
 
 # Line under it.
-welcome-admin-care-line = اكتبها حين تطلب التغيير بنفسك، لا لأن موقعًا أو رسالة تقول ذلك.
+welcome-admin-care-line = اكتبها فقط لتغيير طلبته بنفسك، لا لأن موقعًا أو رسالة تطلب منك ذلك.
 
 # Head of the made-up password window in the picture on that page.
 welcome-admin-sample-title = كلمة مرور المسؤول
@@ -453,19 +453,19 @@ welcome-admin-sample-allow = اسمح
 welcome-reports-anon = مجهول المصدر
 
 # Line under it.
-welcome-reports-anon-line = لا يحمل التقرير اسمك ولا بريدك الإلكتروني ولا اسم الحاسوب.
+welcome-reports-anon-line = لا يحتوي التقرير أبدًا على اسمك أو بريدك الإلكتروني أو اسم الحاسوب.
 
 # Second point.
 welcome-reports-private = لا شيء خاص
 
 # Line under it.
-welcome-reports-private-line = لا ملفات ولا كلمات مرور ولا أسماء Wi-Fi. تُمحى المجلدات والأسماء وعناوين البريد الإلكتروني.
+welcome-reports-private-line = لا ملفات ولا كلمات مرور ولا أسماء Wi-Fi. وتُمحى أسماء المجلدات والأسماء الأخرى وعناوين البريد الإلكتروني.
 
 # Point on the marks page, marked on the top edge of the picture.
 welcome-marks-where = وسط أعلى الشاشة
 
 # Line under it.
-welcome-marks-where-line = ظاهرة دائمًا فوق كل نافذة ما دام برنامج يستخدم شيئًا يخصك.
+welcome-marks-where-line = تبقى فوق كل نافذة ما دام برنامج يستخدم شيئًا يخصك.
 
 # Head of the key of colours on the marks page.
 welcome-marks-key = ماذا يعني كل لون
@@ -480,7 +480,7 @@ welcome-snap-back-line = يعيد النظام كما كان في تلك الل�
 welcome-snap-take = خذ لقطة بنفسك
 
 # Line under it.
-welcome-snap-take-line = في أي وقت، قبل أن تجرّب شيئًا جديدًا.
+welcome-snap-take-line = افعل ذلك في أي وقت، قبل أن تجرّب شيئًا جديدًا.
 
 # Head of the column of the made-up word sheet that holds what Trindle says.
 welcome-words-sheet-said = ما يقوله Trindle
@@ -537,7 +537,7 @@ welcome-plugins-in-apps-line = تُختبر كل إضافة قبل إدراجه�
 welcome-plugins-allowed = فقط ما تسمح به
 
 # Line under it.
-welcome-plugins-allowed-line = كل إضافة تذكر ما تطلبه، وتعيش في صندوق خاص بها.
+welcome-plugins-allowed-line = كل إضافة تذكر ما تحتاجه، وتعمل في صندوقها الخاص.
 
 # Head of the list of plugins on offer now, read from the catalogue.
 welcome-plugins-now = المتاح الآن
@@ -549,7 +549,7 @@ welcome-level-adds = يضيف الأساسيات:
 welcome-level-shows = يعرض ما يخص Trindle وحده:
 
 # In the card for someone who has used Trindle: where the tour is found again.
-welcome-level-again = الترحيب في كل التطبيقات متى أردته مرة أخرى.
+welcome-level-again = يمكنك فتح الترحيب مرة أخرى من كل التطبيقات.
 
 # What the screen reader says for the picture on the Good to know card about boxes.
 welcome-picture-know-boxes = Apps، الأذونات: مفاتيح لتُبلَّغ حين يصل برنامج إلى الشبكة أو يفتح ملفاتك.
@@ -567,19 +567,19 @@ welcome-picture-know-help = القائمة في الإعدادات، والمس�
 welcome-page-firewall = جدار الحماية
 
 # The one sentence under the firewall page's title.
-welcome-sentence-firewall = أبقِ الحواسيب الأخرى خارجًا، أو دعها تدخل.
+welcome-sentence-firewall = اختر هل يمكن للحواسيب الأخرى الاتصال بهذا الحاسوب أم لا.
 
 # Heading of the first point on the firewall page.
 welcome-firewall-on = يُبقي الغرباء خارجًا
 
 # Line under it.
-welcome-firewall-on-line = لا شيء على الشبكة يستطيع الوصول إلى هذا الحاسوب ما لم يطلب هو ذلك أولًا. يبقى التصفح والتحديثات والطابعات تعمل.
+welcome-firewall-on-line = لا تستطيع الأجهزة الأخرى على الشبكة الوصول إلى هذا الحاسوب ما لم يتصل بها هو أولًا. يبقى التصفح والتحديثات والطابعات تعمل.
 
 # Heading of the second point on the firewall page.
 welcome-firewall-ports = المنافذ مغلقة
 
 # Line under it.
-welcome-firewall-ports-line = البرنامج الذي يتصل به الآخرون، مثل خادم لعبة، يحتاج إلى فتح منفذه في الإعدادات، جدار الحماية والحظر.
+welcome-firewall-ports-line = إذا كان آخرون يتصلون ببرنامج على حاسوبك، مثل خادم لعبة، فعليك فتح منفذه في الإعدادات، ضمن جدار الحماية والحظر.
 
 # The question on the firewall page.
 welcome-firewall-question = هل تريد تشغيل جدار الحماية؟
@@ -594,11 +594,24 @@ welcome-firewall-no = اتركه متوقفًا
 welcome-firewall-choice = جدار الحماية
 
 # Small note under the answers.
-welcome-firewall-settings = يمكنك تغيير هذا لاحقًا في الإعدادات، جدار الحماية والحظر.
+welcome-firewall-settings = يمكنك تغيير هذا لاحقًا في الإعدادات، ضمن جدار الحماية والحظر.
 
 # Red words when the firewall could not be switched and no reason was given.
-welcome-firewall-not-changed = لم يتغير شيء.
+welcome-firewall-not-changed = تعذّر على Trindle تغيير جدار الحماية.
 
 # What the firewall page's picture shows, for the screen reader.
 welcome-picture-firewall = الإعدادات، جدار الحماية والحظر: مفتاح جدار الحماية ومنفذ مفتوح.
 
+
+
+# Title of the closing step shown when the computer has no internet connection.
+welcome-connect-title = الاتصال بالإنترنت
+
+# The one line under that title.
+welcome-connect-line = تحتاج إلى اتصال لتلقي التحديثات والتطبيقات الجديدة.
+
+# Button of that step that opens the network settings.
+welcome-connect-choose = اختر شبكة
+
+# Main button of that step, that ends the tour without a connection.
+welcome-connect-skip = تخطَّ

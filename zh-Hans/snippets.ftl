@@ -1,15 +1,15 @@
 
 # Under the form when the person tries to leave a snippet with unsaved changes.
-snippets-unsaved = 您有尚未保存的更改。请保存，或按“取消”放弃更改。
+snippets-unsaved = 你有尚未保存的更改。请保存，或按“取消”放弃更改。
 
 # The hint at the foot of the window.
-snippets-foot-hint = Trindle 询问时，请允许 Snippets 替您输入。之后在任何程序里输入触发词（例如 :tm）即可。您也可以找到某个文本片段并复制它。
+snippets-foot-hint = Trindle 询问时，请允许 Snippets 替你输入。之后在任何程序里输入触发词（例如 :tm）即可。你也可以找到某个文本片段并复制它。
 
 # Red words when the snippet being edited vanished from its file.
-snippets-removed-from-file = 这个文本片段已从它的文件中移除。您的更改还在这里。按“保存”可把它加回去。
+snippets-removed-from-file = 这个文本片段已从它的文件中移除。你的更改还在这里。按“保存”可把它加回去。
 
 # Said once at start when unsaved words were restored.
-snippets-words-back = Snippets 已恢复您上次没来得及保存的文字。
+snippets-words-back = Snippets 已恢复你上次没来得及保存的文字。
 
 # Said when Copy is pressed on a snippet with variables.
 snippets-copy-needs-plain = 这个文本片段用到了变量、表单或脚本，只有输入它的触发词才能使用，没有可复制的纯文本。
@@ -201,16 +201,16 @@ snippets-expansion-on = 输入展开已开启
 snippets-expansion-off = 输入展开已关闭
 
 # Under the replacement when it cannot expand.
-snippets-wont-line-break = 这个文本片段在您输入时不会展开，因为替换文本里有换行或制表符。您仍然可以复制它。
+snippets-wont-line-break = 这个文本片段在你输入时不会展开，因为替换文本里有换行或制表符。你仍然可以复制它。
 
 # Under the replacement when it cannot expand.
-snippets-wont-variable = 这个文本片段在您输入时不会展开，因为替换文本里有变量。
+snippets-wont-variable = 这个文本片段在你输入时不会展开，因为替换文本里有变量。
 
 # Under the replacement when it cannot expand.
-snippets-wont-long = 这个文本片段在您输入时不会展开，因为替换文本太长。
+snippets-wont-long = 这个文本片段在你输入时不会展开，因为替换文本太长。
 
 # Under the replacement when it cannot expand.
-snippets-wont-trigger = 这个文本片段在您输入时不会展开，因为触发词必须是 3 到 32 个字符，且不能有空格。
+snippets-wont-trigger = 这个文本片段在你输入时不会展开，因为触发词必须是 3 到 32 个字符，且不能有空格。
 
 # Problem when a file cannot be written.
 snippets-not-writable = Snippets 无法保存到该文件。
@@ -234,7 +234,7 @@ snippets-name-unusable = 不能使用这个名称。请换一个。
 snippets-name-taken = 已经有同名的文件了。
 
 # Problem when an export fails.
-snippets-too-many-to-pack = Snippets 无法导出您的文本片段。数量可能太多，一个压缩包装不下。
+snippets-too-many-to-pack = Snippets 无法导出你的文本片段。数量可能太多，一个压缩包装不下。
 
 # Problem when an imported file cannot be named.
 snippets-no-free-name = Snippets 找不到可用的名称来保存导入的文件。
@@ -249,10 +249,10 @@ snippets-not-utf8 = 这个文件不是以 UTF-8 文本保存的。
 snippets-snippet-gone = 该文本片段已不存在。请按“重新加载”。
 
 # Problem when a snippet changed in its file.
-snippets-snippet-changed = 自您打开后，该文本片段在文件里已被改动。请按“取消”重新载入。
+snippets-snippet-changed = 自你打开后，该文本片段在文件里已被改动。请按“取消”重新载入。
 
 # Problem when a safe edit was not possible.
-snippets-unsafe-change = Snippets 无法在不改动其他文本片段的情况下保存您的更改，所以没有保存任何内容。
+snippets-unsafe-change = Snippets 无法在不改动其他文本片段的情况下保存你的更改，所以没有保存任何内容。
 
 # Problem under the triggers box.
 snippets-need-trigger = 请至少添加一个触发词。

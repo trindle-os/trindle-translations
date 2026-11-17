@@ -235,7 +235,7 @@ folders-menu-ring-already = { $name } zaten halkada.
 folders-menu-ring-full = Halka dolu. { $n } sabitlemeye yer var, önce birini çıkarın.
 
 # Red words under the file lines when a name cannot be written in the ring's list of favourites.
-folders-menu-ring-unkept = Folders { $name } öğesini halkaya sabitleyemiyor, çünkü adında orada kaydedemediği bir karakter var.
+folders-menu-ring-unkept = Folders { $name } öğesini halkaya sabitleyemiyor, çünkü adında Folders'ın orada kaydedemediği bir karakter var.
 
 # Red words under the file lines when the ring's favourites list could not be saved.
 folders-menu-ring-not-saved = Folders halkanın sık kullanılanlarını kaydedemedi.

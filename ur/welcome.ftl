@@ -14,7 +14,7 @@ welcome-page-apps = اپنی ایپس چنیں
 welcome-page-more-apps = چننے کو مزید
 
 # Title of the fifth page, about plugins.
-welcome-page-plugins = پلگ اِنز مزید کام کرتے ہیں
+welcome-page-plugins = پلگ انز مزید کام کرتے ہیں
 
 # Title of the sixth page, about crash reports.
 welcome-page-reports = Trindle ٹھیک کرنے میں مدد کریں
@@ -23,7 +23,7 @@ welcome-page-reports = Trindle ٹھیک کرنے میں مدد کریں
 welcome-page-know = جاننے کی باتیں
 
 # Sentence under the title of the first page.
-welcome-sentence-hello = آپ کی ضرورت کی ہر چیز ایک دائرے میں ہے، حلقہ۔
+welcome-sentence-hello = آپ کی ضرورت کی ہر چیز ایک دائرے میں ہے، جسے حلقہ کہتے ہیں۔
 
 # Sentence under the title of the third page.
 welcome-sentence-apps = ابھی تقریباً کچھ بھی انسٹال نہیں ہے، اس لیے اپنی مطلوبہ ایپس چنیں۔
@@ -33,7 +33,7 @@ welcome-sentence-more-apps = مزید چنیں، پھر چنی ہوئی سب ا�
 
 # Sentence under the title of the fifth page.
 # SAFETY: needs a human review before it ships
-welcome-sentence-plugins = پلگ اِنز ایپس سے ملنے والے چھوٹے اضافے ہیں، اور ہر ایک صرف وہی کرتا ہے جس کی آپ اجازت دیں۔
+welcome-sentence-plugins = پلگ انز ایپس سے ملنے والے اضافے ہیں، اور وہ صرف وہی کر سکتے ہیں جس کی آپ اجازت دیں۔
 
 # Sentence under the title of the last page.
 welcome-sentence-know = چند باتیں جو Trindle کو مختلف بناتی ہیں۔
@@ -45,7 +45,7 @@ welcome-step = مرحلہ { $n } از { $total }
 welcome-page-spoken = { $title }۔ مرحلہ { $n } از { $total }۔ { $sentence }
 
 # Note written in the file that marks the tour as seen (welcome-done in the settings folder).
-welcome-done-file-note = خوش آمدید دیکھا جا چکا ہے۔ یہ تمام ایپس میں "خوش آمدید" کے نام سے ہے؛ اگلے لاگ ان پر دوبارہ دیکھنے کے لیے یہ فائل مٹا دیں۔
+welcome-done-file-note = آپ خوش آمدید کا ٹور دیکھ چکے ہیں۔ آپ اسے تمام ایپس سے کھول سکتے ہیں۔ اگلے لاگ ان پر دوبارہ دیکھنے کے لیے یہ فائل مٹا دیں۔
 
 # Name of the round button at the foot that closes the tour.
 welcome-close = بند کریں
@@ -82,13 +82,13 @@ welcome-installed =
     }
 
 # Red line at the foot when the apps could not be installed, with what Flatpak said.
-welcome-failed = ایپس انسٹال نہیں ہو سکیں۔ { $why }
+welcome-failed = Trindle ایپس انسٹال نہیں کر سکا۔ { $why }
 
 # Said when Flatpak gave no reason for the apps not going in.
-welcome-flatpak-refused = Flatpak نے انکار کر دیا۔
+welcome-flatpak-refused = Flatpak نے انہیں انسٹال نہیں کیا۔
 
 # Foot of the apps pages: the apps picked so far.
-welcome-chosen = چنی گئیں: { $names }۔
+welcome-chosen = آپ نے یہ چنا: { $names }۔
 
 # Names of apps when there are more than three: the first two, then how many others.
 welcome-named-more = { $first }، { $second } اور { $more } مزید
@@ -133,19 +133,19 @@ welcome-app-picked = { $name }، چنی گئی
 welcome-app-pick = { $name } چنیں
 
 # Head of the card that lists the plugins on offer.
-welcome-plugins-card = پلگ اِنز
+welcome-plugins-card = پلگ انز
 
 # Name of the button that opens Apps at its Plugins page.
-welcome-plugins-open = ایپس میں پلگ اِنز کھولیں
+welcome-plugins-open = ایپس میں پلگ انز کھولیں
 
 # Said in the plugins card while there are none to show.
-welcome-plugins-none = پیش کیے گئے پلگ اِنز ایپس میں درج ہیں۔
+welcome-plugins-none = دستیاب پلگ انز آپ ایپس میں دیکھ سکتے ہیں۔
 
 # The one question about crash reports.
-welcome-reports-question = کچھ غلط ہونے پر رپورٹ بھیج کر Trindle ٹھیک کرنے میں مدد کریں؟ آپ اسے ہمیشہ پہلے دیکھتے ہیں۔
+welcome-reports-question = کچھ غلط ہونے پر رپورٹ بھیجیں تاکہ Trindle کو ٹھیک کرنے میں مدد ملے؟ آپ اسے ہمیشہ پہلے دیکھتے ہیں۔
 
 # Second note under the question about crash reports.
-welcome-reports-settings = آپ اسے کسی بھی وقت سیٹنگز، کریش رپورٹس میں بدل سکتے ہیں۔
+welcome-reports-settings = آپ اسے سیٹنگز میں، کریش رپورٹس کے تحت بدل سکتے ہیں۔
 
 # The answer that turns crash reports off.
 welcome-reports-no = نہیں
@@ -157,47 +157,47 @@ welcome-reports-yes = ہاں، مجھ سے پوچھیں
 welcome-reports-choice = کچھ غلط ہونے پر رپورٹ بھیجیں
 
 # Head of a card on the last page.
-welcome-know-boxes = ایپس اپنے اپنے ڈبوں میں رہتی ہیں
+welcome-know-boxes = ایپس اپنے اپنے ڈبوں میں چلتی ہیں
 
 # Line in that card.
 # SAFETY: needs a human review before it ships
-welcome-know-boxes-line = ایپ آپ کی فائلوں، کیمرے یا مائیکروفون تک پہنچنے سے پہلے پوچھتی ہے۔
+welcome-know-boxes-line = ایپ کو آپ کی فائلیں، کیمرا یا مائیکروفون استعمال کرنے سے پہلے پوچھنا پڑتا ہے۔
 
 # Head of a card on the last page.
 welcome-know-updates = حفاظتی اپ ڈیٹس خود انسٹال ہوتی ہیں
 
 # Line in that card.
-welcome-know-updates-line = ہر روز، بغیر پوچھے۔ باقی اپ ڈیٹس آپ کا انتظار کرتی ہیں۔
+welcome-know-updates-line = یہ ہر روز بغیر پوچھے انسٹال ہوتی ہیں۔ باقی اپ ڈیٹس انسٹال کرنے کے لیے آپ کا انتظار کرتی ہیں۔
 
 # Head of a card on the last page.
 welcome-know-ring = سیٹنگز اور ایپس حلقہ میں ہیں
 
 # Line in that card.
-welcome-know-ring-line = اس کے بیچ میں، وقت کے اوپر۔
+welcome-know-ring-line = یہ حلقہ کے بیچ میں ہیں، وقت کے اوپر۔
 
 # Head of a card on the last page.
 welcome-know-help = مدد سیٹنگز میں ہے
 
 # Line in that card.
-welcome-know-help-line = یہ ٹور تمام ایپس میں "خوش آمدید" کے نام سے ہے، جب بھی آپ دوبارہ چاہیں۔
+welcome-know-help-line = آپ اس ٹور کو تمام ایپس سے دوبارہ کھول سکتے ہیں۔ اس کا نام "خوش آمدید" ہے۔
 
 # Title of the first page, which asks how much the person knows.
 welcome-page-level = آپ کتنا جانتے ہیں؟
 
 # Sentence under that title.
-welcome-sentence-level = جو سب سے قریب ہو وہ چنیں، اور سیر میں وہ چیزیں چھوڑ دی جائیں گی جو آپ جانتے ہیں۔
+welcome-sentence-level = جو آپ کے سب سے قریب ہو وہ چنیں، اور سیر میں وہ باتیں چھوڑ دی جائیں گی جو آپ پہلے سے جانتے ہیں۔
 
 # Name of the answer for someone who has not used Linux.
 welcome-level-new = Linux میں نیا
 
 # Line in that card.
-welcome-level-new-line = ہر صفحہ، بشمول وہ سب جو کوئی بھی Linux ڈیسک ٹاپ کرتا ہے۔
+welcome-level-new-line = ہر صفحہ، بشمول یہ کہ کوئی بھی Linux ڈیسک ٹاپ کیسے کام کرتا ہے۔
 
 # Name of the answer for someone who has used Linux.
 welcome-level-linux = پہلے Linux استعمال کیا ہے
 
 # Line in that card.
-welcome-level-linux-line = صرف وہ جو Trindle کا اپنا ہے۔ Linux کی بنیادی باتیں چھوڑ دی جاتی ہیں۔
+welcome-level-linux-line = صرف وہ جو Trindle میں خاص ہے۔ Linux کی بنیادی باتیں چھوڑ دی جاتی ہیں۔
 
 # Name of the answer for someone who has used Trindle.
 welcome-level-trindle = پہلے Trindle استعمال کیا ہے
@@ -209,57 +209,57 @@ welcome-level-trindle-line = سیر ابھی بند کرتا ہے اور دوب�
 welcome-page-files = آپ کی فائلیں
 
 # Sentence under that title.
-welcome-sentence-files = آپ کی ہر چیز آپ کے ہوم فولڈر میں رہتی ہے۔
+welcome-sentence-files = آپ کی تمام فائلیں آپ کے ہوم فولڈر میں ہیں۔
 
 # Title of the page about getting software.
 welcome-page-software = سافٹ ویئر حاصل کرنا
 
 # Sentence under that title.
-welcome-sentence-software = ایپس "ایپس" سے آتی ہیں، ڈاؤن لوڈ کی گئی سیٹ اپ فائلوں سے نہیں۔
+welcome-sentence-software = آپ ایپس "ایپس" سے لیتے ہیں، ڈاؤن لوڈ کی گئی سیٹ اپ فائلوں سے نہیں۔
 
 # SAFETY: needs a human review before it ships
 # Title of the page about the administrator password.
 welcome-page-admin = منتظم کا پاس ورڈ
 
-# SAFETY: needs a human review before it ships
 # Sentence under that title.
-welcome-sentence-admin = پورے کمپیوٹر میں تبدیلی سے پہلے پاس ورڈ پوچھا جاتا ہے۔
+# SAFETY: needs a human review before it ships
+welcome-sentence-admin = پورے کمپیوٹر پر اثر ڈالنے والی کسی تبدیلی سے پہلے آپ پاس ورڈ لکھتے ہیں۔
 
 # Title of the page about snapshots.
 welcome-page-snapshots = سنیپ شاٹس
 
 # Sentence under that title.
-welcome-sentence-snapshots = Trindle نظام کی نقلیں رکھتا ہے، تاکہ اپ ڈیٹ کو واپس کیا جا سکے۔
+welcome-sentence-snapshots = Trindle نظام کی نقلیں محفوظ کرتا ہے، تاکہ آپ کسی اپ ڈیٹ کو واپس کر سکیں۔
 
 # Title of the page about the person's own words.
 welcome-page-words = آپ کے اپنے الفاظ
 
 # Sentence under that title.
-welcome-sentence-words = Trindle جو بھی لفظ دکھاتا ہے اسے بدلیں، یا اپنی زبان شامل کریں۔
+welcome-sentence-words = آپ Trindle کا دکھایا ہوا کوئی بھی لفظ بدل سکتے ہیں، یا اپنی زبان شامل کر سکتے ہیں۔
 
 # Head of a card on the files page.
 welcome-files-home = ہوم فولڈر
 
 # Line in that card.
-welcome-files-home-line = دستاویزات، ڈاؤن لوڈز اور تصاویر اس کے اندر ہیں۔ فولڈرز وہیں کھلتا ہے۔
+welcome-files-home-line = دستاویزات، ڈاؤن لوڈز اور تصاویر اس کے اندر ہیں۔ Folders وہیں کھلتا ہے۔
 
 # Head of a card on the files page.
 welcome-files-drives = ڈرائیو کے حروف نہیں
 
 # Line in that card.
-welcome-files-drives-line = USB اسٹک یا دوسری ڈسک لگاتے ہی فولڈرز میں نظر آتی ہے۔
+welcome-files-drives-line = USB اسٹک یا دوسری ڈسک لگاتے ہی Folders میں نظر آتی ہے۔
 
 # Head of a card on the files page.
-welcome-files-hidden = چھپے ہوئے نام
+welcome-files-hidden = چھپی ہوئی فائلیں
 
 # Line in that card.
-welcome-files-hidden-line = نقطے سے شروع ہونے والا نام، جیسے .config، چھپا رہتا ہے۔ اس میں کسی ایپ کی ترتیبات ہوتی ہیں۔
+welcome-files-hidden-line = جن فائلوں اور فولڈرز کا نام نقطے سے شروع ہوتا ہے، جیسے .config، وہ چھپے رہتے ہیں۔ ان میں کسی ایپ کی ترتیبات ہوتی ہیں۔
 
 # Head of a card on the software page.
 welcome-software-exe = سیٹ اپ فائلیں نہیں
 
 # Line in that card.
-welcome-software-exe-line = .exe پر ختم ہونے والی Windows سیٹ اپ فائل یہاں نہیں چلتی۔ ایپ کو ایپس میں تلاش کریں۔
+welcome-software-exe-line = Windows کی سیٹ اپ فائلیں، جو .exe پر ختم ہوتی ہیں، یہاں نہیں چلتیں۔ اس کی جگہ ایپ کو ایپس میں تلاش کریں۔
 
 # Head of a card on the software page.
 welcome-software-updates = اپ ڈیٹس ایک جگہ
@@ -273,7 +273,7 @@ welcome-admin-why = یہ کیوں پوچھتا ہے
 
 # SAFETY: needs a human review before it ships
 # Line in that card.
-welcome-admin-why-line = سب کے لیے انسٹال کرنا یا ڈسک بدلنا ہر صارف پر اثر ڈالتا ہے، اس لیے کمپیوٹر پہلے پوچھتا ہے۔
+welcome-admin-why-line = سب کے لیے کچھ انسٹال کرنا یا ڈسک بدلنا ہر صارف پر اثر ڈالتا ہے۔ اس لیے کمپیوٹر پہلے پاس ورڈ مانگتا ہے۔
 
 # SAFETY: needs a human review before it ships
 # Head of a card on the administrator password page.
@@ -281,7 +281,7 @@ welcome-admin-who = کس کا پاس ورڈ
 
 # SAFETY: needs a human review before it ships
 # Line in that card.
-welcome-admin-who-line = کسی منتظم کا، عموماً اس کا جس سے آپ لاگ ان کرتے ہیں۔
+welcome-admin-who-line = کسی منتظم کا پاس ورڈ۔ یہ عموماً وہی ہوتا ہے جس سے آپ لاگ ان کرتے ہیں۔
 
 # SAFETY: needs a human review before it ships
 # Head of a card on the administrator password page.
@@ -289,40 +289,40 @@ welcome-admin-not = کب نہیں پوچھتا
 
 # SAFETY: needs a human review before it ships
 # Line in that card.
-welcome-admin-not-line = جو ایپس آپ اپنے لیے انسٹال کرتے ہیں اور آپ کی اپنی فائلوں کو اس کی کبھی ضرورت نہیں پڑتی۔
+welcome-admin-not-line = جو ایپس آپ صرف اپنے لیے انسٹال کرتے ہیں، یا آپ کی اپنی فائلوں کے لیے اس کی ضرورت نہیں پڑتی۔
 
 # Head of a card on the snapshots page.
 welcome-snap-taken = آپ کے لیے لیا جاتا ہے
 
 # Line in that card.
-welcome-snap-taken-line = Btrfs نظام پر ہر سافٹ ویئر تبدیلی سے پہلے اور بعد میں ایک لیا جاتا ہے۔
+welcome-snap-taken-line = Btrfs نظام پر Trindle ہر سافٹ ویئر تبدیلی سے پہلے اور بعد میں ایک سنیپ شاٹ لیتا ہے۔
 
 # Head of a card on the snapshots page.
-welcome-snap-boot = شروع نہ ہو تو کام آتے ہیں
+welcome-snap-boot = شروع نہ ہو تو
 
 # Line in that card.
-welcome-snap-boot-line = بوٹ مینو میں Trindle snapshots چنیں، پھر کوئی سنیپ شاٹ۔
+welcome-snap-boot-line = بوٹ مینو میں Trindle snapshots چنیں، پھر کوئی سنیپ شاٹ چنیں۔
 
 # Head of a card on the your own words page.
 welcome-words-change = لفظ بدلیں
 
 # Line in that card.
-welcome-words-change-line = Trindle جو بھی لفظ دکھاتا ہے اسے ڈھونڈیں اور اپنا لکھیں۔ "Open it, brew" کو "Click here to open the file" کی جگہ رکھا جا سکتا ہے۔
+welcome-words-change-line = Trindle جو بھی لفظ دکھاتا ہے اسے ڈھونڈیں اور اپنا لکھیں۔ مثلاً آپ "Click here to open the file" کی جگہ "Open it, brew" رکھ سکتے ہیں۔
 
 # Head of a card on the your own words page.
 welcome-words-share = شیٹ شیئر کریں
 
 # Line in that card.
-welcome-words-share-line = اپنے الفاظ فائل کے طور پر برآمد کریں، یا کسی دوست کی بھیجی ہوئی درآمد کریں۔ استعمال سے پہلے اس کی جانچ ہوتی ہے۔
+welcome-words-share-line = اپنے الفاظ فائل میں برآمد کریں، یا کسی دوست کی بھیجی ہوئی فائل درآمد کریں۔ Trindle اسے استعمال کرنے سے پہلے اس کی جانچ کرتا ہے۔
 
 # Head of a card on the your own words page.
 welcome-words-all = ہر پروگرام ایک ساتھ
 
 # Line in that card.
-welcome-words-all-line = پورا Trindle اپنے الفاظ ایک ہی جگہ سے پڑھتا ہے، اس لیے ایک تبدیلی ہر جگہ نظر آتی ہے۔
+welcome-words-all-line = پورا Trindle اپنے الفاظ ایک ہی جگہ سے لیتا ہے، اس لیے ایک تبدیلی ہر جگہ نظر آتی ہے۔
 
 # Line under the cards on the your own words page, saying where it is done.
-welcome-words-where = یہ ترتیبات، خطہ اور زبان میں ہے۔ مدد اسے قدم بہ قدم سمجھاتی ہے۔
+welcome-words-where = یہ ترتیبات میں، خطہ اور زبان کے تحت ہے۔ مدد اسے قدم بہ قدم سمجھاتی ہے۔
 
 # Name of the round button that opens that Settings page.
 welcome-words-open = خطہ اور زبان کھولیں
@@ -356,25 +356,25 @@ welcome-level-closes = ٹور بند ہو جاتا ہے
 welcome-hello-apps = آپ کی ایپس
 
 # Line under it.
-welcome-hello-apps-line = باہر کی طرف گول۔ کسی ایک پر رائٹ کلک کر کے اسے وہیں رکھیں۔
+welcome-hello-apps-line = یہ باہر کی طرف گول ترتیب میں ہیں۔ کسی ایک پر رائٹ کلک کر کے اسے وہیں رکھیں۔
 
 # Second point: the round buttons in the middle.
 welcome-hello-switches = فوری سوئچ
 
 # Line under it.
-welcome-hello-switches-line = آواز، Wi-Fi، Bluetooth اور مزید، ہر ایک ایک کلک سے۔
+welcome-hello-switches-line = آواز، Wi-Fi، Bluetooth اور مزید۔ ہر ایک کے لیے ایک کلک کافی ہے۔
 
 # Third point: the clock.
 welcome-hello-time = وقت اور تاریخ
 
 # Line under it.
-welcome-hello-time-line = ہمیشہ بیچ میں۔
+welcome-hello-time-line = یہ ہمیشہ بیچ میں رہتا ہے۔
 
 # Fourth point: the button at the bottom of the middle that lists every app.
 welcome-hello-all = ہر ایپ
 
 # Line under it.
-welcome-hello-all-line = نیچے کا بٹن سب کی فہرست دکھاتا ہے۔
+welcome-hello-all-line = نیچے کا بٹن سب کو دکھاتا ہے۔
 
 # First point on the open-the-ring page.
 welcome-ring-edge = کنارے سے لگائیں
@@ -419,13 +419,13 @@ welcome-software-search-line = نام لکھیں، یا بائیں طرف قسم
 welcome-software-install = ایک کلک سے انسٹال
 
 # Line under it.
-welcome-software-install-line = صرف آپ کے لیے، بغیر پاس ورڈ کے، اور بعد میں ہٹانے پر کچھ باقی نہیں رہتا۔
+welcome-software-install-line = یہ صرف آپ کے لیے انسٹال ہوتی ہے، بغیر پاس ورڈ کے۔ اگر آپ اسے بعد میں ہٹائیں تو کچھ باقی نہیں رہتا۔
 
 # Fourth point on the administrator password page.
 welcome-admin-care = صرف اس کے لیے جو آپ نے شروع کیا
 
 # Line under it.
-welcome-admin-care-line = اسے تب لکھیں جب تبدیلی آپ نے خود مانگی ہو، اس لیے کبھی نہیں کہ کوئی ویب سائٹ یا پیغام کہے۔
+welcome-admin-care-line = اسے صرف اسی تبدیلی کے لیے لکھیں جو آپ نے خود مانگی ہو، کسی ویب سائٹ یا پیغام کے کہنے پر کبھی نہیں۔
 
 # Head of the made-up password window in the picture on that page.
 welcome-admin-sample-title = منتظم کا پاس ورڈ
@@ -449,13 +449,13 @@ welcome-reports-anon-line = رپورٹ میں آپ کا نام، آپ کا ای 
 welcome-reports-private = کچھ نجی نہیں
 
 # Line under it.
-welcome-reports-private-line = کوئی فائل نہیں، کوئی پاس ورڈ نہیں، کوئی Wi-Fi نام نہیں۔ فولڈرز، نام اور ای میل پتے مٹا دیے جاتے ہیں۔
+welcome-reports-private-line = کوئی فائل، پاس ورڈ یا Wi-Fi نام نہیں۔ فولڈروں کے نام، دوسرے نام اور ای میل پتے مٹا دیے جاتے ہیں۔
 
 # Point on the marks page, marked on the top edge of the picture.
 welcome-marks-where = اسکرین کا اوپری درمیانی حصہ
 
 # Line under it.
-welcome-marks-where-line = ہمیشہ نظر آتے ہیں، ہر ونڈو کے اوپر، جب تک کوئی پروگرام آپ کی کوئی چیز استعمال کرے۔
+welcome-marks-where-line = جب کوئی پروگرام آپ کی کوئی چیز استعمال کر رہا ہو تو یہ ہر ونڈو کے اوپر رہتا ہے۔
 
 # Head of the key of colours on the marks page.
 welcome-marks-key = ہر رنگ کا مطلب
@@ -470,7 +470,7 @@ welcome-snap-back-line = سسٹم کو ویسا ہی کر دیتا ہے جیسا
 welcome-snap-take = خود ایک لیں
 
 # Line under it.
-welcome-snap-take-line = کسی بھی وقت، کچھ نیا آزمانے سے پہلے۔
+welcome-snap-take-line = اسے کسی بھی وقت کریں، کچھ نیا آزمانے سے پہلے۔
 
 # Head of the column of the made-up word sheet that holds what Trindle says.
 welcome-words-sheet-said = Trindle کہتا ہے
@@ -488,46 +488,46 @@ welcome-words-sheet-install = سب لے لیں
 welcome-words-sheet-close = ابھی کے لیے ہو گیا
 
 # What the screen reader says for the screenshot of the ring.
-welcome-picture-ring-shot = حلقہ کھلا ہوا: باہر کی طرف ایپس، بیچ میں فوری سوئچ اور وقت، اور نیچے ہر ایپ کا بٹن۔ نمبر ہر حصے کی نشاندہی کرتے ہیں۔
+welcome-picture-ring-shot = کھلا ہوا حلقہ۔ ایپس باہر کی طرف ہیں، فوری سوئچ اور وقت بیچ میں ہیں، اور ہر ایپ کا بٹن نیچے ہے۔ نمبر ہر حصے کی نشاندہی کرتے ہیں۔
 
 # What the screen reader says for the moving picture of opening the ring.
-welcome-picture-ring-open = ایک اسکرین۔ پوائنٹر بالکل اوپر کے کنارے پر جا کر کلک کرتا ہے، اور حلقہ بیچ میں کھل جاتا ہے۔ پھر Super کلید دبائی جاتی ہے اور وہ دوبارہ کھلتا ہے۔
+welcome-picture-ring-open = ایک اسکرین۔ پوائنٹر بالکل اوپر کے کنارے پر جا کر کلک کرتا ہے، اور حلقہ بیچ میں کھل جاتا ہے۔ پھر Super کلید دبائی جاتی ہے، اور حلقہ دوبارہ کھلتا ہے۔
 
 # What the screen reader says for the screenshot of Folders.
-welcome-picture-folders = فولڈرز میں ہوم فولڈر دکھایا گیا ہے، جس میں دستاویزات، ڈاؤن لوڈز، موسیقی اور تصاویر ہیں۔ نمبر ہر حصے کی نشاندہی کرتے ہیں۔
+welcome-picture-folders = Folders میں ہوم فولڈر دکھایا گیا ہے، جس میں دستاویزات، ڈاؤن لوڈز، موسیقی اور تصاویر ہیں۔ نمبر ہر حصے کی نشاندہی کرتے ہیں۔
 
 # What the screen reader says for the screenshot of Apps.
-welcome-picture-apps = ایپس، دریافت پر کھلی ہوئی، ایک سرچ باکس اور مقبول ایپس کے ساتھ، ہر ایک پر انسٹال کا بٹن۔ نمبر ہر حصے کی نشاندہی کرتے ہیں۔
+welcome-picture-apps = ایپس، دریافت پر کھلی ہوئی۔ ایک سرچ باکس اور مقبول ایپس کی فہرست ہے، ہر ایک پر انسٹال کا بٹن۔ نمبر ہر حصے کی نشاندہی کرتے ہیں۔
 
 # What the screen reader says for the screenshot of the Plugins page in Apps.
-welcome-picture-plugins-shot = ایپس، پلگ اِنز پر کھلی ہوئی: ہر پلگ اِن اپنی مانگ اور انسٹال کے بٹن کے ساتھ۔
+welcome-picture-plugins-shot = ایپس، پلگ انز پر کھلی ہوئی۔ ہر پلگ ان دکھاتا ہے کہ وہ کیا مانگتا ہے، اور اس پر انسٹال کا بٹن ہے۔
 
 # What the screen reader says for the screenshot of the report window.
-welcome-picture-report = مسئلے کی اطلاع دیں ونڈو: کیا غلط ہوا اس کے لیے ایک خانہ، اور ایک سطر جو بتاتی ہے کہ رپورٹ میں کیا ہوتا ہے۔
+welcome-picture-report = مسئلے کی اطلاع دیں ونڈو۔ اس میں یہ بتانے کے لیے ایک خانہ ہے کہ کیا غلط ہوا، اور ایک سطر جو بتاتی ہے کہ رپورٹ میں کیا ہوتا ہے۔
 
 # What the screen reader says for the screenshot of Settings, Snapshots.
-welcome-picture-snapshots = سیٹنگز، سنیپ شاٹس: سنیپ شاٹس کی فہرست، ہر ایک کے ساتھ واپس جانے کا بٹن، اور ابھی ایک لینے کا بٹن۔ نمبر ہر حصے کی نشاندہی کرتے ہیں۔
+welcome-picture-snapshots = سیٹنگز، سنیپ شاٹس۔ اس میں سنیپ شاٹس کی فہرست ہے، ہر ایک کے ساتھ واپس جانے کا بٹن، اور نیا سنیپ شاٹ لینے کا بٹن۔ نمبر ہر حصے کی نشاندہی کرتے ہیں۔
 
 # What the screen reader says for the picture of the password window.
-welcome-picture-admin = دھندلی اسکرین پر منتظم کے پاس ورڈ کی ونڈو، جو سب کے لیے پروگرام انسٹال کرنے کا پاس ورڈ مانگ رہی ہے۔
+welcome-picture-admin = دھندلی اسکرین پر منتظم کے پاس ورڈ کی ونڈو۔ یہ سب کے لیے پروگرام انسٹال کرنے کا پاس ورڈ مانگتی ہے۔
 
 # What the screen reader says for the picture of the marks at the top of the screen.
 welcome-picture-marks = اسکرین کا اوپری حصہ، جس میں اوپر کے کنارے کے بیچ سے تین آدھے دائرے لٹک رہے ہیں، ہر ایک اپنے رنگ میں۔
 
 # What the screen reader says for the picture of a word sheet.
-welcome-picture-sheet = الفاظ کی شیٹ: بائیں طرف Trindle کیا کہتا ہے، اور دائیں طرف کسی کے اپنے الفاظ۔
+welcome-picture-sheet = الفاظ کی شیٹ۔ بائیں طرف Trindle کے الفاظ ہیں، اور دائیں طرف کسی کے اپنے الفاظ۔
 
 # First point on the plugins page.
-welcome-plugins-in-apps = ایپس میں، پلگ اِنز کے تحت
+welcome-plugins-in-apps = ایپس میں، پلگ انز کے تحت
 
 # Line under it.
-welcome-plugins-in-apps-line = ہر پلگ اِن فہرست میں آنے سے پہلے جانچا جاتا ہے، اور ایک کلک سے انسٹال ہو جاتا ہے۔
+welcome-plugins-in-apps-line = ہر پلگ ان فہرست میں آنے سے پہلے جانچا جاتا ہے، اور ایک کلک سے انسٹال ہو جاتا ہے۔
 
 # Second point on the plugins page.
 welcome-plugins-allowed = صرف وہ جس کی آپ اجازت دیں
 
 # Line under it.
-welcome-plugins-allowed-line = ہر ایک بتاتا ہے کہ وہ کیا مانگتا ہے، اور اپنے ہی ڈبے میں رہتا ہے۔
+welcome-plugins-allowed-line = ہر پلگ ان بتاتا ہے کہ اسے کیا چاہیے، اور اپنے الگ ماحول میں چلتا ہے۔
 
 # Head of the list of plugins on offer now, read from the catalogue.
 welcome-plugins-now = ابھی دستیاب
@@ -536,19 +536,19 @@ welcome-plugins-now = ابھی دستیاب
 welcome-level-adds = بنیادی چیزیں شامل کرتا ہے:
 
 # Above the list for someone who has used Linux.
-welcome-level-shows = وہ دکھاتا ہے جو Trindle کا اپنا ہے:
+welcome-level-shows = Trindle کے اپنے حصے دکھاتا ہے:
 
 # In the card for someone who has used Trindle: where the tour is found again.
-welcome-level-again = جب بھی دوبارہ چاہیں، خوش آمدید تمام ایپس میں ہے۔
+welcome-level-again = آپ خوش آمدید کو تمام ایپس سے دوبارہ کھول سکتے ہیں۔
 
 # What the screen reader says for the picture on the Good to know card about boxes.
-welcome-picture-know-boxes = ایپس، اجازتیں: ایسے سوئچ جو بتاتے ہیں جب کوئی پروگرام نیٹ ورک تک پہنچے یا آپ کی فائلیں کھولے۔
+welcome-picture-know-boxes = ایپس، اجازتیں۔ ایسے سوئچ جو بتاتے ہیں جب کوئی پروگرام نیٹ ورک استعمال کرے یا آپ کی فائلیں کھولے۔
 
 # What the screen reader says for the picture on the Good to know card about updates.
-welcome-picture-know-updates = ایپس، اپ ڈیٹس: سکیورٹی اپ ڈیٹس کا سوئچ، آن، ہر روز۔
+welcome-picture-know-updates = ایپس، اپ ڈیٹس۔ سکیورٹی اپ ڈیٹس کا سوئچ آن ہے، ہر روز پر مقرر۔
 
 # What the screen reader says for the picture on the Good to know card about the ring.
-welcome-picture-know-ring = حلقے کا بیچ: وقت کے اوپر سیٹنگز، ایپس اور مزید کے گول بٹن۔
+welcome-picture-know-ring = حلقے کا بیچ۔ وقت کے اوپر سیٹنگز، ایپس اور مزید کے گول بٹن ہیں۔
 
 # What the screen reader says for the picture on the Good to know card about Help.
 welcome-picture-know-help = سیٹنگز کی فہرست، جس کے نیچے مدد ہے۔
@@ -557,19 +557,19 @@ welcome-picture-know-help = سیٹنگز کی فہرست، جس کے نیچے م
 welcome-page-firewall = فائر وال
 
 # The one sentence under the firewall page's title.
-welcome-sentence-firewall = دوسرے کمپیوٹروں کو باہر رکھیں، یا اندر آنے دیں۔
+welcome-sentence-firewall = چنیں کہ دوسرے کمپیوٹر اس کمپیوٹر سے جڑ سکتے ہیں یا نہیں۔
 
 # Heading of the first point on the firewall page.
 welcome-firewall-on = اجنبیوں کو باہر رکھتا ہے
 
 # Line under it.
-welcome-firewall-on-line = نیٹ ورک پر کوئی بھی چیز اس کمپیوٹر تک نہیں پہنچ سکتی جب تک اس نے خود پہلے نہ مانگا ہو۔ براؤزنگ، اپ ڈیٹس اور پرنٹر پھر بھی چلتے ہیں۔
+welcome-firewall-on-line = نیٹ ورک پر دوسرے آلات اس کمپیوٹر تک نہیں پہنچ سکتے، جب تک اس کمپیوٹر نے پہلے ان سے رابطہ نہ کیا ہو۔ براؤزنگ، اپ ڈیٹس اور پرنٹر پھر بھی چلتے ہیں۔
 
 # Heading of the second point on the firewall page.
 welcome-firewall-ports = پورٹس بند ہیں
 
 # Line under it.
-welcome-firewall-ports-line = جس پروگرام سے دوسرے جڑتے ہیں، جیسے گیم سرور، اس کی پورٹ سیٹنگز، فائر وال اور بلاکنگ میں کھولنی پڑتی ہے۔
+welcome-firewall-ports-line = اگر دوسرے لوگ آپ کے کمپیوٹر پر کسی پروگرام سے جڑتے ہیں، جیسے گیم سرور، تو آپ کو اس کی پورٹ سیٹنگز میں، فائر وال اور بلاکنگ کے تحت کھولنی ہوگی۔
 
 # The question on the firewall page.
 welcome-firewall-question = فائر وال آن کریں؟
@@ -587,8 +587,21 @@ welcome-firewall-choice = فائر وال
 welcome-firewall-settings = آپ اسے بعد میں سیٹنگز، فائر وال اور بلاکنگ میں بدل سکتے ہیں۔
 
 # Red words when the firewall could not be switched and no reason was given.
-welcome-firewall-not-changed = تبدیل نہیں ہوا۔
+welcome-firewall-not-changed = Trindle فائر وال نہیں بدل سکا۔
 
 # What the firewall page's picture shows, for the screen reader.
-welcome-picture-firewall = سیٹنگز، فائر وال اور بلاکنگ: فائر وال کا سوئچ اور ایک کھلی پورٹ۔
+welcome-picture-firewall = سیٹنگز، فائر وال اور بلاکنگ۔ اس میں فائر وال کا سوئچ اور ایک کھلی پورٹ دکھائی گئی ہے۔
 
+
+
+# Title of the closing step shown when the computer has no internet connection.
+welcome-connect-title = انٹرنیٹ سے جڑیں
+
+# The one line under that title.
+welcome-connect-line = اپ ڈیٹس اور نئی ایپس کے لیے کنکشن درکار ہے۔
+
+# Button of that step that opens the network settings.
+welcome-connect-choose = نیٹ ورک چنیں
+
+# Main button of that step, that ends the tour without a connection.
+welcome-connect-skip = چھوڑیں

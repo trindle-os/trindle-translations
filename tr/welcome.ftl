@@ -23,7 +23,7 @@ welcome-page-reports = Trindle'ın düzeltilmesine yardım edin
 welcome-page-know = Bilmeye değer
 
 # Sentence under the title of the first page.
-welcome-sentence-hello = İhtiyacınız olan her şey tek bir dairede, halkada.
+welcome-sentence-hello = İhtiyacınız olan her şey, halka denen tek bir dairede.
 
 # Sentence under the title of the third page.
 welcome-sentence-apps = Henüz neredeyse hiçbir şey kurulu değil, bu yüzden istediğiniz uygulamaları seçin.
@@ -33,7 +33,7 @@ welcome-sentence-more-apps = Daha fazlasını seçin, sonra seçtiğiniz her şe
 
 # Sentence under the title of the fifth page.
 # SAFETY: needs a human review before it ships
-welcome-sentence-plugins = Eklentiler, Uygulamalar'dan gelen küçük eklerdir ve her biri yalnızca izin verdiğiniz şeyi yapar.
+welcome-sentence-plugins = Eklentiler, Uygulamalar'dan edinilen ek parçalardır ve yalnızca izin verdiğinizi yapabilir.
 
 # Sentence under the title of the last page.
 welcome-sentence-know = Trindle'ı farklı kılan birkaç şey.
@@ -45,7 +45,7 @@ welcome-step = Adım { $n } / { $total }
 welcome-page-spoken = { $title }. Adım { $n } / { $total }. { $sentence }
 
 # Note written in the file that marks the tour as seen (welcome-done in the settings folder).
-welcome-done-file-note = Hoş geldiniz ekranı görüldü. Tüm uygulamalarda Welcome adıyla bulunur; bir sonraki oturum açışta yeniden görmek için bu dosyayı silin.
+welcome-done-file-note = Hoş geldiniz turunu gördünüz. Tüm uygulamalar bölümünden açabilirsiniz. Bir sonraki oturum açışınızda yeniden görmek için bu dosyayı silin.
 
 # Name of the round button at the foot that closes the tour.
 welcome-close = Kapat
@@ -82,13 +82,13 @@ welcome-installed =
     }
 
 # Red line at the foot when the apps could not be installed, with what Flatpak said.
-welcome-failed = Uygulamalar kurulamadı. { $why }
+welcome-failed = Trindle uygulamaları kuramadı. { $why }
 
 # Said when Flatpak gave no reason for the apps not going in.
-welcome-flatpak-refused = Flatpak reddetti.
+welcome-flatpak-refused = Flatpak bunları kurmadı.
 
 # Foot of the apps pages: the apps picked so far.
-welcome-chosen = Seçilenler: { $names }.
+welcome-chosen = Şunları seçtiniz: { $names }.
 
 # Names of apps when there are more than three: the first two, then how many others.
 welcome-named-more = { $first }, { $second } ve { $more } tane daha
@@ -140,14 +140,14 @@ welcome-plugins-open = Eklentileri Uygulamalar'da aç
 
 # Said in the plugins card while there are none to show.
 # SAFETY: needs a human review before it ships
-welcome-plugins-none = Sunulan eklentiler Uygulamalar'da listelenir.
+welcome-plugins-none = Kullanılabilir eklentileri Uygulamalar'da görebilirsiniz.
 
 # The one question about crash reports.
 # SAFETY: needs a human review before it ships
-welcome-reports-question = Bir şey ters gittiğinde rapor göndererek Trindle'ın düzeltilmesine yardım etmek ister misiniz? Raporu her zaman önce siz görürsünüz.
+welcome-reports-question = Bir şey ters gittiğinde, Trindle'ın düzeltilmesine yardım etmek için rapor gönderilsin mi? Raporu her zaman önce siz görürsünüz.
 
 # Second note under the question about crash reports.
-welcome-reports-settings = Bunu istediğiniz zaman Ayarlar, Çökme raporları bölümünden değiştirebilirsiniz.
+welcome-reports-settings = Bunu Ayarlar'da, Çökme raporları bölümünden değiştirebilirsiniz.
 
 # The answer that turns crash reports off.
 # SAFETY: needs a human review before it ships
@@ -162,41 +162,41 @@ welcome-reports-yes = Evet, bana sor
 welcome-reports-choice = Bir şey ters gittiğinde rapor gönder
 
 # Head of a card on the last page.
-welcome-know-boxes = Uygulamalar kendi kutularında yaşar
+welcome-know-boxes = Uygulamalar kendi kutularında çalışır
 
 # Line in that card.
 # SAFETY: needs a human review before it ships
-welcome-know-boxes-line = Bir uygulama dosyalarınıza, kameranıza ya da mikrofonunuza erişmeden önce sorar.
+welcome-know-boxes-line = Bir uygulama dosyalarınızı, kameranızı ya da mikrofonunuzu kullanabilmek için önce sormak zorundadır.
 
 # Head of a card on the last page.
-welcome-know-updates = Güvenlik güncellemeleri kendiliğinden kurulur
+welcome-know-updates = Güvenlik güncellemeleri otomatik kurulur
 
 # Line in that card.
-welcome-know-updates-line = Her gün, sormadan. Diğer güncellemeler sizi bekler.
+welcome-know-updates-line = Her gün sormadan kurulurlar. Diğer güncellemeler, siz kurana kadar bekler.
 
 # Head of a card on the last page.
 welcome-know-ring = Ayarlar ve Uygulamalar halkada
 
 # Line in that card.
-welcome-know-ring-line = Ortasında, saatin üstünde.
+welcome-know-ring-line = Halkanın ortasında, saatin üstündedirler.
 
 # Head of a card on the last page.
 welcome-know-help = Yardım Ayarlar'da
 
 # Line in that card.
-welcome-know-help-line = Bu tanıtım, tekrar istediğinizde Tüm uygulamalar içinde Welcome adıyla bulunur.
+welcome-know-help-line = Bu turu Tüm uygulamalar bölümünden yeniden açabilirsiniz. Adı Welcome.
 
 # Title of the first page, which asks how much the person knows.
 welcome-page-level = Ne kadar biliyorsunuz?
 
 # Sentence under that title.
-welcome-sentence-level = En yakın olanı seçin; tanıtım bildiklerinizi atlar.
+welcome-sentence-level = Size en yakın olanı seçin; tur bildiklerinizi atlar.
 
 # Name of the answer for someone who has not used Linux.
 welcome-level-new = Linux'a yeniyim
 
 # Line in that answer's card.
-welcome-level-new-line = Her sayfa, her Linux masaüstünün yaptıkları dahil.
+welcome-level-new-line = Her sayfa, her Linux masaüstünün nasıl çalıştığı dahil.
 
 # Name of the answer for someone who has used Linux.
 welcome-level-linux = Daha önce Linux kullandım
@@ -214,13 +214,13 @@ welcome-level-trindle-line = Tanıtımı şimdi kapatır ve bir daha göstermez.
 welcome-page-files = Dosyalarınız
 
 # Sentence under that title.
-welcome-sentence-files = Size ait her şey ev klasörünüzde durur.
+welcome-sentence-files = Tüm dosyalarınız ev klasörünüzde.
 
 # Title of the page about getting software.
 welcome-page-software = Yazılım edinmek
 
 # Sentence under that title.
-welcome-sentence-software = Uygulamalar, indirdiğiniz kurulum dosyalarından değil, Uygulamalar'dan gelir.
+welcome-sentence-software = Uygulamaları, indirdiğiniz kurulum dosyalarından değil, Uygulamalar'dan edinirsiniz.
 
 # Title of the page about the administrator password.
 # SAFETY: needs a human review before it ships
@@ -228,19 +228,19 @@ welcome-page-admin = Yönetici parolası
 
 # Sentence under that title.
 # SAFETY: needs a human review before it ships
-welcome-sentence-admin = Tüm bilgisayarı değiştiren işlemler önce parola ister.
+welcome-sentence-admin = Tüm bilgisayarı etkileyecek bir değişiklikten önce bir parola yazarsınız.
 
 # Title of the page about snapshots.
 welcome-page-snapshots = Anlık görüntüler
 
 # Sentence under that title.
-welcome-sentence-snapshots = Trindle sistemin kopyalarını tutar, böylece bir güncelleme geri alınabilir.
+welcome-sentence-snapshots = Trindle sistemin kopyalarını kaydeder, böylece bir güncellemeyi geri alabilirsiniz.
 
 # Title of the page about the person's own words.
 welcome-page-words = Kendi sözcükleriniz
 
 # Sentence under that title.
-welcome-sentence-words = Trindle'ın gösterdiği herhangi bir sözcüğü değiştirin ya da kendi dilinizi ekleyin.
+welcome-sentence-words = Trindle'ın gösterdiği herhangi bir sözcüğü değiştirebilir ya da kendi dilinizi ekleyebilirsiniz.
 
 # Head of a card on the files page.
 welcome-files-home = Bir ev klasörü
@@ -255,16 +255,16 @@ welcome-files-drives = Sürücü harfi yok
 welcome-files-drives-line = Bir USB bellek ya da başka bir disk, taktığınızda Folders içinde görünür.
 
 # Head of a card on the files page.
-welcome-files-hidden = Gizli adlar
+welcome-files-hidden = Gizli dosyalar
 
 # Line in that card.
-welcome-files-hidden-line = .config gibi nokta ile başlayan bir ad gizlidir. Bir uygulamanın ayarlarını tutar.
+welcome-files-hidden-line = Adı nokta ile başlayan dosya ve klasörler, örneğin .config, gizlidir. Bir uygulamanın ayarlarını tutarlar.
 
 # Head of a card on the software page.
 welcome-software-exe = Kurulum dosyası yok
 
 # Line in that card.
-welcome-software-exe-line = .exe ile biten bir Windows kurulum dosyası burada çalışmaz. Uygulamayı Uygulamalar'da arayın.
+welcome-software-exe-line = .exe ile biten Windows kurulum dosyaları burada çalışmaz. Bunun yerine uygulamayı Uygulamalar'da arayın.
 
 # Head of a card on the software page.
 welcome-software-updates = Güncellemeler tek yerde
@@ -278,7 +278,7 @@ welcome-admin-why = Neden sorar
 
 # Line in that card.
 # SAFETY: needs a human review before it ships
-welcome-admin-why-line = Herkes için kurmak ya da bir diski değiştirmek her kullanıcıyı etkiler, bu yüzden bilgisayar önce sorar.
+welcome-admin-why-line = Herkes için bir şey kurmak ya da bir diski değiştirmek her kullanıcıyı etkiler. Bu yüzden bilgisayar önce parola ister.
 
 # Head of a card on the administrator password page.
 # SAFETY: needs a human review before it ships
@@ -286,7 +286,7 @@ welcome-admin-who = Kimin parolası
 
 # Line in that card.
 # SAFETY: needs a human review before it ships
-welcome-admin-who-line = Bir yöneticinin parolası, genellikle oturum açtığınız hesabınki.
+welcome-admin-who-line = Bir yöneticinin parolası. Bu genellikle oturum açtığınız hesabınkidir.
 
 # Head of a card on the administrator password page.
 # SAFETY: needs a human review before it ships
@@ -294,16 +294,16 @@ welcome-admin-not = Ne zaman sormaz
 
 # Line in that card.
 # SAFETY: needs a human review before it ships
-welcome-admin-not-line = Yalnızca kendiniz için kurduğunuz uygulamalar ve kendi dosyalarınız buna asla ihtiyaç duymaz.
+welcome-admin-not-line = Yalnızca kendiniz için kurduğunuz uygulamalar ya da kendi dosyalarınız için gerekmez.
 
 # Head of a card on the snapshots page.
 welcome-snap-taken = Sizin için alınır
 
 # Line in that card.
-welcome-snap-taken-line = Btrfs sistemde, her yazılım değişikliğinden önce ve sonra bir tane alınır.
+welcome-snap-taken-line = Btrfs sistemde Trindle, her yazılım değişikliğinden önce ve sonra bir anlık görüntü alır.
 
 # Head of a card on the snapshots page.
-welcome-snap-boot = Başlamazsa kullanılır
+welcome-snap-boot = Başlamazsa
 
 # Line in that card.
 welcome-snap-boot-line = Önyükleme menüsünde Trindle snapshots seçeneğini, sonra bir anlık görüntü seçin.
@@ -318,16 +318,16 @@ welcome-words-change-line = Trindle'ın gösterdiği herhangi bir sözcüğü bu
 welcome-words-share = Bir sayfa paylaşın
 
 # Line in that card.
-welcome-words-share-line = Sözcüklerinizi dosya olarak dışa aktarın ya da bir arkadaşınızın gönderdiğini içe aktarın. Kullanılmadan önce denetlenir.
+welcome-words-share-line = Sözcüklerinizi bir dosyaya aktarın ya da bir arkadaşınızın gönderdiği dosyayı içe aktarın. Trindle kullanmadan önce onu denetler.
 
 # Head of a card on the your own words page.
 welcome-words-all = Tüm programlar bir arada
 
 # Line in that card.
-welcome-words-all-line = Trindle'ın tamamı sözcüklerini tek yerden okur, bu yüzden tek bir değişiklik her yerde görünür.
+welcome-words-all-line = Trindle'ın tamamı sözcüklerini tek yerden alır, bu yüzden bir değişiklik her yerde görünür.
 
 # Line under the cards on the your own words page, saying where it is done.
-welcome-words-where = Ayarlar, Bölge ve dil içindedir. Yardım adım adım anlatır.
+welcome-words-where = Ayarlar'da, Bölge ve dil altında bulursunuz. Yardım adım adım anlatır.
 
 # Name of the round button that opens that Settings page.
 welcome-words-open = Bölge ve dil'i aç
@@ -361,13 +361,13 @@ welcome-level-closes = Tanıtımı kapatır
 welcome-hello-apps = Uygulamalarınız
 
 # Line under it.
-welcome-hello-apps-line = Dışta, çevrede. Orada kalması için birine sağ tıklayın.
+welcome-hello-apps-line = Çevrede dizilidirler. Orada kalması için birine sağ tıklayın.
 
 # Second point: the round buttons in the middle.
 welcome-hello-switches = Hızlı anahtarlar
 
 # Line under it.
-welcome-hello-switches-line = Ses, Wi-Fi, Bluetooth ve daha fazlası, her biri tek tık.
+welcome-hello-switches-line = Ses, Wi-Fi, Bluetooth ve daha fazlası. Her biri tek tıkla.
 
 # Third point: the clock.
 welcome-hello-time = Saat ve tarih
@@ -379,7 +379,7 @@ welcome-hello-time-line = Her zaman ortada.
 welcome-hello-all = Tüm uygulamalar
 
 # Line under it.
-welcome-hello-all-line = Alttaki düğme hepsini listeler.
+welcome-hello-all-line = Alttaki düğme hepsini gösterir.
 
 # First point on the open-the-ring page.
 welcome-ring-edge = Bir kenara doğru itin
@@ -424,13 +424,13 @@ welcome-software-search-line = Bir ad yazın ya da soldan türüne göre göz at
 welcome-software-install = Tek tıkla kurulur
 
 # Line under it.
-welcome-software-install-line = Yalnızca sizin için, parolasız; sonra kaldırmak arkasında hiçbir şey bırakmaz.
+welcome-software-install-line = Yalnızca sizin için, parolasız kurulur. Sonra kaldırırsanız arkasında hiçbir şey kalmaz.
 
 # Fourth point on the administrator password page.
 welcome-admin-care = Yalnızca sizin başlattığınız işler için
 
 # Line under it.
-welcome-admin-care-line = Değişikliği kendiniz istediğinizde yazın; bir web sitesi ya da ileti söylüyor diye asla yazmayın.
+welcome-admin-care-line = Parolayı yalnızca kendiniz istediğiniz bir değişiklik için yazın; bir web sitesi ya da ileti söylüyor diye asla yazmayın.
 
 # Head of the made-up password window in the picture on that page.
 welcome-admin-sample-title = Yönetici parolası
@@ -454,13 +454,13 @@ welcome-reports-anon-line = Bir rapor asla adınızı, e-posta adresinizi ya da 
 welcome-reports-private = Özel hiçbir şey yok
 
 # Line under it.
-welcome-reports-private-line = Dosya yok, parola yok, Wi-Fi adı yok. Klasörler, adlar ve e-posta adresleri silinir.
+welcome-reports-private-line = Dosya, parola ya da Wi-Fi adı yok. Klasör adları, diğer adlar ve e-posta adresleri silinir.
 
 # Point on the marks page, marked on the top edge of the picture.
 welcome-marks-where = Ekranın üst ortası
 
 # Line under it.
-welcome-marks-where-line = Bir program size ait bir şeyi kullandığı sürece her pencerenin üstünde, her zaman görünür.
+welcome-marks-where-line = Bir program size ait bir şeyi kullanırken her pencerenin üstünde kalır.
 
 # Head of the key of colours on the marks page.
 welcome-marks-key = Her rengin anlamı
@@ -475,7 +475,7 @@ welcome-snap-back-line = Sistemi o andaki haline geri getirir.
 welcome-snap-take = Kendiniz bir tane alın
 
 # Line under it.
-welcome-snap-take-line = İstediğiniz zaman, yeni bir şey denemeden önce.
+welcome-snap-take-line = Yeni bir şey denemeden önce, istediğiniz zaman yapın.
 
 # Head of the column of the made-up word sheet that holds what Trindle says.
 welcome-words-sheet-said = Trindle der ki
@@ -493,7 +493,7 @@ welcome-words-sheet-install = Hepsini al
 welcome-words-sheet-close = Şimdilik bu kadar
 
 # What the screen reader says for the screenshot of the ring.
-welcome-picture-ring-shot = Açık halka: çevrede uygulamalar, ortada hızlı anahtarlar ve saat, altta tüm uygulamalar düğmesi. Numaralar her bölümü gösterir.
+welcome-picture-ring-shot = Açık halka. Uygulamalar çevrede, hızlı anahtarlar ve saat ortada, tüm uygulamalar düğmesi altta. Numaralar her bölümü gösterir.
 
 # What the screen reader says for the moving picture of opening the ring.
 welcome-picture-ring-open = Bir ekran. İşaretçi en üst kenara gider ve tıklar, halka ortada açılır. Sonra Super tuşuna basılır ve halka yeniden açılır.
@@ -502,25 +502,25 @@ welcome-picture-ring-open = Bir ekran. İşaretçi en üst kenara gider ve tıkl
 welcome-picture-folders = Folders, ev klasörünü gösteriyor; içinde Belgeler, İndirilenler, Müzik ve Resimler var. Numaralar her bölümü gösterir.
 
 # What the screen reader says for the screenshot of Apps.
-welcome-picture-apps = Keşfet sayfasında açık Uygulamalar: bir arama kutusu ve her birinde kurma düğmesi olan popüler uygulamalar. Numaralar her bölümü gösterir.
+welcome-picture-apps = Keşfet sayfasında açık Uygulamalar. Bir arama kutusu ve popüler uygulamaların bir listesi var; her birinde bir kurma düğmesi bulunuyor. Numaralar her bölümü gösterir.
 
 # What the screen reader says for the screenshot of the Plugins page in Apps.
-welcome-picture-plugins-shot = Eklentiler sayfasında açık Uygulamalar: her eklenti, istedikleri ve bir kurma düğmesiyle.
+welcome-picture-plugins-shot = Eklentiler sayfasında açık Uygulamalar. Her eklenti neler istediğini gösterir ve bir kurma düğmesi vardır.
 
 # What the screen reader says for the screenshot of the report window.
-welcome-picture-report = Sorun bildir penceresi: neyin ters gittiği için bir kutu ve raporun içeriğini söyleyen bir satır.
+welcome-picture-report = Sorun bildir penceresi. Neyin ters gittiğini anlatmak için bir kutu ve raporun neler içerdiğini söyleyen bir satır var.
 
 # What the screen reader says for the screenshot of Settings, Snapshots.
-welcome-picture-snapshots = Ayarlar, Anlık görüntüler: anlık görüntülerin listesi, her birinde ona dönme düğmesi ve şimdi bir tane alma düğmesi. Numaralar her bölümü gösterir.
+welcome-picture-snapshots = Ayarlar, Anlık görüntüler. Anlık görüntülerin bir listesini gösterir; her birinde ona dönme düğmesi ve yeni bir tane alma düğmesi bulunur. Numaralar her bölümü gösterir.
 
 # What the screen reader says for the picture of the password window.
-welcome-picture-admin = Karartılmış bir ekranın üstünde yönetici parolası penceresi; herkes için bir program kurmak üzere parolayı istiyor.
+welcome-picture-admin = Karartılmış bir ekranın üstünde yönetici parolası penceresi. Herkes için bir program kurmak üzere parolayı istiyor.
 
 # What the screen reader says for the picture of the marks at the top of the screen.
 welcome-picture-marks = Bir ekranın üst kısmı; üst kenarın ortasından sarkan, her biri kendi renginde üç yarım daire.
 
 # What the screen reader says for the picture of a word sheet.
-welcome-picture-sheet = Bir söz sayfası: solda Trindle ne diyor, sağda birinin kendi sözleri.
+welcome-picture-sheet = Bir söz sayfası. Trindle'ın sözleri solda, birinin kendi sözleri sağda.
 
 # First point on the plugins page.
 welcome-plugins-in-apps = Uygulamalar içinde, Eklentiler altında
@@ -532,28 +532,28 @@ welcome-plugins-in-apps-line = Her eklenti listelenmeden önce sınanır ve tek 
 welcome-plugins-allowed = Yalnızca izin verdiğiniz kadar
 
 # Line under it.
-welcome-plugins-allowed-line = Her biri neler istediğini söyler ve kendi kutusunda yaşar.
+welcome-plugins-allowed-line = Her eklenti neye ihtiyaç duyduğunu söyler ve kendi kutusunda çalışır.
 
 # Head of the list of plugins on offer now, read from the catalogue.
-welcome-plugins-now = Şu an sunulanlar
+welcome-plugins-now = Şu an mevcut
 
 # Above the list of what an answer on the first page adds, for someone new to Linux.
 welcome-level-adds = Temel şeyleri ekler:
 
 # Above the list for someone who has used Linux.
-welcome-level-shows = Trindle'a özgü olanları gösterir:
+welcome-level-shows = Trindle'a özgü bölümleri gösterir:
 
 # In the card for someone who has used Trindle: where the tour is found again.
-welcome-level-again = Welcome, yeniden istediğinizde Tüm uygulamalar içinde bulunur.
+welcome-level-again = Welcome'u istediğiniz zaman Tüm uygulamalar bölümünden yeniden açabilirsiniz.
 
 # What the screen reader says for the picture on the Good to know card about boxes.
-welcome-picture-know-boxes = Uygulamalar, İzinler: bir program ağa eriştiğinde ya da dosyalarınızı açtığında haberdar olmak için anahtarlar.
+welcome-picture-know-boxes = Uygulamalar, İzinler. Bir program ağı kullandığında ya da dosyalarınızı açtığında size haber veren anahtarlar.
 
 # What the screen reader says for the picture on the Good to know card about updates.
-welcome-picture-know-updates = Uygulamalar, Güncellemeler: Güvenlik güncellemeleri anahtarı, açık, her gün.
+welcome-picture-know-updates = Uygulamalar, Güncellemeler. Güvenlik güncellemeleri anahtarı açık ve her gün olarak ayarlı.
 
 # What the screen reader says for the picture on the Good to know card about the ring.
-welcome-picture-know-ring = Halkanın ortası: saatin üstünde Ayarlar, Uygulamalar ve daha fazlası için yuvarlak düğmeler.
+welcome-picture-know-ring = Halkanın ortası. Ayarlar, Uygulamalar ve daha fazlası için yuvarlak düğmeler saatin üstünde.
 
 # What the screen reader says for the picture on the Good to know card about Help.
 welcome-picture-know-help = Ayarlar'daki liste, en altta Yardım ile.
@@ -562,19 +562,19 @@ welcome-picture-know-help = Ayarlar'daki liste, en altta Yardım ile.
 welcome-page-firewall = Güvenlik duvarı
 
 # The one sentence under the firewall page's title.
-welcome-sentence-firewall = Diğer bilgisayarları dışarıda tutun ya da içeri alın.
+welcome-sentence-firewall = Diğer bilgisayarların bu bilgisayara bağlanıp bağlanamayacağını seçin.
 
 # Heading of the first point on the firewall page.
 welcome-firewall-on = Yabancıları dışarıda tutar
 
 # Line under it.
-welcome-firewall-on-line = Ağdaki hiçbir şey, bu bilgisayar önce istemedikçe ona ulaşamaz. Gezinme, güncellemeler ve yazıcılar yine çalışır.
+welcome-firewall-on-line = Ağdaki diğer aygıtlar, bu bilgisayar önce onlara bağlanmadıkça ona ulaşamaz. Gezinme, güncellemeler ve yazıcılar yine çalışır.
 
 # Heading of the second point on the firewall page.
 welcome-firewall-ports = Bağlantı noktaları kapalıdır
 
 # Line under it.
-welcome-firewall-ports-line = Başkalarının bağlandığı bir programın, örneğin bir oyun sunucusunun, bağlantı noktasının Ayarlar, Güvenlik duvarı ve engelleme bölümünde açılması gerekir.
+welcome-firewall-ports-line = Bilgisayarınızdaki bir programa başkaları bağlanıyorsa, örneğin bir oyun sunucusuna, bağlantı noktasını Ayarlar'da, Güvenlik duvarı ve engelleme altında açmanız gerekir.
 
 # The question on the firewall page.
 welcome-firewall-question = Güvenlik duvarı açılsın mı?
@@ -592,8 +592,21 @@ welcome-firewall-choice = Güvenlik duvarı
 welcome-firewall-settings = Bunu daha sonra Ayarlar, Güvenlik duvarı ve engelleme bölümünden değiştirebilirsiniz.
 
 # Red words when the firewall could not be switched and no reason was given.
-welcome-firewall-not-changed = Değiştirilmedi.
+welcome-firewall-not-changed = Trindle güvenlik duvarını değiştiremedi.
 
 # What the firewall page's picture shows, for the screen reader.
-welcome-picture-firewall = Ayarlar, Güvenlik duvarı ve engelleme: güvenlik duvarı anahtarı ve açık bir bağlantı noktası.
+welcome-picture-firewall = Ayarlar, Güvenlik duvarı ve engelleme. Güvenlik duvarı anahtarını ve açık bir bağlantı noktasını gösterir.
 
+
+
+# Title of the closing step shown when the computer has no internet connection.
+welcome-connect-title = İnternete bağlanın
+
+# The one line under that title.
+welcome-connect-line = Güncellemeler ve yeni uygulamalar için bir bağlantı gerekir.
+
+# Button of that step that opens the network settings.
+welcome-connect-choose = Bir ağ seçin
+
+# Main button of that step, that ends the tour without a connection.
+welcome-connect-skip = Atla

@@ -80,6 +80,8 @@ crash-result-not-taking = Buildmorphic nimmt gerade keine Berichte an. Der Beric
 
 crash-result-failed = Nicht gesendet: Buildmorphic antwortete { $answer }. Der Bericht bleibt gespeichert.
 
+crash-result-bad-project = Nicht gesendet: Buildmorphic weiß nicht, für welches Projekt der Bericht ist. Der Bericht bleibt gespeichert.
+
 crash-result-unreachable = Nicht gesendet: Buildmorphic war nicht erreichbar. Der Bericht bleibt gespeichert.
 
 # Red words when one was sent but this computer could not take it off the list.

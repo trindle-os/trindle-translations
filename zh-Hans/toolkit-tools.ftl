@@ -21,7 +21,7 @@ kit-sheet-unread = 无法读取 { $file }。
 # The style sheet checker's help, shown by trindle-sheet-check --help.
 kit-sheet-usage =
     用法：trindle-sheet-check [file.css ...]
-    按 Trindle 的限制和 WCAG 2.2 AA 检查每个样式表（默认检查您自己的样式表和主题）。
+    按 Trindle 的限制和 WCAG 2.2 AA 检查每个样式表（默认检查你自己的样式表和主题）。
 
 # The inspector, Ctrl+Shift+F12, for a program's author: the widget under the pointer's size and place in pixels.
 kit-inspect-size = { $w } 乘 { $h } 像素，位于 { $x }, { $y }
@@ -107,7 +107,7 @@ kit-showcase-agree = 我同意
 
 kit-showcase-volume = 音量
 
-kit-showcase-name = 您的名字
+kit-showcase-name = 你的名字
 
 kit-showcase-small = 小
 

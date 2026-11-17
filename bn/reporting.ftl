@@ -81,6 +81,8 @@ crash-result-not-taking = Buildmorphic এখন রিপোর্ট নিচ
 
 crash-result-failed = পাঠানো হয়নি: Buildmorphic উত্তর দিয়েছে { $answer }। রিপোর্টটি রাখা আছে।
 
+crash-result-bad-project = পাঠানো হয়নি: রিপোর্টটি কোন প্রকল্পের, তা Buildmorphic জানে না। রিপোর্টটি রাখা আছে।
+
 crash-result-unreachable = পাঠানো হয়নি: Buildmorphic-এ পৌঁছানো যায়নি। রিপোর্টটি রাখা আছে।
 
 # Red words when one was sent but this computer could not take it off the list.

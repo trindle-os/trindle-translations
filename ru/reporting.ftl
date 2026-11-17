@@ -80,6 +80,8 @@ crash-result-not-taking = Buildmorphic сейчас не принимает от
 
 crash-result-failed = Не отправлено: Buildmorphic ответил { $answer }. Отчёт сохранён.
 
+crash-result-bad-project = Не отправлено: Buildmorphic не знает, для какого проекта этот отчёт. Отчёт сохранён.
+
 crash-result-unreachable = Не отправлено: не удалось связаться с Buildmorphic. Отчёт сохранён.
 
 # Red words when one was sent but this computer could not take it off the list.

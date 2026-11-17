@@ -25,7 +25,7 @@ kit-example-names-title = 名字
 # The notes example: the window's title, the box's label and hint, and what it says of the saved note.
 kit-example-notes-title = 笔记
 
-kit-example-notes-label = 您的笔记
+kit-example-notes-label = 你的笔记
 
 kit-example-notes-hint = 输入笔记
 
@@ -71,7 +71,7 @@ kit-example-gallery-volume = 音量 { $n }（满值 100）
 
 kit-example-gallery-typing = 输入
 
-kit-example-gallery-entry-hint = 输入您的名字
+kit-example-gallery-entry-hint = 输入你的名字
 
 kit-example-gallery-hello = 你好，{ $name }
 
@@ -180,7 +180,7 @@ kit-example-bar-medium = 中
 
 kit-example-bar-large = 大
 
-kit-example-bar-chose = 您选择了{ $what }
+kit-example-bar-chose = 你选择了{ $what }
 
 # The gallery's column view card: its heading, how it behaves, its name for a screen reader, the two column headings, and the names of the folders and files in it.
 kit-example-gallery-columns = 分栏视图

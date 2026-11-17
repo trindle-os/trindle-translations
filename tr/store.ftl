@@ -23,7 +23,7 @@ store-nav-updates-waiting = Güncellemeler ({ $n })
 store-nav-plugins = Eklentiler
 
 # Side bar place: apps from GitHub.
-store-nav-github = GitHub'dan
+store-nav-github = Ara
 
 # Side bar place: where software comes from.
 store-nav-sources = Yazılım kaynakları
@@ -86,19 +86,19 @@ store-cat-utility = Araçlar
 store-cat-system = Sistem
 
 # Red words when the list of apps could not be read.
-store-catalogue-unreadable = Katalog okunamadı: { $why }
+store-catalogue-unreadable = Trindle kataloğu okuyamadı: { $why }
 
 # Red words when Flathub's list of apps could not be fetched. { $why } is what Flatpak said.
-store-catalogue-not-fetched = Uygulama listesi Flathub'dan alınamadı. İnternet bağlantısını denetleyin. { $why }
+store-catalogue-not-fetched = Trindle uygulama listesini Flathub'dan alamadı. İnternet bağlantınızı denetleyin. { $why }
 
 # Red words under the search box when nothing that was dropped on the window is a kind Apps takes.
 store-dropped-only = Buraya yalnızca .deb, .AppImage ve .flatpakref dosyaları bırakılabilir.
 
 # Red words under an app that Flatpak did not update; what Flatpak said follows.
-store-not-updated-said = Güncellenmedi. Flatpak şunu söyledi: { $why }
+store-not-updated-said = Flatpak güncellemedi: { $why }
 
 # Red words under an app that Flatpak did not update and gave no reason for.
-store-not-updated-none = Güncellenmedi ve Flatpak bir neden vermedi.
+store-not-updated-none = Güncellenmedi. Bir neden verilmedi.
 
 # Side bar place and title: the AppImages AppImageHub lists.
 store-nav-browse = AppImage'lara göz at
