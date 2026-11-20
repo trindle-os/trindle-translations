@@ -598,8 +598,46 @@ welcome-connect-title = ইন্টারনেটে সংযুক্ত হ
 # The one line under that title.
 welcome-connect-line = আপডেট ও নতুন অ্যাপের জন্য একটি সংযোগ লাগবে।
 
-# Button of that step that opens the network settings.
-welcome-connect-choose = একটি নেটওয়ার্ক বেছে নিন
+# Small button of that step that opens the network settings.
+welcome-connect-choose = নেটওয়ার্ক সেটিংস
 
 # Main button of that step, that ends the tour without a connection.
 welcome-connect-skip = বাদ দিন
+
+# Shown on that step while the Wi-Fi networks nearby are being found.
+welcome-wifi-looking = নেটওয়ার্ক খোঁজা হচ্ছে
+
+# Shown on that step when the computer has no Wi-Fi.
+welcome-wifi-none = এই কম্পিউটারে Wi-Fi নেই।
+
+# Shown on that step when Wi-Fi is switched off.
+welcome-wifi-off = Wi-Fi বন্ধ আছে।
+
+# Button that switches Wi-Fi on.
+welcome-wifi-turn-on = Wi-Fi চালু করুন
+
+# Line at the bottom of that step.
+welcome-wifi-cable = নেটওয়ার্ক তারেও চলে।
+
+# Button beside a Wi-Fi network that joins it. $name is the network's name.
+welcome-wifi-connect = { $name }-এ যুক্ত হন
+
+# Beside the spinner on a network while it is being joined.
+welcome-wifi-joining = যুক্ত হচ্ছে
+
+# Beside the network the computer is joined to.
+welcome-wifi-connected = যুক্ত আছে
+
+# The box for a Wi-Fi network's password.
+welcome-wifi-password = পাসওয়ার্ড
+
+# Buttons beside the password box.
+welcome-wifi-join = যুক্ত হন
+
+welcome-wifi-cancel = বাতিল করুন
+
+# Shown in red under the password box when the password was wrong.
+welcome-wifi-wrong-password = পাসওয়ার্ড ভুল। আবার চেষ্টা করুন।
+
+# Shown in red when a network could not be joined. $name is the network's name.
+welcome-wifi-failed = { $name }-এ যুক্ত হওয়া যায়নি।

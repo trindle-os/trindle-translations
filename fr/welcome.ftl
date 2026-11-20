@@ -604,8 +604,46 @@ welcome-connect-title = Se connecter à internet
 # The one line under that title.
 welcome-connect-line = Il faut une connexion pour les mises à jour et les nouvelles applications.
 
-# Button of that step that opens the network settings.
-welcome-connect-choose = Choisir un réseau
+# Small button of that step that opens the network settings.
+welcome-connect-choose = Réglages réseau
 
 # Main button of that step, that ends the tour without a connection.
 welcome-connect-skip = Passer
+
+# Shown on that step while the Wi-Fi networks nearby are being found.
+welcome-wifi-looking = Recherche de réseaux
+
+# Shown on that step when the computer has no Wi-Fi.
+welcome-wifi-none = Cet ordinateur n'a pas de Wi-Fi.
+
+# Shown on that step when Wi-Fi is switched off.
+welcome-wifi-off = Le Wi-Fi est désactivé.
+
+# Button that switches Wi-Fi on.
+welcome-wifi-turn-on = Activer le Wi-Fi
+
+# Line at the bottom of that step.
+welcome-wifi-cable = Un câble réseau fonctionne aussi.
+
+# Button beside a Wi-Fi network that joins it. $name is the network's name.
+welcome-wifi-connect = Se connecter à { $name }
+
+# Beside the spinner on a network while it is being joined.
+welcome-wifi-joining = Connexion
+
+# Beside the network the computer is joined to.
+welcome-wifi-connected = Connecté
+
+# The box for a Wi-Fi network's password.
+welcome-wifi-password = Mot de passe
+
+# Buttons beside the password box.
+welcome-wifi-join = Rejoindre
+
+welcome-wifi-cancel = Annuler
+
+# Shown in red under the password box when the password was wrong.
+welcome-wifi-wrong-password = Mot de passe incorrect. Réessayez.
+
+# Shown in red when a network could not be joined. $name is the network's name.
+welcome-wifi-failed = Impossible de rejoindre { $name }.

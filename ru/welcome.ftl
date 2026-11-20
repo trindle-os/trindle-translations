@@ -608,8 +608,46 @@ welcome-connect-title = Подключение к интернету
 # The one line under that title.
 welcome-connect-line = Соединение нужно для обновлений и новых приложений.
 
-# Button of that step that opens the network settings.
-welcome-connect-choose = Выберите сеть
+# Small button of that step that opens the network settings.
+welcome-connect-choose = Настройки сети
 
 # Main button of that step, that ends the tour without a connection.
 welcome-connect-skip = Пропустить
+
+# Shown on that step while the Wi-Fi networks nearby are being found.
+welcome-wifi-looking = Поиск сетей
+
+# Shown on that step when the computer has no Wi-Fi.
+welcome-wifi-none = В этом компьютере нет Wi-Fi.
+
+# Shown on that step when Wi-Fi is switched off.
+welcome-wifi-off = Wi-Fi выключен.
+
+# Button that switches Wi-Fi on.
+welcome-wifi-turn-on = Включить Wi-Fi
+
+# Line at the bottom of that step.
+welcome-wifi-cable = Сетевой кабель тоже подойдёт.
+
+# Button beside a Wi-Fi network that joins it. $name is the network's name.
+welcome-wifi-connect = Подключиться к { $name }
+
+# Beside the spinner on a network while it is being joined.
+welcome-wifi-joining = Подключение
+
+# Beside the network the computer is joined to.
+welcome-wifi-connected = Подключено
+
+# The box for a Wi-Fi network's password.
+welcome-wifi-password = Пароль
+
+# Buttons beside the password box.
+welcome-wifi-join = Подключить
+
+welcome-wifi-cancel = Отмена
+
+# Shown in red under the password box when the password was wrong.
+welcome-wifi-wrong-password = Неверный пароль. Попробуйте ещё раз.
+
+# Shown in red when a network could not be joined. $name is the network's name.
+welcome-wifi-failed = Не удалось подключиться к { $name }.

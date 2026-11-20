@@ -598,8 +598,46 @@ welcome-connect-title = 连接到互联网
 # The one line under that title.
 welcome-connect-line = 更新和安装新应用需要网络连接。
 
-# Button of that step that opens the network settings.
-welcome-connect-choose = 选择网络
+# Small button of that step that opens the network settings.
+welcome-connect-choose = 网络设置
 
 # Main button of that step, that ends the tour without a connection.
 welcome-connect-skip = 跳过
+
+# Shown on that step while the Wi-Fi networks nearby are being found.
+welcome-wifi-looking = 正在查找网络
+
+# Shown on that step when the computer has no Wi-Fi.
+welcome-wifi-none = 这台电脑没有 Wi-Fi。
+
+# Shown on that step when Wi-Fi is switched off.
+welcome-wifi-off = Wi-Fi 已关闭。
+
+# Button that switches Wi-Fi on.
+welcome-wifi-turn-on = 打开 Wi-Fi
+
+# Line at the bottom of that step.
+welcome-wifi-cable = 也可以用网线。
+
+# Button beside a Wi-Fi network that joins it. $name is the network's name.
+welcome-wifi-connect = 连接 { $name }
+
+# Beside the spinner on a network while it is being joined.
+welcome-wifi-joining = 正在加入
+
+# Beside the network the computer is joined to.
+welcome-wifi-connected = 已连接
+
+# The box for a Wi-Fi network's password.
+welcome-wifi-password = 密码
+
+# Buttons beside the password box.
+welcome-wifi-join = 加入
+
+welcome-wifi-cancel = 取消
+
+# Shown in red under the password box when the password was wrong.
+welcome-wifi-wrong-password = 密码错误。请再试一次。
+
+# Shown in red when a network could not be joined. $name is the network's name.
+welcome-wifi-failed = 无法加入 { $name }。

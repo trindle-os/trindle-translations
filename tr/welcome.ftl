@@ -605,8 +605,46 @@ welcome-connect-title = İnternete bağlanın
 # The one line under that title.
 welcome-connect-line = Güncellemeler ve yeni uygulamalar için bir bağlantı gerekir.
 
-# Button of that step that opens the network settings.
-welcome-connect-choose = Bir ağ seçin
+# Small button of that step that opens the network settings.
+welcome-connect-choose = Ağ ayarları
 
 # Main button of that step, that ends the tour without a connection.
 welcome-connect-skip = Atla
+
+# Shown on that step while the Wi-Fi networks nearby are being found.
+welcome-wifi-looking = Ağlar aranıyor
+
+# Shown on that step when the computer has no Wi-Fi.
+welcome-wifi-none = Bu bilgisayarda Wi-Fi yok.
+
+# Shown on that step when Wi-Fi is switched off.
+welcome-wifi-off = Wi-Fi kapalı.
+
+# Button that switches Wi-Fi on.
+welcome-wifi-turn-on = Wi-Fi'ı aç
+
+# Line at the bottom of that step.
+welcome-wifi-cable = Ağ kablosu da işe yarar.
+
+# Button beside a Wi-Fi network that joins it. $name is the network's name.
+welcome-wifi-connect = { $name } ağına bağlan
+
+# Beside the spinner on a network while it is being joined.
+welcome-wifi-joining = Bağlanıyor
+
+# Beside the network the computer is joined to.
+welcome-wifi-connected = Bağlandı
+
+# The box for a Wi-Fi network's password.
+welcome-wifi-password = Parola
+
+# Buttons beside the password box.
+welcome-wifi-join = Bağlan
+
+welcome-wifi-cancel = İptal
+
+# Shown in red under the password box when the password was wrong.
+welcome-wifi-wrong-password = Parola yanlış. Yeniden deneyin.
+
+# Shown in red when a network could not be joined. $name is the network's name.
+welcome-wifi-failed = { $name } ağına bağlanılamadı.

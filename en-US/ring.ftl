@@ -4,8 +4,8 @@
 # Help for the ring's --favourites option, printed in a terminal.
 ring-cli-favourites = Open the favorites page in Settings
 
-# Line in the ring's results when what was typed matches no app or favourite.
-ring-find-nothing = No app or favorite is called that
+# Help for the ring's --restyle option, printed in a terminal.
+ring-cli-restyle = Apply a new look from Settings straight away (light or dark, or a new accent color)
 
 # Tip of the button on a window's menu that minimises it.
 ring-window-minimise = Minimize

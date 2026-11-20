@@ -602,8 +602,46 @@ welcome-connect-title = इंटरनेट से जुड़ें
 # The one line under that title.
 welcome-connect-line = अपडेट और नए ऐप के लिए कनेक्शन चाहिए।
 
-# Button of that step that opens the network settings.
-welcome-connect-choose = कोई नेटवर्क चुनें
+# Small button of that step that opens the network settings.
+welcome-connect-choose = नेटवर्क सेटिंग्स
 
 # Main button of that step, that ends the tour without a connection.
 welcome-connect-skip = छोड़ें
+
+# Shown on that step while the Wi-Fi networks nearby are being found.
+welcome-wifi-looking = नेटवर्क खोजे जा रहे हैं
+
+# Shown on that step when the computer has no Wi-Fi.
+welcome-wifi-none = इस कंप्यूटर में Wi-Fi नहीं है।
+
+# Shown on that step when Wi-Fi is switched off.
+welcome-wifi-off = Wi-Fi बंद है।
+
+# Button that switches Wi-Fi on.
+welcome-wifi-turn-on = Wi-Fi चालू करें
+
+# Line at the bottom of that step.
+welcome-wifi-cable = नेटवर्क केबल से भी काम चलेगा।
+
+# Button beside a Wi-Fi network that joins it. $name is the network's name.
+welcome-wifi-connect = { $name } से जुड़ें
+
+# Beside the spinner on a network while it is being joined.
+welcome-wifi-joining = जुड़ रहा है
+
+# Beside the network the computer is joined to.
+welcome-wifi-connected = जुड़ा हुआ
+
+# The box for a Wi-Fi network's password.
+welcome-wifi-password = पासवर्ड
+
+# Buttons beside the password box.
+welcome-wifi-join = जुड़ें
+
+welcome-wifi-cancel = रद्द करें
+
+# Shown in red under the password box when the password was wrong.
+welcome-wifi-wrong-password = पासवर्ड गलत है। फिर कोशिश करें।
+
+# Shown in red when a network could not be joined. $name is the network's name.
+welcome-wifi-failed = { $name } से नहीं जुड़ सका।

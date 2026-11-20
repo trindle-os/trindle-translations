@@ -600,8 +600,46 @@ welcome-connect-title = Unganisha na intaneti
 # The one line under that title.
 welcome-connect-line = Unahitaji muunganisho ili kupata masasisho na programu mpya.
 
-# Button of that step that opens the network settings.
-welcome-connect-choose = Chagua mtandao
+# Small button of that step that opens the network settings.
+welcome-connect-choose = Mipangilio ya mtandao
 
 # Main button of that step, that ends the tour without a connection.
 welcome-connect-skip = Ruka
+
+# Shown on that step while the Wi-Fi networks nearby are being found.
+welcome-wifi-looking = Inatafuta mitandao
+
+# Shown on that step when the computer has no Wi-Fi.
+welcome-wifi-none = Kompyuta hii haina Wi-Fi.
+
+# Shown on that step when Wi-Fi is switched off.
+welcome-wifi-off = Wi-Fi imezimwa.
+
+# Button that switches Wi-Fi on.
+welcome-wifi-turn-on = Washa Wi-Fi
+
+# Line at the bottom of that step.
+welcome-wifi-cable = Kebo ya mtandao pia inafaa.
+
+# Button beside a Wi-Fi network that joins it. $name is the network's name.
+welcome-wifi-connect = Unganisha na { $name }
+
+# Beside the spinner on a network while it is being joined.
+welcome-wifi-joining = Inaunganisha
+
+# Beside the network the computer is joined to.
+welcome-wifi-connected = Imeunganishwa
+
+# The box for a Wi-Fi network's password.
+welcome-wifi-password = Nenosiri
+
+# Buttons beside the password box.
+welcome-wifi-join = Unganisha
+
+welcome-wifi-cancel = Ghairi
+
+# Shown in red under the password box when the password was wrong.
+welcome-wifi-wrong-password = Nenosiri si sahihi. Jaribu tena.
+
+# Shown in red when a network could not be joined. $name is the network's name.
+welcome-wifi-failed = Haikuweza kuunganisha na { $name }.

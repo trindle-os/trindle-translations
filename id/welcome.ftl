@@ -603,8 +603,46 @@ welcome-connect-title = Hubungkan ke internet
 # The one line under that title.
 welcome-connect-line = Anda memerlukan koneksi untuk pembaruan dan aplikasi baru.
 
-# Button of that step that opens the network settings.
-welcome-connect-choose = Pilih jaringan
+# Small button of that step that opens the network settings.
+welcome-connect-choose = Pengaturan jaringan
 
 # Main button of that step, that ends the tour without a connection.
 welcome-connect-skip = Lewati
+
+# Shown on that step while the Wi-Fi networks nearby are being found.
+welcome-wifi-looking = Mencari jaringan
+
+# Shown on that step when the computer has no Wi-Fi.
+welcome-wifi-none = Komputer ini tidak punya Wi-Fi.
+
+# Shown on that step when Wi-Fi is switched off.
+welcome-wifi-off = Wi-Fi mati.
+
+# Button that switches Wi-Fi on.
+welcome-wifi-turn-on = Nyalakan Wi-Fi
+
+# Line at the bottom of that step.
+welcome-wifi-cable = Kabel jaringan juga bisa.
+
+# Button beside a Wi-Fi network that joins it. $name is the network's name.
+welcome-wifi-connect = Sambungkan ke { $name }
+
+# Beside the spinner on a network while it is being joined.
+welcome-wifi-joining = Menyambung
+
+# Beside the network the computer is joined to.
+welcome-wifi-connected = Tersambung
+
+# The box for a Wi-Fi network's password.
+welcome-wifi-password = Kata sandi
+
+# Buttons beside the password box.
+welcome-wifi-join = Sambung
+
+welcome-wifi-cancel = Batal
+
+# Shown in red under the password box when the password was wrong.
+welcome-wifi-wrong-password = Kata sandi salah. Coba lagi.
+
+# Shown in red when a network could not be joined. $name is the network's name.
+welcome-wifi-failed = Tidak dapat menyambung ke { $name }.

@@ -601,8 +601,46 @@ welcome-connect-title = Kết nối internet
 # The one line under that title.
 welcome-connect-line = Bạn cần có kết nối để cập nhật và cài ứng dụng mới.
 
-# Button of that step that opens the network settings.
-welcome-connect-choose = Chọn một mạng
+# Small button of that step that opens the network settings.
+welcome-connect-choose = Cài đặt mạng
 
 # Main button of that step, that ends the tour without a connection.
 welcome-connect-skip = Bỏ qua
+
+# Shown on that step while the Wi-Fi networks nearby are being found.
+welcome-wifi-looking = Đang tìm mạng
+
+# Shown on that step when the computer has no Wi-Fi.
+welcome-wifi-none = Máy tính này không có Wi-Fi.
+
+# Shown on that step when Wi-Fi is switched off.
+welcome-wifi-off = Wi-Fi đang tắt.
+
+# Button that switches Wi-Fi on.
+welcome-wifi-turn-on = Bật Wi-Fi
+
+# Line at the bottom of that step.
+welcome-wifi-cable = Cắm cáp mạng cũng được.
+
+# Button beside a Wi-Fi network that joins it. $name is the network's name.
+welcome-wifi-connect = Kết nối với { $name }
+
+# Beside the spinner on a network while it is being joined.
+welcome-wifi-joining = Đang kết nối
+
+# Beside the network the computer is joined to.
+welcome-wifi-connected = Đã kết nối
+
+# The box for a Wi-Fi network's password.
+welcome-wifi-password = Mật khẩu
+
+# Buttons beside the password box.
+welcome-wifi-join = Kết nối
+
+welcome-wifi-cancel = Hủy
+
+# Shown in red under the password box when the password was wrong.
+welcome-wifi-wrong-password = Sai mật khẩu. Hãy thử lại.
+
+# Shown in red when a network could not be joined. $name is the network's name.
+welcome-wifi-failed = Không kết nối được với { $name }.

@@ -610,8 +610,46 @@ welcome-connect-title = الاتصال بالإنترنت
 # The one line under that title.
 welcome-connect-line = تحتاج إلى اتصال لتلقي التحديثات والتطبيقات الجديدة.
 
-# Button of that step that opens the network settings.
-welcome-connect-choose = اختر شبكة
+# Small button of that step that opens the network settings.
+welcome-connect-choose = إعدادات الشبكة
 
 # Main button of that step, that ends the tour without a connection.
 welcome-connect-skip = تخطَّ
+
+# Shown on that step while the Wi-Fi networks nearby are being found.
+welcome-wifi-looking = جارٍ البحث عن شبكات
+
+# Shown on that step when the computer has no Wi-Fi.
+welcome-wifi-none = لا يوجد Wi-Fi في هذا الحاسوب.
+
+# Shown on that step when Wi-Fi is switched off.
+welcome-wifi-off = Wi-Fi مطفأ.
+
+# Button that switches Wi-Fi on.
+welcome-wifi-turn-on = شغّل Wi-Fi
+
+# Line at the bottom of that step.
+welcome-wifi-cable = كابل الشبكة يصلح أيضًا.
+
+# Button beside a Wi-Fi network that joins it. $name is the network's name.
+welcome-wifi-connect = اتصل بـ { $name }
+
+# Beside the spinner on a network while it is being joined.
+welcome-wifi-joining = جارٍ الانضمام
+
+# Beside the network the computer is joined to.
+welcome-wifi-connected = متصل
+
+# The box for a Wi-Fi network's password.
+welcome-wifi-password = كلمة المرور
+
+# Buttons beside the password box.
+welcome-wifi-join = انضم
+
+welcome-wifi-cancel = إلغاء
+
+# Shown in red under the password box when the password was wrong.
+welcome-wifi-wrong-password = كلمة المرور خاطئة. حاول مرة أخرى.
+
+# Shown in red when a network could not be joined. $name is the network's name.
+welcome-wifi-failed = تعذّر الانضمام إلى { $name }.
